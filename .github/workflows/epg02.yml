@@ -1,0 +1,67 @@
+name: Télérama
+
+on:
+  #schedule:
+    #- cron: '0 13 */1 * *'  # à 13h toutes les 24 heures
+  workflow_dispatch:       # Permet le déclenchement manuel
+
+
+jobs:
+  xmltv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Référentiel d’extraction
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository }}
+
+      - name: Créer un dossier rama
+        run: mkdir -p rama
+
+     # - name: Formate les tvg-id et tvg-name
+        #run: |
+          #base=$(curl -s -H "User-Agent: Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; fr-fr) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8L1" https://api.telerama.fr/v1/application/initialisation)
+          #echo "$base" > init.json
+          #jq -r -c '.donnees[].chaines[] | {id, nom}' init.json > ch_telerama.txt
+          #tri=$(awk '!($0 in a) {a[$0];print}' ch_telerama.txt)
+          #echo "$tri" > ch_telerama.txt
+        #  sed -i -e '{s/{"id":/tvg-id="/;s/,"nom":/.api-tel.programme-tv.net" tvg-name=/;s/"}/"/g}' ch_telerama.txt
+
+      
+     # - name: Récupère les id des chaînes
+      #  run: |
+          #jq -r -c '.data.items[].channelBouquets[].channel | {id}' init.json > id_telerama.txt
+          #tri=$(awk '!($0 in a) {a[$0];print}' ch_telerama.txt)
+          #echo "$tri" > id_telerama.txt
+        #  sed -i -e '{s/{"id":/tvg-id="/;s/,"nom":/.api-tel.programme-tv.net" tvg-name=/;s/"}/"/g}' id_telerama.txt
+
+      - name: Installe les modules Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip' # Mise en cache des dépendances pip
+      - run: pip install -r requirements.txt # Spécifiez les versions exactes des dépendances dans le fichier requirements.txt.
+
+      - name: Configure et exécute le fichier python
+        env:
+          id_chaine: 4,47,78
+        # Fournit les informations nécessaires  pour créer l'objet ArgumentParser du script python. 
+        run: python api_key_test.py --int-list $id_chaine --day 1 > rama/test.txt
+       # env:
+         # TZ: Europe/Paris
+        
+      #- name: Compresse le fichier xml
+       # run: |
+         # gzip -c xmltv_teleloisirs.xml > xmltv_telerama.xml.gz 
+          
+      - name: Valide et envoie les modifications
+        #uses: actions/upload-artifact@v4
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add -A
+          ls -la 
+          git commit -m "Dernière actualisation"
+          git push          
+          
