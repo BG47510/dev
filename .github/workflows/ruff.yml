@@ -1,0 +1,102 @@
+name: Ruff
+# Ce workflows permet de s’assurer que le format et le style du code python
+# respectent les meilleures pratiques de codage avec l'utilisation d’auto-formateurs.
+# https://github.com/BG47510/Zap/
+on:
+  workflow_dispatch:  # Permet le déclenchement manuel
+
+permissions:
+  contents: write   # Donne à GITHUB_TOKEN par défaut l’autorisation d’écriture pour valider et renvoyer les fichiers modifiés dans le référentiel.
+
+jobs:
+  ruff:
+    runs-on: ubuntu-latest # La dernière version prise en charge par GitHub.
+
+    steps:
+      - uses: actions/checkout@v4 # Extrait le code.
+      - uses: actions/setup-python@v5 # Configure l’environnement pour utiliser Python.
+        with:
+          python-version: 3.8
+          #python-version: 3.10
+      - name: Installe la dépendance python ruff
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff
+
+      - name: Exécute ruff # Améliore la qualité du code.
+        # "ruff check --fix" l’indicateur --fix corrige certaines
+        # "ruff format" réalise un formatage complet pour appliquer un code Python propre et cohérent.
+        run: |
+         ruff format $(git ls-files '*.py')
+        
+      - uses: stefanzweifel/git-auto-commit-action@v5 # Valide et renvoie automatiquement tous les fichiers créés ou modifiés à votre dépôt.
+        with:
+         commit_message: 'Corrections de code par Ruff'
+         file_pattern: '*.py'  # Assurez-vous que seuls les fichiers Python sont validés
+          
+  isort:
+     runs-on: ubuntu-latest
+     steps:
+       - uses: actions/checkout@v4
+       - name: Set up Python
+         uses: actions/setup-python@v5
+         with:
+          python-version: 3.8
+       - name: Installe la dépendance python isort
+         run: |
+          python -m pip install --upgrade pip
+          pip install isort
+
+       - name: Exécute isort # identifie si les importations de votre code sont dans le désordre et les réorganise automatiquement.
+         run: |
+          isort $(git ls-files '*.py')
+   
+       - uses: stefanzweifel/git-auto-commit-action@v5
+         with:
+          commit_message: 'Corrections de code par isort'
+          file_pattern: '*.py'
+
+  flynt:
+     runs-on: ubuntu-latest
+     steps:
+       - uses: actions/checkout@v4
+       - name: Set up Python
+         uses: actions/setup-python@v5
+         with:
+          python-version: 3.8
+       - name: Installe la dépendance python flynt
+         run: |
+          python -m pip install --upgrade pip
+          pip install flynt
+
+       - name: Exécute flynt # Convertit les appels .format() ainsi que le formatage % en f-strings.
+         run: |
+          flynt $(git ls-files '*.py')
+  
+       - uses: stefanzweifel/git-auto-commit-action@v5
+         with:
+          commit_message: 'Corrections de code par flynt'
+          file_pattern: '*.py'       
+          
+  autopep8:
+     runs-on: ubuntu-latest
+     steps:
+       - uses: actions/checkout@v4
+       - name: Set up Python
+         uses: actions/setup-python@v5
+         with:
+          python-version: 3.8
+       - name: Installe la dépendance python autopep8
+         run: |
+          python -m pip install --upgrade pip
+          pip install autopep8
+        
+       - name: Exécute autopep8 # Formate automatiquement le code Python pour qu’il soit conforme au guide de style PEP 8.
+         run: |
+          autopep8 --in-place $(git ls-files '*.py')
+
+       - uses: stefanzweifel/git-auto-commit-action@v5
+         with:
+          commit_message: 'Corrections de code par autopep8'
+          file_pattern: '*.py'
+          

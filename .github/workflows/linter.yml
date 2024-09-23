@@ -1,0 +1,80 @@
+name: linter
+# Ce workflows permet de s’assurer que le format et le style du code python
+# respectent les meilleures pratiques de codage avec l'utilisation de linters.
+# https://github.com/BG47510/Zap/
+on:
+ workflow_dispatch:       # Permet le déclenchement manuel
+
+jobs:
+  mypy:
+    runs-on: ubuntu-latest # La dernière version prise en charge par GitHub.
+    steps:
+      - uses: actions/checkout@v4 # Extrait le code.
+      - uses: actions/setup-python@v5 # Configure l’environnement pour utiliser Python.
+        with:
+          python-version: 3.8
+
+      - name: Installe la dépendance python mypy
+        run: pip install mypy 
+      - name: Exécute mypy
+        run: |
+         #mypy py
+         mypy $(git ls-files '*.py')
+      
+  pyright:
+     runs-on: ubuntu-latest
+     steps:
+       - uses: actions/checkout@v4
+       - name: Set up Python
+         uses: actions/setup-python@v5
+         with:
+          python-version: 3.8
+       - name: Installe la dépendance python pyright
+         run: |
+          python -m pip install --upgrade pip
+          pip install pyright
+       - name: Exécute pyright
+         run: |
+          pyright $(git ls-files '*.py')
+
+       - uses: stefanzweifel/git-auto-commit-action@v5
+         with:
+          commit_message: 'Corrections de code par pyright'
+          file_pattern: '*.py'
+          
+  pytest:
+     runs-on: ubuntu-latest
+     steps:
+       # - name: checkout
+       - uses: actions/checkout@v4
+       - name: Set up Python
+         uses: actions/setup-python@v5
+         with:
+          python-version: 3.8
+       - name: Installe la dépendance python pytest
+         run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+       - name: Exécute pytest
+        # id: pylint
+         run: |
+          pytest $(git ls-files '*.py')
+
+  pylint:
+      runs-on: ubuntu-latest
+      steps:
+       - name: checkout
+         uses: actions/checkout@v4
+       - name: Set up Python
+         uses: actions/setup-python@v5
+         with:
+          python-version: 3.8
+       - name: Installe la dépendance python pylint
+         run: |
+          python -m pip install --upgrade pip
+          pip install pylint
+       - name: Exécute pylint # Recherche les erreurs, applique une norme de codage proche de PEP8 et propose des suggestions simples de refactoring.
+         id: pylint
+         run: |
+          pylint $(git ls-files '*.py')
+
