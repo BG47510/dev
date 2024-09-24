@@ -19,8 +19,8 @@ jobs:
         run: |
           #base=$(curl -s -H "User-Agent: Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; fr-fr) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8L1" https://api.telerama.fr/v1/application/initialisation | jq '.')
           #echo "$base" > rama/initialisation.json
-          base=$(curl -s -H "User-Agent: Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; fr-fr) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8L1" https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille_v1.json | jq '.')
-          echo "$base" > rama/grille.json
+          #ase=$(curl -s -H "User-Agent: Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; fr-fr) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8L1" https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille_v1.json | jq '.')
+          curl 'https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille_v1' | jq '.'
           
           #jq -r -c '.donnees.chaines[] | {id, nom}' rama/initialisation.json > rama/id_epg.txt
           
