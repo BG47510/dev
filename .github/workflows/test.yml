@@ -17,8 +17,9 @@ jobs:
 
       - name: Action de test
         run: |
-          curl -H "User-Agent: Telerama/1.0 CFNetwork/445.6 Darwin/10.0.0d3" \ "http://guidetv-iphone.telerama.fr/verytv/procedures/LitProgrammes1JourneeDetail.php?date=2024-08-15&chaines=787"
-          
+          #base=$(curl -s -H "User-Agent: Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; fr-fr) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8L1" https://api.telerama.fr/v1/application/initialisation | jq '.')
+          echo "$base" > rama/initialisation.json
+        
           
           
       - name: Identifier l'adresse IP de github
