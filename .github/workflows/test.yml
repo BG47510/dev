@@ -1,0 +1,37 @@
+name: curl
+
+on:
+  workflow_dispatch:       # Permet le déclenchement manuel
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Référentiel d’extraction
+        uses: actions/checkout@v4
+
+      - name: Créer un dossier fr
+        run: mkdir -p fr
+
+
+      - name: Action de test
+        run: |
+          curl -H "User-Agent: Telerama/1.0 CFNetwork/445.6 Darwin/10.0.0d3" \ "http://guidetv-iphone.telerama.fr/verytv/procedures/LitProgrammes1JourneeDetail.php?date=2024-08-15&chaines=787"
+          
+          
+          
+      - name: Identifier l'adresse IP de github
+        run: |
+          github_ip=$(curl https://ipchicken.com/)
+          #github_ip=$(curl https://api.ipify.org)
+          echo "L'adresse IP de github est: $github_ip" > githubip.data    
+
+      - name: Valider et envoyer les modifications
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add -A
+          ls -la 
+          git commit -m "Dernière actualisation"
+          git push
