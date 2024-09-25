@@ -40,7 +40,7 @@ _TELERAMA_PROGRAM_URL = "http://www.telerama.fr"
 # def collecte():
 # """Collecte les données."""
 
-api = "https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille.json"
+api = "https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille"
 
 with requests.session() as session:
     reponse = session.get(api, headers=__HEADERS)
