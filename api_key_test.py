@@ -64,7 +64,7 @@ programs += data.get('donnees', [])
 
 print(programs)
 
-channel_id = programs(data[0])
+channel_id = data.get('donnees', [0])
 
 print(channel_id)
 # *******************************************************************************************
