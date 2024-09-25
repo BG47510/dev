@@ -51,6 +51,8 @@ programs = []
 data = reponse.json() # La mise à jour de télérama est à 06h00.
 # if reponse.status_code == 200:
 programs += data.get('donnees', [])
+# Convertie la chaîne JSON en dictionnaire Python.
+base = json.loads(programs)
 # break
 # else:
 # data = reponse.json()
@@ -62,9 +64,9 @@ programs += data.get('donnees', [])
 
 # return programs
 
-print(programs)
+print(base)
 # Vérifie que la variable contient une chaîne Python valide.
-print(type(programs)) # > class 'list'
+print(type(base)) # > class 'list'
 
 #channel_id = data.get('donnees', [0])
 
