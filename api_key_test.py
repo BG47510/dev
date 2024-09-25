@@ -93,7 +93,6 @@ program_dict = {}
 # Channel ID
 program_dict['id_chaine'] = programs['id_chaine']
 
-Horaire "horaire":{"debut":"2024-09-13 06:00:00","fin":"2024-09-13 06:30:00"},
 debut = program['horaire']['debut']
 debut_l = debut.split()[1].split(':')
 debut_s = debut_l[0] + 'h' + debut_l[1]
