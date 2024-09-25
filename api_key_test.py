@@ -46,11 +46,11 @@ with requests.session() as session:
     reponse = session.get(api, headers=__HEADERS)
 # retour = session.get(construit_url(), headers=__HEADERS)
 
-# programs = []
+programs = []
 # try:
 data = reponse.json() # La mise à jour de télérama est à 06h00.
 # if reponse.status_code == 200:
-# programs += data.get('donnees', [])
+programs += data.get('donnees', [])
 # break
 # else:
 # data = reponse.json()
@@ -62,7 +62,7 @@ data = reponse.json() # La mise à jour de télérama est à 06h00.
 
 # return programs
 
-#print(data)
+print(programs)
 # *******************************************************************************************
 
 # def tvg_id(args):
@@ -75,31 +75,15 @@ data = reponse.json() # La mise à jour de télérama est à 06h00.
 # print(ty)
 # **************************************************************************************************
 
-channels = ['france2', 'm6', 'w9', 'test_channel_no_present'] #!!!!!!!!!!!!!!!!!!!!!
+#channels = ['france2', 'm6', 'w9', 'test_channel_no_present'] #!!!!!!!!!!!!!!!!!!!!!
 
-telerama_ids = []
-for channel in channels:
-    if channel in CHANNELS_ID:
-        telerama_ids.append(CHANNELS_ID[channel])
+#telerama_ids = []
+#for channel in channels:
+    #if channel in CHANNELS_ID:
+        #telerama_ids.append(CHANNELS_ID[channel])
         
-print(telerama_ids)
+#print(telerama_ids)
 
-# programme = []
-# try:
-# data = reponse.json()
-# if reponse.status_code == 200:
-# programme += data.get('donnees', [])
-# break
-# else:
-# data = reponse.json()
-# if reponse.status_code == 404 and data.get('error') and \
-# data.get('msg') == "Une erreur est survenue.":
-# Plus de page de programme disponible
-# break
-# except ValueError:
-# pass
-
-# return programme
 # **********************************************************************************************
 # def _parse_program_dict(program):
 # def _conversion(program):
