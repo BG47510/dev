@@ -48,12 +48,10 @@ api = "https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille"
 reponse = requests.get(api)
 programs = []
 # try:
+# Convertie la chaîne JSON en dictionnaire Python.
 data = reponse.json() # La mise à jour de télérama est à 06h00.
 # if reponse.status_code == 200:
 #programs += data.get('donnees', []) # donne une liste
-# Convertie la chaîne JSON en dictionnaire Python.
-# base = json.loads(data)
-# base = json.loads(reponse)
 # break
 # else:
 # data = reponse.json()
@@ -67,7 +65,7 @@ data = reponse.json() # La mise à jour de télérama est à 06h00.
 
 print(data)
 # Vérifie que la variable contient une chaîne Python valide.
-print(type(data)) # > class 'list'
+# print(type(data)) # > class 'dict'
 
 #channel_id = data.get('donnees', [0])
 
