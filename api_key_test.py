@@ -49,7 +49,6 @@ with requests.session() as session:
 # programs = []
 # try:
 data = reponse.json() # La mise à jour de télérama est à 06h00.
-base = json.load(data,encoding="utf-8")
 # if reponse.status_code == 200:
 # programs += data.get('donnees', [])
 # break
