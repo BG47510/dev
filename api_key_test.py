@@ -80,7 +80,8 @@ channels = ['france2', 'm6', 'w9', 'test_channel_no_present'] #!!!!!!!!!!!!!!!!!
 telerama_ids = []
 for channel in channels:
     if channel in CHANNELS_ID:
-    telerama_ids.append(CHANNELS_ID[channel])
+        telerama_ids.append(CHANNELS_ID[channel])
+        
 print(telerama_ids)
 
 # programme = []
