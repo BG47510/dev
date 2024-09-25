@@ -188,4 +188,4 @@ print(type(programs))
 # program_dict['rating'] = float(program['note_telerama'])
 
 # return program_dict
-print(program_dict)
+#print(program_dict)
