@@ -63,10 +63,11 @@ programs += data.get('donnees', [])
 # return programs
 
 print(programs)
+print(type(programs))
 
-channel_id = data.get('donnees', [0])
+#channel_id = data.get('donnees', [0])
 
-print(channel_id)
+#print(channel_id)
 # *******************************************************************************************
 
 # def tvg_id(args):
