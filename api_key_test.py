@@ -67,9 +67,9 @@ print(data)
 # Vérifie que la variable contient une chaîne Python valide.
 # print(type(data)) # > class 'dict'
 
-#channel_id = data.get('donnees', [0])
+name = data['resume']
 
-#print(channel_id)
+print(name)
 # *******************************************************************************************
 
 # def tvg_id(args):
