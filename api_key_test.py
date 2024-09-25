@@ -62,7 +62,7 @@ data = reponse.json() # La mise à jour de télérama est à 06h00.
 
 # return programs
 
-print(data)
+#print(data)
 # *******************************************************************************************
 
 # def tvg_id(args):
