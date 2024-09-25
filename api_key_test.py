@@ -67,7 +67,7 @@ print(data)
 # Vérifie que la variable contient une chaîne Python valide.
 # print(type(data)) # > class 'dict'
 
-name = data['resume']
+name = (data[donnees]['resume'])
 
 print(name)
 # *******************************************************************************************
