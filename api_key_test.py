@@ -63,6 +63,7 @@ programs += data.get('donnees', [])
 # return programs
 
 print(programs)
+# Vérifie que la variable contient une chaîne Python valide.
 print(type(programs))
 
 #channel_id = data.get('donnees', [0])
