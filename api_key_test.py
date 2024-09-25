@@ -88,16 +88,16 @@ print(programs)
 # def _parse_program_dict(program):
 # def _conversion(program):
 # """Extrait, structure et renvoie les données vers un format xmltv."""
-# program_dict = {}
+program_dict = {}
 
 # Channel ID
-# program_dict['id_chaine'] = program['id_chaine']
+program_dict['id_chaine'] = programs['id_chaine']
 
-# Horaire "horaire":{"debut":"2024-09-13 06:00:00","fin":"2024-09-13 06:30:00"},
-# debut = program['horaire']['debut']
-# debut_l = debut.split()[1].split(':')
-# debut_s = debut_l[0] + 'h' + debut_l[1]
-# program_dict['start_time'] = debut_s
+Horaire "horaire":{"debut":"2024-09-13 06:00:00","fin":"2024-09-13 06:30:00"},
+debut = program['horaire']['debut']
+debut_l = debut.split()[1].split(':')
+debut_s = debut_l[0] + 'h' + debut_l[1]
+program_dict['start_time'] = debut_s
 
 # fin = program['horaire']['fin']
 # fin_l = fin.split()[1].split(':')
@@ -184,3 +184,4 @@ print(programs)
 # program_dict['rating'] = float(program['note_telerama'])
 
 # return program_dict
+print(program_dict)
