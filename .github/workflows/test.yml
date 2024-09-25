@@ -19,10 +19,12 @@ jobs:
         run: |
           #base=$(curl -s -H "User-Agent: Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; fr-fr) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8L1" https://api.telerama.fr/v1/application/initialisation | jq '.')
           #echo "$base" > rama/initialisation.json
-          jq '.' rama/grille_v1 > rama/grille.json
-          
           #jq -r -c '.donnees.chaines[] | {id, nom}' rama/initialisation.json > rama/id_epg.txt
-          
+          awk 'gsub(/,"title":/,".api.telerama.fr\" tvg-name=")' fr/id_epg.txt
+          sed -i -e 's/{"id":/tvg-id="/' fr/id_epg.txt
+          sed -i -e 's/,"title":/".api.telerama.fr" tvg-name=/' fr/id_epg.txt
+          sed -i -e 's/"}/"/' fr/id_epg.txt
+          sed -i -e '{s/{"id":/tvg-id="/;s/,"title":/.api.telerama.fr" tvg-name=/;s/"}/"/g}' fr/id_epg.txt
         
           
           
