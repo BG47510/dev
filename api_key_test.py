@@ -93,10 +93,10 @@ print(programs)
 # Channel ID
 #program_dict['id_chaine'] = programs['id_chaine']
 
-debut = programs['horaire']['debut']
-debut_l = debut.split()[1].split(':')
-debut_s = debut_l[0] + 'h' + debut_l[1]
-program_dict['start_time'] = debut_s
+#debut = programs['horaire']['debut']
+#debut_l = debut.split()[1].split(':')
+#debut_s = debut_l[0] + 'h' + debut_l[1]
+#program_dict['start_time'] = debut_s
 
 # fin = program['horaire']['fin']
 # fin_l = fin.split()[1].split(':')
@@ -104,7 +104,7 @@ program_dict['start_time'] = debut_s
 # program_dict['stop_time'] = fin_s
 
 # Titre "titre":"Le 6h info",
-# program_dict['title'] = program['titre']
+program_dict['titre'] = program['titre']
 
 # if program['titre_original']:
 # program_dict['originaltitle'] = program['titre_original']
