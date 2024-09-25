@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Module qui construit un fichier xml pour alimenter un EPG."""
+"""Met en œuvre les fonctionnalités de saisie et de traitement nécessaires
+à la génération de données XMLTV à partir de l’application Télérama Programme TV."""
 
-import argparse
+#import argparse
 import datetime
-import hashlib
-import hmac
+#import hashlib
+#import hmac
 import json
 import sys
 
@@ -34,65 +35,12 @@ _TELERAMA_PROGRAM_URL = "http://www.telerama.fr"
 # _PROGRAM = "tv_grab_fr_teleloisirs"
 # **************************************************
 
-
-def workflows_args():
-    """Retourne les arguments de la ligne de commande du workflows."""
-    parser = argparse.ArgumentParser()
-    # Ajoute l'argument pour nos ID externes des canaux.
-    parser.add_argument("--int-list", type=str)
-    # Ajoute l'argument pour le nombre de jours à télécharger.
-    parser.add_argument("--day", type=int, default=2)
-    # Analyse et appelle les arguments de la ligne de commande.
-    return parser.parse_args()
-
-__ARGS = workflows_args()
-
-def construit_url():
-    """Construit l'url (API) de l’application Télérama Programme TV.
-    https://play.google.com/store/apps/details?id=com.telerama.fr"""
-
-    # Variables locales liées à la fonction
-    api_appareil = "android_tablette"
-    date = datetime.date.today()
-    id_canal = (
-        __ARGS.int_list
-    )
-    par_page = 3200
-    page = 1
-    source = "https://api.telerama.fr"
-    api_cle = "apitel-5304b49c90511"
-    params = f"/v1/programmes/grille?\
-appareil={api_appareil}&\
-date={date}&\
-id_chaines={id_canal}&\
-nb_par_page={par_page}&\
-page={page}"
-    # La méthode translate() avec un dictionnaire remplace "=&?".
-    tr_dict = str.maketrans({"=": "", "&": "", "?": ""})
-    to_sign = params.translate(tr_dict)
-    # Un hachage cryptographique combiné à une clé secrète détermine le niveau de confiance.
-    # clé secrète : Eufea9cuweuHeif ou uIF59SZhfrfm5Gb
-    hash_cle = "Eufea9cuweuHeif"
-    digest_maker = hmac.new(
-        b"hash_cle",
-        b"to_sign",
-        hashlib.sha1,
-    )
-    digest = digest_maker.hexdigest()
-    url = f"{source}\
-{params}&\
-api_cle={api_cle}&\
-api_signature={digest}"
-    return url
-
-
-yu = construit_url()
-print(yu)
 # *********************************************************************************
 
 # def collecte():
 # """Collecte les données."""
 
+api = "https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille.json"
 api = construit_url() # Déclenche la fonction
 with requests.session() as session:
     reponse = session.get(api, headers=__HEADERS)
@@ -101,6 +49,7 @@ with requests.session() as session:
 # programs = []
 # try:
 data = reponse.json() # La mise à jour de télérama est à 06h00.
+base = json.load(data,encoding="utf-8")
 # if reponse.status_code == 200:
 # programs += data.get('donnees', [])
 # break
@@ -114,7 +63,7 @@ data = reponse.json() # La mise à jour de télérama est à 06h00.
 
 # return programs
 
-print(data)
+print(base)
 # *******************************************************************************************
 
 # def tvg_id(args):
