@@ -65,6 +65,8 @@ programs += data.get('donnees', [])
 print(programs)
 
 channel_id = programs(data[0])
+
+print(channel_id)
 # *******************************************************************************************
 
 # def tvg_id(args):
