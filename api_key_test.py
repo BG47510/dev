@@ -42,18 +42,17 @@ _TELERAMA_PROGRAM_URL = "http://www.telerama.fr"
 
 api = "https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille"
 
-with requests.session() as session:
-    reponse = session.get(api, headers=__HEADERS)
+#with requests.session() as session:
+    #reponse = session.get(api, headers=__HEADERS)
 # retour = session.get(construit_url(), headers=__HEADERS)
-
+reponse = requests.get(api)
 programs = []
 # try:
 data = reponse.json() # La mise à jour de télérama est à 06h00.
 # if reponse.status_code == 200:
-programs += data.get('donnees', []) # donne une liste
+#programs += data.get('donnees', []) # donne une liste
 # Convertie la chaîne JSON en dictionnaire Python.
-d = json.loads(data)
-base = (d[0])
+base = json.loads(data)
 # base = json.loads(data)
 # base = json.loads(reponse)
 # break
