@@ -63,6 +63,8 @@ programs += data.get('donnees', [])
 # return programs
 
 print(programs)
+
+channel_id = programs(data[0])
 # *******************************************************************************************
 
 # def tvg_id(args):
@@ -104,7 +106,7 @@ print(programs)
 # program_dict['stop_time'] = fin_s
 
 # Titre "titre":"Le 6h info",
-program_dict['titre'] = program['titre']
+#program_dict['titre'] = program['titre']
 
 # if program['titre_original']:
 # program_dict['originaltitle'] = program['titre_original']
