@@ -88,12 +88,12 @@ print(programs)
 # def _parse_program_dict(program):
 # def _conversion(program):
 # """Extrait, structure et renvoie les données vers un format xmltv."""
-program_dict = {}
+#program_dict = {}
 
 # Channel ID
-program_dict['id_chaine'] = programs['id_chaine']
+#program_dict['id_chaine'] = programs['id_chaine']
 
-debut = program['horaire']['debut']
+debut = programs['horaire']['debut']
 debut_l = debut.split()[1].split(':')
 debut_s = debut_l[0] + 'h' + debut_l[1]
 program_dict['start_time'] = debut_s
