@@ -68,8 +68,8 @@ print(data)
 # print(type(data)) # > class 'dict'
 
 #name = (data[donnees]['resume'])
-name = data.get("resume")
-print(name)
+el = data.get("horaire")
+print(el)
 # *******************************************************************************************
 
 # def tvg_id(args):
