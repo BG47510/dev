@@ -67,10 +67,7 @@ print(data)
 # Vérifie que la variable contient une chaîne Python valide.
 # print(type(data)) # > class 'dict'
 
-#name = (data[donnees]['resume'])
-data.has_key("horaire")
-
-#el = data.get("horaire")
+data.get("horaire")
 #print(el)
 # *******************************************************************************************
 
