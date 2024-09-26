@@ -51,7 +51,7 @@ programs = []
 # Convertie la chaîne JSON en dictionnaire Python.
 data = reponse.json() # La mise à jour de télérama est à 06h00.
 # if reponse.status_code == 200:
-programs += data.get('donnees', []) # donne une liste
+programs += data.get('donnees') # donne une liste
 # break
 # else:
 # data = reponse.json()
@@ -93,11 +93,11 @@ print(programs)
 # def _parse_program_dict(program):
 # def _conversion(program):
 # """Extrait, structure et renvoie les données vers un format xmltv."""
-program_dict = {}
+#program_dict = {}
 
 # Channel ID
-program_dict['id_chaine'] = programs['id_chaine']
-print(program_dict)
+#program_dict['id_chaine'] = programs['id_chaine']
+#print(program_dict)
 #debut = programs['horaire']['debut']
 #debut_l = debut.split()[1].split(':')
 #debut_s = debut_l[0] + 'h' + debut_l[1]
