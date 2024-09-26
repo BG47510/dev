@@ -68,7 +68,7 @@ print(data)
 # print(type(data)) # > class 'dict'
 
 #name = (data[donnees]['resume'])
-a.has_key("horaire")
+data.has_key("horaire")
 
 #el = data.get("horaire")
 #print(el)
