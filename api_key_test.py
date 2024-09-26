@@ -68,7 +68,7 @@ print(data)
 # print(type(data)) # > class 'dict'
 
 #name = (data[donnees]['resume'])
-data.get("resume")
+name = data.get("resume")
 print(name)
 # *******************************************************************************************
 
