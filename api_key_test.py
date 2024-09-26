@@ -66,8 +66,8 @@ data = reponse.json() # La mise à jour de télérama est à 06h00.
 print(data)
 # Vérifie que la variable contient une chaîne Python valide.
 # print(type(data)) # > class 'dict'
-data["horaire"]
-
+for i in data.items():
+    print(i)
 #print(el)
 # *******************************************************************************************
 
