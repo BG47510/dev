@@ -53,6 +53,7 @@ data = reponse.json() # La mise à jour de télérama est à 06h00.
 # if reponse.status_code == 200:
 programs += data.get('donnees'[]) # donne une liste
 sett = dict()
+id = programs.get('id', 0)
 # break
 # else:
 # data = reponse.json()
@@ -69,7 +70,7 @@ sett = dict()
 # print(type(data)) # > class 'dict'
 
 print(programs)
-print(sett)
+print(id)
 # *******************************************************************************************
 
 # def tvg_id(args):
