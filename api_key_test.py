@@ -51,7 +51,7 @@ programs = []
 # Convertie la chaîne JSON en dictionnaire Python.
 data = reponse.json() # La mise à jour de télérama est à 06h00.
 # if reponse.status_code == 200:
-programs += data.get('donnees'[]) # donne une liste
+programs += data.get('donnees', []) # donne une liste
 sett = dict()
 id = programs.get('id', 0)
 # break
