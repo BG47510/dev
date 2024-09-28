@@ -53,6 +53,14 @@ r_data = reponse.json() # La mise à jour de télérama est à 06h00.
 data = r_data['donnees'][0]
 ann = data['annee_realisation']
 print(ann)
+debut = programs['horaire']['debut']
+debut_l = debut.split()[1].split(':')
+debut_s = debut_l[0] + 'h' + debut_l[1]
+program_dict['start_time'] = debut_s
+print(debut)
+print(debut_l)
+print(debut_s)
+print(program_dict)
 #programs += data.get('donnees', []) # donne une liste
 #output = ""
 #for key, value in data.items():
