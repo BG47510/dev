@@ -47,24 +47,16 @@ api = "https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille"
 # retour = session.get(construit_url(), headers=__HEADERS)
 reponse = requests.get(api)
 programs = []
-# try:
+
 # Convertie la chaîne JSON en dictionnaire Python.
 data = reponse.json() # La mise à jour de télérama est à 06h00.
-# if reponse.status_code == 200:
 #programs += data.get('donnees', []) # donne une liste
+output = ""
 for key, value in data.items():
     output += f"{key}: {value}\n"
 print(output)
 #sett = dict()
 #id = programs.get('id', 0)
-# break
-# else:
-# data = reponse.json()
-# if reponse.status_code == 404 and data.get('error') and \
-# data.get('msg') == "Il n'y a pas de programmes.":
-# break # Aucune données de disponible.
-# except ValueError:
-# pass
 
 # return programs
 
