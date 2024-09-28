@@ -51,11 +51,12 @@ programs = []
 # Convertie la chaîne JSON en dictionnaire Python.
 r_data = reponse.json() # La mise à jour de télérama est à 06h00.
 data = r_data['donnees']
+print(data)
 #programs += data.get('donnees', []) # donne une liste
-output = ""
-for key, value in data.items():
-    output += f"{key}: {value}\n"
-print(output)
+#output = ""
+#for key, value in data.items():
+    #output += f"{key}: {value}\n"
+#print(output)
 #sett = dict()
 #id = programs.get('id', 0)
 
