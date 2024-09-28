@@ -49,7 +49,8 @@ reponse = requests.get(api)
 programs = []
 
 # Convertie la chaîne JSON en dictionnaire Python.
-data = reponse.json() # La mise à jour de télérama est à 06h00.
+r_data = reponse.json() # La mise à jour de télérama est à 06h00.
+data = r_data['donnees']
 #programs += data.get('donnees', []) # donne une liste
 output = ""
 for key, value in data.items():
