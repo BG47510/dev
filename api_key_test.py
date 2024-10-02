@@ -64,6 +64,13 @@ print(debut)
 print(debut_l)
 print(debut_s)
 print(program_dict)
+
+
+for slot in reponse.json()['donnees'][0]:
+    epg_dict = {}
+    start_time = datetime.datetime.utcfromtimestamp(
+        int(str(slot['start_time']).replace('.000', ''))).strftime('%Y-%m-%dT%H:%M:%S')
+    print(start_time)
 #programs += data.get('donnees', []) # donne une liste
 #output = ""
 #for key, value in data.items():
