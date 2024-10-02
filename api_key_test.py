@@ -64,8 +64,9 @@ print(debut)
 print(debut_l)
 print(debut_s)
 print(program_dict)
-start_time_mili = int(data['display']['markers']['startTime']['value']) / 1000
-
+#  'horaire': {'debut': '2024-09-13 06:00:00', 'fin': '2024-09-13 06:30:00'}
+# start_time_mili = int(data['horaire']['debut']['startTime']['value']) / 1000
+start_time_mili = int(data['horaire']['debut']) / 1000
 #for slot in reponse.json()['donnees'][0]:
   #  epg_dict = {}
     
