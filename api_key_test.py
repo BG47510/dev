@@ -64,13 +64,12 @@ print(debut)
 print(debut_l)
 print(debut_s)
 print(program_dict)
+start_time_mili = int(data['display']['markers']['startTime']['value']) / 1000
 
-
-for slot in reponse.json()['donnees'][0]:
-    epg_dict = {}
-    start_time = datetime.datetime.utcfromtimestamp(
-        int(str(slot['start_time']).replace('.000', ''))).strftime('%Y-%m-%dT%H:%M:%S')
-    print(start_time)
+#for slot in reponse.json()['donnees'][0]:
+  #  epg_dict = {}
+    
+print(start_time_mili)
 #programs += data.get('donnees', []) # donne une liste
 #output = ""
 #for key, value in data.items():
