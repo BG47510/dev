@@ -66,11 +66,11 @@ print(debut_s)
 print(program_dict)
 #  'horaire': {'debut': '2024-09-13 06:00:00', 'fin': '2024-09-13 06:30:00'}
 # start_time_mili = int(data['horaire']['debut']['startTime']['value']) / 1000
-start_time_mili = (data['horaire']['debut']) / 1000
+start_time = datetime.datetime.utcfromtimestamp(data.get('startTime', 0))
 #for slot in reponse.json()['donnees'][0]:
   #  epg_dict = {}
     
-print(start_time_mili)
+print(start_time)
 #programs += data.get('donnees', []) # donne une liste
 #output = ""
 #for key, value in data.items():
