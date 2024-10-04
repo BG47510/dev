@@ -55,7 +55,7 @@ data = r_data['donnees'][0]
 
 
 ...         
-program_ = {}
+program_ = []
 for prog in data:
     ann = data['annee_realisation']
     program_.append(ann)
