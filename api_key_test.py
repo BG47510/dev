@@ -58,12 +58,13 @@ data = r_data['donnees'][0]
 program_dict = {}
 for prog in data:
     ann = data['annee_realisation']
+    program_dict.append(ann)
     #print(ann)
     debut = data['horaire']['debut']
     debut_l = debut.split()[1].split(':')
     debut_s = debut_l[0] + 'h' + debut_l[1]
     h_debut['start_time'] = debut_s
-    prog.append(program_dict)
+    program_dict.append(h_debut)
 #print(debut)
 #print(debut_l)
 #print(debut_s)
