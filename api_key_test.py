@@ -55,20 +55,20 @@ data = r_data['donnees'][0]
 
 
 ...         
-program_dict = {}
+program_ = {}
 for prog in data:
     ann = data['annee_realisation']
-    program_dict.append(ann)
+    program_.append(ann)
     #print(ann)
     debut = data['horaire']['debut']
     debut_l = debut.split()[1].split(':')
     debut_s = debut_l[0] + 'h' + debut_l[1]
     h_debut['start_time'] = debut_s
-    program_dict.append(h_debut)
+    program_.append(h_debut)
 #print(debut)
 #print(debut_l)
 #print(debut_s)
-print(program_dict)
+print(program_)
 #  'horaire': {'debut': '2024-09-13 06:00:00', 'fin': '2024-09-13 06:30:00'}
 # start_time_mili = int(data['horaire']['debut']['startTime']['value']) / 1000
 titre = data.get('titre')
