@@ -71,7 +71,8 @@ for prog in data:
 print(program_)
 #  'horaire': {'debut': '2024-09-13 06:00:00', 'fin': '2024-09-13 06:30:00'}
 # start_time_mili = int(data['horaire']['debut']['startTime']['value']) / 1000
-titre = data.get('titre')
+titre = data[2]
+#titre = data.get('titre')
 print(titre)
 for slot in reponse.json()['donnees'][0]:
     epg_dict = {}
