@@ -63,8 +63,8 @@ for prog in data:
     debut = data['horaire']['debut']
     debut_l = debut.split()[1].split(':')
     debut_s = debut_l[0] + 'h' + debut_l[1]
-    h_debut['start_time'] = debut_s
-    program_.append(h_debut)
+    debut['start_time'] = debut_s
+    program_.append(debut)
 #print(debut)
 #print(debut_l)
 #print(debut_s)
