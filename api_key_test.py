@@ -68,10 +68,10 @@ print(program_dict)
 # start_time_mili = int(data['horaire']['debut']['startTime']['value']) / 1000
 titre = data.get('titre')
 print(titre)
-#for slot in reponse.json()['donnees'][0]:
-  #  epg_dict = {}
-title = data.get('titre', '')  
-print(title)
+for slot in reponse.json()['donnees'][0]:
+    epg_dict = {}
+    title = data.get('titre', '')  
+print(epg_dict)
 #programs += data.get('donnees', []) # donne une liste
 #output = ""
 #for key, value in data.items():
