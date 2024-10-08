@@ -76,9 +76,10 @@ print(program_)
 #titre = data.get('titre')
 
 # pour lire et comprendre les données
-tree = ET.parse(data)
+#tree = ET.parse(data)
 # enregistre tree dans une variable
-root = tree.getroot()
+root = ET.fromstring(data)
+#root = tree.getroot()
 print(root)
 #programs += data.get('donnees', []) # donne une liste
 #output = ""
