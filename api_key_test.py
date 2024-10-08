@@ -72,9 +72,9 @@ for prog in data:
 print(program_)
 #  'horaire': {'debut': '2024-09-13 06:00:00', 'fin': '2024-09-13 06:30:00'}
 # start_time_mili = int(data['horaire']['debut']['startTime']['value']) / 1000
-titre = data[2]
+
 #titre = data.get('titre')
-print(titre)
+
 # pour lire et comprendre les données
 tree = ET.parse(data)
 # enregistre tree dans une variable
