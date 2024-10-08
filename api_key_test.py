@@ -8,6 +8,7 @@ import datetime
 #import hmac
 import json
 import sys
+import xml.etree.ElementTree as ET
 
 import requests
 
@@ -74,10 +75,11 @@ print(program_)
 titre = data[2]
 #titre = data.get('titre')
 print(titre)
-for slot in reponse.json()['donnees'][0]:
-    epg_dict = {}
-    title = data.get('titre', '')  
-print(epg_dict)
+# pour lire et comprendre les données
+tree = ET.parse(data)
+# enregistre tree dans une variable
+root = tree.getroot()
+print(root)
 #programs += data.get('donnees', []) # donne une liste
 #output = ""
 #for key, value in data.items():
