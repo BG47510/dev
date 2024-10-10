@@ -83,11 +83,6 @@ if data['soustitre']:
 
         # Desc
 if data['resume']:
-    # res = data['resume']
-    # Caractères XML réservés et équivalents en entités
-    # tr_res = str.maketrans({"<": "&lt;", ">": "&gt;", "&": "&amp;"})
-    # resum = res.translate(tr_res)
-    # program_dict['plot'] = resum
     program_dict['plot'] = data['resume']
     
         # Catégories
