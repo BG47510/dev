@@ -9,7 +9,6 @@ import datetime
 import json
 import sys
 import xml.etree.ElementTree as ET
-import python_utils
 
 import requests
 
@@ -83,8 +82,8 @@ if data['soustitre']:
     program_dict['subtitle'] = data['soustitre']
 
         # Desc
-if data['resume']:
-    program_dict['plot'] = utils.strip_tags(self._fix_xml_unicode_string(data['resume']))
+#if data['resume']:
+   # program_dict['plot'] = utils.strip_tags(self._fix_xml_unicode_string(data['resume']))
 
         # Catégories
 #if data['id_genre']:
