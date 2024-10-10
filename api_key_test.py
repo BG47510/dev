@@ -82,8 +82,8 @@ if data['soustitre']:
     program_dict['subtitle'] = data['soustitre']
 
         # Desc
-#if data['resume']:
-   # program_dict['plot'] = utils.strip_tags(self._fix_xml_unicode_string(data['resume']))
+if data['resume']:
+    program_dict['plot'] = data['resume']
 
         # Catégories
 #if data['id_genre']:
