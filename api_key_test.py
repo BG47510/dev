@@ -85,10 +85,11 @@ if data['soustitre']:
 if data['resume']:
     res = data['resume']
     # Caractères XML réservés et équivalents en entités
-    tr_res = str.maketrans({"<": "&lt;", ">": "&gt;", "&": "&amp;"})
-    resum = res.translate(tr_res)
-    program_dict['plot'] = resum
-
+    # tr_res = str.maketrans({"<": "&lt;", ">": "&gt;", "&": "&amp;"})
+    # resum = res.translate(tr_res)
+    # program_dict['plot'] = resum
+    program_dict['plot'] = res
+    
         # Catégories
 #if data['id_genre']:
     #program_dict['genre'] = self._TELERAMA_CATEGORIES.get(data['id_genre'], 'Inconnue')
