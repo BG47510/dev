@@ -77,10 +77,14 @@ print(program_)
 
 # pour lire et comprendre les données
 #tree = ET.parse(data)
-# enregistre tree dans une variable
-root = ET.fromstring(r_data)
-#root = tree.getroot()
-print(root)
+now = datetime.now()
+print(now)
+next_day = now + timedelta(days=i)
+back_day = (now + timedelta(days=i)) - timedelta(days=1)
+date_to = next_day.strftime("%Y-%m-%d")
+date_from = back_day.strftime("%Y-%m-%d")
+date_ = next_day.strftime("%d.%m.%Y")
+print(date_, end="", flush=True)
 #programs += data.get('donnees', []) # donne une liste
 #output = ""
 #for key, value in data.items():
