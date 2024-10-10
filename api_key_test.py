@@ -77,7 +77,7 @@ print(program_)
 
 # pour lire et comprendre les données
 #tree = ET.parse(data)
-now = datetime.now()
+now = datetime.datetime.now()
 print(now)
 next_day = now + timedelta(days=i)
 back_day = (now + timedelta(days=i)) - timedelta(days=1)
