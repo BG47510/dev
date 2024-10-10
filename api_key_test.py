@@ -55,21 +55,100 @@ data = r_data['donnees'][0]
 
 
 
-...         
-program_ = []
-for prog in data:
-    ann = data['annee_realisation']
-    program_.append(ann)
-    #print(ann)
-    #debut = data['horaire']['debut']
-    #debut_l = debut.split()[1].split(':')
-   # debut_s = debut_l[0] + 'h' + debut_l[1]
-    #debut['start_time'] = debut_s
-   # program_.append(debut)
-#print(debut)
-#print(debut_l)
-#print(debut_s)
-print(program_)
+program_dict = {}
+
+        # Channel ID
+program_dict['id_chaine'] = data['id_chaine']
+
+        # Horaire
+debut = data['horaire']['debut']
+debut_l = debut.split()[1].split(':')
+debut_s = debut_l[0] + 'h' + debut_l[1]
+program_dict['start_time'] = debut_s
+
+fin = data['horaire']['fin']
+fin_l = fin.split()[1].split(':')
+fin_s = fin_l[0] + 'h' + fin_l[1]
+program_dict['stop_time'] = fin_s
+
+        # Titre
+program_dict['title'] = data['titre']
+
+if data['titre_original']:
+    program_dict['originaltitle'] = data['titre_original']
+
+        # Sous-titre
+if data['soustitre']:
+    program_dict['subtitle'] = data['soustitre']
+
+        # Desc
+if data['resume']:
+    program_dict['plot'] = utils.strip_tags(self._fix_xml_unicode_string(data['resume']))
+
+        # Catégories
+#if data['id_genre']:
+    #program_dict['genre'] = self._TELERAMA_CATEGORIES.get(data['id_genre'], 'Inconnue')
+
+        # Add specific category
+if data['genre_specifique']:
+    program_dict['specific_genre'] = data['genre_specifique']
+
+        # Icon
+if 'vignettes' in data:
+    program_dict['thumb'] = data['vignettes']['grande']
+    program_dict['fanart'] = data['vignettes']['grande169']
+
+        # Episode/season
+if data['serie'] and program['serie']['numero_episode']:
+    program_dict['season'] = (data['serie'].get('saison', 1) or 1) - 1
+    program_dict['episode'] = data['serie']['numero_episode'] - 1
+
+        # Video format
+aspect = None
+if data['flags']['est_ar16x9']:
+    aspect = '16:9'
+elif data['flags']['est_ar4x3']:
+    aspect = '4:3'
+if aspect is not None:
+    program_dict['aspect'] = aspect
+if data['flags']['est_hd']:
+    program_dict['quality'] = 'HDTV'
+
+        # Audio format
+stereo = None
+if data['flags']['est_dolby']:
+    stereo = 'dolby'
+elif data['flags']['est_stereoar16x9'] or data['flags']['est_stereo']:
+    stereo = 'stereo'
+elif data['flags']['est_vm']:
+    stereo = 'bilingual'
+if stereo is not None:
+    program_dict['audio'] = stereo
+
+        # Vérifie si le programme a déjà été affiché
+if data['flags']['est_premdif'] or data['flags']['est_inedit']:
+            # program_xml.append(Element('premiere'))
+    program_dict['diffusion'] = 'Inédit'
+elif data['flags']['est_redif']:
+            # program_xml.append(Element('previously-shown'))
+    program_dict['diffusion'] = 'Redifusion'
+elif data['flags']['est_derdif']:
+            # program_xml.append(Element('last-chance'))
+    program_dict['diffusion'] = 'Dernière chance'
+
+        # Subtitles
+if data['flags']['est_stm']:
+            # program_xml.append(Element('subtitles', type='deaf-signed'))
+    program_dict['subtitles'] = 'deaf-signed'
+elif data['flags']['est_vost']:
+            # program_xml.append(Element('subtitles', type='onscreen'))
+    program_dict['subtitles'] = 'onscreen'
+
+        # Star rating
+if data['note_telerama'] > 0:
+    program_dict['rating'] = float(data['note_telerama'] * 2)  # Pour avoir sur 10 pour Kodi
+
+print(program_dict)
 #  'horaire': {'debut': '2024-09-13 06:00:00', 'fin': '2024-09-13 06:30:00'}
 # start_time_mili = int(data['horaire']['debut']['startTime']['value']) / 1000
 
