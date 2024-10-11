@@ -82,7 +82,7 @@ resp = json.loads(json_str)
 print(resp)
 
 # extract an element in the response
-print(resp['titre'])
+#print(resp['titre'])
 print('test***************************************************************************')
 
 contenu = {}
