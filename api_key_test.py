@@ -77,13 +77,11 @@ json_str = json.dumps(r_data)
 
 # load the json to a string
 resp = json.loads(json_str)
-for key, value in data.items():
+#for key, value in data.items():
 # print the resp
 #print(resp)
-
-# extract an element in the response
-grt = resp['donnees']['titre']
-print(grt)
+data1 = r-data.get('donnees', [])
+print(data1)
 print('test***************************************************************************')
 
 contenu = {}
