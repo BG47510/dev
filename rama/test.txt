@@ -1,2 +1,3 @@
+Le 6h info
 **********************************************************************************
 {'id_chaine': 4, 'start_time': '06h00', 'stop_time': '06h30', 'title': 'Le 6h info', 'originaltitle': 'Le 6h00 info', 'plot': "Un rendez-vous réveil-matin, avec un point sur l'actualité assorti de différentes rubriques qui permettent d'en explorer certains aspects plus en profondeur.", 'specific_genre': 'Journal', 'thumb': 'https://focus.telerama.fr/1111x625/2024/05/15/6c7e4ec91c7b4a50a28c60da7f14a011.jpg', 'fanart': 'https://focus.telerama.fr/1111x625/2024/05/15/6c7e4ec91c7b4a50a28c60da7f14a011.jpg', 'aspect': '16:9', 'subtitles': 'deaf-signed'}
