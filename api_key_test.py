@@ -58,13 +58,13 @@ reponse = requests.get(api)
 #print('pandas!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 # Convertie la chaîne JSON en dictionnaire Python.
 r_data = reponse.json() # La mise à jour de télérama est à 06h00.
-json_dict = json.loads(reponse)
+#json_dict = json.loads(reponse)
 data = r_data['donnees'][0]
-json_dict.keys()
+r_data.keys()
 # dict_keys(['color', 'wavelength'])
 
 
-json_dict['titre']
+r_data['titre']
 # print(r_data)
 #print(data)
 print('**********************************************************************************')
