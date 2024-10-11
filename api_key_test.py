@@ -80,7 +80,7 @@ resp = json.loads(json_str)
 #for key, value in data.items():
 # print the resp
 #print(resp)
-data1 = r-data.get('donnees', [])
+data1 = r_data.get('donnees', [])
 print(data1)
 print('test***************************************************************************')
 
