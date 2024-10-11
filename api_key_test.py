@@ -9,6 +9,7 @@ import datetime
 import json
 import sys
 import xml.etree.ElementTree as ET
+import pandas as pd
 
 import requests
 
