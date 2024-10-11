@@ -55,13 +55,7 @@ jobs:
        # run: |
          # gzip -c xmltv_teleloisirs.xml > xmltv_telerama.xml.gz 
           
-      - name: Valide et envoie les modifications
-        #uses: actions/upload-artifact@v4
-        run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          git add -A
-          ls -la 
-          git commit -m "Dernière actualisation"
-          git push          
+      - uses: stefanzweifel/git-auto-commit-action@v5 # Valide et renvoie automatiquement tous les fichiers créés ou modifiés à votre dépôt.
+        with:
+         commit_message: 'Actualisation'
           
