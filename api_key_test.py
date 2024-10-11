@@ -53,7 +53,7 @@ api = "https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille"
 reponse = requests.get(api)
 #data = []
 reponse.head()
-for key in api:
+for key in reponse:
    print(reponse['titre'], reponse['soustitre'])
 print('pandas!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 # Convertie la chaîne JSON en dictionnaire Python.
