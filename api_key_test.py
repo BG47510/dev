@@ -64,8 +64,8 @@ data.keys()
 # dict_keys(['color', 'wavelength'])
 
 
-data['titre']
-# print(r_data)
+trea = data['titre']
+print(trea)
 #print(data)
 print('**********************************************************************************')
 
@@ -208,102 +208,4 @@ print(program_dict, flush=True)
 #print(telerama_ids)
 
 # **********************************************************************************************
-# def _parse_program_dict(program):
-# def _conversion(program):
-# """Extrait, structure et renvoie les données vers un format xmltv."""
-#program_dict = {}
 
-# Channel ID
-#program_dict['id_chaine'] = programs['id_chaine']
-#print(program_dict)
-#debut = programs['horaire']['debut']
-#debut_l = debut.split()[1].split(':')
-#debut_s = debut_l[0] + 'h' + debut_l[1]
-#program_dict['start_time'] = debut_s
-
-# fin = program['horaire']['fin']
-# fin_l = fin.split()[1].split(':')
-# fin_s = fin_l[0] + 'h' + fin_l[1]
-# program_dict['stop_time'] = fin_s
-
-# Titre "titre":"Le 6h info",
-#program_dict['titre'] = program['titre']
-
-# if program['titre_original']:
-# program_dict['originaltitle'] = program['titre_original']
-
-# Sous-titre
-# if program['soustitre']:
-# program_dict['subtitle'] = program['soustitre']
-
-# Desc
-# if program['resume']:
-# program_dict['plot'] = utils.strip_tags(
-# _fix_xml_unicode_string(program['resume']))
-
-# Catégories
-# if program['id_genre']:
-# program_dict['genre'] = _TELERAMA_CATEGORIES.get(
-# program['id_genre'], 'Inconnue')
-
-# Add specific category
-# if program['genre_specifique']:
-# program_dict['specific_genre'] = program['genre_specifique']
-
-# Icon
-# if 'vignettes' in program:
-# program_dict['thumb'] = program['vignettes']['grande']
-# program_dict['fanart'] = program['vignettes']['grande169']
-
-# Episode/season
-# if program['serie'] and program['serie']['numero_episode']:
-# program_dict['season'] = (program['serie'].get('saison', 1) or 1) - 1
-# program_dict['episode'] = program['serie']['numero_episode'] - 1
-
-# Video format
-# aspect = None
-# if program['flags']['est_ar16x9']:
-# aspect = '16:9'
-# elif program['flags']['est_ar4x3']:
-# aspect = '4:3'
-# if aspect is not None:
-# program_dict['aspect'] = aspect
-# if program['flags']['est_hd']:
-# program_dict['quality'] = 'HDTV'
-
-# Audio format
-# stereo = None
-# if program['flags']['est_dolby']:
-# stereo = 'dolby'
-# elif program['flags']['est_stereoar16x9'] or program['flags']['est_stereo']:
-# stereo = 'stereo'
-# elif program['flags']['est_vm']:
-# stereo = 'bilingual'
-# if stereo is not None:
-# program_dict['audio'] = stereo
-
-# Vérifie si le programme a déjà été affiché
-# if program['flags']['est_premdif'] or program['flags']['est_inedit']:
-# program_xml.append(Element('premiere'))
-# program_dict['diffusion'] = 'Inédit'
-# elif program['flags']['est_redif']:
-# program_xml.append(Element('previously-shown'))
-# program_dict['diffusion'] = 'Redifusion'
-# elif program['flags']['est_derdif']:
-# program_xml.append(Element('last-chance'))
-# program_dict['diffusion'] = 'Dernière chance'
-
-# Subtitles
-# if program['flags']['est_stm']:
-# program_xml.append(Element('subtitles', type='deaf-signed'))
-# program_dict['subtitles'] = 'deaf-signed'
-# elif program['flags']['est_vost']:
-# program_xml.append(Element('subtitles', type='onscreen'))
-# program_dict['subtitles'] = 'onscreen'
-
-# Star rating
-# if program['note_telerama'] > 0:
-# program_dict['rating'] = float(program['note_telerama'])
-
-# return program_dict
-#print(program_dict)
