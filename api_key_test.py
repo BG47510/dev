@@ -77,7 +77,7 @@ json_str = json.dumps(r_data)
 
 # load the json to a string
 resp = json.loads(json_str)
-
+for key, value in data.items():
 # print the resp
 #print(resp)
 
