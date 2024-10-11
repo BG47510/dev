@@ -63,9 +63,9 @@ data = r_data['donnees'][0]
 rea = data.keys()
 print(rea)
 
-
-trea = data['titre']
-print(trea)
+contenu = {}
+contenu['title'] = data['titre']
+print(contenu)
 #print(data)
 print('**********************************************************************************')
 
