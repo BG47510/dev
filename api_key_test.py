@@ -52,12 +52,13 @@ api = "https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille"
 # retour = session.get(construit_url(), headers=__HEADERS)
 reponse = requests.get(api)
 #data = []
-reponse.head()
-for key in reponse:
-   print(reponse['titre'], reponse['soustitre'])
-print('pandas!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+#reponse.head()
+#for key in reponse:
+   #print(reponse['titre'], reponse['soustitre'])
+#print('pandas!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 # Convertie la chaîne JSON en dictionnaire Python.
 r_data = reponse.json() # La mise à jour de télérama est à 06h00.
+json_dict = json.loads(r_data)
 data = r_data['donnees'][0]
 #data += r_data.get('donnees', [])
 # print(r_data)
