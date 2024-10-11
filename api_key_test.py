@@ -68,7 +68,7 @@ def iterate_nested_json_flatten(json_obj):
     flattened_json = json.loads(flattened_json_str)
 
     for key, value in flattened_json.items():
-        print(f&quot;{key}: {value}&quot;)
+        print(f"{key}: {value}")
 
 iterate_nested_json_flatten(data)
 print('test***************************************************************************')
