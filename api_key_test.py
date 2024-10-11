@@ -70,7 +70,7 @@ def iterate_nested_json_flatten(json_obj):
     for key, value in flattened_json.items():
         print(f"{key}: {value}")
 
-iterate_nested_json_flatten(data)
+iterate_nested_json_flatten(r_data)
 print('test***************************************************************************')
 
 contenu = {}
