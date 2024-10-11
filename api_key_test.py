@@ -64,7 +64,7 @@ r_data.keys()
 # dict_keys(['color', 'wavelength'])
 
 
-r_data['donnees']['titre']
+r_data[0]['titre']
 # print(r_data)
 #print(data)
 print('**********************************************************************************')
