@@ -82,7 +82,8 @@ resp = json.loads(json_str)
 #print(resp)
 
 # extract an element in the response
-print(resp['donnees']['titre'])
+grt = resp['donnees']['titre']
+print(grt)
 print('test***************************************************************************')
 
 contenu = {}
