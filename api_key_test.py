@@ -60,11 +60,11 @@ reponse = requests.get(api)
 r_data = reponse.json() # La mise à jour de télérama est à 06h00.
 #json_dict = json.loads(reponse)
 data = r_data['donnees'][0]
-r_data.keys()
+data.keys()
 # dict_keys(['color', 'wavelength'])
 
 
-r_data[0]['titre']
+data['titre']
 # print(r_data)
 #print(data)
 print('**********************************************************************************')
