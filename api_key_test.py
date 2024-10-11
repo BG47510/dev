@@ -52,8 +52,8 @@ programs = []
 # Convertie la chaîne JSON en dictionnaire Python.
 r_data = reponse.json() # La mise à jour de télérama est à 06h00.
 data = r_data['donnees'][0]
-
-
+print(r_data)
+print(data)
 
 program_dict = {}
 
@@ -167,7 +167,6 @@ print(program_dict)
 
 # return programs
 
-print(data)
 # Vérifie que la variable contient une chaîne Python valide.
 # print(type(data)) # > class 'dict'
 
