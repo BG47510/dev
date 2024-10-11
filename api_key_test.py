@@ -60,9 +60,18 @@ reponse = requests.get(api)
 r_data = reponse.json() # La mise à jour de télérama est à 06h00.
 #json_dict = json.loads(reponse)
 data = r_data['donnees'][0]
-base = r_data['donnees']
-rea = base.items()
-print(rea)
+base = r_data['donnees'][0]
+
+# Using json.loads with json.dumps
+def iterate_nested_json_flatten(json_obj):
+    flattened_json_str = json.dumps(json_obj)
+    flattened_json = json.loads(flattened_json_str)
+
+    for key, value in flattened_json.items():
+        print(f&quot;{key}: {value}&quot;)
+
+iterate_nested_json_flatten(data)
+print('test***************************************************************************')
 
 contenu = {}
 contenu['title'] = base['titre']
