@@ -81,7 +81,8 @@ resp = json.loads(json_str)
 # print the resp
 #print(resp)
 data1 = r_data.get('donnees', [])
-for key, value in data1.items():
+myDict = listToDict(data1)
+for key, value in mydict.items():
     print(f"{key}: {value}")  
 #print(data1)
 print('test***************************************************************************')
