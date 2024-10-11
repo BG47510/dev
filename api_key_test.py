@@ -51,9 +51,10 @@ programs = []
 
 # Convertie la chaîne JSON en dictionnaire Python.
 r_data = reponse.json() # La mise à jour de télérama est à 06h00.
-data = r_data['donnees'][0]
+data = r_data['donnees'][]
 print(r_data)
 print(data)
+print('**********************************************************************************')
 
 program_dict = {}
 
@@ -148,7 +149,7 @@ elif data['flags']['est_vost']:
 if data['note_telerama'] > 0:
     program_dict['rating'] = float(data['note_telerama'] * 2)  # Pour avoir sur 10 pour Kodi
 
-print(program_dict)
+print(program_dict, flush=True)
 #  'horaire': {'debut': '2024-09-13 06:00:00', 'fin': '2024-09-13 06:30:00'}
 # start_time_mili = int(data['horaire']['debut']['startTime']['value']) / 1000
 
