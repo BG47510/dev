@@ -61,7 +61,7 @@ r_data = reponse.json() # La mise à jour de télérama est à 06h00.
 #json_dict = json.loads(reponse)
 data = r_data['donnees'][0]
 base = r_data['donnees']
-rea = base.keys()
+rea = base.items()
 print(rea)
 
 contenu = {}
