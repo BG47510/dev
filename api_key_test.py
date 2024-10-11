@@ -1,4 +1,4 @@
-f# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """Met en œuvre les fonctionnalités de saisie et de traitement nécessaires
 à la génération de données XMLTV à partir de l’application Télérama Programme TV."""
 
