@@ -91,7 +91,7 @@ print(myDict.items())
 print('test***************************************************************************')
 
 contenu = {}
-contenu['title'] = base['titre']
+contenu['title'] = myDict['titre']
 print(contenu)
 #print(data)
 print('**********************************************************************************')
