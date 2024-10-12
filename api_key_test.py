@@ -107,13 +107,7 @@ toto.append(['titre'])
     #toto['title'] = ['titre']
 print(toto)
 
-    string_list = {}
-    for a_dict in data1:
-        string_list.append(string.format(**a_dict))
-
-    return string_list
-
-
+    
 print('**********************************************************************************')
 
 program_dict = {}
