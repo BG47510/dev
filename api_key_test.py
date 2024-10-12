@@ -237,7 +237,7 @@ prog = {}
    # contenu = extrait(data1)
    # programs[ID_CHAINES[contenu['id_chaine']]] = contenu
     #return prog
-contenu = extrait(data1)
+contenu = extrait(data)
 programs[ID_CHAINES[contenu['id_chaine']]] = contenu
 print(contenu)
 
