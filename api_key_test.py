@@ -106,7 +106,7 @@ print(gaze)
 # toto.update(['titre'])
 #toto['titre'].append(value)
     #toto['title'] = ['titre']
-print(tata)
+#print(tata)
 
     
 print('**********************************************************************************')
