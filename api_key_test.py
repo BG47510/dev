@@ -96,13 +96,13 @@ print(myDict.items())
 print('test***************************************************************************')
 
 contenu = {}
-def extrait(data):
-    contenu['title'] = data['titre']
+def extrait(r_data):
+    contenu['title'] = [i['titre'] for i in r_data['donnees']]
     print(contenu)
-gaze = extrait(data)
+gaze = extrait(r_data)
 print(gaze)
-toto ={}
-tata = [i['titre'] for i in r_data['donnees']]
+#toto ={}
+#tata = [i['titre'] for i in r_data['donnees']]
 # toto.update(['titre'])
 #toto['titre'].append(value)
     #toto['title'] = ['titre']
