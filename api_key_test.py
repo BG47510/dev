@@ -99,7 +99,8 @@ contenu = {}
 def extrait(data1):
     contenu['title'] = data1['titre']
     print(contenu)
-#print(data)
+gaze = extrait(data1)
+print(gaze)
 print('**********************************************************************************')
 
 program_dict = {}
@@ -232,11 +233,13 @@ print(program_dict, flush=True)
 print(' ************************************************************************************************** ')
 
 prog = {}
-for program in data1:
-    contenu = extrait(data1)
-    programs[ID_CHAINES[contenu['id_chaine']]] = contenu
-    return prog
-            
+#for program in data1:
+   # contenu = extrait(data1)
+   # programs[ID_CHAINES[contenu['id_chaine']]] = contenu
+    #return prog
+contenu = extrait(data1)
+programs[ID_CHAINES[contenu['id_chaine']]] = contenu
+print(contenu)
 
 # **********************************************************************************************
 
