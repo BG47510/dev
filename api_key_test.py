@@ -89,15 +89,16 @@ myDict = listToDict(data1)
 # Vérifie le type de données avec la fonction type().
 print(type(myDict))
 print(myDict.items())
-for item in myDict:
-    for key, value in item.items():
-        print(key, value)
+#for item in myDict:
+    #for key, value in item.items():
+        #print(key, value)
         
 print('test***************************************************************************')
 
 contenu = {}
-contenu['title'] = data['titre']
-print(contenu)
+for contenu in data:
+    contenu['title'] = data['titre']
+    print(contenu)
 #print(data)
 print('**********************************************************************************')
 
