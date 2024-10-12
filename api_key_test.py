@@ -103,9 +103,9 @@ gaze = extrait(data)
 print(gaze)
 toto ={}
 [i['titre'] for i in r_data['donnees']]
-    toto.append(['titre'])
+toto.append(['titre'])
     #toto['title'] = ['titre']
-    print(toto)
+print(toto)
 
     string_list = {}
     for a_dict in data1:
