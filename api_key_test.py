@@ -86,12 +86,14 @@ def listToDict(listObj):
  
 myDict = listToDict(data1)
 # Output list Items
+# Vérifie le type de données avec la fonction type().
+print(type(myDict))
 print(myDict.items())
 #print(data1)
 print('test***************************************************************************')
 
 contenu = {}
-contenu['title'] = myDict['titre']
+contenu['title'] = data['titre']
 print(contenu)
 #print(data)
 print('**********************************************************************************')
