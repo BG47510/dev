@@ -96,8 +96,9 @@ print(myDict.items())
 print('test***************************************************************************')
 
 contenu = {}
-contenu['title'] = data1['titre']
-print(contenu)
+def extrait(data1):
+    contenu['title'] = data1['titre']
+    print(contenu)
 #print(data)
 print('**********************************************************************************')
 
@@ -230,12 +231,12 @@ print(program_dict, flush=True)
 # print(ty)
 print(' ************************************************************************************************** ')
 
-programs = {}
+prog = {}
 for program in data1:
-    contenu = contenu
+    contenu = extrait(data1)
             #programs[self.ID_CHAINES[program_dict['id_chaine']]] = program_dict
 
-    return programs
+    return prog
 
 # **********************************************************************************************
 
