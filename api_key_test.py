@@ -9,7 +9,7 @@ import datetime
 import json
 import sys
 import xml.etree.ElementTree as ET
-import pandas as pd
+
 
 import requests
 
@@ -51,47 +51,14 @@ api = "https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille"
     #reponse = session.get(api, headers=__HEADERS)
 # retour = session.get(construit_url(), headers=__HEADERS)
 reponse = requests.get(api)
-#data = []
-#reponse.head()
-#for key in reponse:
-   #print(reponse['titre'], reponse['soustitre'])
-#print('pandas!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+
 # Convertie la chaîne JSON en dictionnaire Python.
 r_data = reponse.json() # La mise à jour de télérama est à 06h00.
-#json_dict = json.loads(reponse)
+
 data = r_data['donnees'][0]
 base = r_data['donnees'][0]
-bas = r_data['donnees']
-# Using json.loads with json.dumps
 
-# dumps the json object into an element
-json_str = json.dumps(r_data)
-
-# load the json to a string
-resp = json.loads(json_str)
-#for key, value in data.items():
-# print the resp
-#print(resp)
 data1 = r_data.get('donnees', [])
-#myDict = dic(data1)
-#print(myDict.items())
-
-def listToDict(listObj):
-    newDict = {}
- 
-    for index, item in enumerate(listObj):
-        newDict[index] = item
- 
-    return newDict
- 
-myDict = listToDict(data1)
-# Output list Items
-# Vérifie le type de données avec la fonction type().
-print(type(myDict))
-print(myDict.items())
-#for item in myDict:
-    #for key, value in item.items():
-        #print(key, value)
         
 print('test***************************************************************************')
 
@@ -99,15 +66,9 @@ contenu = {}
 def extrait(r_data):
     contenu['title'] = [i['titre'] for i in r_data['donnees']]
     print(contenu)
+    
 gaze = extrait(r_data)
 print(gaze)
-#toto ={}
-#tata = [i['titre'] for i in r_data['donnees']]
-# toto.update(['titre'])
-#toto['titre'].append(value)
-    #toto['title'] = ['titre']
-#print(tata)
-
     
 print('**********************************************************************************')
 
