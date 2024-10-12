@@ -64,6 +64,7 @@ print('test*********************************************************************
 
 contenu = {}
 def extrait(r_data):
+    contenu['id_chaine'] = [i['id_chaine'] for i in r_data['donnees']]
     contenu['title'] = [i['titre'] for i in r_data['donnees']]
     print(contenu)
     
