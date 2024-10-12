@@ -241,10 +241,10 @@ if data['note_telerama'] > 0:
 print(' ************************************************************************************************** ')
 
 prog = {}
-#for program in data1:
-   # contenu = extrait(data1)
-   # prog[ID_CHAINES[contenu['id_chaine']]] = contenu
-    #return prog
+for program in data1:
+    contenu = extrait(data1)
+    prog[ID_CHAINES[contenu['id_chaine']]] = contenu
+return prog
 
 
 # **********************************************************************************************
