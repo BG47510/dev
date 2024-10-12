@@ -101,6 +101,16 @@ def extrait(data):
     print(contenu)
 gaze = extrait(data)
 print(gaze)
+
+string = data1['titre']
+def string_factory(data1, string):
+    string_list = []
+    for a_dict in data1:
+        string_list.append(string.format(**a_dict))
+
+    return string_list
+
+
 print('**********************************************************************************')
 
 program_dict = {}
@@ -235,11 +245,9 @@ print(' ************************************************************************
 prog = {}
 #for program in data1:
    # contenu = extrait(data1)
-   # programs[ID_CHAINES[contenu['id_chaine']]] = contenu
+   # prog[ID_CHAINES[contenu['id_chaine']]] = contenu
     #return prog
-contenu = extrait(data)
-prog[ID_CHAINES[contenu['id_chaine']]] = contenu
-print(contenu)
+
 
 # **********************************************************************************************
 
