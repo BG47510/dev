@@ -104,7 +104,7 @@ print(gaze)
 
 string = data1['titre']
 def string_factory(data1, string):
-    string_list = []
+    string_list = {}
     for a_dict in data1:
         string_list.append(string.format(**a_dict))
 
