@@ -101,9 +101,12 @@ def extrait(data):
     print(contenu)
 gaze = extrait(data)
 print(gaze)
+toto ={}
+[i['titre'] for i in r_data['donnees']]
+    toto.append(['titre'])
+    #toto['title'] = ['titre']
+    print(toto)
 
-string = data1['titre']
-def string_factory(data1, string):
     string_list = {}
     for a_dict in data1:
         string_list.append(string.format(**a_dict))
