@@ -103,7 +103,8 @@ gaze = extrait(data)
 print(gaze)
 toto ={}
 [i['titre'] for i in r_data['donnees']]
-toto.update(['titre'])
+# toto.update(['titre'])
+toto['titre'].append(value)
     #toto['title'] = ['titre']
 print(toto)
 
