@@ -96,9 +96,8 @@ print(myDict.items())
 print('test***************************************************************************')
 
 contenu = {}
-for contenu in data:
-    contenu['title'] = data['titre']
-    print(contenu)
+contenu['title'] = data1['titre']
+print(contenu)
 #print(data)
 print('**********************************************************************************')
 
@@ -229,16 +228,14 @@ print(program_dict, flush=True)
 
 # ty = tvg_id(args)
 # print(ty)
-# **************************************************************************************************
+print(' ************************************************************************************************** ')
 
-#channels = ['france2', 'm6', 'w9', 'test_channel_no_present'] #!!!!!!!!!!!!!!!!!!!!!
+programs = {}
+for program in data1:
+    contenu = contenu
+            #programs[self.ID_CHAINES[program_dict['id_chaine']]] = program_dict
 
-#telerama_ids = []
-#for channel in channels:
-    #if channel in CHANNELS_ID:
-        #telerama_ids.append(CHANNELS_ID[channel])
-        
-#print(telerama_ids)
+    return programs
 
 # **********************************************************************************************
 
