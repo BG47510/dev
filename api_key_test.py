@@ -96,10 +96,10 @@ print(myDict.items())
 print('test***************************************************************************')
 
 contenu = {}
-def extrait(data1):
-    contenu['title'] = data1['titre']
+def extrait(data):
+    contenu['title'] = data['titre']
     print(contenu)
-gaze = extrait(data1)
+gaze = extrait(data)
 print(gaze)
 print('**********************************************************************************')
 
@@ -196,7 +196,7 @@ elif data['flags']['est_vost']:
 if data['note_telerama'] > 0:
     program_dict['rating'] = float(data['note_telerama'] * 2)  # Pour avoir sur 10 pour Kodi
 
-print(program_dict, flush=True)
+#print(program_dict, flush=True)
 #  'horaire': {'debut': '2024-09-13 06:00:00', 'fin': '2024-09-13 06:30:00'}
 # start_time_mili = int(data['horaire']['debut']['startTime']['value']) / 1000
 
