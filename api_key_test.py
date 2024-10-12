@@ -102,11 +102,11 @@ def extrait(data):
 gaze = extrait(data)
 print(gaze)
 toto ={}
-[i['titre'] for i in r_data['donnees']]
+tata = [i['titre'] for i in r_data['donnees']]
 # toto.update(['titre'])
-toto['titre'].append(value)
+#toto['titre'].append(value)
     #toto['title'] = ['titre']
-print(toto)
+print(tata)
 
     
 print('**********************************************************************************')
@@ -240,11 +240,6 @@ if data['note_telerama'] > 0:
 # print(ty)
 print(' ************************************************************************************************** ')
 
-prog = {}
-for program in data1:
-    contenu = extrait(data1)
-    prog[ID_CHAINES[contenu['id_chaine']]] = contenu
-return prog
 
 
 # **********************************************************************************************
