@@ -16,7 +16,7 @@ import requests
 # ******************************************
 
 CHANNELS_ID = {}  # Construit à la volée
-
+ID_CHAINES = 4
 # Variables globales
 __SOURCE = "https://api.telerama.fr"
 __HEADERS = {"User-agent": "okhttp/3.2.0"}
@@ -234,9 +234,9 @@ print(' ************************************************************************
 prog = {}
 for program in data1:
     contenu = extrait(data1)
-            #programs[self.ID_CHAINES[program_dict['id_chaine']]] = program_dict
-
+    programs[ID_CHAINES[contenu['id_chaine']]] = contenu
     return prog
+            
 
 # **********************************************************************************************
 
