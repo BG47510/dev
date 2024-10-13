@@ -59,6 +59,8 @@ data1 = r_data.get('donnees', [])
 days = 1
 channels = 4
 telerama_programs = []
+# L’objet int n’est pas itérable
+# Une façon de résoudre le problème est de passer la variable dans la fonction range().
 for i in range(0, days):
     for channel_id in range(channels):
         telerama_programs.append(data1)
