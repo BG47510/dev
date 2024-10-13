@@ -58,7 +58,7 @@ data1 = r_data.get('donnees', [])
 data = r_data['donnees'][0]
 
 days = 1
-channels = 4
+channels = 3
 telerama_programs = []
 # L’objet int n’est pas itérable
 # Une façon de résoudre le problème est de passer la variable dans la fonction range().
