@@ -60,6 +60,7 @@ data1 = r_data.get('donnees', [])
 data = r_data['donnees'][0]
 
 days = 1
+offset = 0
 channels = 3
 telerama_programs = []
 # L’objet int n’est pas itérable
