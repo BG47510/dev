@@ -65,11 +65,11 @@ telerama_programs = []
 for i in range(0, days):
     #for channel_id in range(channels):
     telerama_programs.append(r_data)
-                #get_telerama_programs(
-                    #channel_id,
-                    #datetime.date.today() + datetime.timedelta(days=i + offset),
-                #)
-            #)
+        #construit_url(
+        #channel_id,
+        #datetime.date.today() + datetime.timedelta(days=i + offset),
+        #)
+        
 print(telerama_programs)
     #france_tz = pytz.timezone("Europe/Paris")
 #for programs in telerama_programs:
