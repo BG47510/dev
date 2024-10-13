@@ -16,7 +16,7 @@ import requests
 # ******************************************
 
 CHANNELS_ID = {}  # Construit à la volée
-ID_CHAINES = 4
+ID_CHAINES = 3
 # Variables globales
 __SOURCE = "https://api.telerama.fr"
 __HEADERS = {"User-agent": "okhttp/3.2.0"}
