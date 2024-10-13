@@ -54,12 +54,14 @@ reponse = requests.get(api)
 
 # Convertie la chaîne JSON en dictionnaire Python.
 r_data = reponse.json() # La mise à jour de télérama est à 06h00.
+data1 = r_data.get('donnees', [])
+
 days = 1
 channels = 4
 telerama_programs = []
 for i in range(0, days):
     for channel_id in channels:
-        telerama_programs.append(r_data)
+        telerama_programs.append(data1)
                 #get_telerama_programs(
                     #channel_id,
                     #datetime.date.today() + datetime.timedelta(days=i + offset),
@@ -72,7 +74,7 @@ for programs in telerama_programs:
         data = [i.strip() for i in program.split("$$$")]
 # data = r_data['donnees'][0]
 
-data1 = r_data.get('donnees', [])
+
 print(data)
         
 print('test***************************************************************************')
