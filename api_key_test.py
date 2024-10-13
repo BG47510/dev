@@ -73,7 +73,7 @@ for i in range(0, days):
     #france_tz = pytz.timezone("Europe/Paris")
 for programs in telerama_programs:
     for program in programs:
-        data = [i.strip() for i in program.split("$$$")]
+        data = (i.strip() for i in program.split("$$$"))
 # data = r_data['donnees'][0]
 
 
