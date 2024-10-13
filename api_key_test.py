@@ -60,7 +60,7 @@ days = 1
 channels = 4
 telerama_programs = []
 for i in range(0, days):
-    for channel_id in channels:
+    for channel_id in range(channels):
         telerama_programs.append(data1)
                 #get_telerama_programs(
                     #channel_id,
