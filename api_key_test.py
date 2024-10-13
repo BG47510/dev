@@ -22,6 +22,8 @@ __SOURCE = "https://api.telerama.fr"
 __HEADERS = {"User-agent": "okhttp/3.2.0"}
 # __ARGS = workflows_args()
 # args = workflows_args()
+__DATE = datetime.datetime.now() # la date et l'heure du jour
+__JOUR = __DATE.strftime("%Y-%m-%d") # la date du jour
 __DEFAULT_DAYS = 1
 
 _API_CLE = "apitel-5304b49c90511"
@@ -45,7 +47,7 @@ _TELERAMA_PROGRAM_URL = "http://www.telerama.fr"
 api = "https://github.com/BG47510/dev/raw/refs/heads/main/rama/grille"
 
 
-# Loop process
+j_h = (__JOUR + datetime.timedelta(days=i + offset))
 
 #with requests.session() as session:
     #reponse = session.get(api, headers=__HEADERS)
@@ -67,7 +69,7 @@ for i in range(0, days):
     telerama_programs.append(r_data)
         #construit_url(
         #channel_id,
-        #datetime.date.today() + datetime.timedelta(days=i + offset),
+        #__JOUR + datetime.timedelta(days=i + offset),
         #)
         
 print(telerama_programs)
