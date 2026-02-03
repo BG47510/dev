@@ -13,7 +13,7 @@ IFS=$'\n\t'                     # Séparer correctement les lignes
 
 # --------------------------- Constantes ---------------------------
 readonly SCRIPT_NAME="epg.sh"
-readonly REPO_URL="https://github.com/davidmuma/miEPG"
+readonly REPO_URL="https://github.com/"
 readonly LOG_PREFIX="│"
 
 # --------------------------- Fonctions ---------------------------
@@ -98,8 +98,8 @@ log "Répertoire temporaire créé : $TMPDIR"
 
 # Copies sécurisées des listes d’entrée (on ne modifie jamais les originaux)
 cp epgs.txt "$TMPDIR/epgs.lst"
-cp canales.txt "$TMPDIR/canales.lst"
-sed -i '/^ *$/d' "$TMPDIR/epgs.lst" "$TMPDIR/canales.lst"
+cp id.txt "$TMPDIR/id.lst"
+sed -i '/^ *$/d' "$TMPDIR/epgs.lst" "$TMPDIR/id.lst"
 
 # Fichiers agrégés
 ALL_XML="$TMPDIR/EPG_all.xml"
@@ -129,11 +129,11 @@ done < "$TMPDIR/epgs.lst"
 log "─── FIN DES TÉLÉCHARGEMENTS ───"
 
 # --------------------------- Lecture du mapping de chaînes ---------------------------
-mapfile -t canales < "$TMPDIR/canales.lst"
+mapfile -t id < "$TMPDIR/id.lst"
 
 # Normalisation du tableau (suppression d’espaces superflus)
-for i in "${!canales[@]}"; do
-    IFS=',' read -r old new logo offset <<< "${canales[$i]}"
+for i in "${!id[@]}"; do
+    IFS=',' read -r old new logo offset <<< "${id[$i]}"
     old=$(printf '%s' "$old" | xargs)
     new=$(printf '%s' "$new" | xargs)
     logo=$(printf '%s' "$logo" | xargs)
@@ -144,7 +144,7 @@ for i in "${!canales[@]}"; do
         offset="$logo"
         logo=""
     fi
-    canales[$i]="$old,$new,$logo,$offset"
+    id[$i]="$old,$new,$logo,$offset"
 done
 
 # --------------------------- Traitement des chaînes ---------------------------
@@ -153,7 +153,7 @@ PROGRAM_XML="$TMPDIR/EPG_programmes.xml"
 > "$CHANNEL_XML"
 > "$PROGRAM_XML"
 
-for linea in "${canales[@]}"; do
+for linea in "${id[@]}"; do
     IFS=',' read -r old new logo offset <<< "$linea"
     count=$(grep -c "channel=\"$old\"" "$ALL_XML" || true)
 
