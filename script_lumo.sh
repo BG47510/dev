@@ -231,15 +231,15 @@ log "─── FIN DU TRAITEMENT DES CHAÎNES ───"
 
 # --------------------------- Gestion des limites temporelles ---------------------------
 # Valeurs par défaut si variables.txt est absent ou incomplet
-dias_pasados=$(grep "^dias-pasados=" variables.txt 2>/dev/null | cut -d'=' -f2 | xargs || echo 0)
-dias_futuros=$(grep "^dias-futuros=" variables.txt 2>/dev/null | cut -d'=' -f2 | xargs || echo 99)
+jours_avant=$(grep "^jours-avant=" variables.txt 2>/dev/null | cut -d'=' -f2 | xargs || echo 0)
+jours_venir=$(grep "^jours-venir=" variables.txt 2>/dev/null | cut -d'=' -f2 | xargs || echo 99)
 
 # Compatibilité GNU date – sur macOS remplacer par gdate
-cutoff_past=$(date -d "$dias_pasados days ago 00:00" +"%Y%m%d%H%M%S")
-cutoff_future=$(date -d "$dias_futuros days 02:00" +"%Y%m%d%H%M%S")
+cutoff_past=$(date -d "$jours_avant days ago 00:00" +"%Y%m%d%H%M%S")
+cutoff_future=$(date -d "$jours_venir days 02:00" +"%Y%m%d%H%M%S")
 
-log "Limite passé : $cutoff_past  (‑$dias_pasados jrs)"
-log "Limite futur : $cutoff_future (+$dias_futuros jrs)"
+log "Limite passé : $cutoff_past  (‑$jours_avant jrs)"
+log "Limite futur : $cutoff_future (+$jours_venir jrs)"
 
 # Filtrage final avec Perl (déduplication + suppression hors‑limites)
 perl -i -ne '
