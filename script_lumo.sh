@@ -260,8 +260,8 @@ perl -i -ne '
     print;
     END {
         warn " ─► Ajouté : $kept\n";
-        warn " ─► Passés supprimés : $removed_past\n";
-        warn " ─► Futurs supprimés : $removed_future\n";
+        warn " ─► Avant supprimé : $removed_past\n";
+        warn " ─► Venir supprimé : $removed_future\n";
         warn " ─► Doublons éliminés : $duplicates\n";
     }
 ' "$PROGRAM_XML"
