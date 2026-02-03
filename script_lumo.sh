@@ -120,9 +120,9 @@ while IFS=, read -r epg_url; do
     fi
 
     # Extraction des chaînes et agrégation du XML complet
-    listado="canales_epg${epg_idx}.txt"
-    printf "# Source: %s\n" "$epg_url" > "$listado"
-    extract_channels "$tmp_file" "$listado"
+    liste="id_epg${epg_idx}.txt"
+    printf "# Source: %s\n" "$epg_url" > "$liste"
+    extract_channels "$tmp_file" "$liste"
     cat "$tmp_file" >> "$ALL_XML"
 done < "$TMPDIR/epgs.lst"
 
