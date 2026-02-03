@@ -282,8 +282,8 @@ if validate_xml "$OUTPUT"; then
     nb_chan=$(grep -c "<channel " "$OUTPUT")
     nb_prog=$(grep -c "<programme " "$OUTPUT")
     log "📺  Chaînes : $nb_chan | Programmes : $nb_prog"
-    cp "$OUTPUT" epg_accumuler.xml
-    log "🔁  epg_accumuler.xml mis à jour pour la prochaine exécution."
+    cp "$OUTPUT" epg_archive.xml
+    log "🔁  epg_archive.xml mis à jour pour la prochaine exécution."
 else
     log "❗  Le XML comporte des erreurs – le fichier n’a pas été sauvegardé."
 fi
