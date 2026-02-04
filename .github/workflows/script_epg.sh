@@ -244,8 +244,8 @@ log "Limite venir : $cutoff_future (+$jours_venir jrs)"
 # Filtrage final avec Perl (déduplication + suppression hors‑limites)
 perl -i -ne '
     BEGIN {
-        $past   = "'$cutoff_past'";
-        $future = "'$cutoff_future'";
+        $past   = "'"$cutoff_past"'";
+        $future = "'"$cutoff_future"'";
         %seen   = ();
         $kept   = $removed_past = $removed_future = $duplicates = 0;
     }
