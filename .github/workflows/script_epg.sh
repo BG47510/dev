@@ -96,10 +96,14 @@ require_cmd sed    # sur macOS remplacer par gsed si nécessaire
 TMPDIR=$(mktemp -d)
 log "Répertoire temporaire créé : $TMPDIR"
 
+# Vérification de l'existence des fichiers avant de les copier
+[[ -f epgs.txt ]] || die "Fichier epgs.txt introuvable."
+[[ -f choix.txt ]] || die "Fichier choix.txt introuvable."
+
 # Copies sécurisées des listes d’entrée (on ne modifie jamais les originaux)
 cp epgs.txt "$TMPDIR/epgs.lst"
 cp choix.txt "$TMPDIR/choix.lst"
-sed -i '/^ *$/d' "$TMPDIR/epgs.lst" "$TMPDIR/choix.lst"
+sed -i '' '/^ *$/d' "$TMPDIR/epgs.lst" "$TMPDIR/choix.lst"
 
 # Fichiers agrégés
 ALL_XML="$TMPDIR/EPG_all.xml"
