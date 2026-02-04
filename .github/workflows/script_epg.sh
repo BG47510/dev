@@ -152,6 +152,7 @@ for i in "${!choix[@]}"; do
 done
 
 # --------------------------- Traitement des chaînes ---------------------------
+# --------------------------- Traitement des chaînes ---------------------------
 CHANNEL_XML="$TMPDIR/EPG_channels.xml"
 PROGRAM_XML="$TMPDIR/EPG_programmes.xml"
 > "$CHANNEL_XML"
@@ -159,7 +160,8 @@ PROGRAM_XML="$TMPDIR/EPG_programmes.xml"
 
 for linea in "${choix[@]}"; do
     IFS=',' read -r old new logo offset <<< "$linea"
-    count=$(grep -c "channel=\"$old\"" "$ALL_XML" || true)
+    local count
+    count=$(grep -c "channel=\"$old\"" "$ALL_XML")
 
     if (( count == 0 )); then
         log "⏭️  Chaîne ignorée : $old (aucune correspondance)"
@@ -171,7 +173,6 @@ for linea in "${choix[@]}"; do
     # ------------------------------------------------------------------
     {
         printf '  <channel id="%s">\n' "$new"
-        # Ajout des <display-name> depuis variables.txt (si présent)
         if [[ -f variables.txt ]]; then
             suffixes=$(grep "display-name=" variables.txt | cut -d'=' -f2 | tr -d ' ')
             IFS=',' read -ra tags <<< "$suffixes"
@@ -182,11 +183,9 @@ for linea in "${choix[@]}"; do
             printf '    <display-name>%s</display-name>\n' "$new"
         fi
 
-        # Logo – nouveau ou conservé
         if [[ -n "$logo" ]]; then
             printf '    <icon src="%s" />\n' "$logo"
         else
-            # Récupération du premier logo existant
             orig_logo=$(sed -n "/<channel id=\"$old\">/,/<\/channel>/p" "$ALL_XML" |
                         grep "<icon src" | head -1 | sed 's/^[[:space:]]*//')
             [[ -n "$orig_logo" ]] && printf '    %s\n' "$orig_logo"
@@ -201,22 +200,21 @@ for linea in "${choix[@]}"; do
     sed -n "/<programme.*\"${old}\"/,/<\/programme>/p" "$ALL_XML" > "$prog_tmp"
 
     # Suppression de l’attribut channel et insertion du nouveau nom
-    sed -i "s/ channel=\"${old}\"/ channel=\"${new}\"/g" "$prog_tmp"
+    sed -i '' "s/ channel=\"${old}\"/ channel=\"${new}\"/g" "$prog_tmp"
 
-    # Ajustement d’heure si un offset est fourni
     if [[ "$offset" =~ ^[+-]?[0-9]+$ ]]; then
         log "🕒  Application d’un offset de $offset h sur $new"
         export OFFSET_SEC=$(( offset * 3600 ))
         export NEW_CHAN="$new"
         perl -MDate::Parse -MDate::Format -i'' -pe '
             if (/<programme start="([^"]+) ([^"]+)" stop="([^"]+) ([^"]+)" channel="[^"]+">/) {
-                my ($s, $tzs, $e, $tze) = ($1,$2,$3,$4);
-                my $s_fmt = sprintf("%04d-%02d-%02d %02d:%02d:%02d",
-                                    substr($s,0,4), substr($s,4,2), substr($s,6,2),
-                                    substr($s,8,2), substr($s,10,2), substr($s,12,2));
-                my $e_fmt = sprintf("%04d-%02d-%02d %02d:%02d:%02d",
-                                    substr($e,0,4), substr($e,4,2), substr($e,6,2),
-                                    substr($e,8,2), substr($e,10,2), substr($e,12,2));
+                my ($s, $tzs, $e, $tze) = ($1, $2, $3, $4);
+                my $s_fmt = sprintf("%04d-%02d-%02d %02d:%02d:%02d", 
+                                    substr($s, 0, 4), substr($s, 4, 2), substr($s, 6, 2),
+                                    substr($s, 8, 2), substr($s, 10, 2), substr($s, 12, 2));
+                my $e_fmt = sprintf("%04d-%02d-%02d %02d:%02d:%02d", 
+                                    substr($e, 0, 4), substr($e, 4, 2), substr($e, 6, 2),
+                                    substr($e, 8, 2), substr($e, 10, 2), substr($e, 12, 2));
                 my $s_ts = str2time("$s_fmt $tzs") + $ENV{OFFSET_SEC};
                 my $e_ts = str2time("$e_fmt $tze") + $ENV{OFFSET_SEC};
                 my $s_new = time2str("%Y%m%d%H%M%S $tzs", $s_ts);
