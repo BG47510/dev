@@ -154,7 +154,7 @@ for i in "${!choix[@]}"; do
         offset="$logo"
         logo=""
     fi
-    choix[$i]="$old,$new,$logo,$offset"
+    choix=("$old,$new,$logo,$offset")
 done
 
 # --------------------------- Traitement des chaînes ---------------------------
