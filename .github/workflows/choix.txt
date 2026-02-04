@@ -1,0 +1,6 @@
+#4 champs, séparés uniquement par des virgules : ancien_id,nouveau_id,logo_url,offset_h
+#Laissez le champ logo_url vide si vous ne voulez pas le changer.
+#Laissez le champ offset_h vide si aucun décalage n’est nécessaire.
+#Pas d’espaces inutiles, pas de lignes blanches, encodage UTF‑8.
+6ter.fr,6ter,https://img.freepik.com/vecteurs-premium/cadre-peint-aquarelle-abstraite_23-2149087108.jpg,
+Arte.fr,Arte.fr,,-2
