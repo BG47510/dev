@@ -20,11 +20,11 @@ jobs:
 
       - name: Vérifier et installer xmllint
         run: |
-        sudo apt-get update && sudo apt-get install -y libxml2-utils
+         sudo apt-get update && sudo apt-get install -y libxml2-utils
 
       - name: Donner des autorisations d'exécution au script
         run: |
-        chmod +x .github/workflows/script_epg.sh
+         chmod +x .github/workflows/script_epg.sh
 
       - name: Exécuter le script
         run: .github/workflows/script_epg.sh
