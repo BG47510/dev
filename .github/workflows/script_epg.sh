@@ -92,6 +92,9 @@ require_cmd date   # sur macOS remplacer par gdate si nécessaire
 require_cmd sed    # sur macOS remplacer par gsed si nécessaire
 
 # --------------------------- Boucle de téléchargement ---------------------------
+TMPDIR=$(mktemp -d)
+log "Répertoire temporaire créé : $TMPDIR"
+
 epg_idx=0
 while IFS=, read -r epg_url; do
     ((epg_idx++))
@@ -113,8 +116,6 @@ done < "$TMPDIR/epgs.lst"
 log "─── FIN DES TÉLÉCHARGEMENTS ───"
 
 # --------------------------- Variables temporaires ---------------------------
-TMPDIR=$(mktemp -d)
-log "Répertoire temporaire créé : $TMPDIR"
 
 # Vérification de l'existence des fichiers avant de les copier
 [[ -f epgs.txt ]] || die "Fichier epgs.txt introuvable."
