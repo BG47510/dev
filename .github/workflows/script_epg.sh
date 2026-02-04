@@ -91,6 +91,27 @@ require_cmd xmllint
 require_cmd date   # sur macOS remplacer par gdate si nécessaire
 require_cmd sed    # sur macOS remplacer par gsed si nécessaire
 
+# --------------------------- Boucle de téléchargement ---------------------------
+epg_idx=0
+while IFS=, read -r epg_url; do
+    ((epg_idx++))
+    tmp_file="$TMPDIR/EPG_${epg_idx}.xml"
+
+    # Téléchargement (gère .gz automatiquement)
+    if ! download_epg "$epg_url" "$tmp_file"; then
+        log "⚠️  Passage au prochain EPG"
+        continue
+    fi
+
+    # Extraction des chaînes et agrégation du XML complet
+    liste="choix_epg${epg_idx}.txt"
+    printf "# Source: %s\n" "$epg_url" > "$liste"
+    extract_channels "$tmp_file" "$liste"
+    cat "$tmp_file" >> "$ALL_XML"
+done < "$TMPDIR/epgs.lst"
+
+log "─── FIN DES TÉLÉCHARGEMENTS ───"
+
 # --------------------------- Variables temporaires ---------------------------
 TMPDIR=$(mktemp -d)
 log "Répertoire temporaire créé : $TMPDIR"
@@ -116,27 +137,6 @@ ALL_XML="$TMPDIR/EPG_all.xml"
 CHANNEL_LIST="$TMPDIR/channel_list.txt"
 "$ALL_XML"
 "$CHANNEL_LIST"
-
-# --------------------------- Boucle de téléchargement ---------------------------
-epg_idx=0
-while IFS=, read -r epg_url; do
-    ((epg_idx++))
-    tmp_file="$TMPDIR/EPG_${epg_idx}.xml"
-
-    # Téléchargement (gère .gz automatiquement)
-    if ! download_epg "$epg_url" "$tmp_file"; then
-        log "⚠️  Passage au prochain EPG"
-        continue
-    fi
-
-    # Extraction des chaînes et agrégation du XML complet
-    liste="choix_epg${epg_idx}.txt"
-    printf "# Source: %s\n" "$epg_url" > "$liste"
-    extract_channels "$tmp_file" "$liste"
-    cat "$tmp_file" >> "$ALL_XML"
-done < "$TMPDIR/epgs.lst"
-
-log "─── FIN DES TÉLÉCHARGEMENTS ───"
 
 # --------------------------- Lecture du mapping de chaînes ---------------------------
 mapfile -t choix < "$TMPDIR/choix.lst"
