@@ -12,7 +12,6 @@ set -euo pipefail
 IFS=$'\n\t'                     # Séparer correctement les lignes
 
 # --------------------------- Constantes ---------------------------
-readonly SCRIPT_NAME="script_epg.sh"
 readonly REPO_URL="https://github.com/"
 readonly LOG_PREFIX="│"
 
@@ -115,8 +114,8 @@ fi
 # Fichiers agrégés
 ALL_XML="$TMPDIR/EPG_all.xml"
 CHANNEL_LIST="$TMPDIR/channel_list.txt"
-> "$ALL_XML"
-> "$CHANNEL_LIST"
+"$ALL_XML"
+"$CHANNEL_LIST"
 
 # --------------------------- Boucle de téléchargement ---------------------------
 epg_idx=0
@@ -162,8 +161,8 @@ done
 # --------------------------- Traitement des chaînes ---------------------------
 CHANNEL_XML="$TMPDIR/EPG_channels.xml"
 PROGRAM_XML="$TMPDIR/EPG_programmes.xml"
-> "$CHANNEL_XML"
-> "$PROGRAM_XML"
+"$CHANNEL_XML"
+"$PROGRAM_XML"
 
 for linea in "${choix[@]}"; do
     IFS=',' read -r old new logo offset <<< "$linea"
