@@ -98,8 +98,8 @@ log "Répertoire temporaire créé : $TMPDIR"
 
 # Copies sécurisées des listes d’entrée (on ne modifie jamais les originaux)
 cp epgs.txt "$TMPDIR/epgs.lst"
-cp id.txt "$TMPDIR/id.lst"
-sed -i '/^ *$/d' "$TMPDIR/epgs.lst" "$TMPDIR/id.lst"
+cp choix.txt "$TMPDIR/choix.lst"
+sed -i '/^ *$/d' "$TMPDIR/epgs.lst" "$TMPDIR/choix.lst"
 
 # Fichiers agrégés
 ALL_XML="$TMPDIR/EPG_all.xml"
