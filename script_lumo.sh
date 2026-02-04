@@ -120,7 +120,7 @@ while IFS=, read -r epg_url; do
     fi
 
     # Extraction des chaînes et agrégation du XML complet
-    liste="id_epg${epg_idx}.txt"
+    liste="choix_epg${epg_idx}.txt"
     printf "# Source: %s\n" "$epg_url" > "$liste"
     extract_channels "$tmp_file" "$liste"
     cat "$tmp_file" >> "$ALL_XML"
@@ -129,11 +129,11 @@ done < "$TMPDIR/epgs.lst"
 log "─── FIN DES TÉLÉCHARGEMENTS ───"
 
 # --------------------------- Lecture du mapping de chaînes ---------------------------
-mapfile -t id < "$TMPDIR/id.lst"
+mapfile -t choix < "$TMPDIR/choix.lst"
 
 # Normalisation du tableau (suppression d’espaces superflus)
-for i in "${!id[@]}"; do
-    IFS=',' read -r old new logo offset <<< "${id[$i]}"
+for i in "${!choix[@]}"; do
+    IFS=',' read -r old new logo offset <<< "${choix[$i]}"
     old=$(printf '%s' "$old" | xargs)
     new=$(printf '%s' "$new" | xargs)
     logo=$(printf '%s' "$logo" | xargs)
@@ -144,7 +144,7 @@ for i in "${!id[@]}"; do
         offset="$logo"
         logo=""
     fi
-    id[$i]="$old,$new,$logo,$offset"
+    choix[$i]="$old,$new,$logo,$offset"
 done
 
 # --------------------------- Traitement des chaînes ---------------------------
@@ -153,7 +153,7 @@ PROGRAM_XML="$TMPDIR/EPG_programmes.xml"
 > "$CHANNEL_XML"
 > "$PROGRAM_XML"
 
-for linea in "${id[@]}"; do
+for linea in "${choix[@]}"; do
     IFS=',' read -r old new logo offset <<< "$linea"
     count=$(grep -c "channel=\"$old\"" "$ALL_XML" || true)
 
