@@ -238,8 +238,8 @@ jours_venir=$(grep "^jours-venir=" variables.txt 2>/dev/null | cut -d'=' -f2 | x
 cutoff_past=$(date -d "$jours_avant days ago 00:00" +"%Y%m%d%H%M%S")
 cutoff_future=$(date -d "$jours_venir days 02:00" +"%Y%m%d%H%M%S")
 
-log "Limite passé : $cutoff_past  (‑$jours_avant jrs)"
-log "Limite futur : $cutoff_future (+$jours_venir jrs)"
+log "Limite avant : $cutoff_past  (‑$jours_avant jrs)"
+log "Limite venir : $cutoff_future (+$jours_venir jrs)"
 
 # Filtrage final avec Perl (déduplication + suppression hors‑limites)
 perl -i -ne '
