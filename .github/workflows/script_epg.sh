@@ -95,6 +95,14 @@ require_cmd sed    # sur macOS remplacer par gsed si nécessaire
 TMPDIR=$(mktemp -d)
 log "Répertoire temporaire créé : $TMPDIR"
 
+# Vérification de l'existence des fichiers avant de les copier
+[[ -f epgs.txt ]] || die "Fichier epgs.txt introuvable."
+[[ -f choix.txt ]] || die "Fichier choix.txt introuvable."
+
+# Copies sécurisées des listes d’entrée (on ne modifie jamais les originaux)
+cp epgs.txt "$TMPDIR/epgs.lst"
+cp choix.txt "$TMPDIR/choix.lst"
+
 epg_idx=0
 while IFS=, read -r epg_url; do
     ((epg_idx++))
@@ -116,14 +124,6 @@ done < "$TMPDIR/epgs.lst"
 log "─── FIN DES TÉLÉCHARGEMENTS ───"
 
 # --------------------------- Variables temporaires ---------------------------
-
-# Vérification de l'existence des fichiers avant de les copier
-[[ -f epgs.txt ]] || die "Fichier epgs.txt introuvable."
-[[ -f choix.txt ]] || die "Fichier choix.txt introuvable."
-
-# Copies sécurisées des listes d’entrée (on ne modifie jamais les originaux)
-cp epgs.txt "$TMPDIR/epgs.lst"
-cp choix.txt "$TMPDIR/choix.lst"
 
 # Suppression des lignes vides
 # Modifiez selon l'environnement (Linux ou macOS)
