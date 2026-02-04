@@ -1,4 +1,4 @@
-name: Télé-Loisirs
+name: snifb01
 
 on:
   schedule:
@@ -19,16 +19,16 @@ jobs:
           repository: ${{ github.repository }}
 
       - name: Vérifier et installer xmllint
-      run: |
+       run: |
         sudo apt-get update && sudo apt-get install -y libxml2-utils
-
-      - name: Donner des autorisations d'exécution au script
+        
+        - name: Donner des autorisations d'exécution au script
       run: |
         chmod +x .github/workflows/script_epg.sh
-
-      - name: Exécuter le script
-      run: .github/workflows/script_epg.sh
         
+        - name: Exécuter le script
+      run: .github/workflows/script_epg.sh
+      
       - name: Compresse le fichier xml
         run: |
           gzip -c epg_archive.xml > epg_archive.xml.gz 
