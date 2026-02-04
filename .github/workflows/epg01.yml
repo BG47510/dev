@@ -1,0 +1,44 @@
+name: Télé-Loisirs
+
+on:
+  schedule:
+    - cron: '0 12 */1 * *'  # à 12h toutes les 24 heures
+  workflow_dispatch:       # Permet le déclenchement manuel
+
+permissions:
+   contents: write
+
+jobs:
+  creer-xml:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Référentiel d’extraction
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository }}
+
+      - name: Vérifier et installer xmllint
+        run: |
+        sudo apt-get update && sudo apt-get install -y libxml2-utils
+
+      - name: Donner des autorisations d'exécution au script
+        run: |
+        chmod +x .github/workflows/script_epg.sh
+
+      - name: Exécuter le script
+        run: .github/workflows/script_epg.sh
+        
+      - name: Compresse le fichier xml
+        run: |
+          gzip -c epg_archive.xml > epg_archive.xml.gz 
+          
+      - name: Valide et envoie les modifications
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add -A
+          ls -la 
+          git commit -m "Dernière actualisation"
+          git push          
+          
