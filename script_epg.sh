@@ -12,7 +12,7 @@ set -euo pipefail
 IFS=$'\n\t'                     # Séparer correctement les lignes
 
 # --------------------------- Constantes ---------------------------
-readonly SCRIPT_NAME="epg.sh"
+readonly SCRIPT_NAME="script_epg.sh"
 readonly REPO_URL="https://github.com/"
 readonly LOG_PREFIX="│"
 
