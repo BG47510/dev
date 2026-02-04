@@ -167,7 +167,6 @@ PROGRAM_XML="$TMPDIR/EPG_programmes.xml"
 
 for linea in "${choix[@]}"; do
     IFS=',' read -r old new logo offset <<< "$linea"
-    local count
     count=$(grep -c "channel=\"$old\"" "$ALL_XML")
 
     if (( count == 0 )); then
