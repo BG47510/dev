@@ -1,8 +1,8 @@
 name: Télé-Loisirs
 
 on:
-  schedule:
-    - cron: '0 12 */1 * *'  # à 12h toutes les 24 heures
+  #schedule:
+    #- cron: '0 12 */1 * *'  # à 12h toutes les 24 heures
   workflow_dispatch:       # Permet le déclenchement manuel
 
 permissions:
