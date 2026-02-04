@@ -103,7 +103,14 @@ log "Répertoire temporaire créé : $TMPDIR"
 # Copies sécurisées des listes d’entrée (on ne modifie jamais les originaux)
 cp epgs.txt "$TMPDIR/epgs.lst"
 cp choix.txt "$TMPDIR/choix.lst"
-sed -i '' '/^ *$/d' "$TMPDIR/epgs.lst" "$TMPDIR/choix.lst"
+
+# Suppression des lignes vides
+# Modifiez selon l'environnement (Linux ou macOS)
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    sed -i '' '/^ *$/d' "$TMPDIR/epgs.lst" "$TMPDIR/choix.lst"  # Pour macOS
+else
+    sed -i '/^ *$/d' "$TMPDIR/epgs.lst" "$TMPDIR/choix.lst"  # Pour Linux
+fi
 
 # Fichiers agrégés
 ALL_XML="$TMPDIR/EPG_all.xml"
