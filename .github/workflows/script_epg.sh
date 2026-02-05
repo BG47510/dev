@@ -25,20 +25,32 @@ download_epg() {
     # Boucle pour télécharger l'EPG un nombre x de fois
     for (( i=1; i<=epg_count; i++ )); do
         echo "Téléchargement de l'EPG numéro $i..."
-
+        
+        # Téléchargement et compression
         echo " │ Téléchargement et décompression: $epg"
-        wget -O "$temp_dir/EPG_temp_$i.xml.gz" -q "$epg" || return 1
+        wget -O "$temp_dir/EPG_temp.xml.gz" -q "$epg" || return 1
 
-        if [ ! -s "$temp_dir/EPG_temp_$i.xml.gz" ] || ! gzip -t "$temp_dir/EPG_temp_$i.xml.gz" 2>/dev/null; then
+        # Vérification du fichier téléchargé
+        if [ ! -s "$temp_dir/EPG_temp.xml.gz" ] || ! gzip -t "$temp_dir/EPG_temp.xml.gz" 2>/dev/null; then
             echo " └─► ❌ ERROR: le fichier téléchargé est vide ou n'est pas un gzip valide."
             return 1
         fi
         
-        gzip -d -f "$temp_dir/EPG_temp_$i.xml.gz"
+        # Décompression du fichier
+        gzip -d -f "$temp_dir/EPG_temp.xml.gz"
+        
+        # Vérifiez si le fichier a bien été décompressé
+        if [[ -f "$temp_dir/EPG_temp.xml" ]]; then
+            echo "Fichier décompressé avec succès : $temp_dir/EPG_temp.xml"
+        else
+            echo "Erreur : Le fichier décompressé n'existe pas."
+            return 1
+        fi
     done
-
+    
     echo "Téléchargement terminé."
 }
+
 
 
 # Generate channel list from the downloaded XML
