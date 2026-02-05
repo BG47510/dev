@@ -26,15 +26,20 @@ download_epg() {
     for (( i=1; i<=epg_count; i++ )); do
         echo "Téléchargement de l'EPG numéro $i..."
 
-    echo " │ Téléchargement et décompression: $epg"
-    wget -O "$temp_dir/EPG_temp.xml.gz" -q "$epg" || return 1
+        echo " │ Téléchargement et décompression: $epg"
+        wget -O "$temp_dir/EPG_temp_$i.xml.gz" -q "$epg" || return 1
 
-    if [ ! -s "$temp_dir/EPG_temp.xml.gz" ] || ! gzip -t "$temp_dir/EPG_temp.xml.gz" 2>/dev/null; then
-        echo " └─► ❌ ERROR: le fichier téléchargé est vide ou n'est pas un gzip valide."
-        return 1
-    fi
-    gzip -d -f "$temp_dir/EPG_temp.xml.gz"
+        if [ ! -s "$temp_dir/EPG_temp_$i.xml.gz" ] || ! gzip -t "$temp_dir/EPG_temp_$i.xml.gz" 2>/dev/null; then
+            echo " └─► ❌ ERROR: le fichier téléchargé est vide ou n'est pas un gzip valide."
+            return 1
+        fi
+        
+        gzip -d -f "$temp_dir/EPG_temp_$i.xml.gz"
+    done
+
+    echo "Téléchargement terminé."
 }
+
 
 # Generate channel list from the downloaded XML
 # Générer une liste de chaînes à partir du XML téléchargé
