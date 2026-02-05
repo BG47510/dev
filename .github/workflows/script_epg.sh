@@ -12,30 +12,6 @@ clean_file() {
     sed -i '/^ *$/d' "$1"
 }
 
-download_epg() {
-    local epg="$1"
-    local epg_count="$2"
-    local temp_dir="$3"
-    
-    # Assurez-vous que le répertoire temporaire existe
-    mkdir -p "$temp_dir"
-
-    # Boucle pour télécharger l'EPG un nombre x de fois
-    for (( i=1; i<=epg_count; i++ )); do
-        echo "Téléchargement de l'EPG numéro $i..."
-        # Remplacer cette ligne par le vrai code de téléchargement
-        # par exemple : wget "$epg" -P "$temp_dir"
-    done
-    
-    echo "Téléchargement terminé."
-}
-
-
-
-
-
-
-
 # Download and decompress EPG files
 # Téléchargez et décompressez les fichiers EPG
 download_epg() {
