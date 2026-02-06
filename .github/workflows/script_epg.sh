@@ -67,6 +67,7 @@ download_and_merge_epg() {
         if [[ "$extension" == "gz" ]]; then
             log " │ Téléchargement et décompression: $epg"
             if wget -q -O "${temp}.gz" "$epg"; then
+               [ ! -s "${temp}.gz" ]; then
                 log " │ Téléchargement réussi: $epg"
             else
                 log " │ Échec du téléchargement: $epg"
