@@ -43,6 +43,13 @@ load_variables() {
 
 download_and_merge_epg() {
     log "─── TÉLÉCHARGEMENT EPGs ───"
+    
+    # Vérifie si le fichier epgs.txt existe
+    if [[ ! -f epgs.txt ]]; then
+        log "Erreur : le fichier epgs.txt est manquant."
+        exit 1
+    fi
+
     > EPG_temp.xml
     epg_count=0
 
@@ -52,15 +59,31 @@ download_and_merge_epg() {
 
         ((epg_count++))
         extension="${epg##*.}"
-        temp="EPG_temp00.xml"
+        temp="EPG_temp_${epg_count}.xml"
 
         if [[ "$extension" == "gz" ]]; then
             log " │ Téléchargement et décompression: $epg"
-            wget -q -O "${temp}.gz" "$epg" || continue
-            gzip -df "${temp}.gz" || continue
+            if wget -q -O "${temp}.gz" "$epg"; then
+                log " │ Téléchargement réussi: $epg"
+            else
+                log " │ Échec du téléchargement: $epg"
+                continue
+            fi
+
+            if gzip -df "${temp}.gz"; then
+                log " │ Décompression réussie: ${temp}.gz"
+            else
+                log " │ Échec de la décompression: ${temp}.gz"
+                continue
+            fi
         else
             log " │ Téléchargement: $epg"
-            wget -q -O "$temp" "$epg" || continue
+            if wget -q -O "$temp" "$epg"; then
+                log " │ Téléchargement réussi: $epg"
+            else
+                log " │ Échec du téléchargement: $epg"
+                continue
+            fi
         fi
 
         [[ ! -s "$temp" ]] && continue
@@ -81,7 +104,11 @@ download_and_merge_epg() {
                     match($0, /src="([^"]+)"/, a); logo=a[1];
                 }
                 /<\/channel>/ {
-                    print id "," name "," logo;
+                    output = id "," name;
+                    if (length(logo) > 0) {
+                        output = output "," logo;
+                    }
+                    print output;
                 }
             ' "$temp"
         } > "$listado"
@@ -89,7 +116,13 @@ download_and_merge_epg() {
         cat "$temp" >> EPG_temp.xml
     done < epgs.txt
 
-    sed -i 's/></>\n</g' EPG_temp.xml
+    # Vérification de la validité du fichier XML avant modification
+    if xmllint --noout EPG_temp.xml 2>/dev/null; then
+        sed -i 's/></>\n</g' EPG_temp.xml
+    else
+        log "Erreur : EPG_temp.xml n'est pas un fichier XML bien formé."
+        exit 1
+    fi
 }
 
 ########################################
