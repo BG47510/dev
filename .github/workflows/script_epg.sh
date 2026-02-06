@@ -50,6 +50,9 @@ download_and_merge_epg() {
         exit 1
     fi
 
+    # Log additionnel
+    log "Fichier epgs.txt trouvé."
+
     > EPG_temp.xml
     epg_count=0
 
@@ -118,6 +121,11 @@ download_and_merge_epg() {
 
     # Vérification de la validité du fichier XML avant modification
     if xmllint --noout EPG_temp.xml 2>/dev/null; then
+        log "Fichier XML valide."
+    else
+        log "Erreur : le fichier EPG_temp.xml n'est pas bien formé."
+        exit 1
+    fi
         sed -i 's/></>\n</g' EPG_temp.xml
     else
         log "Erreur : EPG_temp.xml n'est pas un fichier XML bien formé."
