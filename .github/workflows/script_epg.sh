@@ -127,9 +127,6 @@ download_and_merge_epg() {
         exit 1
     fi
         sed -i 's/></>\n</g' EPG_temp.xml
-    else
-        log "Erreur : EPG_temp.xml n'est pas un fichier XML bien formé."
-        exit 1
     fi
 }
 
