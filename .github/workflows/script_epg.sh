@@ -127,7 +127,6 @@ download_and_merge_epg() {
         exit 1
     fi
         sed -i 's/></>\n</g' EPG_temp.xml
-    fi
 }
 
 ########################################
