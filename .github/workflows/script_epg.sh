@@ -53,7 +53,7 @@ download_and_merge_epg() {
     # Log additionnel
     log "Fichier epgs.txt trouvé."
 
-    > EPG_temp.xml
+    EPG_temp.xml
     epg_count=0
 
     while IFS=, read -r epg; do
@@ -149,7 +149,7 @@ load_channels() {
             logo=""
         fi
 
-        canales[$i]="$old,$new,$logo,$offset"
+        canales=("$old,$new,$logo,$offset")
     done
 }
 
@@ -158,8 +158,8 @@ load_channels() {
 ########################################
 
 process_channels() {
-    > EPG_temp1.xml
-    > EPG_temp2.xml
+    EPG_temp1.xml
+    EPG_temp2.xml
 
     for linea in "${canales[@]}"; do
         IFS=',' read -r old new logo offset <<< "$linea"
@@ -234,8 +234,8 @@ merge_and_filter_programmes() {
 
     perl -i -ne '
         BEGIN { 
-            $min = "'$fecha_pasado'"; 
-            $max = "'$fecha_futuro'"; 
+            $min = "'"$fecha_pasado"'"; 
+            $max = "'"$fecha_futuro"'"; 
             %seen=(); 
             $ok=$past=$future=$dup=0;
             $print=0;
