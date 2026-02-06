@@ -53,7 +53,7 @@ download_and_merge_epg() {
     # Log additionnel
     log "Fichier epgs.txt trouvé."
 
-    EPG_temp.xml
+    #EPG_temp.xml
     epg_count=0
 
     while IFS=, read -r epg; do
