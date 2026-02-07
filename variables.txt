@@ -1,3 +1,0 @@
-display-name= SD, HD, 4K, Full HD, UHD
-dias_pasados=1
-dias_futuros=5
