@@ -3,7 +3,6 @@
 # Aller au répertoire du script
 cd "$(dirname "$0")" || exit 1
 
-
 epg_count=0
 echo "─── DESCARGANDO EPGs ───"
 
@@ -39,8 +38,8 @@ while IFS=, read -r epg; do
             continue
         fi
 
-        # Ignorer la déclaration DTD si elle existe
-        sed -i '/<!DOCTYPE/d' temp.xml
+        # Ignorer la déclaration DTD si elle existe déjà
+        sed -i '/<!DOCTYPE/d' "$temp_file"
     fi
     
     if [ -f "$temp_file" ]; then
@@ -57,4 +56,3 @@ while IFS=, read -r epg; do
         # Optionnel : Manipulation supplémentaire si nécessaire
     fi    
 done < epgs.txt
-
