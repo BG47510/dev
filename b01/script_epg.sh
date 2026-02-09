@@ -38,6 +38,9 @@ while IFS=, read -r epg; do
             echo " └─► ❌ ERROR: El archivo descargado está vacío o no se descargó correctamente"
             continue
         fi
+
+        # Ignorer la déclaration DTD si elle existe
+        sed -i '/<!DOCTYPE/d' temp.xml
     fi
     
     if [ -f "$temp_file" ]; then
