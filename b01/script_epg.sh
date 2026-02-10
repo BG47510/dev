@@ -19,12 +19,12 @@ while IFS=, read -r epg; do
         wget -O "$gz_file" -q "$epg"
         
         if [ ! -s "$gz_file" ]; then
-            echo " └─► ❌ ERROR: El archivo descargado está vacío o no se descargó correctamente"
+            echo " └─► ❌ ERROR: El archivo descargado está vacío o no se descargó correctamente."
             continue
         fi
         
         if ! gzip -t "$gz_file" 2>/dev/null; then
-            echo " └─► ❌ ERROR: El archivo no es un gzip válido"
+            echo " └─► ❌ ERROR: El archivo no es un gzip válido."
             continue
         fi
         
@@ -34,7 +34,7 @@ while IFS=, read -r epg; do
         wget -O "$temp_file" -q "$epg"
         
         if [ ! -s "$temp_file" ]; then
-            echo " └─► ❌ ERROR: El archivo descargado está vacío o no se descargó correctamente"
+            echo " └─► ❌ ERROR: El archivo descargado está vacío o no se descargó correctamente."
             continue
         fi
     fi
@@ -88,7 +88,7 @@ if [ -f variables.txt ]; then
     done
 fi
 
-# Création des fichiers temporaires pour les nouveaux XML
+# Création du fichier temporaire pour les nouveaux XML
 temp_file_final="EPG_final.xml"
 
 for linea in "${canales[@]}"; do
@@ -96,10 +96,10 @@ for linea in "${canales[@]}"; do
     contar_channel="$(grep -c "channel=\"$old\"" EPG_temp.xml)"
     
     if [ "${contar_channel:-0}" -gt 0 ]; then
-        # Extraire le logo original
+        # Extraire le logo original par si aucun nouveau logo existe
         logo_original=$(sed -n "/<channel id=\"${old}\">/,/<\/channel>/p" EPG_temp.xml | grep "<icon src" | head -1 | sed 's/^[[:space:]]*//')
         
-        # Déterminer lequel logo utiliser
+        # Déterminer quel logo utiliser
         logo_final=""
         if [ -n "$logo" ]; then
             logo_final="    <icon src=\"${logo}\" />"
@@ -127,11 +127,7 @@ for linea in "${canales[@]}"; do
         echo '  </channel>' >> EPG_temp01.xml
 
         # Logs informatifs
-        if [ -n "$logo" ]; then
-            echo " │ Nom EPG: $old · Nouveau nom: $new · Changement de logo ··· $contar_channel correspondances"
-        else
-            echo " │ Nom EPG: $old · Nouveau nom: $new · Logo conservé ··· $contar_channel correspondances"
-        fi
+        echo " │ Nom EPG: $old · Nouveau nom: $new · Changement de logo ··· $contar_channel correspondances"
 
         cat EPG_temp01.xml >> temp_file_final
       
@@ -186,18 +182,35 @@ fecha_corte_futuro=$(date -d "$dias_futuros days 02:00" +"%Y%m%d%H%M%S")
 echo " Nettoyage passé : Maintenir depuis $fecha_corte_pasado ($dias_pasados jours)"
 echo " Nettoyage futur : Limiter jusqu'à $fecha_corte_futuro ($dias_futuros jours)"
 
-# echo "─── VALIDATION FINALE DU XML ───"
-
 # Validation finale du fichier XML
-if xmlstarlet val -e EPG_temp2.xml; then
+if xmlstarlet val -e temp_file_final; then
     echo " │ Le fichier XML est conforme."
-    cp EPG_temp2.xml epg_acumulado.xml
+    cp temp_file_final epg_acumulado.xml
     echo " epg_acumulado.xml mis à jour pour la prochaine session."
 else
     echo " ❌ ERREUR : Des problèmes de structure XML ont été détectés."
-    # Extraire et afficher les erreurs
-    xmlstarlet val -e EPG_temp2.xml 2>&1 | sed 's/^/   /'
+    xmlstarlet val -e temp_file_final 2>&1 | sed 's/^/   /'
 fi
+
+# Création de miEPG.xml
+{
+    echo '<?xml version="1.0" encoding="UTF-8"?>'
+    echo "<tv generator-info-name=\"miEPG v3.6\" generator-info-url=\"https://github.com/davidmuma/miEPG\">"
+    
+    # Insérer les canaux (avec variantes et logos traités précédemment)
+    [ -f EPG_temp1.xml ] && cat EPG_temp1.xml
+    
+    # Insérer les programmes (nouveaux + anciens filtrés)
+    [ -f temp_file_final ] && cat temp_file_final
+    
+    echo '</tv>'
+} > miEPG.xml
+
+# Suppression des lignes vides et des doublons
+awk 'NF' miEPG.xml | awk '!seen[$0]++' > miEPG_clean.xml
+
+# Remplacer l'ancien fichier par le nouveau nettoyé
+mv miEPG_clean.xml miEPG.xml
 
 # Suppression des fichiers temporaires
 rm -f EPG_temp* 2>/dev/null
