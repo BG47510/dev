@@ -186,17 +186,19 @@ fecha_corte_futuro=$(date -d "$dias_futuros days 02:00" +"%Y%m%d%H%M%S")
 echo " Nettoyage passé : Maintenir depuis $fecha_corte_pasado ($dias_pasados jours)"
 echo " Nettoyage futur : Limiter jusqu'à $fecha_corte_futuro ($dias_futuros jours)"
 
-# Validation finale et nettoyage
-if xmllint --noout temp_file_final; then
-    echo " │ Le fichier XML est correctement formé."
-    cp temp_file_final epg_acumulado.xml
+# echo "─── VALIDATION FINALE DU XML ───"
+
+# Validation finale du fichier XML
+if xmlstarlet val -e EPG_temp2.xml; then
+    echo " │ Le fichier XML est conforme."
+    cp EPG_temp2.xml epg_acumulado.xml
     echo " epg_acumulado.xml mis à jour pour la prochaine session."
 else
-    echo " ❌ ERREUR : Des défauts dans la structure XML ont été détectés."
-    # Logique pour extraire les messages d'erreur
+    echo " ❌ ERREUR : Des problèmes de structure XML ont été détectés."
+    # Extraire et afficher les erreurs
+    xmlstarlet val -e EPG_temp2.xml 2>&1 | sed 's/^/   /'
 fi
 
 # Suppression des fichiers temporaires
-rm -f EPG_temp* temp_file_final 2>/dev/null
+rm -f EPG_temp* 2>/dev/null
 echo "─── PROCESO FINALIZADO ───"
-
