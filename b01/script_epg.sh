@@ -37,11 +37,11 @@ while IFS=, read -r epg; do
             echo " └─► ❌ ERROR: El archivo descargado está vacío o no se descargó correctamente"
             continue
         fi
-
-        # Ignorer la déclaration DTD si elle existe déjà
-        sed -i '/<!DOCTYPE/d' "$temp_file"
     fi
     
+    # Ignorer la déclaration DTD si elle existe
+    sed -i '/<!DOCTYPE/d' "$temp_file"
+
     if [ -f "$temp_file" ]; then
         listado="canales_epg${epg_count}.txt"
         echo " └─► Generando listado de canales: $listado"
@@ -52,10 +52,9 @@ while IFS=, read -r epg; do
         -v "@id" -o "," \
         -v "display-name" -o "," \
         -v "icon/@src" -n "$temp_file" >> "$listado"
-        
-        # Optionnel : Manipulation supplémentaire si nécessaire
     fi    
 done < epgs.txt
+
 echo "─── PROCESANDO CANALES ───"
 
 mapfile -t canales < canales.txt
