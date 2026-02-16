@@ -1,12 +1,10 @@
 #!/bin/bash
 
 # Définir les chaînes TV qui t'intéressent
-declare -a CHANNEL_IDS=("01TV.fr") # Ajoute ici tous les IDs de chaînes que tu veux
-#declare -a CHANNEL_IDS=("01TV.fr" "TMC+1.fr" "C4.api.telerama.fr") # Ajoute ici tous les IDs de chaînes que tu veux
+declare -a CHANNEL_IDS=("01TV.fr") # Remplace par les IDs de chaînes souhaitées
 
-# Liste des URLs (ajoute ici tes URLs)
+# Liste des URLs
 URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz")
-#URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz" "https://iptv-epg.org/files/epg-fr.xml.gz" "https://github.com/Catch-up-TV-and-More/xmltv/raw/master/tv_guide_fr.xml")
 
 # Fichier de sortie
 OUTPUT_FILE="filtered_epg.xml"
@@ -22,31 +20,12 @@ extract_and_filter() {
     local tmp_file=$(mktemp)
 
     # Télécharger et décompresser
-    if [[ $url == *.gz ]]; then
-        curl -s "$url" | gunzip > "$tmp_file"
-    else
-        curl -s "$url" > "$tmp_file"
-    fi
+    curl -s "$url" | gunzip > "$tmp_file"
 
-    # Extraire les chaînes et programmes
-    while IFS= read -r line; do
-        # Vérifier si la ligne contient un channel id qui nous intéresse
-        for channel_id in "${CHANNEL_IDS[@]}"; do
-            if echo "$line" | grep -q "channel=\"$channel_id\""; then
-                # Ajouter la chaîne au fichier de sortie
-                echo "$line" >> "$OUTPUT_FILE"
-                
-                # Lire et ajouter les programmes associés
-                while IFS= read -r programme_line; do
-                    echo "$programme_line" >> "$OUTPUT_FILE"
-                    # Si la balise de fin de programme est rencontrée, sortir de la boucle
-                    if [[ "$programme_line" == *"</programme>"* ]]; then
-                        break
-                    fi
-                done < <(sed -n "/<programme channel=\"$channel_id\">/,/<\/programme>/p" "$tmp_file")
-            fi
-        done
-    done < "$tmp_file"
+    # Pour chaque channel id, extraire les programmes
+    for channel_id in "${CHANNEL_IDS[@]}"; do
+        xmlstarlet sel -t -m "/tv/channel[@id='$channel_id'] | /tv/programme[@channel='$channel_id']" -o "\n" "$tmp_file" >> "$OUTPUT_FILE"
+    done
 
     rm "$tmp_file"
 }
