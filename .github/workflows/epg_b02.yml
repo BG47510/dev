@@ -8,12 +8,14 @@ on:
 permissions:
   contents: read
 
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: "Checkout du dépôt"
-        uses: actions/checkout@v5
+    - uses: actions/checkout@v5
 
     - name: config
       run: |
