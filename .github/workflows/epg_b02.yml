@@ -1,0 +1,48 @@
+name: EPG_b02
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # Tous les jours à 02:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout du dépôt"
+        uses: actions/checkout@v5
+
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+
+    - name: Rendre le script exécutable
+      run: |
+        # chmod +x ${{ github.action_path }}/script_epg.sh
+        chmod +x ${GITHUB_WORKSPACE}/b02/script_xml.sh
+
+    - name: Exécuter le script
+      run: | 
+       ${GITHUB_WORKSPACE}/b02/script_xml.sh
+
+    - name: Vérifier l'état de Git
+      run: git status
+      
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+
+    - name: Commit des modifications
+      run: |
+          if [[ `git status --porcelain` ]]; then
+          git commit -m "Les liens sont mis à jour"
+          git push
+          else
+          echo "Aucune modification à committer"
+          fi
+
