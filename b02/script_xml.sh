@@ -4,7 +4,8 @@
 declare -a CHANNEL_IDS=("01TV.fr" "TMC+1.fr" "C4.api.telerama.fr") # Ajoute ici tous les IDs de chaînes que tu veux
 
 # Liste des URLs (ajoute ici tes URLs)
-URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz" "https://iptv-epg.org/files/epg-fr.xml.gz" "https://github.com/Catch-up-TV-and-More/xmltv/raw/master/tv_guide_fr.xml")
+URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz")
+#URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz" "https://iptv-epg.org/files/epg-fr.xml.gz" "https://github.com/Catch-up-TV-and-More/xmltv/raw/master/tv_guide_fr.xml")
 
 # Fichier de sortie
 OUTPUT_FILE="filtered_epg.xml"
@@ -26,14 +27,14 @@ extract_and_filter() {
         curl -s "$url" > "$tmp_file"
     fi
 
-    # Extraire les chaînes et programmes
-    while read -r line; do
+    # Lire les lignes une par une
+    while IFS= read -r line; do
         # Vérifier si la ligne contient un channel id qui nous intéresse
         for channel_id in "${CHANNEL_IDS[@]}"; do
             if echo "$line" | grep -q "channel=\"$channel_id\""; then
                 echo "$line" >> $OUTPUT_FILE
-                # Quand on trouve le channel, ajouter tous les programmes associés
-                while read -r programme_line; do
+                # Fox Une fois le channel trouvé, on ajoute les programmes
+                while IFS= read -r programme_line; do
                     echo "$programme_line" >> $OUTPUT_FILE
                     if [[ "$programme_line" == *"</programme>"* ]]; then
                         break
