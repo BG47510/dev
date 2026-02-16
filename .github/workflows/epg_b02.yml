@@ -1,4 +1,4 @@
-name: EPG_b02
+name: xml b02
 
 on:
   schedule:
