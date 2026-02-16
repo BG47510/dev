@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Définir les chaînes TV qui t'intéressent
-declare -a CHANNEL_IDS=("TF1.fr" "CANAL.fr") # Ajoute ici tous les IDs de chaînes que tu veux
+declare -a CHANNEL_IDS=("01TV.fr" "TMC+1.fr" "C4.api.telerama.fr") # Ajoute ici tous les IDs de chaînes que tu veux
 
 # Liste des URLs (ajoute ici tes URLs)
 URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz" "https://iptv-epg.org/files/epg-fr.xml.gz" "https://github.com/Catch-up-TV-and-More/xmltv/raw/master/tv_guide_fr.xml")
