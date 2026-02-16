@@ -4,7 +4,7 @@
 declare -a CHANNEL_IDS=("TF1.fr" "CANAL.fr") # Ajoute ici tous les IDs de chaînes que tu veux
 
 # Liste des URLs (ajoute ici tes URLs)
-URLS=("http://example.com/epg1.xml.gz" "http://example.com/epg2.xml.gz")
+URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz" "https://iptv-epg.org/files/epg-fr.xml.gz" "https://github.com/Catch-up-TV-and-More/xmltv/raw/master/tv_guide_fr.xml")
 
 # Fichier de sortie
 OUTPUT_FILE="filtered_epg.xml"
