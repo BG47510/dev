@@ -21,9 +21,12 @@ extract_and_filter() {
     # Télécharger et décompresser
     curl -s "$url" | gunzip > "$tmp_file"
 
+    # Retirer la ligne DTD si elle existe
+    sed -i 's|<!DOCTYPE tv SYSTEM "xmltv.dtd">||' "$tmp_file"
+
     # Pour chaque channel id, extraire les chaînes et programmes
     for channel_id in "${CHANNEL_IDS[@]}"; do
-        xmlstarlet sel -n -t -m "/tv/channel[@id='$channel_id'] | /tv/programme[@channel='$channel_id']" -o "\n" "$tmp_file" >> "$OUTPUT_FILE"
+        xmlstarlet sel -t -m "/tv/channel[@id='$channel_id'] | /tv/programme[@channel='$channel_id']" -o "\n" "$tmp_file" >> "$OUTPUT_FILE"
     done
 
     rm "$tmp_file"
