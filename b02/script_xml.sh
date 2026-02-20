@@ -28,7 +28,7 @@ extract_and_filter() {
     # Retirer la ligne DTD si elle existe
     sed -i 's|<!DOCTYPE tv SYSTEM "xmltv.dtd">||' "$tmp_file"
 
-    # Afficher un extrait complet du fichier pour le débogage
+    # Afficher un extrait complet du fichier pour débogage
     echo "Contenu complet du fichier source :"
     head -n 20 "$tmp_file"  # Affiche les 20 premières lignes
 
@@ -47,7 +47,7 @@ extract_and_filter() {
         # Extrait les programmes associés à la chaîne
         programmes=$(xmlstarlet sel -t \
             -m "/tv/programme[@channel='$channel_id']" \
-            -o "<programme start='{start}' stop='{stop}' channel='$channel_id'>" \
+            -o "<programme start='{\"start\"}' stop='{\"stop\"}' channel='$channel_id'>" \
             -o "<title lang='fr'>" -v "title" -o "</title>" \
             -o "<desc lang='fr'>" -v "desc" -o "</desc>" \
             -o "<date>" -v "date" -o "</date>" \
