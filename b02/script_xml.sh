@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Définir les chaînes TV qui vous intéressent
-declare -a CHANNEL_IDS=("TF1.fr" "02TV.fr")  # Modifiez les IDs selon vos besoins
+declare -a CHANNEL_IDS=("TF1.fr")  # Modifiez les IDs selon vos besoins
 
 # Liste des URLs
 URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz")
