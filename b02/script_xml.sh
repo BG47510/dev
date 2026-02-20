@@ -25,16 +25,28 @@ extract_and_filter() {
     # Retirer la ligne DTD si elle existe
     sed -i 's|<!DOCTYPE tv SYSTEM "xmltv.dtd">||' "$tmp_file"
 
-    # Cran d'affichage pour le débogage
+    # Afficher une partie du fichier pour le débogage
     echo "Contenu du fichier source :"
-    head -n 20 "$tmp_file"  # Afficher 20 premières lignes
+    head -n 20 "$tmp_file"  # Affiche les 20 premières lignes
 
     # Pour chaque channel id, extraire les chaînes et programmes
     for channel_id in "${CHANNEL_IDS[@]}"; do
         echo "Extraction pour le channel_id: $channel_id"
       
+        # Extraction des chaînes et programmes
         xmlstarlet sel -t -m "/tv/channel[@id='$channel_id'] | /tv/programme[@channel='$channel_id']" "$tmp_file" >> "$TEMP_FILE"
+        
+        if [ $? -ne 0 ]; then
+            echo "Erreur lors de l'extraction pour $channel_id"
+        fi
     done
+
+    # Vérifier si le fichier temporaire n'est pas vide
+    if [ -s "$TEMP_FILE" ]; then
+        echo "Extraction réussie pour $url"
+    else
+        echo "Aucun programme trouvé pour les channels spécifiés."
+    fi
 
     rm "$tmp_file"
 }
