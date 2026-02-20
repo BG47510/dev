@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Définir les chaînes TV qui vous intéressent
-declare -a CHANNEL_IDS=("TF1.fr")  # Remplacez par les IDs de chaînes souhaitées
+declare -a CHANNEL_IDS=("TF1.fr")  # Vous pouvez ajouter d'autres IDs ici
 
 # Liste des URLs
 URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz")
@@ -20,13 +20,16 @@ extract_and_filter() {
     local tmp_file=$(mktemp)
 
     # Télécharger et décompresser
-    curl -s "$url" | gunzip > "$tmp_file"
+    if ! curl -s "$url" | gunzip > "$tmp_file"; then
+        echo "Erreur lors du téléchargement de $url"
+        return
+    fi
 
     # Retirer la ligne DTD si elle existe
     sed -i 's|<!DOCTYPE tv SYSTEM "xmltv.dtd">||' "$tmp_file"
 
-    # Afficher une partie du fichier pour le débogage
-    echo "Contenu du fichier source :"
+    # Afficher un extrait complet du fichier pour débogage
+    echo "Contenu complet du fichier source :"
     head -n 20 "$tmp_file"  # Affiche les 20 premières lignes
 
     # Pour chaque channel id, extraire les chaînes et programmes
@@ -35,8 +38,9 @@ extract_and_filter() {
 
         # Extraction des chaînes et programmes
         extracted=$(xmlstarlet sel -t \
-            -m "/tv/channel[@id='$channel_id'] | /tv/programme[@channel='$channel_id']" \
-            -n "$tmp_file")
+            -m "/tv/channel[@id='$channel_id']" -o "Channel: " -v "display-name" -n \
+            -m "/tv/programme[@channel='$channel_id']" -o "Programme: " -v "title" -n \
+            "$tmp_file")
 
         if [ $? -ne 0 ]; then
             echo "Erreur lors de l'extraction pour $channel_id"
