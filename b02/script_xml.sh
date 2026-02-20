@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Définir les chaînes TV qui vous intéressent
-declare -a CHANNEL_IDS=("TF1.fr" "02TV.fr")  # Remplacez par les IDs de chaînes souhaitées
+declare -a CHANNEL_IDS=("TF1.fr")  # Remplacez par les IDs de chaînes souhaitées
 
 # Liste des URLs
 URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz")
@@ -32,21 +32,23 @@ extract_and_filter() {
     # Pour chaque channel id, extraire les chaînes et programmes
     for channel_id in "${CHANNEL_IDS[@]}"; do
         echo "Extraction pour le channel_id: $channel_id"
-      
+
         # Extraction des chaînes et programmes
-        xmlstarlet sel -t -m "/tv/channel[@id='$channel_id'] | /tv/programme[@channel='$channel_id']" "$tmp_file" >> "$TEMP_FILE"
-        
+        extracted=$(xmlstarlet sel -t \
+            -m "/tv/channel[@id='$channel_id'] | /tv/programme[@channel='$channel_id']" \
+            -n "$tmp_file")
+
         if [ $? -ne 0 ]; then
             echo "Erreur lors de l'extraction pour $channel_id"
+        else
+            if [ -z "$extracted" ]; then
+                echo "Aucune donnée trouvée pour $channel_id."
+            else
+                echo "$extracted" >> "$TEMP_FILE"
+                echo "Données ajoutées pour $channel_id."
+            fi
         fi
     done
-
-    # Vérifier si le fichier temporaire n'est pas vide
-    if [ -s "$TEMP_FILE" ]; then
-        echo "Extraction réussie pour $url"
-    else
-        echo "Aucun programme trouvé pour les channels spécifiés."
-    fi
 
     rm "$tmp_file"
 }
