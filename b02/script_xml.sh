@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Définir les chaînes TV qui vous intéressent
-declare -a CHANNEL_IDS=("TF1.fr")  # Vous pouvez ajouter d'autres IDs ici
+declare -a CHANNEL_IDS=("TF1.fr" "02TV.fr")  # Modifiez les IDs selon vos besoins
 
 # Liste des URLs
 URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz")
@@ -28,7 +28,7 @@ extract_and_filter() {
     # Retirer la ligne DTD si elle existe
     sed -i 's|<!DOCTYPE tv SYSTEM "xmltv.dtd">||' "$tmp_file"
 
-    # Afficher un extrait complet du fichier pour débogage
+    # Afficher un extrait complet du fichier pour le débogage
     echo "Contenu complet du fichier source :"
     head -n 20 "$tmp_file"  # Affiche les 20 premières lignes
 
@@ -36,21 +36,32 @@ extract_and_filter() {
     for channel_id in "${CHANNEL_IDS[@]}"; do
         echo "Extraction pour le channel_id: $channel_id"
 
-        # Extraction des chaînes et programmes
-        extracted=$(xmlstarlet sel -t \
-            -m "/tv/channel[@id='$channel_id']" -o "Channel: " -v "display-name" -n \
-            -m "/tv/programme[@channel='$channel_id']" -o "Programme: " -v "title" -n \
+        # Extrait la chaîne
+        channel_data=$(xmlstarlet sel -t \
+            -m "/tv/channel[@id='$channel_id']" \
+            -o "<channel id='$channel_id'>" \
+            -o "<display-name>" -v "display-name" -o "</display-name>" \
+            -o "</channel>" \
             "$tmp_file")
 
-        if [ $? -ne 0 ]; then
-            echo "Erreur lors de l'extraction pour $channel_id"
-        else
-            if [ -z "$extracted" ]; then
-                echo "Aucune donnée trouvée pour $channel_id."
-            else
-                echo "$extracted" >> "$TEMP_FILE"
-                echo "Données ajoutées pour $channel_id."
-            fi
+        # Extrait les programmes associés à la chaîne
+        programmes=$(xmlstarlet sel -t \
+            -m "/tv/programme[@channel='$channel_id']" \
+            -o "<programme start='{start}' stop='{stop}' channel='$channel_id'>" \
+            -o "<title lang='fr'>" -v "title" -o "</title>" \
+            -o "<desc lang='fr'>" -v "desc" -o "</desc>" \
+            -o "<date>" -v "date" -o "</date>" \
+            -o "</programme>" \
+            "$tmp_file")
+        
+        # Ajoute la chaîne au fichier de sortie
+        if [ ! -z "$channel_data" ]; then
+            echo "$channel_data" >> "$OUTPUT_FILE"
+        fi
+
+        # Ajoute les programmes au fichier de sortie
+        if [ ! -z "$programmes" ]; then
+            echo "$programmes" >> "$OUTPUT_FILE"
         fi
     done
 
@@ -62,13 +73,7 @@ for url in "${URLS[@]}"; do
     extract_and_filter "$url"
 done
 
-# Filtrer les doublons et lignes vides
-sort -u "$TEMP_FILE" | grep -v '^$' >> "$OUTPUT_FILE"
-
-# Ajouter la fermeture de la balise tv
+# Fermer la balise tv
 echo '</tv>' >> "$OUTPUT_FILE"
-
-# Nettoyer le fichier temporaire
-rm "$TEMP_FILE"
 
 echo "Fichier EPG filtré créé: $OUTPUT_FILE"
