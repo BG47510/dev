@@ -56,21 +56,32 @@ for url in "${URLS[@]}"; do
     count=$((count + 1))
     echo "Source $count : $url"
     
-    # Détection automatique de la compression
+    RAW_FILE="$TEMP_DIR/raw_$count.xml"
+    
+    # Téléchargement avec timeout (10s connexion, 30s total)
+    # -sL : silencieux + suit les redirections
+    # --fail : ne produit rien en cas d'erreur HTTP (404, 500, etc.)
     if [[ "$url" == *.gz ]]; then
-        FETCH_CMD="curl -sL \"$url\" | gunzip"
+        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
     else
-        FETCH_CMD="curl -sL \"$url\""
+        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" > "$RAW_FILE" 2>/dev/null
     fi
 
-    # Exécution avec gestion d'erreur basique
-    if ! eval "$FETCH_CMD" | xmlstarlet ed \
-        -d "/tv/channel[not($xpath_channels)]" \
-        -d "/tv/programme[not($xpath_progs)]" \
-        -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
-        -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
-        > "$TEMP_DIR/src_$count.xml" 2>/dev/null; then
-        echo "Attention : Échec du traitement pour la source $count"
+    # On vérifie si le fichier a été créé et n'est pas vide
+    if [[ -s "$RAW_FILE" ]]; then
+        # Traitement XML seulement si le téléchargement a réussi
+        if ! xmlstarlet ed \
+            -d "/tv/channel[not($xpath_channels)]" \
+            -d "/tv/programme[not($xpath_progs)]" \
+            -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
+            -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
+            "$RAW_FILE" > "$TEMP_DIR/src_$count.xml" 2>/dev/null; then
+            echo "Attention : Erreur de structure XML pour la source $count"
+        fi
+        # Nettoyage du fichier brut après traitement
+        rm -f "$RAW_FILE"
+    else
+        echo "Attention : Source $count injoignable ou vide (Timeout/404)"
     fi
 done
 
