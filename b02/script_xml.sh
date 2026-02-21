@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Définir les chaînes TV qui vous intéressent
-declare -a CHANNEL_IDS=("TF1.fr")  # Modifiez les IDs selon vos besoins
+declare -a CHANNEL_IDS=("TF1.fr" "02TV.fr")  # Ajoutez d'autres IDs si nécessaire
 
 # Liste des URLs
 URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz")
@@ -36,32 +36,29 @@ extract_and_filter() {
     for channel_id in "${CHANNEL_IDS[@]}"; do
         echo "Extraction pour le channel_id: $channel_id"
 
-        # Extrait la chaîne
-        channel_data=$(xmlstarlet sel -t \
-            -m "/tv/channel[@id='$channel_id']" \
-            -o "<channel id='$channel_id'>" \
-            -o "<display-name>" -v "display-name" -o "</display-name>" \
-            -o "</channel>" \
+        # Extraction des chaînes
+        channel_data=$(xmlstarlet sel -t -m "/tv/channel[@id='$channel_id']" \
+            -o "<channel id='$channel_id'>\n" \
+            -o "<display-name>" -v "display-name" -o "</display-name>\n" \
+            -o "</channel>\n" \
             "$tmp_file")
 
-        # Extrait les programmes associés à la chaîne
-        programmes=$(xmlstarlet sel -t \
-            -m "/tv/programme[@channel='$channel_id']" \
-            -o "<programme start='{\"start\"}' stop='{\"stop\"}' channel='$channel_id'>" \
-            -o "<title lang='fr'>" -v "title" -o "</title>" \
-            -o "<desc lang='fr'>" -v "desc" -o "</desc>" \
-            -o "<date>" -v "date" -o "</date>" \
-            -o "</programme>" \
+        # Extraction des programmes associés
+        programmes=$(xmlstarlet sel -t -m "/tv/programme[@channel='$channel_id']" \
+            -o "<programme start='{start}' stop='{stop}' channel='$channel_id'>\n" \
+            -o "<title lang='fr'>" -v "title" -o "</title>\n" \
+            -o "<desc lang='fr'>" -v "desc" -o "</desc>\n" \
+            -o "<date>" -v "date" -o "</date>\n" \
+            -o "</programme>\n" \
             "$tmp_file")
-        
-        # Ajoute la chaîne au fichier de sortie
+
+        # Ajouter la chaîne et les programmes au fichier de sortie
         if [ ! -z "$channel_data" ]; then
-            echo "$channel_data" >> "$OUTPUT_FILE"
+            echo -e "$channel_data" >> "$OUTPUT_FILE"
         fi
 
-        # Ajoute les programmes au fichier de sortie
         if [ ! -z "$programmes" ]; then
-            echo "$programmes" >> "$OUTPUT_FILE"
+            echo -e "$programmes" >> "$OUTPUT_FILE"
         fi
     done
 
@@ -73,7 +70,7 @@ for url in "${URLS[@]}"; do
     extract_and_filter "$url"
 done
 
-# Fermer la balise tv
+# Fermer la balise TV
 echo '</tv>' >> "$OUTPUT_FILE"
 
 echo "Fichier EPG filtré créé: $OUTPUT_FILE"
