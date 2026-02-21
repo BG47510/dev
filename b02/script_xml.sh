@@ -3,24 +3,28 @@
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-CHANNEL_IDS=("TF1.fr" "France2.fr" "C174.api.telerama.fr")
+# On définit le répertoire de travail (GitHub Workspace ou dossier courant)
+WORKDIR="${GITHUB_WORKSPACE:-$(pwd)}"
+cd "$WORKDIR"
+
+CHANNEL_IDS=("TF1.fr" "France2.fr" "M6.fr" "W9.fr" "Arte.tv")
 
 URLS=(
     "https://xmltvfr.fr/xmltv/xmltv.xml.gz"
     "https://github.com/Catch-up-TV-and-More/xmltv/raw/master/tv_guide_fr.xml"
 )
 
-OUTPUT_FILE="filtered_epg.xml"
+OUTPUT_FILE="filtered_epg.xml.gz"
 TEMP_DIR="./temp_epg"
 mkdir -p "$TEMP_DIR"
 
 # ==============================================================================
 # PARAMÈTRES TEMPORELS
 # ==============================================================================
+# Format pour XMLTV et calcul compatible Linux/Runner
 NOW=$(date +%Y%m%d%H%M)
 LIMIT=$(date -d "+3 days" +%Y%m%d%H%M)
 
-# Construction des filtres XPath
 xpath_channels=""
 xpath_progs=""
 for id in "${CHANNEL_IDS[@]}"; do
@@ -30,24 +34,23 @@ done
 xpath_channels="${xpath_channels% or }"
 xpath_progs="${xpath_progs% or }"
 
-echo "--- Démarrage du traitement ---"
+echo "--- Démarrage du traitement dans $WORKDIR ---"
 
 # ==============================================================================
-# 1. RÉCUPÉRATION ET FILTRAGE INDIVIDUEL
+# 1. RÉCUPÉRATION ET FILTRAGE
 # ==============================================================================
 count=0
 for url in "${URLS[@]}"; do
     count=$((count + 1))
     echo "Source $count : $url"
     
-    # Détection automatique de la compression
     if [[ "$url" == *.gz ]]; then
         FETCH_CMD="curl -sL $url | gunzip"
     else
         FETCH_CMD="curl -sL $url"
     fi
 
-    eval "$FETCH_CMD" | xmlstarlet ed \
+    eval "$FETCH_CMD" | sed '/DOCTYPE tv SYSTEM/d' | xmlstarlet ed \
         -d "/tv/channel[not($xpath_channels)]" \
         -d "/tv/programme[not($xpath_progs)]" \
         -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
@@ -56,20 +59,18 @@ for url in "${URLS[@]}"; do
 done
 
 # ==============================================================================
-# 2. FUSION ET DÉDOUBLONNAGE
+# 2. FUSION, DÉDOUBLONNAGE ET COMPRESSION
 # ==============================================================================
-echo "Fusion et suppression des doublons..."
+echo "Fusion, dédoublonnage et compression..."
 
-# Création du fichier final avec l'en-tête XMLTV
-echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
-
-# A. On garde les définitions de chaînes (une seule fois par ID)
-xmlstarlet sel -t -c "/tv/channel" "$TEMP_DIR"/*.xml | \
-    awk '!x[$0]++' >> "$OUTPUT_FILE"
-
-# B. On traite les programmes avec dédoublonnage intelligent
-# On définit un "doublon" comme : même @channel ET même @start
-xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml | \
+{
+    echo '<?xml version="1.0" encoding="UTF-8"?><tv>'
+    
+    # Extraction des chaînes uniques
+    xmlstarlet sel -N -t -c "/tv/channel" "$TEMP_DIR"/*.xml | awk '!x[$0]++'
+    
+    # Extraction et dédoublonnage des programmes (clé = chaine + heure début)
+    xmlstarlet sel -N -t -c "/tv/programme" "$TEMP_DIR"/*.xml | \
     awk '
     BEGIN { RS="</programme>"; FS="<programme " }
     {
@@ -79,9 +80,10 @@ xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml | \
                 print $0 "</programme>"
             }
         }
-    }' >> "$OUTPUT_FILE"
-
-echo '</tv>' >> "$OUTPUT_FILE"
+    }'
+    
+    echo '</tv>'
+} | gzip -9 > "$OUTPUT_FILE"
 
 # ==============================================================================
 # NETTOYAGE
@@ -89,8 +91,8 @@ echo '</tv>' >> "$OUTPUT_FILE"
 rm -rf "$TEMP_DIR"
 
 if [ -s "$OUTPUT_FILE" ]; then
-    SIZE=$(du -sh "$OUTPUT_FILE" | cut -f1)
-    echo "SUCCÈS : Fichier $OUTPUT_FILE créé ($SIZE)."
+    echo "SUCCÈS : $(du -sh "$OUTPUT_FILE") généré dans $WORKDIR"
 else
-    echo "ERREUR : Le fichier est vide."
+    echo "ERREUR : Échec de la génération."
+    exit 1
 fi
