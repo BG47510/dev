@@ -19,8 +19,11 @@ fi
 # Retirer la ligne DTD si elle existe
 sed -i 's|<!DOCTYPE tv SYSTEM "xmltv.dtd">||' "$TEMP_FILE"
 
-# Créer un nouveau fichier XML
-xmlstarlet ed -s / -t -n tv -v "" "$OUTPUT_FILE"
+# Créer le fichier de sortie avec l'en-tête XML
+{
+    echo '<?xml version="1.0" encoding="UTF-8"?>'
+    echo '<tv>'
+} > "$OUTPUT_FILE"
 
 # Fonction pour extraire et filtrer le contenu
 extract_and_filter() {
@@ -28,23 +31,27 @@ extract_and_filter() {
 
     echo "Extraction pour le channel_id: $channel_id"
 
-    # Extraire et ajouter les chaînes
-    xmlstarlet sel -t -m "/tv/channel[@id='$channel_id']" \
-        -o "<channel id='$channel_id'>" \
-        -o "<display-name>" -v "display-name" -o "</display-name>" \
+    # Extraction des chaînes
+    channel_data=$(xmlstarlet sel -t -m "/tv/channel[@id='$channel_id']" \
+        -o "<channel id='$channel_id'>\n" \
+        -o "<display-name>" -v "display-name" -o "</display-name>\n" \
         -o "</channel>" \
-        "$TEMP_FILE" >> "$OUTPUT_FILE"
+        "$TEMP_FILE")
 
-    # Extraire et ajouter les programmes associés
-    xmlstarlet sel -t -m "/tv/programme[@channel='$channel_id']" \
-        -o "<programme start='" -v "@start" -o "' stop='" -v "@stop" -o "' channel='$channel_id'>" \
-        -o "<title lang='fr'>" -v "title" -o "</title>" \
-        -o "<desc lang='fr'>" -v "desc" -o "</desc>" \
-        -o "<date>" -v "date" -o "</date>" \
+    # Écrire les chaînes dans le fichier de sortie
+    echo -e "$channel_data" >> "$OUTPUT_FILE"
+
+    # Extraction des programmes associés
+    programmes=$(xmlstarlet sel -t -m "/tv/programme[@channel='$channel_id']" \
+        -o "<programme start='" -v "@start" -o "' stop='" -v "@stop" -o "' channel='$channel_id'>\n" \
+        -o "<title lang='fr'>" -v "title" -o "</title>\n" \
+        -o "<desc lang='fr'>" -v "desc" -o "</desc>\n" \
+        -o "<date>" -v "date" -o "</date>\n" \
         -o "</programme>" \
-        "$TEMP_FILE" >> "$OUTPUT_FILE"
+        "$TEMP_FILE")
 
-    echo >> "$OUTPUT_FILE"  # Ajoute une ligne vide pour le formatage
+    # Écrire les programmes dans le fichier de sortie
+    echo -e "$programmes" >> "$OUTPUT_FILE"
 }
 
 # Parcourir toutes les chaînes définies
@@ -55,7 +62,7 @@ done
 # Fermer la balise TV
 echo '</tv>' >> "$OUTPUT_FILE"
 
-echo "Fichier EPG filtré créé: $OUTPUT_FILE"
-
 # Nettoyer le fichier temporaire
 rm "$TEMP_FILE"
+
+echo "Fichier EPG filtré créé: $OUTPUT_FILE"
