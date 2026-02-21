@@ -9,9 +9,8 @@ URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz")
 # Fichier de sortie
 OUTPUT_FILE="filtered_epg.xml"
 
-# Créer une nouvelle sortie
-echo '<?xml version="1.0" encoding="UTF-8"?>' > "$OUTPUT_FILE"
-echo '<tv>' >> "$OUTPUT_FILE"
+# Initialiser le fichier de sortie
+xmlstarlet ed -s / -t -n "tv" -v "" "$OUTPUT_FILE"
 
 # Fonction pour extraire et filtrer le contenu
 extract_and_filter() {
@@ -35,13 +34,11 @@ extract_and_filter() {
         channel_data=$(xmlstarlet sel -t -m "/tv/channel[@id='$channel_id']" \
             -o "<channel id='$channel_id'>\n" \
             -o "<display-name>" -v "display-name" -o "</display-name>\n" \
-            -o "</channel>\n" \
+            -o "</channel>" \
             "$tmp_file")
 
-        # Écrire les chaînes dans le fichier de sortie
-        if [[ -n "$channel_data" ]]; then
-            echo -e "$channel_data" >> "$OUTPUT_FILE"
-        fi
+        # Ajouter les chaînes au fichier de sortie
+        xmlstarlet ed -s "/tv" -i "channel" -v "$channel_data" "$OUTPUT_FILE"
 
         # Extraction des programmes associés
         programmes=$(xmlstarlet sel -t -m "/tv/programme[@channel='$channel_id']" \
@@ -49,13 +46,11 @@ extract_and_filter() {
             -o "<title lang='fr'>" -v "title" -o "</title>\n" \
             -o "<desc lang='fr'>" -v "desc" -o "</desc>\n" \
             -o "<date>" -v "date" -o "</date>\n" \
-            -o "</programme>\n" \
+            -o "</programme>" \
             "$tmp_file")
 
-        # Écrire les programmes dans le fichier de sortie
-        if [[ -n "$programmes" ]]; then
-            echo -e "$programmes" >> "$OUTPUT_FILE"
-        fi
+        # Ajouter les programmes au fichier de sortie
+        xmlstarlet ed -s "/tv" -i "programme" -v "$programmes" "$OUTPUT_FILE"
     done
 
     # Nettoyer le fichier temporaire
@@ -67,7 +62,7 @@ for url in "${URLS[@]}"; do
     extract_and_filter "$url"
 done
 
-# Fermer la balise TV
-echo '</tv>' >> "$OUTPUT_FILE"
+# Fermer la balise TV (cette étape alimentera automatiquement /tv dans xmlstarlet)
+xmlstarlet ed -s "/tv" -t -n "closing-tag" -v "" "$OUTPUT_FILE"
 
 echo "Fichier EPG filtré créé: $OUTPUT_FILE"
