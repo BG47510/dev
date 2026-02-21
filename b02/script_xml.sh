@@ -7,20 +7,19 @@ cd "$(dirname "$0")" || exit 1
 # CONFIGURATION
 # ==============================================================================
 CHANNELS_FILE="channels.txt"
+URLS_FILE="urls.txt"
 
-# Vérification si le fichier existe
-if [[ ! -f "$CHANNELS_FILE" ]]; then
-    echo "Erreur : Le fichier $CHANNELS_FILE est introuvable."
-    exit 1
-fi
+# Vérification des fichiers de configuration
+for f in "$CHANNELS_FILE" "$URLS_FILE"; do
+    if [[ ! -f "$f" ]]; then
+        echo "Erreur : Le fichier $f est introuvable."
+        exit 1
+    fi
+done
 
-# Lecture du fichier : ignore les lignes vides et les commentaires (#)
+# Lecture des fichiers : ignore les lignes vides et les commentaires (#)
 mapfile -t CHANNEL_IDS < <(grep -vE '^\s*(#|$)' "$CHANNELS_FILE")
-
-URLS=(
-    "https://xmltvfr.fr/xmltv/xmltv.xml.gz"
-    "https://github.com/Catch-up-TV-and-More/xmltv/raw/master/tv_guide_fr.xml"
-)
+mapfile -t URLS < <(grep -vE '^\s*(#|$)' "$URLS_FILE")
 
 OUTPUT_FILE="filtered_epg.xml"
 TEMP_DIR="./temp_epg"
@@ -50,22 +49,29 @@ echo "--- Démarrage du traitement ---"
 # ==============================================================================
 count=0
 for url in "${URLS[@]}"; do
+    # On nettoie l'URL au cas où il resterait des espaces invisibles
+    url=$(echo "$url" | tr -d '\r' | xargs)
+    [[ -z "$url" ]] && continue
+
     count=$((count + 1))
     echo "Source $count : $url"
     
     # Détection automatique de la compression
     if [[ "$url" == *.gz ]]; then
-        FETCH_CMD="curl -sL $url | gunzip"
+        FETCH_CMD="curl -sL \"$url\" | gunzip"
     else
-        FETCH_CMD="curl -sL $url"
+        FETCH_CMD="curl -sL \"$url\""
     fi
 
-    eval "$FETCH_CMD" | xmlstarlet ed \
+    # Exécution avec gestion d'erreur basique
+    if ! eval "$FETCH_CMD" | xmlstarlet ed \
         -d "/tv/channel[not($xpath_channels)]" \
         -d "/tv/programme[not($xpath_progs)]" \
         -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
         -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
-        > "$TEMP_DIR/src_$count.xml"
+        > "$TEMP_DIR/src_$count.xml" 2>/dev/null; then
+        echo "Attention : Échec du traitement pour la source $count"
+    fi
 done
 
 # ==============================================================================
