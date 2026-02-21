@@ -6,7 +6,16 @@ cd "$(dirname "$0")" || exit 1
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-CHANNEL_IDS=("6ter.fr" "Arte.fr" "BBC2.uk" "BFMGrandsReportages.fr" "BFMTV.fre" "CARAC4.ch" "CNews.fr" "CStar.fr" "Cherie25.fr" "Euronews.fr" "FashionTV.fr" "France2.fr" "France24.fr" "France3.fr" "France3NouvelleAquitaine.fr" "France4.fr" "France5.fr" "FranceInfo.fr" "FranceTVDocs.fr" "Gulli.fr" "LCI.fr" "LEquipe21.fr" "LaChaineParlementaire.fr" "M6.fr" "MCMTop.fr" "Mezzo.fr" "NOVO19.fr" "NT1.fr" "Numero23.fr" "PlanetePlus.fr" "PublicSenat.fr" "RMCDecouverte.fr" "RSI2.ch" "RTSDeux.ch" "RougeTV.ch" "T18.fr" "TF1.fr" "TF1SeriesFilms.fr" "TMC.fr" "TV5Monde.fr" "TV5MondeInfo.fr" "TV7Bordeaux.fr" "W9.fr" "ZDF.de" "C174.api.telerama.fr")
+CHANNELS_FILE="channels.txt"
+
+# Vérification si le fichier existe
+if [[ ! -f "$CHANNELS_FILE" ]]; then
+    echo "Erreur : Le fichier $CHANNELS_FILE est introuvable."
+    exit 1
+fi
+
+# Lecture du fichier : ignore les lignes vides et les commentaires (#)
+mapfile -t CHANNEL_IDS < <(grep -vE '^\s*(#|$)' "$CHANNELS_FILE")
 
 URLS=(
     "https://xmltvfr.fr/xmltv/xmltv.xml.gz"
@@ -27,6 +36,7 @@ LIMIT=$(date -d "+3 days" +%Y%m%d%H%M)
 xpath_channels=""
 xpath_progs=""
 for id in "${CHANNEL_IDS[@]}"; do
+    # On utilise des variables pour éviter les problèmes d'injection XML
     xpath_channels+="@id='$id' or "
     xpath_progs+="@channel='$id' or "
 done
