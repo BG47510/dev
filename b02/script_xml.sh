@@ -97,3 +97,7 @@ if [ -s "$OUTPUT_FILE" ]; then
 else
     echo "ERREUR : Le fichier est vide."
 fi
+
+echo "Compression du fichier final..."
+gzip -f "$OUTPUT_FILE"
+echo "Succès : ${OUTPUT_FILE}.gz a été généré."
