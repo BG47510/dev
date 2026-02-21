@@ -3,66 +3,94 @@
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-# Ajoutez ou retirez des IDs de chaînes dans cette liste (séparés par des espaces)
 CHANNEL_IDS=("TF1.fr" "France2.fr" "M6.fr" "W9.fr" "Arte.tv")
 
-# URL de la source XMLTV (compressée)
-URL="https://xmltvfr.fr/xmltv/xmltv.xml.gz"
+URLS=(
+    "https://xmltvfr.fr/xmltv/xmltv.xml.gz"
+    "https://github.com/Catch-up-TV-and-More/xmltv/raw/master/tv_guide_fr.xml"
+)
 
-# Noms des fichiers
 OUTPUT_FILE="filtered_epg.xml"
-TEMP_FILE="source_raw.xml"
+TEMP_DIR="./temp_epg"
+mkdir -p "$TEMP_DIR"
 
 # ==============================================================================
-# TRAITEMENT
+# PARAMÈTRES TEMPORELS
 # ==============================================================================
+NOW=$(date +%Y%m%d%H%M)
+LIMIT=$(date -d "+3 days" +%Y%m%d%H%M)
 
-# 1. Calcul des dates pour le filtrage (Format XMLTV : YYYYMMDDHHMMSS)
-# NOW : Supprime tout ce qui est terminé avant cette seconde
-# LIMIT : Supprime tout ce qui commence après 3 jours à partir de maintenant
-NOW=$(date +%Y%m%d%H%M%S)
-LIMIT=$(date -d "+3 days" +%Y%m%d%H%M%S)
-
-echo "--- Démarrage du filtrage EPG ---"
-echo "Fenêtre temporelle : $NOW jusqu'à $LIMIT"
-
-# 2. Téléchargement et décompression
-echo "Téléchargement du fichier source..."
-if ! curl -sL "$URL" | gunzip > "$TEMP_FILE"; then
-    echo "ERREUR : Impossible de télécharger ou décompresser le fichier."
-    exit 1
-fi
-
-# 3. Préparation du sélecteur de chaînes pour XPath
-# On transforme la liste Bash en une chaîne compatible XPath
-filter_channels=""
+# Construction des filtres XPath
+xpath_channels=""
+xpath_progs=""
 for id in "${CHANNEL_IDS[@]}"; do
-    filter_channels+="@id='$id' or "
+    xpath_channels+="@id='$id' or "
+    xpath_progs+="@channel='$id' or "
 done
-filter_channels="${filter_channels% or }" # Supprime le dernier ' or '
+xpath_channels="${xpath_channels% or }"
+xpath_progs="${xpath_progs% or }"
 
-# 4. Transformation avec XMLStarlet
-# - ed : Mode édition
-# - d  : Delete (suppression)
-echo "Application des filtres..."
+echo "--- Démarrage du traitement ---"
 
-xmlstarlet ed \
-    -d "/tv/channel[not($filter_channels)]" \
-    -d "/tv/programme[not(contains('$(printf " %s " "${CHANNEL_IDS[@]}")', concat(' ', @channel, ' ')))]" \
-    -d "/tv/programme[@stop < '$NOW']" \
-    -d "/tv/programme[@start > '$LIMIT']" \
-    "$TEMP_FILE" > "$OUTPUT_FILE"
+# ==============================================================================
+# 1. RÉCUPÉRATION ET FILTRAGE INDIVIDUEL
+# ==============================================================================
+count=0
+for url in "${URLS[@]}"; do
+    count=$((count + 1))
+    echo "Source $count : $url"
+    
+    # Détection automatique de la compression
+    if [[ "$url" == *.gz ]]; then
+        FETCH_CMD="curl -sL $url | gunzip"
+    else
+        FETCH_CMD="curl -sL $url"
+    fi
 
-# 5. Nettoyage du fichier temporaire
-rm "$TEMP_FILE"
+    eval "$FETCH_CMD" | xmlstarlet ed \
+        -d "/tv/channel[not($xpath_channels)]" \
+        -d "/tv/programme[not($xpath_progs)]" \
+        -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
+        -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
+        > "$TEMP_DIR/src_$count.xml"
+done
 
-# Vérification finale
-if [ -f "$OUTPUT_FILE" ]; then
+# ==============================================================================
+# 2. FUSION ET DÉDOUBLONNAGE
+# ==============================================================================
+echo "Fusion et suppression des doublons..."
+
+# Création du fichier final avec l'en-tête XMLTV
+echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
+
+# A. On garde les définitions de chaînes (une seule fois par ID)
+xmlstarlet sel -t -c "/tv/channel" "$TEMP_DIR"/*.xml | \
+    awk '!x[$0]++' >> "$OUTPUT_FILE"
+
+# B. On traite les programmes avec dédoublonnage intelligent
+# On définit un "doublon" comme : même @channel ET même @start
+xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml | \
+    awk '
+    BEGIN { RS="</programme>"; FS="<programme " }
+    {
+        if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([^"]+)"/, s)) {
+            key = c[1] s[1]
+            if (!seen[key]++) {
+                print $0 "</programme>"
+            }
+        }
+    }' >> "$OUTPUT_FILE"
+
+echo '</tv>' >> "$OUTPUT_FILE"
+
+# ==============================================================================
+# NETTOYAGE
+# ==============================================================================
+rm -rf "$TEMP_DIR"
+
+if [ -s "$OUTPUT_FILE" ]; then
     SIZE=$(du -sh "$OUTPUT_FILE" | cut -f1)
-    echo "SUCCÈS : Fichier créé ($SIZE). Emplacement : $OUTPUT_FILE"
+    echo "SUCCÈS : Fichier $OUTPUT_FILE créé ($SIZE)."
 else
-    echo "ERREUR : Le fichier de sortie n'a pas pu être généré."
-    exit 1
+    echo "ERREUR : Le fichier est vide."
 fi
-
-echo "--- Fin du traitement ---"
