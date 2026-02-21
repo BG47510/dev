@@ -45,21 +45,26 @@ extract_and_filter() {
 
         # Extraction des programmes associés
         programmes=$(xmlstarlet sel -t -m "/tv/programme[@channel='$channel_id']" \
-            -o "<programme start='" -v "start" -o "' stop='" -v "stop" -o "' channel='$channel_id'>\n" \
+            -o "<programme start='" -v "@start" -o "' stop='" -v "@stop" -o "' channel='$channel_id'>\n" \
             -o "<title lang='fr'>" -v "title" -o "</title>\n" \
             -o "<desc lang='fr'>" -v "desc" -o "</desc>\n" \
             -o "<date>" -v "date" -o "</date>\n" \
             -o "</programme>\n" \
             "$tmp_file")
-        
+
         # Ajouter la chaîne et les programmes au fichier de sortie
-        if [ ! -z "$channel_data" ]; then
+        if [[ -n "$channel_data" ]]; then
             echo -e "$channel_data" >> "$OUTPUT_FILE"
         fi
 
-        if [ ! -z "$programmes" ]; then
+        if [[ -n "$programmes" ]]; then
             echo -e "$programmes" >> "$OUTPUT_FILE"
+        else
+            echo "Aucun programme trouvé pour le channel_id: $channel_id"  # Ligne de débogage
         fi
+
+        # Débogage pour observer le contenu extrait
+        echo "Programmes extraits : $programmes"  # Vérifiez les programmes extraits
     done
 
     rm "$tmp_file"
