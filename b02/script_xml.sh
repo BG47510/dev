@@ -8,7 +8,6 @@ URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz")
 
 # Fichier de sortie
 OUTPUT_FILE="filtered_epg.xml"
-TEMP_FILE=$(mktemp)
 
 # Créer le fichier de sortie avec l'en-tête XML
 echo '<?xml version="1.0" encoding="UTF-8"?>' > "$OUTPUT_FILE"
@@ -28,43 +27,25 @@ extract_and_filter() {
     # Retirer la ligne DTD si elle existe
     sed -i 's|<!DOCTYPE tv SYSTEM "xmltv.dtd">||' "$tmp_file"
 
-    # Afficher un extrait complet du fichier pour débogage
-    echo "Contenu complet du fichier source :"
-    head -n 20 "$tmp_file"  # Affiche les 20 premières lignes
-
     # Pour chaque channel id, extraire les chaînes et programmes
     for channel_id in "${CHANNEL_IDS[@]}"; do
         echo "Extraction pour le channel_id: $channel_id"
 
         # Extraction des chaînes
-        channel_data=$(xmlstarlet sel -t -m "/tv/channel[@id='$channel_id']" \
+        xmlstarlet sel -t -m "/tv/channel[@id='$channel_id']" \
             -o "<channel id='$channel_id'>\n" \
             -o "<display-name>" -v "display-name" -o "</display-name>\n" \
             -o "</channel>\n" \
-            "$tmp_file")
+            "$tmp_file" >> "$OUTPUT_FILE"
 
         # Extraction des programmes associés
-        programmes=$(xmlstarlet sel -t -m "/tv/programme[@channel='$channel_id']" \
+        xmlstarlet sel -t -m "/tv/programme[@channel='$channel_id']" \
             -o "<programme start='" -v "@start" -o "' stop='" -v "@stop" -o "' channel='$channel_id'>\n" \
             -o "<title lang='fr'>" -v "title" -o "</title>\n" \
             -o "<desc lang='fr'>" -v "desc" -o "</desc>\n" \
             -o "<date>" -v "date" -o "</date>\n" \
             -o "</programme>\n" \
-            "$tmp_file")
-
-        # Ajouter la chaîne et les programmes au fichier de sortie
-        if [[ -n "$channel_data" ]]; then
-            echo -e "$channel_data" >> "$OUTPUT_FILE"
-        fi
-
-        if [[ -n "$programmes" ]]; then
-            echo -e "$programmes" >> "$OUTPUT_FILE"
-        else
-            echo "Aucun programme trouvé pour le channel_id: $channel_id"  # Ligne de débogage
-        fi
-
-        # Débogage pour observer le contenu extrait
-        echo "Programmes extraits : $programmes"  # Vérifiez les programmes extraits
+            "$tmp_file" >> "$OUTPUT_FILE"
     done
 
     rm "$tmp_file"
