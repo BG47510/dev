@@ -3,7 +3,7 @@
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-CHANNEL_IDS=("TF1.fr" "France2.fr" "MC174.api.telerama.fr")
+CHANNEL_IDS=("TF1.fr" "France2.fr" "C174.api.telerama.fr")
 
 URLS=(
     "https://xmltvfr.fr/xmltv/xmltv.xml.gz"
