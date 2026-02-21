@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Définir les chaînes TV qui vous intéressent
-declare -a CHANNEL_IDS=("TF1.fr")  # Ajoutez d'autres IDs si nécessaire
+declare -a CHANNEL_IDS=("TF1.fr")  # Modifiez les IDs selon vos besoins
 
 # Liste des URLs
 URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz")
@@ -45,13 +45,13 @@ extract_and_filter() {
 
         # Extraction des programmes associés
         programmes=$(xmlstarlet sel -t -m "/tv/programme[@channel='$channel_id']" \
-            -o "<programme start='{start}' stop='{stop}' channel='$channel_id'>\n" \
+            -o "<programme start='" -v "start" -o "' stop='" -v "stop" -o "' channel='$channel_id'>\n" \
             -o "<title lang='fr'>" -v "title" -o "</title>\n" \
             -o "<desc lang='fr'>" -v "desc" -o "</desc>\n" \
             -o "<date>" -v "date" -o "</date>\n" \
             -o "</programme>\n" \
             "$tmp_file")
-
+        
         # Ajouter la chaîne et les programmes au fichier de sortie
         if [ ! -z "$channel_data" ]; then
             echo -e "$channel_data" >> "$OUTPUT_FILE"
