@@ -3,7 +3,6 @@
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-# On définit le répertoire de travail (GitHub Workspace ou dossier courant)
 WORKDIR="${GITHUB_WORKSPACE:-$(pwd)}"
 cd "$WORKDIR"
 
@@ -16,12 +15,11 @@ URLS=(
 
 OUTPUT_FILE="filtered_epg.xml.gz"
 TEMP_DIR="./temp_epg"
-mkdir -p "$TEMP_DIR"
+rm -rf "$TEMP_DIR" && mkdir -p "$TEMP_DIR"
 
 # ==============================================================================
 # PARAMÈTRES TEMPORELS
 # ==============================================================================
-# Format pour XMLTV et calcul compatible Linux/Runner
 NOW=$(date +%Y%m%d%H%M)
 LIMIT=$(date -d "+3 days" +%Y%m%d%H%M)
 
@@ -34,65 +32,62 @@ done
 xpath_channels="${xpath_channels% or }"
 xpath_progs="${xpath_progs% or }"
 
-echo "--- Démarrage du traitement dans $WORKDIR ---"
+echo "--- Démarrage du filtrage ---"
 
 # ==============================================================================
 # 1. RÉCUPÉRATION ET FILTRAGE
 # ==============================================================================
-count=0
+idx=0
 for url in "${URLS[@]}"; do
-    count=$((count + 1))
-    echo "Source $count : $url"
+    idx=$((idx + 1))
+    echo "Traitement Source $idx : $url"
     
+    # On télécharge et on nettoie le DOCTYPE avant XMLStarlet
     if [[ "$url" == *.gz ]]; then
-        FETCH_CMD="curl -sL $url | gunzip"
+        curl -sL "$url" | gunzip > "$TEMP_DIR/raw_$idx.xml"
     else
-        FETCH_CMD="curl -sL $url"
+        curl -sL "$url" > "$TEMP_DIR/raw_$idx.xml"
     fi
 
-    eval "$FETCH_CMD" | sed '/DOCTYPE tv SYSTEM/d' | xmlstarlet ed \
+    # Filtrage avec xmlstarlet
+    sed -i '/DOCTYPE tv SYSTEM/d' "$TEMP_DIR/raw_$idx.xml"
+    
+    xmlstarlet ed \
         -d "/tv/channel[not($xpath_channels)]" \
         -d "/tv/programme[not($xpath_progs)]" \
         -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
         -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
-        > "$TEMP_DIR/src_$count.xml"
+        "$TEMP_DIR/raw_$idx.xml" > "$TEMP_DIR/src_$idx.xml"
 done
 
 # ==============================================================================
 # 2. FUSION, DÉDOUBLONNAGE ET COMPRESSION
 # ==============================================================================
-echo "Fusion, dédoublonnage et compression..."
+echo "Fusion et compression en cours..."
 
 {
     echo '<?xml version="1.0" encoding="UTF-8"?><tv>'
-    
-    # Extraction des chaînes uniques
-    xmlstarlet sel -N -t -c "/tv/channel" "$TEMP_DIR"/*.xml | awk '!x[$0]++'
-    
-    # Extraction et dédoublonnage des programmes (clé = chaine + heure début)
-    xmlstarlet sel -N -t -c "/tv/programme" "$TEMP_DIR"/*.xml | \
+    # Chaînes
+    xmlstarlet sel -N -t -c "/tv/channel" "$TEMP_DIR"/src_*.xml | awk '!x[$0]++'
+    # Programmes avec dédoublonnage (Clé : canal + début)
+    xmlstarlet sel -N -t -c "/tv/programme" "$TEMP_DIR"/src_*.xml | \
     awk '
     BEGIN { RS="</programme>"; FS="<programme " }
     {
         if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([^"]+)"/, s)) {
             key = c[1] s[1]
-            if (!seen[key]++) {
-                print $0 "</programme>"
-            }
+            if (!seen[key]++) { print $0 "</programme>" }
         }
     }'
-    
     echo '</tv>'
 } | gzip -9 > "$OUTPUT_FILE"
 
-# ==============================================================================
-# NETTOYAGE
-# ==============================================================================
+# Nettoyage
 rm -rf "$TEMP_DIR"
 
 if [ -s "$OUTPUT_FILE" ]; then
-    echo "SUCCÈS : $(du -sh "$OUTPUT_FILE") généré dans $WORKDIR"
+    echo "SUCCÈS : $(du -sh "$OUTPUT_FILE")"
 else
-    echo "ERREUR : Échec de la génération."
+    echo "ERREUR : Le fichier généré est vide."
     exit 1
 fi
