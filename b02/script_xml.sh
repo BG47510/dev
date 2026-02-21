@@ -1,68 +1,42 @@
 #!/bin/bash
 
-# Définir les chaînes TV qui vous intéressent
-declare -a CHANNEL_IDS=("TF1.fr")  # Modifiez les IDs selon vos besoins
-
-# Liste des URLs
-URLS=("https://xmltvfr.fr/xmltv/xmltv.xml.gz")
-
-# Fichier de sortie
+# Configuration
+CHANNEL_IDS=("TF1.fr" "France2.fr") # Ajoute tes IDs ici
+URL="https://xmltvfr.fr/xmltv/xmltv.xml.gz"
 OUTPUT_FILE="filtered_epg.xml"
-TEMP_FILE=$(mktemp)
+TEMP_FILE="source.xml"
 
-# Télécharger et décompresser
-if ! curl -s "${URLS[0]}" | gunzip > "$TEMP_FILE"; then
-    echo "Erreur lors du téléchargement de ${URLS[0]}"
+# 1. Téléchargement et décompression
+echo "Téléchargement du guide TV..."
+if ! curl -sL "$URL" | gunzip > "$TEMP_FILE"; then
+    echo "Erreur lors du téléchargement."
     exit 1
 fi
 
-# Retirer la ligne DTD si elle existe
-sed -i 's|<!DOCTYPE tv SYSTEM "xmltv.dtd">||' "$TEMP_FILE"
+# 2. Construction de la requête de filtrage
+# On crée une condition XPath : [@id='ID1' or @id='ID2']
+filter_channels=""
+filter_progs=""
 
-# Créer le fichier de sortie avec l'en-tête XML
-{
-    echo '<?xml version="1.0" encoding="UTF-8"?>'
-    echo '<tv>'
-} > "$OUTPUT_FILE"
-
-# Fonction pour extraire et filtrer le contenu
-extract_and_filter() {
-    local channel_id=$1
-
-    echo "Extraction pour le channel_id: $channel_id"
-
-    # Extraction des chaînes
-    channel_data=$(xmlstarlet sel -t -m "/tv/channel[@id='$channel_id']" \
-        -o "<channel id='$channel_id'>\n" \
-        -o "<display-name>" -v "display-name" -o "</display-name>\n" \
-        -o "</channel>" \
-        "$TEMP_FILE")
-
-    # Écrire les chaînes dans le fichier de sortie
-    echo -e "$channel_data" >> "$OUTPUT_FILE"
-
-    # Extraction des programmes associés
-    programmes=$(xmlstarlet sel -t -m "/tv/programme[@channel='$channel_id']" \
-        -o "<programme start='" -v "@start" -o "' stop='" -v "@stop" -o "' channel='$channel_id'>\n" \
-        -o "<title lang='fr'>" -v "title" -o "</title>\n" \
-        -o "<desc lang='fr'>" -v "desc" -o "</desc>\n" \
-        -o "<date>" -v "date" -o "</date>\n" \
-        -o "</programme>" \
-        "$TEMP_FILE")
-
-    # Écrire les programmes dans le fichier de sortie
-    echo -e "$programmes" >> "$OUTPUT_FILE"
-}
-
-# Parcourir toutes les chaînes définies
-for channel_id in "${CHANNEL_IDS[@]}"; do
-    extract_and_filter "$channel_id"
+for id in "${CHANNEL_IDS[@]}"; do
+    filter_channels+="@id='$id' or "
+    filter_progs+="@channel='$id' or "
 done
 
-# Fermer la balise TV
-echo '</tv>' >> "$OUTPUT_FILE"
+# On retire le dernier ' or '
+filter_channels="${filter_channels% or }"
+filter_progs="${filter_progs% or }"
 
-# Nettoyer le fichier temporaire
+echo "Filtrage en cours..."
+
+# 3. Utilisation de xmlstarlet de manière efficace
+# On supprime tout ce qui ne correspond pas à nos IDs en une seule passe
+xmlstarlet ed \
+    -d "/tv/channel[not($filter_channels)]" \
+    -d "/tv/programme[not($filter_progs)]" \
+    "$TEMP_FILE" > "$OUTPUT_FILE"
+
+# Nettoyage
 rm "$TEMP_FILE"
 
-echo "Fichier EPG filtré créé: $OUTPUT_FILE"
+echo "Terminé ! Fichier créé : $OUTPUT_FILE"
