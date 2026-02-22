@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="C174.api.telerama.fr">
+    <display-name>SRF zwei</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-174.png"/>
+  </channel>
+  <programme start="20260222134500" channel="C174.api.telerama.fr" stop="20260222161500">
+    <title>JO d'hiver : Jeux olympiques de Milan-Cortina 2026</title>
+    <desc lang="fr">Les XXVes Jeux olympiques d'hiver 2026 se déroulent en Italie, à Milan et Cortina d'Ampezzo, et célèbrent les sports d'hiver avec 16 disciplines au menu de la compétition.</desc>
+    <category lang="fr">multisports</category>
+    <length units="minutes">150</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/06/51c06f9fe4c34483b574d625af5312c3.jpg"/>
+    <country lang="fr">Italie</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <new/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260222161500" channel="C174.api.telerama.fr" stop="20260222162000">
+    <title>Olympiaflash</title>
+    <desc lang="fr">Schnell und kompakt informiert über das Geschehen des aktuellen Olympiatages in Milano Cortina. Der "Olympiaflash" fasst die wichtigsten News und die besten Bilder des Tages in wenigen Minuten zusammen und bringt das Publikum auf den neuesten Stand.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/28/2098d66dfb4c4b8f9485e1c0f6d1175f.jpg"/>
+    <country lang="fr">Italie</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <new/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260222162000" channel="C174.api.telerama.fr" stop="20260222164000">
+    <title>JO d'hiver : Jeux olympiques de Milan-Cortina 2026</title>
+    <desc lang="fr">Les XXVes Jeux olympiques d'hiver 2026 se déroulent en Italie, à Milan et Cortina d'Ampezzo, et célèbrent les sports d'hiver avec 16 disciplines au menu de la compétition.</desc>
+    <category lang="fr">multisports</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/06/51c06f9fe4c34483b574d625af5312c3.jpg"/>
+    <country lang="fr">Italie</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260222164000" channel="C174.api.telerama.fr" stop="20260222180000">
+    <title>Finale</title>
+    <desc lang="fr">Der Schweizer Cup, auch SHV-Cup, ist ein bedeutender Handball-Wettbewerb des Schweizerischer Handball-Verbandes (SHV), der bei den Frauen seit der Saison 1999/00 jährlich ausgetragen wird.</desc>
+    <credits>
+      <commentator>Stephan Liniger</commentator>
+      <commentator>Noëlle Striffeler</commentator>
+    </credits>
+    <category lang="fr">handball</category>
+    <length units="minutes">80</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/28/3fd1c0891d42435f8f6754df400cdb14.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <new/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260222180000" channel="C174.api.telerama.fr" stop="20260222190000">
+    <title>Super League - Highlights</title>
+    <desc lang="fr">Das Magazin bietet den Komplettservice zur höchsten Schweizer Fussballliga mit den Matchberichten zur aktuellen Runde. Dazu: ausgewählte Highlights aus der Women's Super League, der Challenge League und von Schweizer Akteuren in ausländischen Ligen.</desc>
+    <credits>
+      <presenter>Rainer M. Salzgeber</presenter>
+    </credits>
+    <category lang="fr">magazine-sportif</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/23/ec0e3b577f784997af7bb536f92108d8.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260222190000" channel="C174.api.telerama.fr" stop="20260222192500">
+    <title>JO d'hiver : Jeux olympiques de Milan-Cortina 2026</title>
+    <desc lang="fr">Les XXVes Jeux olympiques d'hiver 2026 se déroulent en Italie, à Milan et Cortina d'Ampezzo, et célèbrent les sports d'hiver avec 16 disciplines au menu de la compétition.</desc>
+    <category lang="fr">multisports</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/28/fb2cff30704a448f8595699f569de101.jpg"/>
+    <country lang="fr">Italie</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260222192500" channel="C174.api.telerama.fr" stop="20260222215500">
+    <title>JO d'hiver : Jeux olympiques de Milan-Cortina 2026</title>
+    <desc lang="fr">Les XXVes Jeux olympiques d'hiver 2026 se déroulent en Italie, à Milan et Cortina d'Ampezzo, et célèbrent les sports d'hiver avec 16 disciplines au menu de la compétition.</desc>
+    <credits>
+      <commentator>Stefan Hofmänner</commentator>
+    </credits>
+    <category lang="fr">multisports</category>
+    <length units="minutes">150</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/07/17/631ec3febfb84c4c93a73689c7796f18.jpg"/>
+    <country lang="fr">Italie</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <new/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260222215500" channel="C174.api.telerama.fr" stop="20260222234500">
+    <title>Air</title>
+    <desc lang="fr">En 1984, la marque d'articles de sport Nike, dont l'image est jusqu'ici associée à la course à pied, souhaite toucher un public plus large, notamment celui des fans de basket-ball. Sonny Vaccaro, le responsable du marketing de l'équipementier, est chargé de recruter de nouveaux sportifs pouvant servir de porte-drapeaux à Nike. Contre l'avis de sa direction, celui-ci veut conclure un contrat avec Michael Jordan qui, à 21 ans, n'est pas encore une star de la NBA. Mais Jordan s'apprête à signer avec Adidas. Sonny tente alors le tout pour le tout : il propose au basketteur de développer une ligne de vêtements pour lui et portant son nom...</desc>
+    <credits>
+      <director>Ben Affleck</director>
+      <actor>Matt Damon</actor>
+      <actor>Ben Affleck</actor>
+      <actor>Jason Bateman</actor>
+      <actor>Marlon Wayans</actor>
+      <actor>Chris Messina</actor>
+      <actor>Chris Tucker</actor>
+      <actor>Viola Davis</actor>
+      <actor>Matthew Maher</actor>
+      <actor>Jay Mohr</actor>
+      <actor>Julius Tennon</actor>
+      <actor>Dan Bucatinsky</actor>
+      <actor>Gustaf Skarsgård</actor>
+      <writer>Alex Convery</writer>
+    </credits>
+    <category lang="fr">film</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/04/02/223f506e0cbc4536a593426a0451d392.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260222234500" channel="C174.api.telerama.fr" stop="20260223004000">
+    <title>Super League - Highlights</title>
+    <desc lang="fr">Das Magazin bietet den Komplettservice zur höchsten Schweizer Fussballliga mit den Matchberichten zur aktuellen Runde. Dazu: ausgewählte Highlights aus der Women's Super League, der Challenge League und von Schweizer Akteuren in ausländischen Ligen.</desc>
+    <credits>
+      <presenter>Rainer M. Salzgeber</presenter>
+    </credits>
+    <category lang="fr">magazine-sportif</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/23/ec0e3b577f784997af7bb536f92108d8.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223004000" channel="C174.api.telerama.fr" stop="20260223030500">
+    <title>JO d'hiver : Jeux olympiques de Milan-Cortina 2026</title>
+    <desc lang="fr">Les XXVes Jeux olympiques d'hiver 2026 se déroulent en Italie, à Milan et Cortina d'Ampezzo, et célèbrent les sports d'hiver avec 16 disciplines au menu de la compétition.</desc>
+    <credits>
+      <commentator>Stefan Hofmänner</commentator>
+    </credits>
+    <category lang="fr">multisports</category>
+    <length units="minutes">145</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/07/17/631ec3febfb84c4c93a73689c7796f18.jpg"/>
+    <country lang="fr">Italie</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223030500" channel="C174.api.telerama.fr" stop="20260223045000">
+    <title>Air</title>
+    <desc lang="fr">En 1984, la marque d'articles de sport Nike, dont l'image est jusqu'ici associée à la course à pied, souhaite toucher un public plus large, notamment celui des fans de basket-ball. Sonny Vaccaro, le responsable du marketing de l'équipementier, est chargé de recruter de nouveaux sportifs pouvant servir de porte-drapeaux à Nike. Contre l'avis de sa direction, celui-ci veut conclure un contrat avec Michael Jordan qui, à 21 ans, n'est pas encore une star de la NBA. Mais Jordan s'apprête à signer avec Adidas. Sonny tente alors le tout pour le tout : il propose au basketteur de développer une ligne de vêtements pour lui et portant son nom...</desc>
+    <credits>
+      <director>Ben Affleck</director>
+      <actor>Matt Damon</actor>
+      <actor>Ben Affleck</actor>
+      <actor>Jason Bateman</actor>
+      <actor>Marlon Wayans</actor>
+      <actor>Chris Messina</actor>
+      <actor>Chris Tucker</actor>
+      <actor>Viola Davis</actor>
+      <actor>Matthew Maher</actor>
+      <actor>Jay Mohr</actor>
+      <actor>Julius Tennon</actor>
+      <actor>Dan Bucatinsky</actor>
+      <actor>Gustaf Skarsgård</actor>
+      <writer>Alex Convery</writer>
+    </credits>
+    <category lang="fr">film</category>
+    <length units="minutes">105</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/04/02/223f506e0cbc4536a593426a0451d392.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223045000" channel="C174.api.telerama.fr" stop="20260223074500">
+    <title>Drei auf zwei</title>
+    <desc lang="fr">"3 auf zwei" ist Radio zum Anschauen. Das Morgenprogramm von SRF 3 im Fernsehen ermöglicht einen Blick hinter die Kulissen einer Radiosendung.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">175</length>
+    <country lang="fr">Suisse</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223045000" channel="C174.api.telerama.fr" stop="20260223074500">
+    <title>Drei auf zwei</title>
+    <desc lang="fr">"3 auf zwei" ist Radio zum Anschauen. Das Morgenprogramm von SRF 3 im Fernsehen ermöglicht einen Blick hinter die Kulissen einer Radiosendung.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">175</length>
+    <country lang="fr">Suisse</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223074500" channel="C174.api.telerama.fr" stop="20260223081500">
+    <title>Tagesschau vor 20 Jahren</title>
+    <desc lang="fr">Die "Tagesschau vor 20 Jahren" ist ein Nachrichtenrückblick in die jüngere Geschichte: Was bewegte die Schweiz und die Welt heute vor exakt 20 Jahren? Welche Themen bestimmten die Abendnachrichten? Ein Blick ins Archiv - zum Anknüpfen, Einordnen und Erinnern.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <country lang="fr">Suisse</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223081500" channel="C174.api.telerama.fr" stop="20260223090000">
+    <title>SRF bi de Lüt - Landfrauenküche</title>
+    <desc lang="fr">Als zweite Landfrau der 15. Staffel lädt Regula Schmid ihre Gäste auf den Bündner Glaspass oberhalb von Thusis ein. Zusammen mit Ehemann Ralph führt sie einen Bergbetrieb mit Grauvieh. In ihrem Landfrauenmenü spielen unter anderem Heidelbeeren und das eigene Rind eine Rolle.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/728163f5c30b4521ba56517680c7632b.jpg"/>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223090000" channel="C174.api.telerama.fr" stop="20260223095000">
+    <title>SRF bi de Lüt - Landfrauenküche</title>
+    <desc lang="fr">Oberhalb der Baumgrenze begleitet ein Filmteam das arbeitsintensive Alltagsleben der Hüttenwarte und ihrer Familien. Das Format zeigt erstmals, wie es in der kalten Jahreszeit auf den Hütten zu und her geht.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/f682fc4d85a740028997c7ae070226f3.jpg"/>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223095000" channel="C174.api.telerama.fr" stop="20260223103000">
+    <title>Kulturzeit</title>
+    <desc lang="fr">Das 3sat-Kulturmagazin von ZDF, ORF, SRF und ARD</desc>
+    <credits>
+      <presenter>Cécile Schortmann</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/01/22/9811a2ea48900098c8eb2560e2c86fb1632bfb00_F6EA8369DDEB63F40584750B61F95F4D.jpg"/>
+    <country lang="fr">Autriche</country>
+    <previously-shown/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223103000" channel="C174.api.telerama.fr" stop="20260223104000">
+    <title>SRF Kids News</title>
+    <category lang="fr">emission-jeunesse</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/28/e26dc165f60d4a2c830c0dbe1be9c349.jpg"/>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223104000" channel="C174.api.telerama.fr" stop="20260223110000">
+    <title>SRF Kids Inside</title>
+    <desc lang="fr">Die Aufnahmeprüfung für die Musicalschule steht bei Luana, 13, an. Wird alles gut gehen? Niall, 11, spielt ein ganz besonderes Instrument: Dudelsack! Damit möchte er für seine verstorbene Katze ein Lied spielen.</desc>
+    <category lang="fr">emission-jeunesse</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/04/622b1432d5df4cb2b1f7d6075127a9c7.jpg"/>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223110000" channel="C174.api.telerama.fr" stop="20260223145000">
+    <title>Drei auf zwei</title>
+    <desc lang="fr">"3 auf zwei" ist Radio zum Anschauen. Das Morgenprogramm von SRF 3 im Fernsehen ermöglicht einen Blick hinter die Kulissen einer Radiosendung.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">230</length>
+    <country lang="fr">Suisse</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223145000" channel="C174.api.telerama.fr" stop="20260223154000">
+    <title>Julia: Wege zum Glück</title>
+    <desc lang="fr">Saison:3 - Episode:14 - Soap opéra allemand axé sur la vie sentimentale de différentes jeunes femmes à chaque saison. Dans la première, Julia Schilling rencontre l'homme de ses rêves en la personne de Daniel Gravenberg en Afrique du Sud, mais ils seront brutalement séparés jusqu'à ce que le destin les réunisse à nouveau dans d'improbables circonstances.</desc>
+    <credits>
+      <director>Gerald Distl</director>
+      <director>Walter A. Franke</director>
+      <actor>Susanne Berckhemer</actor>
+      <actor>Anja Boche</actor>
+      <actor>David Kramer</actor>
+      <actor>Isa Jank</actor>
+      <actor>Peter Zimmermann</actor>
+      <actor>Silke Matthias</actor>
+      <actor>Günter Bubbnik</actor>
+      <writer>Uschi Müller</writer>
+    </credits>
+    <date>2007</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/03c38daa408e4fa8bd17084be729276f.jpg"/>
+    <country lang="fr">Allemagne</country>
+    <episode-num system="xmltv_ns">2.13.</episode-num>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223154000" channel="C174.api.telerama.fr" stop="20260223165000">
+    <title>Doc</title>
+    <desc lang="fr">Saison:1 - Episode:11 - Andrea réalise qu'il était en couple avec Julia avant son accident, même s'il n'en garde aucun souvenir. Une mère de famille, étudiante en droit, perd la mémoire lors de son examen. Andrea finit par comprendre que l'ex-mari de sa patiente a le sida et qu'il l'a contaminée. Alba est embarrassée d'avoir mal réagi en apprenant que Riccardo avait été amputé. Elle essaie de se faire pardonner, mais celui-ci garde ses distances. Il sympathise avec un nouveau patient, un batteur qui se croit atteint de la maladie de Charcot. En réalité, les troubles dont souffre cet homme sont d'ordre psychosomatique...</desc>
+    <credits>
+      <director>Jan Michelini</director>
+      <actor>Luca Argentero</actor>
+      <actor>Matilde Gioli</actor>
+      <actor>Sara Lazzaro</actor>
+      <actor>Gianmarco Saurino</actor>
+      <actor>Raffaele Esposito</actor>
+      <actor>Luca Avagliano</actor>
+      <actor>Alberto Malanchino</actor>
+      <actor>Silvia Mazzieri</actor>
+      <actor>Elisa di Eusanio</actor>
+      <actor>Maurizio Fanin</actor>
+      <actor>Fausto Caroli</actor>
+      <actor>Benedetta Cimatti</actor>
+      <writer>Lea Tafuri</writer>
+      <writer>Viola Rispoli</writer>
+      <writer>Pierdante Piccioni</writer>
+      <writer>Pierangelo Sapegno</writer>
+      <writer>Francesco Arlanch</writer>
+      <writer>Edoardo A. Gino</writer>
+      <writer>Giulia Cavazza</writer>
+    </credits>
+    <date>2020</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">70</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/a3bedd8e8b284524893bbe988f121715.jpg"/>
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">0.10.</episode-num>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223165000" channel="C174.api.telerama.fr" stop="20260223171500">
+    <title>Mit Volldampf voraus</title>
+    <desc lang="fr">In den Weinbergen des Lavaux ist die Weltmeisterschaft der Tracassets ein frühlingshafter Karneval, bei dem alles erlaubt ist, solange es rollt! Diese kleinen Fahrzeuge, die in den 50er Jahren gebaut wurden, um durch die steilen Weinberge zu kraxeln, werden für das Rennen umgebaut und mit Leidenschaft und Humor verkleidet.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/10/86cefdda5e5d42e69e839dbf17114247.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223171500" channel="C174.api.telerama.fr" stop="20260223175000">
+    <title>Geheimnisvolle Schweiz</title>
+    <desc lang="fr">Was wäre das Leben ohne das Mysterium? Begleitet von einem Kenner des Themas, Stefan Ansermet, begaben sich Reporter auf die Suche nach einigen geheimnisvollen Orten in der Schweiz, wie beispielsweise die Höhlen-Einsiedelei der Madelaine, die Schmiedehöhle oder die Totenmühle.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/10/4b95d91f010b44f48af6b52c33bf1d4a.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223175000" channel="C174.api.telerama.fr" stop="20260223183000">
+    <title>Life@SRF</title>
+    <desc lang="fr">Die Welt verstehen und erleben, was junge Menschen bewegt: "Life@SRF" taucht ein in aktuelle gesellschaftliche Themen aus dem digitalen Universum von SRF.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/23/1eebbbc03011437588a81c23fc0d5c5b.jpg"/>
+    <country lang="fr">Suisse</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223183000" channel="C174.api.telerama.fr" stop="20260223190000">
+    <title>Tagesschau</title>
+    <desc lang="fr">Die "Tagesschau" berichtet über Themen aus Politik, Wirtschaft, Kultur, Sport, Gesellschaft und Wissenschaft aus dem In- und Ausland.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/26/32246ccfd4424c47a261e4d7522e08cf.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223190000" channel="C174.api.telerama.fr" stop="20260223191000">
+    <title>sportflash</title>
+    <desc lang="fr">Siege und Niederlagen hautnah miterleben. Die SRF-Sportredaktion informiert ihre Zuschauer kompakt über aktuelle Resultate aus den Top-Sportarten, hält Kurzmeldungen zu prominenten Sportlern bereit und berichtet auch über Freizeit- und Trendsportarten. Kurzum: Das Neueste aus der Welt des Sports topaktuell aufbereitet.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/15/46a1933492ba4ed7bb1322e74aa6638f.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223191000" channel="C174.api.telerama.fr" stop="20260223200000">
+    <title>High Potential</title>
+    <desc lang="fr">Saison:1 - Episode:1 - Une mère célibataire à haut potentiel intellectuel est recrutée par la brigade criminelle de la police de Los Angeles, où son talent atypique pour résoudre les crimes la conduit à un partenariat improbable et imparable avec un inspecteur chevronné du genre rigoureux.</desc>
+    <credits>
+      <director>Amanda Treyz</director>
+      <director>Alethea Jones</director>
+      <actor>Kaitlin Olson</actor>
+      <actor>Daniel Sunjata</actor>
+      <actor>Javicia Leslie</actor>
+      <actor>Deniz Akdeniz</actor>
+      <actor>Amirah Johnson</actor>
+      <actor>Matthew Lamb</actor>
+      <actor>Judy Reyes</actor>
+      <actor>Taran Killam</actor>
+      <actor>Tom Butler</actor>
+      <actor>Sebastien Roberts</actor>
+      <actor>Garret Dillahunt</actor>
+      <actor>Mya Lowe</actor>
+      <writer>Kat Sieniuc</writer>
+      <writer>Drew Goddard</writer>
+      <writer>Alice Chegaray-Breugnot</writer>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/eb9a0230bc3b401785483db6022bb195.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating system="Telerama">
+      <value>1/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260223200000" channel="C174.api.telerama.fr" stop="20260223210000">
+    <title>Doc</title>
+    <desc lang="fr">Saison:3 - Episode:13 - Doc encourage Julia à terminer son article et à candidater pour devenir chef de service. Pour cela, elle doit prendre du temps pour écrire son article. Mais Doc est tête en l'air, il oublie le rendez-vous avec sa fille au cours duquel Julia et lui voulaient annoncer qu'ils étaient de nouveau ensemble. Il omet aussi qu'il doit rencontrer les investisseurs pour présenter la base de données. Heureusement, Julia est là pour sauver le service. Mais Andrea avait une bonne raison d'oublier ces engagements : la petite soeur de Lin, Yu, est hospitalisée. Il tient absolument à aider son interne, qui est en rupture avec sa famille...</desc>
+    <credits>
+      <director>Jan Michelini</director>
+      <director>Ciro Visco</director>
+      <actor>Luca Argentero</actor>
+      <actor>Matilde Gioli</actor>
+      <actor>Sara Lazzaro</actor>
+      <actor>Beatrice Grannò</actor>
+      <actor>Elisa Wong</actor>
+      <actor>Pierpaolo Spollon</actor>
+      <actor>Elisa di Eusanio</actor>
+      <actor>Giovanni Scifoni</actor>
+      <actor>Raffaella Antinucci</actor>
+      <actor>Lorenzo de Moor</actor>
+      <actor>Giacomo Giorgio</actor>
+      <actor>Federica Girardello</actor>
+      <writer>Francesco Arlanch</writer>
+      <writer>Viola Rispoli</writer>
+      <writer>Francesco Balletta</writer>
+      <writer>Valerio D'Annunzio</writer>
+      <writer>Gaia Rispoli</writer>
+      <writer>Lea Tafuri</writer>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/30948a00453540f38113fbb5008ba7df.jpg"/>
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">2.12.</episode-num>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223210000" channel="C174.api.telerama.fr" stop="20260223214500">
+    <title>Chicago Med</title>
+    <desc lang="fr">Saison:10 - Episode:15 - Ripley rencontre des difficultés lorsqu'il doit porter secours à une femme et sa fille, piégées dans un puits abandonné. Une ancienne amie de l'époque où Frost travaillait à la télévision suit Maggie. Après avoir effectué une échographie sur son patient, Asher découvre une affection extrêmement rare...</desc>
+    <credits>
+      <director>Anna Dokoza</director>
+      <actor>Steven Weber</actor>
+      <actor>Marlyne Barrett</actor>
+      <actor>Jessy Schram</actor>
+      <actor>Luke Mitchell</actor>
+      <actor>Sarah Ramos</actor>
+      <actor>Darren Barnet</actor>
+      <actor>S. Epatha Merkerson</actor>
+      <actor>Oliver Platt</actor>
+      <actor>Christian Stolte</actor>
+      <actor>Daniel Dorr</actor>
+      <actor>Erin Anderson</actor>
+      <actor>Jessalyn Gilsig</actor>
+      <writer>Allen MacDonald</writer>
+      <writer>Matt Olmstead</writer>
+      <writer>Deanna Shumaker</writer>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/22/2dabb1dd1af34d7d87cfc26fd07443c1.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">9.14.</episode-num>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223214500" channel="C174.api.telerama.fr" stop="20260223222000">
+    <title>rec.</title>
+    <desc lang="fr">"rec." -Reporter Robin Pickis nimmt eine der stärksten psychedelischen Drogen und erfährt eindrücklich, wie diese sein Bewusstsein verändert. Er macht es für die Forschung, als Teilnehmer einer Studie. Können Substanzen wie DMT, LSD oder MDMA psychisch kranke Menschen in ihrer Heilung unterstützen?</desc>
+    <credits>
+      <writer>Robin Pickis</writer>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/30/2ce5b447076748359759dd7796f3ce9b.jpg"/>
+    <country lang="fr">Suisse</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223222000" channel="C174.api.telerama.fr" stop="20260223222500">
+    <title>sportflash</title>
+    <desc lang="fr">Siege und Niederlagen hautnah miterleben. Die SRF-Sportredaktion informiert ihre Zuschauer kompakt über aktuelle Resultate aus den Top-Sportarten, hält Kurzmeldungen zu prominenten Sportlern bereit und berichtet auch über Freizeit- und Trendsportarten. Kurzum: Das Neueste aus der Welt des Sports topaktuell aufbereitet.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/14/31feb4a8b8f648c0a9f781b9bf22e9a2.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223222500" channel="C174.api.telerama.fr" stop="20260223223500">
+    <title>Newsflash</title>
+    <desc lang="fr">Hier werden die Zuschauer in wenigen Minuten auf den neuesten Stand gebracht. In kompakter Form berichtet "Newsflash" über alle wichtigen Ereignisse des Tages, die kurz und prägnant zusammengefasst werden. Zudem bietet die Sendung eine Aussicht auf die Wetterlage der kommenden Tage, kurze Interviews sowie Hintergrundinformationen aus Politik, Wirtschaft, Gesellschaft und Sport.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/10/11/e8ecdcc34fb853d28e02e0a50546ca01d0a28220.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260223223500" channel="C174.api.telerama.fr" stop="20260224000500">
+    <title>Next Door</title>
+    <desc lang="fr">Daniel, un acteur célèbre habitant à Berlin, se rend dans le café du coin avant son départ pour Londres pour auditionner dans un film américain de super-héros. Il habite un loft dans un immeuble avec sa femme et ses enfants, L'homme est germano-espagnol et tout se déroule bien dans sa vie. Assis au comptoir l'attend son voisin, Bruno, un homme plutôt mystérieux, qui en sait énormément sur la vie privée de Daniel. C'est un moment que Bruno a prémédité en le suivant. Il décide de faire passer le pire moment de sa vie à cette star du cinéma, en passant toute la frustration qu'il a pu ressentir avec l'arrivée d'une classe plus aisée...</desc>
+    <credits>
+      <director>Daniel Brühl</director>
+      <actor>Daniel Brühl</actor>
+      <actor>Peter Kurth</actor>
+      <actor>Rike Eckermann</actor>
+      <actor>Aenne Schwarz</actor>
+      <actor>Gode Benedix</actor>
+      <actor>Mex Schlüpfer</actor>
+      <actor>Stefan Scheumann</actor>
+      <actor>Nils Dörgeloh</actor>
+      <actor>Vicky Krieps</actor>
+      <actor>Justine Hirschfeld</actor>
+      <actor>Ole Hermann</actor>
+      <actor>Luisa-Céline Gaffron</actor>
+      <writer>Daniel Kehlmann</writer>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">film</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/c54ce648ed7545a9ab70ec02ddfa5121.jpg"/>
+    <country lang="fr">Allemagne</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating system="Telerama">
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260224000500" channel="C174.api.telerama.fr" stop="20260224003500">
+    <title>Tagesschau vor 20 Jahren</title>
+    <desc lang="fr">Die "Tagesschau vor 20 Jahren" ist ein Nachrichtenrückblick in die jüngere Geschichte: Was bewegte die Schweiz und die Welt heute vor exakt 20 Jahren? Welche Themen bestimmten die Abendnachrichten? Ein Blick ins Archiv - zum Anknüpfen, Einordnen und Erinnern.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224003500" channel="C174.api.telerama.fr" stop="20260224010500">
+    <title>Life@SRF</title>
+    <desc lang="fr">Die Welt verstehen und erleben, was junge Menschen bewegt: "Life@SRF" taucht ein in aktuelle gesellschaftliche Themen aus dem digitalen Universum von SRF.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/23/1eebbbc03011437588a81c23fc0d5c5b.jpg"/>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224010500" channel="C174.api.telerama.fr" stop="20260224014500">
+    <title>High Potential</title>
+    <desc lang="fr">Saison:1 - Episode:1 - Une mère célibataire à haut potentiel intellectuel est recrutée par la brigade criminelle de la police de Los Angeles, où son talent atypique pour résoudre les crimes la conduit à un partenariat improbable et imparable avec un inspecteur chevronné du genre rigoureux.</desc>
+    <credits>
+      <director>Amanda Treyz</director>
+      <director>Alethea Jones</director>
+      <actor>Kaitlin Olson</actor>
+      <actor>Daniel Sunjata</actor>
+      <actor>Javicia Leslie</actor>
+      <actor>Deniz Akdeniz</actor>
+      <actor>Amirah Johnson</actor>
+      <actor>Matthew Lamb</actor>
+      <actor>Judy Reyes</actor>
+      <actor>Taran Killam</actor>
+      <actor>Tom Butler</actor>
+      <actor>Sebastien Roberts</actor>
+      <actor>Garret Dillahunt</actor>
+      <actor>Mya Lowe</actor>
+      <writer>Kat Sieniuc</writer>
+      <writer>Drew Goddard</writer>
+      <writer>Alice Chegaray-Breugnot</writer>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/eb9a0230bc3b401785483db6022bb195.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating system="Telerama">
+      <value>1/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260224014500" channel="C174.api.telerama.fr" stop="20260224023500">
+    <title>Doc</title>
+    <desc lang="fr">Saison:3 - Episode:13 - Doc encourage Julia à terminer son article et à candidater pour devenir chef de service. Pour cela, elle doit prendre du temps pour écrire son article. Mais Doc est tête en l'air, il oublie le rendez-vous avec sa fille au cours duquel Julia et lui voulaient annoncer qu'ils étaient de nouveau ensemble. Il omet aussi qu'il doit rencontrer les investisseurs pour présenter la base de données. Heureusement, Julia est là pour sauver le service. Mais Andrea avait une bonne raison d'oublier ces engagements : la petite soeur de Lin, Yu, est hospitalisée. Il tient absolument à aider son interne, qui est en rupture avec sa famille...</desc>
+    <credits>
+      <director>Jan Michelini</director>
+      <director>Ciro Visco</director>
+      <actor>Luca Argentero</actor>
+      <actor>Matilde Gioli</actor>
+      <actor>Sara Lazzaro</actor>
+      <actor>Beatrice Grannò</actor>
+      <actor>Elisa Wong</actor>
+      <actor>Pierpaolo Spollon</actor>
+      <actor>Elisa di Eusanio</actor>
+      <actor>Giovanni Scifoni</actor>
+      <actor>Raffaella Antinucci</actor>
+      <actor>Lorenzo de Moor</actor>
+      <actor>Giacomo Giorgio</actor>
+      <actor>Federica Girardello</actor>
+      <writer>Francesco Arlanch</writer>
+      <writer>Viola Rispoli</writer>
+      <writer>Francesco Balletta</writer>
+      <writer>Valerio D'Annunzio</writer>
+      <writer>Gaia Rispoli</writer>
+      <writer>Lea Tafuri</writer>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/30948a00453540f38113fbb5008ba7df.jpg"/>
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">2.12.</episode-num>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224023500" channel="C174.api.telerama.fr" stop="20260224032000">
+    <title>Chicago Med</title>
+    <desc lang="fr">Saison:10 - Episode:15 - Ripley rencontre des difficultés lorsqu'il doit porter secours à une femme et sa fille, piégées dans un puits abandonné. Une ancienne amie de l'époque où Frost travaillait à la télévision suit Maggie. Après avoir effectué une échographie sur son patient, Asher découvre une affection extrêmement rare...</desc>
+    <credits>
+      <director>Anna Dokoza</director>
+      <actor>Steven Weber</actor>
+      <actor>Marlyne Barrett</actor>
+      <actor>Jessy Schram</actor>
+      <actor>Luke Mitchell</actor>
+      <actor>Sarah Ramos</actor>
+      <actor>Darren Barnet</actor>
+      <actor>S. Epatha Merkerson</actor>
+      <actor>Oliver Platt</actor>
+      <actor>Christian Stolte</actor>
+      <actor>Daniel Dorr</actor>
+      <actor>Erin Anderson</actor>
+      <actor>Jessalyn Gilsig</actor>
+      <writer>Allen MacDonald</writer>
+      <writer>Matt Olmstead</writer>
+      <writer>Deanna Shumaker</writer>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/22/2dabb1dd1af34d7d87cfc26fd07443c1.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">9.14.</episode-num>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224032000" channel="C174.api.telerama.fr" stop="20260224040000">
+    <title>Julia: Wege zum Glück</title>
+    <desc lang="fr">Saison:3 - Episode:14 - Soap opéra allemand axé sur la vie sentimentale de différentes jeunes femmes à chaque saison. Dans la première, Julia Schilling rencontre l'homme de ses rêves en la personne de Daniel Gravenberg en Afrique du Sud, mais ils seront brutalement séparés jusqu'à ce que le destin les réunisse à nouveau dans d'improbables circonstances.</desc>
+    <credits>
+      <director>Gerald Distl</director>
+      <director>Walter A. Franke</director>
+      <actor>Susanne Berckhemer</actor>
+      <actor>Anja Boche</actor>
+      <actor>David Kramer</actor>
+      <actor>Isa Jank</actor>
+      <actor>Peter Zimmermann</actor>
+      <actor>Silke Matthias</actor>
+      <actor>Günter Bubbnik</actor>
+      <writer>Uschi Müller</writer>
+    </credits>
+    <date>2007</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/03c38daa408e4fa8bd17084be729276f.jpg"/>
+    <country lang="fr">Allemagne</country>
+    <episode-num system="xmltv_ns">2.13.</episode-num>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224040000" channel="C174.api.telerama.fr" stop="20260224043000">
+    <title>Geheimnisvolle Schweiz</title>
+    <desc lang="fr">Was wäre das Leben ohne das Mysterium? Begleitet von einem Kenner des Themas, Stefan Ansermet, begaben sich Reporter auf die Suche nach einigen geheimnisvollen Orten in der Schweiz, wie beispielsweise die Höhlen-Einsiedelei der Madelaine, die Schmiedehöhle oder die Totenmühle.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/10/4b95d91f010b44f48af6b52c33bf1d4a.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <previously-shown/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224043000" channel="C174.api.telerama.fr" stop="20260224074500">
+    <title>Drei auf zwei</title>
+    <desc lang="fr">"3 auf zwei" ist Radio zum Anschauen. Das Morgenprogramm von SRF 3 im Fernsehen ermöglicht einen Blick hinter die Kulissen einer Radiosendung.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">195</length>
+    <country lang="fr">Suisse</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224043000" channel="C174.api.telerama.fr" stop="20260224074500">
+    <title>Drei auf zwei</title>
+    <desc lang="fr">"3 auf zwei" ist Radio zum Anschauen. Das Morgenprogramm von SRF 3 im Fernsehen ermöglicht einen Blick hinter die Kulissen einer Radiosendung.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">195</length>
+    <country lang="fr">Suisse</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224074500" channel="C174.api.telerama.fr" stop="20260224080500">
+    <title>Tagesschau vor 20 Jahren</title>
+    <desc lang="fr">Die "Tagesschau vor 20 Jahren" ist ein Nachrichtenrückblick in die jüngere Geschichte: Was bewegte die Schweiz und die Welt heute vor exakt 20 Jahren? Welche Themen bestimmten die Abendnachrichten? Ein Blick ins Archiv - zum Anknüpfen, Einordnen und Erinnern.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">20</length>
+    <country lang="fr">Suisse</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224080500" channel="C174.api.telerama.fr" stop="20260224085500">
+    <title>SRF bi de Lüt - Landfrauenküche</title>
+    <desc lang="fr">Sonja Vogt-Meyer ist auf Trab. Bei ihrem Landfrauenessen in Scherz AG soll alles perfekt sein. Nichts überlässt sie dem Zufall, plant das Kochen exakt und lässt sich für die Tischdekoration etwas Schmuckes einfallen. Auch der Alltag fordert die Lehrerin und Bäckerin. Zum Entspannen bleibt kaum Zeit.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">50</length>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224085500" channel="C174.api.telerama.fr" stop="20260224094000">
+    <title>SRF bi de Lüt - Landfrauenküche</title>
+    <desc lang="fr">Für das fünfte Essen reisen die Landfrauen zu Erika Arnold-Fässler nach Seedorf am Urnersee. Entgegen der Hoffnung einiger Gäste werden sie keinen Fisch auf den Teller bekommen. Dafür holt Erika provenzalisches Flair in den Essraum, obschon sie noch nie in dieser Region in Frankreich war.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/4f16e26b3dbf4d03af5f7ea2c65a96fa.jpg"/>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224094000" channel="C174.api.telerama.fr" stop="20260224102500">
+    <title>Kulturzeit</title>
+    <desc lang="fr">Das 3sat-Kulturmagazin von ZDF, ORF, SRF und ARD</desc>
+    <credits>
+      <presenter>Cécile Schortmann</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/01/22/9811a2ea48900098c8eb2560e2c86fb1632bfb00_F6EA8369DDEB63F40584750B61F95F4D.jpg"/>
+    <country lang="fr">Autriche</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224102500" channel="C174.api.telerama.fr" stop="20260224110000">
+    <title>Life@SRF</title>
+    <desc lang="fr">Die Welt verstehen und erleben, was junge Menschen bewegt: "Life@SRF" taucht ein in aktuelle gesellschaftliche Themen aus dem digitalen Universum von SRF.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/23/1eebbbc03011437588a81c23fc0d5c5b.jpg"/>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224110000" channel="C174.api.telerama.fr" stop="20260224145500">
+    <title>Drei auf zwei</title>
+    <desc lang="fr">"3 auf zwei" ist Radio zum Anschauen. Das Morgenprogramm von SRF 3 im Fernsehen ermöglicht einen Blick hinter die Kulissen einer Radiosendung.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">235</length>
+    <country lang="fr">Suisse</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224145500" channel="C174.api.telerama.fr" stop="20260224154500">
+    <title>Julia: Wege zum Glück</title>
+    <desc lang="fr">Saison:3 - Episode:15 - Soap opéra allemand axé sur la vie sentimentale de différentes jeunes femmes à chaque saison. Dans la première, Julia Schilling rencontre l'homme de ses rêves en la personne de Daniel Gravenberg en Afrique du Sud, mais ils seront brutalement séparés jusqu'à ce que le destin les réunisse à nouveau dans d'improbables circonstances.</desc>
+    <credits>
+      <director>Gerald Distl</director>
+      <director>Walter A. Franke</director>
+      <actor>Susanne Berckhemer</actor>
+      <actor>Anja Boche</actor>
+      <actor>David Kramer</actor>
+      <actor>Isa Jank</actor>
+      <actor>Peter Zimmermann</actor>
+      <actor>Silke Matthias</actor>
+      <actor>Günter Bubbnik</actor>
+      <writer>Uschi Müller</writer>
+    </credits>
+    <date>2007</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/21/6e1e3c4955c14637957711d4e56a93b5.jpg"/>
+    <country lang="fr">Allemagne</country>
+    <episode-num system="xmltv_ns">2.14.</episode-num>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224154500" channel="C174.api.telerama.fr" stop="20260224164500">
+    <title>Doc</title>
+    <desc lang="fr">Saison:1 - Episode:12 - Un accident de train mobilise toute l'équipe. Les médecins redoublent d'efforts pour faire face aux différentes urgences liées à ce drame. L'une des personnes blessées est une fille qui réouvre un chapitre important du passé de Riccardo alors que ce dernier pensait qu'il l'avait définitivement refermé...</desc>
+    <credits>
+      <director>Ciro Visco</director>
+      <director>Jan Michelini</director>
+      <actor>Luca Argentero</actor>
+      <actor>Matilde Gioli</actor>
+      <actor>Sara Lazzaro</actor>
+      <actor>Gianmarco Saurino</actor>
+      <actor>Raffaele Esposito</actor>
+      <actor>Alberto Malanchino</actor>
+      <actor>Silvia Mazzieri</actor>
+      <actor>Pierpaolo Spollon</actor>
+      <actor>Simona Tabasco</actor>
+      <actor>Elisa di Eusanio</actor>
+      <actor>Luca Avagliano</actor>
+      <actor>Francesco Castiglione</actor>
+      <writer>Francesco Arlanch</writer>
+      <writer>Valerio D'Annunzio</writer>
+      <writer>Pierdante Piccioni</writer>
+      <writer>Pierangelo Sapegno</writer>
+      <writer>Viola Rispoli</writer>
+      <writer>Edoardo A. Gino</writer>
+    </credits>
+    <date>2020</date>
+    <category lang="fr">serie</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/9ea8795375f24aaeae498d34697789c7.jpg"/>
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">0.11.</episode-num>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224164500" channel="C174.api.telerama.fr" stop="20260224171500">
+    <title>Zauberhaftes Tessin</title>
+    <desc lang="fr">Saison:1 - Episode:9 - Der Tag im Val Calanca beginnt mit einem Spaziergang in Rossa, wo das Schweizer Haus, die Fresken in den verschiedenen Kirchen und die archäologischen Ausgrabungen zu sehen sind. Auf dem Weg ins Tal wartet das "Waldbaden" und zum Abschluss ein Bier in Santa Maria.</desc>
+    <date>2022</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/10/86cefdda5e5d42e69e839dbf17114247.jpg"/>
+    <country lang="fr">Suisse</country>
+    <episode-num system="xmltv_ns">0.8.</episode-num>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224171500" channel="C174.api.telerama.fr" stop="20260224175000">
+    <title>Cuntrasts</title>
+    <desc lang="fr">Arjago ist ein Pferd, Ivory eine Hündin und Muffin ein Kater. Ihre Behandlung ist der Alltag der Profis bei der Clinica Alpina in Scuol. 365 Tage pro Jahr sind sie für das Wohl der Engadiner Tiere im Einsatz. Einen Tag lang war ein Team von Cuntrasts mit dem Klinikchef Beni Biner, der Veterinärin Francesca Zala-Tannò und ihrem Kollegen Men Bischoff und der Tiermedizinischen Praxisassistentin Marisa Tscholl unterwegs.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/367d3d83ea374044b2a5556e06999ba4.jpg"/>
+    <country lang="fr">Suisse</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224175000" channel="C174.api.telerama.fr" stop="20260224183000">
+    <title>Music@SRF</title>
+    <desc lang="fr">Highlights, Künstlerinnen und Künstler und Schweizer Musikschaffen: "Music@SRF" zeigt das Beste aus dem digitalen Musik-Universum von SRF.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/46709982f7cc4aaea47372cbfb53022b.jpg"/>
+    <country lang="fr">Suisse</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224183000" channel="C174.api.telerama.fr" stop="20260224190000">
+    <title>Tagesschau</title>
+    <desc lang="fr">Die "Tagesschau" berichtet über Themen aus Politik, Wirtschaft, Kultur, Sport, Gesellschaft und Wissenschaft aus dem In- und Ausland.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/26/32246ccfd4424c47a261e4d7522e08cf.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224190000" channel="C174.api.telerama.fr" stop="20260224191000">
+    <title>sportflash</title>
+    <desc lang="fr">Siege und Niederlagen hautnah miterleben. Die SRF-Sportredaktion informiert ihre Zuschauer kompakt über aktuelle Resultate aus den Top-Sportarten, hält Kurzmeldungen zu prominenten Sportlern bereit und berichtet auch über Freizeit- und Trendsportarten. Kurzum: Das Neueste aus der Welt des Sports topaktuell aufbereitet.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/27/307d5484623f4a1fa33c7c149e68e221"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224191000" channel="C174.api.telerama.fr" stop="20260224201000">
+    <title>Les hôtels les plus incroyables du monde</title>
+    <desc lang="fr">Saison:1 - Episode:3 - Giles et Monica découvrent le Giraffe Manor au Kenya, un hôtel unique où les girafes cohabitent avec le personnel et les visiteurs toute l'année. Dès le petit-déjeuner, les girafes se joignent aux clients dans la salle à manger de l'hôtel. L'établissement offre de l'emploi à la population locale puisque 75% du personnel est samburu. Giles et Monica constatent l'impact de l'hôtel sur la vie tribale.</desc>
+    <credits>
+      <director>Max Shapira</director>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">documentaire</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/f3b5d0eac0c74a5d904677b46643f765.jpg"/>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224201000" channel="C174.api.telerama.fr" stop="20260224211000">
+    <title>Femmes, massaïs et rangers : les lionnes du Kenya</title>
+    <desc lang="fr">Au Kenya, deux gardes forestières s'engagent pour une cohabitation pacifique entre humains et faune sauvage, sur fond d'émancipation féminine.</desc>
+    <credits>
+      <director>Silvia Palmigiano</director>
+      <director>Jeannine Apsel</director>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/f9ac711f09e14f74ab21f1b33bc0b64e.jpg"/>
+    <country lang="fr">Allemagne</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224211000" channel="C174.api.telerama.fr" stop="20260224220000">
+    <title>Australiens Meereswunder - Am Great Barrier Reef</title>
+    <desc lang="fr">Es ist so groß, dass es aus dem All mit bloßem Auge zu erkennen ist. Doch das Ökosystem von überragender Bedeutung, ist durch den Klimawandel bedroht. Die Hälfte seiner Korallen gingen bereits verloren. Azri Saparwan hat Geduld, die braucht er auch bei seinem Korallenprojekt. Seit fast einem Jahrzehnt pflanzt er Korallenableger in einem abgestorbenen Riff an und erweckt es so nach und nach zu neuem Leben.</desc>
+    <credits>
+      <writer>Stefan Heinrich</writer>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/19/060a176ea62e4b358b3d2239fbd9c57b.jpg"/>
+    <country lang="fr">Allemagne</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224220000" channel="C174.api.telerama.fr" stop="20260224224000">
+    <title>UEFA Champions League Magazine (Blue Sports)</title>
+    <desc lang="fr">Die besten Fussballer und Teams Europas im Fokus - mit dem Komplettservice zur Königsklasse. Im Programm sind alle Spiele und alle Tore des Tages. Reaktionen aus den Fussballstadien und viertiefende Analysen ergänzen die Matchberichte. Ein besonderes Augenmerk gilt den Schweizer Vertretern.</desc>
+    <credits>
+      <presenter>Rainer M. Salzgeber</presenter>
+    </credits>
+    <category lang="fr">magazine-sportif</category>
+    <length units="minutes">40</length>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224224000" channel="C174.api.telerama.fr" stop="20260224225000">
+    <title>sportflash</title>
+    <desc lang="fr">Siege und Niederlagen hautnah miterleben. Die SRF-Sportredaktion informiert ihre Zuschauer kompakt über aktuelle Resultate aus den Top-Sportarten, hält Kurzmeldungen zu prominenten Sportlern bereit und berichtet auch über Freizeit- und Trendsportarten. Kurzum: Das Neueste aus der Welt des Sports topaktuell aufbereitet.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/27/307d5484623f4a1fa33c7c149e68e221"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224225000" channel="C174.api.telerama.fr" stop="20260224230000">
+    <title>Newsflash</title>
+    <desc lang="fr">Hier werden die Zuschauer in wenigen Minuten auf den neuesten Stand gebracht. In kompakter Form berichtet "Newsflash" über alle wichtigen Ereignisse des Tages, die kurz und prägnant zusammengefasst werden. Zudem bietet die Sendung eine Aussicht auf die Wetterlage der kommenden Tage, kurze Interviews sowie Hintergrundinformationen aus Politik, Wirtschaft, Gesellschaft und Sport.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/10/11/e8ecdcc34fb853d28e02e0a50546ca01d0a28220.jpg"/>
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260224230000" channel="C174.api.telerama.fr" stop="20260225003500">
+    <title>Le Croque-mitaine</title>
+    <desc lang="fr">Le thérapeute Will Harper a récemment perdu sa femme et doit s'occuper seul de ses deux filles, Sadie, l'aînée, et sa petite soeur Sawyer. Encore en plein deuil, Will n'accorde pas à ses filles l'attention dont elles ont besoin. Un jour, Lester Billings, un de ses patients, débarque chez lui pour lui demander de l'aide. Totalement inattendue, cette visite provoque un cataclysme dans la vie des Harper. En effet, le patient a perdu ses trois filles, tuées par une force maléfique qui a pénétré avec lui dans la maison de la famille Harper. Sadie et Sawyer sont hantées par cette présence et tentent en vain de le faire comprendre à leur père...</desc>
+    <credits>
+      <director>Rob Savage</director>
+      <actor>Chris Messina</actor>
+      <actor>Vivien Lyra Blair</actor>
+      <actor>Sophie Thatcher</actor>
+      <actor>David Dastmalchian</actor>
+      <actor>Marin Ireland</actor>
+      <actor>Madison Hu</actor>
+      <actor>LisaGay Hamilton</actor>
+      <actor>Maddie Nichols</actor>
+      <actor>Mabel Tyler</actor>
+      <actor>Leeann Ross</actor>
+      <actor>Han Soto</actor>
+      <actor>Seylan Baxter</actor>
+      <writer>Scott Beck</writer>
+      <writer>Bryan Woods</writer>
+      <writer>Mark Heyman</writer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">film</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/10/6f4efe74842e498f87ef6dafcb96bad4.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <country lang="fr">Canada</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating system="Telerama">
+      <value>2/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260225003500" channel="C174.api.telerama.fr" stop="20260225010000">
+    <title>Tagesschau vor 20 Jahren</title>
+    <desc lang="fr">Die "Tagesschau vor 20 Jahren" ist ein Nachrichtenrückblick in die jüngere Geschichte: Was bewegte die Schweiz und die Welt heute vor exakt 20 Jahren? Welche Themen bestimmten die Abendnachrichten? Ein Blick ins Archiv - zum Anknüpfen, Einordnen und Erinnern.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">25</length>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225010000" channel="C174.api.telerama.fr" stop="20260225012500">
+    <title>Music@SRF</title>
+    <desc lang="fr">Highlights, Künstlerinnen und Künstler und Schweizer Musikschaffen: "Music@SRF" zeigt das Beste aus dem digitalen Musik-Universum von SRF.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/46709982f7cc4aaea47372cbfb53022b.jpg"/>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225012500" channel="C174.api.telerama.fr" stop="20260225022000">
+    <title>Doc</title>
+    <desc lang="fr">Saison:1 - Episode:12 - Un accident de train mobilise toute l'équipe. Les médecins redoublent d'efforts pour faire face aux différentes urgences liées à ce drame. L'une des personnes blessées est une fille qui réouvre un chapitre important du passé de Riccardo alors que ce dernier pensait qu'il l'avait définitivement refermé...</desc>
+    <credits>
+      <director>Ciro Visco</director>
+      <director>Jan Michelini</director>
+      <actor>Luca Argentero</actor>
+      <actor>Matilde Gioli</actor>
+      <actor>Sara Lazzaro</actor>
+      <actor>Gianmarco Saurino</actor>
+      <actor>Raffaele Esposito</actor>
+      <actor>Alberto Malanchino</actor>
+      <actor>Silvia Mazzieri</actor>
+      <actor>Pierpaolo Spollon</actor>
+      <actor>Simona Tabasco</actor>
+      <actor>Elisa di Eusanio</actor>
+      <actor>Luca Avagliano</actor>
+      <actor>Francesco Castiglione</actor>
+      <writer>Francesco Arlanch</writer>
+      <writer>Valerio D'Annunzio</writer>
+      <writer>Pierdante Piccioni</writer>
+      <writer>Pierangelo Sapegno</writer>
+      <writer>Viola Rispoli</writer>
+      <writer>Edoardo A. Gino</writer>
+    </credits>
+    <date>2020</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/9ea8795375f24aaeae498d34697789c7.jpg"/>
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">0.11.</episode-num>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225022000" channel="C174.api.telerama.fr" stop="20260225034500">
+    <title>Le Croque-mitaine</title>
+    <desc lang="fr">Le thérapeute Will Harper a récemment perdu sa femme et doit s'occuper seul de ses deux filles, Sadie, l'aînée, et sa petite soeur Sawyer. Encore en plein deuil, Will n'accorde pas à ses filles l'attention dont elles ont besoin. Un jour, Lester Billings, un de ses patients, débarque chez lui pour lui demander de l'aide. Totalement inattendue, cette visite provoque un cataclysme dans la vie des Harper. En effet, le patient a perdu ses trois filles, tuées par une force maléfique qui a pénétré avec lui dans la maison de la famille Harper. Sadie et Sawyer sont hantées par cette présence et tentent en vain de le faire comprendre à leur père...</desc>
+    <credits>
+      <director>Rob Savage</director>
+      <actor>Chris Messina</actor>
+      <actor>Vivien Lyra Blair</actor>
+      <actor>Sophie Thatcher</actor>
+      <actor>David Dastmalchian</actor>
+      <actor>Marin Ireland</actor>
+      <actor>Madison Hu</actor>
+      <actor>LisaGay Hamilton</actor>
+      <actor>Maddie Nichols</actor>
+      <actor>Mabel Tyler</actor>
+      <actor>Leeann Ross</actor>
+      <actor>Han Soto</actor>
+      <actor>Seylan Baxter</actor>
+      <writer>Scott Beck</writer>
+      <writer>Bryan Woods</writer>
+      <writer>Mark Heyman</writer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">film</category>
+    <length units="minutes">85</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/10/6f4efe74842e498f87ef6dafcb96bad4.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <country lang="fr">Canada</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating system="Telerama">
+      <value>2/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260225034500" channel="C174.api.telerama.fr" stop="20260225043000">
+    <title>Julia: Wege zum Glück</title>
+    <desc lang="fr">Saison:3 - Episode:15 - Soap opéra allemand axé sur la vie sentimentale de différentes jeunes femmes à chaque saison. Dans la première, Julia Schilling rencontre l'homme de ses rêves en la personne de Daniel Gravenberg en Afrique du Sud, mais ils seront brutalement séparés jusqu'à ce que le destin les réunisse à nouveau dans d'improbables circonstances.</desc>
+    <credits>
+      <director>Gerald Distl</director>
+      <director>Walter A. Franke</director>
+      <actor>Susanne Berckhemer</actor>
+      <actor>Anja Boche</actor>
+      <actor>David Kramer</actor>
+      <actor>Isa Jank</actor>
+      <actor>Peter Zimmermann</actor>
+      <actor>Silke Matthias</actor>
+      <actor>Günter Bubbnik</actor>
+      <writer>Uschi Müller</writer>
+    </credits>
+    <date>2007</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/21/6e1e3c4955c14637957711d4e56a93b5.jpg"/>
+    <country lang="fr">Allemagne</country>
+    <episode-num system="xmltv_ns">2.14.</episode-num>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225043000" channel="C174.api.telerama.fr" stop="20260225074500">
+    <title>Drei auf zwei</title>
+    <desc lang="fr">"3 auf zwei" ist Radio zum Anschauen. Das Morgenprogramm von SRF 3 im Fernsehen ermöglicht einen Blick hinter die Kulissen einer Radiosendung.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">195</length>
+    <country lang="fr">Suisse</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225043000" channel="C174.api.telerama.fr" stop="20260225074500">
+    <title>Drei auf zwei</title>
+    <desc lang="fr">"3 auf zwei" ist Radio zum Anschauen. Das Morgenprogramm von SRF 3 im Fernsehen ermöglicht einen Blick hinter die Kulissen einer Radiosendung.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">195</length>
+    <country lang="fr">Suisse</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225074500" channel="C174.api.telerama.fr" stop="20260225080500">
+    <title>Tagesschau vor 20 Jahren</title>
+    <desc lang="fr">Die "Tagesschau vor 20 Jahren" ist ein Nachrichtenrückblick in die jüngere Geschichte: Was bewegte die Schweiz und die Welt heute vor exakt 20 Jahren? Welche Themen bestimmten die Abendnachrichten? Ein Blick ins Archiv - zum Anknüpfen, Einordnen und Erinnern.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">20</length>
+    <country lang="fr">Suisse</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225080500" channel="C174.api.telerama.fr" stop="20260225085500">
+    <title>SRF bi de Lüt - Landfrauenküche</title>
+    <desc lang="fr">Die Landfrau Maja Tappolet und ihr Ehemann Kai bewohnen zusammen mit ihren sieben Kindern eine ehemalige Pferdewechselstation. Das Ehepaar betreibt aus Überzeugung einen Biohof, denn die Natur liegt ihnen am Herzen. Auf 40 Hektaren Land kultivieren sie verschiedene Getreidesorten.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/18/f9dbca183a8740d795e187fd5cd57af7.jpg"/>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225085500" channel="C174.api.telerama.fr" stop="20260225094000">
+    <title>SRF bi de Lüt - Landfrauenküche</title>
+    <desc lang="fr">Im bernerischen Utzenstorf deckt die siebte und letzte Landfrau Heidi Lutstorf den Tisch für ihre Gäste. Die Lehrerin und Spielgruppenleiterin kocht rein vegetarisch und lebt sich dabei gerne kreativ aus. Welche Zutaten im Menu vorkommen, bleibt für die Landfrauen zunächst ein Rätsel.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/18/1b39f828171d459485361754db3095ad.jpg"/>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225094000" channel="C174.api.telerama.fr" stop="20260225102500">
+    <title>Kulturzeit</title>
+    <desc lang="fr">Das 3sat-Kulturmagazin von ZDF, ORF, SRF und ARD</desc>
+    <credits>
+      <presenter>Nina Mavis Brunner</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/01/22/9811a2ea48900098c8eb2560e2c86fb1632bfb00_F6EA8369DDEB63F40584750B61F95F4D.jpg"/>
+    <country lang="fr">Autriche</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225102500" channel="C174.api.telerama.fr" stop="20260225110000">
+    <title>Music@SRF</title>
+    <desc lang="fr">Highlights, Künstlerinnen und Künstler und Schweizer Musikschaffen: "Music@SRF" zeigt das Beste aus dem digitalen Musik-Universum von SRF.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/46709982f7cc4aaea47372cbfb53022b.jpg"/>
+    <country lang="fr">Suisse</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225110000" channel="C174.api.telerama.fr" stop="20260225121000">
+    <title>Drei auf zwei</title>
+    <desc lang="fr">"3 auf zwei" ist Radio zum Anschauen. Das Morgenprogramm von SRF 3 im Fernsehen ermöglicht einen Blick hinter die Kulissen einer Radiosendung.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">70</length>
+    <country lang="fr">Suisse</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225121000" channel="C174.api.telerama.fr" stop="20260225130500">
+    <title>Les hôtels les plus incroyables du monde</title>
+    <desc lang="fr">Saison:1 - Episode:3 - Giles et Monica découvrent le Giraffe Manor au Kenya, un hôtel unique où les girafes cohabitent avec le personnel et les visiteurs toute l'année. Dès le petit-déjeuner, les girafes se joignent aux clients dans la salle à manger de l'hôtel. L'établissement offre de l'emploi à la population locale puisque 75% du personnel est samburu. Giles et Monica constatent l'impact de l'hôtel sur la vie tribale.</desc>
+    <credits>
+      <director>Max Shapira</director>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/f3b5d0eac0c74a5d904677b46643f765.jpg"/>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260225130500" channel="C174.api.telerama.fr" stop="20260225140000">
+    <title>Femmes, massaïs et rangers : les lionnes du Kenya</title>
+    <desc lang="fr">Au Kenya, deux gardes forestières s'engagent pour une cohabitation pacifique entre humains et faune sauvage, sur fond d'émancipation féminine.</desc>
+    <credits>
+      <director>Silvia Palmigiano</director>
+      <director>Jeannine Apsel</director>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/11/f9ac711f09e14f74ab21f1b33bc0b64e.jpg"/>
+    <country lang="fr">Allemagne</country>
+    <previously-shown/>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
