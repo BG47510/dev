@@ -1,5 +1,5 @@
 # EPG xmltvvfr
-6ter.fr
+6ter.fr,+5
 Arte.fr
 BBC2.uk
 BFMGrandsReportages.fr
