@@ -1,6 +1,6 @@
 # XMLTV EPG Filter & Merger
 
- **`[Version 1.0]`**(https://github.com/BG47510/dev/blob/main/b02/script_xml.sh).
+ `[Version 1.0]`(https://github.com/BG47510/dev/blob/main/b02/script_xml.sh).
 
 Ce script Bash permet de récupérer, filtrer et fusionner plusieurs sources de guides de programmes TV (EPG) au format XMLTV. Il est idéal pour alléger vos fichiers EPG en ne conservant que les chaînes qui vous intéressent et en limitant la fenêtre temporelle des programmes.
 
@@ -16,7 +16,7 @@ Ce script Bash permet de récupérer, filtrer et fusionner plusieurs sources de 
 
 Le script repose sur deux outils standards sous Linux :
 
-    - `curl`**: Pour le téléchargement des sources.
+    - **`curl`**: Pour le téléchargement des sources.
     - `xmlstarlet`**: Pour le traitement et le filtrage des données XML.
 
 Pour les installer sur Debian/Ubuntu :
