@@ -8,6 +8,8 @@ cd "$(dirname "$0")" || exit 1
 # ==============================================================================
 CHANNELS_FILE="channels.txt"
 URLS_FILE="urls.txt"
+OUTPUT_FILE="filtered_epg.xml"
+TEMP_DIR="./temp_epg"
 
 # Vérification des fichiers de configuration
 for f in "$CHANNELS_FILE" "$URLS_FILE"; do
@@ -17,12 +19,31 @@ for f in "$CHANNELS_FILE" "$URLS_FILE"; do
     fi
 done
 
-# Lecture des fichiers : ignore les lignes vides et les commentaires (#)
-mapfile -t CHANNEL_IDS < <(grep -vE '^\s*(#|$)' "$CHANNELS_FILE")
+# --- 1. Lecture des chaînes et de leurs offsets ---
+declare -A OFFSETS
+CHANNEL_IDS=()
+
+while IFS=',' read -r id offset || [[ -n "$id" ]]; do
+    # Nettoyage (suppression espaces, ignore commentaires et lignes vides)
+    id=$(echo "$id" | xargs)
+    [[ -z "$id" || "$id" == \#* ]] && continue
+    
+    CHANNEL_IDS+=("$id")
+    offset=$(echo "$offset" | xargs)
+    
+    # Normalisation de l'offset (ex: +2 devient +0200, -1 devient -0100)
+    if [[ "$offset" =~ ^([+-])([0-9]+)$ ]]; then
+        sign=${BASH_REMATCH[1]}
+        num=${BASH_REMATCH[2]}
+        OFFSETS["$id"]=$(printf "%s%02d00" "$sign" "$num")
+    else
+        OFFSETS["$id"]="" # Pas de modification si vide ou incorrect
+    fi
+done < "$CHANNELS_FILE"
+
+# Lecture des URLs
 mapfile -t URLS < <(grep -vE '^\s*(#|$)' "$URLS_FILE")
 
-OUTPUT_FILE="filtered_epg.xml"
-TEMP_DIR="./temp_epg"
 mkdir -p "$TEMP_DIR"
 
 # ==============================================================================
@@ -35,7 +56,6 @@ LIMIT=$(date -d "+3 days" +%Y%m%d%H%M)
 xpath_channels=""
 xpath_progs=""
 for id in "${CHANNEL_IDS[@]}"; do
-    # On utilise des variables pour éviter les problèmes d'injection XML
     xpath_channels+="@id='$id' or "
     xpath_progs+="@channel='$id' or "
 done
@@ -49,7 +69,6 @@ echo "--- Démarrage du traitement ---"
 # ==============================================================================
 count=0
 for url in "${URLS[@]}"; do
-    # On nettoie l'URL au cas où il resterait des espaces invisibles
     url=$(echo "$url" | tr -d '\r' | xargs)
     [[ -z "$url" ]] && continue
 
@@ -57,31 +76,38 @@ for url in "${URLS[@]}"; do
     echo "Source $count : $url"
     
     RAW_FILE="$TEMP_DIR/raw_$count.xml"
+    SRC_FILE="$TEMP_DIR/src_$count.xml"
     
-    # Téléchargement avec timeout (10s connexion, 30s total)
-    # -sL : silencieux + suit les redirections
-    # --fail : ne produit rien en cas d'erreur HTTP (404, 500, etc.)
     if [[ "$url" == *.gz ]]; then
         curl -sL --connect-timeout 10 --max-time 30 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
     else
         curl -sL --connect-timeout 10 --max-time 30 --fail "$url" > "$RAW_FILE" 2>/dev/null
     fi
 
-    # On vérifie si le fichier a été créé et n'est pas vide
     if [[ -s "$RAW_FILE" ]]; then
-        # Traitement XML seulement si le téléchargement a réussi
-        if ! xmlstarlet ed \
+        # Filtrage initial (chaînes + dates)
+        xmlstarlet ed \
             -d "/tv/channel[not($xpath_channels)]" \
             -d "/tv/programme[not($xpath_progs)]" \
             -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
             -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
-            "$RAW_FILE" > "$TEMP_DIR/src_$count.xml" 2>/dev/null; then
-            echo "Attention : Erreur de structure XML pour la source $count"
-        fi
-        # Nettoyage du fichier brut après traitement
+            "$RAW_FILE" > "$SRC_FILE" 2>/dev/null
+
+        # Application des offsets de fuseau horaire
+        for id in "${!OFFSETS[@]}"; do
+            new_tz="${OFFSETS[$id]}"
+            if [[ -n "$new_tz" ]]; then
+                # On remplace les 5 derniers caractères de l'attribut start/stop
+                # Le format XMLTV est YYYYMMDDHHMMSS +HHMM (20 car. au total, fuseau commence à l'index 16)
+                xmlstarlet ed -L \
+                    -u "/tv/programme[@channel='$id']/@start" -x "concat(substring(@start,1,15), '$new_tz')" \
+                    -u "/tv/programme[@channel='$id']/@stop"  -x "concat(substring(@stop,1,15), '$new_tz')" \
+                    "$SRC_FILE"
+            fi
+        done
         rm -f "$RAW_FILE"
     else
-        echo "Attention : Source $count injoignable ou vide (Timeout/404)"
+        echo "Attention : Source $count injoignable ou vide."
     fi
 done
 
@@ -90,16 +116,14 @@ done
 # ==============================================================================
 echo "Fusion et suppression des doublons..."
 
-# Création du fichier final avec l'en-tête XMLTV
 echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
-# A. On garde les définitions de chaînes (une seule fois par ID)
-xmlstarlet sel -t -c "/tv/channel" "$TEMP_DIR"/*.xml | \
+# A. Chaînes uniques
+xmlstarlet sel -t -c "/tv/channel" "$TEMP_DIR"/src_*.xml 2>/dev/null | \
     awk '!x[$0]++' >> "$OUTPUT_FILE"
 
-# B. On traite les programmes avec dédoublonnage intelligent
-# On définit un "doublon" comme : même @channel ET même @start
-xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml | \
+# B. Programmes uniques (Clé = chaîne + heure de début)
+xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/src_*.xml 2>/dev/null | \
     awk '
     BEGIN { RS="</programme>"; FS="<programme " }
     {
@@ -121,10 +145,8 @@ rm -rf "$TEMP_DIR"
 if [ -s "$OUTPUT_FILE" ]; then
     SIZE=$(du -sh "$OUTPUT_FILE" | cut -f1)
     echo "SUCCÈS : Fichier $OUTPUT_FILE créé ($SIZE)."
+    gzip -f "$OUTPUT_FILE"
+    echo "Succès : ${OUTPUT_FILE}.gz a été généré."
 else
-    echo "ERREUR : Le fichier est vide."
+    echo "ERREUR : Le fichier final est vide."
 fi
-
-echo "Compression du fichier final..."
-gzip -f "$OUTPUT_FILE"
-echo "Succès : ${OUTPUT_FILE}.gz a été généré."
