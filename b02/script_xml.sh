@@ -6,8 +6,10 @@ cd "$(dirname "$0")" || exit 1
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-CHANNELS_FILE="channels.txt"
+CHANNELS_FILE="choix.txt"  # Votre nouveau fichier : ancien_id,nouvel_id
 URLS_FILE="urls.txt"
+OUTPUT_FILE="filtered_epg.xml"
+TEMP_DIR="./temp_epg"
 
 # Vérification des fichiers de configuration
 for f in "$CHANNELS_FILE" "$URLS_FILE"; do
@@ -17,12 +19,25 @@ for f in "$CHANNELS_FILE" "$URLS_FILE"; do
     fi
 done
 
-# Lecture des fichiers : ignore les lignes vides et les commentaires (#)
-mapfile -t CHANNEL_IDS < <(grep -vE '^\s*(#|$)' "$CHANNELS_FILE")
-mapfile -t URLS < <(grep -vE '^\s*(#|$)' "$URLS_FILE")
+# 1. CHARGEMENT DU MAPPING (Tableau associatif Bash)
+# On crée un dictionnaire : ID_MAP[ancien_id] = nouvel_id
+declare -A ID_MAP
+CHANNEL_IDS=()
 
-OUTPUT_FILE="filtered_epg.xml"
-TEMP_DIR="./temp_epg"
+while IFS=',' read -r old_id new_id || [[ -n "$old_id" ]]; do
+    # Ignore les commentaires (#) et les lignes vides
+    [[ "$old_id" =~ ^\s*(#|$) ]] && continue
+    
+    # Nettoyage des espaces et caractères invisibles (\r)
+    old_clean=$(echo "$old_id" | tr -d '\r' | xargs)
+    new_clean=$(echo "$new_id" | tr -d '\r' | xargs)
+    
+    if [[ -n "$old_clean" && -n "$new_clean" ]]; then
+        ID_MAP["$old_clean"]="$new_clean"
+        CHANNEL_IDS+=("$old_clean")
+    fi
+done < "$CHANNELS_FILE"
+
 mkdir -p "$TEMP_DIR"
 
 # ==============================================================================
@@ -31,11 +46,10 @@ mkdir -p "$TEMP_DIR"
 NOW=$(date +%Y%m%d%H%M)
 LIMIT=$(date -d "+3 days" +%Y%m%d%H%M)
 
-# Construction des filtres XPath
+# Construction des filtres XPath pour les IDs d'origine
 xpath_channels=""
 xpath_progs=""
 for id in "${CHANNEL_IDS[@]}"; do
-    # On utilise des variables pour éviter les problèmes d'injection XML
     xpath_channels+="@id='$id' or "
     xpath_progs+="@channel='$id' or "
 done
@@ -45,86 +59,108 @@ xpath_progs="${xpath_progs% or }"
 echo "--- Démarrage du traitement ---"
 
 # ==============================================================================
-# 1. RÉCUPÉRATION ET FILTRAGE INDIVIDUEL
+# 2. RÉCUPÉRATION ET FILTRAGE XMLSTARLET
 # ==============================================================================
+mapfile -t URLS < <(grep -vE '^\s*(#|$)' "$URLS_FILE")
+
 count=0
 for url in "${URLS[@]}"; do
-    # On nettoie l'URL au cas où il resterait des espaces invisibles
     url=$(echo "$url" | tr -d '\r' | xargs)
     [[ -z "$url" ]] && continue
 
     count=$((count + 1))
     echo "Source $count : $url"
-    
     RAW_FILE="$TEMP_DIR/raw_$count.xml"
     
-    # Téléchargement avec timeout (10s connexion, 30s total)
-    # -sL : silencieux + suit les redirections
-    # --fail : ne produit rien en cas d'erreur HTTP (404, 500, etc.)
     if [[ "$url" == *.gz ]]; then
         curl -sL --connect-timeout 10 --max-time 30 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
     else
         curl -sL --connect-timeout 10 --max-time 30 --fail "$url" > "$RAW_FILE" 2>/dev/null
     fi
 
-    # On vérifie si le fichier a été créé et n'est pas vide
     if [[ -s "$RAW_FILE" ]]; then
-        # Traitement XML seulement si le téléchargement a réussi
+        # Filtrage initial (on ne garde que les IDs présents dans choix.txt)
         if ! xmlstarlet ed \
             -d "/tv/channel[not($xpath_channels)]" \
             -d "/tv/programme[not($xpath_progs)]" \
             -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
             -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
             "$RAW_FILE" > "$TEMP_DIR/src_$count.xml" 2>/dev/null; then
-            echo "Attention : Erreur de structure XML pour la source $count"
+            echo "Attention : Erreur XML source $count"
         fi
-        # Nettoyage du fichier brut après traitement
         rm -f "$RAW_FILE"
     else
-        echo "Attention : Source $count injoignable ou vide (Timeout/404)"
+        echo "Attention : Source $count vide ou erreur de téléchargement"
     fi
 done
 
 # ==============================================================================
-# 2. FUSION ET DÉDOUBLONNAGE
+# 3. FUSION, RENOMMAGE (MAPPING) ET DÉDOUBLONNAGE
 # ==============================================================================
-echo "Fusion et suppression des doublons..."
+echo "Fusion, renommage des IDs et suppression des doublons..."
 
-# Création du fichier final avec l'en-tête XMLTV
+# Préparation de la chaîne de mapping pour AWK (format: old1=new1;old2=new2)
+map_str=""
+for old in "${!ID_MAP[@]}"; do
+    map_str+="$old=${ID_MAP[$old]};"
+done
+
+# Création du fichier final
 echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
-# A. On garde les définitions de chaînes (une seule fois par ID)
-xmlstarlet sel -t -c "/tv/channel" "$TEMP_DIR"/*.xml | \
+# A. Traitement des balises <channel> avec remplacement d'ID
+# On utilise sed pour remplacer id="ancien" par id="nouveau"
+for old_id in "${!ID_MAP[@]}"; do
+    new_id=${ID_MAP[$old_id]}
+    xmlstarlet sel -t -c "/tv/channel[@id='$old_id']" "$TEMP_DIR"/*.xml 2>/dev/null | \
+    sed "s/id=\"$old_id\"/id=\"$new_id\"/g" | \
     awk '!x[$0]++' >> "$OUTPUT_FILE"
+done
 
-# B. On traite les programmes avec dédoublonnage intelligent
-# On définit un "doublon" comme : même @channel ET même @start
-xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml | \
-    awk '
-    BEGIN { RS="</programme>"; FS="<programme " }
-    {
-        if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([^"]+)"/, s)) {
-            key = c[1] s[1]
+# B. Traitement des balises <programme> avec mapping dynamique AWK
+xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml 2>/dev/null | \
+awk -v mapping="$map_str" '
+BEGIN { 
+    RS="</programme>"; 
+    # Charger le mapping dans un tableau AWK interne
+    n = split(mapping, a, ";");
+    for (i=1; i<=n; i++) {
+        split(a[i], pair, "=");
+        if (pair[1]) dict[pair[1]] = pair[2];
+    }
+}
+{
+    # Extraire l ancien ID de la chaîne et la date de début
+    if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([^"]+)"/, s)) {
+        old_id = c[1];
+        start_val = s[1];
+        
+        # Si l ID existe dans notre dictionnaire, on le remplace
+        if (old_id in dict) {
+            new_id = dict[old_id];
+            # Remplacement textuel de l attribut channel
+            gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", $0);
+            
+            # Dédoublonnage sur la base du NOUVEL ID + DATE DE DÉBUT
+            key = new_id start_val;
             if (!seen[key]++) {
                 print $0 "</programme>"
             }
         }
-    }' >> "$OUTPUT_FILE"
+    }
+}' >> "$OUTPUT_FILE"
 
 echo '</tv>' >> "$OUTPUT_FILE"
 
 # ==============================================================================
-# NETTOYAGE
+# NETTOYAGE ET FINALISATION
 # ==============================================================================
 rm -rf "$TEMP_DIR"
 
 if [ -s "$OUTPUT_FILE" ]; then
-    SIZE=$(du -sh "$OUTPUT_FILE" | cut -f1)
-    echo "SUCCÈS : Fichier $OUTPUT_FILE créé ($SIZE)."
+    echo "Compression du fichier final..."
+    gzip -f "$OUTPUT_FILE"
+    echo "SUCCÈS : ${OUTPUT_FILE}.gz a été généré."
 else
-    echo "ERREUR : Le fichier est vide."
+    echo "ERREUR : Le fichier final est vide."
 fi
-
-echo "Compression du fichier final..."
-gzip -f "$OUTPUT_FILE"
-echo "Succès : ${OUTPUT_FILE}.gz a été généré."
