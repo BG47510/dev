@@ -6,7 +6,7 @@ cd "$(dirname "$0")" || exit 1
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-CHANNELS_FILE="choix.txt"  # Votre nouveau fichier : ancien_id,nouvel_id
+CHANNELS_FILE="channels.txt"  # Votre nouveau fichier : ancien_id,nouvel_id
 URLS_FILE="urls.txt"
 OUTPUT_FILE="filtered_epg.xml"
 TEMP_DIR="./temp_epg"
