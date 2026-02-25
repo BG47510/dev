@@ -69,8 +69,9 @@ for url in "${URLS[@]}"; do
 
     # On vérifie si le fichier a été créé et n'est pas vide
     if [[ -s "$RAW_FILE" ]]; then
+    
         # Traitement XML seulement si le téléchargement a réussi
-        if ! xmlstarlet ed \
+        if ! xmlstarlet ed --noent \
             -d "/tv/channel[not($xpath_channels)]" \
             -d "/tv/programme[not($xpath_progs)]" \
             -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
@@ -94,12 +95,12 @@ echo "Fusion et suppression des doublons..."
 echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
 # A. On garde les définitions de chaînes (une seule fois par ID)
-xmlstarlet sel -t -c "/tv/channel" "$TEMP_DIR"/*.xml | \
+xmlstarlet sel --noent -t -c "/tv/channel" "$TEMP_DIR"/*.xml | \
     awk '!x[$0]++' >> "$OUTPUT_FILE"
 
 # B. On traite les programmes avec dédoublonnage intelligent
 # On définit un "doublon" comme : même @channel ET même @start
-xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml | \
+xmlstarlet sel --noent -t -c "/tv/programme" "$TEMP_DIR"/*.xml | \
     awk '
     BEGIN { RS="</programme>"; FS="<programme " }
     {
