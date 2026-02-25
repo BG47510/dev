@@ -1,5 +1,5 @@
 # EPG xmltvvfr
-6ter.fr,+5
+6ter.fr,
 Arte.fr
 BBC2.uk
 BFMGrandsReportages.fr
@@ -21,7 +21,7 @@ Gulli.fr
 LCI.fr
 LEquipe21.fr
 LaChaineParlementaire.fr
-M6.fr
+M6.fr,m6test
 MCMTop.fr
 Mezzo.fr
 NOVO19.fr
