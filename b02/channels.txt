@@ -21,7 +21,7 @@ Gulli.fr
 LCI.fr
 LEquipe21.fr
 LaChaineParlementaire.fr
-M6.fr,m6test
+M6.fr,M6
 MCMTop.fr
 Mezzo.fr
 NOVO19.fr
@@ -43,4 +43,4 @@ TV7Bordeaux.fr
 W9.fr
 ZDF.de
 # EPG Catch-up-TV-and-More
-C118.api.telerama.fr,m6telerama
+C118.api.telerama.fr,M6
