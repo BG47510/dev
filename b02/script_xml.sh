@@ -44,7 +44,7 @@ mkdir -p "$TEMP_DIR"
 # PARAMÈTRES TEMPORELS
 # ==============================================================================
 NOW=$(date +%Y%m%d%H%M)
-LIMIT=$(date -d "+3 days" +%Y%m%d%H%M)
+LIMIT=$(date -d "+1 days" +%Y%m%d%H%M)
 
 # Construction des filtres XPath pour les IDs d'origine
 xpath_channels=""
