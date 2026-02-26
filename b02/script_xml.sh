@@ -8,7 +8,7 @@ cd "$(dirname "$0")" || exit 1
 # ==============================================================================
 CHANNELS_FILE="channels.txt"  # Votre nouveau fichier : ancien_id,nouvel_id
 URLS_FILE="urls.txt"
-OUTPUT_FILE="filtered_epg.xml"
+OUTPUT_FILE="epg.xml"
 TEMP_DIR="./temp_epg"
 
 # Vérification des fichiers de configuration
