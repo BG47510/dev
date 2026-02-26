@@ -1,12 +1,23 @@
 #!/bin/bash
 
+# Aller au répertoire du script
 cd "$(dirname "$0")" || exit 1
 
+# ==============================================================================
 # CONFIGURATION
+# ==============================================================================
 CHANNELS_FILE="channels.txt"
 URLS_FILE="urls.txt"
 OUTPUT_FILE="epg.xml"
 TEMP_DIR="./temp_epg"
+
+# Vérification des fichiers
+for f in "$CHANNELS_FILE" "$URLS_FILE"; do
+    if [[ ! -f "$f" ]]; then
+        echo "Erreur : Le fichier $f est introuvable."
+        exit 1
+    fi
+done
 
 # 1. CHARGEMENT DU MAPPING
 declare -A ID_MAP
@@ -24,10 +35,12 @@ while IFS=',' read -r old_id new_id || [[ -n "$old_id" ]]; do
 done < "$CHANNELS_FILE"
 
 mkdir -p "$TEMP_DIR"
+
+# PARAMÈTRES TEMPORELS
 NOW=$(date +%Y%m%d%H%M)
 LIMIT=$(date -d "+1 days" +%Y%m%d%H%M)
 
-# Construction des filtres XPath basés sur les IDs d'origine
+# Construction des filtres XPath
 xpath_channels=""
 xpath_progs=""
 for id in "${CHANNEL_IDS[@]}"; do
@@ -37,36 +50,49 @@ done
 xpath_channels="${xpath_channels% or }"
 xpath_progs="${xpath_progs% or }"
 
-echo "--- Démarrage ---"
+echo "--- Démarrage du traitement ---"
 
-# 2. RÉCUPÉRATION ET FILTRAGE
+# ==============================================================================
+# 2. RÉCUPÉRATION ET FILTRAGE XMLSTARLET
+# ==============================================================================
 mapfile -t URLS < <(grep -vE '^\s*(#|$)' "$URLS_FILE")
 
 count=0
 for url in "${URLS[@]}"; do
     url=$(echo "$url" | tr -d '\r' | xargs)
     [[ -z "$url" ]] && continue
+
     count=$((count + 1))
+    echo "Source $count : $url"
     RAW_FILE="$TEMP_DIR/raw_$count.xml"
     
-    curl -sL --connect-timeout 10 --fail "$url" | ( [[ "$url" == *.gz ]] && gunzip || cat ) > "$RAW_FILE" 2>/dev/null
+    if [[ "$url" == *.gz ]]; then
+        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
+    else
+        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" > "$RAW_FILE" 2>/dev/null
+    fi
 
     if [[ -s "$RAW_FILE" ]]; then
-        xmlstarlet ed \
+        if ! xmlstarlet ed \
             -d "/tv/channel[not($xpath_channels)]" \
             -d "/tv/programme[not($xpath_progs)]" \
             -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
             -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
-            "$RAW_FILE" > "$TEMP_DIR/src_$count.xml" 2>/dev/null
+            "$RAW_FILE" > "$TEMP_DIR/src_$count.xml" 2>/dev/null; then
+            echo "Attention : Erreur XML source $count"
+        fi
         rm -f "$RAW_FILE"
     fi
 done
 
-# 3. FUSION ET DÉDOUBLONNAGE
-echo "Traitement final..."
+# ==============================================================================
+# 3. FUSION ET TRAITEMENT (PROTECTION DU CONTENU DES BALISES)
+# ==============================================================================
+echo "Fusion et dédoublonnage..."
+
 echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
-# A. CHANNELS : Ici on RENOMME l'ID selon votre mapping
+# A. CHANNELS
 for old_id in "${!ID_MAP[@]}"; do
     new_id=${ID_MAP[$old_id]}
     xmlstarlet sel -t -c "/tv/channel[@id='$old_id']" "$TEMP_DIR"/*.xml 2>/dev/null | \
@@ -74,8 +100,8 @@ for old_id in "${!ID_MAP[@]}"; do
     awk '!x[$0]++' >> "$OUTPUT_FILE"
 done
 
-# B. PROGRAMMES : On garde l'ID d'origine dans le XML, mais on dédouble
-# On passe le mapping à AWK uniquement pour "calculer" la clé de dédoublonnage
+# B. PROGRAMMES
+# On utilise AWK pour un remplacement chirurgical de l'attribut channel uniquement
 xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml 2>/dev/null | \
 awk -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
 BEGIN { 
@@ -83,24 +109,29 @@ BEGIN {
     n = split(mapping, a, ";");
     for (i=1; i<=n; i++) {
         split(a[i], pair, "=");
-        if (pair[1]) map[pair[1]] = pair[2];
+        if (pair[1]) dict[pair[1]] = pair[2];
     }
 }
 {
+    # 1. Extraction des valeurs pour la clé de dédoublonnage
     if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([^"]+)"/, s)) {
         old_id = c[1];
-        start_val = substr(s[1], 1, 12);
+        start_val = substr(s[1], 1, 12); # Normalisation temps
         
-        # On ne garde que si l ID est dans notre liste
-        if (old_id in map) {
-            # CLÉ DE DÉDOUBLONNAGE : On utilise le NOUVEL ID (mapping) + DATE
-            # pour que "M6.fr" et "M6.com" soient vus comme la même entité
-            key = map[old_id] "_" start_val;
+        if (old_id in dict) {
+            new_id = dict[old_id];
             
+            # 2. REMPLACEMENT CHIRURGICAL : 
+            # On ne remplace que la portion qui ressemble à un attribut XML
+            # Cela évite de toucher à une balise <channel>Texte</channel> interne
+            line = $0;
+            gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line);
+            
+            # 3. DÉDOUBLONNAGE
+            key = new_id "_" start_val;
             if (!seen[key]++) {
-                # On imprime le bloc SANS RIEN MODIFIER (on garde channel="M6test" etc.)
-                sub(/^[ \t\r\n]+/, "", $0);
-                print $0 "</programme>"
+                sub(/^[ \t\r\n]+/, "", line);
+                print line "</programme>"
             }
         }
     }
@@ -108,6 +139,7 @@ BEGIN {
 
 echo '</tv>' >> "$OUTPUT_FILE"
 
+# Finalisation
 rm -rf "$TEMP_DIR"
 gzip -f "$OUTPUT_FILE"
-echo "TERMINÉ."
+echo "SUCCÈS : ${OUTPUT_FILE}.gz généré."
