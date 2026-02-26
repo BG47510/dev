@@ -94,24 +94,59 @@ echo "Fusion et traitement final..."
 
 echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
-# --- A. Traitement des CHANNELS (Dédoublonnage sur le NEW_ID) ---
-# On extrait tous les blocs <channel> des sources
+# --- A. Traitement des CHANNELS ---
 for old_id in "${!ID_MAP[@]}"; do
     new_id=${ID_MAP[$old_id]}
     xmlstarlet sel -t -c "/tv/channel[@id='$old_id']" "$TEMP_DIR"/*.xml 2>/dev/null | \
     sed "s/id=\"$old_id\"/id=\"$new_id\"/g" >> "$TEMP_DIR/all_channels.tmp"
 done
 
-# On ne garde que le premier bloc rencontré pour chaque ID final
 if [[ -f "$TEMP_DIR/all_channels.tmp" ]]; then
     awk 'match($0, /id="([^"]+)"/, a) { if (!seen[a[1]]++) print $0 }' "$TEMP_DIR/all_channels.tmp" >> "$OUTPUT_FILE"
 fi
 
-# --- B. Traitement des PROGRAMMES (Dédoublonnage sur ID + HEURE) ---
+# --- B. Traitement des PROGRAMMES ---
+# Préparation sécurisée de la chaîne de mapping pour AWK
+MAP_STR=""
+for old in "${!ID_MAP[@]}"; do
+    MAP_STR+="${old}=${ID_MAP[$old]};"
+done
+
 xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml 2>/dev/null | \
-awk -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
+awk -v mapping="$MAP_STR" '
 BEGIN { 
     RS="</programme>"; 
-    n = split(mapping, m_arr, ";");
-    for (i=1; i<=n; i++) {
-        split(m
+    split(mapping, m_arr, ";");
+    for (i in m_arr) {
+        if (split(m_arr[i], pair, "=") == 2) {
+            dict[pair[1]] = pair[2];
+        }
+    }
+}
+{
+    if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([0-9]{12})/, s)) {
+        old_id = c[1];
+        start_key = s[1]; 
+        
+        if (old_id in dict) {
+            new_id = dict[old_id];
+            key = new_id "_" start_key;
+            
+            if (!seen[key]++) {
+                line = $0;
+                gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line);
+                sub(/^[ \t\r\n]+/, "", line);
+                if (line != "") print line "</programme>";
+            }
+        }
+    }
+}' >> "$OUTPUT_FILE"
+
+echo '</tv>' >> "$OUTPUT_FILE"
+
+# Nettoyage final
+rm -rf "$TEMP_DIR"
+gzip -f "$OUTPUT_FILE"
+
+echo "---------------------------------------"
+echo "SUCCÈS : ${OUTPUT_FILE}.gz généré."
