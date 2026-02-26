@@ -38,7 +38,7 @@ done
 xpath_channels="${xpath_channels% or }"
 xpath_progs="${xpath_progs% or }"
 
-echo "--- Récupération et filtrage ---"
+echo "--- Récupération et Normalisation ---"
 
 # ==============================================================================
 # 2. RÉCUPÉRATION ET EXTRACTION
@@ -52,23 +52,23 @@ for url in "${URLS[@]}"; do
     count=$((count + 1))
     echo "Source $count : $url"
     
-    # Téléchargement et extraction immédiate des blocs bruts
+    RAW_FILE="$TEMP_DIR/raw_$count.xml"
     if [[ "$url" == *.gz ]]; then
-        curl -sL --connect-timeout 10 --fail "$url" | gunzip > "$TEMP_DIR/raw.xml"
+        curl -sL --connect-timeout 10 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
     else
-        curl -sL --connect-timeout 10 --fail "$url" > "$TEMP_DIR/raw.xml"
+        curl -sL --connect-timeout 10 --fail "$url" > "$RAW_FILE" 2>/dev/null
     fi
 
-    if [[ -s "$TEMP_DIR/raw.xml" ]]; then
-        # On extrait les balises complètes sans transformation pour l instant
-        xmlstarlet sel -t -c "/tv/channel[$xpath_channels]" "$TEMP_DIR/raw.xml" >> "$TEMP_DIR/all_chans.tmp" 2>/dev/null
-        xmlstarlet sel -t -c "/tv/programme[$xpath_progs]" "$TEMP_DIR/raw.xml" >> "$TEMP_DIR/all_progs.tmp" 2>/dev/null
+    if [[ -s "$RAW_FILE" ]]; then
+        # Extraction et mise à plat : chaque bloc devient UNE ligne
+        xmlstarlet sel -t -c "/tv/channel[$xpath_channels]" "$RAW_FILE" | sed 's|</channel>|</channel>\n|g' >> "$TEMP_DIR/all_chans.tmp" 2>/dev/null
+        xmlstarlet sel -t -c "/tv/programme[$xpath_progs]" "$RAW_FILE" | sed 's|</programme>|</programme>\n|g' >> "$TEMP_DIR/all_progs.tmp" 2>/dev/null
     fi
-    rm -f "$TEMP_DIR/raw.xml"
+    rm -f "$RAW_FILE"
 done
 
 # ==============================================================================
-# 3. TRAITEMENT ET DÉDOUBLONNAGE (LOGIQUE ROBUSTE)
+# 3. TRAITEMENT ET DÉDOUBLONNAGE (LOGIQUE LIGNE PAR LIGNE)
 # ==============================================================================
 echo "Traitement final..."
 
@@ -76,19 +76,15 @@ echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
 # --- A. CHANNELS ---
 if [[ -f "$TEMP_DIR/all_chans.tmp" ]]; then
-    # On utilise RS='>' pour traiter balise par balise
     awk -v mapping="$MAP_AWK" '
-    BEGIN { 
-        RS="</channel>"; 
-        split(mapping, m, ";"); for (i in m) { split(m[i], p, "="); if(p[1]) dict[p[1]]=p[2] } 
-    }
+    BEGIN { split(mapping, m, ";"); for (i in m) { split(m[i], p, "="); if(p[1]) dict[p[1]]=p[2] } }
     {
         if (match($0, /id="([^"]+)"/, a)) {
-            old_id = a[1];
-            new_id = dict[old_id];
+            new_id = dict[a[1]];
             if (new_id && !seen[new_id]++) {
-                sub(/id="[^"]+"/, "id=\"" new_id "\"", $0);
-                print $0 "</channel>";
+                line = $0;
+                gsub("id=\"" a[1] "\"", "id=\"" new_id "\"", line);
+                print line;
             }
         }
     }' "$TEMP_DIR/all_chans.tmp" >> "$OUTPUT_FILE"
@@ -96,33 +92,27 @@ fi
 
 # --- B. PROGRAMMES ---
 if [[ -f "$TEMP_DIR/all_progs.tmp" ]]; then
+    # Ici on ne change plus le RS, on traite ligne par ligne (grâce au sed plus haut)
     awk -v mapping="$MAP_AWK" '
-    BEGIN { 
-        RS="</programme>"; 
-        split(mapping, m, ";"); for (i in m) { split(m[i], p, "="); if(p[1]) dict[p[1]]=p[2] } 
-    }
+    BEGIN { split(mapping, m, ";"); for (i in m) { split(m[i], p, "="); if(p[1]) dict[p[1]]=p[2] } }
     {
-        # Extraction de l ID et de l heure (12 premiers chiffres de start)
-        # On utilise une regex qui cherche les chiffres n importe où après start="
-        id_match = match($0, /channel="([^"]+)"/, c);
-        time_match = match($0, /start="[^0-9]*([0-9]{12})/, t);
+        # Extraction de l ID et des 12 chiffres du start
+        id_ok = match($0, /channel="([^"]+)"/, c);
+        time_ok = match($0, /start="([0-9]{12})/, t);
 
-        if (id_match && time_match) {
+        if (id_ok && time_ok) {
             old_id = c[1];
-            time_key = t[1];
             new_id = dict[old_id];
+            time_key = t[1];
             
-            if (new_id) {
-                # LA CLÉ DE DÉDOUBLONNAGE
-                key = new_id "_" time_key;
-                
-                if (!seen[key]++) {
-                    # Remplacement de l ID
-                    sub(/channel="[^"]+"/, "channel=\"" new_id "\"", $0);
-                    # Nettoyage des sauts de ligne en tête pour éviter les trous
-                    sub(/^[ \t\r\n]+/, "", $0);
-                    if (length($0) > 5) print $0 "</programme>";
-                }
+            # Clé unique : ID final + HEURE
+            key = new_id "_" time_key;
+            
+            if (new_id && !seen[key]++) {
+                line = $0;
+                # Remplacement sécurisé de l attribut channel
+                gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line);
+                print line;
             }
         }
     }' "$TEMP_DIR/all_progs.tmp" >> "$OUTPUT_FILE"
@@ -135,4 +125,4 @@ rm -rf "$TEMP_DIR"
 gzip -f "$OUTPUT_FILE"
 
 echo "---------------------------------------"
-echo "TERMINÉ : ${OUTPUT_FILE}.gz créé."
+echo "SUCCÈS : ${OUTPUT_FILE}.gz généré."
