@@ -11,13 +11,7 @@ URLS_FILE="urls.txt"
 OUTPUT_FILE="epg.xml"
 TEMP_DIR="./temp_epg"
 
-# Vérification des fichiers
-for f in "$CHANNELS_FILE" "$URLS_FILE"; do
-    if [[ ! -f "$f" ]]; then
-        echo "Erreur : Le fichier $f est introuvable."
-        exit 1
-    fi
-done
+mkdir -p "$TEMP_DIR"
 
 # 1. CHARGEMENT DU MAPPING
 declare -A ID_MAP
@@ -34,8 +28,6 @@ while IFS=',' read -r old_id new_id || [[ -n "$old_id" ]]; do
     fi
 done < "$CHANNELS_FILE"
 
-mkdir -p "$TEMP_DIR"
-
 # PARAMÈTRES TEMPORELS
 NOW=$(date +%Y%m%d%H%M)
 LIMIT=$(date -d "+1 days" +%Y%m%d%H%M)
@@ -50,7 +42,7 @@ done
 xpath_channels="${xpath_channels% or }"
 xpath_progs="${xpath_progs% or }"
 
-echo "--- Démarrage du traitement ---"
+echo "--- Récupération des sources ---"
 
 # ==============================================================================
 # 2. RÉCUPÉRATION ET FILTRAGE XMLSTARLET
@@ -73,77 +65,53 @@ for url in "${URLS[@]}"; do
     fi
 
     if [[ -s "$RAW_FILE" ]]; then
-        if ! xmlstarlet ed \
-            -d "/tv/channel[not($xpath_channels)]" \
-            -d "/tv/programme[not($xpath_progs)]" \
-            -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
-            -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
-            "$RAW_FILE" > "$TEMP_DIR/src_$count.xml" 2>/dev/null; then
-            echo "Attention : Erreur XML source $count"
-        fi
+        # Extraction stricte par xmlstarlet
+        xmlstarlet sel -t -c "/tv/channel[$xpath_channels]" "$RAW_FILE" > "$TEMP_DIR/chan_$count.xml" 2>/dev/null
+        xmlstarlet sel -t -c "/tv/programme[$xpath_progs]" "$RAW_FILE" > "$TEMP_DIR/prog_$count.xml" 2>/dev/null
         rm -f "$RAW_FILE"
-    else
-        echo "Attention : Source $count vide ou erreur"
     fi
 done
 
 # ==============================================================================
-# 3. FUSION ET DÉDOUBLONNAGE FINAL
+# 3. FUSION ET DÉDOUBLONNAGE
 # ==============================================================================
-echo "Fusion et traitement final..."
+echo "Fusion et dédoublonnage..."
 
 echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
-# Préparation du mapping pour AWK
-MAP_STR=""
-for old in "${!ID_MAP[@]}"; do
-    MAP_STR+="${old}=${ID_MAP[$old]};"
-done
-
-# --- A & B : Traitement CHANNELS et PROGRAMMES via AWK ---
-# On fusionne tous les fichiers XML temporaires et on les passe à un AWK robuste
-cat "$TEMP_DIR"/src_*.xml 2>/dev/null | awk -v mapping="$MAP_STR" '
-BEGIN {
-    # On découpe par balise ouvrante pour isoler chaque élément
-    RS="<(channel|programme)";
-    split(mapping, m_arr, ";");
-    for (i in m_arr) {
-        if (split(m_arr[i], pair, "=") == 2) dict[pair[1]] = pair[2];
-    }
-}
+# --- A. CHANNELS ---
+# On utilise AWK pour changer l'ID et dédoublonner sur le nouvel ID
+cat "$TEMP_DIR"/chan_*.xml 2>/dev/null | awk -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
+BEGIN { RS="</channel>"; split(mapping, m, ";"); for (i in m) { split(m[i], p, "="); if(p[1]) dict[p[1]]=p[2] } }
 {
-    # Traitement des CHANNELS
-    if (RT == "<channel") {
-        if (match($0, /id="([^"]+)"/, arr)) {
-            old_id = arr[1];
-            if (old_id in dict) {
-                new_id = dict[old_id];
-                if (!seen_chan[new_id]++) {
-                    content = $0;
-                    sub(/id="[^"]+"/, "id=\"" new_id "\"", content);
-                    # On s arrête à la fin de la balise fermante
-                    if (match(content, /.*<\/channel>/, final)) {
-                        print "<channel" final[0];
-                    }
-                }
+    if (match($0, /id="([^"]+)"/, a)) {
+        old_id = a[1];
+        if (old_id in dict) {
+            new_id = dict[old_id];
+            if (!seen[new_id]++) {
+                sub(/id="[^"]+"/, "id=\"" new_id "\"", $0);
+                print $0 "</channel>";
             }
         }
     }
-    # Traitement des PROGRAMMES
-    else if (RT == "<programme") {
-        if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([0-9]{12})/, s)) {
-            old_id = c[1];
-            start_key = s[1];
-            if (old_id in dict) {
-                new_id = dict[old_id];
-                key = new_id "_" start_key;
-                if (!seen_prog[key]++) {
-                    content = $0;
-                    sub(/channel="[^"]+"/, "channel=\"" new_id "\"", content);
-                    if (match(content, /.*<\/programme>/, final)) {
-                        print "<programme" final[0];
-                    }
-                }
+}' >> "$OUTPUT_FILE"
+
+# --- B. PROGRAMMES ---
+# On dédoublonne sur NEW_ID + DATE (12 chiffres)
+cat "$TEMP_DIR"/prog_*.xml 2>/dev/null | awk -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
+BEGIN { RS="</programme>"; split(mapping, m, ";"); for (i in m) { split(m[i], p, "="); if(p[1]) dict[p[1]]=p[2] } }
+{
+    if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([0-9]{12})/, s)) {
+        old_id = c[1];
+        time_key = s[1];
+        if (old_id in dict) {
+            new_id = dict[old_id];
+            key = new_id "_" time_key;
+            if (!seen[key]++) {
+                sub(/channel="[^"]+"/, "channel=\"" new_id "\"", $0);
+                # Filtrage temporel final
+                # On ne garde que si ce n est pas vide
+                if (length($0) > 10) print $0 "</programme>";
             }
         }
     }
@@ -151,9 +119,8 @@ BEGIN {
 
 echo '</tv>' >> "$OUTPUT_FILE"
 
-# Nettoyage final
+# Nettoyage
 rm -rf "$TEMP_DIR"
 gzip -f "$OUTPUT_FILE"
 
-echo "---------------------------------------"
 echo "SUCCÈS : ${OUTPUT_FILE}.gz généré."
