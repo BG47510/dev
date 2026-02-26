@@ -15,7 +15,7 @@ mkdir -p "$TEMP_DIR"
 
 # 1. CHARGEMENT DU MAPPING
 declare -A ID_MAP
-CHANNEL_IDS=()
+MAP_AWK=""
 
 while IFS=',' read -r old_id new_id || [[ -n "$old_id" ]]; do
     [[ "$old_id" =~ ^\s*(#|$) ]] && continue
@@ -24,28 +24,24 @@ while IFS=',' read -r old_id new_id || [[ -n "$old_id" ]]; do
     
     if [[ -n "$old_clean" && -n "$new_clean" ]]; then
         ID_MAP["$old_clean"]="$new_clean"
-        CHANNEL_IDS+=("$old_clean")
+        MAP_AWK+="${old_clean}=${new_clean};"
     fi
 done < "$CHANNELS_FILE"
-
-# PARAMÈTRES TEMPORELS
-NOW=$(date +%Y%m%d%H%M)
-LIMIT=$(date -d "+1 days" +%Y%m%d%H%M)
 
 # Construction des filtres XPath
 xpath_channels=""
 xpath_progs=""
-for id in "${CHANNEL_IDS[@]}"; do
+for id in "${!ID_MAP[@]}"; do
     xpath_channels+="@id='$id' or "
     xpath_progs+="@channel='$id' or "
 done
 xpath_channels="${xpath_channels% or }"
 xpath_progs="${xpath_progs% or }"
 
-echo "--- Récupération des sources ---"
+echo "--- Récupération et filtrage ---"
 
 # ==============================================================================
-# 2. RÉCUPÉRATION ET FILTRAGE XMLSTARLET
+# 2. RÉCUPÉRATION ET EXTRACTION
 # ==============================================================================
 mapfile -t URLS < <(grep -vE '^\s*(#|$)' "$URLS_FILE")
 
@@ -53,74 +49,90 @@ count=0
 for url in "${URLS[@]}"; do
     url=$(echo "$url" | tr -d '\r' | xargs)
     [[ -z "$url" ]] && continue
-
     count=$((count + 1))
     echo "Source $count : $url"
-    RAW_FILE="$TEMP_DIR/raw_$count.xml"
     
+    # Téléchargement et extraction immédiate des blocs bruts
     if [[ "$url" == *.gz ]]; then
-        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
+        curl -sL --connect-timeout 10 --fail "$url" | gunzip > "$TEMP_DIR/raw.xml"
     else
-        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" > "$RAW_FILE" 2>/dev/null
+        curl -sL --connect-timeout 10 --fail "$url" > "$TEMP_DIR/raw.xml"
     fi
 
-    if [[ -s "$RAW_FILE" ]]; then
-        # Extraction stricte par xmlstarlet
-        xmlstarlet sel -t -c "/tv/channel[$xpath_channels]" "$RAW_FILE" > "$TEMP_DIR/chan_$count.xml" 2>/dev/null
-        xmlstarlet sel -t -c "/tv/programme[$xpath_progs]" "$RAW_FILE" > "$TEMP_DIR/prog_$count.xml" 2>/dev/null
-        rm -f "$RAW_FILE"
+    if [[ -s "$TEMP_DIR/raw.xml" ]]; then
+        # On extrait les balises complètes sans transformation pour l instant
+        xmlstarlet sel -t -c "/tv/channel[$xpath_channels]" "$TEMP_DIR/raw.xml" >> "$TEMP_DIR/all_chans.tmp" 2>/dev/null
+        xmlstarlet sel -t -c "/tv/programme[$xpath_progs]" "$TEMP_DIR/raw.xml" >> "$TEMP_DIR/all_progs.tmp" 2>/dev/null
     fi
+    rm -f "$TEMP_DIR/raw.xml"
 done
 
 # ==============================================================================
-# 3. FUSION ET DÉDOUBLONNAGE
+# 3. TRAITEMENT ET DÉDOUBLONNAGE (LOGIQUE ROBUSTE)
 # ==============================================================================
-echo "Fusion et dédoublonnage..."
+echo "Traitement final..."
 
 echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
 # --- A. CHANNELS ---
-# On utilise AWK pour changer l'ID et dédoublonner sur le nouvel ID
-cat "$TEMP_DIR"/chan_*.xml 2>/dev/null | awk -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
-BEGIN { RS="</channel>"; split(mapping, m, ";"); for (i in m) { split(m[i], p, "="); if(p[1]) dict[p[1]]=p[2] } }
-{
-    if (match($0, /id="([^"]+)"/, a)) {
-        old_id = a[1];
-        if (old_id in dict) {
+if [[ -f "$TEMP_DIR/all_chans.tmp" ]]; then
+    # On utilise RS='>' pour traiter balise par balise
+    awk -v mapping="$MAP_AWK" '
+    BEGIN { 
+        RS="</channel>"; 
+        split(mapping, m, ";"); for (i in m) { split(m[i], p, "="); if(p[1]) dict[p[1]]=p[2] } 
+    }
+    {
+        if (match($0, /id="([^"]+)"/, a)) {
+            old_id = a[1];
             new_id = dict[old_id];
-            if (!seen[new_id]++) {
+            if (new_id && !seen[new_id]++) {
                 sub(/id="[^"]+"/, "id=\"" new_id "\"", $0);
                 print $0 "</channel>";
             }
         }
-    }
-}' >> "$OUTPUT_FILE"
+    }' "$TEMP_DIR/all_chans.tmp" >> "$OUTPUT_FILE"
+fi
 
 # --- B. PROGRAMMES ---
-# On dédoublonne sur NEW_ID + DATE (12 chiffres)
-cat "$TEMP_DIR"/prog_*.xml 2>/dev/null | awk -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
-BEGIN { RS="</programme>"; split(mapping, m, ";"); for (i in m) { split(m[i], p, "="); if(p[1]) dict[p[1]]=p[2] } }
-{
-    if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([0-9]{12})/, s)) {
-        old_id = c[1];
-        time_key = s[1];
-        if (old_id in dict) {
+if [[ -f "$TEMP_DIR/all_progs.tmp" ]]; then
+    awk -v mapping="$MAP_AWK" '
+    BEGIN { 
+        RS="</programme>"; 
+        split(mapping, m, ";"); for (i in m) { split(m[i], p, "="); if(p[1]) dict[p[1]]=p[2] } 
+    }
+    {
+        # Extraction de l ID et de l heure (12 premiers chiffres de start)
+        # On utilise une regex qui cherche les chiffres n importe où après start="
+        id_match = match($0, /channel="([^"]+)"/, c);
+        time_match = match($0, /start="[^0-9]*([0-9]{12})/, t);
+
+        if (id_match && time_match) {
+            old_id = c[1];
+            time_key = t[1];
             new_id = dict[old_id];
-            key = new_id "_" time_key;
-            if (!seen[key]++) {
-                sub(/channel="[^"]+"/, "channel=\"" new_id "\"", $0);
-                # Filtrage temporel final
-                # On ne garde que si ce n est pas vide
-                if (length($0) > 10) print $0 "</programme>";
+            
+            if (new_id) {
+                # LA CLÉ DE DÉDOUBLONNAGE
+                key = new_id "_" time_key;
+                
+                if (!seen[key]++) {
+                    # Remplacement de l ID
+                    sub(/channel="[^"]+"/, "channel=\"" new_id "\"", $0);
+                    # Nettoyage des sauts de ligne en tête pour éviter les trous
+                    sub(/^[ \t\r\n]+/, "", $0);
+                    if (length($0) > 5) print $0 "</programme>";
+                }
             }
         }
-    }
-}' >> "$OUTPUT_FILE"
+    }' "$TEMP_DIR/all_progs.tmp" >> "$OUTPUT_FILE"
+fi
 
 echo '</tv>' >> "$OUTPUT_FILE"
 
-# Nettoyage
+# Nettoyage et compression
 rm -rf "$TEMP_DIR"
 gzip -f "$OUTPUT_FILE"
 
-echo "SUCCÈS : ${OUTPUT_FILE}.gz généré."
+echo "---------------------------------------"
+echo "TERMINÉ : ${OUTPUT_FILE}.gz créé."
