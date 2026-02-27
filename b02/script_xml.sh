@@ -122,47 +122,35 @@ for old_id in "${!ID_MAP[@]}"; do
 done
 
 # ==============================================================================
-# 3.B TRAITEMENT DES PROGRAMMES (DÉDOUBLONNAGE ROBUSTE)
+# 3.B TRAITEMENT DES PROGRAMMES (DÉDOUBLONNAGE XML NATIF)
 # ==============================================================================
-echo "Traitement des programmes..."
+echo "Fusion et dédoublonnage des programmes..."
 
-# On extrait tous les programmes et on les traite avec un AWK amélioré
-xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml 2>/dev/null | \
+# 1. On fusionne tous les programmes dans un fichier temporaire
+temp_progs="$TEMP_DIR/all_progs.xml"
+echo '<tv>' > "$temp_progs"
+xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml >> "$temp_progs" 2>/dev/null
+echo '</tv>' >> "$temp_progs"
+
+# 2. On applique le mapping des IDs et on supprime les doublons
+# On considère un doublon si : même @channel ET même @start (12 premiers chiffres)
+xmlstarlet ed \
+    $(for old in "${!ID_MAP[@]}"; do 
+        echo "-u \"//programme[@channel='$old']/@channel\" -v \"${ID_MAP[$old]}\" "
+      done) "$temp_progs" | \
+xmlstarlet sel -t -m "//programme" \
+    -v "." -n | \
 awk -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
 BEGIN { 
     RS="</programme>"; 
-    FS=">";
-    n = split(mapping, m_list, ";");
-    for (i=1; i<=n; i++) {
-        split(m_list[i], pair, "=");
-        if (pair[1]) dict[pair[1]] = pair[2];
-    }
 }
 {
-    # 1. Extraire les valeurs proprement via regex, peu importe l ordre
-    # On cherche channel="...", start="..."
+    # Extraction propre du channel et du début de date pour la clé
     if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([0-9]{12})/, s)) {
-        old_id = c[1];
-        start_key = s[1]; # On ne prend que les 12 premiers chiffres (AAAAMMDDHHMM)
-
-        if (old_id in dict) {
-            new_id = dict[old_id];
-            
-            # 2. Créer une clé unique : NEWID + DATE_COURTE
-            key = new_id "_" start_key;
-            
-            if (!seen[key]++) {
-                line = $0;
-                # Remplacer le channel ID dans la ligne
-                gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line);
-                
-                # Nettoyer les espaces/retours chariot en début de bloc
-                sub(/^[ \t\r\n]+/, "", line);
-                
-                if (line != "") {
-                    print line "</programme>";
-                }
-            }
+        key = c[1] "_" s[1];
+        if (!seen[key]++) {
+            sub(/^[ \t\r\n]+/, "", $0);
+            if ($0 != "") print $0 "</programme>";
         }
     }
 }' >> "$OUTPUT_FILE"
