@@ -95,30 +95,32 @@ echo "Fusion et traitement final..."
 
 echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
-# A. Traitement des balises <channel> avec unicité stricte sur le NEW_ID
+# ==============================================================================
+# 3.A TRAITEMENT DES BALISES <CHANNEL> (VERSION FIABLE)
+# ==============================================================================
 echo "Extraction des chaînes uniques..."
 
+# Tableau pour suivre les IDs déjà écrits dans le fichier final
 declare -A SEEN_CHANNELS
 
 for old_id in "${!ID_MAP[@]}"; do
     new_id=${ID_MAP[$old_id]}
     
-    # Si on a déjà traité cet ID de destination, on passe
-    if [[ -n "${SEEN_CHANNELS[$new_id]}" ]]; then
-        continue
-    fi
+    # On saute si on a déjà ajouté cette chaîne (évite les doublons d'ID)
+    [[ -n "${SEEN_CHANNELS[$new_id]}" ]] && continue
 
-    # On récupère la première occurrence trouvée dans les fichiers sources
-    # On limite à 1 occurrence avec head -n 1 (ou via xmlstarlet)
-    channel_block=$(xmlstarlet sel -t -c "/tv/channel[@id='$old_id'][1]" "$TEMP_DIR"/*.xml 2>/dev/null | head -n 1)
+    # 1. On extrait le bloc complet <channel>...</channel> depuis les fichiers temporaires
+    # 2. On change l'attribut 'id' pour mettre le 'new_id'
+    channel_block=$(xmlstarlet sel -t -c "/tv/channel[@id='$old_id'][1]" "$TEMP_DIR"/*.xml 2>/dev/null | \
+                    xmlstarlet ed -u "/channel/@id" -v "$new_id" 2>/dev/null)
 
     if [[ -n "$channel_block" ]]; then
-        # Remplacement de l'ID et écriture
-        echo "$channel_block" | sed "s/id=\"$old_id\"/id=\"$new_id\"/g" >> "$OUTPUT_FILE"
-        # On marque cet ID comme "déjà écrit"
+        # On s'assure qu'il y a un saut de ligne après la balise pour la lisibilité
+        echo "$channel_block" >> "$OUTPUT_FILE"
         SEEN_CHANNELS["$new_id"]=1
     fi
 done
+
 # B. Traitement des balises <programme> avec mapping et dédoublonnage robuste
 # Correction : La regex match() est insensible à l'ordre des attributs
 xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml 2>/dev/null | \
