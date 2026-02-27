@@ -121,40 +121,47 @@ for old_id in "${!ID_MAP[@]}"; do
     fi
 done
 
-# B. Traitement des balises <programme> avec mapping et dédoublonnage robuste
-# Correction : La regex match() est insensible à l'ordre des attributs
+# ==============================================================================
+# 3.B TRAITEMENT DES PROGRAMMES (DÉDOUBLONNAGE ROBUSTE)
+# ==============================================================================
+echo "Traitement des programmes..."
+
+# On extrait tous les programmes et on les traite avec un AWK amélioré
 xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml 2>/dev/null | \
 awk -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
 BEGIN { 
     RS="</programme>"; 
-    n = split(mapping, a, ";");
+    FS=">";
+    n = split(mapping, m_list, ";");
     for (i=1; i<=n; i++) {
-        split(a[i], pair, "=");
+        split(m_list[i], pair, "=");
         if (pair[1]) dict[pair[1]] = pair[2];
     }
 }
 {
-    # On cherche channel="..." et start="..." peu importe où ils sont dans la ligne
-    if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([^"]+)"/, s)) {
+    # 1. Extraire les valeurs proprement via regex, peu importe l ordre
+    # On cherche channel="...", start="..."
+    if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([0-9]{12})/, s)) {
         old_id = c[1];
-        start_full = s[1];
-        # On ne garde que les 12 premiers chiffres pour ignorer les fuseaux horaires (+0100)
-        start_key = substr(start_full, 1, 12);
-        
+        start_key = s[1]; # On ne prend que les 12 premiers chiffres (AAAAMMDDHHMM)
+
         if (old_id in dict) {
             new_id = dict[old_id];
             
-            # Remplacement ciblé de l attribut channel uniquement
-            # Le reste du contenu (display-name, title) est préservé
-            line = $0;
-            gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line);
-            
-            # Dédoublonnage sur NOUVEL_ID + DATE_COURTE
+            # 2. Créer une clé unique : NEWID + DATE_COURTE
             key = new_id "_" start_key;
+            
             if (!seen[key]++) {
-                # Nettoyage des sauts de ligne inutiles et fermeture
+                line = $0;
+                # Remplacer le channel ID dans la ligne
+                gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line);
+                
+                # Nettoyer les espaces/retours chariot en début de bloc
                 sub(/^[ \t\r\n]+/, "", line);
-                print line "</programme>"
+                
+                if (line != "") {
+                    print line "</programme>";
+                }
             }
         }
     }
