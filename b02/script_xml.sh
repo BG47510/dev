@@ -53,38 +53,66 @@ xpath_progs="${xpath_progs% or }"
 echo "--- Démarrage du traitement ---"
 
 # ==============================================================================
-# 2. RÉCUPÉRATION ET FILTRAGE XMLSTARLET
+# 2. RÉCUPÉRATION ET FILTRAGE INTELLIGENT
 # ==============================================================================
 mapfile -t URLS < <(grep -vE '^\s*(#|$)' "$URLS_FILE")
+
+# Tableau pour suivre les NEW_ID (destinations) déjà complétés
+declare -A COMPLETED_DESTINATIONS
 
 count=0
 for url in "${URLS[@]}"; do
     url=$(echo "$url" | tr -d '\r' | xargs)
     [[ -z "$url" ]] && continue
 
-    count=$((count + 1))
-    echo "Source $count : $url"
-    RAW_FILE="$TEMP_DIR/raw_$count.xml"
-    
-    if [[ "$url" == *.gz ]]; then
-        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
-    else
-        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" > "$RAW_FILE" 2>/dev/null
+    # On prépare le filtre XPath uniquement pour les IDs non encore trouvés
+    xpath_channels=""
+    xpath_progs=""
+    needed_in_this_source=0
+
+    for old_id in "${!ID_MAP[@]}"; do
+        dest_id=${ID_MAP[$old_id]}
+        # Si on n'a pas encore de données pour cet ID de destination final
+        if [[ -z "${COMPLETED_DESTINATIONS[$dest_id]}" ]]; then
+            xpath_channels+="@id='$old_id' or "
+            xpath_progs+="@channel='$old_id' or "
+            ((needed_in_this_source++))
+        fi
+    done
+
+    # Si toutes les chaînes ont été trouvées dans les URLs précédentes, on stoppe
+    if [[ $needed_in_this_source -eq 0 ]]; then
+        echo "Toutes les chaînes ont été récupérées. Fin anticipée."
+        break
     fi
 
+    # ... (téléchargement curl identique) ...
+    # (votre code curl ici)
+
     if [[ -s "$RAW_FILE" ]]; then
-        # On ne garde que les IDs présents dans channels.txt
-        if ! xmlstarlet ed \
+        xpath_channels="${xpath_channels% or }"
+        xpath_progs="${xpath_progs% or }"
+
+        # Filtrage immédiat pour ne garder que ce qui est utile (non encore trouvé)
+        if xmlstarlet ed \
             -d "/tv/channel[not($xpath_channels)]" \
             -d "/tv/programme[not($xpath_progs)]" \
             -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
             -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
             "$RAW_FILE" > "$TEMP_DIR/src_$count.xml" 2>/dev/null; then
-            echo "Attention : Erreur XML source $count"
+            
+            # On identifie les OLD_IDs trouvés dans ce fichier
+            found_old_ids=$(xmlstarlet sel -t -v "/tv/channel/@id" "$TEMP_DIR/src_$count.xml" 2>/dev/null)
+            
+            for f_old in $found_old_ids; do
+                # On marque le NEW_ID correspondant comme complété
+                dest_found=${ID_MAP[$f_old]}
+                if [[ -n "$dest_found" ]]; then
+                    COMPLETED_DESTINATIONS["$dest_found"]=1
+                fi
+            done
         fi
         rm -f "$RAW_FILE"
-    else
-        echo "Attention : Source $count vide ou erreur"
     fi
 done
 
