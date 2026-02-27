@@ -7,7 +7,10 @@ CHANNELS_FILE="channels.txt"
 URLS_FILE="urls.txt"
 OUTPUT_FILE="epg.xml"
 TEMP_DIR="./temp_epg"
+DATA_EXTRACT="$TEMP_DIR/extracted_data.txt"
+
 mkdir -p "$TEMP_DIR"
+rm -f "$DATA_EXTRACT"
 
 # 1. CHARGEMENT DU MAPPING
 declare -A ID_MAP
@@ -19,23 +22,17 @@ while IFS=',' read -r old_id new_id || [[ -n "$old_id" ]]; do
 done < "$CHANNELS_FILE"
 
 NOW=$(date +%Y%m%d%H%M)
-LIMIT=$(date -d "+1 days" +%Y%m%d%H%M)
+LIMIT=$(date -d "+2 days" +%Y%m%d%H%M)
 
-echo "--- Traitement des sources ---"
-
-# 2. TÉLÉCHARGEMENT ET NORMALISATION
+# 2. EXTRACTION ET NORMALISATION
+echo "--- Extraction des sources ---"
 count=0
-mapfile -t URLS < <(grep -vE '^\s*(#|$)' "$URLS_FILE")
-
-for url in "${URLS[@]}"; do
-    url=$(echo "$url" | tr -d '\r' | xargs)
-    [[ -z "$url" ]] && continue
+while read -r url || [[ -n "$url" ]]; do
+    [[ "$url" =~ ^\s*(#|$) || -z "$url" ]] && continue
     count=$((count + 1))
+    echo "Source $count : $url"
     
     RAW="$TEMP_DIR/raw_$count.xml"
-    SRC="$TEMP_DIR/src_$count.xml"
-    echo "Source $count : $url"
-
     if [[ "$url" == *.gz ]]; then
         curl -sL --connect-timeout 10 "$url" | gunzip > "$RAW" 2>/dev/null
     else
@@ -43,52 +40,71 @@ for url in "${URLS[@]}"; do
     fi
 
     if [[ -s "$RAW" ]]; then
-        # On ne garde que ce qui est dans le mapping et dans la plage horaire
-        # On force le renommage des IDs dès maintenant pour faciliter la fusion
-        cp "$RAW" "$SRC"
-        for old in "${!ID_MAP[@]}"; do
-            new="${ID_MAP[$old]}"
-            # On utilise sed pour renommer massivement les IDs dans le fichier source
-            sed -i "s/id=\"$old\"/id=\"$new\"/g; s/channel=\"$old\"/channel=\"$new\"/g" "$SRC"
-        done
-        
-        # Nettoyage : on supprime tout ce qui n'appartient pas à nos IDs cibles
-        xpath_ids=""
-        for new in "${ID_MAP[@]}"; do xpath_ids+="@id='$new' or @channel='$new' or "; done
-        xpath_ids="${xpath_ids% or }"
+        # On extrait les infos : ID_SOURCE | START | STOP | TITRE (ou bloc entier)
+        # On utilise une astuce xmlstarlet pour sortir chaque programme sur une seule ligne
+        xmlstarlet sel -t -m "/tv/programme" \
+            -v "../channel[@id=current()/@channel]/display-name" -o "||" \
+            -v "@channel" -o "||" \
+            -v "@start" -o "||" \
+            -v "@stop" -o "||" \
+            -c "." -n "$RAW" 2>/dev/null >> "$DATA_EXTRACT"
+    fi
+    rm -f "$RAW"
+done < "$URLS_FILE"
 
-        xmlstarlet ed -L \
-            -d "/tv/channel[not($xpath_ids)]" \
-            -d "/tv/programme[not($xpath_ids)]" \
-            -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
-            -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
-            "$SRC" 2>/dev/null
-        
-        rm -f "$RAW"
+# 3. RECONSTRUCTION DU XML
+echo "--- Reconstruction et Dédoublonnage ---"
+echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
+
+# A. Les chaînes (On les recrée proprement pour éviter les balises orphelines)
+declare -A DONE_CHANNELS
+for old in "${!ID_MAP[@]}"; do
+    new="${ID_MAP[$old]}"
+    if [[ -z "${DONE_CHANNELS[$new]}" ]]; then
+        echo "  <channel id=\"$new\"><display-name>$new</display-name></channel>" >> "$OUTPUT_FILE"
+        DONE_CHANNELS["$new"]=1
     fi
 done
 
-# 3. ASSEMBLAGE FINAL (Le coeur du dédoublonnage)
-echo "Fusion et dédoublonnage final..."
-echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
-
-# A. Canaux (Unique par ID)
-cat "$TEMP_DIR"/src_*.xml | xmlstarlet sel -t -c "/tv/channel" 2>/dev/null | \
-awk '!seen[$0]++' >> "$OUTPUT_FILE"
-
-# B. Programmes (Unique par ID + START)
-# On normalise la clé de temps (12 premiers chiffres) pour ignorer les différences de format +0100
-cat "$TEMP_DIR"/src_*.xml | xmlstarlet sel -t -m "/tv/programme" -v "@channel" -o "|" -v "substring(@start,1,12)" -o "|" -c "." -n 2>/dev/null | \
-awk -F'|' '{
-    key = $1 "_" $2;
-    if (!seen[key]++) {
-        print $3;
+# B. Les programmes
+# On utilise AWK pour dédoublonner sur (ID_CIBLE + 12 premiers chiffres du START)
+awk -F "||" -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
+BEGIN {
+    split(mapping, m_array, ";");
+    for (i in m_array) {
+        split(m_array[i], pair, "=");
+        if (pair[1]) dict[pair[1]] = pair[2];
     }
-}' >> "$OUTPUT_FILE"
+}
+{
+    old_id = $2;
+    start_full = $3;
+    stop_full = $4;
+    xml_content = $5;
+    
+    if (old_id in dict) {
+        new_id = dict[old_id];
+        # On normalise la clé sur les 12 premiers chiffres de la date (YYYYMMDDHHMM)
+        key = new_id "_" substr(start_full, 1, 12);
+        
+        if (!seen[key]++) {
+            # On nettoie le bloc XML pour s assurer qu il est complet
+            # On remplace l ID et on s assure que la balise est fermée
+            gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", xml_content);
+            if (xml_content ~ /<programme/ && xml_content !~ /<\/programme>/) {
+                xml_content = xml_content "</programme>";
+            }
+            print xml_content;
+        }
+    }
+}' "$DATA_EXTRACT" >> "$OUTPUT_FILE"
 
 echo '</tv>' >> "$OUTPUT_FILE"
 
-# Nettoyage
+# 4. NETTOYAGE
+# Suppression des doublons de balises mal formées si xmlstarlet a été trop zélé
+sed -i '/<\/programme><\/programme>/s//<\/programme>/g' "$OUTPUT_FILE"
+
 rm -rf "$TEMP_DIR"
 gzip -f "$OUTPUT_FILE"
-echo "Terminé : ${OUTPUT_FILE}.gz"
+echo "Succès : ${OUTPUT_FILE}.gz"
