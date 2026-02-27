@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Aller au répertoire du script
 cd "$(dirname "$0")" || exit 1
 
 # ==============================================================================
@@ -12,35 +13,26 @@ TEMP_DIR="./temp_epg"
 
 mkdir -p "$TEMP_DIR"
 
-# 1. CHARGEMENT DU MAPPING
+# 1. CHARGEMENT DU MAPPING (old_id -> new_id)
 declare -A ID_MAP
 while IFS=',' read -r old_id new_id || [[ -n "$old_id" ]]; do
     [[ "$old_id" =~ ^\s*(#|$) ]] && continue
     old_clean=$(echo "$old_id" | tr -d '\r' | xargs)
     new_clean=$(echo "$new_id" | tr -d '\r' | xargs)
-    if [[ -n "$old_clean" && -n "$new_clean" ]]; then
-        ID_MAP["$old_clean"]="$new_clean"
-    fi
+    [[ -n "$old_clean" && -n "$new_clean" ]] && ID_MAP["$old_clean"]="$new_clean"
 done < "$CHANNELS_FILE"
 
+# PARAMÈTRES TEMPORELS
 NOW=$(date +%Y%m%d%H%M)
 LIMIT=$(date -d "+1 days" +%Y%m%d%H%M)
 
-echo "--- Démarrage du traitement ---"
+echo "--- Démarrage : $(date) ---"
 
 # ==============================================================================
-# 2. RÉCUPÉRATION ET FILTRAGE (AVEC PRIORITÉ)
+# 2. RÉCUPÉRATION ET NORMALISATION (Extraction structurée)
 # ==============================================================================
-declare -A CHANNELS_FILLED  # Pour suivre quelle "new_id" a déjà été trouvée
 count=0
 mapfile -t URLS < <(grep -vE '^\s*(#|$)' "$URLS_FILE")
-
-# Construction du filtre XPath global pour les IDs autorisés
-xpath_ids=""
-for id in "${!ID_MAP[@]}"; do
-    xpath_ids+="@id='$id' or @channel='$id' or "
-done
-xpath_ids="${xpath_ids% or }"
 
 for url in "${URLS[@]}"; do
     url=$(echo "$url" | tr -d '\r' | xargs)
@@ -48,90 +40,87 @@ for url in "${URLS[@]}"; do
     count=$((count + 1))
     
     RAW_FILE="$TEMP_DIR/raw_$count.xml"
-    SRC_FILE="$TEMP_DIR/src_$count.xml"
     echo "Source $count : $url"
 
+    # Téléchargement
     if [[ "$url" == *.gz ]]; then
-        curl -sL --connect-timeout 10 "$url" | gunzip > "$RAW_FILE" 2>/dev/null
+        curl -sL --connect-timeout 10 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
     else
-        curl -sL --connect-timeout 10 "$url" > "$RAW_FILE" 2>/dev/null
+        curl -sL --connect-timeout 10 --fail "$url" > "$RAW_FILE" 2>/dev/null
     fi
 
     if [[ -s "$RAW_FILE" ]]; then
-        # On ne garde que les programmes des chaînes qui n'ont PAS ENCORE été remplies par une source précédente
-        # Pour cela, on identifie d'abord les IDs présents dans cette source
-        ids_in_source=$(xmlstarlet sel -t -v "/tv/channel/@id" "$RAW_FILE" 2>/dev/null)
+        # A. Extraire les balises <channel>
+        xmlstarlet sel -t -c "/tv/channel" "$RAW_FILE" > "$TEMP_DIR/ch_$count.xml" 2>/dev/null
         
-        # On construit un filtre spécifique pour cette source : 
-        # On ne garde que si (ID est dans notre mapping) ET (le NewID n'est pas déjà pris)
-        xpath_filter=""
-        found_new_content=false
+        # B. Extraire les programmes en format plat : ID|START|STOP|XML_CONTENT
+        # On ajoute le filtrage temporel ici pour ne pas charger inutilement la suite
+        xmlstarlet sel -t -m "/tv/programme[substring(@stop,1,12) >= '$NOW' and substring(@start,1,12) <= '$LIMIT']" \
+            -v "@channel" -o "|" -v "@start" -o "|" -c "." -n \
+            "$RAW_FILE" > "$TEMP_DIR/pg_$count.txt" 2>/dev/null
         
-        for old_id in $ids_in_source; do
-            new_id=${ID_MAP[$old_id]}
-            if [[ -n "$new_id" ]]; then
-                if [[ -z "${CHANNELS_FILLED[$new_id]}" ]]; then
-                    xpath_filter+="@id='$old_id' or @channel='$old_id' or "
-                    CHANNELS_FILLED["$new_id"]=1
-                    found_new_content=true
-                fi
-            fi
-        done
-        xpath_filter="${xpath_filter% or }"
-
-        if [ "$found_new_content" = true ]; then
-            xmlstarlet ed \
-                -d "/tv/channel[not($xpath_filter)]" \
-                -d "/tv/programme[not($xpath_filter)]" \
-                -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
-                -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
-                "$RAW_FILE" > "$SRC_FILE" 2>/dev/null
-        else
-            echo "  [i] Aucun nouveau canal requis dans cette source."
-            touch "$SRC_FILE" # Fichier vide pour ne pas casser la suite
-        fi
         rm -f "$RAW_FILE"
+    else
+        echo "  [!] Erreur de téléchargement ou fichier vide."
     fi
 done
 
 # ==============================================================================
-# 3. ASSEMBLAGE FINAL
+# 3. ASSEMBLAGE ET FUSION (Dédoublonnage intelligent)
 # ==============================================================================
-echo "Assemblage du fichier final..."
+echo "Assemblage et fusion des programmes..."
 echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
-# A. Canaux
-for src in "$TEMP_DIR"/src_*.xml; do
-    [[ ! -s "$src" ]] && continue
-    # Extraction et renommage des IDs à la volée
-    xmlstarlet sel -t -c "/tv/channel" "$src" | \
+# A. Canaux : Dédoublonnage par ID cible
+declare -A DONE_CHANNELS
+for f in "$TEMP_DIR"/ch_*.xml; do
+    [ ! -f "$f" ] && continue
     while read -r line; do
-        for old in "${!ID_MAP[@]}"; do
-            line="${line//id=\"$old\"/id=\"${ID_MAP[$old]}\"}"
-        done
-        echo "$line" >> "$OUTPUT_FILE"
-    done
+        if [[ "$line" =~ id=\"([^\"]+)\" ]]; then
+            old_id="${BASH_REMATCH[1]}"
+            new_id="${ID_MAP[$old_id]}"
+            if [[ -n "$new_id" && -z "${DONE_CHANNELS[$new_id]}" ]]; then
+                # Remplacement de l'ID et nettoyage du display-name si besoin
+                echo "${line//id=\"$old_id\"/id=\"$new_id\"}" >> "$OUTPUT_FILE"
+                DONE_CHANNELS["$new_id"]=1
+            fi
+        fi
+    done < "$f"
 done
 
-# B. Programmes (Dédoublonnage interne de sécurité via AWK)
-xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/src_*.xml 2>/dev/null | \
-awk -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
-BEGIN { RS="</programme>"; n=split(mapping,m,";"); for(i=1;i<=n;i++){split(m[i],p,"="); if(p[1]) dict[p[1]]=p[2]} }
+# B. Programmes : Fusion par "ID_CIBLE + START_TIME"
+# On utilise AWK pour traiter la masse de données avec le mapping en mémoire
+cat "$TEMP_DIR"/pg_*.txt 2>/dev/null | awk -F'|' -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
+BEGIN {
+    n = split(mapping, m_array, ";");
+    for (i=1; i<=n; i++) {
+        split(m_array[i], pair, "=");
+        if (pair[1]) dict[pair[1]] = pair[2];
+    }
+}
 {
-    if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([^"]+)"/, s)) {
-        old_id=c[1]; start_k=substr(s[1],1,12);
-        if (old_id in dict) {
-            new_id=dict[old_id]; line=$0;
-            gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line);
-            if (!seen[new_id "_" start_k]++) {
-                sub(/^[ \t\r\n]+/, "", line);
-                print line "</programme>"
-            }
+    old_id = $1; start_time = $2; xml_block = $3;
+    if (old_id in dict) {
+        new_id = dict[old_id];
+        key = new_id "_" start_time;
+        if (!seen[key]++) {
+            # Remplace l ID source par l ID cible proprement
+            gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", xml_block);
+            # Nettoyage des sauts de ligne inutiles pour compacter
+            sub(/^[ \t\r\n]+/, "", xml_block);
+            print xml_block;
         }
     }
 }' >> "$OUTPUT_FILE"
 
 echo '</tv>' >> "$OUTPUT_FILE"
+
+# ==============================================================================
+# NETTOYAGE
+# ==============================================================================
 rm -rf "$TEMP_DIR"
 gzip -f "$OUTPUT_FILE"
+
+echo "---"
 echo "SUCCÈS : ${OUTPUT_FILE}.gz généré."
+echo "Chaînes uniques intégrées : ${#DONE_CHANNELS[@]}"
