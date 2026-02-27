@@ -86,8 +86,11 @@ for url in "${URLS[@]}"; do
         break
     fi
 
-    # ... (téléchargement curl identique) ...
-    # (votre code curl ici)
+    if [[ "$url" == *.gz ]]; then
+        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
+    else
+        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" > "$RAW_FILE" 2>/dev/null
+    fi
 
     if [[ -s "$RAW_FILE" ]]; then
         xpath_channels="${xpath_channels% or }"
@@ -115,6 +118,7 @@ for url in "${URLS[@]}"; do
         rm -f "$RAW_FILE"
     fi
 done
+    
 
 # ==============================================================================
 # 3. FUSION, RENOMMAGE PRÉCIS ET DÉDOUBLONNAGE
@@ -149,36 +153,41 @@ for old_id in "${!ID_MAP[@]}"; do
     fi
 done
 
-# ==============================================================================
-# 3.B TRAITEMENT DES PROGRAMMES (DÉDOUBLONNAGE XML NATIF)
-# ==============================================================================
-echo "Fusion et dédoublonnage des programmes..."
-
-# 1. On fusionne tous les programmes dans un fichier temporaire
-temp_progs="$TEMP_DIR/all_progs.xml"
-echo '<tv>' > "$temp_progs"
-xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml >> "$temp_progs" 2>/dev/null
-echo '</tv>' >> "$temp_progs"
-
-# 2. On applique le mapping des IDs et on supprime les doublons
-# On considère un doublon si : même @channel ET même @start (12 premiers chiffres)
-xmlstarlet ed \
-    $(for old in "${!ID_MAP[@]}"; do 
-        echo "-u \"//programme[@channel='$old']/@channel\" -v \"${ID_MAP[$old]}\" "
-      done) "$temp_progs" | \
-xmlstarlet sel -t -m "//programme" \
-    -v "." -n | \
+# B. Traitement des balises <programme> avec mapping et dédoublonnage robuste
+# Correction : La regex match() est insensible à l'ordre des attributs
+xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml 2>/dev/null | \
 awk -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
 BEGIN { 
     RS="</programme>"; 
+    n = split(mapping, a, ";");
+    for (i=1; i<=n; i++) {
+        split(a[i], pair, "=");
+        if (pair[1]) dict[pair[1]] = pair[2];
+    }
 }
 {
-    # Extraction propre du channel et du début de date pour la clé
-    if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([0-9]{12})/, s)) {
-        key = c[1] "_" s[1];
-        if (!seen[key]++) {
-            sub(/^[ \t\r\n]+/, "", $0);
-            if ($0 != "") print $0 "</programme>";
+    # On cherche channel="..." et start="..." peu importe où ils sont dans la ligne
+    if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([^"]+)"/, s)) {
+        old_id = c[1];
+        start_full = s[1];
+        # On ne garde que les 12 premiers chiffres pour ignorer les fuseaux horaires (+0100)
+        start_key = substr(start_full, 1, 12);
+        
+        if (old_id in dict) {
+            new_id = dict[old_id];
+            
+            # Remplacement ciblé de l attribut channel uniquement
+            # Le reste du contenu (display-name, title) est préservé
+            line = $0;
+            gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line);
+            
+            # Dédoublonnage sur NOUVEL_ID + DATE_COURTE
+            key = new_id "_" start_key;
+            if (!seen[key]++) {
+                # Nettoyage des sauts de ligne inutiles et fermeture
+                sub(/^[ \t\r\n]+/, "", line);
+                print line "</programme>"
+            }
         }
     }
 }' >> "$OUTPUT_FILE"
