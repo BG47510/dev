@@ -11,7 +11,7 @@ URLS_FILE="urls.txt"
 OUTPUT_FILE="epg.xml"
 TEMP_DIR="./temp_epg"
 
-# Vérification des fichiers
+# Vérification des fichiers de base
 for f in "$CHANNELS_FILE" "$URLS_FILE"; do
     if [[ ! -f "$f" ]]; then
         echo "Erreur : Le fichier $f est introuvable."
@@ -19,12 +19,13 @@ for f in "$CHANNELS_FILE" "$URLS_FILE"; do
     fi
 done
 
-# 1. CHARGEMENT DU MAPPING
+# 1. CHARGEMENT DU MAPPING (old_id -> new_id)
 declare -A ID_MAP
 CHANNEL_IDS=()
 
 while IFS=',' read -r old_id new_id || [[ -n "$old_id" ]]; do
     [[ "$old_id" =~ ^\s*(#|$) ]] && continue
+    # Nettoyage des caractères invisibles (\r) et espaces
     old_clean=$(echo "$old_id" | tr -d '\r' | xargs)
     new_clean=$(echo "$new_id" | tr -d '\r' | xargs)
     
@@ -36,55 +37,29 @@ done < "$CHANNELS_FILE"
 
 mkdir -p "$TEMP_DIR"
 
-# PARAMÈTRES TEMPORELS
+# PARAMÈTRES TEMPORELS (Format XMLTV)
 NOW=$(date +%Y%m%d%H%M)
 LIMIT=$(date -d "+1 days" +%Y%m%d%H%M)
-
-# Construction des filtres XPath
-xpath_channels=""
-xpath_progs=""
-for id in "${CHANNEL_IDS[@]}"; do
-    xpath_channels+="@id='$id' or "
-    xpath_progs+="@channel='$id' or "
-done
-xpath_channels="${xpath_channels% or }"
-xpath_progs="${xpath_progs% or }"
 
 echo "--- Démarrage du traitement ---"
 
 # ==============================================================================
-# 2. RÉCUPÉRATION ET FILTRAGE INTELLIGENT
+# 2. RÉCUPÉRATION ET FILTRAGE DES SOURCES
 # ==============================================================================
-declare -A COMPLETED_DESTINATIONS
 count=0
-
-echo "--- Début de la récupération des sources ---"
-
 mapfile -t URLS < <(grep -vE '^\s*(#|$)' "$URLS_FILE")
 
 for url in "${URLS[@]}"; do
     url=$(echo "$url" | tr -d '\r' | xargs)
     [[ -z "$url" ]] && continue
 
-    # 1. Construire le filtre pour les IDs encore manquants
+    # Construction du filtre XPath pour cette source
     xpath_channels=""
     xpath_progs=""
-    needed_count=0
-
-    for old_id in "${!ID_MAP[@]}"; do
-        dest_id=${ID_MAP[$old_id]}
-        if [[ -z "${COMPLETED_DESTINATIONS[$dest_id]}" ]]; then
-            xpath_channels+="@id='$old_id' or "
-            xpath_progs+="@channel='$old_id' or "
-            ((needed_count++))
-        fi
+    for id in "${!ID_MAP[@]}"; do
+        xpath_channels+="@id='$id' or "
+        xpath_progs+="@channel='$id' or "
     done
-
-    if [[ $needed_count -eq 0 ]]; then
-        echo "Info : Toutes les chaînes cibles ont été complétées."
-        break
-    fi
-
     xpath_channels="${xpath_channels% or }"
     xpath_progs="${xpath_progs% or }"
 
@@ -92,9 +67,9 @@ for url in "${URLS[@]}"; do
     RAW_FILE="$TEMP_DIR/raw_$count.xml"
     SRC_FILE="$TEMP_DIR/src_$count.xml"
 
-    echo "Source $count : $url ($needed_count chaînes attendues)"
+    echo "Source $count : $url"
     
-    # Téléchargement
+    # Téléchargement (supporte .gz)
     if [[ "$url" == *.gz ]]; then
         curl -sL --connect-timeout 10 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
     else
@@ -102,27 +77,17 @@ for url in "${URLS[@]}"; do
     fi
 
     if [[ -s "$RAW_FILE" ]]; then
-        # Filtrage : On ne garde que les programmes des IDs manquants
+        # Filtrage strict des IDs et de la plage horaire
         xmlstarlet ed \
             -d "/tv/channel[not($xpath_channels)]" \
             -d "/tv/programme[not($xpath_progs)]" \
             -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
             -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
             "$RAW_FILE" > "$SRC_FILE" 2>/dev/null
-
-        # On vérifie ce qu'on a réellement récupéré dans ce fichier
-        found_here=$(xmlstarlet sel -t -v "/tv/channel/@id" "$SRC_FILE" 2>/dev/null)
         
-        for f_old in $found_here; do
-            dest_found=${ID_MAP[$f_old]}
-            if [[ -n "$dest_found" && -z "${COMPLETED_DESTINATIONS[$dest_found]}" ]]; then
-                echo "  [+] Trouvé : $f_old -> $dest_found"
-                COMPLETED_DESTINATIONS["$dest_found"]=1
-            fi
-        done
         rm -f "$RAW_FILE"
     else
-        echo "  [!] Erreur de téléchargement ou fichier vide."
+        echo "  [!] Erreur ou fichier vide."
     fi
 done
 
@@ -132,57 +97,51 @@ done
 echo "Assemblage du fichier final..."
 echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
-# A. Canaux (On prend le premier bloc trouvé pour chaque destination)
 declare -A WRITTEN_CHANNELS
+
+# A. Extraction des balises <channel> (Dédoublonnage par ID de destination)
 for src in "$TEMP_DIR"/src_*.xml; do
     [[ ! -f "$src" ]] && continue
     
-    # On extrait chaque channel du fichier source
-    while read -r old_id; do
+    ids_found=$(xmlstarlet sel -t -v "/tv/channel/@id" "$src" 2>/dev/null)
+    
+    for old_id in $ids_found; do
         new_id=${ID_MAP[$old_id]}
         if [[ -n "$new_id" && -z "${WRITTEN_CHANNELS[$new_id]}" ]]; then
-            # Extraction et renommage de l'ID en une seule passe
+            # On extrait le bloc, on remplace l'ID source par l'ID cible
             xmlstarlet sel -t -c "/tv/channel[@id='$old_id']" "$src" | \
-            xmlstarlet ed -u "/channel/@id" -v "$new_id" >> "$OUTPUT_FILE"
+            sed "s/id=['\"]$old_id['\"]/id=\"$new_id\"/g" >> "$OUTPUT_FILE"
             echo "" >> "$OUTPUT_FILE"
             WRITTEN_CHANNELS["$new_id"]=1
         fi
-    done < <(xmlstarlet sel -t -v "/tv/channel/@id" "$src")
+    done
 done
 
-
-# B. Traitement des balises <programme> avec mapping et dédoublonnage robuste
-# Correction : La regex match() est insensible à l'ordre des attributs
+# B. Extraction des balises <programme> (Dédoublonnage par NEW_ID + START_TIME)
 xmlstarlet sel -t -c "/tv/programme" "$TEMP_DIR"/*.xml 2>/dev/null | \
 awk -v mapping="$(for old in "${!ID_MAP[@]}"; do printf "%s=%s;" "$old" "${ID_MAP[$old]}"; done)" '
 BEGIN { 
     RS="</programme>"; 
-    n = split(mapping, a, ";");
+    n = split(mapping, m_array, ";");
     for (i=1; i<=n; i++) {
-        split(a[i], pair, "=");
+        split(m_array[i], pair, "=");
         if (pair[1]) dict[pair[1]] = pair[2];
     }
 }
 {
-    # On cherche channel="..." et start="..." peu importe où ils sont dans la ligne
     if (match($0, /channel="([^"]+)"/, c) && match($0, /start="([^"]+)"/, s)) {
         old_id = c[1];
-        start_full = s[1];
-        # On ne garde que les 12 premiers chiffres pour ignorer les fuseaux horaires (+0100)
-        start_key = substr(start_full, 1, 12);
+        start_key = substr(s[1], 1, 12);
         
         if (old_id in dict) {
             new_id = dict[old_id];
-            
-            # Remplacement ciblé de l attribut channel uniquement
-            # Le reste du contenu (display-name, title) est préservé
             line = $0;
+            # Remplace l ID dans l attribut channel
             gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line);
             
-            # Dédoublonnage sur NOUVEL_ID + DATE_COURTE
+            # Dédoublonnage : Une seule diffusion par horaire par chaîne cible
             key = new_id "_" start_key;
             if (!seen[key]++) {
-                # Nettoyage des sauts de ligne inutiles et fermeture
                 sub(/^[ \t\r\n]+/, "", line);
                 print line "</programme>"
             }
@@ -192,7 +151,11 @@ BEGIN {
 
 echo '</tv>' >> "$OUTPUT_FILE"
 
-# Nettoyage final
+# ==============================================================================
+# NETTOYAGE ET FINITION
+# ==============================================================================
 rm -rf "$TEMP_DIR"
 gzip -f "$OUTPUT_FILE"
-echo "SUCCÈS : ${OUTPUT_FILE}.gz généré."
+echo "---"
+echo "SUCCÈS : ${OUTPUT_FILE}.gz a été généré."
+echo "Chaînes traitées : ${#WRITTEN_CHANNELS[@]}"
