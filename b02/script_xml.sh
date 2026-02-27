@@ -55,103 +55,101 @@ echo "--- Démarrage du traitement ---"
 # ==============================================================================
 # 2. RÉCUPÉRATION ET FILTRAGE INTELLIGENT
 # ==============================================================================
+declare -A COMPLETED_DESTINATIONS
+count=0
+
+echo "--- Début de la récupération des sources ---"
+
 mapfile -t URLS < <(grep -vE '^\s*(#|$)' "$URLS_FILE")
 
-# Tableau pour suivre les NEW_ID (destinations) déjà complétés
-declare -A COMPLETED_DESTINATIONS
-
-count=0
 for url in "${URLS[@]}"; do
     url=$(echo "$url" | tr -d '\r' | xargs)
     [[ -z "$url" ]] && continue
 
-    # On prépare le filtre XPath uniquement pour les IDs non encore trouvés
+    # 1. Construire le filtre pour les IDs encore manquants
     xpath_channels=""
     xpath_progs=""
-    needed_in_this_source=0
+    needed_count=0
 
     for old_id in "${!ID_MAP[@]}"; do
         dest_id=${ID_MAP[$old_id]}
-        # Si on n'a pas encore de données pour cet ID de destination final
         if [[ -z "${COMPLETED_DESTINATIONS[$dest_id]}" ]]; then
             xpath_channels+="@id='$old_id' or "
             xpath_progs+="@channel='$old_id' or "
-            ((needed_in_this_source++))
+            ((needed_count++))
         fi
     done
 
-    # Si toutes les chaînes ont été trouvées dans les URLs précédentes, on stoppe
-    if [[ $needed_in_this_source -eq 0 ]]; then
-        echo "Toutes les chaînes ont été récupérées. Fin anticipée."
+    if [[ $needed_count -eq 0 ]]; then
+        echo "Info : Toutes les chaînes cibles ont été complétées."
         break
     fi
 
+    xpath_channels="${xpath_channels% or }"
+    xpath_progs="${xpath_progs% or }"
+
+    count=$((count + 1))
+    RAW_FILE="$TEMP_DIR/raw_$count.xml"
+    SRC_FILE="$TEMP_DIR/src_$count.xml"
+
+    echo "Source $count : $url ($needed_count chaînes attendues)"
+    
+    # Téléchargement
     if [[ "$url" == *.gz ]]; then
-        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
+        curl -sL --connect-timeout 10 --fail "$url" | gunzip > "$RAW_FILE" 2>/dev/null
     else
-        curl -sL --connect-timeout 10 --max-time 30 --fail "$url" > "$RAW_FILE" 2>/dev/null
+        curl -sL --connect-timeout 10 --fail "$url" > "$RAW_FILE" 2>/dev/null
     fi
 
     if [[ -s "$RAW_FILE" ]]; then
-        xpath_channels="${xpath_channels% or }"
-        xpath_progs="${xpath_progs% or }"
-
-        # Filtrage immédiat pour ne garder que ce qui est utile (non encore trouvé)
-        if xmlstarlet ed \
+        # Filtrage : On ne garde que les programmes des IDs manquants
+        xmlstarlet ed \
             -d "/tv/channel[not($xpath_channels)]" \
             -d "/tv/programme[not($xpath_progs)]" \
             -d "/tv/programme[substring(@stop,1,12) < '$NOW']" \
             -d "/tv/programme[substring(@start,1,12) > '$LIMIT']" \
-            "$RAW_FILE" > "$TEMP_DIR/src_$count.xml" 2>/dev/null; then
-            
-            # On identifie les OLD_IDs trouvés dans ce fichier
-            found_old_ids=$(xmlstarlet sel -t -v "/tv/channel/@id" "$TEMP_DIR/src_$count.xml" 2>/dev/null)
-            
-            for f_old in $found_old_ids; do
-                # On marque le NEW_ID correspondant comme complété
-                dest_found=${ID_MAP[$f_old]}
-                if [[ -n "$dest_found" ]]; then
-                    COMPLETED_DESTINATIONS["$dest_found"]=1
-                fi
-            done
-        fi
+            "$RAW_FILE" > "$SRC_FILE" 2>/dev/null
+
+        # On vérifie ce qu'on a réellement récupéré dans ce fichier
+        found_here=$(xmlstarlet sel -t -v "/tv/channel/@id" "$SRC_FILE" 2>/dev/null)
+        
+        for f_old in $found_here; do
+            dest_found=${ID_MAP[$f_old]}
+            if [[ -n "$dest_found" && -z "${COMPLETED_DESTINATIONS[$dest_found]}" ]]; then
+                echo "  [+] Trouvé : $f_old -> $dest_found"
+                COMPLETED_DESTINATIONS["$dest_found"]=1
+            fi
+        done
         rm -f "$RAW_FILE"
+    else
+        echo "  [!] Erreur de téléchargement ou fichier vide."
     fi
 done
-    
 
 # ==============================================================================
-# 3. FUSION, RENOMMAGE PRÉCIS ET DÉDOUBLONNAGE
+# 3. ASSEMBLAGE FINAL
 # ==============================================================================
-echo "Fusion et traitement final..."
-
+echo "Assemblage du fichier final..."
 echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > "$OUTPUT_FILE"
 
-# ==============================================================================
-# 3.A TRAITEMENT DES BALISES <CHANNEL> (VERSION FIABLE)
-# ==============================================================================
-echo "Extraction des chaînes uniques..."
-
-# Tableau pour suivre les IDs déjà écrits dans le fichier final
-declare -A SEEN_CHANNELS
-
-for old_id in "${!ID_MAP[@]}"; do
-    new_id=${ID_MAP[$old_id]}
+# A. Canaux (On prend le premier bloc trouvé pour chaque destination)
+declare -A WRITTEN_CHANNELS
+for src in "$TEMP_DIR"/src_*.xml; do
+    [[ ! -f "$src" ]] && continue
     
-    # On saute si on a déjà ajouté cette chaîne (évite les doublons d'ID)
-    [[ -n "${SEEN_CHANNELS[$new_id]}" ]] && continue
-
-    # 1. On extrait le bloc complet <channel>...</channel> depuis les fichiers temporaires
-    # 2. On change l'attribut 'id' pour mettre le 'new_id'
-    channel_block=$(xmlstarlet sel -t -c "/tv/channel[@id='$old_id'][1]" "$TEMP_DIR"/*.xml 2>/dev/null | \
-                    xmlstarlet ed -u "/channel/@id" -v "$new_id" 2>/dev/null)
-
-    if [[ -n "$channel_block" ]]; then
-        # On s'assure qu'il y a un saut de ligne après la balise pour la lisibilité
-        echo "$channel_block" >> "$OUTPUT_FILE"
-        SEEN_CHANNELS["$new_id"]=1
-    fi
+    # On extrait chaque channel du fichier source
+    while read -r old_id; do
+        new_id=${ID_MAP[$old_id]}
+        if [[ -n "$new_id" && -z "${WRITTEN_CHANNELS[$new_id]}" ]]; then
+            # Extraction et renommage de l'ID en une seule passe
+            xmlstarlet sel -t -c "/tv/channel[@id='$old_id']" "$src" | \
+            xmlstarlet ed -u "/channel/@id" -v "$new_id" >> "$OUTPUT_FILE"
+            echo "" >> "$OUTPUT_FILE"
+            WRITTEN_CHANNELS["$new_id"]=1
+        fi
+    done < <(xmlstarlet sel -t -v "/tv/channel/@id" "$src")
 done
+
 
 # B. Traitement des balises <programme> avec mapping et dédoublonnage robuste
 # Correction : La regex match() est insensible à l'ordre des attributs
