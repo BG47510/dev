@@ -1,0 +1,14 @@
+--- Session du Sat Feb 28 09:37:50 UTC 2026 ---
+--- Démarrage du traitement ---
+Source 1 : https://xmltvfr.fr/xmltv/xmltv.xml.gz
+  [OK] +1 chaînes récupérées.
+Source 2 : https://github.com/Catch-up-TV-and-More/xmltv/raw/master/tv_guide_fr.xml
+  [i] Aucune nouvelle chaîne pertinente.
+--- Assemblage final ---
+
+=== RÉCAPITULATIF DU MAPPING ===
+ID Original                    | Nouvel ID                      | Status         
+--------------------------------------------------------------------------------
+M6.fr                          | M6test                         | Source 1       
+C118.api.telerama.fr           | M6test                         | Source 1       
+SUCCÈS : epg.xml généré.
