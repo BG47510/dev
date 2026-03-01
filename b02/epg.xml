@@ -3,48 +3,195 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260228074500 +0100" stop="20260228101000 +0100" channel="M6test">
-    <title lang="fr">Absolument stars</title>
-    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show-business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
+<programme start="20260301023500 +0100" stop="20260301060000 +0100" channel="M6test">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/611B52CD73AB6BCF0E8FA80EB8015F5E.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301060000 +0100" stop="20260301070000 +0100" channel="M6test">
+    <title lang="fr">M6 Kid</title>
+    <desc lang="fr">Debout c'est M6 Kid ! Un réveil joyeux et 100 % animation pour tous les enfants !</desc>
+    <date>2024</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Jeunesse</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F8552446F1639C1A74C58CC81B1AB8C0.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301070000 +0100" stop="20260301073000 +0100" channel="M6test">
+    <title lang="fr">100% immo, l'hebdo</title>
+    <desc lang="fr">Les tendances et l'actualité du secteur immobilier, à Paris et en régions sont présentées dans cette émission où des professionnels livrent conseils et astuces.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Découvertes</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6B4E8FA2B4BF5F9CCB0AB785BB7AAAA2.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301073000 +0100" stop="20260301102500 +0100" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
-      <guest>Claire Nevers</guest>
+      <guest>Marie-Ange Nardi</guest>
+      <guest>Charlotte Rosier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Télé-achat</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301102500 +0100" stop="20260301105500 +0100" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Cette semaine Dominique Chapatte vous propose de retrouver Simon Potée-Gallini et Safet Rastoder sur l'île de Jersey, la plus grande des îles anglo-normandes, aussi surnommée l'île aux fleurs, le lieu idéal pour un road trip et des rencontres avec des propriétaires passionnés de belles autos.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/27B1D445FC0931E28D76FF9A640AB826.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301105500 +0100" stop="20260301112000 +0100" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">À quelques semaines des vacances de la Toussaint, Turbo prend les chemins de traverse pour vous présenter les toutes dernières tendances dans le monde du camping-car… Ingéniosité, luxe, van life, le dernier salon des véhicules de loisirs était l'occasion pour les constructeurs de présenter leurs dernières nouveautés… Simon Potée-Gallini et Safet Rastoder vous embarquent, direction : l'évasion !</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5420AFB0C6C759BE0F8F1EC222D169B1.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301112000 +0100" stop="20260301124000 +0100" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Cette semaine Simon Potée-Gallini et Safet Rastoder se sont rendus dans le sud de la France pour une immersion complète dans l'univers renouvelé de Dacia. Au programme : la découverte de la nouvelle identité stylistique de la marque roumaine et l'essai de ses motorisations inédites. Du Sandero au Duster, en passant par le Jogger, toute la gamme passera au crible de nos experts ce dimanche dans Turbo !</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301124000 +0100" stop="20260301124500 +0100" channel="M6test">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/583C3FCA38F974B31647176C21226A6A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301124500 +0100" stop="20260301132500 +0100" channel="M6test">
+    <title lang="fr">Le 12.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Ashley Chevalier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301132500 +0100" stop="20260301140500 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Ils rénovent des biens atypiques</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301140500 +0100" stop="20260301150500 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Logement : petites surfaces, grandes solutions</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301150500 +0100" stop="20260301160000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301160000 +0100" stop="20260301171000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Huissiers, médiateurs : la solution aux problèmes du quotidien ?</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260301171000 +0100" stop="20260301184000 +0100" channel="M6test">
+    <title lang="fr">66 minutes</title>
+    <desc lang="fr">Des célébrités aux faits divers en passant par la politique, différents reportages reviennent sur l'actualité pour mieux l'analyser et la comprendre.</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
     </credits>
     <date>2026</date>
     <category lang="fr">Magazine</category>
-    <category lang="fr">Culture</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/D94DCEA79E67BEDE8604E6413D80376B.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228101000 +0100" stop="20260228102000 +0100" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magaz...</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
     <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C7550F9206147EC3D94991FFCD2722E3.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/7D922730EB9D58F4F31909005ED4391F.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260228102000 +0100" stop="20260228105500 +0100" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magaz...</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8E686FD9794C3215C12C0E4CB85EA92B.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228105500 +0100" stop="20260228114500 +0100" channel="M6test">
+<programme start="20260301184000 +0100" stop="20260301194000 +0100" channel="M6test">
     <title lang="fr">66 minutes : grand format</title>
     <desc lang="fr">Décryptage d'un phénomène de société ou d'un événement tiré de l'actualité.</desc>
     <credits>
@@ -59,146 +206,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260228114500 +0100" stop="20260228124000 +0100" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <sub-title lang="fr">Concours, ils ont de l'or au bout des doigts</sub-title>
-    <desc lang="fr">Concours du Meilleur Ouvrier de France, Meilleur Apprentis, championnat de France ou Olympiades des métiers, il existe des centaines de concours professionnels en France. A la clé pour les lauréats, une reconnaissance de leurs pairs et l'assurance d'être courtisé par les plus grandes entreprises. Théo, Antoine, Mickael, Brice et Justine résisteront-ils à la pression pour faire partie de l'élite de leur profession ? Et voir la fierté dans les yeux de leurs parents ?</desc>
-    <credits>
-      <guest>Kareen Guiock Thuram</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/793F03374C97FF246147863EC48F0FFF.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228124000 +0100" stop="20260228124500 +0100" channel="M6test">
-    <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DD83476181B0B2975567878102B9EE53.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228124500 +0100" stop="20260228133000 +0100" channel="M6test">
-    <title lang="fr">Le 12.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>Ashley Chevalier</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228133000 +0100" stop="20260228141500 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Hôtel Barrière Fouquet's : le chic Parisien s'invite à New York</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228141500 +0100" stop="20260228150000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Le club, l'autre sandwich américain</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228150000 +0100" stop="20260228155500 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228155500 +0100" stop="20260228162500 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Sous le soleil de Miami, le rêve américain</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228162500 +0100" stop="20260228174000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Porto Rico : l'Amérique aux Caraïbes</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228174000 +0100" stop="20260228183500 +0100" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
-    <credits>
-      <guest>Eric Antoine</guest>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/16CA5370FC17EE9C0C1359A217F4CF56.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228183500 +0100" stop="20260228194000 +0100" channel="M6test">
-    <title lang="fr">Le maillon faible</title>
-    <desc lang="fr">Suspense, culture générale et éliminations sans concession sont au programme de ce jeu où huit candidats qui ne se connaissent pas doivent jouer en équipe pour enchaîner un maximum de bonnes réponses. Un seul d'entre eux pourtant remportera le gain final.</desc>
-    <credits>
-      <guest>Olivier Minne</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/AA739A9670CCA94A4082B078EEBC694F.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">1.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260228194000 +0100" stop="20260228194500 +0100" channel="M6test">
+<programme start="20260301194000 +0100" stop="20260301194500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -210,7 +218,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260228194500 +0100" stop="20260228203000 +0100" channel="M6test">
+<programme start="20260301194500 +0100" stop="20260301201000 +0100" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -225,226 +233,96 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260228203000 +0100" stop="20260228211000 +0100" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
+<programme start="20260301201000 +0100" stop="20260301204000 +0100" channel="M6test">
+    <title lang="fr">Le 2010, Anne-Sophie Lapix</title>
+    <desc lang="fr">Figure connue ou visage anonyme, une personnalité qui a marqué l'actualité de la semaine écoulée s'entretient avec Anne-Sophie Lapix pour une interview d'une dizaine de minutes.</desc>
     <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Ryad Baxx</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Fanny Cottençon</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Claudia Mongumu</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Gérard Hernandez</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
+      <guest>Anne-Sophie Lapix</guest>
+      <guest>Julie Bourges</guest>
     </credits>
-    <date>2008</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Interview</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/11BA96445CDE0CDF2657105B900DD0EF.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260228211000 +0100" stop="20260228220000 +0100" channel="M6test">
-    <title lang="fr">Blanca</title>
-    <sub-title lang="fr">Peur du noir</sub-title>
-    <desc lang="fr">Après avoir été agressée lors d'une visite de musée où le psychiatre Dellepiane a été tué, Blanca se repose pour récupérer et vérifier la santé de son bébé. Pendant ce temps, Liguori et Bacigalupo mènent l'enquête, ce dernier s'intéressant à Anita, une patiente qui n'aimait pas le psychiatre. Après la visite de Bacigalupo, Focchetti, un pharmacien suspecté d'être complice, s'enfuit de Gênes. Plus tard, Bacigalupo est renversé par un véhicule et tombe dans le coma...</desc>
+<programme start="20260301204000 +0100" stop="20260301211000 +0100" channel="M6test">
+    <title lang="fr">E=M6</title>
+    <sub-title lang="fr">Inondations, éboulements : pourquoi les eaux débordent, pourquoi les montagnes s'écroulent !</sub-title>
+    <desc lang="fr">De plus en plus souvent des catastrophes naturelles font la une de l'actualité. Mac Lesggy s'intéresse plus particulièrement aux inondations et éboulements.</desc>
     <credits>
-      <director>Nicola Abbatangelo</director>
-      <actor>Maria Chiara Giannetta</actor>
-      <actor>Federica Cacciola</actor>
-      <actor>Michela Cescon</actor>
-      <actor>Enzo Paci</actor>
-      <actor>Gualtiero Burzi</actor>
-      <actor>Chiara Baschetti</actor>
-      <actor>Sara Ciocca</actor>
-      <actor>Domenico Diele</actor>
-      <actor>Ugo Dighero</actor>
-      <actor>Matilde Gioli</actor>
-      <actor>Giuseppe Zeno</actor>
-      <producer>Luca Bernabei</producer>
-      <guest>Ghost SFX</guest>
+      <guest>Mac Lesggy</guest>
     </credits>
-    <date>2025</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/B94946E3FB64F891219E09573180CE0E.jpg"/>
-    <country lang="fr">Italie</country>
-    <episode-num system="xmltv_ns">2.6.</episode-num>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Sciences et technique</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4E7AECEC8732934699817F0D987091BB.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260228220000 +0100" stop="20260228230500 +0100" channel="M6test">
-    <title lang="fr">Blanca</title>
-    <sub-title lang="fr">Peur du noir</sub-title>
-    <desc lang="fr">Après avoir veillé sur Blanca, Liguori apprend que Bacigalupo a été renversé devant chez Fochetti. A l'hôpital, Blanca rencontre Anita et constate qu'elle retrouve ses facultés sensorielles. Fochetti, arrêté, révèle un trafic de médicaments impliquant les responsables de l'accident de Bacigalupo. Blanca détecte alors un parfum d'arnica sur l'agenda du psychiatre, identique à celui de son agresseur. Par ailleurs, Domenico fait une découverte importante concernant l'enfant disparu...</desc>
+<programme start="20260301211000 +0100" stop="20260301231500 +0100" channel="M6test">
+    <title lang="fr">Capital</title>
+    <sub-title lang="fr">Sécu : révélation sur les nouveaux profiteurs</sub-title>
+    <desc lang="fr">Au sommaire : Arrêts maladie : enquête sur un dérapage sans fin. En dix ans, les arrêts maladie ont augmenté de 30 %. Pourtant, chaque année, les pouvoirs publics serrent la vis. Qui abuse du système ? - Médecins : vos urgences, leur business ! - 10 euros : et si c'était le vrai prix de vos lunettes ?</desc>
     <credits>
-      <director>Nicola Abbatangelo</director>
-      <actor>Maria Chiara Giannetta</actor>
-      <actor>Federica Cacciola</actor>
-      <actor>Michela Cescon</actor>
-      <actor>Enzo Paci</actor>
-      <actor>Gualtiero Burzi</actor>
-      <actor>Chiara Baschetti</actor>
-      <actor>Sara Ciocca</actor>
-      <actor>Domenico Diele</actor>
-      <actor>Ugo Dighero</actor>
-      <actor>Matilde Gioli</actor>
-      <actor>Giuseppe Zeno</actor>
-      <producer>Luca Bernabei</producer>
-      <guest>Ghost SFX</guest>
+      <guest>Julien Courbet</guest>
     </credits>
-    <date>2025</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/41DB08D6AB3A9B6472AD7CE3A7C4F92B.jpg"/>
-    <country lang="fr">Italie</country>
-    <episode-num system="xmltv_ns">2.7.</episode-num>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/952EAC113B70294EE47ABD498FB21E25.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260228230500 +0100" stop="20260301000000 +0100" channel="M6test">
-    <title lang="fr">NCIS</title>
-    <sub-title lang="fr">La tête du serpent</sub-title>
-    <desc lang="fr">Gibbs et Fornell, toujours à la recherche de la personne qui est à la tête du trafic de drogue responsable de l'overdose d'Emily, la fille de Fornell, semblent enfin sur la bonne piste. Par ailleurs le premier maître Mason, retiré de la Navy et propriétaire d'une salle d'évasion, est tué par balles alors qu'il supervisait une séance. L'enquête révèle qu'auparavant, il travaillait pour le département de la défense dans un groupe de réflexion sur un projet appelé "Noir Corbeau". Il s'agissait d'un drone capable de cartographier les fond sous-marins. Mais le créateur du projet, Malcolm Lucas est mort il y a un an dans le naufrage de son bateau, et le projet a été abandonné.</desc>
+<programme start="20260301231500 +0100" stop="20260302002500 +0100" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Fêtes, coeurs à prendre et ours géants : bienvenue en Alaska</sub-title>
+    <desc lang="fr">Le 49e Etat américain est connu pour son climat glacial, ses ours géants et ses aventuriers. Plus festif, plus jeune, l'Alaska propose aujourd'hui un nouveau visage du Grand Nord. Fin février, des visiteurs du monde entier se rendent à Anchorage pour le Fur Rondy, une vente aux enchères déjantée.</desc>
     <credits>
-      <director>Tawnia McKiernan</director>
-      <director>Michael Zinberg</director>
-      <actor>Nick Boraine</actor>
-      <actor>Maria Bello</actor>
-      <actor>Rocky Carroll</actor>
-      <actor>Brian Dietzen</actor>
-      <actor>David McCallum</actor>
-      <actor>Wilmer Valderrama</actor>
-      <actor>Mark Harmon</actor>
-      <actor>Emily Wickersham</actor>
-      <actor>Juliette Angelo</actor>
-      <actor>Diona Reasonover</actor>
-      <actor>Sean Murray</actor>
-      <actor>Margo Harshman</actor>
-      <adapter>Brendan Fehily</adapter>
-      <adapter>David J. North</adapter>
-      <producer>Mark Horowitz</producer>
-      <producer>Scott Williams</producer>
-      <producer>Chas. Floyd Johnson</producer>
-      <producer>Mark Harmon</producer>
-      <producer>Frank Cardea</producer>
-      <producer>Donald P. Bellisario</producer>
-      <producer>Patrick L. Coleman</producer>
-      <producer>Steven D. Binder</producer>
-      <producer>Justin Kilmer</producer>
-      <composer>Brian Kirk</composer>
-      <editor>Don McGill</editor>
-      <editor>Donald P. Bellisario</editor>
-      <guest>Belisarius Productions</guest>
+      <guest>Bernard de La Villardière</guest>
     </credits>
-    <date>2021</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/B7F46855F0A0819F56E6D1DF345B0D56.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">17.4.</episode-num>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/511B621EBD87795B5F07066C0460F9C4.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+      <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260301000000 +0100" stop="20260301005500 +0100" channel="M6test">
-    <title lang="fr">NCIS</title>
-    <sub-title lang="fr">1 millimètre</sub-title>
-    <desc lang="fr">Alors que l'agent spécial Leroy Jethro Gibbs (Mark Harmon) poursuit discrètement une enquête avec son ancien partenaire Tobias Fornell, il se retrouve plongé dans un monde sombre à la recherche du dealer responsable de l'overdose tragique de la fille de Fornell. Pendant ce temps, l'équipe du NCIS, composée de l'agent Timothy McGee (Sean Murray), de l'agent Nick Torres (Wilmer Valderrama) et de la médecin légiste Jimmy Palmer (Brian Dietzen), s'implique dans plusieurs affaires intrigantes qui mettent à l'épreuve leurs compétences et leur cohésion. La saison, marquée par la pandémie de Covid-19, voit également McGee et sa femme Delilah confrontés à des défis inattendus lors de leurs vacances, qui se transforment en une mission risquée. Un retour dans le passé de Gibbs révèle ses premiers pas au sein du NCIS, tandis que la série célèbre son 400e épisode, rendant hommage à ses personnages emblématiques et à leur parcours.</desc>
+<programme start="20260302002500 +0100" stop="20260302014000 +0100" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Trains mythiques, paysages de légende : les nouveaux aventuriers du rail aux Etats-Unis</sub-title>
+    <desc lang="fr">Accro au train, Joe Biden, le président des Etats-Unis, a lancé un plan d’investissement de 70 milliards de dollars pour relancer un mode de transport longtemps délaissé au profit de l’avion ou de la voiture. Résultat : les Américains et les touristes redécouvrent aujourd’hui des lignes mythiques ayant façonné le pays. Parmi elles, la California Zephyr, qui relie Chicago à San Francisco et parcourt 4000 kilomètres en 52 heures. Le Durango-Silverto, tracté par une locomotive à vapeur centenaire serpente quant à lui le long des canyons du Colorado.</desc>
     <credits>
-      <guest>Mark Harmon</guest>
-      <guest>Sean Murray</guest>
-      <guest>Wilmer Valderrama</guest>
-      <guest>Emily Wickersham</guest>
-      <guest>Brian Dietzen</guest>
-      <guest>Diona Reasonover</guest>
-      <guest>Rocky Carroll</guest>
-      <guest>David Mccallum</guest>
+      <guest>Bernard de La Villardière</guest>
     </credits>
-    <category lang="fr">Série TV</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~71fa49ac58cb74ca.jpg/640x360/quality/80/ncis.jpg"/>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~backoffice~program~107a05a013ae642ff6aebe1e287e9cef.jpg/640x360/focus-point/685,475/quality/80/enquete-exclusive.jpg"/>
     <previously-shown/>
     <subtitles type="teletext"/>
   </programme>
-<programme start="20260301005500 +0100" stop="20260301014500 +0100" channel="M6test">
-    <title lang="fr">NCIS</title>
-    <sub-title lang="fr">Le premier jour</sub-title>
-    <desc lang="fr">Alors que l'agent spécial Leroy Jethro Gibbs (Mark Harmon) poursuit discrètement une enquête avec son ancien partenaire Tobias Fornell, il se retrouve plongé dans un monde sombre à la recherche du dealer responsable de l'overdose tragique de la fille de Fornell. Pendant ce temps, l'équipe du NCIS, composée de l'agent Timothy McGee (Sean Murray), de l'agent Nick Torres (Wilmer Valderrama) et de la médecin légiste Jimmy Palmer (Brian Dietzen), s'implique dans plusieurs affaires intrigantes qui mettent à l'épreuve leurs compétences et leur cohésion. La saison, marquée par la pandémie de Covid-19, voit également McGee et sa femme Delilah confrontés à des défis inattendus lors de leurs vacances, qui se transforment en une mission risquée. Un retour dans le passé de Gibbs révèle ses premiers pas au sein du NCIS, tandis que la série célèbre son 400e épisode, rendant hommage à ses personnages emblématiques et à leur parcours.</desc>
+<programme start="20260302014000 +0100" stop="20260302025000 +0100" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Rixes, meurtres : au coeur de l'hyperviolence des jeunes</sub-title>
+    <desc lang="fr">Les armes circulent de plus en plus chez les mineurs : machettes, couteaux et battes de baseball remplacent les coups de poings. En 2025, ces rixes entre bandes, souvent sur fond d'échecs scolaires et de violences familiales, ont coûté la vie à quatorze jeunes. Ces affrontements "initiatiques", version moderne de "La Guerre des boutons", prennent parfois une tournure dramatique. Les équipes d'"Enquête exclusive" ont suivi la police de Sainte-Geneviève-des-Bois, dans l'Essonne, qui tente d'endiguer ce fléau. Grâce à un dispositif de surveillance ciblant les points chauds, les autorités parviennent à déjouer près de 200 affrontements par an.</desc>
     <credits>
-      <guest>Mark Harmon</guest>
-      <guest>Sean Murray</guest>
-      <guest>Wilmer Valderrama</guest>
-      <guest>Emily Wickersham</guest>
-      <guest>Brian Dietzen</guest>
-      <guest>Diona Reasonover</guest>
-      <guest>Rocky Carroll</guest>
-      <guest>David Mccallum</guest>
+      <guest>Bernard de La Villardière</guest>
     </credits>
-    <category lang="fr">Série TV</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~a303f26da7559424.jpg/640x360/quality/80/ncis.jpg"/>
-    <previously-shown/>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~166d8a1ba282252d.jpeg/640x360/quality/80/enquete-exclusive.jpg"/>
     <subtitles type="teletext"/>
   </programme>
-<programme start="20260301014500 +0100" stop="20260301023500 +0100" channel="M6test">
-    <title lang="fr">NCIS</title>
-    <sub-title lang="fr">Au nom de toutes les femmes</sub-title>
-    <desc lang="fr">Alors que l'agent spécial Leroy Jethro Gibbs (Mark Harmon) poursuit discrètement une enquête avec son ancien partenaire Tobias Fornell, il se retrouve plongé dans un monde sombre à la recherche du dealer responsable de l'overdose tragique de la fille de Fornell. Pendant ce temps, l'équipe du NCIS, composée de l'agent Timothy McGee (Sean Murray), de l'agent Nick Torres (Wilmer Valderrama) et de la médecin légiste Jimmy Palmer (Brian Dietzen), s'implique dans plusieurs affaires intrigantes qui mettent à l'épreuve leurs compétences et leur cohésion. La saison, marquée par la pandémie de Covid-19, voit également McGee et sa femme Delilah confrontés à des défis inattendus lors de leurs vacances, qui se transforment en une mission risquée. Un retour dans le passé de Gibbs révèle ses premiers pas au sein du NCIS, tandis que la série célèbre son 400e épisode, rendant hommage à ses personnages emblématiques et à leur parcours.</desc>
-    <credits>
-      <guest>Mark Harmon</guest>
-      <guest>Sean Murray</guest>
-      <guest>Wilmer Valderrama</guest>
-      <guest>Emily Wickersham</guest>
-      <guest>Brian Dietzen</guest>
-      <guest>Diona Reasonover</guest>
-      <guest>Rocky Carroll</guest>
-      <guest>David Mccallum</guest>
-    </credits>
-    <category lang="fr">Série TV</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e53134284aadc4c4.jpg/640x360/quality/80/ncis.jpg"/>
-    <previously-shown/>
-    <subtitles type="teletext"/>
-  </programme>
-<programme start="20260301023500 +0100" stop="20260301060000 +0100" channel="M6test">
+<programme start="20260302025000 +0100" stop="20260302060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3251df198d4879d1.jpeg/640x360/quality/80/programmes-de-la-nuit.jpg"/>
-  </programme>
-<programme start="20260301060000 +0100" stop="20260301070000 +0100" channel="M6test">
-    <title lang="fr">M6 Kid</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~7332a786e97413cc.jpeg/640x360/quality/80/m6-kid.jpg"/>
-    <previously-shown/>
-    <subtitles type="teletext"/>
-  </programme>
-<programme start="20260301070000 +0100" stop="20260301073000 +0100" channel="M6test">
-    <title lang="fr">100% immo, l'hebdo</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~collection~cf069b10aa5a7ce2.jpeg/640x360/quality/80/100-immo-l-hebdo.jpg"/>
-    <subtitles type="teletext"/>
-  </programme>
-<programme start="20260301073000 +0100" stop="20260301102500 +0100" channel="M6test">
-    <title lang="fr">My boutique Téléshop'</title>
-    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <credits>
-      <guest>Marie-Ange Nardi</guest>
-      <guest>Charlotte Rosier</guest>
-    </credits>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3c9af391aa06903d.jpeg/640x360/quality/80/my-boutique-teleshop.jpg"/>
-    <previously-shown/>
-    <subtitles type="teletext"/>
   </programme>
 </tv>
