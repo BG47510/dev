@@ -115,16 +115,27 @@ create_xml_entry() {
 echo "<epg>" > "$OUTPUT_XML"
 
 # Lire les IDs des chaînes depuis le fichier channels.txt
+if [[ ! -f "$CHANNELS_FILE" || ! -s "$CHANNELS_FILE" ]]; then
+  echo "Le fichier '$CHANNELS_FILE' n'existe pas ou est vide."
+  exit 1
+fi
+
 while IFS= read -r CHANNEL_ID; do
   echo "Traitement de la chaîne ID : $CHANNEL_ID"
   
   # Récupérer la liste des programmes pour cette chaîne
   program_list=$(get_program_list "$CHANNEL_ID" "$DATE")
 
+  if [[ -z "$program_list" ]]; then
+    echo "Aucun programme trouvé pour la chaîne ID : $CHANNEL_ID"
+    continue
+  fi
+
   if $ENABLE_DETAILS; then
     fetch_details $program_list
   fi
 done < "$CHANNELS_FILE"
+
 
 # Terminer le fichier XML
 echo "</epg>" >> "$OUTPUT_XML"
