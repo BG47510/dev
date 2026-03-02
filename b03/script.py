@@ -2,6 +2,7 @@ import os
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
+import gzip
 
 # Récupérer le répertoire du script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -44,7 +45,7 @@ with open(URLS_FILE, 'r') as f:
 
 for url in URLs:
     count += 1
-    raw_file = os.path.join(TEMP_DIR, f"raw_{count}.xml.gz")
+    raw_file = os.path.join(TEMP_DIR, f"raw_{count}.xml.gz" if url.endswith('.gz') else f"raw_{count}.xml")
     src_file = os.path.join(TEMP_DIR, f"src_{count}.xml")
 
     print(f"Source {count} : {url}")
@@ -58,49 +59,50 @@ for url in URLs:
     with open(raw_file, 'wb') as f:
         f.write(response.content)
 
-    # Vérifier le contenu du fichier téléchargé
+    # Vérifier si c'est un fichier gzip
     if url.endswith('.gz'):
-        # Décompression
-        os.system(f"gunzip {raw_file}")
-        raw_file = raw_file[:-3]  # Supprime l'extension .gz pour utiliser le fichier XML
-    else:
-        # Vérifiez si le fichier est vide
-        if os.path.getsize(raw_file) == 0:
-            print(f"Le fichier {raw_file} est vide.")
-            continue
+        print(f"Décompression de {raw_file}...")
+        with gzip.open(raw_file, 'rb') as f_in:
+            with open(raw_file[:-3], 'wb') as f_out:  # Enregistrer sans .gz
+                f_out.write(f_in.read())
+        raw_file = raw_file[:-3]  # Mettre à jour le nom du fichier
+
+    # Vérifiez si le fichier est vide
+    if os.path.getsize(raw_file) == 0:
+        print(f"Le fichier {raw_file} est vide après décompression.")
+        continue
 
     # Traitement XML
-    if os.path.getsize(raw_file) > 0:
-        try:
-            tree = ET.parse(raw_file)
-            root = tree.getroot()
-            ids_in_source = [channel.attrib['id'] for channel in root.findall('channel')]
-            found_new_content = False
+    try:
+        tree = ET.parse(raw_file)
+        root = tree.getroot()
 
-            for old_id in ids_in_source:
-                new_id = ID_MAP.get(old_id)
-                if new_id and new_id not in CHANNELS_FILLED:
-                    CHANNELS_FILLED[new_id] = True
-                    found_new_content = True
+        ids_in_source = [channel.attrib['id'] for channel in root.findall('channel')]
+        found_new_content = False
 
-            if found_new_content:
-                for channel in root.findall('channel'):
-                    if all(channel.attrib.get('id') != old_id and channel.attrib.get('channel') != old_id for old_id in ids_in_source):
-                        root.remove(channel)
+        for old_id in ids_in_source:
+            new_id = ID_MAP.get(old_id)
+            if new_id and new_id not in CHANNELS_FILLED:
+                CHANNELS_FILLED[new_id] = True
+                found_new_content = True
 
-                for programme in root.findall('programme'):
-                    stop = programme.attrib['stop']
-                    start = programme.attrib['start']
-                    if (start > LIMIT) or (stop < NOW):
-                        root.remove(programme)
+        if found_new_content:
+            for channel in root.findall('channel'):
+                if all(channel.attrib.get('id') != old_id and channel.attrib.get('channel') != old_id for old_id in ids_in_source):
+                    root.remove(channel)
 
-                tree.write(src_file)
-            else:
-                print("  [i] Aucun nouveau canal requis dans cette source.")
-                open(src_file, 'w').close()  # Crée un fichier vide
-            os.remove(raw_file)
-        except ET.ParseError as e:
-            print(f"Erreur lors du parsing de {raw_file} : {e}")
+            for programme in root.findall('programme'):
+                stop = programme.attrib['stop']
+                start = programme.attrib['start']
+                if (start > LIMIT) or (stop < NOW):
+                    root.remove(programme)
+
+            tree.write(src_file)
+        else:
+            print("  [i] Aucun nouveau canal requis dans cette source.")
+            open(src_file, 'w').close()  # Crée un fichier vide
+    except ET.ParseError as e:
+        print(f"Erreur lors du parsing de {raw_file} : {e}")
 
 # Assemblage final
 print("Assemblage du fichier final...")
@@ -112,30 +114,39 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
     for src in os.listdir(TEMP_DIR):
         if src.startswith("src_"):
             src_file_path = os.path.join(TEMP_DIR, src)
-            if os.path.getsize(src_file_path) > 0:
-                tree = ET.parse(src_file_path)
-                root = tree.getroot()
-                for channel in root.findall('channel'):
-                    for old in ID_MAP:
-                        channel.attrib['id'] = channel.attrib['id'].replace(old, ID_MAP[old])
-                    output_file.write(ET.tostring(channel, encoding='utf-8', xml_declaration=False).decode())
+            # Vérifiez si le fichier existe et n'est pas vide
+            if os.path.isfile(src_file_path) and os.path.getsize(src_file_path) > 0:
+                try:
+                    tree = ET.parse(src_file_path)
+                    root = tree.getroot()
+                    for channel in root.findall('channel'):
+                        for old in ID_MAP:
+                            channel.attrib['id'] = channel.attrib['id'].replace(old, ID_MAP[old])
+                        output_file.write(ET.tostring(channel, encoding='utf-8', xml_declaration=False).decode())
+                except ET.ParseError as e:
+                    print(f"Erreur lors du parsing de {src_file_path} : {e}")
 
     # Programmes : Dédoublonnage et renommage
     seen = {}
     for src in os.listdir(TEMP_DIR):
         if src.startswith("src_"):
             src_file_path = os.path.join(TEMP_DIR, src)
-            tree = ET.parse(src_file_path)
-            root = tree.getroot()
-            for programme in root.findall('programme'):
-                old_id = programme.attrib['channel']
-                if old_id in ID_MAP:
-                    new_id = ID_MAP[old_id]
-                    programme.attrib['channel'] = new_id
-                    key = f"{new_id}_{programme.attrib['start']}"
-                    if key not in seen:
-                        seen[key] = True
-                        output_file.write(ET.tostring(programme, encoding='utf-8', xml_declaration=False).decode())
+            # Vérifiez si le fichier existe et n'est pas vide
+            if os.path.isfile(src_file_path) and os.path.getsize(src_file_path) > 0:
+                try:
+                    tree = ET.parse(src_file_path)
+                    root = tree.getroot()
+                    for programme in root.findall('programme'):
+                        old_id = programme.attrib['channel']
+                        if old_id in ID_MAP:
+                            new_id = ID_MAP[old_id]
+                            programme.attrib['channel'] = new_id
+                            key = f"{new_id}_{programme.attrib['start']}"
+                            if key not in seen:
+                                seen[key] = True
+                                output_file.write(ET.tostring(programme, encoding='utf-8', xml_declaration=False).decode())
+                except ET.ParseError as e:
+                    print(f"Erreur lors du parsing de {src_file_path} : {e}")
 
     output_file.write('</tv>')
 
