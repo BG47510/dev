@@ -109,8 +109,8 @@ for url in URLs:
 print("Assemblage du fichier final...")
 
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
-    # Ajoutez un retour à la ligne après la déclaration XML
-    output_file.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv>')
+    # Ajoutez un retour à la ligne après la déclaration XML et après <tv>
+    output_file.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n')
 
     # Canaux : Extraction et renommage
     for src in os.listdir(TEMP_DIR):
