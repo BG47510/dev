@@ -1210,7 +1210,7 @@
   <channel id="FightSports.fr">
     <display-name>FightSports.fr</display-name>
   </channel>
-  <channel id="France2.fr">
+  <channel id="fr2test">
     <display-name>France 2</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~606394a5b095653a.png/480x480/quality/100/france-2.png" />
   </channel>
@@ -3035,182 +3035,6 @@
     <display-name>CUISINES</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180711/canal-ouah/CHN43FB/CUISINES_FB_myCANAL_640x480?=.png" />
   </channel>
-  <channel id="fr2test">
-    <display-name>France 2</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-4.png" />
-  </channel>
-  <channel id="C34.api.telerama.fr">
-    <display-name>Canal+</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-34.png" />
-  </channel>
-  <channel id="C47.api.telerama.fr">
-    <display-name>France 5</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-47.png" />
-  </channel>
-  <channel id="C64.api.telerama.fr">
-    <display-name>Equidia</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-64.png" />
-  </channel>
-  <channel id="C78.api.telerama.fr">
-    <display-name>France 4</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-78.png" />
-  </channel>
-  <channel id="C80.api.telerama.fr">
-    <display-name>France 3</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-80.png" />
-  </channel>
-  <channel id="C110.api.telerama.fr">
-    <display-name>KTO</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-110.png" />
-  </channel>
-  <channel id="C111.api.telerama.fr">
-    <display-name>Arte</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-111.png" />
-  </channel>
-  <channel id="C112.api.telerama.fr">
-    <display-name>LCI</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-112.png" />
-  </channel>
-  <channel id="C118.api.telerama.fr">
-    <display-name>M6</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-118.png" />
-  </channel>
-  <channel id="C119.api.telerama.fr">
-    <display-name>W9</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-119.png" />
-  </channel>
-  <channel id="C140.api.telerama.fr">
-    <display-name>EuroNews</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-140.png" />
-  </channel>
-  <channel id="C174.api.telerama.fr">
-    <display-name>SRF zwei</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-174.png" />
-  </channel>
-  <channel id="C183.api.telerama.fr">
-    <display-name>RTS 2</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-183.png" />
-  </channel>
-  <channel id="C192.api.telerama.fr">
-    <display-name>TF1</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-192.png" />
-  </channel>
-  <channel id="C195.api.telerama.fr">
-    <display-name>TMC</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-195.png" />
-  </channel>
-  <channel id="C205.api.telerama.fr">
-    <display-name>TV5 Monde FBS</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-205.png" />
-  </channel>
-  <channel id="C226.api.telerama.fr">
-    <display-name>CNews</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-226.png" />
-  </channel>
-  <channel id="C234.api.telerama.fr">
-    <display-name>La Chaîne Parlementaire</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-234.png" />
-  </channel>
-  <channel id="C240.api.telerama.fr">
-    <display-name>Nouvelle-Calédonie 1ère</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-240.png" />
-  </channel>
-  <channel id="C245.api.telerama.fr">
-    <display-name>Réunion 1ère</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-245.png" />
-  </channel>
-  <channel id="C260.api.telerama.fr">
-    <display-name>Guyane 1ère</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-260.png" />
-  </channel>
-  <channel id="C273.api.telerama.fr">
-    <display-name>TV7 Bordeaux</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-273.png" />
-  </channel>
-  <channel id="C295.api.telerama.fr">
-    <display-name>ViàATV Martinique</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-295.png" />
-  </channel>
-  <channel id="C328.api.telerama.fr">
-    <display-name>Martinique 1ère</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-328.png" />
-  </channel>
-  <channel id="C329.api.telerama.fr">
-    <display-name>Guadeloupe 1ère</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-329.png" />
-  </channel>
-  <channel id="C421.api.telerama.fr">
-    <display-name>8 Mont Blanc</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-421.png" />
-  </channel>
-  <channel id="C446.api.telerama.fr">
-    <display-name>TFX</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-446.png" />
-  </channel>
-  <channel id="C458.api.telerama.fr">
-    <display-name>CSTAR</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-458.png" />
-  </channel>
-  <channel id="C459.api.telerama.fr">
-    <display-name>Polynésie 1ère</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-459.png" />
-  </channel>
-  <channel id="C481.api.telerama.fr">
-    <display-name>BFM TV</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-481.png" />
-  </channel>
-  <channel id="C482.api.telerama.fr">
-    <display-name>Gulli</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-482.png" />
-  </channel>
-  <channel id="C491.api.telerama.fr">
-    <display-name>Télénantes</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-491.png" />
-  </channel>
-  <channel id="C529.api.telerama.fr">
-    <display-name>France 24</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-529.png" />
-  </channel>
-  <channel id="C1073.api.telerama.fr">
-    <display-name>BFM Business</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1073.png" />
-  </channel>
-  <channel id="C1399.api.telerama.fr">
-    <display-name>Chérie 25</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1399.png" />
-  </channel>
-  <channel id="C1400.api.telerama.fr">
-    <display-name>RMC Découverte</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1400.png" />
-  </channel>
-  <channel id="C1401.api.telerama.fr">
-    <display-name>L'Equipe</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1401.png" />
-  </channel>
-  <channel id="C1402.api.telerama.fr">
-    <display-name>RMC Story</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1402.png" />
-  </channel>
-  <channel id="6tertest">
-    <display-name>6ter</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1403.png" />
-  </channel>
-  <channel id="C1404.api.telerama.fr">
-    <display-name>TF1 Séries Films</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1404.png" />
-  </channel>
-  <channel id="C2111.api.telerama.fr">
-    <display-name>Franceinfo</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-2111.png" />
-  </channel>
-  <channel id="C4138.api.telerama.fr">
-    <display-name>NOVO19</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-4138.png" />
-  </channel>
-  <channel id="C4139.api.telerama.fr">
-    <display-name>T18</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-4139.png" />
-  </channel>
   <programme start="20260302180000 +0100" stop="20260302190000 +0100" channel="6tertest">
     <title lang="fr">Le caméléon</title>
     <sub-title lang="fr">Sur la corde raide</sub-title>
@@ -3675,1621 +3499,483 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  <programme start="20260302181000" channel="fr2test" stop="20260302185500">
-    <title>N'oubliez pas les paroles</title>
-    <desc lang="fr">Accompagnés par un orchestre, les candidats chantent en karaoké. Mais les paroles affichées ne sont pas complètes. A eux de combler les vides. Pour cela, ils doivent se souvenir des mots exacts de la chanson.</desc>
-    <credits>
-      <presenter> Nagui</presenter>
-    </credits>
-    <category lang="fr">jeu</category>
-    <length units="minutes">45</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/02/26/8e37820f84cf40e09282160a545927a7.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302185500" channel="fr2test" stop="20260302190000">
-    <title>Journal Météo Climat</title>
-    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts.</desc>
-    <category lang="fr">meteo</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2023/03/15/589dce513a89107c3a428467c373be79d5d3db4e_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302190000" channel="fr2test" stop="20260302195000">
-    <title>Journal 20h00</title>
-    <desc lang="fr">Les principales informations nationales et internationales sont passées à la loupe et mises en perspective, illustrées par des reportages sur le terrain.</desc>
-    <credits>
-      <presenter>Léa Salamé</presenter>
-    </credits>
-    <category lang="fr">journal</category>
-    <length units="minutes">50</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/09/02/929fc60d3081415cafad243a5f7e8c76.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <new />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302195000" channel="fr2test" stop="20260302195300">
-    <title>Journal Météo Climat</title>
-    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts.</desc>
-    <category lang="fr">meteo</category>
-    <length units="minutes">3</length>
-    <icon src="https://focus.telerama.fr/952x634/2023/03/15/589dce513a89107c3a428467c373be79d5d3db4e_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302195300" channel="fr2test" stop="20260302195500">
-    <title>Image du jour sports</title>
-    <desc lang="fr">Gros plan en images sur les principaux événements sportifs du jour.</desc>
-    <category lang="fr">magazine</category>
-    <length units="minutes">2</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/06/134b84d3711a43db8dcd46d52d99b5ff.jpg" />
-    <country lang="fr">France</country>
-    <premiere />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302195500" channel="fr2test" stop="20260302200000">
-    <title>Basique, l'essentiel de la musique</title>
-    <desc lang="fr">Une pastille consacrée à l'actualité musicale, qui braque les projecteurs sur un ou une artiste.</desc>
-    <category lang="fr">magazine</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2024/05/15/fb0ac4800c7e4a2fa922e73d12f5bc0d.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <premiere />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302200000" channel="fr2test" stop="20260302201000">
-    <title>Mot de passe : le duel</title>
-    <desc lang="fr">Deux candidats accompagnés de deux personnalités s'affrontent pour découvrir un maximum de mots en un minimum de temps.</desc>
-    <credits>
-      <presenter>Camille Cerf</presenter>
-    </credits>
-    <category lang="fr">jeu</category>
-    <length units="minutes">10</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/12/09/838b972e01e74bae98a96e689a93a8f3.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302201000" channel="fr2test" stop="20260302214500">
-    <title>L'art du crime</title>
-    <desc lang="fr">Saison:9 - Episode:2 - Au musée Grévin, à Paris, un historien spécialiste du peintre Jacques-Louis David est retrouvé assassiné dans la baignoire du révolutionnaire Marat, une mise en scène qui reproduit à l'identique le fameux tableau du maître. Pour démasquer le meurtrier, Antoine Verlay et Florence Chassagne doivent infiltrer un colloque d'historiens de l'art en se faisant passer pour un couple. Une couverture qui pourrait bien créer de nouvelles tensions entre eux. Ou au contraire les rapprocher...</desc>
-    <credits>
-      <director>Anne Péjean</director>
-      <actor>Nicolas Gob</actor>
-      <actor>Eléonore Bernheim</actor>
-      <actor>Salomé Partouche</actor>
-      <actor>Philippe Duclos</actor>
-      <actor>Benjamin Egner</actor>
-      <actor>Constance Dollé</actor>
-      <actor>Carole Weyers</actor>
-      <actor>Mhamed Arezki</actor>
-      <actor>Maxime Pipet</actor>
-      <actor>Alexandra Gentil</actor>
-      <actor>Manon Valentin</actor>
-      <actor>Yann Sundberg</actor>
-      <writer>Angèle Herry-Leclerc</writer>
-      <writer>Pierre-Yves Mora</writer>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">95</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/24/debc737881e4486c89f38a314f12efcc.jpg" />
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">8.1.</episode-num>
-    <previously-shown />
-    <premiere />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302214500" channel="fr2test" stop="20260302231500">
-    <title>L'art du crime</title>
-    <desc lang="fr">Saison:5 - Episode:1 - Antoine et Florence doivent élucider le meurtre à son domicile d'une riche collectionneuse, passionnée de Camille Claudel. Pierre Chassagne, le père de Florence, qui était un ami proche de la victime, était dans la maison au moment où le coup de feu mortel a été tiré. Le tueur l'a ensuite assommé avant de prendre la fuite. "L'Implorante", une des statues exposées dans la demeure, a été volée. Tandis que l'enquête entraîne Antoine et Florence jusqu'au musée Rodin, tous les indices ramènent à la douloureuse histoire d'amour que Camille Claudel a connue avec Auguste Rodin. L'amour blessé peut-il rendre fou au point de tuer ? Serait-ce la clé de l'énigme ?...</desc>
-    <credits>
-      <director>Léa Fazer</director>
-      <actor>Nicolas Gob</actor>
-      <actor>Eléonore Bernheim</actor>
-      <actor>Philippe Duclos</actor>
-      <actor>Benjamin Egner</actor>
-      <actor>Dounia Coesens</actor>
-      <actor>Barbara Schulz</actor>
-      <actor>Florence Pernel</actor>
-      <actor>Garance Thénault</actor>
-      <actor>Salomé Partouche</actor>
-      <actor>Nicolas Wanczycki</actor>
-      <actor>Laetitia Lalle Bi Bénie</actor>
-      <actor>Jérémie Covillault</actor>
-      <writer>Angèle Herry-Leclerc</writer>
-      <writer>Pierre-Yves Mora</writer>
-      <writer>Hélène Duchateau</writer>
-      <writer>Julie-Anna Grignon</writer>
-      <writer>Christophe Joaquin</writer>
-    </credits>
-    <date>2021</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">90</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/17/356513866e9a4e9dba0f26351b44c5b4.jpg" />
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">4.0.</episode-num>
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <star-rating system="Telerama">
-      <value>2/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260302231500" channel="fr2test" stop="20260302232000">
-    <title>Expression directe</title>
-    <desc lang="fr">Organisations syndicales, partis politiques, mais aussi mouvements d'entrepreneurs prennent la parole.</desc>
-    <category lang="fr">magazine</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/11/29/789dcf15b9cf46af923a8f49eab7f49f.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <premiere />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302232000" channel="fr2test" stop="20260303005500">
-    <title>L'art du crime</title>
-    <desc lang="fr">Saison:7 - Episode:1 - Dans les jardins du château de Versailles, un médium est retrouvé assassiné. Antoine et Florence soupçonnent un groupe d'historiens amateurs passionnés de Marie-Antoinette. Il aurait fait appel au défunt pour retrouver un objet précieux ayant appartenu à la reine. S'agirait-il du célèbre collier de la reine ? Pour infiltrer le groupe, l'OCBC sollicite l'aide de Juliette Mariton l'ex-fiancée d'Antoine, à la fois flic et médium. Mais, déstabilisée d'apprendre qu'Antoine et Florence ne sont toujours pas ensemble, malgré les signes évidents du cosmos, elle se met en tête de les réunir. A leur grand dam : Antoine et Florence sont en effet bien décidés à rester seulement amis...</desc>
-    <credits>
-      <director>Floriane Crépin</director>
-      <actor>Nicolas Gob</actor>
-      <actor>Eléonore Bernheim</actor>
-      <actor>Philippe Duclos</actor>
-      <actor>Benjamin Egner</actor>
-      <actor>Dounia Coesens</actor>
-      <actor>Catherine Jacob</actor>
-      <actor>Mélissa Barbaud</actor>
-      <actor>Bruno Lochet</actor>
-      <actor>Salomé Partouche</actor>
-      <actor>Elisa Erka</actor>
-      <actor>Clémence Schreiber</actor>
-      <actor>Sylvain Dieuaide</actor>
-      <writer>Angèle Herry-Leclerc</writer>
-      <writer>Pierre-Yves Mora</writer>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">95</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/02/25/6037706abd1a4258b90acf028a10b77b.jpg" />
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">6.0.</episode-num>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303005500" channel="fr2test" stop="20260303015000">
-    <title>Coeurs Noirs</title>
-    <desc lang="fr">Saison:2 - Episode:4 - Sab tente de s'enfuir de la maison de Zaïd quand Moktar et ses hommes viennent l'arrêter. Zaïd est capturé, torturé, puis manipulé par Moktar, qui entend se venger de la DGSE après l'attentat qui a été commis contre lui. Zaïd, quant à lui, se sacrifie dans l'espoir de sauver Yanis. Il meurt dans l'explosion de sa voiture au moment où il doit retrouver les 45 et Adèle…</desc>
-    <credits>
-      <director>Frédéric Jardin</director>
-      <actor>Nicolas Duvauchelle</actor>
-      <actor>Marie Dompnier</actor>
-      <actor>Nina Meurisse</actor>
-      <actor>Thierry Godard</actor>
-      <actor>Patrick Mille</actor>
-      <actor>Louis Seguier</actor>
-      <actor>Hugo Palomba</actor>
-      <actor>Jérémy Nadeau</actor>
-      <actor>Victor Pontecorvo</actor>
-      <actor>Moussa Maaskri</actor>
-      <actor>Radouan Leflahi</actor>
-      <actor>Dea Liane</actor>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">55</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/01/13/e75459dd7be442f2a52051a5b4b54b6a.jpg" />
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">1.3.</episode-num>
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
-    </rating>
-    <star-rating system="Telerama">
-      <value>3/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260303015000" channel="fr2test" stop="20260303024000">
-    <title>Coeurs Noirs</title>
-    <desc lang="fr">Saison:2 - Episode:5 - Martin élabore un plan pour forcer Moktar à envoyer Sab se faire soigner dans une clinique en dehors de Mossoul. Moktar fait pression sur la DGSE pour récupérer des fonds bloqués au Qatar. Comme les Français refusent d'aider à financer Daesh, Moktar organise une exécution où Sab est contrainte de tuer un prisonnier devant les caméras...</desc>
-    <credits>
-      <director>Frédéric Jardin</director>
-      <actor>Nicolas Duvauchelle</actor>
-      <actor>Marie Dompnier</actor>
-      <actor>Nina Meurisse</actor>
-      <actor>Thierry Godard</actor>
-      <actor>Patrick Mille</actor>
-      <actor>Louis Seguier</actor>
-      <actor>Hugo Palomba</actor>
-      <actor>Jérémy Nadeau</actor>
-      <actor>Victor Pontecorvo</actor>
-      <actor>Moussa Maaskri</actor>
-      <actor>Radouan Leflahi</actor>
-      <actor>Dea Liane</actor>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">50</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/01/20/33d482f329da484384086a3690055399.jpg" />
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">1.4.</episode-num>
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
-    </rating>
-    <star-rating system="Telerama">
-      <value>3/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260303024000" channel="fr2test" stop="20260303032500">
-    <title>Coeurs Noirs</title>
-    <desc lang="fr">Saison:2 - Episode:6 - Après le simulacre d'exécution, la DGSE et le COS décident de lancer l'opération de libération de Sab. Soraya injecte de l'insuline à Sab pour provoquer un coma diabétique. Sab est envoyée à une clinique russe. Les 45 attaquent permettant à Sab de s'échapper. Elle doit abandonner Soraya blessée par une balle perdue. De retour à la base, ils sont accueillis en héros...</desc>
-    <credits>
-      <director>Frédéric Jardin</director>
-      <actor>Nicolas Duvauchelle</actor>
-      <actor>Marie Dompnier</actor>
-      <actor>Nina Meurisse</actor>
-      <actor>Thierry Godard</actor>
-      <actor>Patrick Mille</actor>
-      <actor>Louis Seguier</actor>
-      <actor>Hugo Palomba</actor>
-      <actor>Jérémy Nadeau</actor>
-      <actor>Victor Pontecorvo</actor>
-      <actor>Moussa Maaskri</actor>
-      <actor>Radouan Leflahi</actor>
-      <actor>Dea Liane</actor>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">45</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/01/20/a7326ae59b0d4ca1b605d986c0da8b38.jpg" />
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">1.5.</episode-num>
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
-    </rating>
-    <star-rating system="Telerama">
-      <value>3/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260303032500" channel="fr2test" stop="20260303033000">
-    <title>Journal Météo climat outre-mer</title>
-    <category lang="fr">meteo</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/07/16/e79e3b90f71649b3832a96a824d33401.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303033000" channel="fr2test" stop="20260303035000">
-    <title>Courant d'art</title>
-    <desc lang="fr">Un retour sur une exposition au musée de la Halle St Pierre à Paris, nous permettant de découvrir les artistes oubliés de l'Art.</desc>
-    <category lang="fr">documentaire</category>
-    <length units="minutes">20</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/03/20/62b1db0852434780a935c4387290c11e.jpg" />
-    <country lang="fr">France</country>
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303035000" channel="fr2test" stop="20260303035500">
-    <title>Pays et marchés du monde</title>
-    <desc lang="fr">Caméraman reporter, Xavier Petit part à la découverte d'un pays, d'une ville, d'un peuple et, bien sûr, d'un marché traditionnel et d'une spécialité locale.</desc>
-    <credits>
-      <director>Xavier Petit</director>
-      <director>Jean da Luz</director>
-    </credits>
-    <category lang="fr">documentaire</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2024/01/25/13773320_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303035500" channel="fr2test" stop="20260303040000">
-    <title>Pays et marchés du monde</title>
-    <desc lang="fr">Caméraman reporter, Xavier Petit part à la découverte d'un pays, d'une ville, d'un peuple et, bien sûr, d'un marché traditionnel et d'une spécialité locale.</desc>
-    <credits>
-      <director>Jean da Luz</director>
-      <director>Xavier Petit</director>
-    </credits>
-    <category lang="fr">documentaire</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2024/01/25/13773320_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303040000" channel="fr2test" stop="20260303045000">
-    <title>Tout le monde veut prendre sa place</title>
-    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
-    <credits>
-      <presenter>Cyril Féraud</presenter>
-    </credits>
-    <category lang="fr">jeu</category>
-    <length units="minutes">50</length>
-    <icon src="https://focus.telerama.fr/952x634/2024/08/22/5806f0526bc84a198a19d2dbca0ac0ee.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303045000" channel="fr2test" stop="20260303050000">
-    <title>Mot de passe : le duel</title>
-    <desc lang="fr">Deux candidats accompagnés de deux personnalités s'affrontent pour découvrir un maximum de mots en un minimum de temps.</desc>
-    <credits>
-      <presenter>Camille Cerf</presenter>
-    </credits>
-    <category lang="fr">jeu</category>
-    <length units="minutes">10</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/12/09/838b972e01e74bae98a96e689a93a8f3.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303050000" channel="fr2test" stop="20260303053500">
-    <title>Le 6h info</title>
-    <desc lang="fr">Un rendez-vous réveil-matin, avec un point sur l'actualité assorti de différentes rubriques qui permettent d'en explorer certains aspects plus en profondeur.</desc>
-    <category lang="fr">journal</category>
-    <length units="minutes">35</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/07/03/66015ca763e341a894854876e419aa99.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <new />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303053500" channel="fr2test" stop="20260303070000">
-    <title>Télématin</title>
-    <desc lang="fr">De l'info et de la bonne humeur, sept jours sur sept : résolument dans l'air du temps, la première matinale de France, forte de sa richesse éditoriale et de sa dynamique d'équipe, aborde de nombreuses thématiques et traite l'actualité avec sérieux et sans dramatisation.</desc>
-    <credits>
-      <presenter>Maya Lauqué</presenter>
-      <presenter>Damien Thévenot</presenter>
-    </credits>
-    <category lang="fr">magazine</category>
-    <length units="minutes">85</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/09/16/5b3b270aa3fb4811b24b9405e3813df5.jpg" />
-    <country lang="fr">France</country>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <previously-shown />
-    <new />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303070000" channel="fr2test" stop="20260303073000">
-    <title>Journal 08h00</title>
-    <desc lang="fr">Pour bien démarrer la journée, la rédaction de France 2 propose un point sur l'actualité. Les principales informations nationales et internationales sont passées en revue.</desc>
-    <category lang="fr">journal</category>
-    <length units="minutes">30</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/02/18/3869b903937c45bbb6e1f34d5a1c7230.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <new />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303073000" channel="fr2test" stop="20260303085500">
-    <title>Télématin</title>
-    <desc lang="fr">De l'info et de la bonne humeur, sept jours sur sept : résolument dans l'air du temps, la première matinale de France, forte de sa richesse éditoriale et de sa dynamique d'équipe, aborde de nombreuses thématiques et traite l'actualité avec sérieux et sans dramatisation.</desc>
-    <credits>
-      <presenter>Maya Lauqué</presenter>
-      <presenter>Damien Thévenot</presenter>
-    </credits>
-    <category lang="fr">magazine</category>
-    <length units="minutes">85</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/09/16/5b3b270aa3fb4811b24b9405e3813df5.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <new />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303085500" channel="fr2test" stop="20260303094000">
-    <title>Bel &amp; Bien ensemble</title>
-    <desc lang="fr">Un talk-show matinal en public à la découverte de nouvelles solutions pour apprendre à prendre soin de soi et aussi des autres au quotidien.</desc>
-    <credits>
-      <presenter>Agathe Lecaron</presenter>
-    </credits>
-    <category lang="fr">talk-show</category>
-    <length units="minutes">45</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/09/03/37d1d3a2dcaa411fbb68d8a3d7c24c52.jpg" />
-    <country lang="fr">France</country>
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303094000" channel="fr2test" stop="20260303094500">
-    <title>Consomag</title>
-    <desc lang="fr">Le magazine de l'Institut national de la consommation donne à chacun des conseils pratiques pour mieux consommer, toutes les thématiques peuvent être abordées autour de nos achats.</desc>
-    <credits>
-      <presenter>Chloé François</presenter>
-    </credits>
-    <category lang="fr">magazine</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/11/20/ee20d9adbb5f489db11961faac3e309c.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303094500" channel="fr2test" stop="20260303095000">
-    <title>Journal Météo climat outre-mer</title>
-    <category lang="fr">meteo</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/07/16/e79e3b90f71649b3832a96a824d33401.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303095000" channel="fr2test" stop="20260303102500">
-    <title>Chacun son tour</title>
-    <desc lang="fr">Des participants tirés au sort parmi le public doivent répondre à des questions de culture générale dans l'espoir de se qualifier pour la deuxième épreuve : le billard japonais, un jeu d'adresse qui peut rapporter cadeaux et argent. Les candidats qui perdent leur duel de culture générale réintègrent le public et peuvent donc être à nouveau tirés au sort.</desc>
-    <credits>
-      <presenter>Bruno Guillon</presenter>
-    </credits>
-    <category lang="fr">jeu</category>
-    <length units="minutes">35</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/07/22/0c4e3ec9d3a54f8dbaa306e4ab3756cd.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303102500" channel="fr2test" stop="20260303105500">
-    <title>Chacun son tour</title>
-    <desc lang="fr">Des participants tirés au sort parmi le public doivent répondre à des questions de culture générale dans l'espoir de se qualifier pour la deuxième épreuve : le billard japonais, un jeu d'adresse qui peut rapporter cadeaux et argent. Les candidats qui perdent leur duel de culture générale réintègrent le public et peuvent donc être à nouveau tirés au sort.</desc>
-    <credits>
-      <presenter>Bruno Guillon</presenter>
-    </credits>
-    <category lang="fr">jeu</category>
-    <length units="minutes">30</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/07/22/0c4e3ec9d3a54f8dbaa306e4ab3756cd.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303105500" channel="fr2test" stop="20260303115500">
-    <title>Tout le monde veut prendre sa place</title>
-    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
-    <credits>
-      <presenter>Cyril Féraud</presenter>
-    </credits>
-    <category lang="fr">jeu</category>
-    <length units="hours">1</length>
-    <icon src="https://focus.telerama.fr/952x634/2024/08/22/5806f0526bc84a198a19d2dbca0ac0ee.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303115500" channel="fr2test" stop="20260303120000">
-    <title>Journal Météo Climat</title>
-    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts.</desc>
-    <category lang="fr">meteo</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2023/03/15/589dce513a89107c3a428467c373be79d5d3db4e_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303120000" channel="fr2test" stop="20260303124000">
-    <title>Journal 13h00</title>
-    <desc lang="fr">Tous les jours, à 13h, la rédaction propose un point sur l'actualité. Les informations nationales et internationales sont passées à la loupe et mises en perspective, illustrées par des reportages sur le terrain.</desc>
-    <credits>
-      <presenter>Julian Bugier</presenter>
-    </credits>
-    <category lang="fr">journal</category>
-    <length units="minutes">40</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/05/28/b334bf1392404c2bb34db83182433d85.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <new />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303124000" channel="fr2test" stop="20260303124500">
-    <title>Journal Météo Climat</title>
-    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts.</desc>
-    <category lang="fr">meteo</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2023/03/15/589dce513a89107c3a428467c373be79d5d3db4e_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303124500" channel="fr2test" stop="20260303125000">
-    <title>La p'tite librairie</title>
-    <desc lang="fr">François Busnel propose chaque jour de découvrir ou redécouvrir une oeuvre française ou étrangère : roman, essai, grand classique ou encore bande dessinée.</desc>
-    <credits>
-      <presenter>François Busnel</presenter>
-    </credits>
-    <category lang="fr">magazine</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2024/05/15/325d706dc1314301bdced388ccb2fb5d.jpg" />
-    <country lang="fr">France</country>
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303125000" channel="fr2test" stop="20260303125500">
-    <title>Expression directe</title>
-    <desc lang="fr">Organisations syndicales, partis politiques, mais aussi mouvements d'entrepreneurs prennent la parole.</desc>
-    <category lang="fr">magazine</category>
-    <length units="minutes">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/11/29/789dcf15b9cf46af923a8f49eab7f49f.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <premiere />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303125500" channel="fr2test" stop="20260303140500">
-    <title>Ça commence aujourd'hui</title>
-    <desc lang="fr">Tous les jours, Faustine Bollaert accueille sur le plateau de "Ça commence aujourd'hui" des hommes et des femmes qui évoquent des événements marquants de leur existence, pour permettre à d'autres d'avancer dans leur parcours: un rendez-vous positif et optimiste.</desc>
-    <credits>
-      <presenter>Faustine Bollaert</presenter>
-    </credits>
-    <category lang="fr">magazine</category>
-    <length units="minutes">70</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/08/22/f734d84ec602454baa7eb3462488909c.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <premiere />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303140500" channel="fr2test" stop="20260303151000">
-    <title>Ça commence aujourd'hui</title>
-    <desc lang="fr">Atteint de dysmorphophobie, Yohan a déjà eu recours à de nombreuses interventions esthétiques. Dès qu'il se trouve un nouveau défaut physique, cette insécurité vire à l'obsession.</desc>
-    <credits>
-      <presenter>Faustine Bollaert</presenter>
-    </credits>
-    <category lang="fr">magazine</category>
-    <length units="minutes">65</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/08/22/f734d84ec602454baa7eb3462488909c.jpg" />
-    <country lang="fr">France</country>
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303151000" channel="fr2test" stop="20260303152500">
-    <title>Affaire conclue : la vie des objets</title>
-    <desc lang="fr">Parce que les maisons sont remplies de babioles insolites qui ne demandent qu'à trouver acquéreurs, des spécialistes accompagnent les propriétaires d'objets tout au long des étapes susceptibles de les mener à la vente.</desc>
-    <category lang="fr">magazine</category>
-    <length units="minutes">15</length>
-    <icon src="https://focus.telerama.fr/952x634/2024/05/15/7f5c72f2c2734a718a7a7bff89b16a5d.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303152500" channel="fr2test" stop="20260303162000">
-    <title>Affaire conclue, tout le monde a quelque chose à vendre</title>
-    <desc lang="fr">Parce que les maisons sont remplies de babioles insolites qui ne demandent qu'à trouver acquéreurs, des spécialistes accompagnent les propriétaires d'objets tout au long des étapes susceptibles de les mener à la vente.</desc>
-    <credits>
-      <presenter>Julia Vignali</presenter>
-    </credits>
-    <category lang="fr">magazine</category>
-    <length units="minutes">55</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/05/29/bc1cf844435940eb9d8ea8046f6300fe.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303162000" channel="fr2test" stop="20260303170000">
-    <title>Affaire conclue, tout le monde a quelque chose à vendre</title>
-    <desc lang="fr">Parce que les maisons sont remplies de babioles insolites qui ne demandent qu'à trouver acquéreurs, des spécialistes accompagnent les propriétaires d'objets tout au long des étapes susceptibles de les mener à la vente.</desc>
-    <credits>
-      <presenter>Julia Vignali</presenter>
-    </credits>
-    <category lang="fr">magazine</category>
-    <length units="minutes">40</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/05/29/bc1cf844435940eb9d8ea8046f6300fe.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303170000" channel="fr2test" stop="20260303173500">
-    <title>Tout le monde a son mot à dire</title>
+  <programme start="20260302180000 +0100" stop="20260302183500 +0100" channel="fr2test">
+    <title lang="fr">Tout le monde a son mot à dire</title>
     <desc lang="fr">Une gymnastique quotidienne de l'esprit pour s'amuser avec la langue française et enrichir en même temps sa culture générale. Deux équipes jouent en répondant à des questions sur des thèmes extrêmement variés. Chacune est constituée d'un candidat épaulé par deux personnalités : humoristes, comédiens, journalistes ou encore chanteurs</desc>
     <credits>
-      <presenter>Sidonie Bonnec</presenter>
-      <presenter>Bruno Guillon</presenter>
+      <guest>Bruno Guillon</guest>
+      <guest>Sidonie Bonnec</guest>
     </credits>
-    <category lang="fr">jeu</category>
-    <length units="minutes">35</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/08/22/896efc334f8b42f798f5eff1e89080dd.jpg" />
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/687CFE26FA758027A1BC461B52E31753.jpg" />
     <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20260303173500" channel="fr2test" stop="20260303181000">
-    <title>N'oubliez pas les paroles</title>
+  <programme start="20260302183500 +0100" stop="20260302191000 +0100" channel="fr2test">
+    <title lang="fr">N'oubliez pas les paroles</title>
     <desc lang="fr">Accompagnés par un orchestre, les candidats chantent en karaoké. Mais les paroles affichées ne sont pas complètes. A eux de combler les vides. Pour cela, ils doivent se souvenir des mots exacts de la chanson.</desc>
     <credits>
-      <presenter> Nagui</presenter>
+      <producer>Leslie Blumberg</producer>
+      <producer>Gaëlle Leroy</producer>
+      <guest> Nagui</guest>
     </credits>
-    <category lang="fr">jeu</category>
-    <length units="minutes">35</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/02/26/8e37820f84cf40e09282160a545927a7.jpg" />
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D3B5FCAA495D65F7968A50277FFE76FA.jpg" />
     <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20260303181000" channel="fr2test" stop="20260303185500">
-    <title>N'oubliez pas les paroles</title>
+  <programme start="20260302191000 +0100" stop="20260302195500 +0100" channel="fr2test">
+    <title lang="fr">N'oubliez pas les paroles</title>
     <desc lang="fr">Accompagnés par un orchestre, les candidats chantent en karaoké. Mais les paroles affichées ne sont pas complètes. A eux de combler les vides. Pour cela, ils doivent se souvenir des mots exacts de la chanson.</desc>
     <credits>
-      <presenter> Nagui</presenter>
+      <producer>Leslie Blumberg</producer>
+      <producer>Gaëlle Leroy</producer>
+      <guest> Nagui</guest>
     </credits>
-    <category lang="fr">jeu</category>
-    <length units="minutes">45</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/02/26/8e37820f84cf40e09282160a545927a7.jpg" />
-    <country lang="fr">France</country>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302180000" channel="6tertest" stop="20260302190000">
-    <title>Le Caméléon</title>
-    <desc lang="fr">Saison:2 - Episode:4 - Un jeune mannequin s'est tué dans un accident de voiture. Parce que sa mort semble suspecte aux yeux de plusieurs personnes, Jarod, qui a eu vent de l'affaire, décide de se faire passer pour un photographe afin de pouvoir enquêter dans le milieu de la mode. Au même moment, miss Parker, en compagnie du docteur Sydney, se rend à New York, sur les traces de Jarod. En effet, le Centre a réussi à retrouver la trace de l'étonnant homme-caméléon. Arrivés dans la mégalopole, ils interrogent l'ancien employeur de Jarod, qui les renseigne de son mieux. Les deux scientifiques se rendent donc dans l'Etat du Maine, où ils ne tardent pas à faire la connaissance de Ben, un ami de sa mère...</desc>
-    <credits>
-      <director>Jim Charleston</director>
-      <actor>Michael T. Weiss</actor>
-      <actor>Andrea Parker</actor>
-      <actor>Patrick Bauchau</actor>
-      <actor>Jon Gries</actor>
-      <actor>Samantha Smith</actor>
-      <actor>Harve Presnell</actor>
-      <actor>Jim Haynie</actor>
-      <actor>James Denton</actor>
-      <actor>Simon Templeman</actor>
-      <actor>Elizabeth Lackey</actor>
-      <actor>Patrick Fischler</actor>
-      <actor>Travis Fine</actor>
-      <writer>Tyler Bensinger</writer>
-      <writer>Steven Long Mitchell</writer>
-      <writer>Craig W. van Sickle</writer>
-    </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="hours">1</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/13/3b698ed809db4368ab1dd05f72537458.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">1.3.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302190000" channel="6tertest" stop="20260302201000">
-    <title>Le caméléon</title>
-    <desc lang="fr">Saison:2 - Episode:5 - A Beverly Hills, Tricia, une jeune fille, a été défigurée dans un accident de voiture. Parce que les circonstances du drame demeurent obscures, Jarod, qui a eu vent de l'affaire, décide d'essayer d'en savoir plus afin de faire toute la lumière sur les événements. Il se fait passer pour un chirurgien esthétique et part pour Los Angeles. Dans le service médical où il prend ses fonctions, plusieurs indices étranges attirent son attention. Au même moment, Broots, victime de menaces inquiétantes, accepte la protection que lui propose Brigitte. Il comprend que quelqu'un le suit depuis un moment...</desc>
-    <credits>
-      <director>Michael Lange</director>
-      <actor>Michael T. Weiss</actor>
-      <actor>Andrea Parker</actor>
-      <actor>Patrick Bauchau</actor>
-      <actor>Jon Gries</actor>
-      <actor>Pamela Gidley</actor>
-      <actor>Katie Mitchell</actor>
-      <actor>Tim Quill</actor>
-      <actor>Saadia Persad</actor>
-      <actor>John Fleck</actor>
-      <actor>John Gegenhuber</actor>
-      <actor>Ryan Merriman</actor>
-      <actor>Alex Wexo</actor>
-      <writer>Eric Morris</writer>
-    </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">70</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/13/3b698ed809db4368ab1dd05f72537458.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">1.4.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302201000" channel="6tertest" stop="20260302213000">
-    <title>Kaamelott</title>
-    <desc lang="fr">Au Ve siècle après Jésus-Christ, dans l'actuelle Grande-Bretagne, le roi Arthur règne sur sa cour, à Kaamelott. Investi d'une mission divine, il recherche sans relâche le Graal, la coupe dont se serait servi Jésus de Nazareth lors de la Cène. Mais voilà, les fameux chevaliers de la Table ronde ne se montrent pas très efficaces pour le seconder. Incompétents, batailleurs, noceurs et fainéants, ils multiplient les gaffes. La vie à Kaamelott est pleine de surprises. Une série à succès qui cultive l'absurde avec délectation. L'acteur et réalisateur Alexandre Astier y côtoie son père, Lionnel Astier.</desc>
-    <credits>
-      <actor>Alexandre Astier</actor>
-      <actor>Franck Pitiot</actor>
-      <actor>Jean-Christophe Hembert</actor>
-      <actor>Anne Girouard</actor>
-      <actor>Thomas Cousseau</actor>
-      <actor>Lionnel Astier</actor>
-      <actor>Nicolas Gabion</actor>
-      <actor>Audrey Fleurot</actor>
-      <writer>Alexandre Astier</writer>
-    </credits>
-    <category lang="fr">serie</category>
-    <length units="minutes">80</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/17/76ef2b05d67147db8329b4b2d3b3f276.jpg" />
-    <country lang="fr">France</country>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260302213000" channel="6tertest" stop="20260302230000">
-    <title>Kaamelott</title>
-    <desc lang="fr">Au Ve siècle après Jésus-Christ, dans l'actuelle Grande-Bretagne, le roi Arthur règne sur sa cour, à Kaamelott. Investi d'une mission divine, il recherche sans relâche le Graal, la coupe dont se serait servi Jésus de Nazareth lors de la Cène. Mais voilà, les fameux chevaliers de la Table ronde ne se montrent pas très efficaces pour le seconder. Incompétents, batailleurs, noceurs et fainéants, ils multiplient les gaffes. La vie à Kaamelott est pleine de surprises. Une série à succès qui cultive l'absurde avec délectation. L'acteur et réalisateur Alexandre Astier y côtoie son père, Lionnel Astier.</desc>
-    <credits>
-      <actor>Alexandre Astier</actor>
-      <actor>Franck Pitiot</actor>
-      <actor>Jean-Christophe Hembert</actor>
-      <actor>Anne Girouard</actor>
-      <actor>Thomas Cousseau</actor>
-      <actor>Lionnel Astier</actor>
-      <actor>Nicolas Gabion</actor>
-      <actor>Audrey Fleurot</actor>
-      <writer>Alexandre Astier</writer>
-    </credits>
-    <category lang="fr">serie</category>
-    <length units="minutes">90</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/17/76ef2b05d67147db8329b4b2d3b3f276.jpg" />
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/178D1C9CB8E465DBEC75ADBA6B1D03E0.jpg" />
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20260302230000" channel="6tertest" stop="20260303000000">
-    <title>Kaamelott</title>
-    <desc lang="fr">Au Ve siècle après Jésus-Christ, dans l'actuelle Grande-Bretagne, le roi Arthur règne sur sa cour, à Kaamelott. Investi d'une mission divine, il recherche sans relâche le Graal, la coupe dont se serait servi Jésus de Nazareth lors de la Cène. Mais voilà, les fameux chevaliers de la Table ronde ne se montrent pas très efficaces pour le seconder. Incompétents, batailleurs, noceurs et fainéants, ils multiplient les gaffes. La vie à Kaamelott est pleine de surprises. Une série à succès qui cultive l'absurde avec délectation. L'acteur et réalisateur Alexandre Astier y côtoie son père, Lionnel Astier.</desc>
-    <credits>
-      <actor>Alexandre Astier</actor>
-      <actor>Franck Pitiot</actor>
-      <actor>Jean-Christophe Hembert</actor>
-      <actor>Anne Girouard</actor>
-      <actor>Thomas Cousseau</actor>
-      <actor>Lionnel Astier</actor>
-      <actor>Nicolas Gabion</actor>
-      <actor>Audrey Fleurot</actor>
-      <writer>Alexandre Astier</writer>
-    </credits>
-    <category lang="fr">serie</category>
-    <length units="hours">1</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/03/18/211e2b0441ec43e7890dda9a1b0d280d.jpg" />
+  <programme start="20260302195500 +0100" stop="20260302200000 +0100" channel="fr2test">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/2C9DEF5E75C0671BB29662DA898C88D3.jpg" />
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20260303000000" channel="6tertest" stop="20260303050000">
-    <title>Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">programme-indetermine</category>
-    <length units="hours">5</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/07/17/0a39e00f07f2450da1d076245f117f9b.jpg" />
+  <programme start="20260302200000 +0100" stop="20260302205000 +0100" channel="fr2test">
+    <title lang="fr">Journal 20h00</title>
+    <desc lang="fr">Les principales informations nationales et internationales sont passées à la loupe et mises en perspective, illustrées par des reportages sur le terrain.</desc>
+    <credits>
+      <guest>Léa Salamé</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A636E5B8F26FBB0DE5BF2884543BB030.jpg" />
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20260303050000" channel="6tertest" stop="20260303053000">
-    <title>Dr Cath &amp; Co</title>
-    <desc lang="fr">La première patiente est Ruby, une chienne de 14 ans qui perd beaucoup de sang et souffre d'une infection. Le docteur Catherine Dufrane doit intervenir pour opérer la chienne.</desc>
-    <category lang="fr">magazine</category>
-    <length units="minutes">30</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/19/cf77c16be01d425b862c08aed9d23305.jpg" />
-    <country lang="fr">Belgique</country>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303053000" channel="6tertest" stop="20260303060000">
-    <title>Dr Cath &amp; Co</title>
-    <desc lang="fr">Le docteur Catherine doit gérer de nombreuses urgences arrivées au cours de la nuit. Elle a hâte de voir comment Martino, un Terre-neuve, s'est rétabli cette nuit.</desc>
-    <category lang="fr">magazine</category>
-    <length units="minutes">30</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/19/cf77c16be01d425b862c08aed9d23305.jpg" />
-    <country lang="fr">Belgique</country>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303060000" channel="6tertest" stop="20260303063000">
-    <title>Dr Cath &amp; Co</title>
-    <desc lang="fr">Le docteur Catherine Dufrane a une journée bien chargée. En effet, la propriétaire d'un sphynx en phase terminale arrive au cabinet en pleurs. Benny, un chat de 17 ans, a également été amené au cabinet pour être traité en urgence.</desc>
-    <category lang="fr">magazine</category>
-    <length units="minutes">30</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/19/cf77c16be01d425b862c08aed9d23305.jpg" />
-    <country lang="fr">Belgique</country>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
-    </rating>
-  </programme>
-  <programme start="20260303063000" channel="6tertest" stop="20260303071000">
-    <title>Dr Cath &amp; Co</title>
-    <desc lang="fr">Le docteur Catherine Dufrane gère au quotidien dans son cabinet des visites de routine ou des cas plus urgents. Le propriétaire d'un chien s'est aperçu que celui-ci a ingurgité une grosse quantité de mort-aux-rats.</desc>
-    <category lang="fr">magazine</category>
-    <length units="minutes">40</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/19/cf77c16be01d425b862c08aed9d23305.jpg" />
-    <country lang="fr">Belgique</country>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303071000" channel="6tertest" stop="20260303081000">
-    <title>Le château de mes rêves</title>
-    <desc lang="fr">Cette seconde saison permet de découvrir d'autres aspects de la vie des néo-châtelains, toujours embarqués dans cette aventure hors du commun.</desc>
-    <category lang="fr">magazine</category>
-    <length units="hours">1</length>
-    <icon src="https://focus.telerama.fr/952x634/2022/07/27/a2fdb7eb69804aeb19daef90e1b2ccc492a29421.jpg" />
+  <programme start="20260302205000 +0100" stop="20260302205300 +0100" channel="fr2test">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/CE33D573FD5E1CBD6AB93EE3560DF896.jpg" />
     <country lang="fr">France</country>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20260303081000" channel="6tertest" stop="20260303091000">
-    <title>Le château de mes rêves</title>
-    <desc lang="fr">Cette seconde saison permet de découvrir d'autres aspects de la vie des néo-châtelains, toujours embarqués dans cette aventure hors du commun.</desc>
-    <category lang="fr">magazine</category>
-    <length units="hours">1</length>
-    <icon src="https://focus.telerama.fr/952x634/2022/07/27/a2fdb7eb69804aeb19daef90e1b2ccc492a29421.jpg" />
+  <programme start="20260302205300 +0100" stop="20260302205500 +0100" channel="fr2test">
+    <title lang="fr">Image du jour sports</title>
+    <desc lang="fr">Gros plan en images sur les principaux événements sportifs du jour.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Sport</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E84236D4B7C03FD52C9D7E05EC9B7BFA.jpg" />
     <country lang="fr">France</country>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20260303091000" channel="6tertest" stop="20260303101000">
-    <title>Le château de mes rêves</title>
-    <desc lang="fr">Cette seconde saison permet de découvrir d'autres aspects de la vie des néo-châtelains, toujours embarqués dans cette aventure hors du commun.</desc>
-    <category lang="fr">magazine</category>
-    <length units="hours">1</length>
-    <icon src="https://focus.telerama.fr/952x634/2022/07/27/a2fdb7eb69804aeb19daef90e1b2ccc492a29421.jpg" />
+  <programme start="20260302205500 +0100" stop="20260302210000 +0100" channel="fr2test">
+    <title lang="fr">Basique, l'essentiel de la musique</title>
+    <sub-title lang="fr">Marguerite</sub-title>
+    <desc lang="fr">Une pastille consacrée à l'actualité musicale, qui braque les projecteurs sur un ou une artiste.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Musique</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/442AADB7DFC5AF6818891111BA64637E.jpg" />
     <country lang="fr">France</country>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20260303101000" channel="6tertest" stop="20260303111000">
-    <title>Le château de mes rêves</title>
-    <desc lang="fr">Cette seconde saison permet de découvrir d'autres aspects de la vie des néo-châtelains, toujours embarqués dans cette aventure hors du commun.</desc>
-    <category lang="fr">magazine</category>
-    <length units="hours">1</length>
-    <icon src="https://focus.telerama.fr/952x634/2022/07/27/a2fdb7eb69804aeb19daef90e1b2ccc492a29421.jpg" />
+  <programme start="20260302210000 +0100" stop="20260302211000 +0100" channel="fr2test">
+    <title lang="fr">Mot de passe : le duel</title>
+    <desc lang="fr">Deux candidats accompagnés de deux personnalités s'affrontent pour découvrir un maximum de mots en un minimum de temps.</desc>
+    <credits>
+      <guest>Camille Cerf</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D8B64352F9803193700B048D62A440E1.jpg" />
     <country lang="fr">France</country>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20260303111000" channel="6tertest" stop="20260303114000">
-    <title>Notre belle famille</title>
-    <desc lang="fr">Saison:7 - Episode:7 - Dana et Karen assistent ensemble à un cours de poésie. Dana est persuadée que leur professeur donne de bonnes notes à Karen uniquement parce qu'il est attiré par elle...</desc>
+  <programme start="20260302211000 +0100" stop="20260302224500 +0100" channel="fr2test">
+    <title lang="fr">L'art du crime</title>
+    <sub-title lang="fr">Le serment de David</sub-title>
+    <desc lang="fr">Au musée Grévin, à Paris, un historien spécialiste du peintre Jacques-Louis David est retrouvé assassiné dans la baignoire du révolutionnaire Marat, une mise en scène qui reproduit à l'identique le fameux tableau du maître. Pour démasquer le meurtrier, Antoine Verlay et Florence Chassagne doivent infiltrer un colloque d'historiens de l'art en se faisant passer pour un couple. Une couverture qui pourrait bien créer de nouvelles tensions entre eux. Ou au contraire les rapprocher...</desc>
     <credits>
-      <director>Patrick Duffy</director>
-      <actor>Staci Keanan</actor>
-      <actor>Angela Watson</actor>
-      <actor>Andy Hirsch</actor>
-      <actor>Patrick Duffy</actor>
-      <actor>Suzanne Somers</actor>
-      <actor>Brandon Call</actor>
-      <actor>Christine Lakin</actor>
-      <actor>Christopher Castile</actor>
-      <actor>Emily Mae Young</actor>
-      <actor>Jason Marsden</actor>
-      <actor>Anna Slotky</actor>
-      <actor>Bari K. Willerford</actor>
-      <writer>William Bickley</writer>
-      <writer>Fred Rubin</writer>
-      <writer>Michael Warren</writer>
-      <writer>Robin Stein</writer>
+      <director>Anne Péjean</director>
+      <actor>Philippe Duclos</actor>
+      <actor>Constance Dollé</actor>
+      <actor>Manon Valentin</actor>
+      <actor>Benjamin Egner</actor>
+      <actor>Carole Weyers</actor>
+      <actor>Yann Sundberg</actor>
+      <actor>Maxime Pipet</actor>
+      <actor>Eléonore Bernheim</actor>
+      <actor>Alexandra Gentil</actor>
+      <actor>Mhamed Arezki</actor>
+      <actor>Nicolas Gob</actor>
+      <actor>Salomé Partouche</actor>
+      <adapter>Angèle Herry-Leclerc</adapter>
+      <adapter>Pierre-Yves Mora</adapter>
+      <guest>Gaumont Télévision</guest>
     </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">30</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/04/b9347eac42724d87b394b1c32c7637f8.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">6.6.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+    <date>2026</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Policier</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4DC063788A812F4E6FF8D201893540F0.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">8.1.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260302224500 +0100" stop="20260303001500 +0100" channel="fr2test">
+    <title lang="fr">L'art du crime</title>
+    <sub-title lang="fr">Un coeur de pierre</sub-title>
+    <desc lang="fr">Antoine et Florence doivent élucider le meurtre à son domicile d'une riche collectionneuse, passionnée de Camille Claudel. Pierre Chassagne, le père de Florence, qui était un ami proche de la victime, était dans la maison au moment où le coup de feu mortel a été tiré. Le tueur l'a ensuite assommé avant de prendre la fuite. "L'Implorante", une des statues exposées dans la demeure, a été volée. Tandis que l'enquête entraîne Antoine et Florence jusqu'au musée Rodin, tous les indices ramènent à la douloureuse histoire d'amour que Camille Claudel a connue avec Auguste Rodin. L'amour blessé peut-il rendre fou au point de tuer ? Serait-ce la clé de l'énigme ?...</desc>
+    <credits>
+      <director>Léa Fazer</director>
+      <actor>Philippe Duclos</actor>
+      <actor>Barbara Schulz</actor>
+      <actor>Nicolas Wanczycki</actor>
+      <actor>Eléonore Bernheim</actor>
+      <actor>Benjamin Egner</actor>
+      <actor>Jérémie Covillault</actor>
+      <actor>Nicolas Gob</actor>
+      <actor>Garance Thénault</actor>
+      <actor>Dounia Coesens</actor>
+      <actor>Florence Pernel</actor>
+      <actor>Salomé Partouche</actor>
+      <actor>Laetitia Lalle Bi Bénie</actor>
+      <adapter>Angèle Herry-Leclerc</adapter>
+      <adapter>Pierre-Yves Mora</adapter>
+      <producer>Sidonie Dumas</producer>
+      <producer>Arnaud de Crémiers</producer>
+      <producer>Christophe Riandee</producer>
+      <producer>Isabelle Degeorges</producer>
+      <composer>Mathieu Lamboley</composer>
+      <editor>Julie-Anna Grignon</editor>
+      <editor>Hélène Duchateau</editor>
+      <editor>Christophe Joaquin</editor>
+      <editor>Angèle Herry-Leclerc</editor>
+      <editor>Pierre-Yves Mora</editor>
+      <guest>Gaumont Télévision</guest>
+      <guest>France Télévisions</guest>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Policier</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B3AD0626A923FF1D130B814029C1F140.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">4.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260303001500 +0100" stop="20260303002000 +0100" channel="fr2test">
+    <title lang="fr">Expression directe</title>
+    <sub-title lang="fr">Coordination rurale</sub-title>
+    <desc lang="fr">Organisations syndicales, partis politiques, mais aussi mouvements d'entrepreneurs prennent la parole.</desc>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~fe569559d4d2f0c7.jpeg/640x360/quality/80/expression-directe.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303002000 +0100" stop="20260303015500 +0100" channel="fr2test">
+    <title lang="fr">L'art du crime</title>
+    <sub-title lang="fr">Versailles, es-tu là ?</sub-title>
+    <credits>
+      <guest>Nicolas Gob</guest>
+      <guest>Eléonore Bernheim</guest>
+      <guest>Philippe Duclos</guest>
+      <guest>Benjamin Egner</guest>
+      <guest>Salomé Partouche</guest>
+      <guest>Armelle Deutsch</guest>
+      <guest>Loup-Denis Elion</guest>
+      <guest>Dounia Coesens</guest>
+    </credits>
+    <category lang="fr">Série TV</category>
+    <keyword>audio-description</keyword>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e5e8b74c6fa637d5.jpeg/640x360/quality/80/l-art-du-crime.jpg" />
     <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
+    <subtitles type="teletext" />
+    <audio-described />
   </programme>
-  <programme start="20260303114000" channel="6tertest" stop="20260303120000">
-    <title>Notre belle famille</title>
-    <desc lang="fr">Saison:7 - Episode:7 - Dana et Karen assistent ensemble à un cours de poésie. Dana est persuadée que leur professeur donne de bonnes notes à Karen uniquement parce qu'il est attiré par elle...</desc>
+  <programme start="20260303015500 +0100" stop="20260303025000 +0100" channel="fr2test">
+    <title lang="fr">Coeurs Noirs</title>
+    <sub-title lang="fr">Episode 4</sub-title>
+    <desc lang="fr">A l’exception de Rimbaud (Tewfik Jallab), tout le Groupe 45 rempile et accueille trois nouveaux : un sniper, un médecin et Tyson, un malinois spécialisé dans la recherche d’explosifs interprété par "trois chiens du GIGN : Nitro, Nitrate et Polonium", précise Victor Pontecorvo, alias Spit, le dépiegeur, toujours en proie avec ses démons. Car, bien que les interventions, toutes haletantes, soient plus nombreuses et les scènes de tortures difficilement soutenables, l’aspect privé des personnage n’est pas éludé. Ce qui force encore plus le respect face à la détermination et l’abnégation de ces hommes et femmes de terrain traversés par les tourments de tout à chacun. Car sang-froid et maîtrise de leurs émotions seront plus que jamais nécessaires pour mener à bien leurs objectifs.&amp;nbsp;</desc>
     <credits>
-      <director>Patrick Duffy</director>
-      <actor>Staci Keanan</actor>
-      <actor>Angela Watson</actor>
-      <actor>Andy Hirsch</actor>
-      <actor>Patrick Duffy</actor>
-      <actor>Suzanne Somers</actor>
-      <actor>Brandon Call</actor>
-      <actor>Christine Lakin</actor>
-      <actor>Christopher Castile</actor>
-      <actor>Emily Mae Young</actor>
-      <actor>Jason Marsden</actor>
-      <actor>Anna Slotky</actor>
-      <actor>Bari K. Willerford</actor>
-      <writer>William Bickley</writer>
-      <writer>Fred Rubin</writer>
-      <writer>Michael Warren</writer>
-      <writer>Robin Stein</writer>
+      <guest>Nicolas Duvauchelle</guest>
+      <guest>Marie Dompnier</guest>
+      <guest>Nina Meurisse</guest>
+      <guest>Thierry Godard</guest>
+      <guest>Patrick Mille</guest>
+      <guest>Louis Seguier</guest>
+      <guest>Hugo Palomba</guest>
+      <guest>Jérémy Nadeau</guest>
     </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">20</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/04/b9347eac42724d87b394b1c32c7637f8.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">6.6.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+    <category lang="fr">Série TV</category>
+    <keyword>audio-description</keyword>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~5d5e7d797c2d3f03.jpeg/640x360/quality/80/coeurs-noirs.jpg" />
     <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
+    <subtitles type="teletext" />
+    <audio-described />
   </programme>
-  <programme start="20260303120000" channel="6tertest" stop="20260303123000">
-    <title>Notre belle famille</title>
-    <desc lang="fr">Saison:7 - Episode:7 - Dana et Karen assistent ensemble à un cours de poésie. Dana est persuadée que leur professeur donne de bonnes notes à Karen uniquement parce qu'il est attiré par elle...</desc>
+  <programme start="20260303025000 +0100" stop="20260303034000 +0100" channel="fr2test">
+    <title lang="fr">Coeurs Noirs</title>
+    <sub-title lang="fr">Episode 5</sub-title>
+    <desc lang="fr">A l’exception de Rimbaud (Tewfik Jallab), tout le Groupe 45 rempile et accueille trois nouveaux : un sniper, un médecin et Tyson, un malinois spécialisé dans la recherche d’explosifs interprété par "trois chiens du GIGN : Nitro, Nitrate et Polonium", précise Victor Pontecorvo, alias Spit, le dépiegeur, toujours en proie avec ses démons. Car, bien que les interventions, toutes haletantes, soient plus nombreuses et les scènes de tortures difficilement soutenables, l’aspect privé des personnage n’est pas éludé. Ce qui force encore plus le respect face à la détermination et l’abnégation de ces hommes et femmes de terrain traversés par les tourments de tout à chacun. Car sang-froid et maîtrise de leurs émotions seront plus que jamais nécessaires pour mener à bien leurs objectifs.&amp;nbsp;</desc>
     <credits>
-      <director>Patrick Duffy</director>
-      <actor>Staci Keanan</actor>
-      <actor>Angela Watson</actor>
-      <actor>Andy Hirsch</actor>
-      <actor>Patrick Duffy</actor>
-      <actor>Suzanne Somers</actor>
-      <actor>Brandon Call</actor>
-      <actor>Christine Lakin</actor>
-      <actor>Christopher Castile</actor>
-      <actor>Emily Mae Young</actor>
-      <actor>Jason Marsden</actor>
-      <actor>Anna Slotky</actor>
-      <actor>Bari K. Willerford</actor>
-      <writer>William Bickley</writer>
-      <writer>Fred Rubin</writer>
-      <writer>Michael Warren</writer>
-      <writer>Robin Stein</writer>
+      <guest>Nicolas Duvauchelle</guest>
+      <guest>Marie Dompnier</guest>
+      <guest>Nina Meurisse</guest>
+      <guest>Thierry Godard</guest>
+      <guest>Patrick Mille</guest>
+      <guest>Louis Seguier</guest>
+      <guest>Hugo Palomba</guest>
+      <guest>Jérémy Nadeau</guest>
     </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">30</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/11/19/dd539056013b4211a250e6663eaabd82.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">6.6.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+    <category lang="fr">Série TV</category>
+    <keyword>audio-description</keyword>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~0dee4fefb85e4825.jpeg/640x360/quality/80/coeurs-noirs.jpg" />
     <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
+    <subtitles type="teletext" />
+    <audio-described />
   </programme>
-  <programme start="20260303123000" channel="6tertest" stop="20260303130000">
-    <title>Notre belle famille</title>
-    <desc lang="fr">Saison:7 - Episode:7 - Dana et Karen assistent ensemble à un cours de poésie. Dana est persuadée que leur professeur donne de bonnes notes à Karen uniquement parce qu'il est attiré par elle...</desc>
+  <programme start="20260303034000 +0100" stop="20260303042500 +0100" channel="fr2test">
+    <title lang="fr">Coeurs Noirs</title>
+    <sub-title lang="fr">Episode 6</sub-title>
+    <desc lang="fr">A l’exception de Rimbaud (Tewfik Jallab), tout le Groupe 45 rempile et accueille trois nouveaux : un sniper, un médecin et Tyson, un malinois spécialisé dans la recherche d’explosifs interprété par "trois chiens du GIGN : Nitro, Nitrate et Polonium", précise Victor Pontecorvo, alias Spit, le dépiegeur, toujours en proie avec ses démons. Car, bien que les interventions, toutes haletantes, soient plus nombreuses et les scènes de tortures difficilement soutenables, l’aspect privé des personnage n’est pas éludé. Ce qui force encore plus le respect face à la détermination et l’abnégation de ces hommes et femmes de terrain traversés par les tourments de tout à chacun. Car sang-froid et maîtrise de leurs émotions seront plus que jamais nécessaires pour mener à bien leurs objectifs.&amp;nbsp;</desc>
     <credits>
-      <director>Patrick Duffy</director>
-      <actor>Staci Keanan</actor>
-      <actor>Angela Watson</actor>
-      <actor>Andy Hirsch</actor>
-      <actor>Patrick Duffy</actor>
-      <actor>Suzanne Somers</actor>
-      <actor>Brandon Call</actor>
-      <actor>Christine Lakin</actor>
-      <actor>Christopher Castile</actor>
-      <actor>Emily Mae Young</actor>
-      <actor>Jason Marsden</actor>
-      <actor>Anna Slotky</actor>
-      <actor>Bari K. Willerford</actor>
-      <writer>William Bickley</writer>
-      <writer>Fred Rubin</writer>
-      <writer>Michael Warren</writer>
-      <writer>Robin Stein</writer>
+      <guest>Nicolas Duvauchelle</guest>
+      <guest>Marie Dompnier</guest>
+      <guest>Nina Meurisse</guest>
+      <guest>Thierry Godard</guest>
+      <guest>Patrick Mille</guest>
+      <guest>Louis Seguier</guest>
+      <guest>Hugo Palomba</guest>
+      <guest>Jérémy Nadeau</guest>
     </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">30</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/11/19/dd539056013b4211a250e6663eaabd82.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">6.6.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+    <category lang="fr">Série TV</category>
+    <keyword>audio-description</keyword>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d664a0c84c87e625.jpeg/640x360/quality/80/coeurs-noirs.jpg" />
     <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
+    <subtitles type="teletext" />
+    <audio-described />
   </programme>
-  <programme start="20260303130000" channel="6tertest" stop="20260303132000">
-    <title>Notre belle famille</title>
-    <desc lang="fr">Saison:7 - Episode:7 - Dana et Karen assistent ensemble à un cours de poésie. Dana est persuadée que leur professeur donne de bonnes notes à Karen uniquement parce qu'il est attiré par elle...</desc>
-    <credits>
-      <director>Patrick Duffy</director>
-      <actor>Staci Keanan</actor>
-      <actor>Angela Watson</actor>
-      <actor>Andy Hirsch</actor>
-      <actor>Patrick Duffy</actor>
-      <actor>Suzanne Somers</actor>
-      <actor>Brandon Call</actor>
-      <actor>Christine Lakin</actor>
-      <actor>Christopher Castile</actor>
-      <actor>Emily Mae Young</actor>
-      <actor>Jason Marsden</actor>
-      <actor>Anna Slotky</actor>
-      <actor>Bari K. Willerford</actor>
-      <writer>William Bickley</writer>
-      <writer>Fred Rubin</writer>
-      <writer>Michael Warren</writer>
-      <writer>Robin Stein</writer>
-    </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">20</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/04/b9347eac42724d87b394b1c32c7637f8.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">6.6.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260303042500 +0100" stop="20260303043000 +0100" channel="fr2test">
+    <title lang="fr">Journal Météo climat outre-mer</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~collection~2de5ecbfd3a9e518.jpeg/640x360/quality/80/journal-meteo-climat-outre-mer.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303043000 +0100" stop="20260303044500 +0100" channel="fr2test">
+    <title lang="fr">Courant d'art</title>
+    <sub-title lang="fr">Hey ! Le dessin</sub-title>
+    <desc lang="fr">Un retour sur une exposition au musée de la Halle St Pierre à Paris, nous permettant de découvrir les artistes oubliés de l'Art.</desc>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~32e9e54de9844925.jpeg/640x360/quality/80/courant-d-art.jpg" />
     <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
+    <subtitles type="teletext" />
   </programme>
-  <programme start="20260303132000" channel="6tertest" stop="20260303135000">
-    <title>Notre belle famille</title>
-    <desc lang="fr">Saison:7 - Episode:7 - Dana et Karen assistent ensemble à un cours de poésie. Dana est persuadée que leur professeur donne de bonnes notes à Karen uniquement parce qu'il est attiré par elle...</desc>
+  <programme start="20260303044500 +0100" stop="20260303045000 +0100" channel="fr2test">
+    <title lang="fr">Pays et marchés du monde</title>
+    <sub-title lang="fr">USA : Alabama</sub-title>
+    <desc lang="fr">Caméraman reporter, Xavier Petit part à la découverte d'un pays, d'une ville, d'un peuple et, bien sûr, d'un marché traditionnel et d'une spécialité locale.</desc>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3d65399d67d8b21b.jpeg/640x360/quality/80/pays-et-marches-du-monde.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303045000 +0100" stop="20260303050000 +0100" channel="fr2test">
+    <title lang="fr">Pays et marchés du monde</title>
+    <sub-title lang="fr">Arizona : Sierra Vista</sub-title>
+    <desc lang="fr">Caméraman reporter, Xavier Petit part à la découverte d'un pays, d'une ville, d'un peuple et, bien sûr, d'un marché traditionnel et d'une spécialité locale.</desc>
     <credits>
-      <director>Patrick Duffy</director>
-      <actor>Staci Keanan</actor>
-      <actor>Angela Watson</actor>
-      <actor>Andy Hirsch</actor>
-      <actor>Patrick Duffy</actor>
-      <actor>Suzanne Somers</actor>
-      <actor>Brandon Call</actor>
-      <actor>Christine Lakin</actor>
-      <actor>Christopher Castile</actor>
-      <actor>Emily Mae Young</actor>
-      <actor>Jason Marsden</actor>
-      <actor>Anna Slotky</actor>
-      <actor>Bari K. Willerford</actor>
-      <writer>William Bickley</writer>
-      <writer>Fred Rubin</writer>
-      <writer>Michael Warren</writer>
-      <writer>Robin Stein</writer>
+      <guest>Xavier Petit</guest>
+      <guest>Jean da Luz</guest>
     </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">30</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/04/b9347eac42724d87b394b1c32c7637f8.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">6.6.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~795694a5b5ae831a.jpeg/640x360/quality/80/pays-et-marches-du-monde.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303050000 +0100" stop="20260303055000 +0100" channel="fr2test">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b3a5bb3bd7417c55.jpeg/640x360/quality/80/tout-le-monde-veut-prendre-sa-place.jpg" />
     <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
+    <subtitles type="teletext" />
   </programme>
-  <programme start="20260303135000" channel="6tertest" stop="20260303141000">
-    <title>Notre belle famille</title>
-    <desc lang="fr">Saison:7 - Episode:8 - Dana devient jalouse car Rich joue au billard et aux jeux vidéo avec une ancienne amie. Pendant ce temps, Frank reçoit la visite d'un cousin.</desc>
-    <credits>
-      <director>Patrick A. Duffy</director>
-      <actor>Staci Keanan</actor>
-      <actor>Jason Marsden</actor>
-      <actor>Linda Cardellini</actor>
-      <actor>Fred Willard</actor>
-      <actor>Patrick A. Duffy</actor>
-      <actor>Suzanne Somers</actor>
-      <actor>Brandon Call</actor>
-      <actor>Angela Watson</actor>
-      <writer>Thomas L. Miller</writer>
-      <writer>Robert L. Boyett</writer>
-      <writer>William Bickley</writer>
-      <writer>Michael Warren</writer>
-      <writer>Mindy Schneider</writer>
-      <writer>Robin Stein</writer>
-    </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">20</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/11/19/dd539056013b4211a250e6663eaabd82.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">6.7.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303141000" channel="6tertest" stop="20260303144000">
-    <title>Notre belle famille</title>
-    <desc lang="fr">Saison:7 - Episode:9 - Carol se mêle des problèmes relationnels de Karen. Pendant ce temps, Dana prodigue des conseils à Rich et JT, qui se disputent sans cesse...</desc>
-    <credits>
-      <director>Rich Correll</director>
-      <actor>Patrick Duffy</actor>
-      <actor>Suzanne Somers</actor>
-      <actor>Staci Keanan</actor>
-      <actor>Brandon Call</actor>
-      <actor>Angela Watson</actor>
-      <actor>Christine Lakin</actor>
-      <actor>Christopher Castile</actor>
-      <actor>Josh Byrne</actor>
-      <actor>Jason Marsden</actor>
-      <actor>Emily Mae Young</actor>
-      <actor>Chris Young</actor>
-      <writer>Robert Griffard</writer>
-      <writer>Howard Adler</writer>
-      <writer>Robin Stein</writer>
-      <writer>William Bickley</writer>
-      <writer>Michael Warren</writer>
-    </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">30</length>
-    <icon src="https://focus.telerama.fr/952x634/2025/11/19/dd539056013b4211a250e6663eaabd82.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">6.8.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303144000" channel="6tertest" stop="20260303150000">
-    <title>Notre belle famille</title>
-    <desc lang="fr">Saison:7 - Episode:12 - Carol interdit à Dana d'avoir des relations sexuelles avant le mariage. La jeune fille décide alors de s'enfuir avec Rich pour se marier dès que possible...</desc>
-    <credits>
-      <director>Joel Zwick</director>
-      <actor>Suzanne Somers</actor>
-      <actor>Staci Keanan</actor>
-      <actor>Jason Marsden</actor>
-      <actor>Patrick Duffy</actor>
-      <actor>Brandon Call</actor>
-      <actor>Angela Watson</actor>
-      <actor>Christine Lakin</actor>
-      <actor>Peggy Rea</actor>
-      <actor>Christopher Castile</actor>
-      <actor>Emily Mae Young</actor>
-      <actor>Portia Dawson</actor>
-      <actor>Jim Doughan</actor>
-      <writer>Fred Rubin</writer>
-      <writer>William Bickley</writer>
-      <writer>Michael Warren</writer>
-      <writer>Robin Stein</writer>
-    </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="minutes">20</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/04/b9347eac42724d87b394b1c32c7637f8.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">6.11.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260303150000" channel="6tertest" stop="20260303160000">
-    <title>Le caméléon</title>
-    <desc lang="fr">Saison:2 - Episode:2 - Lyle et Brigitte sont consternés. Ils viennent d'apprendre que Jarod a dérobé cinquante millions de dollars au centre. Il aurait, en effet, effectué plusieurs dons à des associations caritatives. Les deux scientifiques en concluent que le caméléon est bien plus dangereux pour le centre que ce qu'ils pensaient. Pendant ce temps, dans une petite ville perdue des Etats-Unis, attablé dans un restaurant, Jarod surprend une conversation agitée entre le cuisinier et deux hommes à l'allure suspecte. Ceux-ci font chanter le pauvre employé en le menaçant de s'attaquer à son fils, âgé d'une dizaine d'années. Jarod décide de l'aider...</desc>
-    <credits>
-      <director>Joe Napolitano</director>
-      <actor>Michael T. Weiss</actor>
-      <actor>Andrea Parker</actor>
-      <actor>Patrick Bauchau</actor>
-      <actor>Pamela Gidley</actor>
-      <actor>James Denton</actor>
-      <actor>Louis Ferreira</actor>
-      <actor>Harris Laskawy</actor>
-      <actor>Ryan Merriman</actor>
-      <actor>Alex Wexo</actor>
-      <actor>David Dunard</actor>
-      <actor>Drake Bell</actor>
-      <actor>Ashley Peldon</actor>
-      <writer>Juan Carlos Coto</writer>
-      <writer>Tommy Thompson</writer>
-      <writer>Steven Long Mitchell</writer>
-      <writer>Craig W. van Sickle</writer>
-    </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="hours">1</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/12/e3c6782984b14aa5a001ccf9b6c8b3e9.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">1.1.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260303055000 +0100" stop="20260303060000 +0100" channel="fr2test">
+    <title lang="fr">Mot de passe : le duel</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~0414bc57c1e4256c.jpeg/640x360/quality/80/mot-de-passe-le-duel.jpg" />
     <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
+    <subtitles type="teletext" />
   </programme>
-  <programme start="20260303160000" channel="6tertest" stop="20260303170000">
-    <title>Le caméléon</title>
-    <desc lang="fr">Saison:2 - Episode:3 - Apprenant par hasard qu'un membre d'un groupe de secouristes a tenté de se suicider, Jarod décide de postuler dans cette équipe, désireux de connaître les motivations de la victime. Pendant ce temps, au centre, l'équipe de miss Parker évolue. En effet, Brigitte présente le docteur Curtis à ses collègues. Celui-ci, un spécialiste en criminologie, devrait les aider à identifier et à retrouver le meurtrier de Raines. Miss Parker, Sydney et Broots lui réservent un accueil plutôt mitigé...</desc>
-    <credits>
-      <director>James Whitmore jr.</director>
-      <actor>Michael T. Weiss</actor>
-      <actor>Andrea Parker</actor>
-      <actor>Patrick Bauchau</actor>
-      <actor>Jon Gries</actor>
-      <actor>Pamela Gidley</actor>
-      <actor>Sam Anderson</actor>
-      <actor>Gail Strickland</actor>
-      <actor>Larissa Laskin</actor>
-      <actor>Peter Murnik</actor>
-      <actor>Joseph D. Reitman</actor>
-      <actor>Richard Marcus</actor>
-      <actor>Kim Myers</actor>
-      <writer>Tony Blake</writer>
-      <writer>Paul Jackson</writer>
-      <writer>Steven Long Mitchell</writer>
-      <writer>Craig W. van Sickle</writer>
-    </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="hours">1</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/13/3b698ed809db4368ab1dd05f72537458.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">1.2.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
+  <programme start="20260303060000 +0100" stop="20260303063500 +0100" channel="fr2test">
+    <title lang="fr">Le 6h info</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~a688e824581432bc.jpeg/640x360/quality/80/le-6h-info.jpg" />
+    <subtitles type="teletext" />
   </programme>
-  <programme start="20260303170000" channel="6tertest" stop="20260303180000">
-    <title>Le Caméléon</title>
-    <desc lang="fr">Saison:2 - Episode:4 - Un jeune mannequin s'est tué dans un accident de voiture. Parce que sa mort semble suspecte aux yeux de plusieurs personnes, Jarod, qui a eu vent de l'affaire, décide de se faire passer pour un photographe afin de pouvoir enquêter dans le milieu de la mode. Au même moment, miss Parker, en compagnie du docteur Sydney, se rend à New York, sur les traces de Jarod. En effet, le Centre a réussi à retrouver la trace de l'étonnant homme-caméléon. Arrivés dans la mégalopole, ils interrogent l'ancien employeur de Jarod, qui les renseigne de son mieux. Les deux scientifiques se rendent donc dans l'Etat du Maine, où ils ne tardent pas à faire la connaissance de Ben, un ami de sa mère...</desc>
-    <credits>
-      <director>Jim Charleston</director>
-      <actor>Michael T. Weiss</actor>
-      <actor>Andrea Parker</actor>
-      <actor>Patrick Bauchau</actor>
-      <actor>Jon Gries</actor>
-      <actor>Samantha Smith</actor>
-      <actor>Harve Presnell</actor>
-      <actor>Jim Haynie</actor>
-      <actor>James Denton</actor>
-      <actor>Simon Templeman</actor>
-      <actor>Elizabeth Lackey</actor>
-      <actor>Patrick Fischler</actor>
-      <actor>Travis Fine</actor>
-      <writer>Tyler Bensinger</writer>
-      <writer>Steven Long Mitchell</writer>
-      <writer>Craig W. van Sickle</writer>
-    </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="hours">1</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/13/3b698ed809db4368ab1dd05f72537458.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">1.3.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
+  <programme start="20260303063500 +0100" stop="20260303080000 +0100" channel="fr2test">
+    <title lang="fr">Télématin</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d332664f73e6e5df.jpeg/640x360/quality/80/telematin.jpg" />
+    <subtitles type="teletext" />
   </programme>
-  <programme start="20260303180000" channel="6tertest" stop="20260303190000">
-    <title>Le caméléon</title>
-    <desc lang="fr">Saison:2 - Episode:5 - A Beverly Hills, Tricia, une jeune fille, a été défigurée dans un accident de voiture. Parce que les circonstances du drame demeurent obscures, Jarod, qui a eu vent de l'affaire, décide d'essayer d'en savoir plus afin de faire toute la lumière sur les événements. Il se fait passer pour un chirurgien esthétique et part pour Los Angeles. Dans le service médical où il prend ses fonctions, plusieurs indices étranges attirent son attention. Au même moment, Broots, victime de menaces inquiétantes, accepte la protection que lui propose Brigitte. Il comprend que quelqu'un le suit depuis un moment...</desc>
-    <credits>
-      <director>Michael Lange</director>
-      <actor>Michael T. Weiss</actor>
-      <actor>Andrea Parker</actor>
-      <actor>Patrick Bauchau</actor>
-      <actor>Jon Gries</actor>
-      <actor>Pamela Gidley</actor>
-      <actor>Katie Mitchell</actor>
-      <actor>Tim Quill</actor>
-      <actor>Saadia Persad</actor>
-      <actor>John Fleck</actor>
-      <actor>John Gegenhuber</actor>
-      <actor>Ryan Merriman</actor>
-      <actor>Alex Wexo</actor>
-      <writer>Eric Morris</writer>
-    </credits>
-    <date>1997</date>
-    <category lang="fr">serie</category>
-    <length units="hours">1</length>
-    <icon src="https://focus.telerama.fr/952x634/2026/02/13/3b698ed809db4368ab1dd05f72537458.jpg" />
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">1.4.</episode-num>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260303080000 +0100" stop="20260303083000 +0100" channel="fr2test">
+    <title lang="fr">Journal 08h00</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~23b8178158be08bd.jpeg/640x360/quality/80/journal-08h00.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303083000 +0100" stop="20260303095500 +0100" channel="fr2test">
+    <title lang="fr">Télématin</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d332664f73e6e5df.jpeg/640x360/quality/80/telematin.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303095500 +0100" stop="20260303104000 +0100" channel="fr2test">
+    <title lang="fr">Bel &amp; Bien ensemble</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~677cea09b52354a6.jpeg/640x360/quality/80/bel-bien-ensemble.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303104000 +0100" stop="20260303104500 +0100" channel="fr2test">
+    <title lang="fr">Consomag</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9111c7d2bb5f0c42.jpeg/640x360/quality/80/consomag.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303104500 +0100" stop="20260303105000 +0100" channel="fr2test">
+    <title lang="fr">Journal Météo climat outre-mer</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2de5ecbfd3a9e518.jpeg/640x360/quality/80/journal-meteo-climat-outre-mer.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303105000 +0100" stop="20260303112500 +0100" channel="fr2test">
+    <title lang="fr">Chacun son tour</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b0146ef1c1988507.jpeg/640x360/quality/80/chacun-son-tour.jpg" />
     <previously-shown />
-    <subtitles type="teletext">
-      <language>fr</language>
-    </subtitles>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303112500 +0100" stop="20260303115500 +0100" channel="fr2test">
+    <title lang="fr">Chacun son tour</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b0146ef1c1988507.jpeg/640x360/quality/80/chacun-son-tour.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303115500 +0100" stop="20260303125500 +0100" channel="fr2test">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b3a5bb3bd7417c55.jpeg/640x360/quality/80/tout-le-monde-veut-prendre-sa-place.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303125500 +0100" stop="20260303130000 +0100" channel="fr2test">
+    <title lang="fr">Journal Météo Climat</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~7f09ecec4d49d299.jpeg/640x360/quality/80/journal-meteo-climat.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303130000 +0100" stop="20260303134000 +0100" channel="fr2test">
+    <title lang="fr">Journal 13h00</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d7e5b31dd986f17d.jpeg/640x360/quality/80/journal-13h00.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303134000 +0100" stop="20260303134500 +0100" channel="fr2test">
+    <title lang="fr">Journal Météo Climat</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~7f09ecec4d49d299.jpeg/640x360/quality/80/journal-meteo-climat.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303134500 +0100" stop="20260303135000 +0100" channel="fr2test">
+    <title lang="fr">La p'tite librairie</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~edbc7b3aec2af987.jpeg/640x360/quality/80/la-p-tite-librairie.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303135000 +0100" stop="20260303135500 +0100" channel="fr2test">
+    <title lang="fr">Expression directe</title>
+    <sub-title lang="fr">CFDT</sub-title>
+    <desc lang="fr">Organisations syndicales, partis politiques, mais aussi mouvements d'entrepreneurs prennent la parole.</desc>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~fe569559d4d2f0c7.jpeg/640x360/quality/80/expression-directe.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303135500 +0100" stop="20260303150500 +0100" channel="fr2test">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f02f1a6860a7c3cd.jpeg/640x360/quality/80/ca-commence-aujourd-hui.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303150500 +0100" stop="20260303161000 +0100" channel="fr2test">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <sub-title lang="fr">A 20 ans, ils sont accros à la chirurgie esthétique</sub-title>
+    <desc lang="fr">Cette émission, présentée par Faustine Bollaert, propose des témoignages de vie racontés par ceux qui ont vécu des expériences particulières ou des moments importants de leur existence. Adoption, santé, sexualité, réseaux sociaux, accident ou encore escroquerie, les thèmes abordés sont aussi divers que les invités présents sur le plateau. Chacun leur tour, ils relatent leurs histoires afin de les partager et d’offrir des éclairages. Ce programme de 58 minutes donne rendez-vous aux téléspectateurs du lundi au vendredi juste après le journal de la mi-journée à 13 h 55.</desc>
+    <credits>
+      <guest>Faustine Bollaert</guest>
+    </credits>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f8ccdedc78997ddb.jpeg/640x360/quality/80/ca-commence-aujourd-hui.jpg" />
+    <previously-shown />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303161000 +0100" stop="20260303162500 +0100" channel="fr2test">
+    <title lang="fr">Affaire conclue : la vie des objets</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3d7b46e5d345afc4.jpeg/640x360/quality/80/affaire-conclue-la-vie-des-objets.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303162500 +0100" stop="20260303172000 +0100" channel="fr2test">
+    <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e42ace17107b100f.jpeg/640x360/quality/80/affaire-conclue-tout-le-monde-a-quelque-chose-a-vendre.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303172000 +0100" stop="20260303180000 +0100" channel="fr2test">
+    <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e42ace17107b100f.jpeg/640x360/quality/80/affaire-conclue-tout-le-monde-a-quelque-chose-a-vendre.jpg" />
+    <subtitles type="teletext" />
+  </programme>
+  <programme start="20260303180000 +0100" stop="20260303183500 +0100" channel="fr2test">
+    <title lang="fr">Tout le monde a son mot à dire</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b30db18c20518233.jpeg/640x360/quality/80/tout-le-monde-a-son-mot-a-dire.jpg" />
+    <subtitles type="teletext" />
   </programme>
   </tv>
