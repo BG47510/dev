@@ -109,7 +109,8 @@ for url in URLs:
 print("Assemblage du fichier final...")
 
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
-    output_file.write('<?xml version="1.0" encoding="UTF-8"?><tv>')
+    # Ajoutez un retour à la ligne après la déclaration XML
+    output_file.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n')
 
     # Canaux : Extraction et renommage
     for src in os.listdir(TEMP_DIR):
@@ -126,6 +127,7 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
                         if old_id in ID_MAP:  # Vérifier si l'ID est dans ID_MAP
                             channel.attrib['id'] = ID_MAP[old_id]  # Renommage
                             output_file.write(ET.tostring(channel, encoding='utf-8', xml_declaration=False).decode())
+                            output_file.write('\n')  # Retour à la ligne après chaque canal
                 except ET.ParseError as e:
                     print(f"Erreur lors du parsing de {src_file_path} : {e}")
 
@@ -147,10 +149,11 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
                             if key not in seen:
                                 seen[key] = True
                                 output_file.write(ET.tostring(programme, encoding='utf-8', xml_declaration=False).decode())
+                                output_file.write('\n')  # Retour à la ligne après chaque programme
                 except ET.ParseError as e:
                     print(f"Erreur lors du parsing de {src_file_path} : {e}")
 
-    output_file.write('</tv>')
+    output_file.write('</tv>\n')  # Retour à la ligne avant la fermeture de <tv>
 
 # Nettoyage final
 shutil.rmtree(TEMP_DIR)
