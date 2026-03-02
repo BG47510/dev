@@ -3,6 +3,7 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import gzip
+import shutil
 
 # Récupérer le répertoire du script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -88,7 +89,7 @@ for url in URLs:
 
         if found_new_content:
             for channel in root.findall('channel'):
-                if all(channel.attrib.get('id') != old_id and channel.attrib.get('channel') != old_id for old_id in ids_in_source):
+                if all(channel.attrib.get('id') != old_id for old_id in ids_in_source):
                     root.remove(channel)
 
             for programme in root.findall('programme'):
@@ -114,15 +115,17 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
     for src in os.listdir(TEMP_DIR):
         if src.startswith("src_"):
             src_file_path = os.path.join(TEMP_DIR, src)
-            # Vérifiez si le fichier existe et n'est pas vide
             if os.path.isfile(src_file_path) and os.path.getsize(src_file_path) > 0:
                 try:
                     tree = ET.parse(src_file_path)
                     root = tree.getroot()
+                    
+                    # Seule l'écriture des canaux pertinents
                     for channel in root.findall('channel'):
-                        for old in ID_MAP:
-                            channel.attrib['id'] = channel.attrib['id'].replace(old, ID_MAP[old])
-                        output_file.write(ET.tostring(channel, encoding='utf-8', xml_declaration=False).decode())
+                        old_id = channel.attrib.get('id')
+                        if old_id in ID_MAP:  # Vérifier si l'ID est dans ID_MAP
+                            channel.attrib['id'] = ID_MAP[old_id]  # Renommage
+                            output_file.write(ET.tostring(channel, encoding='utf-8', xml_declaration=False).decode())
                 except ET.ParseError as e:
                     print(f"Erreur lors du parsing de {src_file_path} : {e}")
 
@@ -131,7 +134,6 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
     for src in os.listdir(TEMP_DIR):
         if src.startswith("src_"):
             src_file_path = os.path.join(TEMP_DIR, src)
-            # Vérifiez si le fichier existe et n'est pas vide
             if os.path.isfile(src_file_path) and os.path.getsize(src_file_path) > 0:
                 try:
                     tree = ET.parse(src_file_path)
@@ -151,6 +153,5 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
     output_file.write('</tv>')
 
 # Nettoyage final
-import shutil
 shutil.rmtree(TEMP_DIR)
 print(f"SUCCÈS : {OUTPUT_FILE} généré.")
