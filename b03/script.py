@@ -59,6 +59,7 @@ for url in URLs:
     with open(raw_file, 'wb') as f:
         f.write(response.content)
 
+    # Vérifier si c'est un fichier gzip
     if url.endswith('.gz'):
         print(f"Décompression de {raw_file}...")
         with gzip.open(raw_file, 'rb') as f_in:
@@ -66,6 +67,7 @@ for url in URLs:
                 f_out.write(f_in.read())
         raw_file = raw_file[:-3]  # Mettre à jour le nom du fichier
 
+    # Vérifiez si le fichier est vide
     if os.path.getsize(raw_file) == 0:
         print(f"Le fichier {raw_file} est vide après décompression.")
         continue
@@ -85,16 +87,9 @@ for url in URLs:
                 found_new_content = True
 
         if found_new_content:
-            # Filtrer les canaux dans la source
-            valid_channels = []
             for channel in root.findall('channel'):
-                if channel.attrib['id'] in CHANNEL_IDS:  # Vérifiez si le canal est dans le mapping
-                    valid_channels.append(channel)
-
-            # Écrire les canaux filtrés dans le fichier source
-            for channel in valid_channels:
-                tree = ET.ElementTree(channel)  # Créez un arbre XML à partir de l'élément
-                tree.write(src_file, encoding='utf-8', xml_declaration=False)
+                if all(channel.attrib.get('id') != old_id and channel.attrib.get('channel') != old_id for old_id in ids_in_source):
+                    root.remove(channel)
 
             for programme in root.findall('programme'):
                 stop = programme.attrib['stop']
@@ -102,7 +97,7 @@ for url in URLs:
                 if (start > LIMIT) or (stop < NOW):
                     root.remove(programme)
 
-            tree.write(src_file)  # Écrire les programmes restants
+            tree.write(src_file)
         else:
             print("  [i] Aucun nouveau canal requis dans cette source.")
             open(src_file, 'w').close()  # Crée un fichier vide
@@ -119,15 +114,15 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
     for src in os.listdir(TEMP_DIR):
         if src.startswith("src_"):
             src_file_path = os.path.join(TEMP_DIR, src)
+            # Vérifiez si le fichier existe et n'est pas vide
             if os.path.isfile(src_file_path) and os.path.getsize(src_file_path) > 0:
                 try:
                     tree = ET.parse(src_file_path)
                     root = tree.getroot()
                     for channel in root.findall('channel'):
-                        if channel.attrib['id'] in ID_MAP:  # Vérifiez si le canal est dans le mapping
-                            for old in ID_MAP:
-                                channel.attrib['id'] = channel.attrib['id'].replace(old, ID_MAP[old])
-                            output_file.write(ET.tostring(channel, encoding='utf-8', xml_declaration=False).decode())
+                        for old in ID_MAP:
+                            channel.attrib['id'] = channel.attrib['id'].replace(old, ID_MAP[old])
+                        output_file.write(ET.tostring(channel, encoding='utf-8', xml_declaration=False).decode())
                 except ET.ParseError as e:
                     print(f"Erreur lors du parsing de {src_file_path} : {e}")
 
@@ -136,6 +131,7 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
     for src in os.listdir(TEMP_DIR):
         if src.startswith("src_"):
             src_file_path = os.path.join(TEMP_DIR, src)
+            # Vérifiez si le fichier existe et n'est pas vide
             if os.path.isfile(src_file_path) and os.path.getsize(src_file_path) > 0:
                 try:
                     tree = ET.parse(src_file_path)
