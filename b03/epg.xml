@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv><channel id="6tertest">
+<tv>
+<channel id="6tertest">
     <display-name>6ter</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~ceee54072118570a.png/480x480/quality/100/6ter.png" />
   </channel>
