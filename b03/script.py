@@ -1,7 +1,6 @@
 import os
 import requests
 import xml.etree.ElementTree as ET
-import csv
 from datetime import datetime, timedelta
 
 # Récupérer le répertoire du script
@@ -22,10 +21,13 @@ with open(CHANNELS_FILE, 'r') as f:
         line = line.strip()
         if not line or line.startswith('#'):
             continue
-        old_id, new_id = map(str.strip, line.split(',', 1))
-        if old_id and new_id:
-            ID_MAP[old_id] = new_id
-            CHANNEL_IDS.append(old_id)
+        try:
+            old_id, new_id = map(str.strip, line.split(',', 1))
+            if old_id and new_id:
+                ID_MAP[old_id] = new_id
+                CHANNEL_IDS.append(old_id)
+        except ValueError:
+            print(f"Erreur de format dans la ligne : {line}. Assurez-vous qu'elle est correctement formatée.")
 
 # Paramètres temporels
 NOW = datetime.now().strftime("%Y%m%d%H%M")
@@ -42,52 +44,65 @@ with open(URLS_FILE, 'r') as f:
 
 for url in URLs:
     count += 1
-    raw_file = os.path.join(TEMP_DIR, f"raw_{count}.xml")
+    raw_file = os.path.join(TEMP_DIR, f"raw_{count}.xml.gz")
     src_file = os.path.join(TEMP_DIR, f"src_{count}.xml")
 
     print(f"Source {count} : {url}")
 
-    # Téléchargement des fichiers
+    # Télécharger le fichier
     response = requests.get(url, timeout=10)
+    if response.status_code != 200:
+        print(f"Erreur de téléchargement : {response.status_code}")
+        continue
+
+    with open(raw_file, 'wb') as f:
+        f.write(response.content)
+
+    # Vérifier le contenu du fichier téléchargé
     if url.endswith('.gz'):
-        with open(raw_file, 'wb') as f:
-            f.write(response.content)
-        os.system(f"gunzip {raw_file}")  # décompression
+        # Décompression
+        os.system(f"gunzip {raw_file}")
+        raw_file = raw_file[:-3]  # Supprime l'extension .gz pour utiliser le fichier XML
     else:
-        with open(raw_file, 'wb') as f:
-            f.write(response.content)
+        # Vérifiez si le fichier est vide
+        if os.path.getsize(raw_file) == 0:
+            print(f"Le fichier {raw_file} est vide.")
+            continue
 
     # Traitement XML
     if os.path.getsize(raw_file) > 0:
-        tree = ET.parse(raw_file)
-        root = tree.getroot()
-        ids_in_source = [channel.attrib['id'] for channel in root.findall('channel')]
-        xpath_filter = []
-        found_new_content = False
+        try:
+            tree = ET.parse(raw_file)
+            root = tree.getroot()
+            ids_in_source = [channel.attrib['id'] for channel in root.findall('channel')]
+            xpath_filter = []
+            found_new_content = False
 
-        for old_id in ids_in_source:
-            new_id = ID_MAP.get(old_id)
-            if new_id and new_id not in CHANNELS_FILLED:
-                xpath_filter.append(f"@id='{old_id}' or @channel='{old_id}'")
-                CHANNELS_FILLED[new_id] = True
-                found_new_content = True
+            for old_id in ids_in_source:
+                new_id = ID_MAP.get(old_id)
+                if new_id and new_id not in CHANNELS_FILLED:
+                    xpath_filter.append(f"@id='{old_id}' or @channel='{old_id}'")
+                    CHANNELS_FILLED[new_id] = True
+                    found_new_content = True
 
-        if found_new_content:
-            for channel in root.findall('channel'):
-                if not any(eval(x) for x in xpath_filter):
-                    root.remove(channel)
+            if found_new_content:
+                for channel in root.findall('channel'):
+                    if not any(eval(x) for x in xpath_filter):
+                        root.remove(channel)
 
-            for programme in root.findall('programme'):
-                stop = programme.attrib['stop']
-                start = programme.attrib['start']
-                if (start > LIMIT) or (stop < NOW):
-                    root.remove(programme)
+                for programme in root.findall('programme'):
+                    stop = programme.attrib['stop']
+                    start = programme.attrib['start']
+                    if (start > LIMIT) or (stop < NOW):
+                        root.remove(programme)
 
-            tree.write(src_file)
-        else:
-            print("  [i] Aucun nouveau canal requis dans cette source.")
-            open(src_file, 'w').close()  # Crée un fichier vide
-        os.remove(raw_file)
+                tree.write(src_file)
+            else:
+                print("  [i] Aucun nouveau canal requis dans cette source.")
+                open(src_file, 'w').close()  # Crée un fichier vide
+            os.remove(raw_file)
+        except ET.ParseError as e:
+            print(f"Erreur lors du parsing de {raw_file} : {e}")
 
 # Assemblage final
 print("Assemblage du fichier final...")
@@ -129,5 +144,4 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
 # Nettoyage final
 import shutil
 shutil.rmtree(TEMP_DIR)
-# os.system(f"gzip -f {OUTPUT_FILE}")  # Optionnel : décommentez si vous voulez compresser
 print(f"SUCCÈS : {OUTPUT_FILE} généré.")
