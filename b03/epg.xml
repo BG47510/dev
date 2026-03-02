@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv>
-<channel id="6tertest">
+<tv><channel id="6tertest">
     <display-name>6ter</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~ceee54072118570a.png/480x480/quality/100/6ter.png" />
   </channel>
-  
-<channel id="fr2test">
+  <channel id="fr2test">
     <display-name>France 2</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~606394a5b095653a.png/480x480/quality/100/france-2.png" />
   </channel>
-  
-<programme start="20260302180000 +0100" stop="20260302190000 +0100" channel="6tertest">
+  <programme start="20260302180000 +0100" stop="20260302190000 +0100" channel="6tertest">
     <title lang="fr">Le caméléon</title>
     <sub-title lang="fr">Sur la corde raide</sub-title>
     <desc lang="fr">Apprenant par hasard qu'un membre d'un groupe de secouristes a tenté de se suicider, Jarod décide de postuler dans cette équipe, désireux de connaître les motivations de la victime. Pendant ce temps, au centre, l'équipe de miss Parker évolue. En effet, Brigitte présente le docteur Curtis à ses collègues. Celui-ci, un spécialiste en criminologie, devrait les aider à identifier et à retrouver le meurtrier de Raines. Miss Parker, Sydney et Broots lui réservent un accueil plutôt mitigé...</desc>
@@ -50,8 +47,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302190000 +0100" stop="20260302200000 +0100" channel="6tertest">
+  <programme start="20260302190000 +0100" stop="20260302200000 +0100" channel="6tertest">
     <title lang="fr">Le Caméléon</title>
     <sub-title lang="fr">L'élément révélateur</sub-title>
     <desc lang="fr">Un jeune mannequin s'est tué dans un accident de voiture. Parce que sa mort semble suspecte aux yeux de plusieurs personnes, Jarod, qui a eu vent de l'affaire, décide de se faire passer pour un photographe afin de pouvoir enquêter dans le milieu de la mode. Au même moment, miss Parker, en compagnie du docteur Sydney, se rend à New York, sur les traces de Jarod. En effet, le Centre a réussi à retrouver la trace de l'étonnant homme-caméléon. Arrivés dans la mégalopole, ils interrogent l'ancien employeur de Jarod, qui les renseigne de son mieux. Les deux scientifiques se rendent donc dans l'Etat du Maine, où ils ne tardent pas à faire la connaissance de Ben, un ami de sa mère...</desc>
@@ -88,8 +84,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302200000 +0100" stop="20260302211000 +0100" channel="6tertest">
+  <programme start="20260302200000 +0100" stop="20260302211000 +0100" channel="6tertest">
     <title lang="fr">Le caméléon</title>
     <sub-title lang="fr">La beauté cachée</sub-title>
     <desc lang="fr">A Beverly Hills, Tricia, une jeune fille, a été défigurée dans un accident de voiture. Parce que les circonstances du drame demeurent obscures, Jarod, qui a eu vent de l'affaire, décide d'essayer d'en savoir plus afin de faire toute la lumière sur les événements. Il se fait passer pour un chirurgien esthétique et part pour Los Angeles. Dans le service médical où il prend ses fonctions, plusieurs indices étranges attirent son attention. Au même moment, Broots, victime de menaces inquiétantes, accepte la protection que lui propose Brigitte. Il comprend que quelqu'un le suit depuis un moment...</desc>
@@ -126,8 +121,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302211000 +0100" stop="20260302223000 +0100" channel="6tertest">
+  <programme start="20260302211000 +0100" stop="20260302223000 +0100" channel="6tertest">
     <title lang="fr">Kaamelott</title>
     <desc lang="fr">Au Ve siècle après Jésus-Christ, dans l'actuelle Grande-Bretagne, le roi Arthur règne sur sa cour, à Kaamelott. Investi d'une mission divine, il recherche sans relâche le Graal, la coupe dont se serait servi Jésus de Nazareth lors de la Cène. Mais voilà, les fameux chevaliers de la Table ronde ne se montrent pas très efficaces pour le seconder. Incompétents, batailleurs, noceurs et fainéants, ils multiplient les gaffes. La vie à Kaamelott est pleine de surprises. Une série à succès qui cultive l'absurde avec délectation. L'acteur et réalisateur Alexandre Astier y côtoie son père, Lionnel Astier.</desc>
     <credits>
@@ -154,8 +148,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302223000 +0100" stop="20260303000000 +0100" channel="6tertest">
+  <programme start="20260302223000 +0100" stop="20260303000000 +0100" channel="6tertest">
     <title lang="fr">Kaamelott</title>
     <desc lang="fr">Au Ve siècle après Jésus-Christ, dans l'actuelle Grande-Bretagne, le roi Arthur règne sur sa cour, à Kaamelott. Investi d'une mission divine, il recherche sans relâche le Graal, la coupe dont se serait servi Jésus de Nazareth lors de la Cène. Mais voilà, les fameux chevaliers de la Table ronde ne se montrent pas très efficaces pour le seconder. Incompétents, batailleurs, noceurs et fainéants, ils multiplient les gaffes. La vie à Kaamelott est pleine de surprises. Une série à succès qui cultive l'absurde avec délectation. L'acteur et réalisateur Alexandre Astier y côtoie son père, Lionnel Astier.</desc>
     <credits>
@@ -182,8 +175,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260303000000 +0100" stop="20260303010000 +0100" channel="6tertest">
+  <programme start="20260303000000 +0100" stop="20260303010000 +0100" channel="6tertest">
     <title lang="fr">Kaamelott</title>
     <credits>
       <director>Alexandre Astier</director>
@@ -203,14 +195,12 @@
     </star-rating>
     <review type="text">Une série humoristique brillamment écrite, laissant les acteurs exprimer tout leur potentiel comique en détournant un mythe bien connu du grand public de façon ingénieuse. La série parvient également à se réinventer et ne tombe pas dans le piège de la redondance malgré un nombre conséquent d'épisodes.</review>
   </programme>
-  
-<programme start="20260303010000 +0100" stop="20260303060000 +0100" channel="6tertest">
+  <programme start="20260303010000 +0100" stop="20260303060000 +0100" channel="6tertest">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Autre</category>
   </programme>
-  
-<programme start="20260303060000 +0100" stop="20260303063000 +0100" channel="6tertest">
+  <programme start="20260303060000 +0100" stop="20260303063000 +0100" channel="6tertest">
     <title lang="fr">Dr Cath &amp; Co</title>
     <desc lang="fr">La première patiente est Ruby, une chienne de 14 ans qui perd beaucoup de sang et souffre d'une infection. Le docteur Catherine Dufrane doit intervenir pour opérer la chienne.</desc>
     <category lang="fr">Culture Infos</category>
@@ -218,8 +208,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303063000 +0100" stop="20260303070000 +0100" channel="6tertest">
+  <programme start="20260303063000 +0100" stop="20260303070000 +0100" channel="6tertest">
     <title lang="fr">Dr Cath &amp; Co</title>
     <desc lang="fr">Le docteur Catherine doit gérer de nombreuses urgences arrivées au cours de la nuit. Elle a hâte de voir comment Martino, un Terre-neuve, s'est rétabli cette nuit.</desc>
     <category lang="fr">Culture Infos</category>
@@ -227,8 +216,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303070000 +0100" stop="20260303073000 +0100" channel="6tertest">
+  <programme start="20260303070000 +0100" stop="20260303073000 +0100" channel="6tertest">
     <title lang="fr">Dr Cath &amp; Co</title>
     <desc lang="fr">Le docteur Catherine Dufrane a une journée bien chargée. En effet, la propriétaire d'un sphynx en phase terminale arrive au cabinet en pleurs. Benny, un chat de 17 ans, a également été amené au cabinet pour être traité en urgence.</desc>
     <category lang="fr">Culture Infos</category>
@@ -236,8 +224,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303073000 +0100" stop="20260303081000 +0100" channel="6tertest">
+  <programme start="20260303073000 +0100" stop="20260303081000 +0100" channel="6tertest">
     <title lang="fr">Dr Cath &amp; Co</title>
     <desc lang="fr">Le docteur Catherine Dufrane gère au quotidien dans son cabinet des visites de routine ou des cas plus urgents. Le propriétaire d'un chien s'est aperçu que celui-ci a ingurgité une grosse quantité de mort-aux-rats.</desc>
     <category lang="fr">Culture Infos</category>
@@ -245,8 +232,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303081000 +0100" stop="20260303091000 +0100" channel="6tertest">
+  <programme start="20260303081000 +0100" stop="20260303091000 +0100" channel="6tertest">
     <title lang="fr">Le château de mes rêves</title>
     <desc lang="fr">Plongée dans le quotidien hors norme de douze familles qui viennent d’acquérir un château, parfois sans fortune personnelle. Mais ce rêve a un prix. Car posséder un domaine, c’est également devoir financer son entretien, ses travaux ainsi que de nombreux imprévus. Ces nouveaux châtelains ont ainsi tout quitté pour changer de vie et ouvrir des chambres d’hôtes, organiser des mariages ou monter des événements grandioses, seul moyen pour eux d’entretenir ces lieux hors du commun.</desc>
     <category lang="fr">Culture Infos</category>
@@ -254,8 +240,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303091000 +0100" stop="20260303101000 +0100" channel="6tertest">
+  <programme start="20260303091000 +0100" stop="20260303101000 +0100" channel="6tertest">
     <title lang="fr">Le château de mes rêves</title>
     <desc lang="fr">Plongée dans le quotidien hors norme de douze familles qui viennent d’acquérir un château, parfois sans fortune personnelle. Mais ce rêve a un prix. Car posséder un domaine, c’est également devoir financer son entretien, ses travaux ainsi que de nombreux imprévus. Ces nouveaux châtelains ont ainsi tout quitté pour changer de vie et ouvrir des chambres d’hôtes, organiser des mariages ou monter des événements grandioses, seul moyen pour eux d’entretenir ces lieux hors du commun.</desc>
     <category lang="fr">Culture Infos</category>
@@ -263,8 +248,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303101000 +0100" stop="20260303111000 +0100" channel="6tertest">
+  <programme start="20260303101000 +0100" stop="20260303111000 +0100" channel="6tertest">
     <title lang="fr">Le château de mes rêves</title>
     <desc lang="fr">Plongée dans le quotidien hors norme de douze familles qui viennent d’acquérir un château, parfois sans fortune personnelle. Mais ce rêve a un prix. Car posséder un domaine, c’est également devoir financer son entretien, ses travaux ainsi que de nombreux imprévus. Ces nouveaux châtelains ont ainsi tout quitté pour changer de vie et ouvrir des chambres d’hôtes, organiser des mariages ou monter des événements grandioses, seul moyen pour eux d’entretenir ces lieux hors du commun.</desc>
     <category lang="fr">Culture Infos</category>
@@ -272,8 +256,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303111000 +0100" stop="20260303121000 +0100" channel="6tertest">
+  <programme start="20260303111000 +0100" stop="20260303121000 +0100" channel="6tertest">
     <title lang="fr">Le château de mes rêves</title>
     <desc lang="fr">Plongée dans le quotidien hors norme de douze familles qui viennent d’acquérir un château, parfois sans fortune personnelle. Mais ce rêve a un prix. Car posséder un domaine, c’est également devoir financer son entretien, ses travaux ainsi que de nombreux imprévus. Ces nouveaux châtelains ont ainsi tout quitté pour changer de vie et ouvrir des chambres d’hôtes, organiser des mariages ou monter des événements grandioses, seul moyen pour eux d’entretenir ces lieux hors du commun.</desc>
     <category lang="fr">Culture Infos</category>
@@ -281,8 +264,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303121000 +0100" stop="20260303124000 +0100" channel="6tertest">
+  <programme start="20260303121000 +0100" stop="20260303124000 +0100" channel="6tertest">
     <title lang="fr">Notre belle famille</title>
     <sub-title lang="fr">Une étoile est née</sub-title>
     <credits>
@@ -299,8 +281,7 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d4301853c4bc29e2.jpeg/640x360/quality/80/notre-belle-famille.jpg" />
     <previously-shown />
   </programme>
-  
-<programme start="20260303124000 +0100" stop="20260303130000 +0100" channel="6tertest">
+  <programme start="20260303124000 +0100" stop="20260303130000 +0100" channel="6tertest">
     <title lang="fr">Notre belle famille</title>
     <sub-title lang="fr">Soupçons</sub-title>
     <credits>
@@ -317,8 +298,7 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3f80d5c8a6ba4942.jpeg/640x360/quality/80/notre-belle-famille.jpg" />
     <previously-shown />
   </programme>
-  
-<programme start="20260303130000 +0100" stop="20260303133000 +0100" channel="6tertest">
+  <programme start="20260303130000 +0100" stop="20260303133000 +0100" channel="6tertest">
     <title lang="fr">Notre belle famille</title>
     <sub-title lang="fr">Les risques du métier</sub-title>
     <credits>
@@ -335,8 +315,7 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d4301853c4bc29e2.jpeg/640x360/quality/80/notre-belle-famille.jpg" />
     <previously-shown />
   </programme>
-  
-<programme start="20260303133000 +0100" stop="20260303140000 +0100" channel="6tertest">
+  <programme start="20260303133000 +0100" stop="20260303140000 +0100" channel="6tertest">
     <title lang="fr">Notre belle famille</title>
     <sub-title lang="fr">Amour et poésie</sub-title>
     <credits>
@@ -353,8 +332,7 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~7cee69c2c237f833.jpeg/640x360/quality/80/notre-belle-famille.jpg" />
     <previously-shown />
   </programme>
-  
-<programme start="20260303140000 +0100" stop="20260303142000 +0100" channel="6tertest">
+  <programme start="20260303140000 +0100" stop="20260303142000 +0100" channel="6tertest">
     <title lang="fr">Notre belle famille</title>
     <sub-title lang="fr">L'amour ne s'achète pas</sub-title>
     <credits>
@@ -371,8 +349,7 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d1c9bb4ea4c6b50c.jpeg/640x360/quality/80/notre-belle-famille.jpg" />
     <previously-shown />
   </programme>
-  
-<programme start="20260303142000 +0100" stop="20260303145000 +0100" channel="6tertest">
+  <programme start="20260303142000 +0100" stop="20260303145000 +0100" channel="6tertest">
     <title lang="fr">Notre belle famille</title>
     <sub-title lang="fr">La visiteuse d'un soir</sub-title>
     <credits>
@@ -389,8 +366,7 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~45c2d2dd37ba698a.jpeg/640x360/quality/80/notre-belle-famille.jpg" />
     <previously-shown />
   </programme>
-  
-<programme start="20260303145000 +0100" stop="20260303151000 +0100" channel="6tertest">
+  <programme start="20260303145000 +0100" stop="20260303151000 +0100" channel="6tertest">
     <title lang="fr">Notre belle famille</title>
     <sub-title lang="fr">Les filles s'amusent</sub-title>
     <credits>
@@ -407,8 +383,7 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~7cee69c2c237f833.jpeg/640x360/quality/80/notre-belle-famille.jpg" />
     <previously-shown />
   </programme>
-  
-<programme start="20260303151000 +0100" stop="20260303154000 +0100" channel="6tertest">
+  <programme start="20260303151000 +0100" stop="20260303154000 +0100" channel="6tertest">
     <title lang="fr">Notre belle famille</title>
     <sub-title lang="fr">Guerres froides</sub-title>
     <credits>
@@ -425,8 +400,7 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~1226291d13f9528a.jpg/640x360/quality/80/notre-belle-famille.jpg" />
     <previously-shown />
   </programme>
-  
-<programme start="20260303154000 +0100" stop="20260303160000 +0100" channel="6tertest">
+  <programme start="20260303154000 +0100" stop="20260303160000 +0100" channel="6tertest">
     <title lang="fr">Notre belle famille</title>
     <sub-title lang="fr">En route pour la chapelle</sub-title>
     <credits>
@@ -443,8 +417,7 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~394b747f72edeaf9.jpeg/640x360/quality/80/notre-belle-famille.jpg" />
     <previously-shown />
   </programme>
-  
-<programme start="20260303160000 +0100" stop="20260303170000 +0100" channel="6tertest">
+  <programme start="20260303160000 +0100" stop="20260303170000 +0100" channel="6tertest">
     <title lang="fr">Le caméléon</title>
     <sub-title lang="fr">Le père et le fils</sub-title>
     <credits>
@@ -462,8 +435,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303170000 +0100" stop="20260303180000 +0100" channel="6tertest">
+  <programme start="20260303170000 +0100" stop="20260303180000 +0100" channel="6tertest">
     <title lang="fr">Le caméléon</title>
     <sub-title lang="fr">Sur la corde raide</sub-title>
     <credits>
@@ -481,8 +453,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303180000 +0100" stop="20260303190000 +0100" channel="6tertest">
+  <programme start="20260303180000 +0100" stop="20260303190000 +0100" channel="6tertest">
     <title lang="fr">Le Caméléon</title>
     <sub-title lang="fr">L'élément révélateur</sub-title>
     <credits>
@@ -500,8 +471,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260302183500 +0100" stop="20260302191000 +0100" channel="fr2test">
+  <programme start="20260302183500 +0100" stop="20260302191000 +0100" channel="fr2test">
     <title lang="fr">N'oubliez pas les paroles</title>
     <desc lang="fr">Accompagnés par un orchestre, les candidats chantent en karaoké. Mais les paroles affichées ne sont pas complètes. A eux de combler les vides. Pour cela, ils doivent se souvenir des mots exacts de la chanson.</desc>
     <credits>
@@ -518,8 +488,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302191000 +0100" stop="20260302195500 +0100" channel="fr2test">
+  <programme start="20260302191000 +0100" stop="20260302195500 +0100" channel="fr2test">
     <title lang="fr">N'oubliez pas les paroles</title>
     <desc lang="fr">Accompagnés par un orchestre, les candidats chantent en karaoké. Mais les paroles affichées ne sont pas complètes. A eux de combler les vides. Pour cela, ils doivent se souvenir des mots exacts de la chanson.</desc>
     <credits>
@@ -536,8 +505,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302195500 +0100" stop="20260302200000 +0100" channel="fr2test">
+  <programme start="20260302195500 +0100" stop="20260302200000 +0100" channel="fr2test">
     <title lang="fr">Journal Météo Climat</title>
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
     <date>2026</date>
@@ -549,8 +517,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302200000 +0100" stop="20260302205000 +0100" channel="fr2test">
+  <programme start="20260302200000 +0100" stop="20260302205000 +0100" channel="fr2test">
     <title lang="fr">Journal 20h00</title>
     <desc lang="fr">Les principales informations nationales et internationales sont passées à la loupe et mises en perspective, illustrées par des reportages sur le terrain.</desc>
     <credits>
@@ -565,8 +532,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302205000 +0100" stop="20260302205300 +0100" channel="fr2test">
+  <programme start="20260302205000 +0100" stop="20260302205300 +0100" channel="fr2test">
     <title lang="fr">Journal Météo Climat</title>
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
     <date>2026</date>
@@ -578,8 +544,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302205300 +0100" stop="20260302205500 +0100" channel="fr2test">
+  <programme start="20260302205300 +0100" stop="20260302205500 +0100" channel="fr2test">
     <title lang="fr">Image du jour sports</title>
     <desc lang="fr">Gros plan en images sur les principaux événements sportifs du jour.</desc>
     <date>2026</date>
@@ -591,8 +556,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302205500 +0100" stop="20260302210000 +0100" channel="fr2test">
+  <programme start="20260302205500 +0100" stop="20260302210000 +0100" channel="fr2test">
     <title lang="fr">Basique, l'essentiel de la musique</title>
     <sub-title lang="fr">Marguerite</sub-title>
     <desc lang="fr">Une pastille consacrée à l'actualité musicale, qui braque les projecteurs sur un ou une artiste.</desc>
@@ -605,8 +569,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302210000 +0100" stop="20260302211000 +0100" channel="fr2test">
+  <programme start="20260302210000 +0100" stop="20260302211000 +0100" channel="fr2test">
     <title lang="fr">Mot de passe : le duel</title>
     <desc lang="fr">Deux candidats accompagnés de deux personnalités s'affrontent pour découvrir un maximum de mots en un minimum de temps.</desc>
     <credits>
@@ -621,8 +584,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302211000 +0100" stop="20260302224500 +0100" channel="fr2test">
+  <programme start="20260302211000 +0100" stop="20260302224500 +0100" channel="fr2test">
     <title lang="fr">L'art du crime</title>
     <sub-title lang="fr">Le serment de David</sub-title>
     <desc lang="fr">Au musée Grévin, à Paris, un historien spécialiste du peintre Jacques-Louis David est retrouvé assassiné dans la baignoire du révolutionnaire Marat, une mise en scène qui reproduit à l'identique le fameux tableau du maître. Pour démasquer le meurtrier, Antoine Verlay et Florence Chassagne doivent infiltrer un colloque d'historiens de l'art en se faisant passer pour un couple. Une couverture qui pourrait bien créer de nouvelles tensions entre eux. Ou au contraire les rapprocher...</desc>
@@ -654,8 +616,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260302224500 +0100" stop="20260303001500 +0100" channel="fr2test">
+  <programme start="20260302224500 +0100" stop="20260303001500 +0100" channel="fr2test">
     <title lang="fr">L'art du crime</title>
     <sub-title lang="fr">Un coeur de pierre</sub-title>
     <desc lang="fr">Antoine et Florence doivent élucider le meurtre à son domicile d'une riche collectionneuse, passionnée de Camille Claudel. Pierre Chassagne, le père de Florence, qui était un ami proche de la victime, était dans la maison au moment où le coup de feu mortel a été tiré. Le tueur l'a ensuite assommé avant de prendre la fuite. "L'Implorante", une des statues exposées dans la demeure, a été volée. Tandis que l'enquête entraîne Antoine et Florence jusqu'au musée Rodin, tous les indices ramènent à la douloureuse histoire d'amour que Camille Claudel a connue avec Auguste Rodin. L'amour blessé peut-il rendre fou au point de tuer ? Serait-ce la clé de l'énigme ?...</desc>
@@ -698,8 +659,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  
-<programme start="20260303001500 +0100" stop="20260303002000 +0100" channel="fr2test">
+  <programme start="20260303001500 +0100" stop="20260303002000 +0100" channel="fr2test">
     <title lang="fr">Expression directe</title>
     <sub-title lang="fr">Coordination rurale</sub-title>
     <desc lang="fr">Organisations syndicales, partis politiques, mais aussi mouvements d'entrepreneurs prennent la parole.</desc>
@@ -707,8 +667,7 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~fe569559d4d2f0c7.jpeg/640x360/quality/80/expression-directe.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303002000 +0100" stop="20260303015500 +0100" channel="fr2test">
+  <programme start="20260303002000 +0100" stop="20260303015500 +0100" channel="fr2test">
     <title lang="fr">L'art du crime</title>
     <sub-title lang="fr">Versailles, es-tu là ?</sub-title>
     <credits>
@@ -728,8 +687,7 @@
     <subtitles type="teletext" />
     <audio-described />
   </programme>
-  
-<programme start="20260303015500 +0100" stop="20260303025000 +0100" channel="fr2test">
+  <programme start="20260303015500 +0100" stop="20260303025000 +0100" channel="fr2test">
     <title lang="fr">Coeurs Noirs</title>
     <sub-title lang="fr">Episode 4</sub-title>
     <desc lang="fr">A l’exception de Rimbaud (Tewfik Jallab), tout le Groupe 45 rempile et accueille trois nouveaux : un sniper, un médecin et Tyson, un malinois spécialisé dans la recherche d’explosifs interprété par "trois chiens du GIGN : Nitro, Nitrate et Polonium", précise Victor Pontecorvo, alias Spit, le dépiegeur, toujours en proie avec ses démons. Car, bien que les interventions, toutes haletantes, soient plus nombreuses et les scènes de tortures difficilement soutenables, l’aspect privé des personnage n’est pas éludé. Ce qui force encore plus le respect face à la détermination et l’abnégation de ces hommes et femmes de terrain traversés par les tourments de tout à chacun. Car sang-froid et maîtrise de leurs émotions seront plus que jamais nécessaires pour mener à bien leurs objectifs.&amp;nbsp;</desc>
@@ -750,8 +708,7 @@
     <subtitles type="teletext" />
     <audio-described />
   </programme>
-  
-<programme start="20260303025000 +0100" stop="20260303034000 +0100" channel="fr2test">
+  <programme start="20260303025000 +0100" stop="20260303034000 +0100" channel="fr2test">
     <title lang="fr">Coeurs Noirs</title>
     <sub-title lang="fr">Episode 5</sub-title>
     <desc lang="fr">A l’exception de Rimbaud (Tewfik Jallab), tout le Groupe 45 rempile et accueille trois nouveaux : un sniper, un médecin et Tyson, un malinois spécialisé dans la recherche d’explosifs interprété par "trois chiens du GIGN : Nitro, Nitrate et Polonium", précise Victor Pontecorvo, alias Spit, le dépiegeur, toujours en proie avec ses démons. Car, bien que les interventions, toutes haletantes, soient plus nombreuses et les scènes de tortures difficilement soutenables, l’aspect privé des personnage n’est pas éludé. Ce qui force encore plus le respect face à la détermination et l’abnégation de ces hommes et femmes de terrain traversés par les tourments de tout à chacun. Car sang-froid et maîtrise de leurs émotions seront plus que jamais nécessaires pour mener à bien leurs objectifs.&amp;nbsp;</desc>
@@ -772,8 +729,7 @@
     <subtitles type="teletext" />
     <audio-described />
   </programme>
-  
-<programme start="20260303034000 +0100" stop="20260303042500 +0100" channel="fr2test">
+  <programme start="20260303034000 +0100" stop="20260303042500 +0100" channel="fr2test">
     <title lang="fr">Coeurs Noirs</title>
     <sub-title lang="fr">Episode 6</sub-title>
     <desc lang="fr">A l’exception de Rimbaud (Tewfik Jallab), tout le Groupe 45 rempile et accueille trois nouveaux : un sniper, un médecin et Tyson, un malinois spécialisé dans la recherche d’explosifs interprété par "trois chiens du GIGN : Nitro, Nitrate et Polonium", précise Victor Pontecorvo, alias Spit, le dépiegeur, toujours en proie avec ses démons. Car, bien que les interventions, toutes haletantes, soient plus nombreuses et les scènes de tortures difficilement soutenables, l’aspect privé des personnage n’est pas éludé. Ce qui force encore plus le respect face à la détermination et l’abnégation de ces hommes et femmes de terrain traversés par les tourments de tout à chacun. Car sang-froid et maîtrise de leurs émotions seront plus que jamais nécessaires pour mener à bien leurs objectifs.&amp;nbsp;</desc>
@@ -794,15 +750,13 @@
     <subtitles type="teletext" />
     <audio-described />
   </programme>
-  
-<programme start="20260303042500 +0100" stop="20260303043000 +0100" channel="fr2test">
+  <programme start="20260303042500 +0100" stop="20260303043000 +0100" channel="fr2test">
     <title lang="fr">Journal Météo climat outre-mer</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~collection~2de5ecbfd3a9e518.jpeg/640x360/quality/80/journal-meteo-climat-outre-mer.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303043000 +0100" stop="20260303044500 +0100" channel="fr2test">
+  <programme start="20260303043000 +0100" stop="20260303044500 +0100" channel="fr2test">
     <title lang="fr">Courant d'art</title>
     <sub-title lang="fr">Hey ! Le dessin</sub-title>
     <desc lang="fr">Un retour sur une exposition au musée de la Halle St Pierre à Paris, nous permettant de découvrir les artistes oubliés de l'Art.</desc>
@@ -811,8 +765,7 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303044500 +0100" stop="20260303045000 +0100" channel="fr2test">
+  <programme start="20260303044500 +0100" stop="20260303045000 +0100" channel="fr2test">
     <title lang="fr">Pays et marchés du monde</title>
     <sub-title lang="fr">USA : Alabama</sub-title>
     <desc lang="fr">Caméraman reporter, Xavier Petit part à la découverte d'un pays, d'une ville, d'un peuple et, bien sûr, d'un marché traditionnel et d'une spécialité locale.</desc>
@@ -820,8 +773,7 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3d65399d67d8b21b.jpeg/640x360/quality/80/pays-et-marches-du-monde.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303045000 +0100" stop="20260303050000 +0100" channel="fr2test">
+  <programme start="20260303045000 +0100" stop="20260303050000 +0100" channel="fr2test">
     <title lang="fr">Pays et marchés du monde</title>
     <sub-title lang="fr">Arizona : Sierra Vista</sub-title>
     <desc lang="fr">Caméraman reporter, Xavier Petit part à la découverte d'un pays, d'une ville, d'un peuple et, bien sûr, d'un marché traditionnel et d'une spécialité locale.</desc>
@@ -833,123 +785,106 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~795694a5b5ae831a.jpeg/640x360/quality/80/pays-et-marches-du-monde.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303050000 +0100" stop="20260303055000 +0100" channel="fr2test">
+  <programme start="20260303050000 +0100" stop="20260303055000 +0100" channel="fr2test">
     <title lang="fr">Tout le monde veut prendre sa place</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b3a5bb3bd7417c55.jpeg/640x360/quality/80/tout-le-monde-veut-prendre-sa-place.jpg" />
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303055000 +0100" stop="20260303060000 +0100" channel="fr2test">
+  <programme start="20260303055000 +0100" stop="20260303060000 +0100" channel="fr2test">
     <title lang="fr">Mot de passe : le duel</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~0414bc57c1e4256c.jpeg/640x360/quality/80/mot-de-passe-le-duel.jpg" />
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303060000 +0100" stop="20260303063500 +0100" channel="fr2test">
+  <programme start="20260303060000 +0100" stop="20260303063500 +0100" channel="fr2test">
     <title lang="fr">Le 6h info</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~a688e824581432bc.jpeg/640x360/quality/80/le-6h-info.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303063500 +0100" stop="20260303080000 +0100" channel="fr2test">
+  <programme start="20260303063500 +0100" stop="20260303080000 +0100" channel="fr2test">
     <title lang="fr">Télématin</title>
     <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d332664f73e6e5df.jpeg/640x360/quality/80/telematin.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303080000 +0100" stop="20260303083000 +0100" channel="fr2test">
+  <programme start="20260303080000 +0100" stop="20260303083000 +0100" channel="fr2test">
     <title lang="fr">Journal 08h00</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~23b8178158be08bd.jpeg/640x360/quality/80/journal-08h00.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303083000 +0100" stop="20260303095500 +0100" channel="fr2test">
+  <programme start="20260303083000 +0100" stop="20260303095500 +0100" channel="fr2test">
     <title lang="fr">Télématin</title>
     <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d332664f73e6e5df.jpeg/640x360/quality/80/telematin.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303095500 +0100" stop="20260303104000 +0100" channel="fr2test">
+  <programme start="20260303095500 +0100" stop="20260303104000 +0100" channel="fr2test">
     <title lang="fr">Bel &amp; Bien ensemble</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~677cea09b52354a6.jpeg/640x360/quality/80/bel-bien-ensemble.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303104000 +0100" stop="20260303104500 +0100" channel="fr2test">
+  <programme start="20260303104000 +0100" stop="20260303104500 +0100" channel="fr2test">
     <title lang="fr">Consomag</title>
     <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9111c7d2bb5f0c42.jpeg/640x360/quality/80/consomag.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303104500 +0100" stop="20260303105000 +0100" channel="fr2test">
+  <programme start="20260303104500 +0100" stop="20260303105000 +0100" channel="fr2test">
     <title lang="fr">Journal Météo climat outre-mer</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2de5ecbfd3a9e518.jpeg/640x360/quality/80/journal-meteo-climat-outre-mer.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303105000 +0100" stop="20260303112500 +0100" channel="fr2test">
+  <programme start="20260303105000 +0100" stop="20260303112500 +0100" channel="fr2test">
     <title lang="fr">Chacun son tour</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b0146ef1c1988507.jpeg/640x360/quality/80/chacun-son-tour.jpg" />
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303112500 +0100" stop="20260303115500 +0100" channel="fr2test">
+  <programme start="20260303112500 +0100" stop="20260303115500 +0100" channel="fr2test">
     <title lang="fr">Chacun son tour</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b0146ef1c1988507.jpeg/640x360/quality/80/chacun-son-tour.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303115500 +0100" stop="20260303125500 +0100" channel="fr2test">
+  <programme start="20260303115500 +0100" stop="20260303125500 +0100" channel="fr2test">
     <title lang="fr">Tout le monde veut prendre sa place</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b3a5bb3bd7417c55.jpeg/640x360/quality/80/tout-le-monde-veut-prendre-sa-place.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303125500 +0100" stop="20260303130000 +0100" channel="fr2test">
+  <programme start="20260303125500 +0100" stop="20260303130000 +0100" channel="fr2test">
     <title lang="fr">Journal Météo Climat</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~7f09ecec4d49d299.jpeg/640x360/quality/80/journal-meteo-climat.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303130000 +0100" stop="20260303134000 +0100" channel="fr2test">
+  <programme start="20260303130000 +0100" stop="20260303134000 +0100" channel="fr2test">
     <title lang="fr">Journal 13h00</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d7e5b31dd986f17d.jpeg/640x360/quality/80/journal-13h00.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303134000 +0100" stop="20260303134500 +0100" channel="fr2test">
+  <programme start="20260303134000 +0100" stop="20260303134500 +0100" channel="fr2test">
     <title lang="fr">Journal Météo Climat</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~7f09ecec4d49d299.jpeg/640x360/quality/80/journal-meteo-climat.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303134500 +0100" stop="20260303135000 +0100" channel="fr2test">
+  <programme start="20260303134500 +0100" stop="20260303135000 +0100" channel="fr2test">
     <title lang="fr">La p'tite librairie</title>
     <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~edbc7b3aec2af987.jpeg/640x360/quality/80/la-p-tite-librairie.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303135000 +0100" stop="20260303135500 +0100" channel="fr2test">
+  <programme start="20260303135000 +0100" stop="20260303135500 +0100" channel="fr2test">
     <title lang="fr">Expression directe</title>
     <sub-title lang="fr">CFDT</sub-title>
     <desc lang="fr">Organisations syndicales, partis politiques, mais aussi mouvements d'entrepreneurs prennent la parole.</desc>
@@ -957,15 +892,13 @@
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~fe569559d4d2f0c7.jpeg/640x360/quality/80/expression-directe.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303135500 +0100" stop="20260303150500 +0100" channel="fr2test">
+  <programme start="20260303135500 +0100" stop="20260303150500 +0100" channel="fr2test">
     <title lang="fr">Ça commence aujourd'hui</title>
     <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f02f1a6860a7c3cd.jpeg/640x360/quality/80/ca-commence-aujourd-hui.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303150500 +0100" stop="20260303161000 +0100" channel="fr2test">
+  <programme start="20260303150500 +0100" stop="20260303161000 +0100" channel="fr2test">
     <title lang="fr">Ça commence aujourd'hui</title>
     <sub-title lang="fr">A 20 ans, ils sont accros à la chirurgie esthétique</sub-title>
     <desc lang="fr">Cette émission, présentée par Faustine Bollaert, propose des témoignages de vie racontés par ceux qui ont vécu des expériences particulières ou des moments importants de leur existence. Adoption, santé, sexualité, réseaux sociaux, accident ou encore escroquerie, les thèmes abordés sont aussi divers que les invités présents sur le plateau. Chacun leur tour, ils relatent leurs histoires afin de les partager et d’offrir des éclairages. Ce programme de 58 minutes donne rendez-vous aux téléspectateurs du lundi au vendredi juste après le journal de la mi-journée à 13 h 55.</desc>
@@ -977,40 +910,34 @@
     <previously-shown />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303161000 +0100" stop="20260303162500 +0100" channel="fr2test">
+  <programme start="20260303161000 +0100" stop="20260303162500 +0100" channel="fr2test">
     <title lang="fr">Affaire conclue : la vie des objets</title>
     <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3d7b46e5d345afc4.jpeg/640x360/quality/80/affaire-conclue-la-vie-des-objets.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303162500 +0100" stop="20260303172000 +0100" channel="fr2test">
+  <programme start="20260303162500 +0100" stop="20260303172000 +0100" channel="fr2test">
     <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
     <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e42ace17107b100f.jpeg/640x360/quality/80/affaire-conclue-tout-le-monde-a-quelque-chose-a-vendre.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303172000 +0100" stop="20260303180000 +0100" channel="fr2test">
+  <programme start="20260303172000 +0100" stop="20260303180000 +0100" channel="fr2test">
     <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
     <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e42ace17107b100f.jpeg/640x360/quality/80/affaire-conclue-tout-le-monde-a-quelque-chose-a-vendre.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303180000 +0100" stop="20260303183500 +0100" channel="fr2test">
+  <programme start="20260303180000 +0100" stop="20260303183500 +0100" channel="fr2test">
     <title lang="fr">Tout le monde a son mot à dire</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b30db18c20518233.jpeg/640x360/quality/80/tout-le-monde-a-son-mot-a-dire.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-<programme start="20260303183500 +0100" stop="20260303191000 +0100" channel="fr2test">
+  <programme start="20260303183500 +0100" stop="20260303191000 +0100" channel="fr2test">
     <title lang="fr">N'oubliez pas les paroles</title>
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~08b0d238f4bed6c7.jpeg/640x360/quality/80/n-oubliez-pas-les-paroles.jpg" />
     <subtitles type="teletext" />
   </programme>
-  
-</tv>
+  </tv>
