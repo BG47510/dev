@@ -75,19 +75,17 @@ for url in URLs:
             tree = ET.parse(raw_file)
             root = tree.getroot()
             ids_in_source = [channel.attrib['id'] for channel in root.findall('channel')]
-            xpath_filter = []
             found_new_content = False
 
             for old_id in ids_in_source:
                 new_id = ID_MAP.get(old_id)
                 if new_id and new_id not in CHANNELS_FILLED:
-                    xpath_filter.append(f"@id='{old_id}' or @channel='{old_id}'")
                     CHANNELS_FILLED[new_id] = True
                     found_new_content = True
 
             if found_new_content:
                 for channel in root.findall('channel'):
-                    if not any(eval(x) for x in xpath_filter):
+                    if all(channel.attrib.get('id') != old_id and channel.attrib.get('channel') != old_id for old_id in ids_in_source):
                         root.remove(channel)
 
                 for programme in root.findall('programme'):
