@@ -9,7 +9,7 @@ import shutil
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CHANNELS_FILE = os.path.join(SCRIPT_DIR, "channels.txt")
 URLS_FILE = os.path.join(SCRIPT_DIR, "urls.txt")
-OUTPUT_FILE = os.path.join(SCRIPT_DIR, "epg.xml")
+OUTPUT_FILE = os.path.join(SCRIPT_DIR, "epg.xml.gz")  # Changer l'extension
 TEMP_DIR = os.path.join(SCRIPT_DIR, "temp_epg")
 
 os.makedirs(TEMP_DIR, exist_ok=True)
@@ -108,7 +108,7 @@ for url in URLs:
 # Assemblage final
 print("Assemblage du fichier final...")
 
-with open(OUTPUT_FILE, 'w', encoding='utf-8') as output_file:
+with gzip.open(OUTPUT_FILE, 'wt', encoding='utf-8') as output_file:  # Ouvrir un fichier gzip en mode texte
     # Ajoutez un retour à la ligne après la déclaration XML et après <tv>
     output_file.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n')
 
