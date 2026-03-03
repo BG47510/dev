@@ -70,6 +70,7 @@ for url in URLs:
                 found_new_content = True
 
         if found_new_content:
+            seen = {}  # Initialisation de la variable ici
             # Suppression des canaux non requis
             for channel in root.findall('channel'):
                 if all(channel.attrib['id'] != old_id for old_id in ids_in_source):
@@ -82,7 +83,6 @@ for url in URLs:
                 if (start > LIMIT) or (stop < NOW):
                     root.remove(programme)
 
-            # Traitement immédiat au lieu de sauvegarder
             for channel in root.findall('channel'):
                 old_id = channel.attrib.get('id')
                 if old_id in ID_MAP:
@@ -91,6 +91,7 @@ for url in URLs:
                     if line:
                         output_lines.append(line)
 
+            # Écriture des programmes
             for programme in root.findall('programme'):
                 old_id = programme.attrib['channel']
                 if old_id in ID_MAP:
