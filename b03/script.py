@@ -4,7 +4,6 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import gzip
 import shutil
-import io
 
 # Récupérer le répertoire du script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -12,40 +11,6 @@ CHANNELS_FILE = os.path.join(SCRIPT_DIR, "channels.txt")
 URLS_FILE = os.path.join(SCRIPT_DIR, "urls.txt")
 OUTPUT_FILE = os.path.join(SCRIPT_DIR, "epg.xml.gz")  # Changer l'extension
 TEMP_DIR = os.path.join(SCRIPT_DIR, "temp_epg")
-
-
-# ... (votre code de chargement du mapping)
-
-for url in URLs:
-    count += 1
-    print(f"Source {count} : {url}")
-
-    response = requests.get(url, timeout=10)
-    if response.status_code != 200:
-        continue
-
-    # Utilisation de io.BytesIO pour traiter le contenu en mémoire
-    content = io.BytesIO(response.content)
-
-    # Si c'est un GZIP, on le décompresse "à la volée"
-    if url.endswith('.gz'):
-        content = gzip.GzipFile(fileobj=content)
-
-    try:
-        # ElementTree peut lire directement depuis l'objet 'content'
-        tree = ET.parse(content)
-        root = tree.getroot()
-        
-        # ... (le reste de votre logique de filtrage)
-
-
-
-
-
-
-
-
-
 
 os.makedirs(TEMP_DIR, exist_ok=True)
 
@@ -81,23 +46,32 @@ with open(URLS_FILE, 'r') as f:
 
 for url in URLs:
     count += 1
+    raw_file = os.path.join(TEMP_DIR, f"raw_{count}.xml.gz" if url.endswith('.gz') else f"raw_{count}.xml")
+    src_file = os.path.join(TEMP_DIR, f"src_{count}.xml")
+
     print(f"Source {count} : {url}")
 
+    # Télécharger le fichier
     response = requests.get(url, timeout=10)
     if response.status_code != 200:
+        print(f"Erreur de téléchargement : {response.status_code}")
         continue
 
-    # Utilisation de io.BytesIO pour traiter le contenu en mémoire
-    content = io.BytesIO(response.content)
+    with open(raw_file, 'wb') as f:
+        f.write(response.content)
 
-    # Si c'est un GZIP, on le décompresse "à la volée"
+    # Vérifier si c'est un fichier gzip
     if url.endswith('.gz'):
-        content = gzip.GzipFile(fileobj=content)
+        print(f"Décompression de {raw_file}...")
+        with gzip.open(raw_file, 'rb') as f_in:
+            with open(raw_file[:-3], 'wb') as f_out:  # Enregistrer sans .gz
+                f_out.write(f_in.read())
+        raw_file = raw_file[:-3]  # Mettre à jour le nom du fichier
 
-    try:
-        # ElementTree peut lire directement depuis l'objet 'content'
-        tree = ET.parse(content)
-        root = tree.getroot()
+    # Vérifiez si le fichier est vide
+    if os.path.getsize(raw_file) == 0:
+        print(f"Le fichier {raw_file} est vide après décompression.")
+        continue
 
     # Traitement XML
     try:
