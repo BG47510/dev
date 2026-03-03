@@ -1,86 +1,184 @@
 import os
 import requests
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta
 import gzip
+import shutil
 import io
 
-# Configuration
+# Récupérer le répertoire du script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CHANNELS_FILE = os.path.join(SCRIPT_DIR, "channels.txt")
 URLS_FILE = os.path.join(SCRIPT_DIR, "urls.txt")
-OUTPUT_FILE = os.path.join(SCRIPT_DIR, "epg.xml.gz")
+OUTPUT_FILE = os.path.join(SCRIPT_DIR, "epg.xml.gz")  # Changer l'extension
+TEMP_DIR = os.path.join(SCRIPT_DIR, "temp_epg")
 
-# 1. Chargement du mapping (ID_SOURCE -> ID_DEST)
-id_map = {}
-if os.path.exists(CHANNELS_FILE):
-    with open(CHANNELS_FILE, 'r', encoding='utf-8') as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith('#'): continue
-            parts = line.split(',', 1)
-            if len(parts) == 2:
-                id_map[parts[0].strip()] = parts[1].strip()
 
-def download_and_parse(url):
-    print(f"Téléchargement de : {url}")
+# ... (votre code de chargement du mapping)
+
+for url in URLs:
+    count += 1
+    print(f"Source {count} : {url}")
+
+    response = requests.get(url, timeout=10)
+    if response.status_code != 200:
+        continue
+
+    # Utilisation de io.BytesIO pour traiter le contenu en mémoire
+    content = io.BytesIO(response.content)
+
+    # Si c'est un GZIP, on le décompresse "à la volée"
+    if url.endswith('.gz'):
+        content = gzip.GzipFile(fileobj=content)
+
     try:
-        r = requests.get(url, timeout=30)
-        r.raise_for_status()
-        content = r.content
+        # ElementTree peut lire directement depuis l'objet 'content'
+        tree = ET.parse(content)
+        root = tree.getroot()
         
-        # Décompression si c'est du GZIP
-        if url.endswith('.gz') or content[:2] == b'\x1f\x8b':
-            content = gzip.decompress(content)
-            
-        return ET.fromstring(content)
-    except Exception as e:
-        print(f"Erreur lors du traitement de {url}: {e}")
-        return None
+        # ... (le reste de votre logique de filtrage)
 
-def run():
-    if not os.path.exists(URLS_FILE):
-        print(f"Erreur: {URLS_FILE} introuvable.")
-        return
 
-    with open(URLS_FILE, 'r') as f:
-        urls = [line.strip() for line in f if line.strip() and not line.startswith('#')]
 
-    processed_channels = set()
-    
-    print(f"--- Démarrage de la génération ---")
-    
-    # On prépare le nouveau fichier XML
-    new_root = ET.Element("tv")
-    new_root.set("generator-info-name", "MonGenerateurEPG")
 
-    for url in urls:
-        root = download_and_parse(url)
-        if root is None: continue
 
-        # 1. Extraire les chaînes (channels)
-        for channel in root.findall('channel'):
-            orig_id = channel.get('id')
-            if orig_id in id_map:
-                new_id = id_map[orig_id]
-                if new_id not in processed_channels:
-                    channel.set('id', new_id)
-                    new_root.append(channel)
-                    processed_channels.add(new_id)
 
-        # 2. Extraire les programmes
-        for prog in root.findall('programme'):
-            orig_id = prog.get('channel')
-            if orig_id in id_map:
-                prog.set('channel', id_map[orig_id])
-                new_root.append(prog)
 
-    # Sauvegarde compressée
-    print(f"Écriture du fichier : {OUTPUT_FILE}")
-    tree = ET.ElementTree(new_root)
-    with gzip.open(OUTPUT_FILE, 'wb') as f:
-        tree.write(f, encoding='utf-8', xml_declaration=True)
 
-if __name__ == "__main__":
-    run()
-    print(f"--- Terminé ---")
+
+
+os.makedirs(TEMP_DIR, exist_ok=True)
+
+# Chargement du mapping
+ID_MAP = {}
+CHANNEL_IDS = []
+
+with open(CHANNELS_FILE, 'r') as f:
+    for line in f:
+        line = line.strip()
+        if not line or line.startswith('#'):
+            continue
+        try:
+            old_id, new_id = map(str.strip, line.split(',', 1))
+            if old_id and new_id:
+                ID_MAP[old_id] = new_id
+                CHANNEL_IDS.append(old_id)
+        except ValueError:
+            print(f"Erreur de format dans la ligne : {line}. Assurez-vous qu'elle est correctement formatée.")
+
+# Paramètres temporels
+NOW = datetime.now().strftime("%Y%m%d%H%M")
+LIMIT = (datetime.now() + timedelta(days=1)).strftime("%Y%m%d%H%M")
+
+print("--- Démarrage du traitement ---")
+
+# Récupération et filtrage
+CHANNELS_FILLED = {}
+count = 0
+
+with open(URLS_FILE, 'r') as f:
+    URLs = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+
+for url in URLs:
+    count += 1
+    print(f"Source {count} : {url}")
+
+    response = requests.get(url, timeout=10)
+    if response.status_code != 200:
+        continue
+
+    # Utilisation de io.BytesIO pour traiter le contenu en mémoire
+    content = io.BytesIO(response.content)
+
+    # Si c'est un GZIP, on le décompresse "à la volée"
+    if url.endswith('.gz'):
+        content = gzip.GzipFile(fileobj=content)
+
+    try:
+        # ElementTree peut lire directement depuis l'objet 'content'
+        tree = ET.parse(content)
+        root = tree.getroot()
+
+    # Traitement XML
+    try:
+        tree = ET.parse(raw_file)
+        root = tree.getroot()
+
+        ids_in_source = [channel.attrib['id'] for channel in root.findall('channel')]
+        found_new_content = False
+
+        for old_id in ids_in_source:
+            new_id = ID_MAP.get(old_id)
+            if new_id and new_id not in CHANNELS_FILLED:
+                CHANNELS_FILLED[new_id] = True
+                found_new_content = True
+
+        if found_new_content:
+            for channel in root.findall('channel'):
+                if all(channel.attrib.get('id') != old_id for old_id in ids_in_source):
+                    root.remove(channel)
+
+            for programme in root.findall('programme'):
+                stop = programme.attrib['stop']
+                start = programme.attrib['start']
+                if (start > LIMIT) or (stop < NOW):
+                    root.remove(programme)
+
+            tree.write(src_file)
+        else:
+            print("  [i] Aucun nouveau canal requis dans cette source.")
+            open(src_file, 'w').close()  # Crée un fichier vide
+    except ET.ParseError as e:
+        print(f"Erreur lors du parsing de {raw_file} : {e}")
+
+# Assemblage final
+print("Assemblage du fichier final...")
+
+with gzip.open(OUTPUT_FILE, 'wt', encoding='utf-8') as output_file:  # Ouvrir un fichier gzip en mode texte
+    # Ajoutez un retour à la ligne après la déclaration XML et après <tv>
+    output_file.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n')
+
+    # Canaux : Extraction et renommage
+    for src in os.listdir(TEMP_DIR):
+        if src.startswith("src_"):
+            src_file_path = os.path.join(TEMP_DIR, src)
+            if os.path.isfile(src_file_path) and os.path.getsize(src_file_path) > 0:
+                try:
+                    tree = ET.parse(src_file_path)
+                    root = tree.getroot()
+                    
+                    # Seule l'écriture des canaux pertinents
+                    for channel in root.findall('channel'):
+                        old_id = channel.attrib.get('id')
+                        if old_id in ID_MAP:  # Vérifier si l'ID est dans ID_MAP
+                            channel.attrib['id'] = ID_MAP[old_id]  # Renommage
+                            output_file.write(ET.tostring(channel, encoding='utf-8', xml_declaration=False).decode())
+                except ET.ParseError as e:
+                    print(f"Erreur lors du parsing de {src_file_path} : {e}")
+
+    # Programmes : Dédoublonnage et renommage
+    seen = {}
+    for src in os.listdir(TEMP_DIR):
+        if src.startswith("src_"):
+            src_file_path = os.path.join(TEMP_DIR, src)
+            if os.path.isfile(src_file_path) and os.path.getsize(src_file_path) > 0:
+                try:
+                    tree = ET.parse(src_file_path)
+                    root = tree.getroot()
+                    for programme in root.findall('programme'):
+                        old_id = programme.attrib['channel']
+                        if old_id in ID_MAP:
+                            new_id = ID_MAP[old_id]
+                            programme.attrib['channel'] = new_id
+                            key = f"{new_id}_{programme.attrib['start']}"
+                            if key not in seen:
+                                seen[key] = True
+                                output_file.write(ET.tostring(programme, encoding='utf-8', xml_declaration=False).decode())
+                except ET.ParseError as e:
+                    print(f"Erreur lors du parsing de {src_file_path} : {e}")
+
+    output_file.write('</tv>\n')  # Retour à la ligne après la fermeture de <tv>
+
+# Nettoyage final
+shutil.rmtree(TEMP_DIR)
+print(f"SUCCÈS : {OUTPUT_FILE} généré.")
