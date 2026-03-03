@@ -3,18 +3,18 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260302025000 +0100" stop="20260302060000 +0100" channel="M6test">
+<programme start="20260303031000 +0100" stop="20260303060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302060000 +0100" stop="20260302080500 +0100" channel="M6test">
+<programme start="20260303060000 +0100" stop="20260303080500 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -36,13 +36,13 @@
     <date>2008</date>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302080500 +0100" stop="20260302094500 +0100" channel="M6test">
+<programme start="20260303080500 +0100" stop="20260303094500 +0100" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -57,7 +57,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302094500 +0100" stop="20260302113000 +0100" channel="M6test">
+<programme start="20260303094500 +0100" stop="20260303113000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -66,13 +66,13 @@
     <date>2026</date>
     <category lang="fr">Art de vivre</category>
     <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BDCDE118CB4609F8D800BF13AD037494.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/49FBFE03E9BD010FFCEB1FC0CEE4F51A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302113000 +0100" stop="20260302124000 +0100" channel="M6test">
+<programme start="20260303113000 +0100" stop="20260303124000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -87,7 +87,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302124000 +0100" stop="20260302124500 +0100" channel="M6test">
+<programme start="20260303124000 +0100" stop="20260303124500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -99,7 +99,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302124500 +0100" stop="20260302133500 +0100" channel="M6test">
+<programme start="20260303124500 +0100" stop="20260303133500 +0100" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -114,7 +114,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302133500 +0100" stop="20260302134000 +0100" channel="M6test">
+<programme start="20260303133500 +0100" stop="20260303134000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -135,26 +135,13 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302134000 +0100" stop="20260302145000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Marseille, nouvelle capitale de l'immobilier ?</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260302145000 +0100" stop="20260302155000 +0100" channel="M6test">
+<programme start="20260303134000 +0100" stop="20260303145000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -166,7 +153,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302155000 +0100" stop="20260302165000 +0100" channel="M6test">
+<programme start="20260303145000 +0100" stop="20260303155000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -178,9 +165,8 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302165000 +0100" stop="20260302173000 +0100" channel="M6test">
+<programme start="20260303155000 +0100" stop="20260303165000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Marseille, capitale du camion à pizza</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -191,26 +177,40 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302173000 +0100" stop="20260302183500 +0100" channel="M6test">
+<programme start="20260303165000 +0100" stop="20260303173000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Ventes aux enchères : opération bons plans ! (2/2)</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous li...</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">2.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260303173000 +0100" stop="20260303183500 +0100" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
-    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
+    <desc lang="fr">Des candidats vont tenter leur chance pour dénicher les mots et expressions cachés, tout en espérant décrocher les plus gros gains offerts par la roue de la fortune. Mais attention, ils devront éviter la redoutable banqueroute et les autres pièges...</desc>
     <credits>
       <guest>Eric Antoine</guest>
     </credits>
     <date>2026</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/34D7B9335FD589FB19A412BA45F67C90.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/C4EC76AC910A873FD9022E2CC39C552C.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302183500 +0100" stop="20260302194000 +0100" channel="M6test">
+<programme start="20260303183500 +0100" stop="20260303194000 +0100" channel="M6test">
     <title lang="fr">La meilleure boulangerie de France</title>
     <sub-title lang="fr">Alsace</sub-title>
-    <desc lang="fr">Chiara Serpaggi et Danny Khezzar, finaliste de la saison 14 de "Top Chef", participent à cette nouvelle saison qui célèbre le patrimoine gastronomique français en partant à la découverte des plus belles boulangeries de l'Hexagone.</desc>
+    <desc lang="fr">La Meilleure Boulangerie de France repart pour un road-trip à travers toutes les régions de l'Hexagone. Ce nouveau voyage gourmand à la découverte des plus belles boulangeries sera aussi l'occasion de faire un véritable tour de France du terroi...</desc>
     <credits>
       <guest>Bruno Cormerais</guest>
       <guest>Michel Sarran</guest>
@@ -219,14 +219,14 @@
     <date>2026</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4A9CF4B7DE4F8871B5293DE5F1B3C5B3.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/0FD0922983C2170E0710F81EE5F96B89.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">12.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302194000 +0100" stop="20260302194500 +0100" channel="M6test">
+<programme start="20260303194000 +0100" stop="20260303194500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -238,7 +238,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302194500 +0100" stop="20260302204000 +0100" channel="M6test">
+<programme start="20260303194500 +0100" stop="20260303204000 +0100" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -247,13 +247,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/307D64F97E714ECC1571F3C6834B2031.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302204000 +0100" stop="20260302211000 +0100" channel="M6test">
+<programme start="20260303204000 +0100" stop="20260303211000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Après une demande en mariage mémorable, Emma et Fabien préparent le grand jour où ils se diront enfin oui. Camille, forte du succès de son centre de bien-être, pourrait bien finir par détrôner Philippe et ses deux pharmacies. Un tournant professionnel se dessinera également pour José et Liliane : et si après la mairie, il y avait un autre horizon pour José ? Quant à Sofiane et Alice, la frénésie de leur épicerie ne leur laissera aucun repos. Du repos, c'est bien ce qui pourrait faire peur à Léo et Leslie, qui passent le cap des 30 ans. Les couples n'en finissent pas d'étonner les téléspectateurs dans une 17e saison enjouée.</desc>
     <credits>
@@ -281,83 +281,107 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302211000 +0100" stop="20260302221000 +0100" channel="M6test">
-    <title lang="fr">Mariés au premier regard</title>
-    <desc lang="fr">Se lancer dans le grand bain du mariage sans s'être véritablement rencontrés, les candidats de "Mariés au premier regard" sautent le pas et espèrent réaliser le parcours amoureux parfait. Les célibataires ne sont pas seuls dans cette aventure émouvante mais périlleuse. Les deux expertes, Estelle Dossin et Marie Trapenoux, sont à leurs côtés pour les aider à prendre la bonne décision, et les guider sur ce chemin de l'amour. L'algorithme qui analyse l'attraction physique entre deux personnes va-t-il prédire et annoncer des heureuses rencontres ?</desc>
+<programme start="20260303211000 +0100" stop="20260303233000 +0100" channel="M6test">
+    <title lang="fr">Indiana Jones et la dernière croisade</title>
+    <desc lang="fr">Un éminent médiéviste lancé sur la piste du Graal, le professeur Jones, disparaît mystérieusement à Venise. Son fils, Indiana, retrouve les notes de son géniteur et décide de partir à sa recherche, accompagné d'une charmante archéologue, Elsa. Les deux aventuriers se rendent d'abord à Venise, plus précisément dans les catacombes inexplorées des chevaliers du Graal. Bientôt, ils sont pris en chasse par des Turcs, qui craignent un éventuel sacrilège. C'est ainsi qu'Indiana apprend que son père est en réalité séquestré par des Allemands dans un château autrichien. Il parvient à libérer son père, et s'enfuit avec lui au Moyen-Orient, sur les traces du saint Graal...</desc>
     <credits>
-      <guest>Studio 89 Productions</guest>
+      <director>Steven Spielberg</director>
+      <actor>Michael Byrne</actor>
+      <actor>John Rhys-Davies</actor>
+      <actor>Alison Doody</actor>
+      <actor>Julian Glover</actor>
+      <actor>Richard Young</actor>
+      <actor>Denholm Elliott</actor>
+      <actor>Kevork Malikyan</actor>
+      <actor>Harrison Ford</actor>
+      <actor>Robert Eddison</actor>
+      <actor>Sean Connery</actor>
+      <actor>River Phoenix</actor>
+      <actor>Alexei Sayle</actor>
+      <adapter>Jeffrey Boam</adapter>
+      <producer>George Lucas</producer>
+      <producer>Arthur F. Repola</producer>
+      <producer>Frank Marshall</producer>
+      <producer>Robert Watts</producer>
+      <composer>John Williams</composer>
+      <guest>Paramount Pictures</guest>
+      <guest>Mathias Kozlowski</guest>
+      <guest>Jacques Ciron</guest>
+      <guest>Gilbert Lévy</guest>
+      <guest>Michel Derain</guest>
+      <guest> Lucasfilm</guest>
+      <guest>Stephen Scott</guest>
+      <guest>Céline Monsarrat</guest>
+      <guest>Pierre Hatet</guest>
+      <guest>Jacques Frantz</guest>
+      <guest>Jean-Claude Michel</guest>
+      <guest>Vincent Grass</guest>
+      <guest>Richard Darbois</guest>
+      <guest>Jacques Mauclair</guest>
+      <guest>Mostéfa Stiti</guest>
     </credits>
-    <date>2026</date>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/2B653D4B735ADFBC2DE13A416CF085DD.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">9.0.</episode-num>
+    <date>1989</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Action</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/60CC430209C13B00105570E507904976.jpg"/>
+    <country lang="fr">Etats-Unis - Italie - Espagne - Grande-Bretagne - Jordanie</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260302221000 +0100" stop="20260302232500 +0100" channel="M6test">
-    <title lang="fr">Mariés au premier regard</title>
-    <desc lang="fr">Estelle Dossin et Marie Trapenoux le savent : les premières impressions sont fondamentales dans une rencontre amoureuse, même si les sentiments sont mêlés. Les candidats s'appuient sur leurs conseils pour analyser leurs émotions dès le début d'une possible histoire qui se mettrait en place.</desc>
+<programme start="20260303233000 +0100" stop="20260304014000 +0100" channel="M6test">
+    <title lang="fr">Indiana Jones et le temple maudit</title>
+    <desc lang="fr">Une bagarre éclate dans un cabaret de Shanghai. Indiana Jones, l'aventurier-archéologue, tentait d'y marchander un joyau exceptionnel, doté de pouvoirs magiques. Les négociations ont mal tourné, et Jones ne doit son salut qu'à la fuite. Il emmène à sa suite la chanteuse Willie Scott, qu'intéresse la pierre précieuse, et Demi-Lune, un jeune Chinois débrouillard. La course folle se termine au coeur de la jungle, en Inde, à deux pas d'un village. Hélas, ces lieux semblent maudits par les dieux. Tous les enfants ont été enlevés en même temps que la pierre sacrée que détenaient les villageois. Indiana Jones vole au secours des malheureuses petites victimes...</desc>
     <credits>
-      <guest>Studio 89 Productions</guest>
+      <director>Steven Spielberg</director>
+      <actor>Amrish Puri</actor>
+      <actor>Philip Stone</actor>
+      <actor>David Yip</actor>
+      <actor>Akio Mitamura</actor>
+      <actor>Ke Huy Quan</actor>
+      <actor>Ric Young</actor>
+      <actor>Harrison Ford</actor>
+      <actor>Roy Chiao</actor>
+      <actor>Philip Tan</actor>
+      <actor>Kate Capshaw</actor>
+      <actor>Dan Aykroyd</actor>
+      <actor>Roshan Seth</actor>
+      <adapter>Willard Huyck</adapter>
+      <adapter>Gloria Katz</adapter>
+      <producer>Frank Marshall</producer>
+      <producer>Kathleen Kennedy</producer>
+      <producer>George Lucas</producer>
+      <producer>Robert Watts</producer>
+      <composer>John Williams</composer>
+      <guest>Paramount Pictures</guest>
+      <guest>Henry Djanik</guest>
+      <guest>René Bériard</guest>
+      <guest>Francis Lax</guest>
+      <guest>Beatrice Delfe</guest>
+      <guest>Roger Mollien</guest>
+      <guest>André Valmy</guest>
+      <guest>Caroline Hamilton</guest>
+      <guest> Lucasfilm</guest>
+      <guest>Roger Cain</guest>
+      <guest>Alan Cassie</guest>
+      <guest>Julien Thomast</guest>
+      <guest>Danny Daniels</guest>
+      <guest>Jackie Berger</guest>
+      <guest>Jean Berger</guest>
     </credits>
-    <date>2026</date>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8F8F9E0AC12C8D3FF3D1C810A0F8C349.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">9.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260302232500 +0100" stop="20260303002500 +0100" channel="M6test">
-    <title lang="fr">Qui veut épouser mon fils ?</title>
-    <desc lang="fr">Anthony et sa mère Joëlle, Nicolas et sa mère Carole, Serge et sa mère Anne-Marie et enfin Killian et sa mère Karine sont les quatre "duos" de cette saison, où les fils tentent de trouver la partenaire idéale qui va leur plaire, mais qui va surtout aussi plaire à leurs mamans : un sacré défi en famille en somme !</desc>
-    <credits>
-      <guest>Delphine Wespiser</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/0B310045D4E7FD88928ADE470437AB51.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <date>1984</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Action</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A56BDB88A82D6E89F6C25738717B24AB.jpg"/>
+    <country lang="fr">Etats-Unis</country>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-<programme start="20260303002500 +0100" stop="20260303013000 +0100" channel="M6test">
-    <title lang="fr">Et si on se rencontrait ?</title>
-    <desc lang="fr">Peut-on tomber amoureux d’une personne à distance ? Certains célibataires inscrits sur des sites ou des applications de rencontre ont décidé de faire la connaissance de la personne avec qui ils échangent en ligne dans l’espoir de nouer une relation. Pour accompagner ce moment-clé de la relation, M6 a réuni ces amoureux virtuels au château de Serans, dans l’Oise. A la suite de cette première rencontre, les prétendants décident soit de poursuivre leur relation en passant le week-end ensemble, soit de mettre fin à la relation.</desc>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~20645875b3213fa3.jpeg/640x360/quality/80/et-si-on-se-rencontrait.jpg"/>
-    <previously-shown/>
-    <subtitles type="teletext"/>
-  </programme>
-<programme start="20260303013000 +0100" stop="20260303022000 +0100" channel="M6test">
-    <title lang="fr">Et si on se rencontrait ?</title>
-    <desc lang="fr">Peut-on tomber amoureux d’une personne à distance ? Certains célibataires inscrits sur des sites ou des applications de rencontre ont décidé de faire la connaissance de la personne avec qui ils échangent en ligne dans l’espoir de nouer une relation. Pour accompagner ce moment-clé de la relation, M6 a réuni ces amoureux virtuels en leur proposant un rendez-vous. romantique A la suite de cette première rencontre, les prétendants décident soit de poursuivre leur relation en passant le week-end ensemble, soit de mettre fin à la relation.</desc>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b7a252c5260ae106.jpeg/640x360/quality/80/et-si-on-se-rencontrait.jpg"/>
-    <previously-shown/>
-    <subtitles type="teletext"/>
-  </programme>
-<programme start="20260303022000 +0100" stop="20260303031000 +0100" channel="M6test">
-    <title lang="fr">Et si on se rencontrait ?</title>
-    <desc lang="fr">De plus en plus de Français sont inscrits sur des sites, des forums de discussion ou des applications de rencontre. Les équipes ont suivi plusieurs d’entre eux, au moment où ils décident de retrouver pour la première fois la personne avec laquelle ils échangent en ligne. Rendez-vous est pris dans un château romantique, à savoir celui d’Ermenonville, dans l’Oise, aux portes de Paris. À la suite de ce premier tête-à-tête, les prétendants auront le choix entre poursuivre le rendez-vous en passant le week-end ensemble, ou alors mettre fin à la relation.</desc>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~ec4b6b55d85f5a91.jpeg/640x360/quality/80/et-si-on-se-rencontrait.jpg"/>
-    <previously-shown/>
-    <subtitles type="teletext"/>
-  </programme>
-<programme start="20260303031000 +0100" stop="20260303060000 +0100" channel="M6test">
+<programme start="20260304014000 +0100" stop="20260304060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3251df198d4879d1.jpeg/640x360/quality/80/programmes-de-la-nuit.jpg"/>
   </programme>
 </tv>
