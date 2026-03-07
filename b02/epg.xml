@@ -3,234 +3,459 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260306012500 +0100" stop="20260306060000 +0100" channel="M6test">
+<programme start="20260307031500 +0100" stop="20260307060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/7/6/13012671.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260306060000 +0100" stop="20260306080500 +0100" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
-    <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/3/0/13930031.jpg"/>
+<programme start="20260307060000 +0100" stop="20260307074500 +0100" channel="M6test">
+    <title lang="fr">M6 Kid</title>
+    <desc lang="fr">Debout c'est M6 Kid ! Un réveil joyeux et 100 % animation pour tous les enfants !</desc>
+    <date>2024</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Jeunesse</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/413EC1038F9B226BE458C1AFF3C2D407.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260306080500 +0100" stop="20260306094500 +0100" channel="M6test">
-    <title lang="fr">My boutique Téléshop'</title>
-    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/7/14017710.jpg"/>
+<programme start="20260307074500 +0100" stop="20260307101000 +0100" channel="M6test">
+    <title lang="fr">Absolument stars</title>
+    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show-business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
+    <credits>
+      <guest>Claire Nevers</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Culture</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D94DCEA79E67BEDE8604E6413D80376B.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260306094500 +0100" stop="20260306113000 +0100" channel="M6test">
-    <title lang="fr">Ça peut vous arriver</title>
-    <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
-    <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/4/2/13937240.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306113000 +0100" stop="20260306124000 +0100" channel="M6test">
-    <title lang="fr">Ça peut vous arriver chez vous</title>
-    <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
-    <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/4/2/13937242.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306124000 +0100" stop="20260306124500 +0100" channel="M6test">
-    <title lang="fr">Météo</title>
-    <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/4/2/13933245.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306124500 +0100" stop="20260306133500 +0100" channel="M6test">
-    <title lang="fr">Le 12.45</title>
-    <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
-    <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/4/2/13933242.jpg"/>
-    <episode-num system="xmltv_ns">0.64.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306133500 +0100" stop="20260306134000 +0100" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
-    <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/3/0/13930031.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306134000 +0100" stop="20260306145000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/2/4/13929424.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306145000 +0100" stop="20260306155000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/2/4/13929424.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306155000 +0100" stop="20260306165000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Campings : ces Français se lancent aux quatre coins du monde</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/2/4/13929424.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306165000 +0100" stop="20260306173000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Mini caravanes : les nouvelles stars de cet été</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/2/4/13929424.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306173000 +0100" stop="20260306183500 +0100" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/9/9/13421997.jpg"/>
+<programme start="20260307101000 +0100" stop="20260307102000 +0100" channel="M6test">
+    <title lang="fr">Le mag du samedi</title>
+    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magaz...</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C7550F9206147EC3D94991FFCD2722E3.jpg"/>
+    <country lang="fr">France</country>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260306183500 +0100" stop="20260306194000 +0100" channel="M6test">
-    <title lang="fr">La meilleure boulangerie de France</title>
-    <sub-title lang="fr">Alsace</sub-title>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/0/13930011.jpg"/>
-    <episode-num system="xmltv_ns">12.0.</episode-num>
+<programme start="20260307102000 +0100" stop="20260307105500 +0100" channel="M6test">
+    <title lang="fr">Le mag du samedi</title>
+    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magaz...</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8E686FD9794C3215C12C0E4CB85EA92B.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260306194000 +0100" stop="20260306194500 +0100" channel="M6test">
+<programme start="20260307105500 +0100" stop="20260307114500 +0100" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <sub-title lang="fr">Concours, ils ont de l'or au bout des doigts</sub-title>
+    <desc lang="fr">Concours du Meilleur Ouvrier de France, Meilleur Apprentis, championnat de France ou Olympiades des métiers, il existe des centaines de concours professionnels en France. A la clé pour les lauréats, une reconnaissance de leurs pairs et l'assurance d'être courtisé par les plus grandes entreprises. Théo, Antoine, Mickael, Brice et Justine résisteront-ils à la pression pour faire partie de l'élite de leur profession ? Et voir la fierté dans les yeux de leurs parents ?</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5302E4ACD03C25F10DB96CEBC5AF2AB4.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307114500 +0100" stop="20260307124000 +0100" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <sub-title lang="fr">Ottawa : le nouveau bon filon canadien</sub-title>
+    <desc lang="fr">À Ottawa, la capitale, et dans sa région, le rêve canadien se mérite. L'hiver dure plusieurs mois et les températures peuvent descendre jusqu'à -30 °C. Il faut apprendre à conduire sur la neige, supporter les factures de chauffage, s'ada...</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4D618682A488EF70096578056AA7820D.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307124000 +0100" stop="20260307124500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/4/2/13933245.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/DD83476181B0B2975567878102B9EE53.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260306194500 +0100" stop="20260306204000 +0100" channel="M6test">
-    <title lang="fr">Le 19.45</title>
-    <desc lang="fr">Le journal de M6.</desc>
+<programme start="20260307124500 +0100" stop="20260307133000 +0100" channel="M6test">
+    <title lang="fr">Le 12.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Romane Binckly</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/0/1/13933108.jpg"/>
-    <episode-num system="xmltv_ns">0.64.</episode-num>
+    <icon src="https://img.bouygtel.fr/CMS/images/CECD7EA4CCD787A9005C7B1143EC7398.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260306204000 +0100" stop="20260306211000 +0100" channel="M6test">
+<programme start="20260307133000 +0100" stop="20260307141500 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Stars des années 80 : les secrets d'une tournée culte</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307141500 +0100" stop="20260307150000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Ce palace trône sur l'Atlantique</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307150000 +0100" stop="20260307155500 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307155500 +0100" stop="20260307162500 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Croisière transatlantique : comme dans un film</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307162500 +0100" stop="20260307174000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Ottawa : le nouveau bon filon canadien</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… " Un jour, un doc week-end " propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307174000 +0100" stop="20260307183500 +0100" channel="M6test">
+    <title lang="fr">La roue de la fortune</title>
+    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
+    <credits>
+      <guest>Eric Antoine</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C4EC76AC910A873FD9022E2CC39C552C.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307183500 +0100" stop="20260307194000 +0100" channel="M6test">
+    <title lang="fr">Le maillon faible</title>
+    <desc lang="fr">Olivier Minne assure la présentation de ce jeu devenu culte. Il n'hésite pas à souligner les défaillances des candidats ou leur manque de lucidité pour encaisser l'argent au bon moment. Il s'agit en effet d'enchaîner les bonnes réponses et de mettre les sommes obtenues en banque avant l'erreur fatale.</desc>
+    <credits>
+      <guest>Olivier Minne</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5F4DBEDDFFCE6C487FA898D8C8BC524A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307194000 +0100" stop="20260307194500 +0100" channel="M6test">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DD83476181B0B2975567878102B9EE53.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307194500 +0100" stop="20260307203000 +0100" channel="M6test">
+    <title lang="fr">Le 19.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Romane Binckly</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7CA5F02E85C3273FF2630695E3B03AAB.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307203000 +0100" stop="20260307211000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
-    <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/3/0/13930031.jpg"/>
-    <episode-num system="xmltv_ns">16.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306211000 +0100" stop="20260306221000 +0100" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Au sommaire : L'incroyable histoire d'un arnaqueur hors norme. A Escaudain, des victimes racontent la même mécanique : promesses, encaissements puis pression et menaces. - Rénovations abandonnées, chantiers fantômes : scandale sur la Riviera. Sur la Côte d'Azur, enquête sur un artisan mis en cause par plusieurs victimes.</desc>
-    <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/7/13930702.jpg"/>
-    <episode-num system="xmltv_ns">0.30.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306221000 +0100" stop="20260306230500 +0100" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Dans les Hauts-de-France, un homme a multiplié les activités bien qu'il ait l'interdiction de gérer des sociétés. Sur la Côte d'Azur, un artisan est mis en cause pour des chantiers de rénovation laissés à l'abandon.</desc>
-    <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/7/13930702.jpg"/>
-    <episode-num system="xmltv_ns">0.30.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260306230500 +0100" stop="20260307001000 +0100" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Entrepreneur, influenceur, candidat TV : il les a ruinés. Un entrepreneur a ruiné un couple. - Un pisciniste insaisissable. Un faux réparateur de piscines a arnaqué plus d'une dizaine de victimes. - Un ancien banquier fait plus de 15 victimes. Un escroc a monté une fausse société de rénovations.</desc>
-    <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/7/13930702.jpg"/>
-    <episode-num system="xmltv_ns">0.14.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260307001000 +0100" stop="20260307011000 +0100" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Construction de maison, rénovation et piscine : les équipes de l'émission "Arnaques !" ont remonté la piste de trois artisans malhonnêtes qui ont fait plusieurs victimes dans le Nord, le Gard et en Bretagne.
-*Entrepreneur, influenceur, candidat TV : il les a ruinés*
-1
-*Un pisciniste insaisissable*
-2
-*Un ancien banquier fait plus de 15 victimes*
-3</desc>
+    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
-      <guest>Julien Courbet</guest>
+      <actor>Valérie Karsenti</actor>
+      <actor>Ryad Baxx</actor>
+      <actor>Claire Chust</actor>
+      <actor>Grégoire Bonnet</actor>
+      <actor>Vinnie Dargaud</actor>
+      <actor>Frédéric Bouraly</actor>
+      <actor>Fanny Cottençon</actor>
+      <actor>David Mora</actor>
+      <actor>Amélie Etasse</actor>
+      <actor>Claudia Mongumu</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>Gérard Hernandez</actor>
+      <guest>M6 Métropole Télévision</guest>
+      <guest> KaBo</guest>
     </credits>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e29bdbdf3327af61.jpeg/640x360/quality/80/arnaques.jpg"/>
+    <date>2026</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DEC4BD560E547955592B0646BB733759.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307211000 +0100" stop="20260307220000 +0100" channel="M6test">
+    <title lang="fr">Blanca</title>
+    <sub-title lang="fr">Acide</sub-title>
+    <desc lang="fr">Au commissariat de San Teodoro, l'attention se porte sur un agresseur en série qui s'en prend à des femmes ayant subi des interventions de chirurgie esthétique, en leur jetant de l'acide au visage. L'enquête s'accélère lorsque Blanca est elle-même visée. Lucia revient habiter chez sa mère adoptive après un chagrin d'amour. Elle souffre de complexes et souhaite se faire faire des injections…</desc>
+    <credits>
+      <director>Nicola Abbatangelo</director>
+      <actor>Maria Chiara Giannetta</actor>
+      <actor>Biagio Forestieri</actor>
+      <actor>Michela Cescon</actor>
+      <actor>Federica Cacciola</actor>
+      <actor>Sara Ciocca</actor>
+      <actor>Gualtiero Burzi</actor>
+      <actor>Domenico Diele</actor>
+      <actor>Matilde Gioli</actor>
+      <actor>Enzo Paci</actor>
+      <actor>Ugo Dighero</actor>
+      <actor>Sanaà Selfaoui</actor>
+      <actor>Chiara Baschetti</actor>
+      <adapter>Claudio F. Benedetti</adapter>
+      <producer>Daniele Passani</producer>
+      <producer>Corrado Trionfera</producer>
+      <editor>Mario Ruggeri</editor>
+      <editor>Arianna Tarantino</editor>
+      <editor>Carolina Pugliese</editor>
+      <editor>Alessandro Sermoneta</editor>
+      <guest>Lux Vide</guest>
+      <guest>Rai Fiction</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Policier</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/0E70BA8DC88C42EC988E0EB092A2EE8E.jpg"/>
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">2.8.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260307220000 +0100" stop="20260307231500 +0100" channel="M6test">
+    <title lang="fr">Blanca</title>
+    <sub-title lang="fr">Acide</sub-title>
+    <desc lang="fr">Interrogé après son arrestation, l'agresseur révèle ses motivations mais nie le meurtre du chirurgien esthétique, le Dr Adorno, qui l'avait publiquement défié. Par ailleurs, Lucia découvre la grossesse cachée de Blanca, tandis que Liguori surveille les déplacements de Domenico...</desc>
+    <credits>
+      <director>Nicola Abbatangelo</director>
+      <actor>Maria Chiara Giannetta</actor>
+      <actor>Biagio Forestieri</actor>
+      <actor>Michela Cescon</actor>
+      <actor>Federica Cacciola</actor>
+      <actor>Sara Ciocca</actor>
+      <actor>Gualtiero Burzi</actor>
+      <actor>Domenico Diele</actor>
+      <actor>Giuseppe Zeno</actor>
+      <actor>Matilde Gioli</actor>
+      <actor>Enzo Paci</actor>
+      <actor>Ugo Dighero</actor>
+      <actor>Chiara Baschetti</actor>
+      <adapter>Claudio F. Benedetti</adapter>
+      <producer>Daniele Passani</producer>
+      <producer>Corrado Trionfera</producer>
+      <editor>Mario Ruggeri</editor>
+      <editor>Arianna Tarantino</editor>
+      <editor>Carolina Pugliese</editor>
+      <editor>Alessandro Sermoneta</editor>
+      <guest>Lux Vide</guest>
+      <guest>Rai Fiction</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Policier</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B94946E3FB64F891219E09573180CE0E.jpg"/>
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">2.9.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260307231500 +0100" stop="20260308000500 +0100" channel="M6test">
+    <title lang="fr">NCIS</title>
+    <sub-title lang="fr">Glacé</sub-title>
+    <desc lang="fr">Un sous-officier est retrouvé mort, congelé, à l'arrière d'un camion réfrigéré. Le NCIS est chargé de l'enquête et apprend que la victime était venue donner un coup de main à un membre de sa famille, propriétaire d'un food truck. De plus, son comportement souvent agressif lui avait valu de nombreuses inimitié, ce qui ne facilite pas l'identification du meurtrier. Au même moment, Tobias Fornell, qui est sur le point de partir s'installer au Costa Rica pour y passer sa retraite, apprend une terrible nouvelle...</desc>
+    <credits>
+      <director>Michael Zinberg</director>
+      <actor>Rocky Carroll</actor>
+      <actor>David McCallum</actor>
+      <actor>Joe Spano</actor>
+      <actor>Lawrence Kao</actor>
+      <actor>Emily Wickersham</actor>
+      <actor>Mark Harmon</actor>
+      <actor>Shane Coffey</actor>
+      <actor>Brian Dietzen</actor>
+      <actor>Wilmer Valderrama</actor>
+      <actor>Adam Ferrara</actor>
+      <actor>Sean Murray</actor>
+      <actor>Diona Reasonover</actor>
+      <adapter>Donald P. Bellisario</adapter>
+      <adapter>Scott Williams</adapter>
+      <producer>Steven D. Binder</producer>
+      <producer>Donald P. Bellisario</producer>
+      <producer>Mark Harmon</producer>
+      <producer>Patrick L. Coleman</producer>
+      <producer>Frank Cardea</producer>
+      <producer>Mark Horowitz</producer>
+      <producer>Chas. Floyd Johnson</producer>
+      <producer>Justin Kilmer</producer>
+      <producer>Scott Williams</producer>
+      <composer>Brian Kirk</composer>
+      <editor>Don McGill</editor>
+      <guest>CBS Studios</guest>
+      <guest>Belisarius Productions</guest>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Policier</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C78F3C3546060C9AB08215EE3C09FFAC.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">17.8.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260308000500 +0100" stop="20260308005500 +0100" channel="M6test">
+    <title lang="fr">NCIS</title>
+    <sub-title lang="fr">Chien de garde</sub-title>
+    <desc lang="fr">Alors que l'agent spécial Leroy Jethro Gibbs (Mark Harmon) poursuit discrètement une enquête avec son ancien partenaire Tobias Fornell, il se retrouve plongé dans un monde sombre à la recherche du dealer responsable de l'overdose tragique de la fille de Fornell. Pendant ce temps, l'équipe du NCIS, composée de l'agent Timothy McGee (Sean Murray), de l'agent Nick Torres (Wilmer Valderrama) et de la médecin légiste Jimmy Palmer (Brian Dietzen), s'implique dans plusieurs affaires intrigantes qui mettent à l'épreuve leurs compétences et leur cohésion. La saison, marquée par la pandémie de Covid-19, voit également McGee et sa femme Delilah confrontés à des défis inattendus lors de leurs vacances, qui se transforment en une mission risquée. Un retour dans le passé de Gibbs révèle ses premiers pas au sein du NCIS, tandis que la série célèbre son 400e épisode, rendant hommage à ses personnages emblématiques et à leur parcours.</desc>
+    <credits>
+      <guest>Mark Harmon</guest>
+      <guest>Sean Murray</guest>
+      <guest>Wilmer Valderrama</guest>
+      <guest>Emily Wickersham</guest>
+      <guest>Brian Dietzen</guest>
+      <guest>Diona Reasonover</guest>
+      <guest>Rocky Carroll</guest>
+      <guest>David Mccallum</guest>
+    </credits>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~backoffice~program~73429372b342bd63.jpg/640x360/quality/80/ncis.jpg"/>
     <previously-shown/>
     <subtitles type="teletext"/>
   </programme>
-<programme start="20260307011000 +0100" stop="20260307021000 +0100" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Centré sur la maison, ce nouveau numéro s’intéresse aux conflits naissants parfois entre les propriétaires et leurs locataires. C’est le cas de Maryline et Nicolas qui logent dans une maison moisie ou de Nadège et David dont la demeure pourrait être saisie à cause de loyers impayés. La deuxième partie du magazine est quant à elle consacrée aux rénovations qui tournent mal à cause d’artisans mal intentionnés. Exemples près de Bordeaux où une dizaine de particuliers a fait appel à une plateforme pour réaliser ses travaux sans jamais en avoir le bout.</desc>
+<programme start="20260308005500 +0100" stop="20260308015000 +0100" channel="M6test">
+    <title lang="fr">NCIS</title>
+    <sub-title lang="fr">Sur la touche</sub-title>
+    <desc lang="fr">Alors que l'agent spécial Leroy Jethro Gibbs (Mark Harmon) poursuit discrètement une enquête avec son ancien partenaire Tobias Fornell, il se retrouve plongé dans un monde sombre à la recherche du dealer responsable de l'overdose tragique de la fille de Fornell. Pendant ce temps, l'équipe du NCIS, composée de l'agent Timothy McGee (Sean Murray), de l'agent Nick Torres (Wilmer Valderrama) et de la médecin légiste Jimmy Palmer (Brian Dietzen), s'implique dans plusieurs affaires intrigantes qui mettent à l'épreuve leurs compétences et leur cohésion. La saison, marquée par la pandémie de Covid-19, voit également McGee et sa femme Delilah confrontés à des défis inattendus lors de leurs vacances, qui se transforment en une mission risquée. Un retour dans le passé de Gibbs révèle ses premiers pas au sein du NCIS, tandis que la série célèbre son 400e épisode, rendant hommage à ses personnages emblématiques et à leur parcours.</desc>
     <credits>
-      <guest>Julien Courbet</guest>
+      <guest>Mark Harmon</guest>
+      <guest>Sean Murray</guest>
+      <guest>Wilmer Valderrama</guest>
+      <guest>Emily Wickersham</guest>
+      <guest>Brian Dietzen</guest>
+      <guest>Diona Reasonover</guest>
+      <guest>Rocky Carroll</guest>
+      <guest>David Mccallum</guest>
     </credits>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~53d53d098d1c8c54.jpeg/640x360/quality/80/arnaques.jpg"/>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~backoffice~program~98b612334f91e473.jpg/640x360/quality/80/ncis.jpg"/>
     <previously-shown/>
     <subtitles type="teletext"/>
   </programme>
-<programme start="20260307021000 +0100" stop="20260307031500 +0100" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">En France, 40 % des ménages sont locataires auprès de bailleurs privés ou de bailleurs publics. Mais les relations ne sont pas toujours simples. Entre les locataires qui ne paient pas leurs loyers ou qui dégradent les lieux et les propriétaires qui ne veulent pas effectuer les travaux, la cohabitation tournent parfois au conflit. Dans le Jura, Maryline et Nicolas habitent dans une maison moisie du sol au plafond, mais leur propriétaire refuse d'effectuer les travaux. Dans le Nord, Alex, Obryan et leurs deux enfants sont SDF depuis dix mois à cause d'une locataire qui refuse de quitter leur appartement. A La Rochelle, la maison de Nadège et David risque d'être saisie car leur locataire totalise près de 20 000 euros de loyers impayés. Des différends qui peuvent mener devant les tribunaux et tourner au parcours du combattant.
-*Propriétaires-locataires : c'est la guerre !*
-1
-*Artisans : attention aux arnaques !*
-2</desc>
+<programme start="20260308015000 +0100" stop="20260308024000 +0100" channel="M6test">
+    <title lang="fr">NCIS</title>
+    <sub-title lang="fr">Il n'est jamais trop tard</sub-title>
+    <desc lang="fr">Alors que l'agent spécial Leroy Jethro Gibbs (Mark Harmon) poursuit discrètement une enquête avec son ancien partenaire Tobias Fornell, il se retrouve plongé dans un monde sombre à la recherche du dealer responsable de l'overdose tragique de la fille de Fornell. Pendant ce temps, l'équipe du NCIS, composée de l'agent Timothy McGee (Sean Murray), de l'agent Nick Torres (Wilmer Valderrama) et de la médecin légiste Jimmy Palmer (Brian Dietzen), s'implique dans plusieurs affaires intrigantes qui mettent à l'épreuve leurs compétences et leur cohésion. La saison, marquée par la pandémie de Covid-19, voit également McGee et sa femme Delilah confrontés à des défis inattendus lors de leurs vacances, qui se transforment en une mission risquée. Un retour dans le passé de Gibbs révèle ses premiers pas au sein du NCIS, tandis que la série célèbre son 400e épisode, rendant hommage à ses personnages emblématiques et à leur parcours.</desc>
     <credits>
-      <guest>Julien Courbet</guest>
+      <guest>Mark Harmon</guest>
+      <guest>Sean Murray</guest>
+      <guest>Wilmer Valderrama</guest>
+      <guest>Emily Wickersham</guest>
+      <guest>Brian Dietzen</guest>
+      <guest>Diona Reasonover</guest>
+      <guest>Rocky Carroll</guest>
+      <guest>David Mccallum</guest>
     </credits>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~63ea0c0362b2da7c.jpeg/640x360/quality/80/arnaques.jpg"/>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~backoffice~program~043b84d8f2e73307.jpg/640x360/quality/80/ncis.jpg"/>
+    <previously-shown/>
     <subtitles type="teletext"/>
   </programme>
-<programme start="20260307031500 +0100" stop="20260307060000 +0100" channel="M6test">
+<programme start="20260308024000 +0100" stop="20260308060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Autre</category>
