@@ -24,9 +24,9 @@ jobs:
         pip install requests  # Installer requests
         # Ajouter d'autres dépendances si nécessaire
 
-    - name: Exécuter le script et sauvegarder le résultat
+    - name: Exécuter le script
       run: |
-        python b03/script.py # > extinf.txt  # Redirige le résultat vers un fichier
+        python b03/script.py
 
     - uses: stefanzweifel/git-auto-commit-action@v5 # Valide et renvoie automatiquement tous les fichiers créés ou modifiés à votre dépôt.
       with:
