@@ -26,7 +26,7 @@ jobs:
 
     - name: Exécuter le script
       run: |
-        python b03/script.py
+        python ${GITHUB_WORKSPACE}/b03/script.py
 
     - uses: stefanzweifel/git-auto-commit-action@v5 # Valide et renvoie automatiquement tous les fichiers créés ou modifiés à votre dépôt.
       with:
