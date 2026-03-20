@@ -22,8 +22,11 @@ jobs:
     - name: Installer les dépendances
       run: |
         pip install requests  # Installer requests
-        # Ajouter d'autres dépendances si nécessaire
+        # Ajouter d'autres dépendances si nécessaire        
 
+    - name: Installer openvpn
+      run: sudo apt-get install openvpn
+      
     - name: Exécuter le script
       run: |
         python ${GITHUB_WORKSPACE}/a02/script_fr2.py
