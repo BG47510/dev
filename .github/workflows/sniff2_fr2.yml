@@ -2,13 +2,12 @@ name: Fr2 m3u8
 
 on:
   schedule:
-    # S'exécute toutes les 3 heures (ajustable)
     - cron: '0 */3 * * *'
-  workflow_dispatch: # Permet de lancer le script manuellement depuis l'onglet Actions
+  workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Utilisation d'une image Ubuntu
+    runs-on: ubuntu-latest
 
     steps:
     - name: Vérifier le code source
@@ -17,20 +16,50 @@ jobs:
     - name: Configurer Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.8'  # Version de Python à utiliser
+        python-version: '3.8'
 
     - name: Installer les dépendances
       run: |
-        pip install requests  # Installer requests
-        # Ajouter d'autres dépendances si nécessaire        
+        sudo apt-get update
+        sudo apt-get install -y openvpn
+        pip install requests
 
-    - name: Installer openvpn
-      run: sudo apt-get install openvpn
-      
-    - name: Exécuter le script
+    - name: Connexion au VPN
+      id: vpn_step # On donne un ID pour pouvoir tester le statut plus tard
+      run: |
+        # Création des fichiers à partir des secrets GitHub
+        echo "${{ secrets.OPENVPN_CONFIG }}" > config.ovpn
+        echo "${{ secrets.OPENVPN_CREDENTIALS }}" > pass.txt
+        
+        # Modification de la config pour l'auth automatique
+        sed -i 's/auth-user-pass/auth-user-pass pass.txt/' config.ovpn
+        
+        # Lancement OpenVPN (sudo est requis pour l'interface réseau)
+        sudo openvpn --config config.ovpn --daemon
+        
+        # Attente de la connexion (VPNBook peut être lent à répondre)
+        echo "Initialisation du tunnel (30s)..."
+        sleep 30
+
+        # Vérification stricte du pays
+        COUNTRY=$(curl -s https://ipapi.co/country_code/)
+        if [ "$COUNTRY" != "FR" ]; then
+          echo "::error::Échec de la connexion VPN. Vérifiez le mot de passe VPNBook !"
+          exit 1
+        fi
+        
+        # Vérification si l'IP est bien française
+        #curl -s https://ipapi.co/json/ | grep -E "ip|country_name"
+
+    - name: Exécuter le script Python
       run: |
         python ${GITHUB_WORKSPACE}/a02/script_fr2.py
 
-    - uses: stefanzweifel/git-auto-commit-action@v5 # Valide et renvoie automatiquement tous les fichiers créés ou modifiés à votre dépôt.
+    - name: Arrêter le VPN
+      if: always()
+      run: sudo killall openvpn || true
+
+    - name: Commit des changements
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
-       commit_message: 'Actualisation'
+        commit_message: 'Actualisation automatique via VPN FR''
