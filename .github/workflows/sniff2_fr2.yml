@@ -38,8 +38,8 @@ jobs:
         sudo openvpn --config config.ovpn --daemon
         
         # Attente de la connexion (VPNBook peut être lent à répondre)
-        echo "Initialisation du tunnel (30s)..."
-        sleep 30
+        echo "Initialisation du tunnel (60s)..."
+        sleep 69
 
         # Vérification stricte du pays
         COUNTRY=$(curl -s https://ipapi.co/country_code/)
