@@ -1,78 +1,51 @@
+#!/usr/bin/env python3
 import requests
 import re
-from urllib.parse import urljoin
+from pathlib import Path
+import sys
 
-# Configuration
-URL_SOURCE = 'https://hdfauth.ftven.fr/esi/TA?format=json&url=https://simulcast-p.ftven.fr/simulcast/France_2/hls_fr2/index.m3u8'
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-}
-NOM_FICHIER = 'fr2.m3u8'
+# Config — fichier local (relatif au répertoire de lancement)
+m3u8_path = Path("a02/frinfo.m3u8")  # chemin relatif depuis la racine du repo
+backup_path = m3u8_path.with_suffix(".m3u8.bak")
 
-def extraire_url_flux(url_api):
-    try:
-        response = requests.get(url_api, headers=HEADERS, timeout=10)
-        response.raise_for_status()
-        return response.json().get('url')
-    except Exception as e:
-        print(f"❌ Erreur API : {e}")
-        return None
+# URL d'auth (inchangée)
+auth_url = "https://hdfauth.ftven.fr/esi/TA?format=json&url=https://simulcast-p.ftven.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8"
 
-def modifier_contenu_m3u8(contenu, base_url):
-    lignes = contenu.splitlines()
-    nouvelles_lignes = []
+# Diagnostic rapide
+print("CWD:", Path.cwd())
+print("Looking for:", m3u8_path.resolve())
+if not m3u8_path.exists():
+    sys.exit(f"Fichier introuvable : {m3u8_path.resolve()}")
 
-    for ligne in lignes:
-        ligne = ligne.strip()
-        if not ligne:
-            continue
+# 1) Requête et extraction du "url" dans le JSON
+resp = requests.get(auth_url, timeout=15)
+resp.raise_for_status()
+data = resp.json()
+full_url = data.get("url")
+if not full_url:
+    sys.exit("Champ 'url' absent dans la réponse JSON.")
 
-        # 1. Si la ligne est un lien direct (ne commence pas par #)
-        if not ligne.startswith("#"):
-            nouvelles_lignes.append(urljoin(base_url, ligne))
-        
-        # 2. Si la ligne contient une URI (ex: les clés DRM ou les sous-fichiers)
-        elif 'URI="' in ligne:
-            # On cherche tout ce qui est entre les guillemets après URI=
-            nouvelle_ligne = re.sub(
-                r'URI="([^"]+)"', 
-                lambda m: f'URI="{urljoin(base_url, m.group(1))}"', 
-                ligne
-            )
-            nouvelles_lignes.append(nouvelle_ligne)
-        
-        # 3. Sinon, on garde la ligne telle quelle
-        else:
-            nouvelles_lignes.append(ligne)
+# 2) Extraire le nouveau token (entre domaine et /simulcast)
+m_new = re.search(r"https?://[^/]+/([^/]+)/simulcast/", full_url)
+if not m_new:
+    sys.exit("Impossible d'extraire le nouveau token dans l'URL retournée.")
+new_token = m_new.group(1)
+print("New token:", new_token)
 
-    return "\n".join(nouvelles_lignes)
+# 3) Lire le fichier m3u8 et trouver l'ancien token
+text = m3u8_path.read_text(encoding="utf-8")
+m_old = re.search(r"https?://[^/]+/([^/]+)/simulcast/", text)
+if not m_old:
+    sys.exit("Aucun token existant trouvé dans le fichier m3u8.")
+old_token = m_old.group(1)
+print("Old token:", old_token)
 
-def main():
-    print("🚀 Démarrage de l'actualisation...")
-    
-    m3u_url = extraire_url_flux(URL_SOURCE)
-    
-    if not m3u_url:
-        print("Error: Impossible de récupérer l'URL source.")
-        return
+if old_token == new_token:
+    print("Le token est déjà à jour.")
+    sys.exit(0)
 
-    try:
-        res = requests.get(m3u_url, headers=HEADERS, timeout=10)
-        res.raise_for_status()
-
-        # On définit la base URL pour reconstruire les liens relatifs
-        # On prend tout ce qui précède le dernier '/'
-        base_url = m3u_url.rsplit('/', 1)[0] + '/'
-        
-        m3u_modifie = modifier_contenu_m3u8(res.text, base_url)
-
-        with open(NOM_FICHIER, 'w', encoding='utf-8') as f:
-            f.write(m3u_modifie)
-        
-        print(f"✅ Fichier {NOM_FICHIER} mis à jour avec succès.")
-        
-    except Exception as e:
-        print(f"❌ Erreur lors du traitement : {e}")
-
-if __name__ == "__main__":
-    main()
+# 4) Sauvegarde et remplacement
+backup_path.write_text(text, encoding="utf-8")
+updated = text.replace(old_token, new_token)
+m3u8_path.write_text(updated, encoding="utf-8")
+print(f"Remplacé '{old_token}' par '{new_token}' dans {m3u8_path} (backup: {backup_path}).")
