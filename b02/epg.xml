@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260331035000 +0200" stop="20260331060000 +0200" channel="M6test">
+<programme start="20260401023500 +0200" stop="20260401060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
@@ -14,7 +14,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331060000 +0200" stop="20260331080500 +0200" channel="M6test">
+<programme start="20260401060000 +0200" stop="20260401080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -42,7 +42,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331080500 +0200" stop="20260331094500 +0200" channel="M6test">
+<programme start="20260401080500 +0200" stop="20260401094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -52,13 +52,13 @@
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331094500 +0200" stop="20260331113000 +0200" channel="M6test">
+<programme start="20260401094500 +0200" stop="20260401113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -67,13 +67,13 @@
     <date>2026</date>
     <category lang="fr">Art de vivre</category>
     <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/49FBFE03E9BD010FFCEB1FC0CEE4F51A.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/BDCDE118CB4609F8D800BF13AD037494.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331113000 +0200" stop="20260331124000 +0200" channel="M6test">
+<programme start="20260401113000 +0200" stop="20260401124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -88,7 +88,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331124000 +0200" stop="20260331124500 +0200" channel="M6test">
+<programme start="20260401124000 +0200" stop="20260401124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -100,7 +100,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331124500 +0200" stop="20260331133500 +0200" channel="M6test">
+<programme start="20260401124500 +0200" stop="20260401133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -109,13 +109,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331133500 +0200" stop="20260331134000 +0200" channel="M6test">
+<programme start="20260401133500 +0200" stop="20260401134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -142,7 +142,21 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331134000 +0200" stop="20260331145000 +0200" channel="M6test">
+<programme start="20260401134000 +0200" stop="20260401145000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Les nouveaux rois des vacances à prix cassés</sub-title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">3.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260401145000 +0200" stop="20260401155000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -150,12 +164,11 @@
     <category lang="fr">Information</category>
     <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331145000 +0200" stop="20260331155000 +0200" channel="M6test">
+<programme start="20260401155000 +0200" stop="20260401165000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -163,13 +176,13 @@
     <category lang="fr">Information</category>
     <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331155000 +0200" stop="20260331165000 +0200" channel="M6test">
+<programme start="20260401165000 +0200" stop="20260401173000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Entre paquebot et parc d'attractions : l'incroyable croisière du Seaside</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -180,19 +193,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331165000 +0200" stop="20260331173000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260331173000 +0200" stop="20260331183500 +0200" channel="M6test">
+<programme start="20260401173000 +0200" stop="20260401183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -208,7 +209,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331183500 +0200" stop="20260331194000 +0200" channel="M6test">
+<programme start="20260401183500 +0200" stop="20260401194000 +0200" channel="M6test">
     <title lang="fr">La meilleure boulangerie de France</title>
     <sub-title lang="fr">Normandie</sub-title>
     <desc lang="fr">Chiara Serpaggi et Danny Khezzar, finaliste de la saison 14 de "Top Chef", participent à cette nouvelle saison qui célèbre le patrimoine gastronomique français en partant à la découverte des plus belles boulangeries de l'Hexagone.</desc>
@@ -220,14 +221,14 @@
     <date>2026</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E91564EE6F1633D2594E2301F0392CA1.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/68F91B8597B474D50B1D28662056F637.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">12.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331194000 +0200" stop="20260331194500 +0200" channel="M6test">
+<programme start="20260401194000 +0200" stop="20260401194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -239,7 +240,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331194500 +0200" stop="20260331204000 +0200" channel="M6test">
+<programme start="20260401194500 +0200" stop="20260401204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -254,7 +255,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331204000 +0200" stop="20260331211000 +0200" channel="M6test">
+<programme start="20260401204000 +0200" stop="20260401211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Après une demande en mariage mémorable, Emma et Fabien préparent le grand jour où ils se diront enfin oui. Camille, forte du succès de son centre de bien-être, pourrait bien finir par détrôner Philippe et ses deux pharmacies. Un tournant professionnel se dessinera également pour José et Liliane : et si après la mairie, il y avait un autre horizon pour José ? Quant à Sofiane et Alice, la frénésie de leur épicerie ne leur laissera aucun repos. Du repos, c'est bien ce qui pourrait faire peur à Léo et Leslie, qui passent le cap des 30 ans. Les couples n'en finissent pas d'étonner les téléspectateurs dans une 17e saison enjouée.</desc>
     <credits>
@@ -282,197 +283,99 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260331211000 +0200" stop="20260331220500 +0200" channel="M6test">
-    <title lang="fr">Culte</title>
-    <sub-title lang="fr">Les outsiders</sub-title>
-    <desc lang="fr">A Paris, en 2001. Isabelle de Rochechouart, jeune productrice de télévision, découvre qu'elle va être licenciée. Son seul salut : s'imposer à la tête d'un nouveau programme mystérieux que son patron Raphaël Dumas cherche à importer en France. Pour y parvenir, elle va avoir besoin de l'aide de Karim, journaliste et casteur…</desc>
+<programme start="20260401211000 +0200" stop="20260401221000 +0200" channel="M6test">
+    <title lang="fr">Top chef</title>
+    <desc lang="fr">Les cuisiniers plongent dans l'univers des "MOF", les meilleurs ouvriers de France, et vont au Cirque Jules Verne d'Amiens pour un marathon d'épreuves techniques. Les candidats seront accompagnés par Philippe Etchebest, ainsi que par trois "MOF" d'exception : Michel Roth, Guy Krenzer et Christophe Raoux.</desc>
     <credits>
-      <director>Louis Farge</director>
-      <actor>Léo Dussollier</actor>
-      <actor>Philippe Lefebvre</actor>
-      <actor>Eric Naggar</actor>
-      <actor>Laëtitia Eïdo</actor>
-      <actor>Evelyne El Garby Klaï</actor>
-      <actor>Marie Colomb</actor>
-      <actor>César Domboy</actor>
-      <actor>Anaïde Rozam</actor>
-      <actor>Nicolas Briançon</actor>
-      <actor>Sami Outalbali</actor>
-      <actor>David Marsais</actor>
-      <actor>Bastien Bernini</actor>
-      <adapter>Matthieu Rumani</adapter>
-      <adapter>Jean-Alain Laban</adapter>
-      <adapter>Nicolas Slomka</adapter>
-      <producer>Clara Levy</producer>
-      <producer>Frédéric Lussato</producer>
-      <producer>Georgia Poivre</producer>
-      <producer>Alexia Laroche-Joubert</producer>
-      <composer>Robin Coudert</composer>
-      <guest>Amazon MGM Studios</guest>
-      <guest>Babylone Hills</guest>
-      <guest>Screen Line Productions</guest>
-      <guest>27 Tribe</guest>
+      <guest>Paul Pairet</guest>
+      <guest>Stéphanie Le Quellec</guest>
+      <guest>Stéphane Rotenberg</guest>
+      <guest>Guy Krenzer</guest>
+      <guest>Christophe Raoux</guest>
+      <guest>Glenn Viel</guest>
+      <guest>Michel Roth</guest>
+      <guest>Philippe Etchebest</guest>
+      <guest>Hélène Darroze</guest>
     </credits>
-    <date>2024</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/7145668F818580476E9E05C55AA11DDC.jpg"/>
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/78BD0CCB62CF6CA7B048C1C3ECC2F88D.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260401221000 +0200" stop="20260401233000 +0200" channel="M6test">
+    <title lang="fr">Top chef</title>
+    <desc lang="fr">Afin de ne pas commettre de fautes techniques, les cuisiniers étudient minutieusement chaque plat. Mais sous le regard des chefs expérimentés, des meilleurs ouvriers de France, qui vont juger la moindre erreur, la pression monte doucement mais sûrement entre chaque épreuve du concours.</desc>
+    <credits>
+      <guest>Paul Pairet</guest>
+      <guest>Stéphanie Le Quellec</guest>
+      <guest>Stéphane Rotenberg</guest>
+      <guest>Guy Krenzer</guest>
+      <guest>Christophe Raoux</guest>
+      <guest>Glenn Viel</guest>
+      <guest>Michel Roth</guest>
+      <guest>Philippe Etchebest</guest>
+      <guest>Hélène Darroze</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/78BD0CCB62CF6CA7B048C1C3ECC2F88D.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260401233000 +0200" stop="20260402003500 +0200" channel="M6test">
+    <title lang="fr">Top chef : le concours parallèle</title>
+    <desc lang="fr">Le concours parallèle de "Top chef" voit s'affronter chaque semaine les cuisiniers éliminés du concours. A l'issue de cette compétition secrète, deux d'entre eux feront leur retour dans "Top chef". Pour sélectionner ces deux candidats, le jury a missionné deux grands chefs : Fabien Ferré et Yoann Conte.</desc>
+    <credits>
+      <guest>Stéphane Rotenberg</guest>
+      <guest>Yoann Conte</guest>
+      <guest>François-Régis Gaudry</guest>
+      <guest>Fabien Ferré</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A5DA773CDCB849013A09735D0BB3B6E9.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260402003500 +0200" stop="20260402013000 +0200" channel="M6test">
+    <title lang="fr">Les secrets des chefs</title>
+    <sub-title lang="fr">Un petit bouillon chez les Ch'tits</sub-title>
+    <desc lang="fr">Avec l'éternel retour de la crise, les restaurants de type petit bouillon ont de nouveau le vent en poupe, non seulement à Paris mais dans les principales villes de province.</desc>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Mag Gastronomie</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/118776936"/>
     <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260331220500 +0200" stop="20260331225500 +0200" channel="M6test">
-    <title lang="fr">Culte</title>
-    <sub-title lang="fr">Les pionniers</sub-title>
-    <desc lang="fr">Le compte à rebours est lancé, il ne reste que quatre mois pour mettre à l'antenne l'émission. Tandis que Raphaël court après l'argent pour financer les dépassements de budgets, Isabelle se noie sous les dossiers de candidature. Parmi ceux ci, un profil trouble particulièrement Karim : une certaine Loana…</desc>
-    <credits>
-      <director>Louis Farge</director>
-      <actor>Lila Guennas</actor>
-      <actor>Eric Naggar</actor>
-      <actor>Léo Dussollier</actor>
-      <actor>Philippe Lefebvre</actor>
-      <actor>Marie Colomb</actor>
-      <actor>Raphaëlle Simon</actor>
-      <actor>César Domboy</actor>
-      <actor>Anaïde Rozam</actor>
-      <actor>Nicolas Briançon</actor>
-      <actor>Sami Outalbali</actor>
-      <actor>Jacqueline Corado</actor>
-      <actor>David Marsais</actor>
-      <adapter>Matthieu Rumani</adapter>
-      <adapter>Jean-Alain Laban</adapter>
-      <adapter>Nicolas Slomka</adapter>
-      <producer>Clara Levy</producer>
-      <producer>Frédéric Lussato</producer>
-      <producer>Georgia Poivre</producer>
-      <producer>Alexia Laroche-Joubert</producer>
-      <composer>Robin Coudert</composer>
-      <guest>Amazon MGM Studios</guest>
-      <guest>Philippe Cariou</guest>
-      <guest>Babylone Hills</guest>
-      <guest>Screen Line Productions</guest>
-      <guest>27 Tribe</guest>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/0409223EEAD260B8921BF046552DA003.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.1.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260331225500 +0200" stop="20260331235000 +0200" channel="M6test">
-    <title lang="fr">Culte</title>
-    <sub-title lang="fr">Les amateurs</sub-title>
-    <desc lang="fr">Après avoir réussi à tordre le bras à Chaunac pour sauver l'émission, Raphaël et Isabelle se préparent au premier prime time. Karim s'érige en ange-gardien de Loana, qui vit un véritable conte de fées. Mais les difficultés s'accumulent pour la production, et l'objectif de 28% d'audience semble inatteignable…</desc>
-    <credits>
-      <director>Louis Farge</director>
-      <actor>Lila Guennas</actor>
-      <actor>Victor Poirier</actor>
-      <actor>Léo Dussollier</actor>
-      <actor>Raphaëlle Simon</actor>
-      <actor>Philippe Lefebvre</actor>
-      <actor>Marie Colomb</actor>
-      <actor>César Domboy</actor>
-      <actor>Anaïde Rozam</actor>
-      <actor>Nicolas Briançon</actor>
-      <actor>Sami Outalbali</actor>
-      <actor>Jacqueline Corado</actor>
-      <actor>David Marsais</actor>
-      <adapter>Matthieu Rumani</adapter>
-      <adapter>Jean-Alain Laban</adapter>
-      <adapter>Nicolas Slomka</adapter>
-      <producer>Clara Levy</producer>
-      <producer>Frédéric Lussato</producer>
-      <producer>Georgia Poivre</producer>
-      <producer>Alexia Laroche-Joubert</producer>
-      <composer>Robin Coudert</composer>
-      <guest>Screen Line Productions</guest>
-      <guest>Amazon MGM Studios</guest>
-      <guest>Philippe Cariou</guest>
-      <guest>27 Tribe</guest>
-      <guest>Babylone Hills</guest>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/3F765EF2A1D4A6F193797D213B3E6A9B.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260331235000 +0200" stop="20260401005000 +0200" channel="M6test">
-    <title lang="fr">Culte</title>
-    <sub-title lang="fr">Les ordures</sub-title>
-    <desc lang="fr">Après un incident dans le loft, Raphaël et Isabelle redoutent la colère de Chaunac. Mais rien ne peut les préparer à la tempête médiatique qui va s'abattre sur eux. En parallèle, Karim, complètement dépassé par les événements, commence à perdre pied…</desc>
-    <credits>
-      <director>Louis Farge</director>
-      <actor>Anaïde Rozam</actor>
-      <actor>Lila Guennas</actor>
-      <actor>Bénédicte-Lala Ernoult</actor>
-      <actor>Marie Colomb</actor>
-      <actor>Jacqueline Corado</actor>
-      <actor>David Marsais</actor>
-      <actor>Philippe Lefebvre</actor>
-      <actor>Bastien Bernini</actor>
-      <actor>Nicolas Briançon</actor>
-      <actor>Sami Outalbali</actor>
-      <actor>Eric Naggar</actor>
-      <actor>César Domboy</actor>
-      <adapter>Matthieu Rumani</adapter>
-      <adapter>Nicolas Slomka</adapter>
-      <adapter>Jean-Alain Laban</adapter>
-      <guest>Screen Line Productions</guest>
-      <guest>Amazon MGM Studios</guest>
-      <guest>27 Tribe</guest>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CD5BC42163BF9F38FCBAE8AF2C35D28F.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260401005000 +0200" stop="20260401015000 +0200" channel="M6test">
-    <title lang="fr">Cauchemar en cuisine - Saison 8</title>
-    <sub-title lang="fr">Tarbes</sub-title>
-    <desc lang="fr">A Tarbes, le chef Philippe Etchebest a fort à faire. Il accepte de venir en aide à Christian qui a repris un restaurant avec sa compagne et son neveu il y a 25 ans. Mais la clientèle boude de plus en plus l'établissement. Etchebest pointe du doigt mille et une mauvaises habitudes prises au fil des années.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/114281020"/>
-    <episode-num system="xmltv_ns">7.6.</episode-num>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260401015000 +0200" stop="20260401023500 +0200" channel="M6test">
-    <title lang="fr">Cauchemar en cuisine - Saison 8</title>
-    <sub-title lang="fr">Tarbes</sub-title>
-    <desc lang="fr">Il y a 25 ans, Christian a repris un établissement avec sa femme et son neveu. Après des années de dur labeur et de sacrifices, aujourd'hui l'affaire périclite.</desc>
+<programme start="20260402013000 +0200" stop="20260402022500 +0200" channel="M6test">
+    <title lang="fr">Les secrets des chefs</title>
+    <sub-title lang="fr">Ecole Ducasse : les futures stars de la pâtisserie</sub-title>
+    <desc lang="fr">L'une des plus prestigieuses école de pâtisserie du monde est installée dans le château de Montbarnier à Yssingeaux (Haute-Loire) depuis sa création en 1984. Cette école de 7000 m² a été reprise en 2007 par Alain Ducasse. 1500 étudiants, venus du monde entier, y sont formés chaque année aux arts pâtissiers.</desc>
     <category lang="fr">Divertissement</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/114281020"/>
-    <episode-num system="xmltv_ns">7.6.</episode-num>
+    <category lang="fr">Mag Gastronomie</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123166786"/>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260401023500 +0200" stop="20260401060000 +0200" channel="M6test">
+<programme start="20260402022500 +0200" stop="20260402060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <sub-title lang="fr">Divers</sub-title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
