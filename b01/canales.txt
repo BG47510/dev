@@ -1,2 +1,0 @@
-France4.fr,France 4,https://static.teleboy.ch/shared/stations/288/icon320_light.png?v2023_48_0
-France5.fr,France 5,https://static.teleboy.ch/shared/stations/80/icon320_light.png?v2023_48_0
