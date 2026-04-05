@@ -3,278 +3,345 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260404012500 +0200" stop="20260404060000 +0200" channel="M6test">
+<programme start="20260405035000 +0200" stop="20260405060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/7/6/13012671.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404060000 +0200" stop="20260404074500 +0200" channel="M6test">
+<programme start="20260405060000 +0200" stop="20260405070000 +0200" channel="M6test">
     <title lang="fr">M6 Kid</title>
     <desc lang="fr">Debout c'est M6 Kid ! Un réveil joyeux et 100 % animation pour tous les enfants !</desc>
-    <category lang="fr">Magazine jeunesse</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/0/5/13539508.jpg"/>
+    <date>2024</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Jeunesse</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/413EC1038F9B226BE458C1AFF3C2D407.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404074500 +0200" stop="20260404101000 +0200" channel="M6test">
-    <title lang="fr">Absolument stars</title>
-    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/8/2/13937283.jpg"/>
+<programme start="20260405070000 +0200" stop="20260405073000 +0200" channel="M6test">
+    <title lang="fr">100% immo, l'hebdo</title>
+    <desc lang="fr">Une équipe de spécialistes de l'immobilier vous dit tout sur les tendances et l'actualité du secteur immobilier,...</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Découvertes</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6B4E8FA2B4BF5F9CCB0AB785BB7AAAA2.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404101000 +0200" stop="20260404102000 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/14017420.jpg"/>
+<programme start="20260405073000 +0200" stop="20260405102500 +0200" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
+    <credits>
+      <guest>Marie-Ange Nardi</guest>
+      <guest>Charlotte Rosier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Télé-achat</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404102000 +0200" stop="20260404105500 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/14017420.jpg"/>
-    <episode-num system="xmltv_ns">0.31.</episode-num>
+<programme start="20260405102500 +0200" stop="20260405105500 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <sub-title lang="fr">Porsche : 911 Carrera T, Panamera Hybride et le novateur Macan, 3 motorisations, 3 philosophies</sub-title>
+    <desc lang="fr">Cette semaine, c'est entre Palm Springs et Los Angeles qu'Étienne et Safet ont eu le plaisir de prendre le volant de trois Porsche à la philosophie totalement différente : la sportive 911 Carrera T, l'élégante Panamera Hybride et le novateur Macan électrique. Et quel que soit le mode de propulsion, l'ADN Porsche répond présent !</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404105500 +0200" stop="20260404114500 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <sub-title lang="fr">Le salon qui peut changer une vie</sub-title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/2/12507203.jpg"/>
-    <episode-num system="xmltv_ns">0.27.</episode-num>
+<programme start="20260405105500 +0200" stop="20260405112000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <sub-title lang="fr">Mercedes : 140 ans d'innovation</sub-title>
+    <desc lang="fr">Cette semaine, Dominique Chapatte et Thomas Bastard sont partis aux Sables d'Olonne pour une émission autour d'un anniversaire très spécial… les 140 ans d'innovations chez Mercedes. Du tricycle à la AMG One, monstre de plus de 1000 chevaux unique exemplaire en France, en passant par les mythiques modèles des séries des années 80, plongez dans l'histoire d'une marque à l'avant-garde de l'innovation depuis 140 ans.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404114500 +0200" stop="20260404124000 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <sub-title lang="fr">Le village à la recherche de sa troisième étoile</sub-title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/2/12507203.jpg"/>
-    <episode-num system="xmltv_ns">0.28.</episode-num>
+<programme start="20260405112000 +0200" stop="20260405124000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques, sans oublier les derniers modèles des différentes marques. Turbo revient sur les nouveautés du marché et présente les avantages et les petits inconvénients de chaque modèle.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404124000 +0200" stop="20260404124500 +0200" channel="M6test">
+<programme start="20260405124000 +0200" stop="20260405124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/6/5/12537566.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/DD83476181B0B2975567878102B9EE53.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404124500 +0200" stop="20260404133000 +0200" channel="M6test">
+<programme start="20260405124500 +0200" stop="20260405132500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
-    <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Ashley Chevalier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/2/12485264.jpg"/>
-    <episode-num system="xmltv_ns">0.93.</episode-num>
+    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404133000 +0200" stop="20260404141500 +0200" channel="M6test">
+<programme start="20260405132500 +0200" stop="20260405140500 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Un palace version nature</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/8/5/13532589.jpg"/>
-    <episode-num system="xmltv_ns">0.185.</episode-num>
+    <sub-title lang="fr">Des logements pas comme les autres</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404141500 +0200" stop="20260404150000 +0200" channel="M6test">
+<programme start="20260405140500 +0200" stop="20260405150500 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/8/5/13532589.jpg"/>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404150000 +0200" stop="20260404155500 +0200" channel="M6test">
+<programme start="20260405150500 +0200" stop="20260405160000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Futurs chefs : ils ont des étoiles plein la tête</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/8/5/13532589.jpg"/>
-    <episode-num system="xmltv_ns">0.189.</episode-num>
+    <sub-title lang="fr">Travaux à la maison : quand les promesses virent à la galère</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404155500 +0200" stop="20260404162500 +0200" channel="M6test">
+<programme start="20260405160000 +0200" stop="20260405171000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Porto : douceur de vivre, douceur des prix</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/8/5/13532589.jpg"/>
-    <episode-num system="xmltv_ns">0.187.</episode-num>
+    <sub-title lang="fr">Comment décorer sa maison pour moins de 500 euros ?</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404162500 +0200" stop="20260404174000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Singapour : le meilleur des mondes</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/8/5/13532589.jpg"/>
-    <episode-num system="xmltv_ns">0.188.</episode-num>
+<programme start="20260405171000 +0200" stop="20260405184000 +0200" channel="M6test">
+    <title lang="fr">66 minutes</title>
+    <desc lang="fr">Des célébrités aux faits divers en passant par la politique, différents reportages reviennent sur l'actualité pour mieux l'analyser et la comprendre.</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7D922730EB9D58F4F31909005ED4391F.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404174000 +0200" stop="20260404183500 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/8/5/13532588.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+<programme start="20260405184000 +0200" stop="20260405194000 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">Décryptage d'un phénomène de société ou d'un événement tiré de l'actualité.</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5302E4ACD03C25F10DB96CEBC5AF2AB4.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404183500 +0200" stop="20260404194000 +0200" channel="M6test">
-    <title lang="fr">Le maillon faible</title>
-    <desc lang="fr">Ils ne sont pas de la même famille… Ils ne sont pas amis… Ils ne se connaissent même pas… Et pourtant, huit candidats vont devoir jouer en équipe ! Dans chaque manche, un candidat sera éliminé par les autres joueurs car il aura été considéré comme étant \" le maillon faible \". À la fin, un seul d'entre eux pourra remporter le gain final ; les sept autres repartiront les mains vides. Suspense, culture générale et éliminations sans concession, le jeu culte est de retour !</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/3/7/13109734.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260404194000 +0200" stop="20260404194500 +0200" channel="M6test">
+<programme start="20260405194000 +0200" stop="20260405194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/2/14194244.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/A6758D06B90103E93E64EBE300BAB8F2.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404194500 +0200" stop="20260404203000 +0200" channel="M6test">
+<programme start="20260405194500 +0200" stop="20260405201000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
-    <desc lang="fr">Le journal de M6.</desc>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Ashley Chevalier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/5/2/12485256.jpg"/>
-    <episode-num system="xmltv_ns">0.93.</episode-num>
+    <icon src="https://img.bouygtel.fr/CMS/images/6AE8E465FE04556B95466CE8341A626D.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404203000 +0200" stop="20260404211000 +0200" channel="M6test">
+<programme start="20260405201000 +0200" stop="20260405204000 +0200" channel="M6test">
+    <title lang="fr">Le 2010, Anne-Sophie Lapix</title>
+    <desc lang="fr">Anne-Sophie Lapix propose une interview exclusive d'une dizaine de minutes avec une personnalité marquante de la semaine. Qu'il s'agisse d'une figure connue ou d'un visage anonyme, les invités viennent de tous horizons : société, culture, ...</desc>
+    <credits>
+      <guest>Anne-Sophie Lapix</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Interview</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E27044DAF2AB4E262B1E8F17AED18A2E.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260405204000 +0200" stop="20260405211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
-    <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/5/2/12485258.jpg"/>
+    <desc lang="fr">Après une demande en mariage mémorable, Emma et Fabien préparent le grand jour où ils se diront enfin oui. Camille, forte du succès de son centre de bien-être, pourrait bien finir par détrôner Philippe et ses deux pharmacies. Un tournant professionnel se dessinera également pour José et Liliane : et si après la mairie, il y avait un autre horizon pour José ? Quant à Sofiane et Alice, la frénésie de leur épicerie ne leur laissera aucun repos. Du repos, c'est bien ce qui pourrait faire peur à Léo et Leslie, qui passent le cap des 30 ans. Les couples n'en finissent pas d'étonner les téléspectateurs dans une 17e saison enjouée.</desc>
+    <credits>
+      <actor>Valérie Karsenti</actor>
+      <actor>Ryad Baxx</actor>
+      <actor>Claire Chust</actor>
+      <actor>Grégoire Bonnet</actor>
+      <actor>Vinnie Dargaud</actor>
+      <actor>Frédéric Bouraly</actor>
+      <actor>Fanny Cottençon</actor>
+      <actor>David Mora</actor>
+      <actor>Amélie Etasse</actor>
+      <actor>Claudia Mongumu</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>Gérard Hernandez</actor>
+      <guest>M6 Métropole Télévision</guest>
+      <guest> KaBo</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404211000 +0200" stop="20260404221000 +0200" channel="M6test">
-    <title lang="fr">Les traîtres</title>
-    <desc lang="fr">La pression monte pour les candidats encore en lice. Les Traîtres et les Loyaux poursuivent leur jeu du chat et de la souris dans les couloirs et allées du Domaine de Bournel. Au fur et à mesure des éliminations, les personnalités sont déterminées à décrocher les lingots pour l'association qu'ils représentent.</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/2/14229226.jpg"/>
-    <episode-num system="xmltv_ns">5.1.</episode-num>
+<programme start="20260405211000 +0200" stop="20260405231000 +0200" channel="M6test">
+    <title lang="fr">Zone interdite</title>
+    <sub-title lang="fr">Tout plaquer pour une île paradisiaque : rêve ou folie ?</sub-title>
+    <desc lang="fr">Certains Français, généralement plutôt jeunes, décident de s'installer dans des endroits paradisiaques comme l'île Maurice, la Thaïlande, Zanzibar ou les Philippines. Mais derrière les décors de carte postale, la réalité de la vie là-bas demande souvent des adaptations, voire des sacrifices.</desc>
+    <credits>
+      <guest>Ophélie Meunier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A8327EE6B01795898E9C4A2995A370BF.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404221000 +0200" stop="20260404232500 +0200" channel="M6test">
-    <title lang="fr">Les traîtres</title>
-    <desc lang="fr">Les Traîtres redoublent d'inventivité pour ne pas être pris en défaut et continuent dans l'ombre à éliminer les autres candidats. Les Loyaux, eux, se déchirent pour parvenir à identifier ceux qui jouent contre eux.</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/2/14229226.jpg"/>
-    <episode-num system="xmltv_ns">5.1.</episode-num>
+<programme start="20260405231000 +0200" stop="20260406002000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Fêtes, pétrole, tartans : l'Ecosse entre extravagance et tradition !</sub-title>
+    <desc lang="fr">Entre fêtes traditionnelles et rituels sacrés, l'Écosse est le pays des clans, des kilts, des châteaux et des lochs mystérieux. C'est aussi une nation riche grâce à ses réserves de pétrole et ses exportations de whisky et de saumon. On y trouve aussi les Highland Games, des jeux aux origines guerrières. </desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D71DB7AF1CEA716B2BA19ADB92214AC9.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260404232500 +0200" stop="20260405002000 +0200" channel="M6test">
-    <title lang="fr">Les traîtres : révélations sur la suite...</title>
-    <desc lang="fr">Juju Fitcats a participé au jeu au cours de la saison 2, qu'elle a d'ailleurs remporté. Quelques années plus tard, elle revient pour recevoir les joueurs mais aussi analyser les stratégies à l'oeuvre, les alliances et les trahisons. Entre révélations chocs, confrontations, règlements de compte et images inédites, elle propose une immersion au coeur du château de Bournel et dévoile tous les secrets de ce jeu imprévisible qui n'a pas fini de surprendre.</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/2/2/14229225.jpg"/>
-    <episode-num system="xmltv_ns">5.1.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260405002000 +0200" stop="20260405012500 +0200" channel="M6test">
-    <title lang="fr">Cauchemar en cuisine - Saison 12</title>
-    <sub-title lang="fr">Châtel-Guyon</sub-title>
-    <desc lang="fr">En Auvergne, à Châtel-Guyon, Philippe Etchebest visite le restaurant de Damien et Elodie, qui rencontre de grandes difficultés. Le couple a repris l'établissement il y a sept mois et, après un bon démarrage, connaît un lent déclin. Lors de sa visite, Philippe Etchebest constate l'ampleur des dégâts. Manque de professionnalisme, cuisine mal tenue : Damien et Elodie croulent sous les problèmes.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/117890199"/>
-    <episode-num system="xmltv_ns">11.2.</episode-num>
+<programme start="20260406002000 +0200" stop="20260406014000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Gypsies et Travellers : enquête sur les gitans anglais</sub-title>
+    <desc lang="fr">Originaires de Roumanie, les gitans britanniques forment une communauté de 300 000 âmes, plus sédentaire que celle des gens du voyage en France. Rencontre avec plusieurs représentants de cette population, qui suscite crainte et fascination. Zoom sur la foire d'Appleby, spectaculaire rassemblement annuel.</desc>
+    <category lang="fr">Actualites</category>
+    <category lang="fr">Mag Infos</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/107524699"/>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260405012500 +0200" stop="20260405021500 +0200" channel="M6test">
-    <title lang="fr">Cauchemar en cuisine - Saison 12</title>
-    <sub-title lang="fr">Châtel-Guyon</sub-title>
-    <desc lang="fr">Damien, passionné de cuisine, a repris il y a sept mois une institution locale. Après un bon démarrage, le chiffre d'affaires dégringole, et le couple vient d'être mis en redressement judiciaire.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122374450"/>
-    <episode-num system="xmltv_ns">11.2.</episode-num>
+<programme start="20260406014000 +0200" stop="20260406024000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Spectaculaires et sauvages : les paradis secrets de la riviera brésilienne</sub-title>
+    <desc lang="fr">Au Nord-Est du Brésil s'étend un paysage unique au monde : des plages paradisiaques et des lagons aux eaux cristallines au milieu de gigantesques dunes de sable. Dans la région, les projets sont toujours plus spectaculaires. Ce boom touristique impacte le fragile écosystème de la région.</desc>
+    <category lang="fr">Actualites</category>
+    <category lang="fr">Mag Infos</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122923750"/>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260405021500 +0200" stop="20260405031000 +0200" channel="M6test">
-    <title lang="fr">Cauchemar en cuisine - Saison 6</title>
-    <sub-title lang="fr">Gardonne</sub-title>
-    <desc lang="fr">Philippe se fait aider par Olivier Belin, chef doublement étoilé, pour sauver l'établissement de Vincent et Marina, qui ont quitté la Bretagne pour la Dordogne.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Telerealite</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122374450"/>
-    <episode-num system="xmltv_ns">5.5.</episode-num>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260405031000 +0200" stop="20260405035000 +0200" channel="M6test">
-    <title lang="fr">Cauchemar en cuisine - Saison 6</title>
-    <sub-title lang="fr">Gardonne</sub-title>
-    <desc lang="fr">A Gardonne, le restaurant repris par Vincent et Marina s'effondre jour après jour. Philippe Etchebest se heurte au manque de motivation du chef.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Telerealite</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122374450"/>
-    <episode-num system="xmltv_ns">5.5.</episode-num>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260405035000 +0200" stop="20260405060000 +0200" channel="M6test">
+<programme start="20260406024000 +0200" stop="20260406060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <sub-title lang="fr">Divers</sub-title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Divers</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120459787"/>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/100372850"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
