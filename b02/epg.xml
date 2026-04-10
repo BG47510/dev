@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260409022000 +0200" stop="20260409060000 +0200" channel="M6test">
+<programme start="20260410024500 +0200" stop="20260410060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
@@ -14,7 +14,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409060000 +0200" stop="20260409080500 +0200" channel="M6test">
+<programme start="20260410060000 +0200" stop="20260410080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -33,16 +33,16 @@
       <guest>M6 Métropole Télévision</guest>
       <guest> KaBo</guest>
     </credits>
+    <date>2008</date>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DEC4BD560E547955592B0646BB733759.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">6.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409080500 +0200" stop="20260409094500 +0200" channel="M6test">
+<programme start="20260410080500 +0200" stop="20260410094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -58,7 +58,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409094500 +0200" stop="20260409113000 +0200" channel="M6test">
+<programme start="20260410094500 +0200" stop="20260410113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -67,13 +67,13 @@
     <date>2026</date>
     <category lang="fr">Art de vivre</category>
     <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BDCDE118CB4609F8D800BF13AD037494.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/49FBFE03E9BD010FFCEB1FC0CEE4F51A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409113000 +0200" stop="20260409124000 +0200" channel="M6test">
+<programme start="20260410113000 +0200" stop="20260410124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -88,7 +88,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409124000 +0200" stop="20260409124500 +0200" channel="M6test">
+<programme start="20260410124000 +0200" stop="20260410124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -100,7 +100,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409124500 +0200" stop="20260409133500 +0200" channel="M6test">
+<programme start="20260410124500 +0200" stop="20260410133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -115,7 +115,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409133500 +0200" stop="20260409134000 +0200" channel="M6test">
+<programme start="20260410133500 +0200" stop="20260410134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -142,22 +142,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409134000 +0200" stop="20260409145000 +0200" channel="M6test">
+<programme start="20260410134000 +0200" stop="20260410145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Les secrets du robot de cuisine préféré des Français</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260409145000 +0200" stop="20260409155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Venise : un quotidien hors du temps</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -168,19 +155,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409155000 +0200" stop="20260409165000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260409165000 +0200" stop="20260409173000 +0200" channel="M6test">
+<programme start="20260410145000 +0200" stop="20260410155000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -192,7 +167,31 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409173000 +0200" stop="20260409183500 +0200" channel="M6test">
+<programme start="20260410155000 +0200" stop="20260410165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260410165000 +0200" stop="20260410173000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260410173000 +0200" stop="20260410183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -208,7 +207,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409183500 +0200" stop="20260409194000 +0200" channel="M6test">
+<programme start="20260410183500 +0200" stop="20260410194000 +0200" channel="M6test">
     <title lang="fr">La meilleure boulangerie de France</title>
     <sub-title lang="fr">Ile-de-France est</sub-title>
     <desc lang="fr">Chiara Serpaggi et Danny Khezzar, finaliste de la saison 14 de "Top Chef", participent à cette nouvelle saison qui célèbre le patrimoine gastronomique français en partant à la découverte des plus belles boulangeries de l'Hexagone.</desc>
@@ -227,34 +226,34 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409194000 +0200" stop="20260409194500 +0200" channel="M6test">
+<programme start="20260410194000 +0200" stop="20260410194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/A6758D06B90103E93E64EBE300BAB8F2.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/DD83476181B0B2975567878102B9EE53.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409194500 +0200" stop="20260409204000 +0200" channel="M6test">
+<programme start="20260410194500 +0200" stop="20260410204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
-      <guest>Xavier de Moulins</guest>
+      <guest>Ashley Chevalier</guest>
     </credits>
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/307D64F97E714ECC1571F3C6834B2031.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/2774A1604A3D271305E89DC52118BAFD.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409204000 +0200" stop="20260409211000 +0200" channel="M6test">
+<programme start="20260410204000 +0200" stop="20260410211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Après une demande en mariage mémorable, Emma et Fabien préparent le grand jour où ils se diront enfin oui. Camille, forte du succès de son centre de bien-être, pourrait bien finir par détrôner Philippe et ses deux pharmacies. Un tournant professionnel se dessinera également pour José et Liliane : et si après la mairie, il y avait un autre horizon pour José ? Quant à Sofiane et Alice, la frénésie de leur épicerie ne leur laissera aucun repos. Du repos, c'est bien ce qui pourrait faire peur à Léo et Leslie, qui passent le cap des 30 ans. Les couples n'en finissent pas d'étonner les téléspectateurs dans une 17e saison enjouée.</desc>
     <credits>
@@ -275,108 +274,74 @@
     <date>2026</date>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/1374496CE676EECEEA58996AB4F473CD.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">16.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409211000 +0200" stop="20260409220500 +0200" channel="M6test">
-    <title lang="fr">Mission travaux : ma maison est un chantier</title>
-    <sub-title lang="fr">Sigritte et Hervé</sub-title>
-    <desc lang="fr">Sigritte et Hervé, 42 ans, forment une famille recomposée avec quatre enfants. Après le drame de la perte de son enfant, Sigritte s'est installée en Charente-Maritime où elle a rencontré Hervé, avec qui elle a entrepris la rénovation d'une ancienne grange à la façade pleine de charme. Après deux ans de travaux épuisants, leur relation s'est détériorée sous la pression du chantier interminable, les amenant à envisager une séparation alors que leur rêve de maison familiale s'est transformé en cauchemar. C'est là que Laurent Jacquet intervient, entouré de son équipe d'artisans ! Fort de son expertise, il va venir en aide à Sigritte et Hervé, dire ce qui ne va pas et tout remettre à plat.</desc>
+<programme start="20260410211000 +0200" stop="20260410222000 +0200" channel="M6test">
+    <title lang="fr">Pékin express : Au royaume des dragons</title>
+    <desc lang="fr">Pour la sixième étape, les candidats découvrent le deuxième pays traversé par la course : la Chine. Ils explorent le sud-ouest du pays, le Yunnan, province frontalière du Tibet. Alphabet, langue, coutumes, méthodes de communication et techniques de stop : pour les candidats, il va tout falloir redécouvrir.</desc>
     <credits>
-      <guest> Fremantle</guest>
+      <guest>Stéphane Rotenberg</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E5D23D30ADC8D61F93F7019CA9B51246.jpg"/>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/2A6D48A3B055ED910DC32C32704EB91F.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <episode-num system="xmltv_ns">21.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409220500 +0200" stop="20260409225500 +0200" channel="M6test">
-    <title lang="fr">Mission travaux : ma maison est un chantier</title>
-    <sub-title lang="fr">Sigritte et Hervé</sub-title>
-    <desc lang="fr">Après deux années de travaux et de vie précaire, la motivation a totalement disparu chez Sigritte et Hervé, et le couple est à bout. Ils évoquent même l'idée d'une séparation. Ce projet, qui devait leur offrir une grande et belle maison familiale, s'est peu à peu transformé en cauchemar. Laurent Jacquet, accompagné de son équipe d'artisans, va venir en aide à la famille. Avec son franc-parler et son expertise, il va prendre les choses en main et tout remettre à plat.</desc>
+<programme start="20260410222000 +0200" stop="20260410232500 +0200" channel="M6test">
+    <title lang="fr">Pékin express : Au royaume des dragons</title>
+    <desc lang="fr">Cette sixième étape amène les candidats encore en lice à la découverte du Yunnan, une province située dans le sud-ouest de la Chine. Au cours de cette étape intense, chaque détail peut faire la différence dans la course.</desc>
     <credits>
-      <guest> Fremantle</guest>
+      <guest>Stéphane Rotenberg</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/00D484C088DBFBEC2FFE3CF8ABCEFBCE.jpg"/>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/2A6D48A3B055ED910DC32C32704EB91F.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <episode-num system="xmltv_ns">21.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409225500 +0200" stop="20260409235500 +0200" channel="M6test">
-    <title lang="fr">Mission travaux : ma maison est un chantier</title>
-    <sub-title lang="fr">Annabelle et Milad</sub-title>
-    <desc lang="fr">Annabelle et Milad, parents trentenaires d'une petite fille, se sont lancés dans l'achat de leur première maison en 2020 en Seine-et-Marne, pensant qu'elle nécessitait seulement des rafraîchissements. Cependant, les travaux ont révélé de nombreux vices cachés et sont devenus une source de tension et de stress, aggravée par le fait qu'Annabelle est enceinte de leur second enfant. La maison reste en chantier, impactant leur vie de famille et leur relation, et Milad se sent coupable de ne pas avoir tenu sa promesse de mener à bien les rénovations. Ils ont la sensation d'être dans une impasse et ne savent plus comment en sortir.</desc>
+<programme start="20260410232500 +0200" stop="20260411002500 +0200" channel="M6test">
+    <title lang="fr">Le maillon faible</title>
+    <desc lang="fr">Ils ne sont pas de la même famille, ils ne sont pas amis, ils ne se connaissent même pas, et pourtant, huit candidats vont devoir jouer en équipe. Dans chaque manche, un joueur sera éliminé par les autres car il aura été considéré comme étant "le maillon faible". Un seul d'entre eux remportera le gain final.</desc>
     <credits>
-      <guest> Fremantle</guest>
+      <guest>Olivier Minne</guest>
     </credits>
-    <date>2025</date>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/F734ED65675A7FE2809DCD40047A76EF.jpg"/>
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8EB55C2A47BD0715782F97B44A06B5C3.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260409235500 +0200" stop="20260410005000 +0200" channel="M6test">
-    <title lang="fr">Mission travaux : ma maison est un chantier</title>
-    <sub-title lang="fr">Annabelle et Milad</sub-title>
-    <desc lang="fr">Pour redonner confiance à Annabelle et Milad, qui parfois baissent les bras devant la somme de travaux à réaliser dans leur maison, Laurent Jacquet et ses équipes de bricoleurs aguerris tracent des perspectives et proposent des plans réalistes et pragmatiques, dans des délais raisonnables.</desc>
-    <credits>
-      <guest> Fremantle</guest>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E10B1D5660B68A78680C3767BF2B99BF.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260410005000 +0200" stop="20260410015000 +0200" channel="M6test">
-    <title lang="fr">Mission travaux : ma maison est un chantier - Saison 1</title>
-    <sub-title lang="fr">Emission du 23 sept. 2025</sub-title>
-    <desc lang="fr">Laurent Jacquet et son équipe d'artisans interviennent chez des particuliers qui ont décidé de se lancer dans des travaux d'aménagement en intérieur. Angélique et Christophe sont dépassés par l'ampleur des travaux dans leur chaumière normande. Chez Sabrina et Stéphane, la plupart des pièces sont inachevées.</desc>
-    <category lang="fr">Decouverte</category>
-    <category lang="fr">Docu Realite</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/103984000"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+<programme start="20260411002500 +0200" stop="20260411013000 +0200" channel="M6test">
+    <title lang="fr">Le maillon faible</title>
+    <sub-title lang="fr">Émission 4</sub-title>
+    <desc lang="fr">Elodie, Mathieu, Rhita, Alain, Mélany, Hicham, Florence, Charly ne sont pas de la même famille, ni amis et ne se connaissent même pas. Ces huit candidats vont pourtant devoir jouer en équipe et former une chaîne de bonnes réponses pour espérer mettre en banque un maximum d'argent. A la fin de chaque manche, l'un d'entre eux sera éliminé par les autres, qui l'auront considéré comme le maillon faible. Suspense, culture générale et éliminations sans concession sont de mise dans ce jeu.</desc>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121916094"/>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260410015000 +0200" stop="20260410024500 +0200" channel="M6test">
-    <title lang="fr">Mission travaux : ma maison est un chantier - Saison 1</title>
-    <sub-title lang="fr">Emission du 01 févr. 2022</sub-title>
-    <desc lang="fr">Laurent Jacquet et son équipe d'artisans viennent en aide à des familles dont les travaux de leur habitat sont restés inachevés en les remotivant et en leur donnant différentes astuces de bricolage. Angélique et Christophe comme Sabrina et Stéphane ont bien besoin d'aide pour finir leurs chantiers.</desc>
-    <category lang="fr">Decouverte</category>
-    <category lang="fr">Docu Realite</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120828221"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260410024500 +0200" stop="20260410060000 +0200" channel="M6test">
+<programme start="20260411013000 +0200" stop="20260411060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <sub-title lang="fr">Divers</sub-title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
