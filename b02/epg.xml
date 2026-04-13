@@ -3,43 +3,46 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260412024500 +0200" stop="20260412060000 +0200" channel="M6test">
+<programme start="20260413030500 +0200" stop="20260413060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412060000 +0200" stop="20260412070000 +0200" channel="M6test">
-    <title lang="fr">M6 Kid</title>
-    <desc lang="fr">Debout c'est M6 Kid ! Un réveil joyeux et 100 % animation pour tous les enfants !</desc>
-    <date>2024</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Jeunesse</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/413EC1038F9B226BE458C1AFF3C2D407.jpg"/>
+<programme start="20260413060000 +0200" stop="20260413080500 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
+    <credits>
+      <actor>Valérie Karsenti</actor>
+      <actor>Ryad Baxx</actor>
+      <actor>Claire Chust</actor>
+      <actor>Grégoire Bonnet</actor>
+      <actor>Vinnie Dargaud</actor>
+      <actor>Frédéric Bouraly</actor>
+      <actor>Fanny Cottençon</actor>
+      <actor>David Mora</actor>
+      <actor>Amélie Etasse</actor>
+      <actor>Claudia Mongumu</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>Gérard Hernandez</actor>
+      <guest>M6 Métropole Télévision</guest>
+      <guest> KaBo</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">6.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412070000 +0200" stop="20260412073000 +0200" channel="M6test">
-    <title lang="fr">100% immo, l'hebdo</title>
-    <desc lang="fr">Les tendances et l'actualité du secteur immobilier, à Paris et en régions sont présentées dans cette émission où des professionnels livrent conseils et astuces.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Découvertes</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/50333D59910196C347D9C3776175DEAE.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">1.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260412073000 +0200" stop="20260412102500 +0200" channel="M6test">
+<programme start="20260413080500 +0200" stop="20260413094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -49,59 +52,43 @@
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412102500 +0200" stop="20260412105500 +0200" channel="M6test">
-    <title lang="fr">Turbo</title>
-    <sub-title lang="fr">Mercedes : 140 ans d'innovation</sub-title>
-    <desc lang="fr">Cette semaine, Dominique Chapatte et Thomas Bastard sont partis aux Sables d'Olonne pour une émission autour d'un anniversaire très spécial… les 140 ans d'innovations chez Mercedes. Du tricycle à la AMG One, monstre de plus de 1000 chevaux unique exemplaire en France, en passant par les mythiques modèles des séries des années 80, plongez dans l'histoire d'une marque à l'avant-garde de l'innovation depuis 140 ans.</desc>
+<programme start="20260413094500 +0200" stop="20260413113000 +0200" channel="M6test">
+    <title lang="fr">Ça peut vous arriver</title>
+    <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
-      <guest>Dominique Chapatte</guest>
+      <guest>Julien Courbet</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Loisirs</category>
-    <category lang="fr">Automobilisme</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/49FBFE03E9BD010FFCEB1FC0CEE4F51A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412105500 +0200" stop="20260412112000 +0200" channel="M6test">
-    <title lang="fr">Turbo</title>
-    <desc lang="fr">Cette semaine, Dominique Chapatte vous propose de retrouver Etienne Bruet, Simon Potée-Gallini et Safet Rastoder partis en Espagne pour un road trip entre Malaga et Séville au volant de trois autos électriques : Ioniq 5N, MG Cyberster et Audi e-tron GT. Prendre du plaisir au volant d'une voiture électrique, c'est possible, démonstration ce dimanche dans Turbo !</desc>
+<programme start="20260413113000 +0200" stop="20260413124000 +0200" channel="M6test">
+    <title lang="fr">Ça peut vous arriver chez vous</title>
+    <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
-      <guest>Dominique Chapatte</guest>
+      <guest>Julien Courbet</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Loisirs</category>
-    <category lang="fr">Automobilisme</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5420AFB0C6C759BE0F8F1EC222D169B1.jpg"/>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/EBB12C17F2A1CCBA6F444A8B306BFD4F.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412112000 +0200" stop="20260412124000 +0200" channel="M6test">
-    <title lang="fr">Turbo</title>
-    <desc lang="fr">Cette semaine, Étienne Bruet et Safet Rastoder vous emmènent en Corse, terre de rallyes et de passion automobile, aux volants de deux Japonaises et une Française au tempérament bien trempé... La nouvelle Toyota Yaris GR, la Toyota Supra Ultime et l'Alpine A110 R. De belles autos, et de belles rencontres sur l'ile de beauté.</desc>
-    <credits>
-      <guest>Dominique Chapatte</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Loisirs</category>
-    <category lang="fr">Automobilisme</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260412124000 +0200" stop="20260412124500 +0200" channel="M6test">
+<programme start="20260413124000 +0200" stop="20260413124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -113,11 +100,11 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412124500 +0200" stop="20260412132500 +0200" channel="M6test">
+<programme start="20260413124500 +0200" stop="20260413133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
-      <guest>Ashley Chevalier</guest>
+      <guest>Nathalie Renoux</guest>
     </credits>
     <date>2026</date>
     <category lang="fr">Information</category>
@@ -128,87 +115,121 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412132500 +0200" stop="20260412140500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260412140500 +0200" stop="20260412150500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260412150500 +0200" stop="20260412160000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Tout beau, tout propre : qui fera mieux que Kärcher ?</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260412160000 +0200" stop="20260412171000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Quand un des géants du bricolage prépare le printemps</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260412171000 +0200" stop="20260412184000 +0200" channel="M6test">
-    <title lang="fr">66 minutes</title>
-    <desc lang="fr">Des célébrités aux faits divers en passant par la politique, différents reportages reviennent sur l'actualité pour mieux l'analyser et la comprendre.</desc>
+<programme start="20260413133500 +0200" stop="20260413134000 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
-      <guest>Kareen Guiock Thuram</guest>
+      <actor>Valérie Karsenti</actor>
+      <actor>Ryad Baxx</actor>
+      <actor>Claire Chust</actor>
+      <actor>Grégoire Bonnet</actor>
+      <actor>Vinnie Dargaud</actor>
+      <actor>Frédéric Bouraly</actor>
+      <actor>Fanny Cottençon</actor>
+      <actor>David Mora</actor>
+      <actor>Amélie Etasse</actor>
+      <actor>Claudia Mongumu</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>Gérard Hernandez</actor>
+      <guest>M6 Métropole Télévision</guest>
+      <guest> KaBo</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260413134000 +0200" stop="20260413145000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Comment le roi de la mode à prix cassés se réinvente ?</sub-title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">3.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260413145000 +0200" stop="20260413155000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260413155000 +0200" stop="20260413165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Ikea - Leroy Merlin : sont-ils toujours les champions des cuisines premier prix ? 1/2</sub-title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">3.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260413165000 +0200" stop="20260413173000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260413173000 +0200" stop="20260413183500 +0200" channel="M6test">
+    <title lang="fr">La roue de la fortune</title>
+    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
+    <credits>
+      <guest>Eric Antoine</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/7D922730EB9D58F4F31909005ED4391F.jpg"/>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C4EC76AC910A873FD9022E2CC39C552C.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412184000 +0200" stop="20260412194000 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Décryptage d'un phénomène de société ou d'un événement tiré de l'actualité.</desc>
+<programme start="20260413183500 +0200" stop="20260413194000 +0200" channel="M6test">
+    <title lang="fr">La meilleure boulangerie de France</title>
+    <sub-title lang="fr">Pays de la Loire - côté terre</sub-title>
+    <desc lang="fr">Chiara Serpaggi et Danny Khezzar, finaliste de la saison 14 de "Top Chef", participent à cette nouvelle saison qui célèbre le patrimoine gastronomique français en partant à la découverte des plus belles boulangeries de l'Hexagone.</desc>
     <credits>
-      <guest>Kareen Guiock Thuram</guest>
+      <guest>Bruno Cormerais</guest>
+      <guest>Michel Sarran</guest>
+      <guest>Noëmie Honiat</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4D618682A488EF70096578056AA7820D.jpg"/>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5602E003B5D0D04A6CC0553E140A5B00.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">12.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412194000 +0200" stop="20260412194500 +0200" channel="M6test">
+<programme start="20260413194000 +0200" stop="20260413194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -220,112 +241,136 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412194500 +0200" stop="20260412201000 +0200" channel="M6test">
+<programme start="20260413194500 +0200" stop="20260413204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
-      <guest>Ashley Chevalier</guest>
+      <guest>Xavier de Moulins</guest>
     </credits>
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/307D64F97E714ECC1571F3C6834B2031.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412201000 +0200" stop="20260412204000 +0200" channel="M6test">
-    <title lang="fr">Le 2010, Anne-Sophie Lapix</title>
-    <desc lang="fr">Anne-Sophie Lapix propose une interview exclusive d'une dizaine de minutes avec une personnalité marquante de la semaine. Qu'il s'agisse d'une figure connue ou d'un visage anonyme, les invités viennent de tous horizons : société, culture, ...</desc>
+<programme start="20260413204000 +0200" stop="20260413211000 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Après une demande en mariage mémorable, Emma et Fabien préparent le grand jour où ils se diront enfin oui. Camille, forte du succès de son centre de bien-être, pourrait bien finir par détrôner Philippe et ses deux pharmacies. Un tournant professionnel se dessinera également pour José et Liliane : et si après la mairie, il y avait un autre horizon pour José ? Quant à Sofiane et Alice, la frénésie de leur épicerie ne leur laissera aucun repos. Du repos, c'est bien ce qui pourrait faire peur à Léo et Leslie, qui passent le cap des 30 ans. Les couples n'en finissent pas d'étonner les téléspectateurs dans une 17e saison enjouée.</desc>
     <credits>
-      <guest>Anne-Sophie Lapix</guest>
+      <actor>Valérie Karsenti</actor>
+      <actor>Claire Chust</actor>
+      <actor>Grégoire Bonnet</actor>
+      <actor>Vinnie Dargaud</actor>
+      <actor>Frédéric Bouraly</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>Majid Berhila</actor>
+      <actor>David Mora</actor>
+      <actor>Amélie Etasse</actor>
+      <actor>Gérard Hernandez</actor>
+      <actor>Elodie Poux</actor>
+      <guest>M6 Métropole Télévision</guest>
+      <guest> KaBo</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Interview</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E27044DAF2AB4E262B1E8F17AED18A2E.jpg"/>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412204000 +0200" stop="20260412211000 +0200" channel="M6test">
-    <title lang="fr">E=M6</title>
-    <sub-title lang="fr">Guilis, tournis, doigts fripés, coude hypersensible : pourquoi notre corps réagit ainsi ?</sub-title>
-    <desc lang="fr">Mac Lesggy répond à différentes questions concernant le corps humain, des chatouilles aux zones sensibles en passant par la sensation de tournis.</desc>
+<programme start="20260413211000 +0200" stop="20260413215500 +0200" channel="M6test">
+    <title lang="fr">Mariés au premier regard</title>
+    <desc lang="fr">Passés le stress ou l'euphorie du mariage, les couples nouvellement formés apprennent à se découvrir. La connexion au préalable entre Laurent et Jenna via un tableau et une lettre se confirmera-t-elle ? Les deux Marseillais ont dû surmonter leur appréhension en apprenant qu'ils s'étaient sans doute déjà vus. L'alchimie entre Laury et Antonin au premier regard s'est renforcée lors de la séance photo qui a suivi leur union. Malgré l'opposition initiale d'une partie de sa famille, Alexandre a tenu bon. Son mariage avec Perrine sera-t-il à la hauteur de ses attentes ? Le tête-à-tête entre Julie et Mathieu donnent l'occasion à la jeune femme de lui confier ses doutes et ses espoirs.</desc>
     <credits>
-      <guest>Mac Lesggy</guest>
+      <guest>Studio 89 Productions</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Sciences et technique</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/7A16DD03337E70E64FBC47DCA99AF490.jpg"/>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/483C8F61EBE69A35B68F0C54AB35095F.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">9.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412211000 +0200" stop="20260412231000 +0200" channel="M6test">
-    <title lang="fr">Zone interdite</title>
-    <sub-title lang="fr">Reine des Neiges : dans les secrets du nouveau défi de Disneyland Paris</sub-title>
-    <desc lang="fr">Fin mars 2026, Disneyland Paris a inauguré une toute nouvelle zone dont l'attraction principale est dédiée au plus grand succès de Disney : la Reine des Neiges. Plongée dans les coulisses de ce chantier colossal. Outre un spectacle entièrement inédit, cette nouvelle zone va créer un millier d'emplois.</desc>
+<programme start="20260413215500 +0200" stop="20260413232500 +0200" channel="M6test">
+    <title lang="fr">Mariés au premier regard</title>
+    <desc lang="fr">Trouver une double compatibilité pour Lucile et Mélanie est un défi de taille pour les expertes Estelle Dossin et Marie Tapernoux, qui sont parvenues à dénicher deux hommes en phase avec les attentes des deux soeurs.</desc>
     <credits>
-      <guest>Ophélie Meunier</guest>
+      <guest>Studio 89 Productions</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/2357A2575A5FE393A01421657D900EA8.jpg"/>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/483C8F61EBE69A35B68F0C54AB35095F.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">9.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260412231000 +0200" stop="20260413002000 +0200" channel="M6test">
-    <title lang="fr">Enquête exclusive</title>
-    <sub-title lang="fr">Narcos et surtourisme : menace sur l'eau au Mexique</sub-title>
-    <desc lang="fr">Le Mexique n'a plus d'eau. Le pic est atteint au printemps 2024, lorsque 85 % du territoire est officiellement déclaré en état de stress hydrique. En cause, le réchauffement climatique qui frappe le pays, mais pas seulement. La course au développement économique détruit à petit feu les ressources.</desc>
-    <credits>
-      <guest>Bernard de La Villardière</guest>
-    </credits>
+<programme start="20260413232500 +0200" stop="20260414002000 +0200" channel="M6test">
+    <title lang="fr">Cougar Island</title>
+    <desc lang="fr">Trois femmes d'expérience, attirées par des hommes plus jeunes qu'elles, se rendent sur une île paradisiaque pour trouver l'amour. Mais un matin, tout bascule : leurs cadets ont disparu, remplacés par des hommes plus âgés. Cette situation inattendue va-t-elle faire vaciller leurs certitudes ?</desc>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/2371AD9DFC65BCBCD307A1B7E486BC75.jpg"/>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/23086B7517704E0BA1DE4D6EC74EEB8B.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-<programme start="20260413002000 +0200" stop="20260413014000 +0200" channel="M6test">
-    <title lang="fr">Enquête exclusive</title>
-    <sub-title lang="fr">Sexe et amour au Mexique</sub-title>
-    <desc lang="fr">Le Mexique, avec ses 130 millions d'habitants, est le pays de tous les contrastes. En matière de sexe et d'amour, les coutumes varient d'une province à l'autre. Malgré le poids de la religion catholique et des valeurs familiales, la jeunesse bouscule les interdits et prône la liberté de moeurs. Le Mexique est à la fois l'un des pays les plus conservateurs et les plus progressistes d'Amérique Latine.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Infos</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/112573236"/>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>-12</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260413014000 +0200" stop="20260413030500 +0200" channel="M6test">
-    <title lang="fr">Enquête exclusive</title>
-    <sub-title lang="fr">Haïti - République dominicaine : à la frontière du paradis et de l'enfer</sub-title>
-    <desc lang="fr">Dans les Caraïbes, entre une République dominicaine prospère et Haïti en plein chaos, la zone frontière est devenue la ligne de démarcation entre le paradis et l'enfer. Quand les Haïtiens parviennent à fuir leur île, ils se réfugient en République dominicaine où ils ne sont pas les bienvenus.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Infos</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123052088"/>
+<programme start="20260414002000 +0200" stop="20260414013500 +0200" channel="M6test">
+    <title lang="fr">Cougar Island</title>
+    <sub-title lang="fr">Jeu</sub-title>
+    <desc lang="fr">Sur une île paradisiaque, Sandra, Estefania et Lia, trois femmes déçues par leurs histoires passées et attirées par les hommes plus jeunes, rencontrent d'abord des célibataires séduisants correspondant à leurs attentes. Mais un matin, tout bascule : les jeunes hommes disparaissent, remplacés par des hommes de leur âge. Face à cette situation inattendue, une seule question demeure : l'amour a-t-il vraiment un âge ?</desc>
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123268405"/>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-<programme start="20260413030500 +0200" stop="20260413060000 +0200" channel="M6test">
+<programme start="20260414013500 +0200" stop="20260414023500 +0200" channel="M6test">
+    <title lang="fr">Et si on se rencontrait ?</title>
+    <sub-title lang="fr">Épisode 14</sub-title>
+    <desc lang="fr">Des hommes et des femmes qui se sont rencontré et se sont plu à distance se rencontrent pour la première fois dans la vraie vie. Ces amoureux virtuels qui passent du fantasme à la réalité vivent un moment plein d'émotion devant les caméras de Et si on se rencontrait. Au programme : de l'amour, avec des coups de foudre confirmés dès le premier regard et des baisers passionnés au bout de quelques minutes, mais aussi, parfois, d'amères déceptions.</desc>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122477857"/>
+    <episode-num system="xmltv_ns">2.0.</episode-num>
+    <subtitles type="teletext"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260414023500 +0200" stop="20260414032000 +0200" channel="M6test">
+    <title lang="fr">Et si on se rencontrait ?</title>
+    <sub-title lang="fr">Épisode 8</sub-title>
+    <desc lang="fr">De nouveaux couples vont répondre à cette question : peut-on craquer sur quelqu'un que l'on n'a jamais rencontré physiquement ? Peut-on tomber amoureux d'une personne à distance, alors qu'on ne l'a jamais vue en vrai ? Comme des millions de Français, ils se sont rencontrés en ligne, sur les réseaux sociaux, un forum de discussion ou une application de rencontres, et ont décidé de franchir le pas.</desc>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/105545173"/>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <subtitles type="teletext"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260414032000 +0200" stop="20260414060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <sub-title lang="fr">Divers</sub-title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
