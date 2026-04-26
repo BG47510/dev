@@ -3,18 +3,18 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260425040500 +0200" stop="20260425060000 +0200" channel="M6test">
+<programme start="20260426024500 +0200" stop="20260426060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425060000 +0200" stop="20260425074500 +0200" channel="M6test">
+<programme start="20260426060000 +0200" stop="20260426070000 +0200" channel="M6test">
     <title lang="fr">M6 Kid</title>
     <desc lang="fr">M6 Kid présente les meilleurs dessin-animés pour le plus grand bonheur de vos enfants.</desc>
     <date>2024</date>
@@ -26,78 +26,80 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425074500 +0200" stop="20260425101000 +0200" channel="M6test">
-    <title lang="fr">Absolument stars</title>
-    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show-business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
+<programme start="20260426070000 +0200" stop="20260426073000 +0200" channel="M6test">
+    <title lang="fr">100% immo, l'hebdo</title>
+    <desc lang="fr">Une équipe de spécialistes de l'immobilier vous dit tout sur les tendances et l'actualité du secteur immobilier,...</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Découvertes</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/50333D59910196C347D9C3776175DEAE.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260426073000 +0200" stop="20260426102500 +0200" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
-      <guest>Claire Nevers</guest>
+      <guest>Marie-Ange Nardi</guest>
+      <guest>Charlotte Rosier</guest>
+    </credits>
+    <category lang="fr">Services</category>
+    <category lang="fr">Télé-achat</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260426102500 +0200" stop="20260426105500 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Cette semaine, Étienne Bruet et Safet Rastoder vous emmènent en Corse, terre de rallyes et de passion automobile, aux volants de deux Japonaises et une Française au tempérament bien trempé... La nouvelle Toyota Yaris GR, la Toyota Supra Ultime et l'Alpine A110 R. De belles autos, et de belles rencontres sur l'ile de beauté.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Culture</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/D94DCEA79E67BEDE8604E6413D80376B.jpg"/>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5420AFB0C6C759BE0F8F1EC222D169B1.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425101000 +0200" stop="20260425102000 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Une plongée dans les coulisses d'événements spectaculaires, un retour sur des success stories entrepreneuriales ou des immersions dans le quotidien de ceux qui participent activement à construire l'avenir.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8E686FD9794C3215C12C0E4CB85EA92B.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260425102000 +0200" stop="20260425105500 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Une plongée dans les coulisses d'événements spectaculaires, un retour sur des success stories entrepreneuriales ou des immersions dans le quotidien de ceux qui participent activement à construire l'avenir.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8E686FD9794C3215C12C0E4CB85EA92B.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260425105500 +0200" stop="20260425114500 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">À l'extrême nord du littoral français, à deux pas de la frontière belge, le camping du Perroquet déploie ses 30 hectares et plus de 800 emplacements face à un décor à couper le souffle : dix kilomètres de sable fin bordés de dunes sauvages,...</desc>
+<programme start="20260426105500 +0200" stop="20260426112000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Cette semaine, Safet Rastoder et Simon Potée-Gallini vous transportent au cœur de la Picardie pour vous faire découvrir un véritable paradis pour passionnés d'automobile. L'Atelier des Coteaux, ce garage d'exception, redonne vie à des véhicules a...</desc>
     <credits>
-      <guest>Kareen Guiock Thuram</guest>
+      <guest>Dominique Chapatte</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4D618682A488EF70096578056AA7820D.jpg"/>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425114500 +0200" stop="20260425124000 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <sub-title lang="fr">Marché de Sarlat : quand le terroir fait son show</sub-title>
-    <desc lang="fr">Le week-end de Pâques a sonné le coup d'envoi : à Sarlat, le marché refleurit et la saison est officiellement lancée. Oubliez les supermarchés aseptisés ! Ici, c'est une forteresse gourmande à ciel ouvert où l'histoire se déguste à chaq...</desc>
+<programme start="20260426112000 +0200" stop="20260426124000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Cette semaine, Simon Potée-Gallini et Etienne Bruet vous emmènent au cap Ferret pour une expérience unique : le test des trois cabriolets les plus abordables du marché. Mini, Mazda MX-5 et T-Roc - trois façons différentes de conduire cheveux au vent sans se ruiner.</desc>
     <credits>
-      <guest>Kareen Guiock Thuram</guest>
+      <guest>Dominique Chapatte</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5302E4ACD03C25F10DB96CEBC5AF2AB4.jpg"/>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425124000 +0200" stop="20260425124500 +0200" channel="M6test">
+<programme start="20260426124000 +0200" stop="20260426124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -109,7 +111,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425124500 +0200" stop="20260425133500 +0200" channel="M6test">
+<programme start="20260426124500 +0200" stop="20260426132500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -118,53 +120,27 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425133500 +0200" stop="20260425142000 +0200" channel="M6test">
+<programme start="20260426132500 +0200" stop="20260426140500 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Le village à la recherche de sa troisième étoile</sub-title>
+    <sub-title lang="fr">Arnaques immobilières : comment s'en sortir ?</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
     <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/54BDDEE68EA876D135B6717A9F966529.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425142000 +0200" stop="20260425151000 +0200" channel="M6test">
+<programme start="20260426140500 +0200" stop="20260426150500 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260425151000 +0200" stop="20260425160500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Un Français à la tête d'un hôtel mythique</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260425160500 +0200" stop="20260425163500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Trouville-sur-mer : la grande rivale de Deauville</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -175,8 +151,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425163500 +0200" stop="20260425174000 +0200" channel="M6test">
+<programme start="20260426150500 +0200" stop="20260426160000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Rénovation : ils cassent tout pour le meilleur ! 1/2</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -187,38 +164,50 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425174000 +0200" stop="20260425183500 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
-    <credits>
-      <guest>Eric Antoine</guest>
-    </credits>
+<programme start="20260426160000 +0200" stop="20260426171000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Rénovation : ils cassent tout pour le meilleur ! 2/2</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
     <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/16CA5370FC17EE9C0C1359A217F4CF56.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260425183500 +0200" stop="20260425194000 +0200" channel="M6test">
-    <title lang="fr">Le maillon faible</title>
-    <desc lang="fr">Ils ne sont pas de la même famille… Ils ne sont pas amis… Ils ne se connaissent même pas… Et pourtant, huit candidats vont devoir jouer en équipe ! Dans chaque manche, un candidat sera éliminé par les autres joueurs car il aura été considé...</desc>
-    <credits>
-      <guest>Olivier Minne</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E62D767F1DF82B2ABD14E534A345A5D8.jpg"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425194000 +0200" stop="20260425194500 +0200" channel="M6test">
+<programme start="20260426171000 +0200" stop="20260426184000 +0200" channel="M6test">
+    <title lang="fr">66 minutes</title>
+    <desc lang="fr">Des célébrités aux faits divers en passant par la politique, différents reportages reviennent sur l'actualité pour mieux l'analyser et la comprendre.</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7D922730EB9D58F4F31909005ED4391F.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260426184000 +0200" stop="20260426194000 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">Décryptage d'un phénomène de société ou d'un événement tiré de l'actualité.</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F3F6E8C91FF224C9C391AEF1B05BF2BD.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260426194000 +0200" stop="20260426194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -230,7 +219,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425194500 +0200" stop="20260425203000 +0200" channel="M6test">
+<programme start="20260426194500 +0200" stop="20260426204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -239,115 +228,84 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/307D64F97E714ECC1571F3C6834B2031.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425203000 +0200" stop="20260425211000 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Après une demande en mariage mémorable, Emma et Fabien préparent le grand jour où ils se diront enfin oui. Camille, forte du succès de son centre de bien-être, pourrait bien finir par détrôner Philippe et ses deux pharmacies. Un tournant professionnel se dessinera également pour José et Liliane : et si après la mairie, il y avait un autre horizon pour José ? Quant à Sofiane et Alice, la frénésie de leur épicerie ne leur laissera aucun repos. Du repos, c'est bien ce qui pourrait faire peur à Léo et Leslie, qui passent le cap des 30 ans. Les couples n'en finissent pas d'étonner les téléspectateurs dans une 17e saison enjouée.</desc>
+<programme start="20260426204000 +0200" stop="20260426211000 +0200" channel="M6test">
+    <title lang="fr">E=M6</title>
+    <desc lang="fr">Du château d'eau à nos robinets, l'étonnant voyage de notre eau potable ! / Chargeurs de smartphones, d'ordinateurs… les règles d'or pour bien les utiliser !</desc>
     <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Ryad Baxx</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Fanny Cottençon</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Claudia Mongumu</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Gérard Hernandez</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">16.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260425211000 +0200" stop="20260425221000 +0200" channel="M6test">
-    <title lang="fr">Les traîtres</title>
-    <desc lang="fr">De trois Traîtres au départ, ils sont finalement passés à quatre une fois qu'Issa Doumbia, qui a écopé du rôle de Traître maudit, est parvenu à identifier ses trois comparses. Après un moment d'euphorie, il leur faut néanmoins faire preuve de prudence et ne pas croire la partie jouée d'avance.</desc>
-    <credits>
-      <guest>Eric Antoine</guest>
+      <guest>Mac Lesggy</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E14AE3C70EE8D6477DD511841D623C44.jpg"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Sciences et technique</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E88110976371C85BF52ABDD702251462.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">5.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425221000 +0200" stop="20260425232500 +0200" channel="M6test">
-    <title lang="fr">Les traîtres</title>
-    <desc lang="fr">Dans chaque camp, la ruse est de mise pour parvenir à aller jusqu'au bout du jeu. Au fil des éliminations, la tension monte inexorablement. Entre les Traîtres et les Loyaux, qui saura se montrer le plus malin ?</desc>
+<programme start="20260426211000 +0200" stop="20260426231500 +0200" channel="M6test">
+    <title lang="fr">Capital</title>
+    <sub-title lang="fr">Action : nos révélations sur l'empire qui fracasse les prix</sub-title>
+    <desc lang="fr">Au sommaire : Action : tous les secrets du discounter qui rend accro les Français. Comment ce petit bazar né aux Pays-Bas a-t-il mis au tapis tous ses concurrents ? - Leboncoin : comment gagner jusqu'à 3000 euros par mois ? La plateforme française est devenu un moyen de gagner beaucoup d'argent.</desc>
     <credits>
-      <guest>Eric Antoine</guest>
+      <guest>Julien Courbet</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E14AE3C70EE8D6477DD511841D623C44.jpg"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/1641CB9599CF9174CBD0F194B3EF0232.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">5.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260425232500 +0200" stop="20260426002000 +0200" channel="M6test">
-    <title lang="fr">Les traîtres : révélations sur la suite...</title>
-    <desc lang="fr">Juju Fitcats a participé au jeu au cours de la saison 2, qu'elle a d'ailleurs remporté. Quelques années plus tard, elle revient pour recevoir les joueurs mais aussi analyser les stratégies à l'oeuvre, les alliances et les trahisons. Entre révélations chocs, confrontations, règlements de compte et images inédites, elle propose une immersion au coeur du château de Bournel et dévoile tous les secrets de ce jeu imprévisible qui n'a pas fini de surprendre.</desc>
+<programme start="20260426231500 +0200" stop="20260427002500 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Corée du Nord : Kim Jong-un, le dictateur qui fait trembler la planète</sub-title>
+    <desc lang="fr">Depuis quinze ans, Kim Jong-un, fantasque et cruel dictateur, règne sans partage sur le pays le plus fermé du monde et fait trembler la planète. Pour assurer la survie du régime, le paranoïaque dirigeant ne cesse de militariser la Corée du Nord, tandis que la population vit dans la plus extrême pauvreté.</desc>
     <credits>
-      <guest>Juju Fitcats</guest>
+      <guest>Bernard de La Villardière</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/284110DB456E5A32A00F81F89C19373D.jpg"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/2CE09D8646B98CE4B118D7902C9EC988.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">5.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260426002000 +0200" stop="20260426012000 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune célébrités</title>
-    <sub-title lang="fr">Émission 4 (1/2)</sub-title>
-    <desc lang="fr">Des célébrités réalisent un vieux rêve d'enfant en tournant la roue la plus célèbre de la télévision. Chaque candidat tente de résoudre les énigmes pour accéder à la finale et récolter un maximum pour le compte de son association. Un divertissement éprouvé, capable de rassembler petits et grands devant la lucarne.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123176452"/>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
+<programme start="20260427002500 +0200" stop="20260427014500 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Turkménistan : enquête interdite au coeur d'une extravagante dictature</sub-title>
+    <desc lang="fr">Situé entre l'Iran, l'Ouzbékistan et l'Afghanistan, le Turkménistan est une ex-république soviétique devenue une dictature. Le pays possède une gigantesque richesse gazière, la 4e du monde, juste derrière le Qatar. Sa capitale, Achgabat, est un délire mégalomaniaque classé ville la plus chère du monde.</desc>
+    <category lang="fr">Actualites</category>
+    <category lang="fr">Mag Infos</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/116238825"/>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260426012000 +0200" stop="20260426024500 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune célébrités</title>
-    <sub-title lang="fr">Émission 4 (2/2)</sub-title>
-    <desc lang="fr">Chaque candidat tente de résoudre les énigmes pour accéder à la finale et récolter un maximum d'argent pour son association. Pour y parvenir, il faut déjouer les facéties de la roue et éviter les pièges comme la banqueroute ou l'échange.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123176506"/>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
+<programme start="20260427014500 +0200" stop="20260427025000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Logements, infrastructures : la France tombe en ruine</sub-title>
+    <desc lang="fr">Chaque mois, partout en France, des habitants sont évacués de chez eux en urgence car leur maison ou leur immeuble menace de s'écrouler. Il y a un peu plus de sept ans, à Marseille, la chute de deux bâtiments vétustes avait causé la mort de huit personnes. Aujourd'hui, cette gangrène gagne tous les centres-villes.</desc>
+    <category lang="fr">Actualites</category>
+    <category lang="fr">Mag Infos</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/118637859"/>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260426024500 +0200" stop="20260426060000 +0200" channel="M6test">
+<programme start="20260427025000 +0200" stop="20260427060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <sub-title lang="fr">Divers</sub-title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
