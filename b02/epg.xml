@@ -3,18 +3,18 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260428031000 +0200" stop="20260428060000 +0200" channel="M6test">
+<programme start="20260429023000 +0200" stop="20260429060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428060000 +0200" stop="20260428080500 +0200" channel="M6test">
+<programme start="20260429060000 +0200" stop="20260429080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -35,13 +35,13 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428080500 +0200" stop="20260428094500 +0200" channel="M6test">
+<programme start="20260429080500 +0200" stop="20260429094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -50,13 +50,13 @@
     </credits>
     <category lang="fr">Services</category>
     <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428094500 +0200" stop="20260428113000 +0200" channel="M6test">
+<programme start="20260429094500 +0200" stop="20260429113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -65,13 +65,13 @@
     <date>2026</date>
     <category lang="fr">Art de vivre</category>
     <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/49FBFE03E9BD010FFCEB1FC0CEE4F51A.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/BDCDE118CB4609F8D800BF13AD037494.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428113000 +0200" stop="20260428124000 +0200" channel="M6test">
+<programme start="20260429113000 +0200" stop="20260429124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -86,7 +86,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428124000 +0200" stop="20260428124500 +0200" channel="M6test">
+<programme start="20260429124000 +0200" stop="20260429124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -98,7 +98,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428124500 +0200" stop="20260428133500 +0200" channel="M6test">
+<programme start="20260429124500 +0200" stop="20260429133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -107,13 +107,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428133500 +0200" stop="20260428134000 +0200" channel="M6test">
+<programme start="20260429133500 +0200" stop="20260429134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -140,9 +140,23 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428134000 +0200" stop="20260428145000 +0200" channel="M6test">
+<programme start="20260429134000 +0200" stop="20260429145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Les Alpilles : le paradis secret des plus fortunés</sub-title>
+    <sub-title lang="fr">La magie des naissances au zoo</sub-title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">3.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260429145000 +0200" stop="20260429155000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Reine des Neiges : dans les secrets du nouveau défi de Disneyland Paris (1/2)</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -153,7 +167,20 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428145000 +0200" stop="20260428155000 +0200" channel="M6test">
+<programme start="20260429155000 +0200" stop="20260429165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Reine des Neiges : dans les secrets du nouveau défi de Disneyland Paris (2/2)</sub-title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260429165000 +0200" stop="20260429173000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -165,32 +192,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428155000 +0200" stop="20260428165000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260428165000 +0200" stop="20260428173000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Jets privés : un privilège de milliardaires ?</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260428173000 +0200" stop="20260428183500 +0200" channel="M6test">
+<programme start="20260429173000 +0200" stop="20260429183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -206,10 +208,10 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428183500 +0200" stop="20260428194000 +0200" channel="M6test">
+<programme start="20260429183500 +0200" stop="20260429194000 +0200" channel="M6test">
     <title lang="fr">La meilleure boulangerie de France</title>
     <sub-title lang="fr">Bretagne - côté Sud</sub-title>
-    <desc lang="fr">Chiara Serpaggi et Danny Khezzar, finaliste de la saison 14 de "Top Chef", participent à cette nouvelle saison qui célèbre le patrimoine gastronomique français en partant à la découverte des plus belles boulangeries de l'Hexagone.</desc>
+    <desc lang="fr">La Meilleure Boulangerie de France repart pour un road-trip à travers toutes les régions de l'Hexagone.</desc>
     <credits>
       <guest>Chiara Serpaggi</guest>
       <guest>Bruno Cormerais</guest>
@@ -218,26 +220,26 @@
     <date>2026</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/68F91B8597B474D50B1D28662056F637.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/E91564EE6F1633D2594E2301F0392CA1.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">12.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428194000 +0200" stop="20260428194500 +0200" channel="M6test">
+<programme start="20260429194000 +0200" stop="20260429194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428194500 +0200" stop="20260428204000 +0200" channel="M6test">
+<programme start="20260429194500 +0200" stop="20260429204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -246,15 +248,15 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/307D64F97E714ECC1571F3C6834B2031.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428204000 +0200" stop="20260428211000 +0200" channel="M6test">
+<programme start="20260429204000 +0200" stop="20260429211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Après une demande en mariage mémorable, Emma et Fabien préparent le grand jour où ils se diront enfin oui. Camille, forte du succès de son centre de bien-être, pourrait bien finir par détrôner Philippe et ses deux pharmacies. Un tournant professionnel se dessinera également pour José et Liliane : et si après la mairie, il y avait un autre horizon pour José ? Quant à Sofiane et Alice, la frénésie de leur épicerie ne leur laissera aucun repos. Du repos, c'est bien ce qui pourrait faire peur à Léo et Leslie, qui passent le cap des 30 ans. Les couples n'en finissent pas d'étonner les téléspectateurs dans une 17e saison enjouée.</desc>
+    <desc lang="fr">Leslie et Léo ont bien envie de participer à "Pékin Express" mais le couple va s'apercevoir que pour atteindre leur objectif, il va leur falloir être rusés. Ils demandent des conseils au chef cuisinier Glenn Viel mais est-ce le bon interlocuteur pour ce genre de requête ? Rien n'est moins sûr...</desc>
     <credits>
       <actor>Valérie Karsenti</actor>
       <actor>Claire Chust</actor>
@@ -280,168 +282,116 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428211000 +0200" stop="20260428222000 +0200" channel="M6test">
-    <title lang="fr">Lockerbie : Attentat en plein vol</title>
-    <desc lang="fr">Le 21 décembre 1988, Flora Swire monte à bord du vol 103 de la Pan Am reliant Londres à New York, mais l'avion, victime d'un attentat à la bombe, s'écrase à Lockerbie, en Ecosse, 38 minutes après le décollage. Tous les passagers et membres d'équipage perdent la vie, ainsi que 11 habitants de la petite ville écossaise. Jim Swire, le père de Flora, tente de découvrir ce qui s'est réellement passé...</desc>
+<programme start="20260429211000 +0200" stop="20260429220500 +0200" channel="M6test">
+    <title lang="fr">Top chef</title>
+    <desc lang="fr">Les candidats vont devoir transformer des ingrédients ordinaires en plats extraordinaires, sous le regard des chefs étoilés. Les frigos les plus emblématiques du petit écran servent de garde-manger. Les couple de "Scènes de ménages" leur ouvrent les portes de leur cuisine pour relever le défi.</desc>
     <credits>
-      <director>Otto Bathurst</director>
-      <director>Jim Loach</director>
-      <actor>Sam Troughton</actor>
-      <actor>Jemma Carlton</actor>
-      <actor>Harry Redding</actor>
-      <actor>Claire Brown</actor>
-      <actor>Youssef Kerkour</actor>
-      <actor>Gabriel Scott</actor>
-      <actor>Dan Wolff</actor>
-      <actor>Rosanna Adams</actor>
-      <actor>Colin Firth</actor>
-      <actor>John Sackville</actor>
-      <actor>Douglas Russell</actor>
-      <actor>Catherine McCormack</actor>
-      <adapter>Jim Swire</adapter>
-      <adapter>David Harrower</adapter>
-      <producer>Brian Kaczynski</producer>
-      <producer>Oskar Slingerland</producer>
-      <producer>Colin Wratten</producer>
-      <producer>Nigel Marchant</producer>
-      <producer>Liz Trubridge</producer>
-      <producer>David Harrower</producer>
-      <producer>Jim Sheridan</producer>
-      <producer>Kirsten Sheridan</producer>
-      <producer>Gareth Neame</producer>
-      <producer>Otto Bathurst</producer>
-      <composer>Rupert Gregson-Williams</composer>
-      <editor>Jim Swire</editor>
-      <editor>Peter Biddulph</editor>
-      <guest> Sky</guest>
-      <guest>SKY Studios</guest>
-      <guest>Carnival Film &amp; Television</guest>
+      <guest>Anne-Elisabeth Blateau</guest>
+      <guest>Paul Pairet</guest>
+      <guest>Stéphanie Le Quellec</guest>
+      <guest>Stéphane Rotenberg</guest>
+      <guest>Grégoire Bonnet</guest>
+      <guest>Vinnie Dargaud</guest>
+      <guest>David Mora</guest>
+      <guest>Glenn Viel</guest>
+      <guest>Philippe Etchebest</guest>
+      <guest>Hélène Darroze</guest>
+      <guest>Gérard Hernandez</guest>
+      <guest>Claire Chust</guest>
     </credits>
-    <date>2025</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/75C7B1CF21225DCF5E75789516C04A55.jpg"/>
-    <country lang="fr">Grande-Bretagne - Etats-Unis</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FE69372F558331822796B77E6159A594.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
     <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+      <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428222000 +0200" stop="20260428232500 +0200" channel="M6test">
-    <title lang="fr">Lockerbie : Attentat en plein vol</title>
-    <desc lang="fr">Mai 1990. Jim poursuit inlassablement sa quête de vérité et de justice. Il va jusqu'à tester les systèmes de sécurité de l'aéroport et démontre ainsi ses nombreuses failles. Deux suspects sont inculpés pour l'attentat, soupçonnés d'être des agents des services secrets libyens...</desc>
+<programme start="20260429220500 +0200" stop="20260429232500 +0200" channel="M6test">
+    <title lang="fr">Top chef</title>
+    <desc lang="fr">Pour sublimer les plats à préparer et éventuellement casser les codes, les frigos des couples de "Scènes de ménages" révèlent leur contenu. Et il y a de la variété, c'est le moins que l'on puisse dire ! Qui arrivera à impressionner les chefs, et les comédiens, avec des produits du quotidien ?</desc>
     <credits>
-      <director>Otto Bathurst</director>
-      <director>Jim Loach</director>
-      <actor>Sam Troughton</actor>
-      <actor>Jemma Carlton</actor>
-      <actor>Claire Brown</actor>
-      <actor>Harry Redding</actor>
-      <actor>Frank Crudele</actor>
-      <actor>Rosanna Adams</actor>
-      <actor>Youssef Kerkour</actor>
-      <actor>Jenny Galloway</actor>
-      <actor>Colin Firth</actor>
-      <actor>John Wark</actor>
-      <actor>Simon Delaney</actor>
-      <actor>Catherine McCormack</actor>
-      <adapter>David Harrower</adapter>
-      <producer>Nigel Marchant</producer>
-      <producer>Colin Wratten</producer>
-      <producer>Kirsten Sheridan</producer>
-      <producer>Liz Trubridge</producer>
-      <producer>Oskar Slingerland</producer>
-      <producer>Gareth Neame</producer>
-      <composer>Rupert Gregson-Williams</composer>
-      <editor>Jim Swire</editor>
-      <editor>Peter Biddulph</editor>
-      <guest> Sky</guest>
-      <guest>SKY Studios</guest>
-      <guest>Carnival Film &amp; Television</guest>
+      <guest>Anne-Elisabeth Blateau</guest>
+      <guest>Paul Pairet</guest>
+      <guest>Stéphanie Le Quellec</guest>
+      <guest>Stéphane Rotenberg</guest>
+      <guest>Grégoire Bonnet</guest>
+      <guest>Vinnie Dargaud</guest>
+      <guest>David Mora</guest>
+      <guest>Glenn Viel</guest>
+      <guest>Philippe Etchebest</guest>
+      <guest>Hélène Darroze</guest>
+      <guest>Gérard Hernandez</guest>
+      <guest>Claire Chust</guest>
     </credits>
-    <date>2025</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/30219E2A506F8D04A1D170C47FF089BF.jpg"/>
-    <country lang="fr">Grande-Bretagne - Etats-Unis</country>
-    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/905E8C536DC2A1F676DFCA3CA316B9AC.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
     <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+      <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260428232500 +0200" stop="20260429003000 +0200" channel="M6test">
-    <title lang="fr">Lockerbie : Attentat en plein vol</title>
-    <desc lang="fr">Douze ans après la tragédie, le procès de Lockerbie s'ouvre enfin à Utrecht, aux Pays-Bas. Les déclarations des témoins sont si poignantes que Jane doit quitter la salle d'audience. Bien qu'il ait attendu cet instant depuis des années, Jim remet en question les preuves contre les suspects...</desc>
+<programme start="20260429232500 +0200" stop="20260430003000 +0200" channel="M6test">
+    <title lang="fr">Top chef : le concours parallèle</title>
+    <desc lang="fr">Le concours parallèle de "Top chef" réunit les candidats éliminés de la compétition principale. Deux d'entre eux peuvent décrocher leur place pour revenir dans l'aventure. Pour les départager, le jury fait appel à Fabien Ferré, plus jeune chef français triplement étoilé, et Yoann Conte, chef doublement étoilé.</desc>
     <credits>
-      <director>Jim Loach</director>
-      <actor>Sam Troughton</actor>
-      <actor>Brian Caspe</actor>
-      <actor>Jemma Carlton</actor>
-      <actor>Claire Brown</actor>
-      <actor>Hiftu Quasem</actor>
-      <actor>Robert Cavanah</actor>
-      <actor>Harry Redding</actor>
-      <actor>Ghazi Al Ruffai</actor>
-      <actor>Frank Crudele</actor>
-      <actor>Colin Firth</actor>
-      <actor>Tara Abboud</actor>
-      <actor>Catherine McCormack</actor>
-      <adapter>David Harrower</adapter>
-      <producer>Nigel Marchant</producer>
-      <producer>Kirsten Sheridan</producer>
-      <producer>Gareth Neame</producer>
-      <producer>Liz Trubridge</producer>
-      <producer>Colin Wratten</producer>
-      <producer>Oskar Slingerland</producer>
-      <composer>Rupert Gregson-Williams</composer>
-      <editor>Jim Swire</editor>
-      <editor>Peter Biddulph</editor>
-      <guest>Carnival Films Production</guest>
-      <guest>Sky Studios</guest>
-      <guest> NBCUniversal</guest>
+      <guest>Stéphane Rotenberg</guest>
+      <guest>Yoann Conte</guest>
+      <guest>François-Régis Gaudry</guest>
+      <guest>Fabien Ferré</guest>
     </credits>
-    <date>2025</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/D277338EAC794A95BFD56D6DE5E63EC0.jpg"/>
-    <country lang="fr">Grande-Bretagne - Etats-Unis</country>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <date>2026</date>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/BB848EDDAC857C360A2696B82BE75E68.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
     <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+      <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260429003000 +0200" stop="20260429013000 +0200" channel="M6test">
-    <title lang="fr">Lockerbie : Attentat en plein vol - Saison 1</title>
-    <sub-title lang="fr">Episode 4</sub-title>
-    <desc lang="fr">Les doutes s'accumulent dans l'esprit de Jim. Les indices concordent et semblent mettre en évidence l'innocence des deux hommes. En mars 2002, malgré les réserves de ses proches, Jim décide de se rapprocher d'Adelbaset al-Megrahi, condamné à la perpétuité, afin de tenter d'y voir plus clair, s'isolant du même coup de plus en plus de sa famille...</desc>
-    <category lang="fr">Series</category>
-    <category lang="fr">Serie Drame</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120981506"/>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
+<programme start="20260430003000 +0200" stop="20260430013000 +0200" channel="M6test">
+    <title lang="fr">Les secrets des chefs</title>
+    <sub-title lang="fr">Chef Alexandre Mazzia, l'homme derrière ses 3 étoiles</sub-title>
+    <desc lang="fr">En quelques années, Alexandre Mazzia s'est imposé comme l'un des chefs Français les plus créatifs au monde. Auréolé de 3 étoiles au Guide Michelin depuis 2021, il bouscule les codes de la gastronomie. S'attabler chez Alexandre Mazzia, c'est embarquer pour un voyage gustatif à travers le monde des épices et de la torréfaction.</desc>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Mag Gastronomie</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/118776936"/>
     <subtitles type="teletext"/>
     <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+      <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260429013000 +0200" stop="20260429023000 +0200" channel="M6test">
-    <title lang="fr">Lockerbie : Attentat en plein vol - Saison 1</title>
-    <sub-title lang="fr">Episode 5</sub-title>
-    <desc lang="fr">Août 2009. Plus de vingt ans se sont écoulés depuis l'attentat. Jim ne sait plus quoi penser lorsque Abdelbaset al-Megrahi renonce à faire appel en échange d'une libération pour raisons médicales. L'ancien détenu est aussitôt transferé en Libye. Jim perd l'espoir de connaître un jour la vérité entourant la mort de sa fille...</desc>
-    <category lang="fr">Series</category>
-    <category lang="fr">Serie Drame</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123449557"/>
-    <episode-num system="xmltv_ns">0.4.</episode-num>
+<programme start="20260430013000 +0200" stop="20260430020500 +0200" channel="M6test">
+    <title lang="fr">Les secrets des chefs</title>
+    <sub-title lang="fr">Glenn Viel, un chef vraiment top !</sub-title>
+    <desc lang="fr">En 2020, il est désigné le plus jeune chef trois étoiles de France. Glenn Viel, 45 ans, est, depuis 2022, l'un des jurés de l'émission Top Chef. Ce cuisinier atypique officie au sein d'une maison légendaire du sud de la France : l'Oustau de Baumanière, située aux Baux-de-Provence, dans les Bouches-du-Rhône.</desc>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Mag Gastronomie</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/111024837"/>
     <subtitles type="teletext"/>
     <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+      <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260429023000 +0200" stop="20260429060000 +0200" channel="M6test">
+<programme start="20260430020500 +0200" stop="20260430023500 +0200" channel="M6test">
+    <title lang="fr">Les secrets des chefs</title>
+    <sub-title lang="fr">Stéphanie Le Quellec : l'élève qui va dépasser ses maitres</sub-title>
+    <desc lang="fr">Remporter Top Chef en 2011a été le début d'une ascension fulgurante pour Stéphanie Le Quellec, une surdouée adepte d'un certain classicisme, dont la cuisine se distingue par une technique parfaite. A la tête de plusieurs établissements, dont un restaurant deux étoiles à Paris, cette travailleuse infatigable, maman de trois enfants, sait aussi s'accorder du temps en famille.</desc>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Mag Gastronomie</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123166786"/>
+    <subtitles type="teletext"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260430023500 +0200" stop="20260430060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <sub-title lang="fr">Divers</sub-title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
