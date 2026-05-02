@@ -3,346 +3,248 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260501010000 +0200" stop="20260501060000 +0200" channel="M6test">
+<programme start="20260502041000 +0200" stop="20260502060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/9/6/12564690.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501060000 +0200" stop="20260501080500 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Ryad Baxx</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Fanny Cottençon</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Claudia Mongumu</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Gérard Hernandez</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260502060000 +0200" stop="20260502074500 +0200" channel="M6test">
+    <title lang="fr">M6 Kid</title>
+    <desc lang="fr">Debout c'est M6 Kid ! Un réveil joyeux et 100 % animation pour tous les enfants !</desc>
+    <category lang="fr">Magazine jeunesse</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/0/5/13539508.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501080500 +0200" stop="20260501094500 +0200" channel="M6test">
-    <title lang="fr">My boutique Téléshop'</title>
-    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <credits>
-      <guest>Marie-Ange Nardi</guest>
-      <guest>Charlotte Rosier</guest>
-    </credits>
-    <category lang="fr">Services</category>
-    <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260502074500 +0200" stop="20260502101000 +0200" channel="M6test">
+    <title lang="fr">Absolument stars</title>
+    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/7/2/13539270.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501094500 +0200" stop="20260501113000 +0200" channel="M6test">
-    <title lang="fr">Ça peut vous arriver</title>
-    <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/49FBFE03E9BD010FFCEB1FC0CEE4F51A.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260502101000 +0200" stop="20260502102000 +0200" channel="M6test">
+    <title lang="fr">Le mag du samedi</title>
+    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/14017420.jpg"/>
+    <episode-num system="xmltv_ns">0.36.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501113000 +0200" stop="20260501124000 +0200" channel="M6test">
-    <title lang="fr">Ça peut vous arriver chez vous</title>
-    <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8C544F63E72CB621535D938B32FF8A37.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260502102000 +0200" stop="20260502105500 +0200" channel="M6test">
+    <title lang="fr">Le mag du samedi</title>
+    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/6/3/13055360.jpg"/>
+    <episode-num system="xmltv_ns">0.39.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501124000 +0200" stop="20260501124500 +0200" channel="M6test">
+<programme start="20260502105500 +0200" stop="20260502114500 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <sub-title lang="fr">Marché de Sarlat : quand le terroir fait son show</sub-title>
+    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/4/13627474.jpg"/>
+    <episode-num system="xmltv_ns">0.31.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260502114500 +0200" stop="20260502124000 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/2/12507203.jpg"/>
+    <episode-num system="xmltv_ns">0.32.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260502124000 +0200" stop="20260502124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/6/5/12537566.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501124500 +0200" stop="20260501133500 +0200" channel="M6test">
+<programme start="20260502124500 +0200" stop="20260502133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>N'Fanteh Minteh</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
+    <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/2/12485264.jpg"/>
+    <episode-num system="xmltv_ns">0.121.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501133500 +0200" stop="20260501134000 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Ryad Baxx</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Fanny Cottençon</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Claudia Mongumu</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Gérard Hernandez</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260502133500 +0200" stop="20260502142000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Royal Riviera : le paradis de Saint-Jean-Cap-Ferrat</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/8/5/13532589.jpg"/>
+    <episode-num system="xmltv_ns">0.211.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501134000 +0200" stop="20260501145000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">San Antonio, la petite Venise du Texas</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion... \" Un jour, un doc \" propose une grande variété de documentaires et de sujets au cœur de nos préoccupations. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
+<programme start="20260502142000 +0200" stop="20260502151000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Hôtellerie : l'école du luxe à la française</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/8/5/13532589.jpg"/>
+    <episode-num system="xmltv_ns">0.213.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501145000 +0200" stop="20260501155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260502151000 +0200" stop="20260502160500 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Philippe Etchebest : un chef au top</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/8/5/13532589.jpg"/>
+    <episode-num system="xmltv_ns">0.214.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501155000 +0200" stop="20260501165000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260502160500 +0200" stop="20260502163500 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Gordes, le plus beau village de France</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/8/5/13532589.jpg"/>
+    <episode-num system="xmltv_ns">0.215.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501165000 +0200" stop="20260501173000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260502163500 +0200" stop="20260502174000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Mexico, une capitale qui attire</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/8/5/13532589.jpg"/>
+    <episode-num system="xmltv_ns">0.216.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501173000 +0200" stop="20260501183500 +0200" channel="M6test">
+<programme start="20260502174000 +0200" stop="20260502183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
-    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
-    <credits>
-      <guest>Eric Antoine</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/16CA5370FC17EE9C0C1359A217F4CF56.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/8/5/13532588.jpg"/>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501183500 +0200" stop="20260501194000 +0200" channel="M6test">
-    <title lang="fr">La meilleure boulangerie de France</title>
-    <sub-title lang="fr">Bretagne - côté Sud</sub-title>
-    <desc lang="fr">Chiara Serpaggi et Danny Khezzar, finaliste de la saison 14 de "Top Chef", participent à cette nouvelle saison qui célèbre le patrimoine gastronomique français en partant à la découverte des plus belles boulangeries de l'Hexagone.</desc>
-    <credits>
-      <guest>Chiara Serpaggi</guest>
-      <guest>Bruno Cormerais</guest>
-      <guest>Michel Sarran</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
+<programme start="20260502183500 +0200" stop="20260502194000 +0200" channel="M6test">
+    <title lang="fr">Le maillon faible</title>
+    <desc lang="fr">Ils ne sont pas de la même famille… Ils ne sont pas amis… Ils ne se connaissent même pas… Et pourtant, huit candidats vont devoir jouer en équipe ! Dans chaque manche, un candidat sera éliminé par les autres joueurs car il aura été considéré comme étant \" le maillon faible \". À la fin, un seul d'entre eux pourra remporter le gain final ; les sept autres repartiront les mains vides. Suspense, culture générale et éliminations sans concession, le jeu culte est de retour !</desc>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E91564EE6F1633D2594E2301F0392CA1.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">12.0.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/3/7/13109734.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501194000 +0200" stop="20260501194500 +0200" channel="M6test">
+<programme start="20260502194000 +0200" stop="20260502194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/2/14194244.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501194500 +0200" stop="20260501204000 +0200" channel="M6test">
+<programme start="20260502194500 +0200" stop="20260502203000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>Ashley Chevalier</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
+    <desc lang="fr">Le journal de M6.</desc>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/307D64F97E714ECC1571F3C6834B2031.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/5/2/12485256.jpg"/>
+    <episode-num system="xmltv_ns">0.121.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501204000 +0200" stop="20260501211000 +0200" channel="M6test">
+<programme start="20260502203000 +0200" stop="20260502211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Après une demande en mariage mémorable, Emma et Fabien préparent le grand jour où ils se diront enfin oui. Camille, forte du succès de son centre de bien-être, pourrait bien finir par détrôner Philippe et ses deux pharmacies. Un tournant professionnel se dessinera également pour José et Liliane : et si après la mairie, il y avait un autre horizon pour José ? Quant à Sofiane et Alice, la frénésie de leur épicerie ne leur laissera aucun repos. Du repos, c'est bien ce qui pourrait faire peur à Léo et Leslie, qui passent le cap des 30 ans. Les couples n'en finissent pas d'étonner les téléspectateurs dans une 17e saison enjouée.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Majid Berhila</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Gérard Hernandez</actor>
-      <actor>Elodie Poux</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">16.0.</episode-num>
+    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/5/2/12485258.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501211000 +0200" stop="20260501221000 +0200" channel="M6test">
-    <title lang="fr">Pékin express : Au royaume des dragons</title>
-    <desc lang="fr">Les candidats découvrent la Thaïlande. Entre temples dorés, bouddhas monumentaux, marchés flottants et jungle tropicale, le pays offre des décors variés. Les candidats iront à la rencontre des Thaïlandais. Fier de n'avoir jamais été colonisé, le peuple thaï est reconnu pour son hospitalité chaleureuse.</desc>
-    <credits>
-      <guest>Stéphane Rotenberg</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
+<programme start="20260502211000 +0200" stop="20260502221000 +0200" channel="M6test">
+    <title lang="fr">Les traîtres</title>
+    <desc lang="fr">La queen Ginger Bitch et Major Mouvement ont été éliminés lors de la troisième phase du jeu mi avril. Entretemps, d'autres concurrents sont restés sur le carreau. Qui parviendra à rester assez longtemps dans l'aventure pour collecter suffisamment de fonds pour l'association de son choix ? Difficile à dire, tant il est vrai que l'étau se resserre autour des participants !</desc>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/0AC9A7B0047B79CC3258116F283503B9.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">21.0.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/2/14229226.jpg"/>
+    <episode-num system="xmltv_ns">5.5.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501221000 +0200" stop="20260501232500 +0200" channel="M6test">
-    <title lang="fr">Pékin express : Au royaume des dragons</title>
-    <desc lang="fr">Cette 9e étape est marquée par la règle des intouchables. A chaque sprint intermédiaire remporté, un binôme peut obtenir un statut spécial et prendre l'avantage. En plein milieu de la Thaïlande, les équipes vont devoir se focaliser sur ce gain particulier pour optimiser ses chances de victoire.</desc>
-    <credits>
-      <guest>Stéphane Rotenberg</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
+<programme start="20260502221000 +0200" stop="20260502232500 +0200" channel="M6test">
+    <title lang="fr">Les traîtres</title>
+    <desc lang="fr">Qui parviendra à rester assez longtemps dans l'aventure pour collecter suffisamment de fonds pour l'association de son choix ? Les épreuves se suivent et ne se ressemblent pas pour celles et ceux qui sont encore en lice à ce stade de la compétition. Il s'agit de garder la tête froide et d'avancer ses pions avec discernement pour espérer gagner.</desc>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/0AC9A7B0047B79CC3258116F283503B9.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">21.0.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/2/14229226.jpg"/>
+    <episode-num system="xmltv_ns">5.5.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260501232500 +0200" stop="20260502014500 +0200" channel="M6test">
-    <title lang="fr">Pékin express : Duos de choc</title>
-    <sub-title lang="fr">Première étape au Sri Lanka</sub-title>
-    <desc lang="fr">La 16e saison de Pékin Express débute à Colombo, la capitale du Sri Lanka. Six duos de choc, composés d'une personnalité et d'un proche, vont traverser de bout en bout le joyau de l'océan indien. La course débute dans un petit port typique du Sri Lanka, au milieu des pêcheurs et de leurs filets.</desc>
-    <credits>
-      <guest>Stéphane Rotenberg</guest>
-    </credits>
-    <date>2022</date>
-    <category lang="fr">Divertissement</category>
+<programme start="20260502232500 +0200" stop="20260503002000 +0200" channel="M6test">
+    <title lang="fr">Les traîtres : révélations sur la suite...</title>
+    <desc lang="fr">Après chaque épisode, Juju Fitcats, qui s'est imposée lors de la saison 2, reçoit les joueurs pour analyser alliances, trahisons et stratégies. Entre révélations chocs, confrontations, règlements de compte et images inédites, elle fait découvrir les coulisses du château de Bournel et dévoile tous les secrets de ce jeu imprévisible qui n'a pas fini de surprendre. Cette émission permet de revenir sur des moments marquants et de comprendre les réactions des participants.</desc>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/23714DE6245999D6AD61A1F18A4D03C6.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">15.0.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/2/2/14229225.jpg"/>
+    <episode-num system="xmltv_ns">5.5.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260502014500 +0200" stop="20260502041000 +0200" channel="M6test">
-    <title lang="fr">Pékin express</title>
-    <sub-title lang="fr">Episode 2</sub-title>
-    <desc lang="fr">Pour cette deuxième étape, les candidats découvrent l'ancienne capitale royale du Sri Lanka : Sigirîya. A peine la course démarrée, ils doivent récupérer leurs instructions dans un bloc de glace. Les binômes testent ensuite un tout nouveau moyen de locomotion avec un chariot typique sri-lankais</desc>
+<programme start="20260503002000 +0200" stop="20260503012000 +0200" channel="M6test">
+    <title lang="fr">La roue de la fortune célébrités</title>
+    <sub-title lang="fr">Episode 1 (1/2)</sub-title>
+    <desc lang="fr">Des célébrités sont invitées à réaliser un vieux rêve d'enfant : tourner la roue la plus culte de la télévision, et pour la bonne cause, puisque chaque candidat doit résoudre les énigmes pour accéder à la finale et récolter un maximum pour son association. Pour cette émission événement, Eric Antoine réserve bien des surprises.</desc>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/106786735"/>
-    <episode-num system="xmltv_ns">15.1.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120457053"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260502041000 +0200" stop="20260502060000 +0200" channel="M6test">
+<programme start="20260503012000 +0200" stop="20260503024000 +0200" channel="M6test">
+    <title lang="fr">La roue de la fortune célébrités</title>
+    <sub-title lang="fr">Episode 1 (2/2)</sub-title>
+    <desc lang="fr">Au cours de cette émission spéciale, une pléiade d'invités célèbres se plient aux règles de La Roue de la fortune dans l'espoir de lever des fonds pour une association. En maître de cérémonie, Eric Antoine réserve bien des surprises aux différents concurrents, qui font leur possible pour atteindre la finale.</desc>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120457034"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <subtitles type="teletext"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260503024000 +0200" stop="20260503060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <sub-title lang="fr">Divers</sub-title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
