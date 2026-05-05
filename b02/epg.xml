@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260504031000 +0200" stop="20260504060000 +0200" channel="M6test">
+<programme start="20260505021000 +0200" stop="20260505060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
@@ -14,7 +14,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504060000 +0200" stop="20260504080500 +0200" channel="M6test">
+<programme start="20260505060000 +0200" stop="20260505080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -35,28 +35,29 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/DEC4BD560E547955592B0646BB733759.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504080500 +0200" stop="20260504094500 +0200" channel="M6test">
+<programme start="20260505080500 +0200" stop="20260505094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
       <guest>Marie-Ange Nardi</guest>
       <guest>Charlotte Rosier</guest>
     </credits>
+    <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504094500 +0200" stop="20260504113000 +0200" channel="M6test">
+<programme start="20260505094500 +0200" stop="20260505113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -71,7 +72,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504113000 +0200" stop="20260504124000 +0200" channel="M6test">
+<programme start="20260505113000 +0200" stop="20260505124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -86,19 +87,19 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504124000 +0200" stop="20260504124500 +0200" channel="M6test">
+<programme start="20260505124000 +0200" stop="20260505124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/386ADB68772665A76D151D2EDA9CFB50.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504124500 +0200" stop="20260504133500 +0200" channel="M6test">
+<programme start="20260505124500 +0200" stop="20260505133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -107,13 +108,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504133500 +0200" stop="20260504134000 +0200" channel="M6test">
+<programme start="20260505133500 +0200" stop="20260505134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -140,32 +141,33 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504134000 +0200" stop="20260504145000 +0200" channel="M6test">
+<programme start="20260505134000 +0200" stop="20260505145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Immobilier : les débarrasseurs de l'extrême !</sub-title>
+    <sub-title lang="fr">Brasserie Georges, au cœur d'une institution lyonnaise</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
     <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504145000 +0200" stop="20260504155000 +0200" channel="M6test">
+<programme start="20260505145000 +0200" stop="20260505155000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Le Crillon : ils travaillent dans un palace mythique</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
     <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504155000 +0200" stop="20260504165000 +0200" channel="M6test">
+<programme start="20260505155000 +0200" stop="20260505165000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -177,7 +179,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504165000 +0200" stop="20260504173000 +0200" channel="M6test">
+<programme start="20260505165000 +0200" stop="20260505173000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -189,7 +191,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504173000 +0200" stop="20260504183500 +0200" channel="M6test">
+<programme start="20260505173000 +0200" stop="20260505183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -205,7 +207,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504183500 +0200" stop="20260504194000 +0200" channel="M6test">
+<programme start="20260505183500 +0200" stop="20260505194000 +0200" channel="M6test">
     <title lang="fr">La meilleure boulangerie de France</title>
     <sub-title lang="fr">Languedoc-Roussillon</sub-title>
     <desc lang="fr">Chiara Serpaggi et Danny Khezzar, finaliste de la saison 14 de "Top Chef", participent à cette nouvelle saison qui célèbre le patrimoine gastronomique français en partant à la découverte des plus belles boulangeries de l'Hexagone.</desc>
@@ -224,7 +226,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504194000 +0200" stop="20260504194500 +0200" channel="M6test">
+<programme start="20260505194000 +0200" stop="20260505194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -236,7 +238,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504194500 +0200" stop="20260504204000 +0200" channel="M6test">
+<programme start="20260505194500 +0200" stop="20260505204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -245,13 +247,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/307D64F97E714ECC1571F3C6834B2031.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504204000 +0200" stop="20260504211000 +0200" channel="M6test">
+<programme start="20260505204000 +0200" stop="20260505211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Après une demande en mariage mémorable, Emma et Fabien préparent le grand jour où ils se diront enfin oui. Camille, forte du succès de son centre de bien-être, pourrait bien finir par détrôner Philippe et ses deux pharmacies. Un tournant professionnel se dessinera également pour José et Liliane : et si après la mairie, il y avait un autre horizon pour José ? Quant à Sofiane et Alice, la frénésie de leur épicerie ne leur laissera aucun repos. Du repos, c'est bien ce qui pourrait faire peur à Léo et Leslie, qui passent le cap des 30 ans. Les couples n'en finissent pas d'étonner les téléspectateurs dans une 17e saison enjouée.</desc>
     <credits>
@@ -279,81 +281,250 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260504211000 +0200" stop="20260504215500 +0200" channel="M6test">
-    <title lang="fr">Mariés au premier regard</title>
-    <desc lang="fr">La décision de se marier "pour le meilleur ou pour le pire" ne peut pas se prendre à la légère. Un minimum de compatibilité entre les partenaires doit garantir la solidité de leur union. Parce qu'elles sont persuadées que celle-ci peut primer sur toute autre considération, les expertes Estelle Dossin et Marie Tapernoux mettent les candidats à l'amour au défi de se dire "oui" au pied de l'autel alors qu'ils se rencontrent pour la première fois, en se basant uniquement sur les résultats d'une algorithme évaluant leur compatibilité mentale et physique. Qui osera faire confiance à ses calculs savants et se lancera dans l'aventure ?</desc>
+<programme start="20260505211000 +0200" stop="20260505215000 +0200" channel="M6test">
+    <title lang="fr">Citadel</title>
+    <sub-title lang="fr">L'énigme humaine</sub-title>
+    <desc lang="fr">Il y a huit ans, Citadel, agence internationale indépendante d'espionnage, était détruite par l'organisation Manticore. Les agents d'élite Mason Kane et Nadia Sinh ont frôlé la mort et leur mémoire a été effacée. Huit ans après, l'ancien collègue de Mason, Bernard Orlick, l'appelle à l'aide pour empêcher Manticore d'imposer un nouvel ordre mondial. Mais celui-ci mène une vie paisible sous le nom de Kyle Conroy, sans aucun souvenir de son passé...</desc>
     <credits>
-      <guest>Studio 89 Productions</guest>
+      <director>Newton Thomas Sigel</director>
+      <actor>Ashleigh Cummings</actor>
+      <actor>Priyanka Chopra</actor>
+      <actor>Richard Madden</actor>
+      <actor>Stanley Tucci</actor>
+      <actor>Osy Ikhile</actor>
+      <actor>Caoilinn Springall</actor>
+      <actor>Roland Møller</actor>
+      <actor>Lesley Manville</actor>
+      <actor>Gianfranco Terrin</actor>
+      <actor>Moira Kelly</actor>
+      <actor>Lev Gorn</actor>
+      <actor>Timothy Busfield</actor>
+      <adapter>Lauren Wilkinson</adapter>
+      <adapter>David Weil</adapter>
+      <producer>Chris Castaldi</producer>
+      <producer>Sarah Bradshaw</producer>
+      <producer>Melissa Glenn</producer>
+      <producer>Patrick Moran</producer>
+      <producer>Debra James</producer>
+      <producer>Bryan Oh</producer>
+      <producer>Jake Aust</producer>
+      <producer>Josh Appelbaum</producer>
+      <producer>André Nemec</producer>
+      <producer>Scott Nemes</producer>
+      <producer>Mike Larocca</producer>
+      <producer>Brian Kirk</producer>
+      <composer>Evan Goldman</composer>
+      <composer>John W. Chapman</composer>
+      <composer>Antonio Andrade</composer>
+      <composer>Alessandro Apolloni</composer>
+      <composer>Isobel Griffiths</composer>
+      <composer>Stephen Coleman</composer>
+      <composer>Antonio Di Iorio</composer>
+      <composer>Bob Bowen</composer>
+      <composer>Ben Creasey</composer>
+      <composer>Chris Barrett</composer>
+      <editor>Josh Appelbaum</editor>
+      <editor>David Weil</editor>
+      <editor>Bryan Oh</editor>
+      <guest> AGBO</guest>
+      <guest>Amazon MGM Studios</guest>
     </credits>
-    <date>2026</date>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/A0DBD20FD257BACA78DBD4728D19F187.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">9.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260504215500 +0200" stop="20260504232500 +0200" channel="M6test">
-    <title lang="fr">Mariés au premier regard</title>
-    <desc lang="fr">Ce n'est pas tout d'avoir fait le pari de dire "oui" au partenaire sélectionné par l'algorithme : il faut à présent relever les défis du quotidien dans une union où tout est à construire. Attraction physique, sentiments, projets de vie, ou encore organisation de la vie commune sont au centre des préoccupations des nouveaux mariés.</desc>
-    <credits>
-      <guest>Studio 89 Productions</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/AF19F420F177570EC0A6E3C84B7DFF1E.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">9.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260504232500 +0200" stop="20260505002500 +0200" channel="M6test">
-    <title lang="fr">Cougar Island</title>
-    <desc lang="fr">Sandra, Estefania et Lia, trois femmes dans la force de l'âge, sont toutes les trois déçues par l'amour. Elles sont également attirées par les hommes plus jeunes qu'elles. Sur Cougar Island, elles se retrouvent confrontées à de fringants célibataires, plus séduisants les uns que les autres, mais aussi à des hommes de leur âge, dont elles (re)découvrent peu à peu le charme. Pour qui battront leur coeur ?</desc>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/AEADCC0B983B54EC6B384244F486607B.jpg"/>
-    <country lang="fr">France</country>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Action</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/704901A5061F3AE435E97C5A0B42F029.jpg"/>
+    <country lang="fr">Etats-Unis</country>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-<programme start="20260505002500 +0200" stop="20260505012000 +0200" channel="M6test">
-    <title lang="fr">Cougar Island</title>
-    <sub-title lang="fr">Episode 8</sub-title>
-    <desc lang="fr">Attirées par les hommes plus jeunes qu'elles, Estefania, Sandra et Lia espèrent trouver l'amour sur une île paradisiaque où les attendent douze prétendants. Un matin, ceux-ci sont remplacés par neuf soupirants plus mûrs. Les certitudes vacillent, entre attirance, rejet, surprise et remise en question.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123528882"/>
-    <episode-num system="xmltv_ns">0.7.</episode-num>
+<programme start="20260505215000 +0200" stop="20260505223000 +0200" channel="M6test">
+    <title lang="fr">Citadel</title>
+    <sub-title lang="fr">Les espions apparaissent la nuit</sub-title>
+    <desc lang="fr">Mason et Bernard vont à New York pour récupérer la Mallette X, contenant les codes de toutes les armes nucléaires de monde, des mains de Manticore avant qu'il soit trop tard. Lorsqu'il découvre qu'une connaissance de sa vie passée est toujours en vie, Mason va tout risquer pour la retrouver...</desc>
+    <credits>
+      <director>Newton Thomas Sigel</director>
+      <actor>Ashleigh Cummings</actor>
+      <actor>Priyanka Chopra</actor>
+      <actor>Alison Halstead</actor>
+      <actor>Richard Madden</actor>
+      <actor>Stanley Tucci</actor>
+      <actor>Osy Ikhile</actor>
+      <actor>Caoilinn Springall</actor>
+      <actor>Roland Møller</actor>
+      <actor>Lesley Manville</actor>
+      <actor>Moira Kelly</actor>
+      <actor>Ivo Nandi</actor>
+      <actor>Peter Parker Mensah</actor>
+      <adapter>David Weil</adapter>
+      <adapter>Lauren Wilkinson</adapter>
+      <adapter>Bryan Oh</adapter>
+      <producer>Brian Kirk</producer>
+      <producer>Patrick Moran</producer>
+      <producer>Debra James</producer>
+      <producer>Josh Appelbaum</producer>
+      <producer>André Nemec</producer>
+      <producer>Chris Castaldi</producer>
+      <producer>Sarah Bradshaw</producer>
+      <producer>Melissa Glenn</producer>
+      <producer>Mike Larocca</producer>
+      <producer>Scott Shapiro</producer>
+      <producer>Andres Anglade</producer>
+      <producer>Jake Aust</producer>
+      <composer>Alex Belcher</composer>
+      <editor>David Weil</editor>
+      <guest> AGBO</guest>
+      <guest>Amazon MGM Studios</guest>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Action</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D27C1551F2EB15C90B740D5C55F6C2AF.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260505223000 +0200" stop="20260505232000 +0200" channel="M6test">
+    <title lang="fr">Citadel</title>
+    <sub-title lang="fr">Ténèbres infinies</sub-title>
+    <desc lang="fr">Mason et Nadia se réfugient dans une ancienne planque et des bribes de leur relation passée leur reviennent. Ils découvrent qu'un ancien allié, qui pourrait leur permettre d'arrêter Manticore, est emprisonné au Maroc. Pour le sauver, ils doivent passer par un chef de la pègre locale. Mais leur mission est de plus en plus compromise, à mesure que les secrets refont surface...</desc>
+    <credits>
+      <director>Jessica Yu</director>
+      <director>Newton Thomas Sigel</director>
+      <actor>Ashleigh Cummings</actor>
+      <actor>Priyanka Chopra</actor>
+      <actor>Richard Madden</actor>
+      <actor>Lesley Manville</actor>
+      <actor>Osy Ikhile</actor>
+      <actor>Stanley Tucci</actor>
+      <actor>Moira Kelly</actor>
+      <actor>Roland Møller</actor>
+      <actor>Caoilinn Springall</actor>
+      <actor>Joseph Millson</actor>
+      <actor>Clayton T. Smith</actor>
+      <actor>Nikki Amuka-Bird</actor>
+      <adapter>David Weil</adapter>
+      <adapter>Lauren Wilkinson</adapter>
+      <adapter>Melissa Glenn</adapter>
+      <producer>Anthony Russo</producer>
+      <producer>Jake Aust</producer>
+      <producer>Chris Castaldi</producer>
+      <producer>Debra James</producer>
+      <producer>Angela Russo-Otstot</producer>
+      <producer>Josh Appelbaum</producer>
+      <producer>Brian Kirk</producer>
+      <producer>Sarah Bradshaw</producer>
+      <producer>Melissa Glenn</producer>
+      <producer>Joe Russo</producer>
+      <producer>Scott Shapiro</producer>
+      <producer>Andres Anglade</producer>
+      <composer>Alex Belcher</composer>
+      <editor>David Weil</editor>
+      <guest> AGBO</guest>
+      <guest>Amazon MGM Studios</guest>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Action</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/9F0F1595562CFA1DA3A7528377EEF9CF.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260505232000 +0200" stop="20260506000000 +0200" channel="M6test">
+    <title lang="fr">Citadel</title>
+    <sub-title lang="fr">Dis-lui tout</sub-title>
+    <desc lang="fr">Après la révélation fracassante de l'ancienne identité d'Abby, les liens qui unissent Mason, Nadia et Celeste se dévoilent. Mason et Nadia débarquent au Maroc et risquent leur vie pour libérer l'agent qui est leur allié. Mais leurs retrouvailles tournent court quand ils font face à une terrible accusation...</desc>
+    <credits>
+      <director>Jessica Yu</director>
+      <director>Newton Thomas Sigel</director>
+      <actor>Priyanka Chopra</actor>
+      <actor>Ashleigh Cummings</actor>
+      <actor>Richard Madden</actor>
+      <actor>Stanley Tucci</actor>
+      <actor>Mo Chara</actor>
+      <actor>Nikki Amuka-Bird</actor>
+      <actor>Mike Capozzola</actor>
+      <actor>Lesley Manville</actor>
+      <actor>Osy Ikhile</actor>
+      <actor>Roland Møller</actor>
+      <actor>Caoilinn Springall</actor>
+      <actor>Moira Kelly</actor>
+      <adapter>Bryan Oh</adapter>
+      <adapter>David Weil</adapter>
+      <adapter>Josh Appelbaum</adapter>
+      <adapter>Lauren Wilkinson</adapter>
+      <producer>Mike Larocca</producer>
+      <producer>Josh Appelbaum</producer>
+      <producer>Brian Kirk</producer>
+      <producer>Patrick Moran</producer>
+      <producer>Jake Aust</producer>
+      <producer>Newton Thomas Sigel</producer>
+      <producer>Melissa Glenn</producer>
+      <producer>Chris Castaldi</producer>
+      <producer>David Weil</producer>
+      <producer>Scott Nemes</producer>
+      <producer>Andres Anglade</producer>
+      <producer>Debra James</producer>
+      <composer>Alex Belcher</composer>
+      <editor>David Weil</editor>
+      <editor>Bryan Oh</editor>
+      <editor>Josh Appelbaum</editor>
+      <guest> AGBO</guest>
+      <guest>Amazon MGM Studios</guest>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Action</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B32149500BADA6A85E723AA11B509CD0.jpg"/>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260506000000 +0200" stop="20260506004500 +0200" channel="M6test">
+    <title lang="fr">Citadel</title>
+    <sub-title lang="fr">Le temps fait de nous des ennemis</sub-title>
+    <desc lang="fr">Nadia, Mason et Carter doivent travailler ensemble pour échapper à Manticore et protéger la Mallette X, mais les soupçons qui pèsent sur l'un d'eux deviennent de plus en plus pesants et conduisent à un affrontement explosif...</desc>
+    <date>2023</date>
+    <category lang="fr">Series</category>
+    <category lang="fr">Serie Action</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123497694"/>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-<programme start="20260505012000 +0200" stop="20260505021000 +0200" channel="M6test">
-    <title lang="fr">Cougar Island</title>
-    <sub-title lang="fr">Episode 9</sub-title>
-    <desc lang="fr">Jeunes célibataires musculeux ou hommes d'âge mûr pleins de charme ? Qui saura séduire les trois femmes dans la force de l'âge convaincues de n'aimer que les premiers ?</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123528883"/>
-    <episode-num system="xmltv_ns">0.8.</episode-num>
+<programme start="20260506004500 +0200" stop="20260506014500 +0200" channel="M6test">
+    <title lang="fr">Citadel</title>
+    <sub-title lang="fr">La pluie du matin efface les sec...</sub-title>
+    <desc lang="fr">L'un des leurs étant retenu en otage par Manticore, Mason, Nadia et Carter risquent tout pour le sauver et contrecarrer les plans de Manticore. Alors qu'ils sont aux prises avec la menace nucléaire, l'identité de la taupe au sein de Citadel est révélée...</desc>
+    <date>2023</date>
+    <category lang="fr">Series</category>
+    <category lang="fr">Serie Action</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123528858"/>
     <subtitles type="teletext"/>
     <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+      <value>-12</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png"/>
     </rating>
+    <star-rating system="teleloisirs">
+      <value>3/5</value>
+    </star-rating>
+    <review source="T&#xE9;l&#xE9;-Loisirs" type="text">Crédités en tant que producteurs exécutifs, les frères Anthony et Joe Russo, notamment réalisateurs des derniers Captain America et Avengers, sont derrière Citadel et ça se voit, pour le pire (alignement de clichés, rebondissements attendus) comme pour le meilleur (générosité envers le spectateur, personnages attachants). Ce dernier épisode est la quintessence de leur savoir-faire. On attend mieux, quand même, de Citadel : Diana, prochain chapitre du Citadel Spyverse, prévu en 2024.</review>
   </programme>
-<programme start="20260505021000 +0200" stop="20260505060000 +0200" channel="M6test">
+<programme start="20260506014500 +0200" stop="20260506060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <sub-title lang="fr">Divers</sub-title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
