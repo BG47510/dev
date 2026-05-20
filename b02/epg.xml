@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260519060000 +0200" stop="20260519080500 +0200" channel="M6test">
+<programme start="20260520060000 +0200" stop="20260520080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -30,7 +30,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519080500 +0200" stop="20260519094500 +0200" channel="M6test">
+<programme start="20260520080500 +0200" stop="20260520094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -40,13 +40,13 @@
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519094500 +0200" stop="20260519113000 +0200" channel="M6test">
+<programme start="20260520094500 +0200" stop="20260520113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -55,13 +55,13 @@
     <date>2026</date>
     <category lang="fr">Art de vivre</category>
     <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BDCDE118CB4609F8D800BF13AD037494.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/49FBFE03E9BD010FFCEB1FC0CEE4F51A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519113000 +0200" stop="20260519124000 +0200" channel="M6test">
+<programme start="20260520113000 +0200" stop="20260520124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -76,7 +76,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519124000 +0200" stop="20260519124500 +0200" channel="M6test">
+<programme start="20260520124000 +0200" stop="20260520124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -88,7 +88,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519124500 +0200" stop="20260519133500 +0200" channel="M6test">
+<programme start="20260520124500 +0200" stop="20260520133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -103,7 +103,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519133500 +0200" stop="20260519134000 +0200" channel="M6test">
+<programme start="20260520133500 +0200" stop="20260520134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -130,9 +130,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519134000 +0200" stop="20260519145000 +0200" channel="M6test">
+<programme start="20260520134000 +0200" stop="20260520145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Décorateurs d'intérieur : ce sont des magiciens !</sub-title>
+    <sub-title lang="fr">Calabre : la dolce Vita à prix doux</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -144,21 +144,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519145000 +0200" stop="20260519155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Déco : les nouveaux rois des bons plans</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260519155000 +0200" stop="20260519165000 +0200" channel="M6test">
+<programme start="20260520145000 +0200" stop="20260520155000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -170,21 +156,34 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519165000 +0200" stop="20260519173000 +0200" channel="M6test">
+<programme start="20260520155000 +0200" stop="20260520165000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Bricolage : les femmes à tous les rayons</sub-title>
+    <sub-title lang="fr">Tenerife, la douceur d'une île volcanique</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">2.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260520165000 +0200" stop="20260520173000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Istanbul, la cosmopolite</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
     <category lang="fr">Information</category>
     <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519173000 +0200" stop="20260519183500 +0200" channel="M6test">
+<programme start="20260520173000 +0200" stop="20260520183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -193,14 +192,14 @@
     <date>2026</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/16CA5370FC17EE9C0C1359A217F4CF56.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/C4EC76AC910A873FD9022E2CC39C552C.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519183500 +0200" stop="20260519194000 +0200" channel="M6test">
+<programme start="20260520183500 +0200" stop="20260520194000 +0200" channel="M6test">
     <title lang="fr">La meilleure boulangerie de France</title>
     <sub-title lang="fr">Centre-Val-de-Loire</sub-title>
     <desc lang="fr">La Meilleure Boulangerie de France repart pour un road-trip à travers toutes les régions de l'Hexagone. Ce nouvea...</desc>
@@ -212,26 +211,26 @@
     <date>2026</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E91564EE6F1633D2594E2301F0392CA1.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/68F91B8597B474D50B1D28662056F637.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">12.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519194000 +0200" stop="20260519194500 +0200" channel="M6test">
+<programme start="20260520194000 +0200" stop="20260520194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/0DEDB28E2D206269F8855D09B99E3B21.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519194500 +0200" stop="20260519204000 +0200" channel="M6test">
+<programme start="20260520194500 +0200" stop="20260520204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -246,7 +245,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519204000 +0200" stop="20260519211000 +0200" channel="M6test">
+<programme start="20260520204000 +0200" stop="20260520211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Après une demande en mariage mémorable, Emma et Fabien préparent le grand jour où ils se diront enfin oui. Camille, forte du succès de son centre de bien-être, pourrait bien finir par détrôner Philippe et ses deux pharmacies. Un tournant professionnel se dessinera également pour José et Liliane : et si après la mairie, il y avait un autre horizon pour José ? Quant à Sofiane et Alice, la frénésie de leur épicerie ne leur laissera aucun repos. Du repos, c'est bien ce qui pourrait faire peur à Léo et Leslie, qui passent le cap des 30 ans. Les couples n'en finissent pas d'étonner les téléspectateurs dans une 17e saison enjouée.</desc>
     <credits>
@@ -274,99 +273,97 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519211000 +0200" stop="20260519221000 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <sub-title lang="fr">Argent envolé : les dessous de trois escroqueries à plusieurs milliers d'euros</sub-title>
-    <desc lang="fr">Au sommaire : Camping-cars : vendus… mais jamais payés. A Périgueux, plus de 70 victimes accusent le gérant d'un dépôt-vente d'avoir vendu leurs véhicules sans leur reverser l'argent. - Mariages, friterie, carnavals… Le Ch'ti qui arnaque le Nord. - Balnéos à prix cassés : escroquerie à grande échelle.</desc>
+<programme start="20260520211000 +0200" stop="20260520221000 +0200" channel="M6test">
+    <title lang="fr">Top chef</title>
+    <desc lang="fr">Place à la qualification pour les quarts de finale. Les cinq derniers candidats ont été choisis chacun par un juré. Désormais, chaque chef doit accompagner son talent pour tenter de remporter la mise. Lors d'une première épreuve, les candidats tentent d'impressionner le cuisinier triplement étoilé Jordi Roca.</desc>
     <credits>
-      <guest>Julien Courbet</guest>
+      <guest>Alexandre Mazzia</guest>
+      <guest>Paul Pairet</guest>
+      <guest>Stéphanie Le Quellec</guest>
+      <guest>Jordi Roca</guest>
+      <guest>Stéphane Rotenberg</guest>
+      <guest>David Toutain</guest>
+      <guest>Glenn Viel</guest>
+      <guest>Philippe Etchebest</guest>
+      <guest>Hélène Darroze</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EA7137281B97D99FB5F4FA2F41038B4A.jpg"/>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/905E8C536DC2A1F676DFCA3CA316B9AC.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519221000 +0200" stop="20260519230500 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <sub-title lang="fr">Argent envolé : les dessous de trois escroqueries à plusieurs milliers d'euros</sub-title>
-    <desc lang="fr">Le gérant d'un dépôt-vente a escroqué de nombreux propriétaires de camping-cars en vendant leur véhicule sans leur reverser l'argent. Un professionnel de l'événementiel n'honore jamais ses engagements financiers. Même reproche pour une entreprise de balnéothérapie dans les Ardennes.</desc>
+<programme start="20260520221000 +0200" stop="20260520233000 +0200" channel="M6test">
+    <title lang="fr">Top chef</title>
+    <sub-title lang="fr">Révolutionner la dégustation</sub-title>
+    <desc lang="fr">Cette année, pour l'épreuve de la boîte noire, ce sont les chefs Alexandre Mazzia et David Toutain qui ont imaginé un plat à quatre mains pour une épreuve plus redoutable que jamais. les candidats sont encore cinq, mais à l'issue de cette phase du jeu, ils ne seront plus que quatre.</desc>
     <credits>
-      <guest>Julien Courbet</guest>
+      <guest>Alexandre Mazzia</guest>
+      <guest>Paul Pairet</guest>
+      <guest>Stéphanie Le Quellec</guest>
+      <guest>Jordi Roca</guest>
+      <guest>Stéphane Rotenberg</guest>
+      <guest>David Toutain</guest>
+      <guest>Glenn Viel</guest>
+      <guest>Philippe Etchebest</guest>
+      <guest>Hélène Darroze</guest>
     </credits>
     <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/905E8C536DC2A1F676DFCA3CA316B9AC.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260520233000 +0200" stop="20260521004500 +0200" channel="M6test">
+    <title lang="fr">Top chef</title>
+    <sub-title lang="fr">Les meilleurs moments n°2</sub-title>
+    <desc lang="fr">Cette nouvelle sélection des meilleurs moments de "Top Chef" permet de retrouver quelques-unes des séquences les plus inoubliables du concours. Ce numéro revient sur l'élaboration des cinq plats les plus créatifs imaginés par les candidats des seize saisons précédentes. Coup de projecteur également sur les cinq moments les plus saisissants de l'épreuve de la boîte noire.</desc>
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/0A13342A51D18F199A3C40C7129D0815.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260521004500 +0200" stop="20260521014000 +0200" channel="M6test">
+    <title lang="fr">Les secrets des chefs</title>
+    <sub-title lang="fr">Un village au sommet de la gastronomie</sub-title>
+    <desc lang="fr">Le village de Charolles, en Saône-et-Loire, accueille chaque année le festival culinaire "Les Rendez-vous gourmands". Sous l'impulsion du chef étoilé et enfant du pays Frédéric Doucet, il est devenu une étape incontournable pour des milliers d'amateurs de bonne chère. Plusieurs chefs étoilés et des producteurs de produits du terroir proposent une folle semaine à de très nombreux gourmets.</desc>
+    <date>2026</date>
     <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/B5EBF4702A8FFD661D2771E166900A48.jpg"/>
+    <category lang="fr">Gastronomie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/93E899FFF762F6E79397F4A2D7EC9CAB.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260521014000 +0200" stop="20260521023500 +0200" channel="M6test">
+    <title lang="fr">Les secrets des chefs</title>
+    <sub-title lang="fr">La Coupole : toujours aussi mythique</sub-title>
+    <desc lang="fr">La Coupole, boulevard du Montparnasse, reste l'une des grandes mythiques brasseries parisiennes, toujours pleine, vibrante d'un public mêlé et habitée par les souvenirs de Picasso, Hemingway ou Gainsbourg. Avec sa vaste terrasse, sa salle Art déco de 400 couverts et son Dancing, on y mange, boit et danse du matin jusqu'à la nuit. A travers habitués et clients iconiques, une plongée dans une Coupole vivante.</desc>
+    <date>2026</date>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Gastronomie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/653018F55EA576F0C1610BB882306C62.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260519230500 +0200" stop="20260520001000 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Que ce soit dans le Sud ou en Bretagne, des arnaqueuses aux méthodes bien rôdées dépouillent des clients trop naïfs et disparaissent sans laisser de traces. "Arnaques !" se lance sur la piste de ces marchandes de sommeil, qui ont développé tout un arsenal d'escroqueries, pour les confronter à leurs victimes.</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/61EA483E12AE8AA4D282625FCDFBD1FD.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260520001000 +0200" stop="20260520011000 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Son voisin l'a attaqué à coup de détritus. En Normandie, Amélie et Lorenzo vivent un véritable cauchemar. Leur jardin ressemble à une déchetterie et un monceau de détritus jonche leur pelouse. Ils accusent leur voisin qui lancerait régulièrement ses ordures chez eux. Mais ce dernier nie tout.</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/47D987A2B4225D60ABF4A324D50C6C29.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260520011000 +0200" stop="20260520021500 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Au sommaire : "Cuisine : comment acheter sans se faire arnaquer". Faut-il s'adresser à un franchisé ou un indépendant ? - "Camping : la guerre des mobil-homes". Le mobil home fait fureur. Mais certains propriétaires de camping se croient tout permis. - "80 patients en colère contre leur chirurgien".</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/AABD561C0449C86179E0054AA0B5A333.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260520021500 +0200" stop="20260520031500 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Tandis que certains se sont fait avoir en achetant une cuisine, des propriétaires de mobil-home sont parfois confrontés à des campings qui se croient tout permis.</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/47D987A2B4225D60ABF4A324D50C6C29.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260520031500 +0200" stop="20260520060000 +0200" channel="M6test">
+<programme start="20260521023500 +0200" stop="20260521060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
@@ -377,7 +374,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260520060000 +0200" stop="20260520080500 +0200" channel="M6test">
+<programme start="20260521060000 +0200" stop="20260521080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -398,7 +395,7 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
