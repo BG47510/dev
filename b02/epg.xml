@@ -3,113 +3,107 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260606032000 +0200" stop="20260606060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260606060000 +0200" stop="20260606074500 +0200" channel="M6test">
+<programme start="20260607060000 +0200" stop="20260607070000 +0200" channel="M6test">
     <title lang="fr">M6 Kid</title>
     <desc lang="fr">M6 Kid présente les meilleurs dessin-animés pour le plus grand bonheur de vos enfants.</desc>
     <date>2024</date>
     <category lang="fr">Magazine</category>
     <category lang="fr">Jeunesse</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/413EC1038F9B226BE458C1AFF3C2D407.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/F8552446F1639C1A74C58CC81B1AB8C0.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606074500 +0200" stop="20260606101000 +0200" channel="M6test">
-    <title lang="fr">Absolument stars</title>
-    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show-business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
+<programme start="20260607070000 +0200" stop="20260607073000 +0200" channel="M6test">
+    <title lang="fr">100% immo, l'hebdo</title>
+    <desc lang="fr">Les tendances et l'actualité du secteur immobilier, à Paris et en régions sont présentées dans cette émission où des professionnels livrent conseils et astuces.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Découvertes</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6B4E8FA2B4BF5F9CCB0AB785BB7AAAA2.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260607073000 +0200" stop="20260607102500 +0200" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
-      <guest>Claire Nevers</guest>
+      <guest>Marie-Ange Nardi</guest>
+      <guest>Charlotte Rosier</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Culture</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/D94DCEA79E67BEDE8604E6413D80376B.jpg"/>
+    <category lang="fr">Services</category>
+    <category lang="fr">Télé-achat</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606101000 +0200" stop="20260606102000 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Une plongée dans les coulisses d'événements spectaculaires, un retour sur des success stories entrepreneuriales ou des immersions dans le quotidien de ceux qui participent activement à construire l'avenir.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C7550F9206147EC3D94991FFCD2722E3.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260606102000 +0200" stop="20260606105500 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Une plongée dans les coulisses d'événements spectaculaires, un retour sur des success stories entrepreneuriales ou des immersions dans le quotidien de ceux qui participent activement à construire l'avenir.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C7550F9206147EC3D94991FFCD2722E3.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260606105500 +0200" stop="20260606114500 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">240 kilomètres entre Toulouse (Haute-Garonne) et la Méditerranée, des berges ombragées, des écluses centenaires et une douceur de vivre incomparable : le Canal du Midi est l'un des plus beaux voyages que l'on puisse faire sans sortir de France.Ch...</desc>
+<programme start="20260607102500 +0200" stop="20260607105500 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <sub-title lang="fr">French Riviera : découverte des concessions d'exception</sub-title>
+    <desc lang="fr">Cette semaine direction la French Riviera ! Au fil de leur périple entre Antibes, Cannes et Monaco Étienne Bruet et Simon Potée-Gallini nous plongent dans l'univers hautement sélectif des marques les plus prestigieuses : Lamborghini, Ferrari et Porsche. Comment accède-t-on au privilège d'acquérir l'un de ces bolides ? Comment ce secteur s'adapte-t-il aux nouvelles réalités environnementales ? Turbo lève le voile sur les coulisses de la vente dans l'univers de l'ultra-luxe.</desc>
     <credits>
-      <guest>Kareen Guiock Thuram</guest>
+      <guest>Dominique Chapatte</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/793F03374C97FF246147863EC48F0FFF.jpg"/>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/27B1D445FC0931E28D76FF9A640AB826.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606114500 +0200" stop="20260606124000 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Il y aurait près d'un millier de paillotes en France. Ces restaurants de bord de mer, pour la plupart éphémères, se montent en avril pour laisser " plage nette " fin septembre. Dès les beaux jours et pendant toute la saison estivale, ils attirent autant pour leur cadre idyllique que pour leur cuisine. Entier, en filet, simplement grillé, ou ultra travaillé pour une recette gastronomique de haute volée, le poisson se déguste sous toutes les formes. À Sète (Hérault), deux couples se sont lancés dans une aventure hors-norme en rachetant une institution locale : la paillote Ola. Si Christophe et Louis, anciens mareyeurs sont incollables en poissons frais, ils doivent apprendre à gérer cet établissement face mer d'une capacité de cinq-cents couverts par service. Dans...</desc>
+<programme start="20260607105500 +0200" stop="20260607112500 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <sub-title lang="fr">Tesla model Y, Fiat Pandina, Seat Leon : les bons plans du printemps</sub-title>
+    <desc lang="fr">Cette semaine dans Turbo, Simon Potée-Gallini et Safet Rastoder ont déniché pour vous les bons plans du moment ! Fiabilité, services après-vente, équipement, confort, technologie, remises, sélection des meilleures affaires du moment ...</desc>
     <credits>
-      <guest>Kareen Guiock Thuram</guest>
+      <guest>Dominique Chapatte</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4D618682A488EF70096578056AA7820D.jpg"/>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/27B1D445FC0931E28D76FF9A640AB826.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606124000 +0200" stop="20260606124500 +0200" channel="M6test">
+<programme start="20260607112500 +0200" stop="20260607124000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques, sans oublier les derniers modèles des différentes marques. Turbo revient sur les nouveautés du marché et présente les avantages et les petits inconvénients de chaque modèle.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260607124000 +0200" stop="20260607124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606124500 +0200" stop="20260606133500 +0200" channel="M6test">
+<programme start="20260607124500 +0200" stop="20260607132500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -124,48 +118,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606133500 +0200" stop="20260606142000 +0200" channel="M6test">
+<programme start="20260607132500 +0200" stop="20260607140500 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Brasserie Georges, au cœur d'une institution lyonnaise</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260606142000 +0200" stop="20260606151000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Palace princier à Monte-Carlo</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260606151000 +0200" stop="20260606160500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Le Touquet : les secrets du Saint-Tropez du Nord</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260606160500 +0200" stop="20260606163500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Taghazout, la nouvelle destination luxe du Maroc</sub-title>
+    <sub-title lang="fr">Plantes, pergolas et barbecues : Castorama s'attaque à votre jardin ! 1/2</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -176,9 +131,8 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606163500 +0200" stop="20260606170500 +0200" channel="M6test">
+<programme start="20260607140500 +0200" stop="20260607150500 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Newport Beach, un petit coin de paradis en Californie</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -189,38 +143,62 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606170500 +0200" stop="20260606183500 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
-    <credits>
-      <guest>Eric Antoine</guest>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/16CA5370FC17EE9C0C1359A217F4CF56.jpg"/>
+<programme start="20260607150500 +0200" stop="20260607160000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606183500 +0200" stop="20260606194000 +0200" channel="M6test">
-    <title lang="fr">Le maillon faible</title>
-    <desc lang="fr">Ils ne sont pas de la même famille, ils ne sont pas amis, ils ne se connaissent même pas, et pourtant, huit candidats vont devoir jouer en équipe. Dans chaque manche, un joueur sera éliminé par les autres car il aura été considéré comme étant "le maillon faible". Un seul d'entre eux pourra remporter le gain final.</desc>
+<programme start="20260607160000 +0200" stop="20260607171000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Cambriolages : la technologie au service de votre sécurité</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260607171000 +0200" stop="20260607184000 +0200" channel="M6test">
+    <title lang="fr">66 minutes</title>
+    <desc lang="fr">Des célébrités aux faits divers en passant par la politique, différents reportages reviennent sur l'actualité pour mieux l'analyser et la comprendre.</desc>
     <credits>
-      <guest>Olivier Minne</guest>
+      <guest>Kareen Guiock Thuram</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/9828E4B3B7104ACCF39EBB2BFD3770DC.jpg"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/BFF9B34CB1528D4FA86117FE4620613A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606194000 +0200" stop="20260606194500 +0200" channel="M6test">
+<programme start="20260607184000 +0200" stop="20260607194000 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">Décryptage d'un phénomène de société ou d'un événement tiré de l'actualité.</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/793F03374C97FF246147863EC48F0FFF.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260607194000 +0200" stop="20260607194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -232,7 +210,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606194500 +0200" stop="20260606204000 +0200" channel="M6test">
+<programme start="20260607194500 +0200" stop="20260607203500 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -247,7 +225,97 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260606204000 +0200" stop="20260606211000 +0200" channel="M6test">
+<programme start="20260607203500 +0200" stop="20260607211000 +0200" channel="M6test">
+    <title lang="fr">E=M6</title>
+    <desc lang="fr">Tentes : A la fois légères et résistantes, une prouesse scientifique ! / Tiques, aoûtats, orties : la science pour sauver vos balades !</desc>
+    <credits>
+      <guest>Mac Lesggy</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Sciences et technique</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E88110976371C85BF52ABDD702251462.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260607211000 +0200" stop="20260607231500 +0200" channel="M6test">
+    <title lang="fr">Capital</title>
+    <sub-title lang="fr">Pizza, télé et maillot de foot : enquête sur les vrais gagnants de la Coupe du monde</sub-title>
+    <desc lang="fr">Au sommaire : Moins chère, plus rapide : enquête sur les nouveaux rois de la pizza. Quelles sont les meilleures formules pour attirer les clients ? - Télé ou vidéoprojecteur : écran géant, prix mini, le match se joue dans votre salon ! - De 10 à 160 euros : le business fou des maillots de foot.</desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E92416969CF1C083B9841A5ACC667FE7.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260607231500 +0200" stop="20260608003000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Nouvelles richesses, nouvelles fractures : tensions extrêmes en Afrique du Sud</sub-title>
+    <desc lang="fr">Depuis la fin de l'apartheid, l'Afrique du Sud s'est profondément transformée. Une nouvelle élite noire a émergé. Mais cette ascension nourrit aussi les rancoeurs. De nombreux Blancs vivent désormais dans des bidonvilles. Aujourd'hui, l'Afrique du Sud est menacée par ces replis identitaires.</desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B58AC997B91DDFA5A392E34BD0ABAF21.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260608003000 +0200" stop="20260608015000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Namibie : l'incroyable Far West africain</sub-title>
+    <desc lang="fr">Au coeur de l'Afrique australe, la Namibie est l'un des plus beaux paradis terrestres. Ce pays attire les convoitises du monde entier depuis plus d'un siècle. Après les colons allemands au début du XXe siècle, aujourd'hui les Chinois et les Nord-Coréens contrôlent des pans entiers de l'économie du pays.</desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D8E756C224D8A5AF7B37A7C1F1928B7C.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260608015000 +0200" stop="20260608025000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Mines, guerres et trafics en Afrique : du sang dans nos portables ?</sub-title>
+    <desc lang="fr">Au coeur des téléphones, ordinateurs et consoles se cache un minerai rare : le coltan. Les deux tiers des réserves mondiales se trouvent dans l'est de la République Démocratique du Congo, dans le Kivu, où la mine de Rubaya, frontalière avec le Rwanda, est devenue le point névralgique d'un conflit meurtrier.</desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/CB80B0AB59C6D4E927B2B2B00A420076.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260608025000 +0200" stop="20260608060000 +0200" channel="M6test">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260608060000 +0200" stop="20260608080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -268,340 +336,7 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260606211000 +0200" stop="20260606220000 +0200" channel="M6test">
-    <title lang="fr">NCIS</title>
-    <sub-title lang="fr">Une nuit d'enfer</sub-title>
-    <desc lang="fr">Hanté par la mort de son père, Alden Parker se lance dans une quête de vengeance périlleuse contre une redoutable cheffe de la mafia, risquant de franchir à chaque instant les limites de la loi. Parallèlement, l'équipe du NCIS dans son ensemble enquête sur la mort d'un sous-officier liée à un chantage et traque un fugitif particulièrement dangereux...</desc>
-    <credits>
-      <director>Tawnia McKiernan</director>
-      <actor>Annika Pampel</actor>
-      <actor>Kayla Carlson</actor>
-      <actor>David Pressman</actor>
-      <actor>Rocky Carroll</actor>
-      <actor>Zane Holtz</actor>
-      <actor>Katrina Law</actor>
-      <actor>Brian Dietzen</actor>
-      <actor>Kameron J. Brown</actor>
-      <actor>Gary Cole</actor>
-      <actor>Wilmer Valderrama</actor>
-      <actor>Diona Reasonover</actor>
-      <actor>Sean Murray</actor>
-      <adapter>Scott Williams</adapter>
-      <producer>Justin Kilmer</producer>
-      <producer>José Clemente Hernandez</producer>
-      <composer>Claudio Dell'Aere</composer>
-      <guest>CBS Studios</guest>
-      <guest>Belisarius Productions</guest>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/83D4ABFA384D53C833E1C0C292C773B4.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">22.2.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260606220000 +0200" stop="20260606225000 +0200" channel="M6test">
-    <title lang="fr">NCIS</title>
-    <sub-title lang="fr">La malédiction du roi</sub-title>
-    <desc lang="fr">Trois hommes déterrent un trésor sur un ancien lieu de sépulture afghan réputé hanté. 18 mois plus tard, l'un d'entre eux est retrouvé mort dans un cimetière américain, avec des pierres gravées à l'intérieur du corps. Tandis que Ducky cherche leur signification symbolique, l'équipe découvre que la victime avait tenté de joindre Grace Confalone, auprès de qui Torres poursuit sa thérapie…</desc>
-    <credits>
-      <director>Diana Valentine</director>
-      <actor>David McCallum</actor>
-      <actor>Rocky Carroll</actor>
-      <actor>Brian Dietzen</actor>
-      <actor>Billy Miller</actor>
-      <actor>Wilmer Valderrama</actor>
-      <actor>Jane Carr</actor>
-      <actor>Michael McShane</actor>
-      <actor>Katrina Law</actor>
-      <actor>Jonathan Kowalsky</actor>
-      <actor>Sean Murray</actor>
-      <actor>Diona Reasonover</actor>
-      <actor>Gary Cole</actor>
-      <adapter>Yasemin Yilmaz</adapter>
-      <producer>Steven D. Binder</producer>
-      <producer>Scott Williams</producer>
-      <producer>Donald P. Bellisario</producer>
-      <producer>Chas. Floyd Johnson</producer>
-      <producer>David J. North</producer>
-      <producer>Mark Horowitz</producer>
-      <producer>John Rodenhizer</producer>
-      <producer>Christopher J. Waild</producer>
-      <producer>Mark Harmon</producer>
-      <composer>Brian Kirk</composer>
-      <editor>Kimberly-Rose Wolter</editor>
-      <editor>Don McGill</editor>
-      <guest>Paramount Network Television Productions</guest>
-      <guest>CBS Studios</guest>
-      <guest>Belisarius Productions</guest>
-    </credits>
-    <date>2022</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8E00B0FB48B14E2867BABDD6D81F2113.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">19.2.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260606225000 +0200" stop="20260606234000 +0200" channel="M6test">
-    <title lang="fr">NCIS</title>
-    <sub-title lang="fr">Les jolis coeurs</sub-title>
-    <desc lang="fr">Le corps d'Aaron Thomas, un quartier-maître, est découvert par des campeurs dans la forêt. Pour élucider ce meurtre, le NCIS fait enquête commune avec le service d'investigation des parcs nationaux, représenté par Gage Winchester. Celui-ci n'est autre que l'ex petit-ami de Knight et compte bien profiter de cette opportunité pour renouer avec elle. Jimmy Palmer est déstabilisé car il ne ressemble en rien à Winchester...</desc>
-    <credits>
-      <director>William Webb</director>
-      <actor>David McCallum</actor>
-      <actor>Rocky Carroll</actor>
-      <actor>Brian Dietzen</actor>
-      <actor>Nicola Posener</actor>
-      <actor>Wilmer Valderrama</actor>
-      <actor>Norman Lehnert</actor>
-      <actor>Michael Petrone</actor>
-      <actor>Katrina Law</actor>
-      <actor>Sean Murray</actor>
-      <actor>Caleb Alexander Smith</actor>
-      <actor>Diona Reasonover</actor>
-      <actor>Gary Cole</actor>
-      <adapter>Chad Gomez Creasey</adapter>
-      <producer>Steven D. Binder</producer>
-      <producer>Scott Williams</producer>
-      <producer>Donald P. Bellisario</producer>
-      <producer>Chas. Floyd Johnson</producer>
-      <producer>David J. North</producer>
-      <producer>Mark Horowitz</producer>
-      <producer>John Rodenhizer</producer>
-      <producer>Christopher J. Waild</producer>
-      <producer>Mark Harmon</producer>
-      <composer>Brian Kirk</composer>
-      <editor>Don McGill</editor>
-      <editor>Kimberly-Rose Wolter</editor>
-      <guest>Paramount Network Television Productions</guest>
-      <guest>CBS Studios</guest>
-      <guest>Belisarius Productions</guest>
-    </credits>
-    <date>2022</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DB17ECCE552D15B4865A2D261150A20C.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">19.3.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260606234000 +0200" stop="20260607003500 +0200" channel="M6test">
-    <title lang="fr">NCIS</title>
-    <sub-title lang="fr">Un plan de haut vol</sub-title>
-    <desc lang="fr">Les agents du NCIS doivent enquêter sur le crash d'un F-18, lors d'une mission de routine, et la disparition de son pilote, le lieutenant Rebecca Weeks, une jeune femme brillante. Gibbs et Ellie se rendent sur le USS Franklin Roosevelt, le porte-avions d'où est parti l'appareil, pour inspecter les quartiers de la pilote disparue. Ils y découvrent le cadavre du quartier-maître première classe Patrick Fisher. De son côté, McGee discute, bien à contrecœur, d'une décision très personnelle avec ses coéquipiers...</desc>
-    <credits>
-      <director>Tawnia McKiernan</director>
-      <director>Terrence O'Hara</director>
-      <actor>David McCallum</actor>
-      <actor>Jonathan Chase</actor>
-      <actor>Lyndon Smith</actor>
-      <actor>Rocky Carroll</actor>
-      <actor>Brian Dietzen</actor>
-      <actor>Wilmer Valderrama</actor>
-      <actor>Mark Harmon</actor>
-      <actor>Emily Wickersham</actor>
-      <actor>Diona Reasonover</actor>
-      <actor>Maria Bello</actor>
-      <actor>Patrick Duffy</actor>
-      <actor>Sean Murray</actor>
-      <adapter>Brendan Fehily</adapter>
-      <adapter>Kate Torgovnick</adapter>
-      <producer>Mark Horowitz</producer>
-      <producer>Scott Williams</producer>
-      <producer>Chas. Floyd Johnson</producer>
-      <producer>Mark Harmon</producer>
-      <producer>Frank Cardea</producer>
-      <producer>Donald P. Bellisario</producer>
-      <producer>Patrick L. Coleman</producer>
-      <producer>Steven D. Binder</producer>
-      <producer>Justin Kilmer</producer>
-      <composer>Jeff Burns</composer>
-      <composer>Maurice Jackson</composer>
-      <composer>Brian Kirk</composer>
-      <composer>Miles Bergsma</composer>
-      <composer>Greg Burns</composer>
-      <composer>Matt Hawkins</composer>
-      <composer>Neil Martin</composer>
-      <editor>Don McGill</editor>
-      <editor>Donald P. Bellisario</editor>
-      <guest>Belisarius Productions</guest>
-      <guest>CBS Television Studios</guest>
-    </credits>
-    <date>2020</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DE228C905526A43C2D6C4903CCC18D68.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">16.11.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260607003500 +0200" stop="20260607012500 +0200" channel="M6test">
-    <title lang="fr">NCIS</title>
-    <sub-title lang="fr">Condamnée au silence</sub-title>
-    <desc lang="fr">Un cadavre, celui du sergent à la retraite Danny Backer, est retrouvé sur le terrain de la base de Quantico, après un tir de drone effectué par l'ancienne compagne de la victime, Diana Murphy. Les agents du NCIS doivent déterminer s'il s'agit d'un accident ou d'un meurtre. Parallèlement, Palmer commence les entretiens avec les candidats au poste d'assistant médecin-légiste du NCIS...</desc>
-    <credits>
-      <director>William Webb</director>
-      <director>Terrence O'Hara</director>
-      <actor>David McCallum</actor>
-      <actor>Rocky Carroll</actor>
-      <actor>William R. Moses</actor>
-      <actor>David Burke</actor>
-      <actor>Brian Dietzen</actor>
-      <actor>Wilmer Valderrama</actor>
-      <actor>Mark Harmon</actor>
-      <actor>Emily Wickersham</actor>
-      <actor>Diona Reasonover</actor>
-      <actor>Maria Bello</actor>
-      <actor>Katie Leclerc</actor>
-      <actor>Sean Murray</actor>
-      <adapter>Lisa Di Trolio</adapter>
-      <adapter>Kate Torgovnick</adapter>
-      <producer>Mark Horowitz</producer>
-      <producer>Donald P. Bellisario</producer>
-      <producer>Scott Williams</producer>
-      <producer>Steven D. Binder</producer>
-      <producer>Chas. Floyd Johnson</producer>
-      <producer>Mark Harmon</producer>
-      <producer>Frank Cardea</producer>
-      <producer>Justin Kilmer</producer>
-      <producer>Patrick L. Coleman</producer>
-      <composer>Brian Kirk</composer>
-      <editor>Don McGill</editor>
-      <editor>Donald P. Bellisario</editor>
-      <guest>Belisarius Productions</guest>
-      <guest>CBS Television Studios</guest>
-    </credits>
-    <date>2020</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE5498825D9F00081BF9D4604844BC41.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">16.12.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260607012500 +0200" stop="20260607022000 +0200" channel="M6test">
-    <title lang="fr">NCIS</title>
-    <sub-title lang="fr">Vengeance froide</sub-title>
-    <desc lang="fr">Renversé par un chauffard à bord d'une Lamborghini alors qu'il était avec Bishop, Torres se bat pour survivre aux soins intensifs. L'équipe cherche à retrouver le conducteur, qui a pris la fuite, mais ce dernier, un Russe multirécidiviste, bénéficie d'une immunité et s'apprête à quitter le pays. Tandis que Vance met tout en oeuvre pour retarder ce départ du territoire américain, Gibbs, McGee et Bishop cherchent à en savoir plus sur le coupable, Xavier Zolotov...</desc>
-    <credits>
-      <director>Mark Horowitz</director>
-      <director>Terrence O'Hara</director>
-      <actor>Nikolai Nikolaeff</actor>
-      <actor>David McCallum</actor>
-      <actor>Rocky Carroll</actor>
-      <actor>Lisa Kaminir</actor>
-      <actor>Brian Dietzen</actor>
-      <actor>Wilmer Valderrama</actor>
-      <actor>Emily Wickersham</actor>
-      <actor>Emilia Ares</actor>
-      <actor>Mark Harmon</actor>
-      <actor>Diona Reasonover</actor>
-      <actor>Maria Bello</actor>
-      <actor>Sean Murray</actor>
-      <adapter>David J. North</adapter>
-      <adapter>Kate Torgovnick</adapter>
-      <adapter>Steven D. Binder</adapter>
-      <producer>Mark Horowitz</producer>
-      <producer>Steven D. Binder</producer>
-      <producer>Donald P. Bellisario</producer>
-      <producer>Scott Williams</producer>
-      <producer>Chas. Floyd Johnson</producer>
-      <producer>Mark Harmon</producer>
-      <producer>Frank Cardea</producer>
-      <producer>Patrick L. Coleman</producer>
-      <producer>Justin Kilmer</producer>
-      <composer>Brian Kirk</composer>
-      <editor>Don McGill</editor>
-      <editor>Donald P. Bellisario</editor>
-      <guest>Belisarius Productions</guest>
-      <guest>CBS Television Studios</guest>
-    </credits>
-    <date>2020</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/75B3DA95CE74DB999905602FAF520D06.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">16.13.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260607022000 +0200" stop="20260607030000 +0200" channel="M6test">
-    <title lang="fr">NCIS</title>
-    <sub-title lang="fr">Bourreau des coeurs</sub-title>
-    <desc lang="fr">Le principal suspect dans une affaire de meurtre qui touche les équipes du NCIS n'est autre qu'une femme liée à un vieil ami de Gibbs. Cet homme, Phillip Brooks, l'a rencontrée après avoir échangé avec elle sur un site de rencontres. Par ailleurs, il semblerait que Sloane ait un admirateur secret le jour de la Saint-Valentin...</desc>
-    <credits>
-      <director>Michael Zinberg</director>
-      <actor>David McCallum</actor>
-      <actor>Don Lake</actor>
-      <actor>Rocky Carroll</actor>
-      <actor>Andy Comeau</actor>
-      <actor>Brian Dietzen</actor>
-      <actor>Wilmer Valderrama</actor>
-      <actor>Mark Harmon</actor>
-      <actor>Emily Wickersham</actor>
-      <actor>Diona Reasonover</actor>
-      <actor>Daphne Zuniga</actor>
-      <actor>Maria Bello</actor>
-      <actor>Sean Murray</actor>
-      <adapter>Marco Schnabel</adapter>
-      <adapter>Kate Torgovnick</adapter>
-      <producer>Mark Horowitz</producer>
-      <producer>Donald P. Bellisario</producer>
-      <producer>Scott Williams</producer>
-      <producer>Steven D. Binder</producer>
-      <producer>Chas. Floyd Johnson</producer>
-      <producer>Mark Harmon</producer>
-      <producer>Frank Cardea</producer>
-      <producer>Justin Kilmer</producer>
-      <producer>Patrick L. Coleman</producer>
-      <composer>Brian Kirk</composer>
-      <editor>Don McGill</editor>
-      <editor>Donald P. Bellisario</editor>
-      <guest>Belisarius Productions</guest>
-      <guest>CBS Television Studios</guest>
-    </credits>
-    <date>2020</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/1BF62D05A8A5657D60E81CDEF3FBDBF9.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">16.14.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260607030000 +0200" stop="20260607060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
