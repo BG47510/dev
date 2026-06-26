@@ -3,387 +3,6 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260625060000 +0200" stop="20260625075000 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Ryad Baxx</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Fanny Cottençon</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Claudia Mongumu</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Gérard Hernandez</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625075000 +0200" stop="20260625080500 +0200" channel="M6test">
-    <title lang="fr">Morning récap' - Coupe du monde de la FIFA 2026</title>
-    <desc lang="fr">Retour sur les temps forts de la journée écoulée, les résultats des rencontres et les réactions des joueurs comme des entraîneurs des différentes sélections nationales.</desc>
-    <date>2026</date>
-    <category lang="fr">Sport</category>
-    <category lang="fr">Football</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/3DC9C8A33DC5943ADA4181584AF923C6.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625080500 +0200" stop="20260625094500 +0200" channel="M6test">
-    <title lang="fr">My boutique Téléshop'</title>
-    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <credits>
-      <guest>Marie-Ange Nardi</guest>
-      <guest>Charlotte Rosier</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625094500 +0200" stop="20260625113000 +0200" channel="M6test">
-    <title lang="fr">Ça peut vous arriver</title>
-    <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BDCDE118CB4609F8D800BF13AD037494.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625113000 +0200" stop="20260625124000 +0200" channel="M6test">
-    <title lang="fr">Ça peut vous arriver chez vous</title>
-    <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8C544F63E72CB621535D938B32FF8A37.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625124000 +0200" stop="20260625124500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625124500 +0200" stop="20260625133500 +0200" channel="M6test">
-    <title lang="fr">Le 12.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>Nathalie Renoux</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625133500 +0200" stop="20260625134000 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Ryad Baxx</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Fanny Cottençon</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Claudia Mongumu</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Gérard Hernandez</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625134000 +0200" stop="20260625145000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">2.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625145000 +0200" stop="20260625155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625155000 +0200" stop="20260625165000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625165000 +0200" stop="20260625173000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Philadelphie : le berceau des Etats-Unis</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625173000 +0200" stop="20260625183500 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
-    <date>2025</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C4EC76AC910A873FD9022E2CC39C552C.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625183500 +0200" stop="20260625194000 +0200" channel="M6test">
-    <title lang="fr">Tous en cuisine avec Cyril Lignac</title>
-    <sub-title lang="fr">Spéciale Coupe du monde</sub-title>
-    <desc lang="fr">Cyril Lignac donne rendez-vous pour cuisiner en direct avec les téléspectateurs, pour vivre une expérience inédite et interactive.</desc>
-    <credits>
-      <guest>Cyril Lignac</guest>
-      <guest>Jérôme Anthony</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Gastronomie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/41AF6AAA290E4549E1369B5EC553D589.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">6.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625194000 +0200" stop="20260625194500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625194500 +0200" stop="20260625204000 +0200" channel="M6test">
-    <title lang="fr">Le 19.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>Xavier de Moulins</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625204000 +0200" stop="20260625213500 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Majid Berhila</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Gérard Hernandez</actor>
-      <actor>Elodie Poux</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625213500 +0200" stop="20260625215000 +0200" channel="M6test">
-    <title lang="fr">Coupe du monde de la FIFA - l'avant-match</title>
-    <desc lang="fr">Avant les matches de la Coupe du monde, Ophélie Meunier, entourée de Smaïl Bouabdellah, Laure Lepailleur, SoAnne, Ludovic Giuly et Johan Djourou font le point sur la compétition.</desc>
-    <credits>
-      <guest>Ophélie Meunier</guest>
-      <guest>Johan Djourou</guest>
-      <guest> SoAnne</guest>
-      <guest>Smaïl Bouabdellah</guest>
-      <guest>Laure Lepailleur</guest>
-      <guest>Ludovic Giuly</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Sport</category>
-    <category lang="fr">Football</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/49DFB00BB5D9AA155A1CF5711C7CA366.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260625215000 +0200" stop="20260626000500 +0200" channel="M6test">
-    <title lang="fr">Football : Coupe du monde</title>
-    <desc lang="fr">Si sur le papier la rencontre entre l'Equateur et l'Allemagne s'annonce déséquilibrée, la réalité est tout autre avec un des outsiders de la compétition qui défie l'ogre allemand. En effet, avec une défense où l'on retrouve le champion d'Europe parisien Willian Pacho ou encore Piero Hincapié, et un milieu de terrain mené par Moises Caicedo, les Equatoriens ne sont pas venus là pour faire de la figuration. Ils retrouvent pour ce dernier match l'Allemagne, qui souhaite se racheter de sa dernière Coupe du monde et une élimination dès la phase de poule. Pour y parvenir, les Allemands ont rappelé l'expérimenté Manuel Neuer.</desc>
-    <credits>
-      <commentator>Samuel Umtiti</commentator>
-      <commentator>Julien Brun</commentator>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Sport</category>
-    <category lang="fr">Football</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E302FDEF7C271608320720A44214BAD5.jpg"/>
-    <country lang="fr">Canada - Mexique - Etats-Unis</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260626000500 +0200" stop="20260626003500 +0200" channel="M6test">
-    <title lang="fr">Coupe du monde de la FIFA - le mag</title>
-    <desc lang="fr">Chaque soir de match, Ophélie Meunier animera un grand magazine depuis Paris. Accompagnée de Smaïl Bouabdellah, Laure Lepailleur, SoAnne, Ludovic Giuly et Johan Djourou, ils décrypteront les rencontres et accompagneront l'Équipe de France pendant...</desc>
-    <credits>
-      <guest>Ophélie Meunier</guest>
-      <guest>Johan Djourou</guest>
-      <guest> SoAnne</guest>
-      <guest>Smaïl Bouabdellah</guest>
-      <guest>Laure Lepailleur</guest>
-      <guest>Ludovic Giuly</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Sport</category>
-    <category lang="fr">Football</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/68E1857DABF547002594363E23B0C871.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260626003500 +0200" stop="20260626005000 +0200" channel="M6test">
-    <title lang="fr">Coupe du monde de la FIFA - l'avant-match</title>
-    <desc lang="fr">Avant les matches de la Coupe du monde, Ophélie Meunier, entourée de Smaïl Bouabdellah, Laure Lepailleur, SoAnne, Ludovic Giuly et Johan Djourou font le point sur la compétition.</desc>
-    <credits>
-      <guest>Ophélie Meunier</guest>
-      <guest>Johan Djourou</guest>
-      <guest> SoAnne</guest>
-      <guest>Smaïl Bouabdellah</guest>
-      <guest>Laure Lepailleur</guest>
-      <guest>Ludovic Giuly</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Sport</category>
-    <category lang="fr">Football</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/7773786E094AA3C9202CA6F76CAB030D.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260626005000 +0200" stop="20260626024500 +0200" channel="M6test">
-    <title lang="fr">Football : Coupe du monde</title>
-    <desc lang="fr">L'Arrowhead Stadium de Kansas City accueille cette dernière rencontre du groupe F entre la Tunisie et les Pays-Bas, un rendez-vous déterminant pour la suite de la compétition. Même si le nouveau format offre plus de garanties pour la qualification au tour suivant, il faut malgré tout prendre un maximum de points. Les Pays-Bas partent logiquement favoris de ce duel, grâce à leur expérience mais également à la qualité de leur effectif avec des piliers tels que Van Dijk ou Depay. Et s'ils souhaitent atteindre au minimum les quarts de finale, ils doivent se défaire de la Tunisie, qui a connu des turbulences après l'annonce de la liste des joueurs retenus.</desc>
-    <credits>
-      <commentator>Jean-Marc Ferreri</commentator>
-      <commentator>Jano Resseguié</commentator>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Sport</category>
-    <category lang="fr">Football</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E302FDEF7C271608320720A44214BAD5.jpg"/>
-    <country lang="fr">Canada - Mexique - Etats-Unis</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260626024500 +0200" stop="20260626060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
 <programme start="20260626060000 +0200" stop="20260626075000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
@@ -405,7 +24,315 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626075000 +0200" stop="20260626080500 +0200" channel="M6test">
+    <title lang="fr">Morning récap' - Coupe du monde de la FIFA 2026</title>
+    <desc lang="fr">Retour sur les temps forts de la journée écoulée, les résultats des rencontres et les réactions des joueurs comme des entraîneurs des différentes sélections nationales.</desc>
+    <date>2026</date>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/3DC9C8A33DC5943ADA4181584AF923C6.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626080500 +0200" stop="20260626094500 +0200" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
+    <credits>
+      <guest>Marie-Ange Nardi</guest>
+      <guest>Charlotte Rosier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Télé-achat</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626094500 +0200" stop="20260626113000 +0200" channel="M6test">
+    <title lang="fr">Ça peut vous arriver</title>
+    <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/49FBFE03E9BD010FFCEB1FC0CEE4F51A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626113000 +0200" stop="20260626124000 +0200" channel="M6test">
+    <title lang="fr">Ça peut vous arriver chez vous</title>
+    <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8C544F63E72CB621535D938B32FF8A37.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626124000 +0200" stop="20260626124500 +0200" channel="M6test">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626124500 +0200" stop="20260626133500 +0200" channel="M6test">
+    <title lang="fr">Le 12.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Nathalie Renoux</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626133500 +0200" stop="20260626134000 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
+    <credits>
+      <actor>Valérie Karsenti</actor>
+      <actor>Ryad Baxx</actor>
+      <actor>Claire Chust</actor>
+      <actor>Grégoire Bonnet</actor>
+      <actor>Vinnie Dargaud</actor>
+      <actor>Frédéric Bouraly</actor>
+      <actor>Fanny Cottençon</actor>
+      <actor>David Mora</actor>
+      <actor>Amélie Etasse</actor>
+      <actor>Claudia Mongumu</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>Gérard Hernandez</actor>
+      <guest>M6 Métropole Télévision</guest>
+      <guest> KaBo</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
     <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626134000 +0200" stop="20260626145000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le coeur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626145000 +0200" stop="20260626155000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le coeur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626155000 +0200" stop="20260626165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626165000 +0200" stop="20260626173000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626173000 +0200" stop="20260626183500 +0200" channel="M6test">
+    <title lang="fr">La roue de la fortune</title>
+    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
+    <date>2025</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C4EC76AC910A873FD9022E2CC39C552C.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626183500 +0200" stop="20260626194000 +0200" channel="M6test">
+    <title lang="fr">Tous en cuisine avec Cyril Lignac</title>
+    <sub-title lang="fr">Spéciale Coupe du monde</sub-title>
+    <desc lang="fr">Cyril Lignac donne rendez-vous pour cuisiner en direct avec les téléspectateurs, pour vivre une expérience inédite et interactive.</desc>
+    <credits>
+      <guest>Cyril Lignac</guest>
+      <guest>Jérôme Anthony</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Gastronomie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7699AAB3B5C1CBDFE64F8BC53A4FC91E.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">6.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626194000 +0200" stop="20260626194500 +0200" channel="M6test">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626194500 +0200" stop="20260626203500 +0200" channel="M6test">
+    <title lang="fr">Le 19.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Ashley Chevalier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/307D64F97E714ECC1571F3C6834B2031.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626203500 +0200" stop="20260626205000 +0200" channel="M6test">
+    <title lang="fr">Coupe du monde de la FIFA - l'avant-match</title>
+    <desc lang="fr">Avant les matches de la Coupe du monde, Ophélie Meunier, entourée de Smaïl Bouabdellah, Laure Lepailleur, SoAnne, Ludovic Giuly et Johan Djourou font le point sur la compétition.</desc>
+    <credits>
+      <guest>Ophélie Meunier</guest>
+      <guest>Johan Djourou</guest>
+      <guest> SoAnne</guest>
+      <guest>Smaïl Bouabdellah</guest>
+      <guest>Laure Lepailleur</guest>
+      <guest>Ludovic Giuly</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7773786E094AA3C9202CA6F76CAB030D.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626205000 +0200" stop="20260626230500 +0200" channel="M6test">
+    <title lang="fr">Football : Coupe du monde</title>
+    <desc lang="fr">Après sa victoire 3-0 contre l'Irak lundi dernier, la France se mesure à la redoutable Norvège pour l'attribution de la 1re place du groupe I. Dans ce duel qui s'annonce équilibré, l'équipe de France mise sur Kylian Mbappé, son capitaine, pour faire la différence et emmener les siens au tour suivant. Le Madrilène pourra compter sur ses coéquipiers Ousmane Dembélé et Michael Olise pour contrer les ambitions des Norvégiens emmenés eux aussi par leur "serial buteur" Erling Haaland.</desc>
+    <credits>
+      <commentator>Samuel Umtiti</commentator>
+      <commentator>Benoît Cheyrou</commentator>
+      <commentator>Xavier Domergue</commentator>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E302FDEF7C271608320720A44214BAD5.jpg"/>
+    <country lang="fr">Canada - Mexique - Etats-Unis</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260626230500 +0200" stop="20260627002000 +0200" channel="M6test">
+    <title lang="fr">Coupe du monde de la FIFA - le mag</title>
+    <desc lang="fr">Chaque soir de match, Ophélie Meunier animera un grand magazine depuis Paris. Accompagnée de Smaïl Bouabdellah, Laure Lepailleur, SoAnne, Ludovic Giuly et Johan Djourou, ils décrypteront les rencontres et accompagneront l'Équipe de France pendant...</desc>
+    <credits>
+      <guest>Ophélie Meunier</guest>
+      <guest>Johan Djourou</guest>
+      <guest> SoAnne</guest>
+      <guest>Smaïl Bouabdellah</guest>
+      <guest>Laure Lepailleur</guest>
+      <guest>Ludovic Giuly</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/ADF83FCC4C23BEDCD4B7360A6947126E.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260627002000 +0200" stop="20260627013000 +0200" channel="M6test">
+    <title lang="fr">Les stratèges</title>
+    <sub-title lang="fr">Dimitri Payet</sub-title>
+    <desc lang="fr">Icône de l'Olympique de Marseille, premier joueur de Ligue 1 à franchir la barre des 100 buts et 100 passes décisives, Dimitri Payet connaît une carrière guidée par l'instinct, la créativité et une relation passionnelle avec le football. De son amour pour l'OM à son retour après son passage à West Ham, il revient sur les choix qui ont marqué son parcours, son rôle de capitaine et les entraîneurs qui ont profondément influencé sa vision du jeu.</desc>
+    <credits>
+      <guest>Ophélie Meunier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Interview</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/1DE98250B036BA5F7B828E41A2D03B99.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260627013000 +0200" stop="20260627064500 +0200" channel="M6test">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
