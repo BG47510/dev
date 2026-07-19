@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260718023500 +0200" stop="20260718060000 +0200" channel="M6test">
+<programme start="20260719023000 +0200" stop="20260719060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
@@ -14,34 +14,19 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260718060000 +0200" stop="20260718073500 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Claudia Mongumu</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Majid Berhila</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Gérard Hernandez</actor>
-      <actor>Elodie Poux</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
+<programme start="20260719060000 +0200" stop="20260719065500 +0200" channel="M6test">
+    <title lang="fr">M6 Kid</title>
+    <desc lang="fr">M6 Kid présente les meilleurs dessin-animés pour le plus grand bonheur de vos enfants.</desc>
+    <date>2024</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Jeunesse</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/413EC1038F9B226BE458C1AFF3C2D407.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260718073500 +0200" stop="20260718074500 +0200" channel="M6test">
+<programme start="20260719065500 +0200" stop="20260719070000 +0200" channel="M6test">
     <title lang="fr">Morning récap' - Coupe du monde de la FIFA 2026</title>
     <desc lang="fr">Retour sur les temps forts de la journée écoulée, les résultats des rencontres et les réactions des joueurs comme des entraîneurs des différentes sélections nationales.</desc>
     <credits>
@@ -50,93 +35,99 @@
     <date>2026</date>
     <category lang="fr">Sport</category>
     <category lang="fr">Football</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/28B37F71AA4B4A3D801535B92F72E0A8.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/3DC9C8A33DC5943ADA4181584AF923C6.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260718074500 +0200" stop="20260718101000 +0200" channel="M6test">
-    <title lang="fr">Absolument stars</title>
-    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show-business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
+<programme start="20260719070000 +0200" stop="20260719073000 +0200" channel="M6test">
+    <title lang="fr">100% immo, l'hebdo</title>
+    <desc lang="fr">Les tendances et l'actualité du secteur immobilier, à Paris et en régions sont présentées dans cette émission où des professionnels livrent conseils et astuces.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Découvertes</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/50333D59910196C347D9C3776175DEAE.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260719073000 +0200" stop="20260719102500 +0200" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
-      <guest>Claire Nevers</guest>
+      <guest>Marie-Ange Nardi</guest>
+      <guest>Charlotte Rosier</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Culture</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/362AF67F602ABA28087399BEA54D37B1.jpg"/>
+    <category lang="fr">Services</category>
+    <category lang="fr">Télé-achat</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260718101000 +0200" stop="20260718102500 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C7550F9206147EC3D94991FFCD2722E3.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260718102500 +0200" stop="20260718105500 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Une plongée dans les coulisses d'événements spectaculaires, un retour sur des success stories entrepreneuriales ou des immersions dans le quotidien de ceux qui participent activement à construire l'avenir.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8E686FD9794C3215C12C0E4CB85EA92B.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260718105500 +0200" stop="20260718114500 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Oubliez les clichés "années 80'" de la série télévisée à succès ! Dallas 2025 a troqué son image de cowboys pour celle d'une métropole explosive. Propulsée de l'ombre à la lumière, cette ville est devenue un épicentre économique et culturel. Parmi les 1,3 millions d'habitants de la 3ème ville du Texas (derrière Houston et San Antonio), 2 000 Français ont planté leur drapeau, attirés par un dynamisme économique sidérant : +75% de millionnaires en seulement dix ans ! Certains audacieux ont décidé de tout plaquer pour embrasser leur rêve américain au format XXL. Ils sont chef-cuisinier, coiffeur, étudiant ou artisan : ces Français savourent aujourd'hui leur vie de rêve sous la bannière étoilée.</desc>
-    <date>2025</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4D618682A488EF70096578056AA7820D.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260718114500 +0200" stop="20260718124000 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Immersion, en Grèce, au cœur d'un hôtel \" all inclusive \". Les formules \" tout compris \" n'en finissent plus de séduire. Et particulièrement les touristes français. Ces formules, développées par le Club Med depuis les années 1950, sont en plein essor depuis la fin de la crise sanitaire. Vous découvrirez les coulisses d'un hôtel grec qui vous promet des vacances de rêve… à prix cassés. Une semaine pour deux personnes, vol inclus, coûte un peu moins de 1 500 euros. Plus question ensuite de sortir sa carte bancaire. Repas, boissons, sport et activités, tout est inclus. Avantages : tout est organisé et le budget est maîtrisé. Evidemment, en coulisses, les équipes s'affairent pour former les saisonniers, assurer l'animation et la préparation de plus d'un millier de repas par service. Parmi ces saisonniers, plusieurs Français.</desc>
+<programme start="20260719102500 +0200" stop="20260719105500 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">À quelques semaines des vacances de la Toussaint, Turbo prend les chemins de traverse pour vous présenter les toutes dernières tendances dans le monde du camping-car… Ingéniosité, luxe, van life, le dernier salon des véhicules de loisirs était l'occasion pour les constructeurs de présenter leurs dernières nouveautés… Simon Potée-Gallini et Safet Rastoder vous embarquent, direction : l'évasion !</desc>
     <credits>
-      <guest>Kareen Guiock Thuram</guest>
+      <guest>Dominique Chapatte</guest>
     </credits>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4D618682A488EF70096578056AA7820D.jpg"/>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260718124000 +0200" stop="20260718124500 +0200" channel="M6test">
+<programme start="20260719105500 +0200" stop="20260719113000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques, sans oublier les derniers modèles des différentes marques. Turbo revient sur les nouveautés du marché et présente les avantages et les petits inconvénients de chaque modèle.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260719113000 +0200" stop="20260719124000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques, sans oublier les derniers modèles des différentes marques. Turbo revient sur les nouveautés du marché et présente les avantages et les petits inconvénients de chaque modèle.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260719124000 +0200" stop="20260719124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/386ADB68772665A76D151D2EDA9CFB50.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260718124500 +0200" stop="20260718133000 +0200" channel="M6test">
+<programme start="20260719124500 +0200" stop="20260719133000 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -151,21 +142,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260718133000 +0200" stop="20260718141000 +0200" channel="M6test">
+<programme start="20260719133000 +0200" stop="20260719141000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260718141000 +0200" stop="20260718151000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Joyce Jonathan, star en Chine</sub-title>
+    <sub-title lang="fr">Travaux, rénovation, décoration : un nouveau " chez soi " sans déménager 1/2</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… " Un jour, un doc week-end " propose une grande variété de documentair...</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -176,9 +155,22 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260718151000 +0200" stop="20260718161000 +0200" channel="M6test">
+<programme start="20260719141000 +0200" stop="20260719151000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Hong Kong, le New York asiatique</sub-title>
+    <sub-title lang="fr">Travaux, rénovation, décoration : un nouveau " chez soi " sans déménager 2/2</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… " Un jour, un doc week-end " propose une grande variété de documentair...</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260719151000 +0200" stop="20260719161000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Bricolage : les femmes à tous les rayons 1/2</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… " Un jour, un doc week-end " propose une grande variété de documentair...</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -189,150 +181,53 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260718161000 +0200" stop="20260718163000 +0200" channel="M6test">
+<programme start="20260719161000 +0200" stop="20260719171000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260718163000 +0200" stop="20260718172500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Osaka, l'autre capitale du Japon</sub-title>
+    <sub-title lang="fr">Bricolage : les femmes à tous les rayons 2/2</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… " Un jour, un doc week-end " propose une grande variété de documentair...</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
     <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260718172500 +0200" stop="20260718183000 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
+<programme start="20260719171000 +0200" stop="20260719181000 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">À la découverte de la plus grande ville du monde : Chongqing située dans le sud-ouest de la Chine. Sa superficie ? 82 000 km2, soit presque trois fois la Belgique. Sa population ? 32 millions d'habitants ! Plus que Tokyo au Japon ou Delhi en Inde. Tout cela dans une mégalopole futuriste et spectaculaire où les gratte-ciels s'étendent à perte de vue.</desc>
     <credits>
-      <guest>Eric Antoine</guest>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C4EC76AC910A873FD9022E2CC39C552C.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260718183000 +0200" stop="20260718194000 +0200" channel="M6test">
-    <title lang="fr">Le maillon faible</title>
-    <desc lang="fr">Olivier Minne assure la présentation de ce jeu devenu culte. Il n'hésite pas à souligner les défaillances des candidats ou leur manque de lucidité pour encaisser l'argent au bon moment. Il s'agit en effet d'enchaîner les bonnes réponses et de mettre les sommes obtenues en banque avant l'erreur fatale.</desc>
-    <credits>
-      <guest>Olivier Minne</guest>
+      <guest>Kareen Guiock Thuram</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/1E1E41E67D977D87492E79162770C565.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260718194000 +0200" stop="20260718194500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/0DEDB28E2D206269F8855D09B99E3B21.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260718194500 +0200" stop="20260718204000 +0200" channel="M6test">
-    <title lang="fr">Le 19.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>Ashley Chevalier</guest>
-    </credits>
-    <date>2026</date>
+    <category lang="fr">Magazine</category>
     <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/2774A1604A3D271305E89DC52118BAFD.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/F3F6E8C91FF224C9C391AEF1B05BF2BD.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260718204000 +0200" stop="20260718223500 +0200" channel="M6test">
+<programme start="20260719181000 +0200" stop="20260719191500 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">C'est le jour le plus intense de l'été dans une station balnéaire très prisée : un 14 juillet aux Sables-d'Olonne (Vendée). Au cœur de l'été, la station balnéaire se métamorphose à l'occasion de la Fête nationale. Un week-end qui attire 250 000 vacanciers par jour. Il faut dire que l'ambiance aux " Sables " est survoltée : feu d'artifice en mer, bals populaires et défilés, la commune devient un théâtre à ciel ouvert.</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F3F6E8C91FF224C9C391AEF1B05BF2BD.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260719191500 +0200" stop="20260719203500 +0200" channel="M6test">
     <title lang="fr">Coupe du monde de la FIFA - le mag</title>
-    <desc lang="fr">Une émission spéciale sera proposée depuis Paris afin de se projeter sur le match pour la troisième place et de présenter les enjeux de la finale.</desc>
-    <credits>
-      <guest>Ophélie Meunier</guest>
-      <guest>Johan Djourou</guest>
-      <guest> SoAnne</guest>
-      <guest>Smaïl Bouabdellah</guest>
-      <guest>Laure Lepailleur</guest>
-      <guest>Ludovic Giuly</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Sport</category>
-    <category lang="fr">Football</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/ADF83FCC4C23BEDCD4B7360A6947126E.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260718223500 +0200" stop="20260718225000 +0200" channel="M6test">
-    <title lang="fr">Coupe du monde de la FIFA - l'avant-match</title>
-    <desc lang="fr">Avant les matches de la Coupe du monde, Ophélie Meunier, entourée de Smaïl Bouabdellah, Laure Lepailleur, SoAnne, Ludovic Giuly et Johan Djourou font le point sur la compétition.</desc>
-    <credits>
-      <guest>Ophélie Meunier</guest>
-      <guest>Johan Djourou</guest>
-      <guest> SoAnne</guest>
-      <guest>Smaïl Bouabdellah</guest>
-      <guest>Laure Lepailleur</guest>
-      <guest>Ludovic Giuly</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Sport</category>
-    <category lang="fr">Football</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/9BAAB08523F48E6B2D6A5C156D4ED91A.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260718225000 +0200" stop="20260719011000 +0200" channel="M6test">
-    <title lang="fr">Football : Coupe du monde</title>
-    <desc lang="fr">Eliminée par l'Espagne en demi-finale, la sélection française de Didier Deschamps va tenter de sortir la tête haute de la Coupe du monde 2026 en disputant cette "petite finale". De leur coté, les Anglais, sortis par des Argentins plus déterminés que jamais, doivent eux aussi trouver de la motivation dans cette rencontre qui se déroule à Miami en Floride. Didier Deschamps et Thomas Tuchel, le coach des Three Lions, vont-ils aligner une équipe de gala ou vont-ils faire tourner ceux qui n'ont pas eu beaucoup de temps de jeu depuis le début de la compétition ?</desc>
-    <credits>
-      <commentator>Julien Brun</commentator>
-      <commentator>Virginie Sainsily</commentator>
-      <commentator>Samuel Umtiti</commentator>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Sport</category>
-    <category lang="fr">Football</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/89CFDBBB65D9F579959C189221C075B6.jpg"/>
-    <country lang="fr">Canada - Mexique - Etats-Unis</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260719011000 +0200" stop="20260719012000 +0200" channel="M6test">
-    <title lang="fr">Coupe du monde de la FIFA - le mag</title>
-    <desc lang="fr">Ophélie Meunier, Smaïl Bouabdellah, Laure Lepailleur, SoAnne, Ludovic Giuly et Johan Djourou, décryptent les rencontres de la Coupe du monde 2026 et accompagnent le parcours de l'équipe de France pendant la compétition. Personnalités, entraîneurs et joueurs seront régulièrement invités à participer aux débats. Sur le plateau, tous les résultats, les faits marquants et les enjeux des prochaines rencontres sont évoqués.</desc>
+    <sub-title lang="fr">Spéciale finale</sub-title>
+    <desc lang="fr">Ophélie Meunier et l'équipe du Mag accompagneront les téléspectateurs jusqu'au coup d'envoi avec analyses, invités, reportages et décryptages, et feront vivre la grande cérémonie de clôture qui précédera la rencontre.</desc>
     <credits>
       <guest>Ophélie Meunier</guest>
       <guest>Johan Djourou</guest>
@@ -351,30 +246,115 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260719012000 +0200" stop="20260719022000 +0200" channel="M6test">
-    <title lang="fr">Les stratèges</title>
-    <sub-title lang="fr">Franck Leboeuf</sub-title>
-    <desc lang="fr">De Laval à Strasbourg, de Chelsea à l'équipe de France, Franck Leboeuf raconte comment la persévérance et la capacité à saisir les opportunités ont façonné une carrière que rien ne semblait prédestiner à un tel destin.</desc>
+<programme start="20260719203500 +0200" stop="20260719205000 +0200" channel="M6test">
+    <title lang="fr">Coupe du monde de la FIFA - le mag</title>
+    <sub-title lang="fr">Spéciale finale</sub-title>
+    <desc lang="fr">Ophélie Meunier et l'équipe du Mag accompagneront les téléspectateurs jusqu'au coup d'envoi avec analyses, invités, reportages et décryptages, et feront vivre la grande cérémonie de clôture qui précédera la rencontre.</desc>
     <credits>
       <guest>Ophélie Meunier</guest>
-      <guest>Frank Leboeuf</guest>
+      <guest>Johan Djourou</guest>
+      <guest> SoAnne</guest>
+      <guest>Smaïl Bouabdellah</guest>
+      <guest>Laure Lepailleur</guest>
+      <guest>Ludovic Giuly</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Interview</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/1DE98250B036BA5F7B828E41A2D03B99.jpg"/>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/68E1857DABF547002594363E23B0C871.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260719022000 +0200" stop="20260719060000 +0200" channel="M6test">
+<programme start="20260719205000 +0200" stop="20260719231500 +0200" channel="M6test">
+    <title lang="fr">Football : Coupe du monde</title>
+    <desc lang="fr">C'est à New York que se conclut cette édition 2026 de la Coupe du monde. Les Argentins, tenants du titre depuis leur sacre de 2022, sont bel et bien là et ils voudront ajouter une 4e étoile à leur maillot. Quant aux Espagnols, ils cherchent une 2e couronne, eux qui avaient touché les étoiles en 2010. En demi-finales, la Roja emmenée par Lamine Yamal a éteint les Bleus français (0-2) et l'Albiceleste de Lionel Messi a prouvé toute sa détermination contre les Three Lions anglais (1-2) au terme d'un match tendu et intense. Qui va atteindre le sommet du football mondial à l'issue de cette grande finale ? Attention : risque de prolongations et de tirs au but.</desc>
+    <credits>
+      <commentator>Benoît Cheyrou</commentator>
+      <commentator>Xavier Domergue</commentator>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E302FDEF7C271608320720A44214BAD5.jpg"/>
+    <country lang="fr">Canada - Mexique - Etats-Unis</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260719231500 +0200" stop="20260719233500 +0200" channel="M6test">
+    <title lang="fr">Football : Coupe du monde</title>
+    <desc lang="fr">Après plus d'un mois de compétition, quelle nation aura l'honneur et l'immense joie de brandir la Coupe du monde sur la pelouse new-yorkaise ?</desc>
+    <date>2026</date>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E302FDEF7C271608320720A44214BAD5.jpg"/>
+    <country lang="fr">Canada - Mexique - Etats-Unis</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260719233500 +0200" stop="20260719235500 +0200" channel="M6test">
+    <title lang="fr">Coupe du monde de la FIFA - le mag</title>
+    <desc lang="fr">Le grand magazine quotidien de la compétition, prendra une dimension exceptionnelle à l'occasion du dernier week-end de la Coupe du Monde de la FIFA 2026™. Présenté par Ophélie Meunier, accompagnée de Smaïl Bouabdellah, Laure Lepailleur, SoAnne, Ludovic Giuly et Johan Djourou, il reviendra sur les temps forts de la compétition et les enjeux des deux dernières rencontres.</desc>
+    <credits>
+      <guest>Ophélie Meunier</guest>
+      <guest>Johan Djourou</guest>
+      <guest> SoAnne</guest>
+      <guest>Smaïl Bouabdellah</guest>
+      <guest>Laure Lepailleur</guest>
+      <guest>Ludovic Giuly</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/ADF83FCC4C23BEDCD4B7360A6947126E.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260719235500 +0200" stop="20260720012500 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">New York, capitale du monde</sub-title>
+    <desc lang="fr">New York est redevenue la capitale du monde : l'activité économique est en plein boom, l'argent coule à flot, et le tourisme explose. Mais si les milliardaires vivent au sommet des buildings, à l'autre extrémité, les plus pauvres se retrouvent dans les bas-fonds de la ville.</desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2016</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/3B24FBD7AB0DD14B038E6B1E1F212998.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260720012500 +0200" stop="20260720024000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">New York : l'incroyable renaissance de Big Apple</sub-title>
+    <desc lang="fr">Après deux ans de pandémie qui l'a mise à l'arrêt, New York revit, plus dynamique que jamais. Durant son histoire, "Big Apple" a toujours su rebondir après les crises et les tragédies. Laetitia Kretz plonge dans un New York communautaire encore jamais filmé et dévoile des mondes parallèles qui se croisent à peine.</desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FFF5C9A0DA1756AE45CD0819E560C634.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260720024000 +0200" stop="20260720060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
