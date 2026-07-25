@@ -3,395 +3,266 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260724023500 +0200" stop="20260724060000 +0200" channel="M6test">
+<programme start="20260725030500 +0200" stop="20260725060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/611B52CD73AB6BCF0E8FA80EB8015F5E.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724060000 +0200" stop="20260724080500 +0200" channel="M6test">
+<programme start="20260725060000 +0200" stop="20260725074500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Majid Berhila</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Gérard Hernandez</actor>
-      <actor>Elodie Poux</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/1374496CE676EECEEA58996AB4F473CD.jpg"/>
-    <country lang="fr">France</country>
+    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/1/9/15186917.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724080500 +0200" stop="20260724094500 +0200" channel="M6test">
-    <title lang="fr">My boutique Téléshop'</title>
-    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <credits>
-      <guest>Marie-Ange Nardi</guest>
-      <guest>Charlotte Rosier</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260725074500 +0200" stop="20260725101000 +0200" channel="M6test">
+    <title lang="fr">Absolument stars</title>
+    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/1/4/15227419.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724094500 +0200" stop="20260724113000 +0200" channel="M6test">
-    <title lang="fr">Ça peut vous arriver</title>
-    <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BDCDE118CB4609F8D800BF13AD037494.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260725101000 +0200" stop="20260725102500 +0200" channel="M6test">
+    <title lang="fr">Le mag du samedi</title>
+    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/15227409.jpg"/>
+    <episode-num system="xmltv_ns">0.36.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724113000 +0200" stop="20260724124000 +0200" channel="M6test">
-    <title lang="fr">Ça peut vous arriver chez vous</title>
-    <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EBB12C17F2A1CCBA6F444A8B306BFD4F.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260725102500 +0200" stop="20260725105500 +0200" channel="M6test">
+    <title lang="fr">Le mag du samedi</title>
+    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/9/5/15201594.jpg"/>
+    <episode-num system="xmltv_ns">0.56.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724124000 +0200" stop="20260724124500 +0200" channel="M6test">
+<programme start="20260725105500 +0200" stop="20260725114500 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/4/15227412.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260725114500 +0200" stop="20260725124000 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/4/15227412.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260725124000 +0200" stop="20260725124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/386ADB68772665A76D151D2EDA9CFB50.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/9/15186912.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724124500 +0200" stop="20260724133500 +0200" channel="M6test">
+<programme start="20260725124500 +0200" stop="20260725133000 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>N'Fanteh Minteh</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
+    <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6A6B36237BEFA253B09FE58D99F47817.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/9/0/15535097.jpg"/>
+    <episode-num system="xmltv_ns">0.205.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724133500 +0200" stop="20260724134000 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Majid Berhila</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Gérard Hernandez</actor>
-      <actor>Elodie Poux</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260725133000 +0200" stop="20260725141000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/15202463.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724134000 +0200" stop="20260724145000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Les plus longues vacances de leur vie : aventures extraordinaires en famille ! (1/2)</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
+<programme start="20260725141000 +0200" stop="20260725151000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Saint-Tropez : luxe, fête et business sous le soleil</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/15202463.jpg"/>
+    <episode-num system="xmltv_ns">0.289.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724145000 +0200" stop="20260724155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Les plus longues vacances de leur vie : aventures extraordinaires en famille ! (2/2)</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
+<programme start="20260725151000 +0200" stop="20260725155000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Méga-yachts : enquête sur la nouvelle passion des milliardaires</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
+    <episode-num system="xmltv_ns">0.290.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724155000 +0200" stop="20260724165000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
+<programme start="20260725155000 +0200" stop="20260725161000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/15202463.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724165000 +0200" stop="20260724173000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Au camping ou à la plage, mon confort à tout prix !</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
+<programme start="20260725161000 +0200" stop="20260725173000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Les Pouilles, la botte secrète de l'Italie</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
+    <episode-num system="xmltv_ns">0.291.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724173000 +0200" stop="20260724183000 +0200" channel="M6test">
+<programme start="20260725173000 +0200" stop="20260725183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
-    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
-    <credits>
-      <guest>Eric Antoine</guest>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/34D7B9335FD589FB19A412BA45F67C90.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/9/15186909.jpg"/>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724183000 +0200" stop="20260724194000 +0200" channel="M6test">
-    <title lang="fr">Le juste prix</title>
-    <desc lang="fr">Chaque jour, 7 candidats sont sélectionnés pour tenter de rejoindre Éric Antoine et se frotter aux cultissimes jeux du " Juste prix ". Une vingtaine d'épreuves culte les attend, notamment le " fakir ", le " coup de poing ", le " mini-golf " et le " Tyrolien ". À la clé, des voitures, des appareils électroménagers, du matériel high tech ou des voyages. À l'issue de chaque émission, les quatre candidats qualifiés tournent la célèbre roue. Mais un seul d'entre eux pourra tenter de remporter la fameuse vitrine mise en jeu lors de la grande finale du vendredi !</desc>
-    <credits>
-      <guest>Eric Antoine</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
+<programme start="20260725183500 +0200" stop="20260725194000 +0200" channel="M6test">
+    <title lang="fr">Le maillon faible</title>
+    <desc lang="fr">Sous le regard à la fois bienveillant et malicieux d'Olivier Minne, les huit candidats du "Maillon faible" vont devoir prendre des décisions douloureuses. A chaque manche, le groupe doit désigner celui ou celle est qui jugé le plus faible. Ce verdict parfois délicat fait le sel du célèbre jeu !</desc>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5744D90C211D093953F5DF14EA95F8C9.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/3/15187322.jpg"/>
+    <episode-num system="xmltv_ns">0.10.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724194000 +0200" stop="20260724194500 +0200" channel="M6test">
+<programme start="20260725194000 +0200" stop="20260725194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/4/4/15227445.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260725194500 +0200" stop="20260725203000 +0200" channel="M6test">
+    <title lang="fr">Le 19.45</title>
+    <desc lang="fr">Le journal de M6.</desc>
+    <category lang="fr">Journal</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/6/9/15525968.jpg"/>
+    <episode-num system="xmltv_ns">0.205.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260725203000 +0200" stop="20260725211000 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/1/9/15186917.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260725211000 +0200" stop="20260725230000 +0200" channel="M6test">
+    <title lang="fr">La grande fête des tubes 80, 90, 2000</title>
+    <desc lang="fr">Les amateurs des tubes des années 1980, 1990 ou 2000 ne vont pas être jaloux les uns des autres, voici le meilleur des trois décennies ! En compagnie d'un public de 5000 personnes, ce voyage dans le temps 100% culte revient sur les titres emblématiques des trente années écoulées. Stars incontournables et artistes mythiques rares qui font leur grand retour après plus de 20 ans d'absence se sont donnés rendez-vous pour une soirée inoubliable.</desc>
+    <category lang="fr">Emission musicale</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/0/15535098.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260725230000 +0200" stop="20260726000500 +0200" channel="M6test">
+    <title lang="fr">Stars 80 vs stars 90 : la grande battle</title>
+    <category lang="fr">Concert</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/6/8/15288867.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726000500 +0200" stop="20260726014000 +0200" channel="M6test">
+    <title lang="fr">Stars 80 vs stars 90 : la grande battle</title>
+    <desc lang="fr">Des vedettes des années 1980 comme Sabrina, Patrick Hernandez ou Jean-Pierre Mader sont opposées à celles des années 1990, comme Ophélie Winter, Tina Arena et bien d'autres, lors de battles musicales endiablées.</desc>
+    <credits>
+      <guest>Vivien Savage</guest>
+      <guest>Ophélie Winter</guest>
+      <guest>Zouk Machine</guest>
+      <guest>Patrick Hernandez</guest>
+      <guest>Hélène Ségara</guest>
+      <guest>Phil Barney</guest>
+      <guest>Joniece Jamison</guest>
+      <guest> Emile</guest>
+      <guest>Jean-Pierre Mader</guest>
+      <guest> Images</guest>
+      <guest>Tina Arena</guest>
+      <guest>Michael Jones</guest>
+      <guest>Sabrina Salerno</guest>
+      <guest> Larusso</guest>
+      <guest>Début de Soirée</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Spectacle</category>
+    <category lang="fr">Variétés</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8EEE5FE938D6E8DE91AA8851AA1AEABA.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724194500 +0200" stop="20260724203000 +0200" channel="M6test">
-    <title lang="fr">Le 19.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+<programme start="20260726014000 +0200" stop="20260726024000 +0200" channel="M6test">
+    <title lang="fr">Stars 80 : l'histoire d'un phénomène culte</title>
+    <desc lang="fr">En 2006, une idée audacieuse voit le jour : réunir les stars des années 80 dans une même tournée pour célébrer leurs plus grands succès. Personne n'imagine alors l'ampleur que prendra l'aventure. Stars 80 devient rapidement un immense succès populaire. Sur scène, les icônes d'une décennie entière partagent l'affiche. Des artistes qui dominaient autrefois les classements, chacun de leur côté, se retrouvent réunis dans une même aventure. Au fil des années, ils sont devenus une véritable troupe, des amis et compagnons de route embarqués dans une aventure collective hors norme. Depuis, l'histoire ne s'est jamais arrêtée. Tournée après tournée, Stars 80 continue de parcourir la France dans des salles combles, porté par l'énergie d'un public toujours plus nombreux et de plus en plus jeune.</desc>
     <credits>
-      <guest>Romane Binckly</guest>
+      <director>Shana De Lacroix</director>
     </credits>
     <date>2026</date>
-    <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/7CA5F02E85C3273FF2630695E3B03AAB.jpg"/>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Musique</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/45E9CB38F1DDEA90E6705BCE17D000EB.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724203000 +0200" stop="20260724211000 +0200" channel="M6test">
-    <title lang="fr">En famille</title>
-    <desc lang="fr">Chez les Le Kervelec, on parle fort, on rit fort et on s'aime fort ! Entre surprises et éclats de rire, cette famille n'en finit pas de nous étonner.</desc>
+<programme start="20260726024000 +0200" stop="20260726032500 +0200" channel="M6test">
+    <title lang="fr">Stars 80 : l'histoire d'un phénomène culte</title>
+    <desc lang="fr">En 2006, une idée audacieuse voit le jour : réunir les stars des années 80 dans une même tournée pour célébrer leurs plus grands succès. Personne n'imagine alors l'ampleur que prendra l'aventure. Stars 80 devient rapidement un immense succès populaire. Sur scène, les icônes d'une décennie entière partagent l'affiche. Des artistes qui dominaient autrefois les classements, chacun de leur côté, se retrouvent réunis dans une même aventure. Au fil des années, ils sont devenus une véritable troupe, des amis et compagnons de route embarqués dans une aventure collective hors norme. Depuis, l'histoire ne s'est jamais arrêtée. Tournée après tournée, Stars 80 continue de parcourir la France dans des salles combles, porté par l'énergie d'un public toujours plus nombreux et de plus en plus jeune.</desc>
     <credits>
-      <actor>Charlie Bruneau</actor>
-      <actor>Yves Pignot</actor>
-      <actor>Axel Huet</actor>
-      <actor>Jeanne Savary</actor>
-      <actor>Marie Vincent</actor>
-      <actor>Lucie Bourdeu</actor>
-      <adapter>Florence Levard</adapter>
-      <adapter>Alain Kappauf</adapter>
-      <guest>Kabo Family</guest>
+      <director>Shana De Lacroix</director>
     </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C4074C27069596066284FE8F9F671E67.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">14.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260724211000 +0200" stop="20260724225500 +0200" channel="M6test">
-    <title lang="fr">14 Jours pour aller mieux</title>
-    <desc lang="fr">Cadre rigoureux, Maxime se consacre pleinement à une carrière qui s'annonce sous les meilleurs auspices. A l'aube de son mariage avec Nadège, la fille de son directeur, Maxime, au bord du burn-out, se laisse convaincre par sa fiancée d'accompagner son beau-frère Romain à un stage de bien-être en pleine nature afin de faire quelque peu baisser la pression. Sur place, le jeune homme fait la connaissance de Clara et Luc, le couple excentrique qui encadre les stagiaires tous plus lunaires les uns que les autres. Au programme, deux longues semaines durant lesquelles Maxime va devoir se soumettre à un régime zénitude à l'opposé de ses principes...</desc>
-    <credits>
-      <director>Edouard Pluvieux</director>
-      <actor>Romain Lancry</actor>
-      <actor>Bernard Farcy</actor>
-      <actor>Michel Boujenah</actor>
-      <actor>Anne Serra</actor>
-      <actor>Zabou Breitman</actor>
-      <actor> Estéban</actor>
-      <actor>David Salles</actor>
-      <actor>Chantal Lauby</actor>
-      <actor>Lionel Abelanski</actor>
-      <actor>Rosa Bursztein</actor>
-      <actor>Nader Boussandel</actor>
-      <actor>Maxime Gasteuil</actor>
-      <adapter>Lionel Dutemple</adapter>
-      <adapter>Edouard Pluvieux</adapter>
-      <adapter>Maxime Gasteuil</adapter>
-      <producer>Mathieu Ageron</producer>
-      <producer>Benjamin Demay</producer>
-      <producer>Maxime Delauney</producer>
-      <producer>Romain Rousseau</producer>
-      <composer>Audrey Ismaël</composer>
-      <composer>Olivier Coursier</composer>
-      <guest>Nolita Cinema</guest>
-      <guest>Las Palmeras</guest>
-      <guest>M6 Films</guest>
-      <guest>Elephant Story</guest>
-      <guest>Elephant Adventures</guest>
-      <guest>Département de la Charente</guest>
-      <guest> W9</guest>
-      <guest>Centre national du cinéma et de l'image animée</guest>
-      <guest> M6</guest>
-      <guest>Orange Cinéma Séries</guest>
-      <guest> Sacem</guest>
-      <guest>Wild Bunch</guest>
-      <guest>Princesse Béli</guest>
-      <guest> Disney+</guest>
-      <guest> Magelis</guest>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EE1039A7623E72DDC2D8AD49F15C6967.jpg"/>
-    <country lang="fr">France - Etats-Unis</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260724225500 +0200" stop="20260724235500 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Au sommaire : "Il aurait arnaqué une quarantaine de femmes". Julien Courbet et son équipe lèvent le voile sur un escroc aux multiples visages qui arnaque des femmes célibataires en volant leurs économies. "L'arnaqueur aux 300 victimes". "Immobilier : ils paient pour des appartements déjà loués".</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/1EF41EC5E121D00691812B4DC5DB3393.jpg"/>
+    <date>2026</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Musique</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/90D3F9110D4F6A1181F173D3C24972C1.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260724235500 +0200" stop="20260725010500 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Les équipes de Julien Courbet reviennent sur des arnaques dans le secteur de l'immobilier. Des victimes pensent louer des appartements à des agences bien sous tous rapports. Mais l'arnaque réside dans le fait que ces biens sont en fait déjà loués et que les cautions sont bien évidemment déjà encaissées.</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/B5EBF4702A8FFD661D2771E166900A48.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725010500 +0200" stop="20260725020500 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Au sommaire : "Ma maison est une arnaque". Julien Courbet et ses équipes expliquent comment déjouer les techniques et les pièges tendus par des escrocs. - "Médecine douce, attention aux arnaques". En France, seules l'homéopathie, l'acupuncture, la mésothérapie et l'ostéopathie sont reconnues par l'ordre des médecins.</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E87F7EAA36AFBC574D3020A069EB61C1.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725020500 +0200" stop="20260725030500 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Ma maison est une arnaqueC'est le rêve de huit Français sur dix : devenir propriétaire ! En 2022, 376 000 logements sont en cours de construction. Mais avant de profiter de son petit chez-soi, il faut parfois endurer un véritable parcours du com...</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E87F7EAA36AFBC574D3020A069EB61C1.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725030500 +0200" stop="20260725060000 +0200" channel="M6test">
+<programme start="20260726032500 +0200" stop="20260726060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
