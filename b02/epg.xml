@@ -3,266 +3,346 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260725030500 +0200" stop="20260725060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725060000 +0200" stop="20260725074500 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
-    <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/1/9/15186917.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725074500 +0200" stop="20260725101000 +0200" channel="M6test">
-    <title lang="fr">Absolument stars</title>
-    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/1/4/15227419.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725101000 +0200" stop="20260725102500 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/15227409.jpg"/>
-    <episode-num system="xmltv_ns">0.36.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725102500 +0200" stop="20260725105500 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/9/5/15201594.jpg"/>
-    <episode-num system="xmltv_ns">0.56.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725105500 +0200" stop="20260725114500 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/4/15227412.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725114500 +0200" stop="20260725124000 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/4/15227412.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725124000 +0200" stop="20260725124500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/9/15186912.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725124500 +0200" stop="20260725133000 +0200" channel="M6test">
-    <title lang="fr">Le 12.45</title>
-    <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
-    <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/9/0/15535097.jpg"/>
-    <episode-num system="xmltv_ns">0.205.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725133000 +0200" stop="20260725141000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/15202463.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725141000 +0200" stop="20260725151000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Saint-Tropez : luxe, fête et business sous le soleil</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/15202463.jpg"/>
-    <episode-num system="xmltv_ns">0.289.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725151000 +0200" stop="20260725155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Méga-yachts : enquête sur la nouvelle passion des milliardaires</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
-    <episode-num system="xmltv_ns">0.290.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725155000 +0200" stop="20260725161000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/15202463.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725161000 +0200" stop="20260725173000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Les Pouilles, la botte secrète de l'Italie</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
-    <episode-num system="xmltv_ns">0.291.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725173000 +0200" stop="20260725183500 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/9/15186909.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725183500 +0200" stop="20260725194000 +0200" channel="M6test">
-    <title lang="fr">Le maillon faible</title>
-    <desc lang="fr">Sous le regard à la fois bienveillant et malicieux d'Olivier Minne, les huit candidats du "Maillon faible" vont devoir prendre des décisions douloureuses. A chaque manche, le groupe doit désigner celui ou celle est qui jugé le plus faible. Ce verdict parfois délicat fait le sel du célèbre jeu !</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/3/15187322.jpg"/>
-    <episode-num system="xmltv_ns">0.10.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725194000 +0200" stop="20260725194500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/4/4/15227445.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725194500 +0200" stop="20260725203000 +0200" channel="M6test">
-    <title lang="fr">Le 19.45</title>
-    <desc lang="fr">Le journal de M6.</desc>
-    <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/6/9/15525968.jpg"/>
-    <episode-num system="xmltv_ns">0.205.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725203000 +0200" stop="20260725211000 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/1/9/15186917.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725211000 +0200" stop="20260725230000 +0200" channel="M6test">
-    <title lang="fr">La grande fête des tubes 80, 90, 2000</title>
-    <desc lang="fr">Les amateurs des tubes des années 1980, 1990 ou 2000 ne vont pas être jaloux les uns des autres, voici le meilleur des trois décennies ! En compagnie d'un public de 5000 personnes, ce voyage dans le temps 100% culte revient sur les titres emblématiques des trente années écoulées. Stars incontournables et artistes mythiques rares qui font leur grand retour après plus de 20 ans d'absence se sont donnés rendez-vous pour une soirée inoubliable.</desc>
-    <category lang="fr">Emission musicale</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/0/15535098.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260725230000 +0200" stop="20260726000500 +0200" channel="M6test">
-    <title lang="fr">Stars 80 vs stars 90 : la grande battle</title>
-    <category lang="fr">Concert</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/6/8/15288867.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260726000500 +0200" stop="20260726014000 +0200" channel="M6test">
-    <title lang="fr">Stars 80 vs stars 90 : la grande battle</title>
-    <desc lang="fr">Des vedettes des années 1980 comme Sabrina, Patrick Hernandez ou Jean-Pierre Mader sont opposées à celles des années 1990, comme Ophélie Winter, Tina Arena et bien d'autres, lors de battles musicales endiablées.</desc>
-    <credits>
-      <guest>Vivien Savage</guest>
-      <guest>Ophélie Winter</guest>
-      <guest>Zouk Machine</guest>
-      <guest>Patrick Hernandez</guest>
-      <guest>Hélène Ségara</guest>
-      <guest>Phil Barney</guest>
-      <guest>Joniece Jamison</guest>
-      <guest> Emile</guest>
-      <guest>Jean-Pierre Mader</guest>
-      <guest> Images</guest>
-      <guest>Tina Arena</guest>
-      <guest>Michael Jones</guest>
-      <guest>Sabrina Salerno</guest>
-      <guest> Larusso</guest>
-      <guest>Début de Soirée</guest>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">Spectacle</category>
-    <category lang="fr">Variétés</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8EEE5FE938D6E8DE91AA8851AA1AEABA.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260726014000 +0200" stop="20260726024000 +0200" channel="M6test">
-    <title lang="fr">Stars 80 : l'histoire d'un phénomène culte</title>
-    <desc lang="fr">En 2006, une idée audacieuse voit le jour : réunir les stars des années 80 dans une même tournée pour célébrer leurs plus grands succès. Personne n'imagine alors l'ampleur que prendra l'aventure. Stars 80 devient rapidement un immense succès populaire. Sur scène, les icônes d'une décennie entière partagent l'affiche. Des artistes qui dominaient autrefois les classements, chacun de leur côté, se retrouvent réunis dans une même aventure. Au fil des années, ils sont devenus une véritable troupe, des amis et compagnons de route embarqués dans une aventure collective hors norme. Depuis, l'histoire ne s'est jamais arrêtée. Tournée après tournée, Stars 80 continue de parcourir la France dans des salles combles, porté par l'énergie d'un public toujours plus nombreux et de plus en plus jeune.</desc>
-    <credits>
-      <director>Shana De Lacroix</director>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Musique</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/45E9CB38F1DDEA90E6705BCE17D000EB.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260726024000 +0200" stop="20260726032500 +0200" channel="M6test">
-    <title lang="fr">Stars 80 : l'histoire d'un phénomène culte</title>
-    <desc lang="fr">En 2006, une idée audacieuse voit le jour : réunir les stars des années 80 dans une même tournée pour célébrer leurs plus grands succès. Personne n'imagine alors l'ampleur que prendra l'aventure. Stars 80 devient rapidement un immense succès populaire. Sur scène, les icônes d'une décennie entière partagent l'affiche. Des artistes qui dominaient autrefois les classements, chacun de leur côté, se retrouvent réunis dans une même aventure. Au fil des années, ils sont devenus une véritable troupe, des amis et compagnons de route embarqués dans une aventure collective hors norme. Depuis, l'histoire ne s'est jamais arrêtée. Tournée après tournée, Stars 80 continue de parcourir la France dans des salles combles, porté par l'énergie d'un public toujours plus nombreux et de plus en plus jeune.</desc>
-    <credits>
-      <director>Shana De Lacroix</director>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Musique</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/90D3F9110D4F6A1181F173D3C24972C1.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
 <programme start="20260726032500 +0200" stop="20260726060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
     <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726060000 +0200" stop="20260726070000 +0200" channel="M6test">
+    <title lang="fr">M6 Kid</title>
+    <desc lang="fr">M6 Kid présente les meilleurs dessin-animés pour le plus grand bonheur de vos enfants.</desc>
+    <date>2024</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Jeunesse</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F8552446F1639C1A74C58CC81B1AB8C0.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726070000 +0200" stop="20260726073000 +0200" channel="M6test">
+    <title lang="fr">100% immo, l'hebdo</title>
+    <desc lang="fr">Les tendances et l'actualité du secteur immobilier, à Paris et en régions sont présentées dans cette émission où des professionnels livrent conseils et astuces.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Découvertes</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/50333D59910196C347D9C3776175DEAE.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726073000 +0200" stop="20260726104000 +0200" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
+    <credits>
+      <guest>Marie-Ange Nardi</guest>
+      <guest>Charlotte Rosier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Télé-achat</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726104000 +0200" stop="20260726110500 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques, sans oublier les derniers modèles des différentes marques. Turbo revient sur les nouveautés du marché et présente les avantages et les petits inconvénients de chaque modèle.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5420AFB0C6C759BE0F8F1EC222D169B1.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726110500 +0200" stop="20260726113000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Ce dimanche direction Bruxelles pour la 102e édition du Bruxelles Motor Show pour y découvrir toutes les nouveautés des constructeurs européens et asiatiques, mais aussi l'auto élue " Car of the Year 2026 " !</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/27B1D445FC0931E28D76FF9A640AB826.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726113000 +0200" stop="20260726124000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques, sans oublier les derniers modèles des différentes marques. Turbo revient sur les nouveautés du marché et présente les avantages et les petits inconvénients de chaque modèle.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/27B1D445FC0931E28D76FF9A640AB826.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726124000 +0200" stop="20260726124500 +0200" channel="M6test">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726124500 +0200" stop="20260726133000 +0200" channel="M6test">
+    <title lang="fr">Le 12.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Romane Binckly</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726133000 +0200" stop="20260726141000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Une maison à la mer ou à la campagne : grands bonheurs et petites galères ! 1/2</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… " Un jour, un doc week-end " propose une grande variété de documentair...</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726141000 +0200" stop="20260726151000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Une maison à la mer ou à la campagne : grands bonheurs et petites galères ! 2/2</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… " Un jour, un doc week-end " propose une grande variété de documentair...</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726151000 +0200" stop="20260726155000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726155000 +0200" stop="20260726161000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726161000 +0200" stop="20260726173500 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726173500 +0200" stop="20260726183500 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">L'Espagne, et plus particulièrement la Costa del Sol, reste l'une des destinations préférées des Français. Avec plus de 300 jours de soleil par an, 150 kilomètres de côtes baignées par la Méditerranée, des plages de sable doré, des montagnes en toile de fond et l'âme vibrante de l'Andalousie, elle réunit tous les ingrédients des vacances idéales.</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F3F6E8C91FF224C9C391AEF1B05BF2BD.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726183500 +0200" stop="20260726194000 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">De la Bretagne à la Côte d'Azur, en passant par les rivages de l'Atlantique, ils affichent tous la même enseigne : Hôtel de la Plage. Un nom qui évoque instantanément les grandes vacances, les embruns, les déjeuners face à la mer et les souvenirs d'enfance. Derrière cette appellation emblématique se cachent des établissements aux histoires singulières, souvent familiaux, transmis de génération en génération.</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F3F6E8C91FF224C9C391AEF1B05BF2BD.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726194000 +0200" stop="20260726194500 +0200" channel="M6test">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726194500 +0200" stop="20260726203000 +0200" channel="M6test">
+    <title lang="fr">Le 19.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Romane Binckly</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/307D64F97E714ECC1571F3C6834B2031.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726203000 +0200" stop="20260726211000 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Après une demande en mariage mémorable, Emma et Fabien préparent le grand jour où ils se diront enfin oui. Camille, forte du succès de son centre de bien-être, pourrait bien finir par détrôner Philippe et ses deux pharmacies. Un tournant professionnel se dessinera également pour José et Liliane : et si après la mairie, il y avait un autre horizon pour José ? Quant à Sofiane et Alice, la frénésie de leur épicerie ne leur laissera aucun repos. Du repos, c'est bien ce qui pourrait faire peur à Léo et Leslie, qui passent le cap des 30 ans. Les couples n'en finissent pas d'étonner les téléspectateurs dans une 17e saison enjouée.</desc>
+    <credits>
+      <actor>Valérie Karsenti</actor>
+      <actor>Claire Chust</actor>
+      <actor>Grégoire Bonnet</actor>
+      <actor>Vinnie Dargaud</actor>
+      <actor>Frédéric Bouraly</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>Majid Berhila</actor>
+      <actor>David Mora</actor>
+      <actor>Amélie Etasse</actor>
+      <actor>Gérard Hernandez</actor>
+      <actor>Elodie Poux</actor>
+      <guest>M6 Métropole Télévision</guest>
+      <guest> KaBo</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726211000 +0200" stop="20260726230500 +0200" channel="M6test">
+    <title lang="fr">Capital</title>
+    <sub-title lang="fr">Campings, clubs, villages vacances : jusqu'où iront les nouvelles formules all inclusive ?</sub-title>
+    <desc lang="fr">Une semaine en famille, en France et en "all inclusive" pour moins de 2000 euros, c'est le nouveau défi de tous les géants des vacances. Les campings se lancent à leur tour dans ces formules. Face à cette nouvelle concurrence, Belambra comme l'association VVF ripostent chacun à sa façon.</desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/0EDA1322DAB400AAE1BA3ADB5816C4D4.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260726230500 +0200" stop="20260727001500 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Capri, Positano, Ravello : enquête sur la côte amalfitaine</sub-title>
+    <desc lang="fr">Au sud de Naples, la côte amalfitaine est l'emblème de la dolce vita. Les villages de Positano, Amalfi, Ravello et Conca Dei Marini sont pris d'assaut. Vacanciers ordinaires et touristes fortunés se pressent aussi sur l'île de Capri, un petit coin de paradis où les stars de Hollywood ont leurs habitudes. </desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/1FA1F6C5BD965046C35B886758AD97E4.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260727001500 +0200" stop="20260727013000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Iles grecques secrètes : les derniers joyaux de la Méditerranée</sub-title>
+    <desc lang="fr">Santorin, Mykonos, Paros, ces îles grecques sont devenues des icônes du tourisme mondial. Mais ce succès a un prix : plages bondées, explosion des prix et pénuries d'eau, la Grèce fait face à un trop-plein de visiteurs. En 2024, le pays a accueilli 40 millions de touristes, soit quatre fois sa population.</desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F4B457FD588DF184CCBC4859C2BE08ED.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260727013000 +0200" stop="20260727024000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Les Keys en Floride : l'archipel des fêtes sans limite</sub-title>
+    <desc lang="fr">L'archipel des Keys, en Floride attire plusieurs millions de touristes par an. Autrefois prisée par les artistes, comme Ernest Hemingway ou Tennessee Williams, la destination est aujourd'hui incontournable pour les amateurs de plongée, de pêche sportive, les touristes et les riches excentriques.</desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2016</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/1B2DA1DBA4B1B65CBE5CDB7E95D54071.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260727024000 +0200" stop="20260727060000 +0200" channel="M6test">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
