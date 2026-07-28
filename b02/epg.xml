@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260727024000 +0200" stop="20260727060000 +0200" channel="M6test">
+<programme start="20260728041000 +0200" stop="20260728060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
@@ -14,7 +14,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727060000 +0200" stop="20260727080500 +0200" channel="M6test">
+<programme start="20260728060000 +0200" stop="20260728080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -35,13 +35,13 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727080500 +0200" stop="20260727094500 +0200" channel="M6test">
+<programme start="20260728080500 +0200" stop="20260728094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -51,13 +51,13 @@
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727094500 +0200" stop="20260727113000 +0200" channel="M6test">
+<programme start="20260728094500 +0200" stop="20260728113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -72,7 +72,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727113000 +0200" stop="20260727124000 +0200" channel="M6test">
+<programme start="20260728113000 +0200" stop="20260728124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -81,25 +81,25 @@
     <date>2026</date>
     <category lang="fr">Art de vivre</category>
     <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8C544F63E72CB621535D938B32FF8A37.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/EBB12C17F2A1CCBA6F444A8B306BFD4F.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727124000 +0200" stop="20260727124500 +0200" channel="M6test">
+<programme start="20260728124000 +0200" stop="20260728124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727124500 +0200" stop="20260727133500 +0200" channel="M6test">
+<programme start="20260728124500 +0200" stop="20260728133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -108,13 +108,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6A6B36237BEFA253B09FE58D99F47817.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727133500 +0200" stop="20260727134000 +0200" channel="M6test">
+<programme start="20260728133500 +0200" stop="20260728134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -141,7 +141,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727134000 +0200" stop="20260727145000 +0200" channel="M6test">
+<programme start="20260728134000 +0200" stop="20260728145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -153,7 +153,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727145000 +0200" stop="20260727155000 +0200" channel="M6test">
+<programme start="20260728145000 +0200" stop="20260728155000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -165,7 +165,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727155000 +0200" stop="20260727165000 +0200" channel="M6test">
+<programme start="20260728155000 +0200" stop="20260728165000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -177,7 +177,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727165000 +0200" stop="20260727172500 +0200" channel="M6test">
+<programme start="20260728165000 +0200" stop="20260728172500 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -189,7 +189,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727172500 +0200" stop="20260727183000 +0200" channel="M6test">
+<programme start="20260728172500 +0200" stop="20260728183000 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -205,7 +205,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727183000 +0200" stop="20260727194000 +0200" channel="M6test">
+<programme start="20260728183000 +0200" stop="20260728194000 +0200" channel="M6test">
     <title lang="fr">Le juste prix</title>
     <desc lang="fr">Chaque jour, 7 candidats sont sélectionnés pour tenter de rejoindre Éric Antoine et se frotter aux cultissimes jeux du " Juste prix ". Une vingtaine d'épreuves culte les attend, notamment le " fakir ", le " coup de poing ", le " mini-golf " et le "...</desc>
     <credits>
@@ -221,19 +221,19 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727194000 +0200" stop="20260727194500 +0200" channel="M6test">
+<programme start="20260728194000 +0200" stop="20260728194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727194500 +0200" stop="20260727204000 +0200" channel="M6test">
+<programme start="20260728194500 +0200" stop="20260728204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -242,13 +242,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/307D64F97E714ECC1571F3C6834B2031.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727204000 +0200" stop="20260727211000 +0200" channel="M6test">
+<programme start="20260728204000 +0200" stop="20260728211000 +0200" channel="M6test">
     <title lang="fr">En famille</title>
     <desc lang="fr">Le quotidien de la famille Le Kervelec, rythmé autour de trois générations : les grands-parents Jacques et Brigitt...</desc>
     <credits>
@@ -265,161 +265,67 @@
     <date>2026</date>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BF625251025B7E77F9B9FB3271E37512.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/C4074C27069596066284FE8F9F671E67.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">14.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727211000 +0200" stop="20260727215500 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune célébrités</title>
-    <desc lang="fr">Des célébrités réalisent un vieux rêve d'enfant en tournant la roue la plus célèbre de la télévision. Chaque candidat tente de résoudre les énigmes pour accéder à la finale et récolter un maximum pour le compte de son association. Un divertissement éprouvé, capable de rassembler petits et grands devant la lucarne.</desc>
+<programme start="20260728211000 +0200" stop="20260728230000 +0200" channel="M6test">
+    <title lang="fr">Zone interdite</title>
+    <sub-title lang="fr">Turquie, Albanie, Monténégro : enquête sur les nouvelles destinations stars de la Méditerranée</sub-title>
+    <desc lang="fr">Parmi les nouvelles destinations stars de la Méditerranée, la Turquie, paradis des hôtels all inclusive, l'Albanie et ses road trips hors des sentiers battus, ou encore le Monténégro, nouvel eldorado de la fête les pieds dans l'eau, promettent tous les trois soleil, plages de rêve et bons plans.</desc>
     <credits>
-      <guest>Eric Antoine</guest>
-      <guest>Issa Doumbia</guest>
-      <guest>Roman Doduik</guest>
-      <guest>Laurent Maistret</guest>
-      <guest>Gwendal Marimoutou</guest>
-      <guest>Caroline Vigneaux</guest>
-      <guest>Florian Gazan</guest>
-      <guest>Olivier Minne</guest>
-      <guest>Anne Roumanoff</guest>
-      <guest>Valérie Damidot</guest>
+      <guest>Ophélie Meunier</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/3B3B2263EB491051354FD20093AF14CD.jpg"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/10DCA2E0303D58FC5E58FF2292B4EB77.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260727215500 +0200" stop="20260727233000 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune célébrités</title>
-    <desc lang="fr">Chaque candidat tente de résoudre les énigmes pour accéder à la finale et récolter un maximum d'argent pour son association. Pour y parvenir, il faut déjouer les facéties de la roue et éviter les pièges comme la banqueroute ou l'échange.</desc>
+<programme start="20260728230000 +0200" stop="20260729005000 +0200" channel="M6test">
+    <title lang="fr">Zone interdite</title>
+    <sub-title lang="fr">Grands départs : joies et galères sur l'autoroute des vacances</sub-title>
+    <desc lang="fr">Le long d'autoroutes emblématiques, immersion aux côtés de ceux qui sont chargés de faciliter le trajet. Entre urgences et situations parfois cocasses, zoom sur les personnalités attachantes et hautes en couleur de ceux qui, tout l'été, se mobilisent pour permettre aux vacanciers d'arriver en toute sérénité.</desc>
     <credits>
-      <guest>Eric Antoine</guest>
-      <guest>Issa Doumbia</guest>
-      <guest>Roman Doduik</guest>
-      <guest>Laurent Maistret</guest>
-      <guest>Gwendal Marimoutou</guest>
-      <guest>Caroline Vigneaux</guest>
-      <guest>Florian Gazan</guest>
-      <guest>Olivier Minne</guest>
-      <guest>Anne Roumanoff</guest>
-      <guest>Valérie Damidot</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/3B3B2263EB491051354FD20093AF14CD.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260727233000 +0200" stop="20260728004500 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune célébrités</title>
-    <desc lang="fr">Eric Antoine propose à des célébrités de réaliser un vieux rêve d'enfant : tourner la roue la plus culte de la télévision. Chaque candidat tente de résoudre les énigmes pour accéder à la finale et récolter un maximum d'argent pour l'association dont il défend les couleurs.</desc>
-    <credits>
-      <guest>Elie Semoun</guest>
-      <guest>Eric Antoine</guest>
-      <guest> LeBouseuh</guest>
-      <guest>Michel Boujenah</guest>
-      <guest>Inès Vandamme</guest>
-      <guest>Charlotte Gabris</guest>
-      <guest>Tibo InShape</guest>
-      <guest>Gérard Jugnot</guest>
-      <guest>Chantal Ladesou</guest>
-      <guest>Ilyes Djadel</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/7718D03443C2146D73903ABF5845CEA2.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260728004500 +0200" stop="20260728020500 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune célébrités</title>
-    <desc lang="fr">Jouant au profit d'associations, des célébrités viennent défier la roue de la fortune, en espérant aider le plus possible celles et ceux qui s'investissent dans ces collectifs. La chance va-t-elle être au rendez-vous autour du grand disque cranté le plus connu des jeux télévisés ?</desc>
-    <credits>
-      <guest>Elie Semoun</guest>
-      <guest>Eric Antoine</guest>
-      <guest> LeBouseuh</guest>
-      <guest>Michel Boujenah</guest>
-      <guest>Inès Vandamme</guest>
-      <guest>Charlotte Gabris</guest>
-      <guest>Tibo InShape</guest>
-      <guest>Gérard Jugnot</guest>
-      <guest>Chantal Ladesou</guest>
-      <guest>Ilyes Djadel</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8DEEA4994A9A7E3935B0819E0B2A8CEF.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260728020500 +0200" stop="20260728030000 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune célébrités</title>
-    <desc lang="fr">La roue de la fortune va-t-elle sourire aux célébrités qui vont la faire tourner ? Avec Eric Antoine en maître de cérémonie, le jeu populaire revient pour tenter de faire avancer des bonnes causes. En effet, les candidats présents sont tous des célébrités qui se défient pour des associations caritatives.</desc>
-    <credits>
-      <guest>Les Bodin's</guest>
-      <guest>Eric Antoine</guest>
-      <guest>Florent Peyre</guest>
-      <guest>Luka Karabatic</guest>
-      <guest>Stéphane De Groodt</guest>
-      <guest>Juju Fitcats</guest>
-      <guest>François Berléand</guest>
-      <guest>Delphine Wespiser</guest>
-      <guest>Nikola Karabatic</guest>
+      <guest>Ophélie Meunier</guest>
     </credits>
     <date>2025</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4440F3AB35A26D6623181B1256C48D7B.jpg"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4BACA99ECB1340E95C4D8C83761CB04F.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260728030000 +0200" stop="20260728041000 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune célébrités</title>
-    <desc lang="fr">Chaque lancer de la roue de la fortune est un moment de suspense, suspendu au petit bruit des crans qui progressent : sur quelle case la fortune, ou l'infortune, va-t-elle s'arrêter ? Les célébrités qui jouent le font d'abord la bonne cause et des associations caritatives.</desc>
+<programme start="20260729005000 +0200" stop="20260729024500 +0200" channel="M6test">
+    <title lang="fr">Zone interdite</title>
+    <sub-title lang="fr">Côte d'Azur : ses secrets pour faire revenir les ultra-riches</sub-title>
+    <desc lang="fr">Aujourd'hui, la Côte d'Azur a des concurrents un peu partout en Europe et doit composer sans les grandes fortunes russes qui l'ont désertée depuis la guerre en Ukraine. Agents immobiliers, organisateurs de soirées, ou encore héritiers de la famille princière de Monaco se battent pour réinventer cette destination.</desc>
     <credits>
-      <guest>Les Bodin's</guest>
-      <guest>Eric Antoine</guest>
-      <guest>Florent Peyre</guest>
-      <guest>Luka Karabatic</guest>
-      <guest>Stéphane De Groodt</guest>
-      <guest>Juju Fitcats</guest>
-      <guest>François Berléand</guest>
-      <guest>Delphine Wespiser</guest>
-      <guest>Nikola Karabatic</guest>
+      <guest>Ophélie Meunier</guest>
     </credits>
-    <date>2025</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/9D38C84F65950738E67871FDB8760551.jpg"/>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/10DCA2E0303D58FC5E58FF2292B4EB77.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260728041000 +0200" stop="20260728060000 +0200" channel="M6test">
+<programme start="20260729024500 +0200" stop="20260729060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
