@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260729024500 +0200" stop="20260729060000 +0200" channel="M6test">
+<programme start="20260730020500 +0200" stop="20260730060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
@@ -14,7 +14,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729060000 +0200" stop="20260729080500 +0200" channel="M6test">
+<programme start="20260730060000 +0200" stop="20260730080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -41,7 +41,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729080500 +0200" stop="20260729094500 +0200" channel="M6test">
+<programme start="20260730080500 +0200" stop="20260730094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -51,13 +51,13 @@
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729094500 +0200" stop="20260729113000 +0200" channel="M6test">
+<programme start="20260730094500 +0200" stop="20260730113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -72,7 +72,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729113000 +0200" stop="20260729124000 +0200" channel="M6test">
+<programme start="20260730113000 +0200" stop="20260730124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -87,19 +87,19 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729124000 +0200" stop="20260729124500 +0200" channel="M6test">
+<programme start="20260730124000 +0200" stop="20260730124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729124500 +0200" stop="20260729133500 +0200" channel="M6test">
+<programme start="20260730124500 +0200" stop="20260730133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -108,13 +108,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/6A6B36237BEFA253B09FE58D99F47817.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729133500 +0200" stop="20260729134000 +0200" channel="M6test">
+<programme start="20260730133500 +0200" stop="20260730134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -141,7 +141,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729134000 +0200" stop="20260729145000 +0200" channel="M6test">
+<programme start="20260730134000 +0200" stop="20260730145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -153,19 +153,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729145000 +0200" stop="20260729155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260729155000 +0200" stop="20260729165000 +0200" channel="M6test">
+<programme start="20260730145000 +0200" stop="20260730155000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -177,9 +165,21 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729165000 +0200" stop="20260729172500 +0200" channel="M6test">
+<programme start="20260730155000 +0200" stop="20260730165000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Le petit Français qui défie les américains</sub-title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260730165000 +0200" stop="20260730172500 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Forains américains : fêtes géantes et fortunes XXL</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -191,7 +191,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729172500 +0200" stop="20260729183000 +0200" channel="M6test">
+<programme start="20260730172500 +0200" stop="20260730183000 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -207,7 +207,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729183000 +0200" stop="20260729194000 +0200" channel="M6test">
+<programme start="20260730183000 +0200" stop="20260730194000 +0200" channel="M6test">
     <title lang="fr">Le juste prix</title>
     <desc lang="fr">Cette nouvelle version du Juste Prix reprend les fondamentaux qui ont fait le succès du jeu et s'enrichit d'une formule plus feuilletonnante pour tenir les téléspectateurs en haleine tout au long de la semaine.</desc>
     <credits>
@@ -223,19 +223,19 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729194000 +0200" stop="20260729194500 +0200" channel="M6test">
+<programme start="20260730194000 +0200" stop="20260730194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729194500 +0200" stop="20260729204000 +0200" channel="M6test">
+<programme start="20260730194500 +0200" stop="20260730204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -250,7 +250,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729204000 +0200" stop="20260729211000 +0200" channel="M6test">
+<programme start="20260730204000 +0200" stop="20260730211000 +0200" channel="M6test">
     <title lang="fr">En famille</title>
     <desc lang="fr">Plongée dans le quotidien des trois générations de la famille Le Kervelec. Jacques et Brigitte, les grands-parents, voient régulièrement leurs deux filles. Marjorie, l'aînée, est flanquée de deux adolescents, Antoine, un grand benêt, et Chloé, un brin manipulatrice. En partant, son mari lui a laissé Pupuce, un mastiff anglais. Roxane, la cadette, vit en couple avec Kader, avec qui elle a eu les jumeaux Hugo et Diego. Entre petites mesquineries et cachotteries, mais aussi de beaux moments de complicité, chacun révèle dans des apartés le fond de sa pensée sur les membres de sa famille ou la vie en général. Les créateurs et auteurs de "Scènes de ménages" sont à la baguette de cette fiction qui oscille entre humour et tendresse.</desc>
     <credits>
@@ -267,84 +267,116 @@
     <date>2026</date>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C4074C27069596066284FE8F9F671E67.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/BF625251025B7E77F9B9FB3271E37512.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">14.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729211000 +0200" stop="20260729221000 +0200" channel="M6test">
-    <title lang="fr">J'en connais un rayon</title>
-    <desc lang="fr">Ce jeu met cinquante candidats à l'épreuve dans des situations inspirées du quotidien. Les joueurs doivent faire preuve de flair, de bon sens et d'astuce pour faire les bons choix lors de leurs achats. Elodie Gossuin, Gwendal Marimoutou et Caroline Margeridon relèvent le défi au profit d'associations.</desc>
+<programme start="20260730211000 +0200" stop="20260730220500 +0200" channel="M6test">
+    <title lang="fr">Cauchemar en cuisine</title>
+    <sub-title lang="fr">Saint-Gervais</sub-title>
+    <desc lang="fr">Le chef Philippe Etchebest va intervenir dans le restaurant de Mimose et Georget, à Saint-Gervais dans le Gard. Ce couple de Réunionnais a repris cet établissement il y a 4 ans et Georget est loin d'être novice puisqu'il a travaillé pour la Maison Troisgros (3 étoiles) et que son mentor n'est autre que Serge Chenet, un Meilleur Ouvrier de France ! Alors pourquoi Mimose a-t-elle fait appel à Philippe Etchebest pour venir en aide à un cuisinier aussi expérimenté ?</desc>
     <credits>
-      <guest>Caroline Margeridon</guest>
-      <guest>Anne-Claire Moser</guest>
-      <guest>Julien Courbet</guest>
-      <guest>Elodie Gossuin</guest>
-      <guest>Gwendal Marimoutou</guest>
-      <guest>Olivier Dauvers</guest>
+      <guest>Philippe Etchebest</guest>
     </credits>
-    <date>2025</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/769BC2320CE951A01F83DB7DBA39E583.jpg"/>
+    <date>2023</date>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/9B253CDE72D5981BB8E038885211DC8B.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">12.4.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729221000 +0200" stop="20260729235500 +0200" channel="M6test">
-    <title lang="fr">J'en connais un rayon</title>
-    <desc lang="fr">Cinquante candidats misent sur leurs connaissances en matière de consommation pour espérer l'emporter dans un divertissement aussi instructif qu'amusant. Olivier Dauvers, expert en grande distribution, et Anne-Claire Moser, avocate spécialisée, entourent Julien Courbet.</desc>
+<programme start="20260730220500 +0200" stop="20260730230000 +0200" channel="M6test">
+    <title lang="fr">Cauchemar en cuisine</title>
+    <sub-title lang="fr">Saint-Gervais</sub-title>
+    <desc lang="fr">Le chef use d'un nouveau stratagème pour tenter de venir en aide aux restaurateurs, quitte à complètement les déstabiliser. Cette nouvelle méthode va-t-elle porter ses fruits ?</desc>
     <credits>
-      <guest>Caroline Margeridon</guest>
-      <guest>Anne-Claire Moser</guest>
-      <guest>Julien Courbet</guest>
-      <guest>Elodie Gossuin</guest>
-      <guest>Gwendal Marimoutou</guest>
-      <guest>Olivier Dauvers</guest>
+      <guest>Philippe Etchebest</guest>
     </credits>
-    <date>2025</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C8CE0164F9136FE89E038191FB1471B6.jpg"/>
+    <date>2023</date>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/9EFBFDF187E3911ECE0BC0A8DEB2C2DC.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">12.4.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260729235500 +0200" stop="20260730010000 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Disputes entre voisins, squatteurs, locataires indélicats : pour certains, leur maison est devenue leur pire cauchemar. Il y a 15 ans, Gaëlle est venue s'installer dans le Cantal. Mais tous les jours, c'est la guerre avec son voisin. Michel et Patricia ne supporte plus la ménagerie d'Isabelle.</desc>
+<programme start="20260730230000 +0200" stop="20260731000500 +0200" channel="M6test">
+    <title lang="fr">Cauchemar en cuisine</title>
+    <sub-title lang="fr">Chambéry</sub-title>
+    <desc lang="fr">Philippe Etchebest se rend à Chambéry dans le restaurant de Christine. C'est Paula, une commerçante voisine, qui a fait appel à lui. Christine a repris le plus vieux restaurant de la ville, mais, depuis des mois, les clients désertent l'établissement. Le chef découvre que rien ne va dans le restaurant.</desc>
     <credits>
-      <guest>Julien Courbet</guest>
+      <guest>Philippe Etchebest</guest>
     </credits>
     <date>2024</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/3BE17B749ED9E2C00C178BD358548195.jpg"/>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/389DC55D2D705A32F121654E7470A43E.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">13.3.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260730010000 +0200" stop="20260730020500 +0200" channel="M6test">
-    <title lang="fr">Arnaques !</title>
-    <desc lang="fr">Vivre avec des voisins soupçonneux ou bruyants, gérer les dégâts causés par une locataire indélicate ou se confronter à des squatteurs : autant de problèmes abordés.</desc>
+<programme start="20260731000500 +0200" stop="20260731010000 +0200" channel="M6test">
+    <title lang="fr">Cauchemar en cuisine</title>
+    <sub-title lang="fr">Chambéry</sub-title>
+    <desc lang="fr">Philippe Etchebest doit se livrer à un véritable travail d'enquêteur pour comprendre ce qui se trame dans le restaurant de Christine et comment résoudre tous les problèmes. Le chef est encore loin de se douter de l'ampleur de la situation et ce qu'il va découvrir l'oblige à prendre des décisions radicales.</desc>
     <credits>
-      <guest>Julien Courbet</guest>
+      <guest>Philippe Etchebest</guest>
     </credits>
     <date>2024</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/47D987A2B4225D60ABF4A324D50C6C29.jpg"/>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/EFB468006F120F79A6D83F782893EDE8.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">13.3.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260730020500 +0200" stop="20260730060000 +0200" channel="M6test">
+<programme start="20260731010000 +0200" stop="20260731020000 +0200" channel="M6test">
+    <title lang="fr">Cauchemar en cuisine</title>
+    <sub-title lang="fr">Carnoux-en-Provence</sub-title>
+    <desc lang="fr">C'est à Carnoux-en-Provence que Sandrine a fait appel à Philippe Etchebest pour venir en aide au restaurant de son patron, Alexandre. Et pour une fois, tout avait bien commencé dans cet établissement : le chef avait été agréablement surpris par un concept culinaire intéressant et très innovant ! Malheureusement, la douche froide est rapidement tombée et les problèmes sont nombreux.</desc>
+    <credits>
+      <guest>Philippe Etchebest</guest>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B47F91E34C8C4DA0035B917E9AD2027D.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">10.1.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260731020000 +0200" stop="20260731024500 +0200" channel="M6test">
+    <title lang="fr">Cauchemar en cuisine</title>
+    <sub-title lang="fr">Carnoux-en-Provence</sub-title>
+    <desc lang="fr">Philippe Etchebest fait appel à un ancien candidat de Top Chef, Mallory Gabsi, pour l'aider à résoudre les nombreux problèmes du restaurant de Carnoux-en-Provence. De plus, il demande aux clients de noter le service. Cet exercice, plus pédagogique que punitif, doit permettre aux restaurateurs de prendre conscience de ce qui ne va pas dans l'établissement et d'y remédier au plus vite.</desc>
+    <credits>
+      <guest>Philippe Etchebest</guest>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/9B253CDE72D5981BB8E038885211DC8B.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">10.1.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260731024500 +0200" stop="20260731060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
