@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260804034000 +0200" stop="20260804060000 +0200" channel="M6test">
+<programme start="20260805024000 +0200" stop="20260805060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
@@ -14,7 +14,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804060000 +0200" stop="20260804080500 +0200" channel="M6test">
+<programme start="20260805060000 +0200" stop="20260805080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -41,7 +41,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804080500 +0200" stop="20260804094500 +0200" channel="M6test">
+<programme start="20260805080500 +0200" stop="20260805094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -57,7 +57,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804094500 +0200" stop="20260804113000 +0200" channel="M6test">
+<programme start="20260805094500 +0200" stop="20260805113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -66,13 +66,13 @@
     <date>2026</date>
     <category lang="fr">Art de vivre</category>
     <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BDCDE118CB4609F8D800BF13AD037494.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/49FBFE03E9BD010FFCEB1FC0CEE4F51A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804113000 +0200" stop="20260804124000 +0200" channel="M6test">
+<programme start="20260805113000 +0200" stop="20260805124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -81,25 +81,25 @@
     <date>2026</date>
     <category lang="fr">Art de vivre</category>
     <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EBB12C17F2A1CCBA6F444A8B306BFD4F.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/8C544F63E72CB621535D938B32FF8A37.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804124000 +0200" stop="20260804124500 +0200" channel="M6test">
+<programme start="20260805124000 +0200" stop="20260805124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804124500 +0200" stop="20260804133500 +0200" channel="M6test">
+<programme start="20260805124500 +0200" stop="20260805133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -108,13 +108,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/6A6B36237BEFA253B09FE58D99F47817.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804133500 +0200" stop="20260804134000 +0200" channel="M6test">
+<programme start="20260805133500 +0200" stop="20260805134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -135,57 +135,13 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804134000 +0200" stop="20260804145000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Locaux contre touristes : la guerre va durer tout l'été ! (1/2)</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260804145000 +0200" stop="20260804155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Locaux contre touristes : la guerre va durer tout l'été ! (2/2)</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260804155000 +0200" stop="20260804165000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Le mystère du frappeur de Goudelin</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260804165000 +0200" stop="20260804172500 +0200" channel="M6test">
+<programme start="20260805134000 +0200" stop="20260805145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -197,7 +153,43 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804172500 +0200" stop="20260804183000 +0200" channel="M6test">
+<programme start="20260805145000 +0200" stop="20260805155000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260805155000 +0200" stop="20260805165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260805165000 +0200" stop="20260805172500 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260805172500 +0200" stop="20260805183000 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -206,14 +198,14 @@
     <date>2025</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C4EC76AC910A873FD9022E2CC39C552C.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/16CA5370FC17EE9C0C1359A217F4CF56.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804183000 +0200" stop="20260804194000 +0200" channel="M6test">
+<programme start="20260805183000 +0200" stop="20260805194000 +0200" channel="M6test">
     <title lang="fr">Le juste prix</title>
     <desc lang="fr">Chaque jour, 7 candidats sont sélectionnés pour tenter de rejoindre Éric Antoine et se frotter aux cultissimes jeux du " Juste prix ". Une vingtaine d'épreuves culte les attend, notamment le " fakir ", le " coup de poing ", le " mini-gol...</desc>
     <credits>
@@ -222,26 +214,26 @@
     <date>2025</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E26D46155DF77B2732629631CD78DE88.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5744D90C211D093953F5DF14EA95F8C9.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">1.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804194000 +0200" stop="20260804194500 +0200" channel="M6test">
+<programme start="20260805194000 +0200" stop="20260805194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804194500 +0200" stop="20260804204000 +0200" channel="M6test">
+<programme start="20260805194500 +0200" stop="20260805204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -256,7 +248,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804204000 +0200" stop="20260804211000 +0200" channel="M6test">
+<programme start="20260805204000 +0200" stop="20260805211000 +0200" channel="M6test">
     <title lang="fr">En famille</title>
     <desc lang="fr">Plongée dans le quotidien des trois générations de la famille Le Kervelec. Jacques et Brigitte, les grands-parents, voient régulièrement leurs deux filles. Marjorie, l'aînée, est flanquée de deux adolescents, Antoine, un grand benêt, et Chloé, un brin manipulatrice. En partant, son mari lui a laissé Pupuce, un mastiff anglais. Roxane, la cadette, vit en couple avec Kader, avec qui elle a eu les jumeaux Hugo et Diego. Entre petites mesquineries et cachotteries, mais aussi de beaux moments de complicité, chacun révèle dans des apartés le fond de sa pensée sur les membres de sa famille ou la vie en général. Les créateurs et auteurs de "Scènes de ménages" sont à la baguette de cette fiction qui oscille entre humour et tendresse.</desc>
     <credits>
@@ -280,55 +272,135 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260804211000 +0200" stop="20260804230000 +0200" channel="M6test">
-    <title lang="fr">Zone interdite</title>
-    <sub-title lang="fr">Plages, fêtes et traditions : un été au coeur du Pays basque</sub-title>
-    <desc lang="fr">Avec six millions de vacanciers chaque été, le Pays basque, situé entre l'océan Atlantique et la chaîne des Pyrénées, séduit de plus en plus de touristes. La région recèle de nombreux trésors : des plages réputées pour le surf, une montagne préservée et une vie culturelle riche en traditions. </desc>
+<programme start="20260805211000 +0200" stop="20260805221000 +0200" channel="M6test">
+    <title lang="fr">J'en connais un rayon</title>
+    <desc lang="fr">Ce jeu met 50 candidats à l'épreuve dans des situations inspirées du quotidien. Face à des scénarios que chacun peut vivre en tant que consommateur, les joueurs devront faire preuve de flair, de bon sens, d'astuce ou encore de patience, pour faire les bons choix lors de leurs achats habituels.</desc>
     <credits>
-      <guest>Ophélie Meunier</guest>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/A48995BCF144A86E12CCA58398B1CCD2.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260804230000 +0200" stop="20260805005000 +0200" channel="M6test">
-    <title lang="fr">Zone interdite</title>
-    <sub-title lang="fr">Logement, courses, vacances : ils sont les rois de la débrouille</sub-title>
-    <desc lang="fr">Certains Français sont passés maîtres dans l'art d'améliorer le quotidien grâce à la débrouille. Faire baisser la facture au supermarché, réaliser des travaux à moindre coût ou encore s'offrir des vacances quasiment gratuites : rencontre avec des Français qui font preuve d'une imagination sans limite.</desc>
-    <credits>
-      <guest>Ophélie Meunier</guest>
+      <guest>Olivier Dauvers</guest>
+      <guest>Julien Courbet</guest>
+      <guest>Anne-Claire Moser</guest>
     </credits>
     <date>2025</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/08223EE3FB56EF17813B6F740563CDFA.jpg"/>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FADEAEE628C9A2F507F3FB901E14F823.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260805005000 +0200" stop="20260805024000 +0200" channel="M6test">
-    <title lang="fr">Zone interdite</title>
-    <sub-title lang="fr">Turquie, Albanie, Monténégro : enquête sur les nouvelles destinations stars de la Méditerranée</sub-title>
-    <desc lang="fr">Parmi les nouvelles destinations stars de la Méditerranée, la Turquie, paradis des hôtels all inclusive, l'Albanie et ses road trips hors des sentiers battus, ou encore le Monténégro, nouvel eldorado de la fête les pieds dans l'eau, promettent tous les trois soleil, plages de rêve et bons plans.</desc>
+<programme start="20260805221000 +0200" stop="20260805232500 +0200" channel="M6test">
+    <title lang="fr">J'en connais un rayon</title>
+    <desc lang="fr">Les candidats doivent se poser des questions avant de faire leurs courses et leurs choix sont scrutés à la loupe par Julien Courbet et ses experts de la consommation. Pour le plus malin des participants de "J'en connais un rayon", le gros lot prendra la forme jusqu'à 20 ans de courses offertes.</desc>
     <credits>
-      <guest>Ophélie Meunier</guest>
+      <guest>Olivier Dauvers</guest>
+      <guest>Julien Courbet</guest>
+      <guest>Anne-Claire Moser</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FADEAEE628C9A2F507F3FB901E14F823.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260805232500 +0200" stop="20260806000500 +0200" channel="M6test">
+    <title lang="fr">J'en connais un rayon</title>
+    <desc lang="fr">Ce jeu met cinquante candidats à l'épreuve dans des situations inspirées du quotidien. Face à des scénarios que chacun peut vivre en tant que consommateur, les joueurs devront faire preuve de flair, de bon sens et d'astuce pour faire les bons choix...</desc>
+    <credits>
+      <guest>Olivier Dauvers</guest>
+      <guest>Julien Courbet</guest>
+      <guest>Anne-Claire Moser</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E25DAEFE76180D65E2BFFEF8748E9BF3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260806000500 +0200" stop="20260806010500 +0200" channel="M6test">
+    <title lang="fr">J'en connais un rayon</title>
+    <desc lang="fr">50 candidats se retrouvent confrontés à des situations inspirées du quotidien de tout consommateur. Bon sens, flair et astuce sont indispensables pour prendre les bonnes décisions d'achat. Isabelle Morini-Bosc, Norbert Tarayre et Delphine Wespiser jouent également au profit d'associations.</desc>
+    <credits>
+      <guest>Norbert Tarayre</guest>
+      <guest>Olivier Dauvers</guest>
+      <guest>Isabelle Morini-Bosc</guest>
+      <guest>Julien Courbet</guest>
+      <guest>Delphine Wespiser</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/10DCA2E0303D58FC5E58FF2292B4EB77.jpg"/>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B43128845A6D264BAF73E237D75F03F6.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260805024000 +0200" stop="20260805060000 +0200" channel="M6test">
+<programme start="20260806010500 +0200" stop="20260806023500 +0200" channel="M6test">
+    <title lang="fr">J'en connais un rayon</title>
+    <desc lang="fr">Des situations du quotidien de tout consommateur sont au programme d'un jeu auquel participent également Isabelle Morini-Bosc, Norbet Tarayre et Delphine Wespiser, qui espèrent réunir des fonds pour des associations qui leur tiennent à coeur.</desc>
+    <credits>
+      <guest>Norbert Tarayre</guest>
+      <guest>Julien Courbet</guest>
+      <guest>Delphine Wespiser</guest>
+      <guest>Isabelle Morini-Bosc</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C8CE0164F9136FE89E038191FB1471B6.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260806023500 +0200" stop="20260806032000 +0200" channel="M6test">
+    <title lang="fr">J'en connais un rayon</title>
+    <desc lang="fr">Ce jeu met cinquante candidats à l'épreuve dans des situations inspirées du quotidien. Les joueurs doivent faire preuve de flair, de bon sens et d'astuce pour faire les bons choix lors de leurs achats. Elodie Gossuin, Gwendal Marimoutou et Caroline Margeridon relèvent le défi au profit d'associations.</desc>
+    <credits>
+      <guest>Caroline Margeridon</guest>
+      <guest>Anne-Claire Moser</guest>
+      <guest>Julien Courbet</guest>
+      <guest>Elodie Gossuin</guest>
+      <guest>Gwendal Marimoutou</guest>
+      <guest>Olivier Dauvers</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/597DA68AF9D7B972F051C92DA8CAB14E.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260806032000 +0200" stop="20260806045000 +0200" channel="M6test">
+    <title lang="fr">J'en connais un rayon</title>
+    <desc lang="fr">Cinquante candidats misent sur leurs connaissances en matière de consommation pour espérer l'emporter dans un divertissement aussi instructif qu'amusant. Olivier Dauvers, expert en grande distribution, et Anne-Claire Moser, avocate spécialisée, entourent Julien Courbet.</desc>
+    <credits>
+      <guest>Caroline Margeridon</guest>
+      <guest>Anne-Claire Moser</guest>
+      <guest>Julien Courbet</guest>
+      <guest>Elodie Gossuin</guest>
+      <guest>Gwendal Marimoutou</guest>
+      <guest>Olivier Dauvers</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C8CE0164F9136FE89E038191FB1471B6.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260806045000 +0200" stop="20260806060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
