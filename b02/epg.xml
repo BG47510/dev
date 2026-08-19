@@ -3,18 +3,18 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260817023500 +0200" stop="20260817060000 +0200" channel="M6test">
+<programme start="20260819023000 +0200" stop="20260819060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
     <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/611B52CD73AB6BCF0E8FA80EB8015F5E.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817060000 +0200" stop="20260817081000 +0200" channel="M6test">
+<programme start="20260819060000 +0200" stop="20260819081000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -41,7 +41,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817081000 +0200" stop="20260817094500 +0200" channel="M6test">
+<programme start="20260819081000 +0200" stop="20260819094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -51,13 +51,13 @@
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817094500 +0200" stop="20260817113000 +0200" channel="M6test">
+<programme start="20260819094500 +0200" stop="20260819113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -72,7 +72,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817113000 +0200" stop="20260817124000 +0200" channel="M6test">
+<programme start="20260819113000 +0200" stop="20260819124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -87,7 +87,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817124000 +0200" stop="20260817124500 +0200" channel="M6test">
+<programme start="20260819124000 +0200" stop="20260819124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -99,7 +99,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817124500 +0200" stop="20260817133500 +0200" channel="M6test">
+<programme start="20260819124500 +0200" stop="20260819133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -108,13 +108,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6A6B36237BEFA253B09FE58D99F47817.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817133500 +0200" stop="20260817134000 +0200" channel="M6test">
+<programme start="20260819133500 +0200" stop="20260819134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -135,53 +135,15 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DEC4BD560E547955592B0646BB733759.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817134000 +0200" stop="20260817145000 +0200" channel="M6test">
+<programme start="20260819134000 +0200" stop="20260819145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">4.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260817145000 +0200" stop="20260817155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">4.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260817155000 +0200" stop="20260817165000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260817165000 +0200" stop="20260817173000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Familles nombreuses : le défi des vacances réussies</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -192,7 +154,46 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817173000 +0200" stop="20260817183000 +0200" channel="M6test">
+<programme start="20260819145000 +0200" stop="20260819155000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Resto d'autoroute : l'indépendant qui refuse de fermer</sub-title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260819155000 +0200" stop="20260819165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Supermarché des vacances : le grand rush de l'été (1/2)</sub-title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260819165000 +0200" stop="20260819173000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Les secrets d'une des plus grandes foires de France</sub-title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260819173000 +0200" stop="20260819183000 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -201,14 +202,14 @@
     <date>2024</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/34D7B9335FD589FB19A412BA45F67C90.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/C4EC76AC910A873FD9022E2CC39C552C.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817183000 +0200" stop="20260817194000 +0200" channel="M6test">
+<programme start="20260819183000 +0200" stop="20260819194000 +0200" channel="M6test">
     <title lang="fr">Le juste prix</title>
     <desc lang="fr">Chaque jour, 7 candidats sont sélectionnés pour tenter de rejoindre Éric Antoine et se frotter aux cultissimes jeux du " Juste prix ". Une vingtaine d'épreuves culte les attend, notamment le " fakir ", le " coup de poing ", le " mini-gol...</desc>
     <credits>
@@ -217,14 +218,14 @@
     <date>2023</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5744D90C211D093953F5DF14EA95F8C9.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/E26D46155DF77B2732629631CD78DE88.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">1.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817194000 +0200" stop="20260817194500 +0200" channel="M6test">
+<programme start="20260819194000 +0200" stop="20260819194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -236,7 +237,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817194500 +0200" stop="20260817204000 +0200" channel="M6test">
+<programme start="20260819194500 +0200" stop="20260819204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -251,7 +252,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817204000 +0200" stop="20260817211000 +0200" channel="M6test">
+<programme start="20260819204000 +0200" stop="20260819211000 +0200" channel="M6test">
     <title lang="fr">En famille</title>
     <desc lang="fr">Au sein de la famille Le Kervelec, certains s'affrontent, à l'instar de Jacques et Brigitte qui ambitionnent tous les deux de prendre la tête de l'association des Voisins vigilants, tandis que d'autres optent plutôt pour la coopération. C'est notamment le cas de Roxane et Marjorie, la première souhaitant proposer des activités culturelles dans la clinique où travaille sa soeur. Sébastien devient gardien d'immeuble, et Chloé écrit un livre très inspiré par ses proches. Lionnel Astier et Michèle Bernier font partie des invités de cette 14e saison.</desc>
     <credits>
@@ -268,108 +269,118 @@
     <date>2026</date>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C4074C27069596066284FE8F9F671E67.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/3D5B87CB287FD72407ACE54D5E9BADE5.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">13.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817211000 +0200" stop="20260817221500 +0200" channel="M6test">
-    <title lang="fr">L'amour est dans le pré</title>
-    <desc lang="fr">Cette 21e saison fait le choix de placer chaque agriculteur au coeur d'une aventure qui lui ressemble. Si les grandes étapes qui font le succès de l'émission restent bien présentes, elles s'adaptent lorsque cela permet de rendre une rencontre encore plus sincère, plus naturelle ou plus marquante.</desc>
+<programme start="20260819211000 +0200" stop="20260819220500 +0200" channel="M6test">
+    <title lang="fr">A quel prix ?</title>
+    <desc lang="fr">Investir dans l'immobilier avec un tout petit apport, s'acheter un jean à prix mini ou un aspirateur robot entrée de gamme, opter pour une banque en ligne sans aucun frais ou un cabinet dentaire low-cost, est-ce une bonne idée ? Peut-on se fier à ces offres alléchantes ? Des experts passent ces produits et services de grande consommation au crible.</desc>
     <credits>
-      <guest>Karine Le Marchand</guest>
+      <guest>Norbert Tarayre</guest>
+      <guest>Sandra Viricel</guest>
+      <guest>Julien Courbet</guest>
+      <guest>Romain Lanéry</guest>
+      <guest>Elodie Gossuin</guest>
+      <guest>Olivier Dauvers</guest>
+      <guest>Martial You</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/AB3F4D8CCB68A054DAC088ACF24B79CC.jpg"/>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F3E3D4E74B3F04E4CCE5965B625F69D2.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">20.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260817221500 +0200" stop="20260817230500 +0200" channel="M6test">
-    <title lang="fr">L'amour vu du pré</title>
-    <desc lang="fr">D'anciens agriculteurs et prétendant(e)s commentent "L'amour est dans le pré". Avec leurs personnalités bien affirmées, leur humour, leur spontanéité et leur regard sans filtre, ils se prennent rapidement au jeu des confidences, des commentaires et des réactions à chaud. Leur présence apporte un nouvel éclairage aux histoires d'amour.</desc>
-    <date>2026</date>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/9E9FD15C01A622C20E300C1B05EB3A2C.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">7.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260817230500 +0200" stop="20260818000500 +0200" channel="M6test">
-    <title lang="fr">L'amour est dans le pré</title>
-    <sub-title lang="fr">Les portraits</sub-title>
-    <desc lang="fr">L'amour est dans le pré revient pour une 21e saison plus touchante que jamais. Cette année encore, Karine Le Marchand ouvre les portes des exploitations agricoles où battent des coeurs en quête d'âme soeur. Derrière les tracteurs et les étables se cachent des hommes et des femmes aux parcours extraordinaires.</desc>
+<programme start="20260819220500 +0200" stop="20260819231500 +0200" channel="M6test">
+    <title lang="fr">A quel prix ?</title>
+    <desc lang="fr">Que valent les petits prix ? Analyses en laboratoires, études comparatives, enquêtes de terrain : les experts passent ces produits et services de grande consommation au crible. Olivier Dauvers éclaire sur les arnaques à éviter dans les supermarchés et Le chef Norbert Tarayre partage ses bons plans pour se régaler à moindre coût.</desc>
     <credits>
-      <guest>Karine Le Marchand</guest>
+      <guest>Norbert Tarayre</guest>
+      <guest>Sandra Viricel</guest>
+      <guest>Julien Courbet</guest>
+      <guest>Romain Lanéry</guest>
+      <guest>Elodie Gossuin</guest>
+      <guest>Olivier Dauvers</guest>
+      <guest>Martial You</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/A777818162EBB09BA71F3028BCFF36C5.jpg"/>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F3E3D4E74B3F04E4CCE5965B625F69D2.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">20.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260818000500 +0200" stop="20260818005000 +0200" channel="M6test">
-    <title lang="fr">L'amour est dans le pré</title>
-    <sub-title lang="fr">Les portraits</sub-title>
-    <desc lang="fr">Du rire aux larmes, il y a beaucoup d'émotions au rendez-vous de ces portraits qui permettent de faire plus ample connaissance avec les quatorze agriculteurs de cette 21e saison, qui sont autant de coeurs à prendre.</desc>
+<programme start="20260819231500 +0200" stop="20260820001000 +0200" channel="M6test">
+    <title lang="fr">A quel prix, la suite</title>
+    <sub-title lang="fr">Noz, B&amp;M, Normal : leurs secrets pour vous faire économiser toujours plus</sub-title>
+    <desc lang="fr">Action, Normal, B&amp;M, Noz : ces enseignes promettent des grandes marques à petits prix, des arrivages permanents, des promos qui donnent l'impression de faire une affaire immanquable. Mais est-ce vraiment moins cher que partout ailleurs ? Et surtout, comment arrivent-ils à proposer ces tarifs ?</desc>
+    <date>2026</date>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DC81918F79C76B6EFDAA7C62C9081F01.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260820001000 +0200" stop="20260820010000 +0200" channel="M6test">
+    <title lang="fr">A quel prix, la suite</title>
+    <sub-title lang="fr">Noz, B&amp;M, Normal : leurs secrets pour vous faire économiser toujours plus</sub-title>
+    <desc lang="fr">Action, Normal, B&amp;M ou encore Noz partent à l'assaut de la grande distribution. Alors que plus d'un Français sur deux limite ses achats de produit d'hygiène faute de budget, la chasse aux bonnes affaires est un sport national.</desc>
+    <date>2026</date>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/663FC507551D5DFB57C88386919351DE.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260820010000 +0200" stop="20260820020500 +0200" channel="M6test">
+    <title lang="fr">A quel prix ?</title>
+    <desc lang="fr">Julien Courbet et son équipe s'intéressent aux petits prix. Acheter un appartement aux enchères, opter pour des lunettes à prix mini, est-ce une bonne idée ? Analyses en laboratoires, études comparatives, enquêtes de terrain, les experts passent ces produits et services de grande consommation au crible.</desc>
     <credits>
-      <guest>Karine Le Marchand</guest>
+      <guest>Sandra Viricel</guest>
+      <guest>Julien Courbet</guest>
+      <guest>Pascal Goncalves</guest>
+      <guest>Romain Lanéry</guest>
+      <guest>Elodie Gossuin</guest>
+      <guest>Olivier Dauvers</guest>
+      <guest>Martial You</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Téléréalité</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/80A7C905CA7E12DA26B389C776267703.jpg"/>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D4C7A6006CB671E7A7ED7A22C6DA97B1.jpg"/>
     <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">20.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260818005000 +0200" stop="20260818015000 +0200" channel="M6test">
-    <title lang="fr">Et si on se rencontrait ?</title>
-    <desc lang="fr">A la découverte de ces incroyables histoires d'amour de couples qui ont craqué virtuellement l'un pour l'autre, et qui se rencontrent pour la première fois en vrai. C'est au château de Serans, dans l'Oise, que ces amoureux virtuels vont passer du fantasme à la réalité. Pour le meilleur ou pas ?</desc>
-    <date>2023</date>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/F0574224C87EFF6A632361D72D42B56D.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">2.5.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260818015000 +0200" stop="20260818024000 +0200" channel="M6test">
-    <title lang="fr">Et si on se rencontrait ?</title>
-    <desc lang="fr">Des hommes et des femmes se sont rencontrés sur les réseaux sociaux, un forum de discussion, une application de rencontres. Depuis des mois ou des années, ils entretiennent une vraie relation. Mais est-il possible de tomber amoureux d'une personne à distance ? A présent, ces hommes et ces femmes de tout âge se donnent rendez-vous dans un château, un endroit privilégié et romantique pour une première rencontre. </desc>
-    <date>2021</date>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CC0D0D84FCB01EA44203A83EB7422F1C.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.5.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260818024000 +0200" stop="20260818060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/611B52CD73AB6BCF0E8FA80EB8015F5E.jpg"/>
+<programme start="20260820020500 +0200" stop="20260820031000 +0200" channel="M6test">
+    <title lang="fr">A quel prix ?</title>
+    <desc lang="fr">Les petits prix peuvent-ils rivaliser avec les versions plus onéreuses ? Elodie Gossuin Sandra Viricel, Olivier Dauvers, Martial You ou encore Romain Lanéry passent produits et services au crible pour répondre à cette question. Quant à Pascal Gonvcalves, ce médecin généraliste partage ses astuces pour consommer en toute sécurité.</desc>
+    <credits>
+      <guest>Sandra Viricel</guest>
+      <guest>Julien Courbet</guest>
+      <guest>Pascal Goncalves</guest>
+      <guest>Romain Lanéry</guest>
+      <guest>Elodie Gossuin</guest>
+      <guest>Olivier Dauvers</guest>
+      <guest>Martial You</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D4C7A6006CB671E7A7ED7A22C6DA97B1.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
