@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260825023500 +0200" stop="20260825060000 +0200" channel="M6test">
+<programme start="20260826024000 +0200" stop="20260826060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
@@ -14,7 +14,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825060000 +0200" stop="20260825080500 +0200" channel="M6test">
+<programme start="20260826060000 +0200" stop="20260826080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -41,7 +41,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825080500 +0200" stop="20260825094500 +0200" channel="M6test">
+<programme start="20260826080500 +0200" stop="20260826094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -51,13 +51,13 @@
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825094500 +0200" stop="20260825113000 +0200" channel="M6test">
+<programme start="20260826094500 +0200" stop="20260826113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -66,13 +66,13 @@
     <date>2026</date>
     <category lang="fr">Art de vivre</category>
     <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BDCDE118CB4609F8D800BF13AD037494.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/49FBFE03E9BD010FFCEB1FC0CEE4F51A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825113000 +0200" stop="20260825124000 +0200" channel="M6test">
+<programme start="20260826113000 +0200" stop="20260826124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -81,13 +81,13 @@
     <date>2026</date>
     <category lang="fr">Art de vivre</category>
     <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8C544F63E72CB621535D938B32FF8A37.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/EBB12C17F2A1CCBA6F444A8B306BFD4F.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825124000 +0200" stop="20260825124500 +0200" channel="M6test">
+<programme start="20260826124000 +0200" stop="20260826124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -99,7 +99,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825124500 +0200" stop="20260825133500 +0200" channel="M6test">
+<programme start="20260826124500 +0200" stop="20260826133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -108,13 +108,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825133500 +0200" stop="20260825134000 +0200" channel="M6test">
+<programme start="20260826133500 +0200" stop="20260826134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -135,37 +135,13 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5BE1C81B901C83675E72B40D3495A95E.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825134000 +0200" stop="20260825145000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260825145000 +0200" stop="20260825155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260825155000 +0200" stop="20260825165000 +0200" channel="M6test">
+<programme start="20260826134000 +0200" stop="20260826145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -177,7 +153,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825165000 +0200" stop="20260825173000 +0200" channel="M6test">
+<programme start="20260826145000 +0200" stop="20260826155000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -189,7 +165,31 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825173000 +0200" stop="20260825183500 +0200" channel="M6test">
+<programme start="20260826155000 +0200" stop="20260826165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260826165000 +0200" stop="20260826173000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260826173000 +0200" stop="20260826183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -205,7 +205,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825183500 +0200" stop="20260825194000 +0200" channel="M6test">
+<programme start="20260826183500 +0200" stop="20260826194000 +0200" channel="M6test">
     <title lang="fr">Le juste prix</title>
     <desc lang="fr">Cette nouvelle version du Juste Prix reprend les fondamentaux qui ont fait le succès du jeu et s'enrichit d'une formule plus feuilletonnante pour tenir les téléspectateurs en haleine tout au long de la semaine.</desc>
     <credits>
@@ -221,7 +221,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825194000 +0200" stop="20260825194500 +0200" channel="M6test">
+<programme start="20260826194000 +0200" stop="20260826194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -233,7 +233,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825194500 +0200" stop="20260825204000 +0200" channel="M6test">
+<programme start="20260826194500 +0200" stop="20260826204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -248,7 +248,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825204000 +0200" stop="20260825211000 +0200" channel="M6test">
+<programme start="20260826204000 +0200" stop="20260826211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Qu'ils refassent leur intérieur, qu'ils partent en voyage initiatique, qu'ils changent de continent ou qu'ils refondent leur famille, nos couples vont bousculer leurs vies comme ils ne l'avaient jamais fait auparavant. C'est aussi l'occasion d'accueillir le fils de Raymond, de retour d'Australie, et l'employé déprimé d'Alice et Sofiane. Bref, tout change… sauf eux !</desc>
     <credits>
@@ -276,61 +276,361 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825211000 +0200" stop="20260825230000 +0200" channel="M6test">
-    <title lang="fr">Zone interdite</title>
-    <sub-title lang="fr">Croisière dans les Caraïbes : au cœur du nouveau paquebot de la demesure</sub-title>
-    <desc lang="fr">333 mètres, jusqu'à 6700 passagers, 2000 membres d'équipage : le World America est le navire de la démesure. Il est sorti des chantiers navals de Saint-Nazaire il y a quelques mois. De Miami à Porto Rico en passant par le Mexique ou les Bahamas, trois familles françaises vont vivre un rêve à son bord.</desc>
+<programme start="20260826211000 +0200" stop="20260826214500 +0200" channel="M6test">
+    <title lang="fr">Les amateurs</title>
+    <desc lang="fr">Sur le chemin du travail après une soirée arrosée, Vincent, la trentaine, est témoin d'un accident de voiture et découvre le téléphone du blessé. Lorsqu'il répond à un appel, il entend des hurlements de femme, et une voix menaçante : " Si vous n'êtes pas là à 17h, nous tuerons votre femme". Alban, son collègue de 45 ans, au tempérament fougueux, se voit déjà en héros du jour et pousse Vincent à l'action...</desc>
     <credits>
-      <guest>Ophélie Meunier</guest>
+      <director>Fred Scotlande</director>
+      <actor>Anne Benoît</actor>
+      <actor>Alain Eloy</actor>
+      <actor>Fanny Sidney</actor>
+      <actor>Isabelle Anciaux</actor>
+      <actor>Gauthier de Fauconval</actor>
+      <actor>François Damiens</actor>
+      <actor>Caroline Dujardin</actor>
+      <actor>Gémi Diallo</actor>
+      <actor>Dominique Rongvaux</actor>
+      <actor>Vincent Dedienne</actor>
+      <actor>Mélissa Diara</actor>
+      <actor>Hervé Piron</actor>
+      <adapter>Fred Scotlande</adapter>
+      <adapter>Chloé Marçais</adapter>
+      <composer>Ed Rig</composer>
+      <composer>Anthony d'Amario</composer>
+      <editor>Jim Field Smith</editor>
+      <editor>James Corden</editor>
+      <editor>Mathew Baynton</editor>
+      <guest>Calt Studio</guest>
+      <guest>Beside Productions</guest>
+      <guest>BBC Studios France</guest>
     </credits>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8044418629D38E03550B9DC440E857BA.jpg"/>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8B9CCEF7F2292D80A5C8F4371738162A.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260825230000 +0200" stop="20260826004500 +0200" channel="M6test">
-    <title lang="fr">Zone interdite</title>
-    <sub-title lang="fr">De l'été à la rentrée : au cœur d'un hypermarché des vacances</sub-title>
-    <desc lang="fr">L'été, Argelès-sur-Mer voit sa population multipliée par quinze. Une aubaine pour l'unique hypermarché de la ville qui s'apprête à réaliser plus du quart de son chiffre d'affaires annuel. Durant deux mois, les équipes de "Zone interdite" ont accompagné les salariés du magasin au coeur de ce grand rush.</desc>
+<programme start="20260826214500 +0200" stop="20260826222000 +0200" channel="M6test">
+    <title lang="fr">Les amateurs</title>
+    <desc lang="fr">Vincent et Alban ont été enlevés par monsieur Hermann, l'homme dont l'épouse a été kidnappée et qui cherche à la retrouver. Soupçonnant les deux collègues d'avoir volé la rançon, il leur promet une mort certaine et les oblige à se rendre avec une mallette vide au rendez-vous fixé par les ravisseurs, de dangereux membres d'un gang albanais...</desc>
     <credits>
-      <guest>Ophélie Meunier</guest>
+      <director>Fred Scotlande</director>
+      <actor>François Damiens</actor>
+      <actor>Fanny Sidney</actor>
+      <actor>Olivier Bony</actor>
+      <actor>Laurent Capelluto</actor>
+      <actor>Anne Benoît</actor>
+      <actor>Anne Azoulay</actor>
+      <actor>Lucie Debay</actor>
+      <actor>Vincent Dedienne</actor>
+      <editor>Jim Field Smith</editor>
+      <editor>James Corden</editor>
+      <editor>Mathew Baynton</editor>
+      <guest>Calt Studio</guest>
+      <guest>Beside Productions</guest>
+      <guest>BBC Studios France</guest>
     </credits>
-    <date>2025</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6E3E1C42801E40B0F2D224FC91C677A5.jpg"/>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/791C288AD2D32090610D064863BDE566.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260826004500 +0200" stop="20260826024000 +0200" channel="M6test">
-    <title lang="fr">Zone interdite</title>
-    <sub-title lang="fr">Surtourisme, pollution : menace sur les perles de la Méditerranée</sub-title>
-    <desc lang="fr">Plages bondées, explosion du trafic maritime, pollution : des célèbres calanques de Marseille à l'île de Majorque, dans les Baléares, "Zone interdite" a enquêté sur les menaces qui pèsent sur la Grande Bleue. Rencontre également avec celles et ceux qui se mobilisent au quotidien pour la protéger.</desc>
+<programme start="20260826222000 +0200" stop="20260826230000 +0200" channel="M6test">
+    <title lang="fr">Les amateurs</title>
+    <desc lang="fr">Après une folle course-poursuite et une fusillade impressionnante au sein des locaux de l'Agence départementale, Vincent et Alban parviennent à prendre la fuite in extremis en compagnie de madame Hermann. Mais, contre toute attente, les retrouvailles tant attendues avec son mari ne se passent pas du tout comme prévu. Les deux apprentis aventuriers sont estomaqués...</desc>
     <credits>
-      <guest>Ophélie Meunier</guest>
+      <director>Fred Scotlande</director>
+      <actor>François Damiens</actor>
+      <actor>Fanny Sidney</actor>
+      <actor>Anne Benoît</actor>
+      <actor>Alexandre Trocki</actor>
+      <actor>Olivier Bony</actor>
+      <actor>Anne Azoulay</actor>
+      <actor>Lucie Debay</actor>
+      <actor>Vincent Dedienne</actor>
+      <editor>Jim Field Smith</editor>
+      <editor>James Corden</editor>
+      <editor>Mathew Baynton</editor>
+      <guest>Calt Studio</guest>
+      <guest>Beside Productions</guest>
+      <guest>BBC Studios France</guest>
     </credits>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/0A9E075CD1D72DEC350795028F34EE7B.jpg"/>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/791C288AD2D32090610D064863BDE566.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
-      <value>Tout public</value>
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
     </rating>
   </programme>
-<programme start="20260826024000 +0200" stop="20260826060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+<programme start="20260826230000 +0200" stop="20260826233500 +0200" channel="M6test">
+    <title lang="fr">Les amateurs</title>
+    <desc lang="fr">Vincent et Alban commencent à saisir l'ampleur du complot dans lequel ils ont mis les pieds, mais n'ont pas le temps de mener l'enquête. Victimes d'un chantage, ils n'ont d'autre choix que d'aller récupérer une boîte à musique en s'invitant chez Marat Milankovitch, un oligarque russe extrêmement dangereux...</desc>
+    <credits>
+      <director>Fred Scotlande</director>
+      <actor>François Damiens</actor>
+      <actor>Peter Van den Begin</actor>
+      <actor>Fanny Sidney</actor>
+      <actor>Anne Benoît</actor>
+      <actor>Alexandre Trocki</actor>
+      <actor>Olivier Bony</actor>
+      <actor>Lucie Debay</actor>
+      <actor>Vincent Dedienne</actor>
+      <editor>Jim Field Smith</editor>
+      <editor>James Corden</editor>
+      <editor>Mathew Baynton</editor>
+      <guest>Calt Studio</guest>
+      <guest>Beside Productions</guest>
+      <guest>BBC Studios France</guest>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/9956A025E46A055B9938AADD866D36AE.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260826233500 +0200" stop="20260827001500 +0200" channel="M6test">
+    <title lang="fr">Les amateurs</title>
+    <desc lang="fr">Ciblés par la DGSE et traînant avec eux Marat, Vincent et Alban comprennent qu'ils ne sont que des pions dans un scandale de grande envergure. Mais ils n'ont pas pu prévenir Louise, et les voilà maintenant pris en chasse par des agents russes qui cherchent à éliminer Marat...</desc>
+    <credits>
+      <director>Fred Scotlande</director>
+      <actor>François Damiens</actor>
+      <actor>Anne Benoît</actor>
+      <actor>Peter Van den Begin</actor>
+      <actor>Fanny Sidney</actor>
+      <actor>Alexandre Trocky</actor>
+      <actor>Anne Azoulay</actor>
+      <actor>Denis Mpunga</actor>
+      <actor>Michaël Erpelding</actor>
+      <actor>Gauthier de Fauconval</actor>
+      <actor>Lucie Debay</actor>
+      <actor>Vincent Dedienne</actor>
+      <actor>Noémie Carcaud</actor>
+      <adapter>Fred Scotlande</adapter>
+      <adapter>Chloé Marçais</adapter>
+      <composer>Loris Bernot</composer>
+      <editor>Jim Field Smith</editor>
+      <editor>James Corden</editor>
+      <editor>Mathew Baynton</editor>
+      <guest>BBC Studios France</guest>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/9D7193F348177E8854C1232E01C4BFDC.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.4.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260827001500 +0200" stop="20260827005000 +0200" channel="M6test">
+    <title lang="fr">Les amateurs</title>
+    <desc lang="fr">Vincent et Alban parviennent in extremis à échapper à leurs poursuivants, mais Louise est enlevée et tout semble perdu. Vincent se précipite pour tenter de la sauver alors qu'elle est retenue dans un aérodrome désaffecté...</desc>
+    <credits>
+      <director>Fred Scotlande</director>
+      <actor>François Damiens</actor>
+      <actor>Anne Benoît</actor>
+      <actor>Peter Van den Begin</actor>
+      <actor>Olivier Bony</actor>
+      <actor>Fanny Sidney</actor>
+      <actor>Michaël Erpelding</actor>
+      <actor>Alexandre Trocki</actor>
+      <actor>Anne Azoulay</actor>
+      <actor>Laurent Capelluto</actor>
+      <actor>Evelyn Ariza</actor>
+      <actor>Lucie Debay</actor>
+      <actor>Vincent Dedienne</actor>
+      <adapter>Fred Scotlande</adapter>
+      <adapter>Chloé Marçais</adapter>
+      <composer>Ed Rig</composer>
+      <composer>Anthony d'Amario</composer>
+      <editor>Jim Field Smith</editor>
+      <editor>James Corden</editor>
+      <editor>Mathew Baynton</editor>
+      <guest>Calt Studio</guest>
+      <guest>Beside Productions</guest>
+      <guest>BBC Studios France</guest>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/14AFCDD6104F31F5F16C045409CEC194.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260827005000 +0200" stop="20260827014000 +0200" channel="M6test">
+    <title lang="fr">Les amateurs</title>
+    <desc lang="fr">Ciblés par un ennemi qui s'est juré de les éliminer, Vincent et Alban vivent désormais sous une fausse identité dans le désert marocain. Mais quand Alban apprend que sa mère est gravement malade, Vincent, qui rêve de revoir Louise, le convainc que c'est le moment de fuir pour enfin rentrer à Beaucastel. Ils passent alors un marché avec un malfrat pour se procurer de faux papiers...</desc>
+    <credits>
+      <director>Fred Scotlande</director>
+      <director>Maax Thuvertie</director>
+      <director>Dimitri Linder</director>
+      <actor>Gémi Diallo</actor>
+      <actor>Peter Van den Begin</actor>
+      <actor>Fanny Sidney</actor>
+      <actor>Anne Benoît</actor>
+      <actor>Christelle Cornil</actor>
+      <actor>François Damiens</actor>
+      <actor>Vincent Dedienne</actor>
+      <actor>Youssef Ballal</actor>
+      <actor>Fanny Carbonnel</actor>
+      <actor>Alexandre Trocky</actor>
+      <actor>Gauthier de Fauconval</actor>
+      <actor>Noémie Carcaud</actor>
+      <adapter>Fred Scotlande</adapter>
+      <adapter>Chloé Marçais</adapter>
+      <composer>Ed Rig</composer>
+      <composer>Anthony d'Amario</composer>
+      <editor>Jim Field Smith</editor>
+      <editor>James Corden</editor>
+      <editor>Mathew Baynton</editor>
+      <guest>BBC Studios France</guest>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/791C288AD2D32090610D064863BDE566.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260827014000 +0200" stop="20260827021500 +0200" channel="M6test">
+    <title lang="fr">Les amateurs</title>
+    <desc lang="fr">Incarcérés dans une prison marocaine, Vincent et Alban sont menacés de mort s'ils n'exécutent pas une mission périlleuse : trouver où l'un de leurs codétenus, Attila, un psychopathe sanguinaire, a caché une cargaison de drogue. Alors que Noël approche et qu'ils brûlent de rentrer chez eux pour retrouver leurs proches, la situation semble désespérée...</desc>
+    <credits>
+      <director>Fred Scotlande</director>
+      <director>Maax Thuvertie</director>
+      <director>Dimitri Linder</director>
+      <actor>Peter Van den Begin</actor>
+      <actor>Fanny Sidney</actor>
+      <actor>Anne Benoît</actor>
+      <actor>Vincent Dedienne</actor>
+      <actor>Salima Glamine</actor>
+      <actor>Alain Bellot</actor>
+      <actor>Stéphane Fenocchi</actor>
+      <actor>François Damiens</actor>
+      <actor>Alexandre Trocki</actor>
+      <actor>Michaël Erpelding</actor>
+      <actor>Noémie Carcaud</actor>
+      <actor>Mostafa Benkerroum</actor>
+      <adapter>Fred Scotlande</adapter>
+      <adapter>Chloé Marçais</adapter>
+      <composer>Ed Rig</composer>
+      <composer>Anthony d'Amario</composer>
+      <editor>Jim Field Smith</editor>
+      <editor>James Corden</editor>
+      <editor>Mathew Baynton</editor>
+      <guest>BBC Studios France</guest>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4191B57B7F73A5937FAB38097D6A4973.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.1.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260827021500 +0200" stop="20260827025500 +0200" channel="M6test">
+    <title lang="fr">Les amateurs</title>
+    <desc lang="fr">A la suite d'un quiproquo, Vincent et Alban sont pris pour des scientifiques experts en armes biologiques et se retrouvent membres d'un commando de mercenaires en quête du VX, une redoutable arme biologique qu'ils doivent voler dans un laboratoire à haute sécurité en Ecosse...</desc>
+    <credits>
+      <director>Fred Scotlande</director>
+      <director>Maax Thuvertie</director>
+      <director>Dimitri Linder</director>
+      <actor>Peter Van den Begin</actor>
+      <actor>Fanny Sidney</actor>
+      <actor>Anne Benoît</actor>
+      <actor>Gaëtan Lejeune</actor>
+      <actor>Philippe Résimont</actor>
+      <actor>Alexandre Trocki</actor>
+      <actor>Michaël Erpelding</actor>
+      <actor>François Damiens</actor>
+      <actor>Vincent Dedienne</actor>
+      <actor>Soufian El Boubsi</actor>
+      <actor>Gwendolyn Gourvenec</actor>
+      <actor>Daphné Huynh</actor>
+      <adapter>Fred Scotlande</adapter>
+      <adapter>Chloé Marçais</adapter>
+      <composer>Ed Rig</composer>
+      <composer>Anthony d'Amario</composer>
+      <editor>Jim Field Smith</editor>
+      <editor>James Corden</editor>
+      <editor>Mathew Baynton</editor>
+      <guest>BBC Studios France</guest>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/791C288AD2D32090610D064863BDE566.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260827025500 +0200" stop="20260827033000 +0200" channel="M6test">
+    <title lang="fr">Les amateurs</title>
+    <desc lang="fr">Déterminés à rentrer chez eux, Vincent et Alban sont toujours en possession d'une fiole dangereuse. Vincent l'utilise comme monnaie d'échange pour négocier avec la DGSE et retrouver leur vie d'avant. Mais à Beaucastel, en plein marché de Noël, tous leurs ennemis convergent, prêts à tout pour les neutraliser définitivement...</desc>
+    <credits>
+      <director>Maax Thuvertie</director>
+      <director>Fred Scotlande</director>
+      <director>Dimitri Linder</director>
+      <actor>Gémi Diallo</actor>
+      <actor>Peter Van den Begin</actor>
+      <actor>Fanny Sidney</actor>
+      <actor>Anne Benoît</actor>
+      <actor>Christelle Cornil</actor>
+      <actor>Priscilla Adade</actor>
+      <actor>Alexandre Trocki</actor>
+      <actor>François Damiens</actor>
+      <actor>Vincent Dedienne</actor>
+      <actor>Gauthier de Fauconval</actor>
+      <actor>Noémie Carcaud</actor>
+      <actor>Blaise Afonso</actor>
+      <adapter>Fred Scotlande</adapter>
+      <adapter>Chloé Marçais</adapter>
+      <composer>Ed Rig</composer>
+      <composer>Anthony d'Amario</composer>
+      <editor>Jim Field Smith</editor>
+      <editor>James Corden</editor>
+      <editor>Mathew Baynton</editor>
+      <guest>BBC Studios France</guest>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E6CA648B37CF7222140F25BC55FC9E92.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.3.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
