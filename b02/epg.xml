@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260905060000 +0200" stop="20260905074500 +0200" channel="M6test">
+<programme start="20260906060000 +0200" stop="20260906070000 +0200" channel="M6test">
     <title lang="fr">M6 Kid</title>
     <desc lang="fr">M6 Kid présente les meilleurs dessin-animés pour le plus grand bonheur de vos enfants.</desc>
     <date>2024</date>
@@ -15,74 +15,81 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905074500 +0200" stop="20260905101000 +0200" channel="M6test">
-    <title lang="fr">Absolument stars</title>
-    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show-business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
-    <credits>
-      <guest>Claire Nevers</guest>
-    </credits>
+<programme start="20260906070000 +0200" stop="20260906073000 +0200" channel="M6test">
+    <title lang="fr">100% immo, l'hebdo</title>
+    <desc lang="fr">Les tendances et l'actualité du secteur immobilier, à Paris et en régions sont présentées dans cette émission où des professionnels livrent conseils et astuces.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
-    <category lang="fr">Culture</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/D94DCEA79E67BEDE8604E6413D80376B.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260905101000 +0200" stop="20260905102500 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Une plongée dans les coulisses d'événements spectaculaires, un retour sur des success stories entrepreneuriales ou des immersions dans le quotidien de ceux qui participent activement à construire l'avenir.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8E686FD9794C3215C12C0E4CB85EA92B.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260905102500 +0200" stop="20260905105500 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Une plongée dans les coulisses d'événements spectaculaires, un retour sur des success stories entrepreneuriales ou des immersions dans le quotidien de ceux qui participent activement à construire l'avenir.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8E686FD9794C3215C12C0E4CB85EA92B.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260905105500 +0200" stop="20260905114500 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Décryptage d'un phénomène de société ou d'un événement tiré de l'actualité.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4D618682A488EF70096578056AA7820D.jpg"/>
+    <category lang="fr">Découvertes</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6B4E8FA2B4BF5F9CCB0AB785BB7AAAA2.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">1.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905114500 +0200" stop="20260905124000 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
+<programme start="20260906073000 +0200" stop="20260906102500 +0200" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
-      <guest>Kareen Guiock Thuram</guest>
+      <guest>Marie-Ange Nardi</guest>
+      <guest>Charlotte Rosier</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5302E4ACD03C25F10DB96CEBC5AF2AB4.jpg"/>
+    <category lang="fr">Services</category>
+    <category lang="fr">Télé-achat</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905124000 +0200" stop="20260905124500 +0200" channel="M6test">
+<programme start="20260906102500 +0200" stop="20260906105500 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques, sans oublier les derniers modèles des différentes marques. Turbo revient sur les nouveautés du marché et présente les avantages et les petits inconvénients de chaque modèle.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/27B1D445FC0931E28D76FF9A640AB826.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260906105500 +0200" stop="20260906112500 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques, sans oublier les derniers modèles des différentes marques. Turbo revient sur les nouveautés du marché et présente les avantages et les petits inconvénients de chaque modèle.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260906112500 +0200" stop="20260906124000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Ce dimanche dans Turbo, Dominique Chapatte vous propose de retrouver Étienne Bruet, Safet Rastoder et Simon Potée-Gallini en région parisienne pour vous faire découvrir les bonnes affaires des constructeurs français de la rentrée.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5420AFB0C6C759BE0F8F1EC222D169B1.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260906124000 +0200" stop="20260906124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -94,7 +101,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905124500 +0200" stop="20260905133000 +0200" channel="M6test">
+<programme start="20260906124500 +0200" stop="20260906133000 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -109,9 +116,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905133000 +0200" stop="20260905141000 +0200" channel="M6test">
+<programme start="20260906133000 +0200" stop="20260906141000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Cambridge : la course à l'excellence</sub-title>
+    <sub-title lang="fr">Immobilier : la Bretagne, ça les gagne !</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -122,20 +129,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905141000 +0200" stop="20260905151000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Université américaine : le rêve des étudiants français</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260905151000 +0200" stop="20260905161000 +0200" channel="M6test">
+<programme start="20260906141000 +0200" stop="20260906151000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
     <date>2026</date>
@@ -147,9 +141,20 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905161000 +0200" stop="20260905163000 +0200" channel="M6test">
+<programme start="20260906151000 +0200" stop="20260906161000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Etudiant Erasmus, la vie rêvée</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260906161000 +0200" stop="20260906171000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -160,63 +165,49 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905163000 +0200" stop="20260905173000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Hong Kong : au cœur du meilleur lycée français au monde</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+<programme start="20260906171000 +0200" stop="20260906184000 +0200" channel="M6test">
+    <title lang="fr">66 minutes</title>
+    <desc lang="fr">ReLes trompe-l'œil au secours des petites boulangeries / Cosmétiques : si vous arrêtiez de tout payer plein pot ? / 40 ans, toujours en coloc / Périscolaire : les parents n'ont plus confiance / Rassemblements illégaux : les bolides dans le collimateur</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
     <date>2026</date>
     <category lang="fr">Magazine</category>
     <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/BFF9B34CB1528D4FA86117FE4620613A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905173000 +0200" stop="20260905184000 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
+<programme start="20260906184000 +0200" stop="20260906194000 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">Décryptage d'un phénomène de société ou d'un événement tiré de l'actualité.</desc>
     <credits>
-      <guest>Eric Antoine</guest>
+      <guest>Kareen Guiock Thuram</guest>
     </credits>
     <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C4EC76AC910A873FD9022E2CC39C552C.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260905184000 +0200" stop="20260905194000 +0200" channel="M6test">
-    <title lang="fr">Le maillon faible</title>
-    <desc lang="fr">Sous le regard à la fois bienveillant et malicieux d'Olivier Minne, les huit candidats du "Maillon faible" vont devoir prendre des décisions douloureuses. A chaque manche, le groupe désigne celui ou celle est qui jugé le plus faible. Ce verdict doit être sans appel, rendu parfois sur un simple regard.</desc>
-    <credits>
-      <guest>Olivier Minne</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/AA739A9670CCA94A4082B078EEBC694F.jpg"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4D618682A488EF70096578056AA7820D.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905194000 +0200" stop="20260905194500 +0200" channel="M6test">
+<programme start="20260906194000 +0200" stop="20260906194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/A9D474CBAFD5860E40262151D9657901.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/CE5B606E5AE0C3A055E1DEFDE641184E.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905194500 +0200" stop="20260905203000 +0200" channel="M6test">
+<programme start="20260906194500 +0200" stop="20260906201000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -225,363 +216,140 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/2774A1604A3D271305E89DC52118BAFD.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260905203000 +0200" stop="20260905211000 +0200" channel="M6test">
+<programme start="20260906201000 +0200" stop="20260906203500 +0200" channel="M6test">
+    <title lang="fr">Le 2010, Anne-Sophie Lapix</title>
+    <desc lang="fr">Figure connue ou visage anonyme, une personnalité qui a marqué l'actualité de la semaine écoulée s'entretient avec Anne-Sophie Lapix pour une interview d'une dizaine de minutes.</desc>
+    <credits>
+      <guest>Anne-Sophie Lapix</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Interview</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/11BA96445CDE0CDF2657105B900DD0EF.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260906203500 +0200" stop="20260906211000 +0200" channel="M6test">
+    <title lang="fr">E=M6</title>
+    <desc lang="fr">Bien choisir sa poêle, bien l'utiliser… la science pour des cuissons parfaites ! / Micro-ondes : 3 infos étonnantes pour mieux s'en servir ! / Robots-aspirateurs : un concentré de science qui simplifie notre quotidien !</desc>
+    <credits>
+      <guest>Mac Lesggy</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Sciences et technique</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/1B51217209C1FA18FA72E124A0E8864C.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260906211000 +0200" stop="20260906231500 +0200" channel="M6test">
+    <title lang="fr">Capital</title>
+    <sub-title lang="fr">Grand Frais : les recettes secrètes du supermarché qui fait craquer les Français</sub-title>
+    <desc lang="fr">Grand Frais : on vous révèle tous ses secrets ! Alors que tous les supermarchés se livrent une guerre des prix, Grand Frais fait l'inverse : des produits souvent plus chers, peu de promotions et pourtant ses magasins ne désemplissent pas. - Barilla / Panzani : qui gagnera le match des sauces toutes prêtes ?</desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8F7DE115876C98544CB280B362D09D2D.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260906231500 +0200" stop="20260907002500 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Sexe, amour et samba : le Brésil sans tabou</sub-title>
+    <desc lang="fr">Au Brésil, séduire est presque devenu une façon de vivre. La chirurgie esthétique y est très démocratisée, pour les femmes comme pour les hommes, et les moeurs sont très libres. Cela n'empêche pas la société brésilienne d'être également très attachée à la religion et aux vieux codes patriarcaux.</desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/9E7953DFF9B7A15DB6F66D4D94D1117D.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/250px-Moins12.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260907002500 +0200" stop="20260907014500 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Spectaculaires et sauvages : les paradis secrets de la riviera brésilienne</sub-title>
+    <desc lang="fr">Au Nord-Est du Brésil s'étend un paysage unique au monde : des plages paradisiaques et des lagons aux eaux cristallines au milieu de gigantesques dunes de sable. Dans la région, les projets sont toujours plus spectaculaires. Ce boom touristique impacte le fragile écosystème de la région.</desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6C462A97BD5FB9891FA9CA3559B64C06.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260907014500 +0200" stop="20260907025000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">De la Bretagne à la Côte d'Azur : les nouvelles guerres du littoral</sub-title>
+    <desc lang="fr">Le littoral français attire chaque été des millions de visiteurs. Derrière la carte postale, les dérives se multiplient. Depuis 1986, la loi Littoral protège les rivages de l'urbanisation, mais, sur le terrain, infractions et passe-droits se banalisent. Les abus se poursuivent aussi en mer.</desc>
+    <credits>
+      <guest>Bernard de La Villardière</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/9B57A4097DBE5DF6E7BF17577DD1F712.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260907025000 +0200" stop="20260907060000 +0200" channel="M6test">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260907060000 +0200" stop="20260907080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
       <actor>Valérie Karsenti</actor>
+      <actor>Ryad Baxx</actor>
       <actor>Claire Chust</actor>
       <actor>Grégoire Bonnet</actor>
       <actor>Vinnie Dargaud</actor>
       <actor>Frédéric Bouraly</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Majid Berhila</actor>
+      <actor>Fanny Cottençon</actor>
       <actor>David Mora</actor>
       <actor>Amélie Etasse</actor>
+      <actor>Claudia Mongumu</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
       <actor>Gérard Hernandez</actor>
-      <actor>Elodie Poux</actor>
       <guest>M6 Métropole Télévision</guest>
       <guest> KaBo</guest>
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
     <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260905211000 +0200" stop="20260905215500 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Les chaises musicales</sub-title>
-    <desc lang="fr">Tim est promu chef de poste, Lucy superviseure mobile et John est le nouvel instructeur de Miles Penn. C'est aussi le moment d'une visite présidentielle à Los Angeles. Le poste de Mid-Wilshire et les services secrets doivent assurer la sécurité du Président. Or, Jerry Hudson, un homme qui l'a menacé, disparaît des radars, armé. Après une affaire pas très glamour, Lopez et Harper envisagent un changement de carrière...</desc>
-    <credits>
-      <director>Wendey Stanzler</director>
-      <actor>Lisseth Chavez</actor>
-      <actor>Melissa O'Neil</actor>
-      <actor>Mekia Cox</actor>
-      <actor>Nathan Fillion</actor>
-      <actor>Eric Winter</actor>
-      <actor>Shawn Ashmore</actor>
-      <actor>Alyssa Diaz</actor>
-      <actor>Sofia Vassilieva</actor>
-      <actor>Deric Augustine</actor>
-      <actor>Richard T. Jones</actor>
-      <actor>Julie Lancaster</actor>
-      <actor>Jenna Dewan</actor>
-      <adapter>Chelsea Urech</adapter>
-      <adapter>Brynn Malone</adapter>
-      <adapter>Fatima Eldigair</adapter>
-      <producer>Alexi Hawley</producer>
-      <producer>Nathan Fillion</producer>
-      <producer>Michelle Chapman</producer>
-      <producer>Moira Kirland</producer>
-      <producer>Marco Black</producer>
-      <producer>Bill Roe</producer>
-      <producer>Brynn Malone</producer>
-      <producer>Mark Gordon</producer>
-      <producer>Jon Steinberg</producer>
-      <producer>Bill Norcross</producer>
-      <producer>Ozzie Scott</producer>
-      <composer>Grant Conway</composer>
-      <composer>Jordan Gagne</composer>
-      <composer>Justine von Winterfeldt</composer>
-      <editor>Madeleine Coghlan</editor>
-      <editor>Amanda Mercedes</editor>
-      <editor>Alexi Hawley</editor>
-      <editor>Nick Hurwitz</editor>
-      <guest>Lionsgate Television</guest>
-      <guest>Perfectmon Pictures</guest>
-      <guest>20th Television</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/B456CFD5CE723C541DE9F68FE0391D67.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">7.1.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260905215500 +0200" stop="20260905225000 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Le coeur au bord des lèvres</sub-title>
-    <desc lang="fr">John Nolan, qui connaît désormais tous les détails du passé de Bailey, se demande s'ils ont encore un avenir. Lorsqu'un petit avion s'écrase au milieu de la ville, l'équipe met tout en oeuvre pour découvrir les causes de cet accident. L'appareil appartient à Levi Lincoln, un ancien millionnaire condamné à dix ans de prison pour le meurtre de sa femme. Suspendu pour six mois, Wesley accepte la proposition de James d'apporter des conseils juridiques à des jeunes en difficulté...</desc>
-    <credits>
-      <director>Alexi Hawley</director>
-      <director>SJ Main Muñoz</director>
-      <actor>Melissa O'Neil</actor>
-      <actor>Mekia Cox</actor>
-      <actor>Nathan Fillion</actor>
-      <actor>Arjay Smith</actor>
-      <actor>Eric Winter</actor>
-      <actor>Shawn Ashmore</actor>
-      <actor>Alyssa Diaz</actor>
-      <actor>Helena Mattsson</actor>
-      <actor>Jenna Dewan</actor>
-      <actor>Richard T. Jones</actor>
-      <actor>Matthew Glave</actor>
-      <actor>Steve Kazee</actor>
-      <adapter>Fredrick Kotto</adapter>
-      <producer>Helen Pai</producer>
-      <producer>Nathan Fillion</producer>
-      <producer>Bill Roe</producer>
-      <producer>Diana Mendez</producer>
-      <producer>Jon Steinberg</producer>
-      <producer>Alexi Hawley</producer>
-      <producer>Lee A. Frost</producer>
-      <producer>Bill Norcross</producer>
-      <producer>Terence Paul Winter</producer>
-      <producer>Michelle Chapman</producer>
-      <producer>Marco Black</producer>
-      <producer>Jonathan E. Steinberg</producer>
-      <producer>Mark Gordon</producer>
-      <composer>Jordan Gagne</composer>
-      <editor>Natalie Callaghan</editor>
-      <editor>Paula Puryear</editor>
-      <editor>Bill Rinier</editor>
-      <editor>Alexi Hawley</editor>
-      <editor>Zoe Cheng</editor>
-      <guest>Flula Borg</guest>
-      <guest>eOne Television</guest>
-      <guest>Perfectmon Pictures</guest>
-      <guest>ABC Signature</guest>
-    </credits>
-    <date>2022</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C76893DEE1BD96759B80A1FA438EBF14.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">3.9.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260905225000 +0200" stop="20260905233500 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Dénouement</sub-title>
-    <desc lang="fr">Chen et Bradford enquêtent sur le meurtre de Becca, qui s'avère être une amie de Tamara. Ils découvrent que la jeune fille avait volé une montre à un homme qu'elle avait rencontré sur ClipTalk, avant de la confier à un prêteur sur gages. Grey accorde à Nolan l'autorisation d'enquêter sur Jason. Le policier se tourne vers Oscar Hutchinson pour comprendre comment l'ex de Bailey a pu la piéger...</desc>
-    <credits>
-      <director>Tori Garrett</director>
-      <director>Alexi Hawley</director>
-      <actor>Melissa O'Neil</actor>
-      <actor>Mekia Cox</actor>
-      <actor>Nathan Fillion</actor>
-      <actor>Tru Valentino</actor>
-      <actor>Eric Winter</actor>
-      <actor>Shawn Ashmore</actor>
-      <actor>Alyssa Diaz</actor>
-      <actor>Dylan Conrique</actor>
-      <actor>Steve Kazee</actor>
-      <actor>Richard T. Jones</actor>
-      <actor>Matthew Glave</actor>
-      <actor>Jenna Dewan</actor>
-      <adapter>Terence Paul Winter</adapter>
-      <producer>Bill Roe</producer>
-      <producer>Michelle Chapman</producer>
-      <producer>Alexi Hawley</producer>
-      <producer>Jon Steinberg</producer>
-      <producer>Bill Norcross</producer>
-      <producer>Terence Paul Winter</producer>
-      <producer>Marco Black</producer>
-      <producer>Diana Mendez</producer>
-      <producer>Mark Gordon</producer>
-      <producer>Lee A. Frost</producer>
-      <producer>Jonathan E. Steinberg</producer>
-      <producer>Nathan Fillion</producer>
-      <producer>Helen Pai</producer>
-      <composer>Jordan Gagne</composer>
-      <editor>Natalie Callaghan</editor>
-      <editor>Paula Puryear</editor>
-      <editor>Bill Rinier</editor>
-      <editor>Zoe Cheng</editor>
-      <guest>eOne Television</guest>
-      <guest>Flula Borg</guest>
-      <guest>ABC Studios</guest>
-      <guest>Perfectmon Pictures</guest>
-    </credits>
-    <date>2022</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CFF2ED32E2BDCE3C61506E05DF0FA80E.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">3.10.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260905233500 +0200" stop="20260906003000 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Toc toc toc</sub-title>
-    <desc lang="fr">Une main coupée a échoué sur la plage. L'équipe se rend sur place. Chen et Bradford découvrent qu'elle appartient à Mark Klinke, qui avait réussi à se rendre à l'hôpital avant de mourir. Il travaillait dans une entreprise de biotechnologie, dirigée par Devin Swaine, qui refuse de donner des informations. Par ailleurs, Nolan est élu comme délégué syndical du commissariat où il espère pouvoir contribuer à certains changements.</desc>
-    <credits>
-      <director>Charissa Sanjarernsuithikul</director>
-      <director>Alexi Hawley</director>
-      <actor>Helena Mattsson</actor>
-      <actor>Melissa O'Neil</actor>
-      <actor>James Eckhouse</actor>
-      <actor>Mekia Cox</actor>
-      <actor>Nathan Fillion</actor>
-      <actor>Eric Winter</actor>
-      <actor>Shawn Ashmore</actor>
-      <actor>Alyssa Diaz</actor>
-      <actor>Patrick Fischler</actor>
-      <actor>Federico Dordei</actor>
-      <actor>Kanoa Goo</actor>
-      <actor>Richard T. Jones</actor>
-      <adapter>Zoe Cheng</adapter>
-      <producer>Bill Roe</producer>
-      <producer>Michelle Chapman</producer>
-      <producer>Alexi Hawley</producer>
-      <producer>Jon Steinberg</producer>
-      <producer>Bill Norcross</producer>
-      <producer>Terence Paul Winter</producer>
-      <producer>Marco Black</producer>
-      <producer>Diana Mendez</producer>
-      <producer>Mark Gordon</producer>
-      <producer>Lee A. Frost</producer>
-      <producer>Jonathan E. Steinberg</producer>
-      <producer>Nathan Fillion</producer>
-      <producer>Helen Pai</producer>
-      <composer>Jordan Gagne</composer>
-      <editor>Natalie Callaghan</editor>
-      <editor>Paula Puryear</editor>
-      <editor>Bill Rinier</editor>
-      <editor>Zoe Cheng</editor>
-      <guest>eOne Television</guest>
-      <guest>ABC Studios</guest>
-      <guest>Perfectmon Pictures</guest>
-    </credits>
-    <date>2022</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/016CE7380AA9ABED7B50FF1AC6F478E3.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">3.11.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260906003000 +0200" stop="20260906012000 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">La main dans le sac</sub-title>
-    <desc lang="fr">D'importantes sommes confisquées à l'issue d'une enquête ayant mené au démantèlement d'un réseau de trafiquants de drogue sèment le doute quant à l'intégrité des recrues. En effet, l'argent a mystérieusement disparu. Dès lors, les bleus font l'objet d'une enquête qui fait d'eux de véritables suspects. Chacun des jeunes agents n'a d'autre solution que de prouver leur innocence dans cette affaire. Pour certains d'entre eux, cela s'avère bien plus complexe qu'ils ne le pensaient. Mais parallèlement, il reste à retrouver la trace du butin des trafiquants de drogue...</desc>
-    <credits>
-      <director>Alexi Hawley</director>
-      <actor>Titus Makin jr.</actor>
-      <actor>Melissa O'Neil</actor>
-      <actor>Antonio Jaramillo</actor>
-      <actor>Nathan Fillion</actor>
-      <actor>Jose Pablo Cantillo</actor>
-      <actor>Alyssa Diaz</actor>
-      <actor>Eric Winter</actor>
-      <actor>Currie Graham</actor>
-      <actor>Richard T. Jones</actor>
-      <actor>Afton Williamson</actor>
-      <actor>Mercedes Mason</actor>
-      <actor>Myndy Crist</actor>
-      <adapter>Inda Craig-Galván</adapter>
-      <adapter>David Radcliff</adapter>
-      <producer>Bill Norcross</producer>
-      <producer>Mark Gordon</producer>
-      <producer>Michelle Chapman</producer>
-      <producer>Nathan Fillion</producer>
-      <producer>Alexi Hawley</producer>
-      <producer>Jon Steinberg</producer>
-      <producer>Patrick McKee</producer>
-      <composer>Jordan Gagne</composer>
-      <editor>Fredrick Kotto</editor>
-      <editor>Alexi Hawley</editor>
-      <guest>eOne Television</guest>
-      <guest>California State Film Commission</guest>
-      <guest>Perfectmon Pictures</guest>
-      <guest>American Broadcasting Company</guest>
-      <guest>ABC Signature</guest>
-    </credits>
-    <date>2019</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C78BFBB3D2DCC448D3989DF1653BF685.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">0.12.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260906012000 +0200" stop="20260906021500 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Premier jour en solo</sub-title>
-    <desc lang="fr">Les policiers sont en patrouille avec leurs officiers mais tout le monde a revêtu un costume civil, pour qu'aucune différence ne puisse être faite. Les nouveaux venus se retrouvent donc à devoir prendre les décisions sur le terrain, ce qui, d'ordinaire, incombe aux seuls instructeurs. Nolan tente de prouver qu'il progresse plus vite que les autres recrues, ce qui légitimerait ses prétentions à devenir inspecteur dans les cinq ans à venir...</desc>
-    <credits>
-      <director>Alexi Hawley</director>
-      <actor>Titus Makin jr.</actor>
-      <actor>Melissa O'Neil</actor>
-      <actor>Bertila Damas</actor>
-      <actor>Nathan Fillion</actor>
-      <actor>Alyssa Diaz</actor>
-      <actor>Demetrius Grosse</actor>
-      <actor>Eric Winter</actor>
-      <actor>Brett Rickaby</actor>
-      <actor>Holley Fain</actor>
-      <actor>Richard T. Jones</actor>
-      <actor>Afton Williamson</actor>
-      <actor>Mercedes Mason</actor>
-      <adapter>Terence Paul Winter</adapter>
-      <adapter>David Radcliff</adapter>
-      <adapter>Inda Craig-Galván</adapter>
-      <producer>Alexi Hawley</producer>
-      <producer>Bill Norcross</producer>
-      <producer>Michelle Chapman</producer>
-      <producer>Nathan Fillion</producer>
-      <producer>Jon Steinberg</producer>
-      <producer>P. Todd Coe</producer>
-      <producer>Mark Gordon</producer>
-      <composer>Jordan Gagne</composer>
-      <editor>Fredrick Kotto</editor>
-      <editor>Alexi Hawley</editor>
-      <guest>ABC Signature</guest>
-      <guest>eOne Television</guest>
-      <guest>American Broadcasting Company</guest>
-      <guest>Perfectmon Pictures</guest>
-    </credits>
-    <date>2019</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/753721CCA41A0B637220F9228A27776F.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">0.13.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260906021500 +0200" stop="20260906060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260906060000 +0200" stop="20260906070000 +0200" channel="M6test">
-    <title lang="fr">M6 Kid</title>
-    <desc lang="fr">M6 Kid présente les meilleurs dessin-animés pour le plus grand bonheur de vos enfants.</desc>
-    <date>2024</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Jeunesse</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/413EC1038F9B226BE458C1AFF3C2D407.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
