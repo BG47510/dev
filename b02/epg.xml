@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260908060000 +0200" stop="20260908080500 +0200" channel="M6test">
+<programme start="20260909060000 +0200" stop="20260909080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -30,7 +30,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908080500 +0200" stop="20260908094500 +0200" channel="M6test">
+<programme start="20260909080500 +0200" stop="20260909094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -40,13 +40,13 @@
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908094500 +0200" stop="20260908113000 +0200" channel="M6test">
+<programme start="20260909094500 +0200" stop="20260909113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -61,7 +61,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908113000 +0200" stop="20260908124000 +0200" channel="M6test">
+<programme start="20260909113000 +0200" stop="20260909124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -70,13 +70,13 @@
     <date>2026</date>
     <category lang="fr">Art de vivre</category>
     <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8C544F63E72CB621535D938B32FF8A37.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/EBB12C17F2A1CCBA6F444A8B306BFD4F.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908124000 +0200" stop="20260908124500 +0200" channel="M6test">
+<programme start="20260909124000 +0200" stop="20260909124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -88,7 +88,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908124500 +0200" stop="20260908133500 +0200" channel="M6test">
+<programme start="20260909124500 +0200" stop="20260909133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -97,13 +97,13 @@
     <date>2026</date>
     <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5924229A9431DD3B1151BE2C54F2B809.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/BF4A579BEBA708E7CE4D7D61E4503C58.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908133500 +0200" stop="20260908134000 +0200" channel="M6test">
+<programme start="20260909133500 +0200" stop="20260909134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -130,37 +130,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908134000 +0200" stop="20260908145000 +0200" channel="M6test">
+<programme start="20260909134000 +0200" stop="20260909145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Surendettement : sortir de la spirale infernale</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">4.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260908145000 +0200" stop="20260908155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Les Français dans le rouge : Révélations sur le piège du crédit (1/2)</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">4.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260908155000 +0200" stop="20260908165000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Classe moyenne : aux racines du grand ras-le-bol</sub-title>
+    <sub-title lang="fr">Lit au carré, réveil au clairon : immersion au lycée militaire</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
@@ -172,7 +144,32 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908165000 +0200" stop="20260908172500 +0200" channel="M6test">
+<programme start="20260909145000 +0200" stop="20260909155000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Le retour de l'école à l'ancienne</sub-title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260909155000 +0200" stop="20260909165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260909165000 +0200" stop="20260909172500 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -184,7 +181,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908172500 +0200" stop="20260908183500 +0200" channel="M6test">
+<programme start="20260909172500 +0200" stop="20260909183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -200,7 +197,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908183500 +0200" stop="20260908194000 +0200" channel="M6test">
+<programme start="20260909183500 +0200" stop="20260909194000 +0200" channel="M6test">
     <title lang="fr">Le juste prix</title>
     <desc lang="fr">Cette nouvelle version du Juste Prix reprend les fondamentaux qui ont fait le succès du jeu et s'enrichit d'une formule plus feuilletonnante pour tenir les téléspectateurs en haleine tout au long de la semaine.</desc>
     <credits>
@@ -209,13 +206,13 @@
     <date>2026</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E26D46155DF77B2732629631CD78DE88.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/2C47C30FB08E931130FCA68F6A9E1FCD.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908194000 +0200" stop="20260908194500 +0200" channel="M6test">
+<programme start="20260909194000 +0200" stop="20260909194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -227,7 +224,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908194500 +0200" stop="20260908204000 +0200" channel="M6test">
+<programme start="20260909194500 +0200" stop="20260909204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -242,7 +239,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908204000 +0200" stop="20260908211000 +0200" channel="M6test">
+<programme start="20260909204000 +0200" stop="20260909211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -270,352 +267,108 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260908211000 +0200" stop="20260908215500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Quand le ciel s'effondre</sub-title>
-    <desc lang="fr">Dans l'espace, Athena et Hen doivent faire face à des dangers de plus en plus importants. Leurs amis, proches et lointains, vont tout tenter pour les ramener saines et sauves. L'hélicoptère de la 118 continue de porter secours aux victimes de l'orage magnétique et des débris spatiaux. Des passagers sont ainsi coincés dans un train souterrain. Les sauveteurs voient leur mission compliquée par la rupture d'une canalisation...</desc>
+<programme start="20260909211000 +0200" stop="20260909220500 +0200" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">A Marseille, Michel retrouve Titoune, sa chienne achetée quelques jours plus tôt et échappée lors d'une balade. Mais l'éleveuse, Marie-Raphaëlle, la récupère à la fourrière et refuse de la rendre à Michel qu'elle juge incapable de s'occuper de la chienne. Pour Michel, c'est tout simplement un vol !</desc>
     <credits>
-      <director>Bradley Buecker</director>
-      <actor>Gavin McHugh</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Mark Consuelos</actor>
-      <actor>Kimberly Williams-Paisley</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Tracie Thoms</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Angela Bassett</actor>
-      <actor>Elijah M. Cooper</actor>
-      <actor>Corinne Massiah</actor>
-      <adapter>Kristen Reidel</adapter>
-      <adapter>Tim Minear</adapter>
-      <producer>Greg Sirota</producer>
-      <producer>Ravi Subramanian</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Bradley Buecker</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Tim Minear</producer>
-      <producer>John J. Gray</producer>
-      <producer>Kristen Reidel</producer>
-      <composer>Francesca Harding</composer>
-      <composer>Amanda Krieg Thomas</composer>
-      <composer>Sean McGuire</composer>
-      <editor>Molly Savard</editor>
-      <editor>Tim Minear</editor>
-      <editor>Ryan Murphy</editor>
-      <editor>Brad Falchuk</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
+      <guest>Julien Courbet</guest>
     </credits>
-    <date>2025</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8423469D36E90133FBC4F91EA89682CD.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">8.2.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260908215500 +0200" stop="20260908225000 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Le choix de Buck</sub-title>
-    <desc lang="fr">En réanimation à l'hôpital après avoir été foudroyé, Buck est dans le coma, entre la vie et la mort. Dans cet univers parallèle, il rêve d'un monde où il ne serait jamais devenu pompier, pour le meilleur et pour le pire. Il retrouve ses proches et voit son frère Daniel, décédé depuis longtemps, mais aussi Doug, l'ex-mari violent de Maddie. Cette réalité alternative voit également Eddie perdre la garde de Christopher...</desc>
-    <credits>
-      <director>Joaquin Sedillo</director>
-      <director>Jann Turner</director>
-      <actor>Angela Bassett</actor>
-      <actor>Gavin McHugh</actor>
-      <actor>Brian Hallisay</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Peter Krause</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Oliver Stark</actor>
-      <actor>John Harlan Kim</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Corinne Massiah</actor>
-      <actor>Cocoa Brown</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <adapter>Nicole Barraza Keim</adapter>
-      <adapter>Lyndsey Beaulieu</adapter>
-      <producer>Hutton Tignini</producer>
-      <producer>Kristen Reidel</producer>
-      <producer>Juan Carlos Coto</producer>
-      <producer>Lou Eyrich</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Peter Krause</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Tim Minear</producer>
-      <producer>Robert M. Williams jr.</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Lyndsey Beaulieu</producer>
-      <producer>Eryn Krueger Mekash</producer>
-      <producer>John J. Gray</producer>
-      <producer>Bradley Buecker</producer>
-      <producer>Alexis Martin Woodall</producer>
-      <composer>Todd Haberman</composer>
-      <composer>Mac Quayle</composer>
-      <editor>Tim Minear</editor>
-      <editor>Nadia Abass-Madden</editor>
-      <editor>Stacey R. Rose</editor>
-      <editor>Taylor Wong</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/2AE4F2B156E5B5EA795B336C77246C6F.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">5.10.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260908225000 +0200" stop="20260908233500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Liberté</sub-title>
-    <desc lang="fr">Bien que l'autopsie montre que Wendall, l'ancien parrain de Bobby, est mort d'une overdose, Bobby reste persuadé que Carrie et Trey Walsh, les deux propriétaires de la clinique de désintoxication, ont joué un rôle dans sa mort. Alors que Buck récupère de son coma, Maddie est au petit soin et envoie tour à tour ses amis lui rendre visite...</desc>
-    <credits>
-      <director>John J. Gray</director>
-      <actor>Angela Bassett</actor>
-      <actor>Gavin McHugh</actor>
-      <actor>Colin McCalla</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Bryan Safi</actor>
-      <actor>Peter Krause</actor>
-      <actor>Alicia Coppola</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Corinne Massiah</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <adapter>Andrew Meyers</adapter>
-      <adapter>Nicole Barraza Keim</adapter>
-      <producer>Hutton Tignini</producer>
-      <producer>Kristen Reidel</producer>
-      <producer>Juan Carlos Coto</producer>
-      <producer>Lou Eyrich</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Peter Krause</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Tim Minear</producer>
-      <producer>Robert M. Williams jr.</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Lyndsey Beaulieu</producer>
-      <producer>Eryn Krueger Mekash</producer>
-      <producer>John J. Gray</producer>
-      <producer>Bradley Buecker</producer>
-      <producer>Alexis Martin Woodall</producer>
-      <composer>Todd Haberman</composer>
-      <composer>Mac Quayle</composer>
-      <editor>Tim Minear</editor>
-      <editor>Nadia Abass-Madden</editor>
-      <editor>Stacey R. Rose</editor>
-      <editor>Taylor Wong</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/3B2C2331C20FC8BFEC0C903B03B9E9B8.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">5.11.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260908233500 +0200" stop="20260909003000 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">La bosse des maths</sub-title>
-    <desc lang="fr">Buck se découvre de nouvelles capacités cognitives après avoir été frappé par la foudre. Eddie teste son talent lors d'une partie de poker avec des pompiers haut gradés de Los Angeles. Hen et Karen sont inquiètes lorsqu'elles découvrent que Denny voit son père biologique dans leur dos. Maddie et Chimney demandent l'aide d'Athena et de Bobby à propos d'une voisine suspecte...</desc>
-    <credits>
-      <director>Jihane Mrad Balaa</director>
-      <actor>Corinne Massiah</actor>
-      <actor>Angela Bassett</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Gavin McHugh</actor>
-      <actor>Peter Krause</actor>
-      <actor>Andre Boyer</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Tracie Thoms</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Stephanie Lesh-Farrell</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <adapter>Stacey R. Rose</adapter>
-      <adapter>Nicole Barraza Keim</adapter>
-      <producer>Eryn Krueger Mekash</producer>
-      <producer>Hutton Tignini</producer>
-      <producer>Kristen Reidel</producer>
-      <producer>Juan Carlos Coto</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Peter Krause</producer>
-      <producer>Lou Eyrich</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Tim Minear</producer>
-      <producer>Robert M. Williams jr.</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Lyndsey Beaulieu</producer>
-      <producer>John J. Gray</producer>
-      <producer>Bradley Buecker</producer>
-      <producer>Alexis Martin Woodall</producer>
-      <composer>Todd Haberman</composer>
-      <composer>Mac Quayle</composer>
-      <editor>Tim Minear</editor>
-      <editor>Nadia Abass-Madden</editor>
-      <editor>Stacey R. Rose</editor>
-      <editor>Taylor Wong</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E493E5473BF065FAAFE360CA3779847C.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">5.12.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260909003000 +0200" stop="20260909012500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Grande anxiété</sub-title>
-    <desc lang="fr">La 118 intervient dans une boulangerie et lors d'une compétition de bodybuilding. Suite aux entretiens annuels d'évaluation conduits par Bobby, Chimney est envoyé à l'académie des pompiers en tant qu'instructeur et retrouve Ravi, qui forme les jeunes recrues. Maddie porte secours à un adolescent souffrant d'une crise d'angoisse...</desc>
-    <credits>
-      <director>Shauna Duggins</director>
-      <actor>Angela Bassett</actor>
-      <actor>Gavin McHugh</actor>
-      <actor>Delon de Metz</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Michael O'Hearn</actor>
-      <actor>Peter Krause</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Natalie Ceballos</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Corinne Massiah</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <adapter>Nicole Barraza Keim</adapter>
-      <adapter>Nadia Abass-Madden</adapter>
-      <producer>Hutton Tignini</producer>
-      <producer>Kristen Reidel</producer>
-      <producer>Lou Eyrich</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Peter Krause</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Tim Minear</producer>
-      <producer>Bradley Buecker</producer>
-      <producer>Robert M. Williams jr.</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Eryn Krueger Mekash</producer>
-      <producer>Juan Carlos Coto</producer>
-      <producer>John J. Gray</producer>
-      <producer>Lyndsey Beaulieu</producer>
-      <producer>Alexis Martin Woodall</producer>
-      <composer>Todd Haberman</composer>
-      <composer>Mac Quayle</composer>
-      <editor>Tim Minear</editor>
-      <editor>Nadia Abass-Madden</editor>
-      <editor>Stacey R. Rose</editor>
-      <editor>Taylor Wong</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4316D009B5613679913F79B722991EB8.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">5.13.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260909012500 +0200" stop="20260909022000 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Célibataires</sub-title>
-    <desc lang="fr">Les secours sont confrontés à plusieurs urgences. Une cascade entre amis tourne mal, un homme, parti pêcher avec son épouse, fait un malaise cardiaque, et un premier rendez-vous se révèle être un échec retentissant. Pendant ce temps, Athena enquête sur une femme qui ne se souvient pas avoir reçu une balle dans la tête. Eddie, quant à lui, est contraint d'avoir une conversation difficile avec Christopher...</desc>
-    <credits>
-      <director>David Grossman</director>
-      <actor>Corinne Massiah</actor>
-      <actor>Angela Bassett</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <actor>Marcanthonee Reis</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Gavin McHugh</actor>
-      <actor>Peter Krause</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Rockmond Dunbar</actor>
-      <actor>Bryan Safi</actor>
-      <adapter>Andrew Meyers</adapter>
-      <producer>Kristen Reidel</producer>
-      <producer>Tonya Kong</producer>
-      <producer>John J. Gray</producer>
-      <producer>Jeff Dickerson</producer>
-      <producer>Eryn Krueger Mekash</producer>
-      <producer>Tim Minear</producer>
-      <producer>Lou Eyrich</producer>
-      <producer>Peter Krause</producer>
-      <producer>Alexis Martin Woodall</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Bradley Buecker</producer>
-      <producer>Ethan Wellin</producer>
-      <composer>Todd Haberman</composer>
-      <composer>Mac Quayle</composer>
-      <editor>Tim Minear</editor>
-      <guest> Reamworks</guest>
-      <guest>Ryan Murphy Productions</guest>
-      <guest>Ryan Murphy Television</guest>
-      <guest>20th Century Fox Television</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-    </credits>
-    <date>2020</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/31C5E0D35731DA66A2F6EAD217C75BE1.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">2.11.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260909022000 +0200" stop="20260909060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/EBE64969228A4E87CCB86326164FE0B7.jpg"/>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/BF6ABF4FE746EF237954CC4FCFCC4044.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260909060000 +0200" stop="20260909080500 +0200" channel="M6test">
+<programme start="20260909220500 +0200" stop="20260909230000 +0200" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">Camille et Jules accusent leurs "wedding planners" Adeline et Mehdi d'avoir ruiné leur mariage par leur incompétence et exigent un remboursement. Adeline et Mehdi reconnaissent des erreurs mais dénoncent la colère incontrôlable du couple et leur campagne de dénigrement sur les réseaux sociaux.</desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/3985E8FF42E5A62B8A573D3D21EF0D42.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260909230000 +0200" stop="20260910001000 +0200" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">Au sommaire : - Pauline contre Michel : la maison de la colère. Pauline loue une maison à Michel depuis deux ans, mais la situation devient un cauchemar à cause de l'humidité et des défauts. - Olivia contre Marijana : la guerre des étages. - Gwendoline et Ludovic contre Yvon : des voisins aux abois.</desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F31D6DE06FAF592475606C473048A5D7.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260910001000 +0200" stop="20260910010000 +0200" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">La maison que Pauline loue à Michel est affectée par l'humidité et des défauts, ce que le propriétaire conteste. Olivia se plaint des bruits incessants de la famille qui habite dans l'appartement du dessous. Quant à Gwendoline et Ludovic, ces éleveurs de chiens subissent les plaintes de leur voisin Yvon, dérangé par les aboiements incessants.</desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/2680BB2D19EBB5C7DBAA948DA9DC48B5.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260910010000 +0200" stop="20260910021000 +0200" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">Frédéric souhaite rénover sa grange mais impossible d'y accéder car son voisin Daniel a bloqué le chemin. Suite à des difficultés personnelles, Aurore a confié à Sabrina quatre de ses chiens. Sabrina ne veut pas lui rendre les deux derniers. Céline et Sarah refusent de rembourser Corentin et Sylvain.</desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/3E66FC0895C7AF602E2518CAFF828FD5.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260910021000 +0200" stop="20260910030000 +0200" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">Julien Courbet arbitre différents conflits qui opposent Frédéric à son voisin Daniel, Aurore à Sabrina quant à la garde des chiens de la première et Corentin et Sylvain à Cécile et Sarah.</desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/611CDE892744E616BC8C67B51DCD70A6.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260910030000 +0200" stop="20260910060000 +0200" channel="M6test">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260910060000 +0200" stop="20260910080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
