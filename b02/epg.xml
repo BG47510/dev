@@ -3,331 +3,314 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260912060000 +0200" stop="20260912074500 +0200" channel="M6test">
-    <title lang="fr">M6 Kid</title>
-    <desc lang="fr">Debout c'est M6 Kid ! Un réveil joyeux et 100 % animation pour tous les enfants !</desc>
-    <category lang="fr">Magazine jeunesse</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/4/15227444.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912074500 +0200" stop="20260912101000 +0200" channel="M6test">
-    <title lang="fr">Absolument stars</title>
-    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/1/4/15227419.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912101000 +0200" stop="20260912102500 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/15227409.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912102500 +0200" stop="20260912105500 +0200" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <sub-title lang="fr">Quand les surdoués font leur rentrée</sub-title>
-    <desc lang="fr">A l'image de Kamel qui fait sa rentrée en classe préparatoire à 13 ans, gros plan sur des élèves diagnostiqués HPI, qui ont plusieurs années d'avance.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/15227409.jpg"/>
-    <episode-num system="xmltv_ns">1.1.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912105500 +0200" stop="20260912114500 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/0/15718047.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912114500 +0200" stop="20260912124000 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/4/15227422.jpg"/>
-    <episode-num system="xmltv_ns">0.1.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912124000 +0200" stop="20260912124500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/4/15227411.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912124500 +0200" stop="20260912133000 +0200" channel="M6test">
-    <title lang="fr">Le 12.45</title>
-    <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
-    <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/3/9/15186930.jpg"/>
-    <episode-num system="xmltv_ns">0.254.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912133000 +0200" stop="20260912141000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912141000 +0200" stop="20260912151000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Lac de Côme : le luxe à l'italienne</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
-    <episode-num system="xmltv_ns">0.19.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912151000 +0200" stop="20260912161000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912161000 +0200" stop="20260912163000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912163000 +0200" stop="20260912172500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912172500 +0200" stop="20260912184000 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/9/15186909.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912184000 +0200" stop="20260912194000 +0200" channel="M6test">
-    <title lang="fr">Le maillon faible</title>
-    <desc lang="fr">Avec Olivier Minne en maître de cérémonie, les candidats du "Maillon faible" tentent de se rapprocher du gain final mais ils savent que pour y parvenir, ils vont devoir faire des choix douloureux. La stratégie prend ici un sens bien particulier et le moindre signe de faiblesse sera exploité sans hésitation.</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/3/15187322.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912194000 +0200" stop="20260912194500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/4/4/15227445.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912194500 +0200" stop="20260912203500 +0200" channel="M6test">
-    <title lang="fr">Le 19.45</title>
-    <desc lang="fr">Le journal de M6.</desc>
-    <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/5/4/15227450.jpg"/>
-    <episode-num system="xmltv_ns">0.254.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912203500 +0200" stop="20260912211000 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/9/15617926.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912211000 +0200" stop="20260912215500 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Le mal incarné</sub-title>
-    <desc lang="fr">John Nolan arrête un sans-abri, pour effraction légère, sans se douter qu'il s'agit du meurtrier d'une famille et du ravisseur de leur fille. Miles rend visite à Seth.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/8/8/15688882.jpg"/>
-    <episode-num system="xmltv_ns">7.2.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912215500 +0200" stop="20260912225000 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Les trois quêtes</sub-title>
-    <desc lang="fr">John et Lucy doivent retrouver un hélicoptère de la police qui a été volé, tandis que Nyla et Aaron surveillent un policier meurtrier suite à une émeute.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/7/8/15688879.jpg"/>
-    <episode-num system="xmltv_ns">3.12.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912225000 +0200" stop="20260912233500 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Tir à vue</sub-title>
-    <desc lang="fr">Nolan et Harper viennent en aide à Randy. Chen et le sergent Bradford sont à la recherche d'une coupable tenue pour responsable d'une série de crimes.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/7/8/15688879.jpg"/>
-    <episode-num system="xmltv_ns">3.13.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260912233500 +0200" stop="20260913003000 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Témoins à abattre</sub-title>
-    <desc lang="fr">Thorsen passe sa première journée en civil mais l'exercice est perturbé. Des témoins sont assassinés juste avant un procès, et le sergent Grey est en danger.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/7/8/15688879.jpg"/>
-    <episode-num system="xmltv_ns">3.14.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913003000 +0200" stop="20260913012000 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">La chasse à l'homme</sub-title>
-    <desc lang="fr">Lorsqu'un bus pénitentiaire se retrouve impliqué dans un accident, toutes les unités sont aussitôt réquisitionnées. Parmi les détenus, certains sont blessés et d'autres y auraient vu une occasion de s'échapper. La situation s'annonce compliquée à gérer. Malgré la confusion qui règne autour de l'accident, Nolan, qui est en mission avec l'officier Bishop, tente d'impressionner une négociatrice du FBI qui traque un condamné en cavale. Pendant ce temps, les officiers Lopez et West appréhendent un prisonnier qui a connu le père de Jackson tandis que Tim Bradford et Lucy Chen se retrouvent coincés sur le territoire d'un gang...</desc>
-    <credits>
-      <director>Bill Johnson</director>
-      <director>Alexi Hawley</director>
-      <actor>Titus Makin jr.</actor>
-      <actor>Melissa O'Neil</actor>
-      <actor>Nathan Fillion</actor>
-      <actor>Eric Winter</actor>
-      <actor>Kurt Yaeger</actor>
-      <actor>Alyssa Diaz</actor>
-      <actor>Sarah Shahi</actor>
-      <actor>Sean Maher</actor>
-      <actor>Afton Williamson</actor>
-      <actor>Richard T. Jones</actor>
-      <actor>Dohn Norwood</actor>
-      <actor>Matthew Glave</actor>
-      <adapter>Robert Bella</adapter>
-      <adapter>David Radcliff</adapter>
-      <adapter>Inda Craig-Galván</adapter>
-      <producer>Bill Norcross</producer>
-      <producer>Mark Gordon</producer>
-      <producer>Michelle Chapman</producer>
-      <producer>Nathan Fillion</producer>
-      <producer>Alexi Hawley</producer>
-      <producer>P. Todd Coe</producer>
-      <producer>Jon Steinberg</producer>
-      <composer>Jordan Gagne</composer>
-      <editor>Alexi Hawley</editor>
-      <editor>Fredrick Kotto</editor>
-      <guest>eOne Television</guest>
-      <guest>Perfectmon Pictures</guest>
-      <guest>American Broadcasting Company</guest>
-      <guest>ABC Signature</guest>
-    </credits>
-    <date>2019</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E669C84B55CC4FCC44C64951879A9630.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">0.14.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260913012000 +0200" stop="20260913021000 +0200" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Le contrat</sub-title>
-    <desc lang="fr">A peine relâché, le membre d'un gang ne manque pas de mettre en évidence les carences des forces de l'ordre. En effet, son arrestation s'est déroulée de manière non conforme à ses droits. C'est Nolan qui doit répondre de cette faute professionnelle. De leur côté, les officiers Chen et Bradford rencontrent des difficultés avec l'animateur Mario Lopez. Ce personnage insupportable semble convaincu que sa notoriété le rend intouchable...</desc>
-    <credits>
-      <director>Alexi Hawley</director>
-      <actor>Titus Makin jr.</actor>
-      <actor>Melissa O'Neil</actor>
-      <actor>Nathan Fillion</actor>
-      <actor>Alyssa Diaz</actor>
-      <actor>Eric Winter</actor>
-      <actor>Mario Lopez</actor>
-      <actor>Andy Mackenzie</actor>
-      <actor>Grant Harvey</actor>
-      <actor>Richard T. Jones</actor>
-      <actor>Afton Williamson</actor>
-      <actor>Shawn Ashmore</actor>
-      <actor>Mercedes Mason</actor>
-      <adapter>David Radcliff</adapter>
-      <adapter>Brynn Malone</adapter>
-      <adapter>Inda Craig-Galván</adapter>
-      <producer>Bill Norcross</producer>
-      <producer>Mark Gordon</producer>
-      <producer>Michelle Chapman</producer>
-      <producer>Nathan Fillion</producer>
-      <producer>Alexi Hawley</producer>
-      <producer>P. Todd Coe</producer>
-      <producer>Jon Steinberg</producer>
-      <composer>Jordan Gagne</composer>
-      <editor>Alexi Hawley</editor>
-      <editor>Fredrick Kotto</editor>
-      <guest>eOne Television</guest>
-      <guest>Perfectmon Pictures</guest>
-      <guest>American Broadcasting Company</guest>
-      <guest>ABC Signature</guest>
-    </credits>
-    <date>2019</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Policier</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C25526A3C1128BB410D54640CC4E822E.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">0.15.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260913021000 +0200" stop="20260913060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913060000 +0200" stop="20260913070000 +0200" channel="M6test">
-    <title lang="fr">M6 Kid</title>
-    <desc lang="fr">M6 Kid présente les meilleurs dessin-animés pour le plus grand bonheur de vos enfants.</desc>
-    <date>2024</date>
+<programme start="20260913070000 +0200" stop="20260913073000 +0200" channel="M6test">
+    <title lang="fr">100% immo, l'hebdo</title>
+    <desc lang="fr">Les tendances et l'actualité du secteur immobilier, à Paris et en régions sont présentées dans cette émission où des professionnels livrent conseils et astuces.</desc>
+    <date>2026</date>
     <category lang="fr">Magazine</category>
-    <category lang="fr">Jeunesse</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/F8552446F1639C1A74C58CC81B1AB8C0.jpg"/>
+    <category lang="fr">Découvertes</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6B4E8FA2B4BF5F9CCB0AB785BB7AAAA2.jpg"/>
     <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913073000 +0200" stop="20260913102500 +0200" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
+    <credits>
+      <guest>Marie-Ange Nardi</guest>
+      <guest>Charlotte Rosier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Télé-achat</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913102500 +0200" stop="20260913105500 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques, sans oublier les derniers modèles des différentes marques. Turbo revient sur les nouveautés du marché et présente les avantages et les petits inconvénients de chaque modèle.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5420AFB0C6C759BE0F8F1EC222D169B1.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913105500 +0200" stop="20260913112000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Ce dimanche dans Turbo, Dominique Chapatte vous propose de retrouver Étienne Bruet, Safet Rastoder et Simon Potée-Gallini en région parisienne pour vous faire découvrir les bonnes affaires des constructeurs français de la rentrée.</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5420AFB0C6C759BE0F8F1EC222D169B1.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913112000 +0200" stop="20260913124000 +0200" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Ce dimanche dans Turbo Safet Rastoder et Simon Potée-Gallini vous emmènent en Angleterre. Le Festival of Speed de Goodwood réunit dans un même lieu les voitures les plus mythiques de l'histoire, les supercars les plus folles et les pilotes les plus prestigieux. De la Formule 1 aux légendes du rallye, en passant par les hypercars et les youngtimers, Goodwood est un spectacle unique où le patrimoine automobile rencontre la démesure. Passion, vitesse et extravagance à l'anglaise !</desc>
+    <credits>
+      <guest>Dominique Chapatte</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Loisirs</category>
+    <category lang="fr">Automobilisme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913124000 +0200" stop="20260913124500 +0200" channel="M6test">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/386ADB68772665A76D151D2EDA9CFB50.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913124500 +0200" stop="20260913133000 +0200" channel="M6test">
+    <title lang="fr">Le 12.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Ashley Chevalier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/9EFB2EC58773D58BF4ECC84700DCC35D.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913133000 +0200" stop="20260913141000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Sécheresse, inondations : quand le climat menace nos maisons</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913141000 +0200" stop="20260913151000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913151000 +0200" stop="20260913161000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913161000 +0200" stop="20260913171000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913171000 +0200" stop="20260913184000 +0200" channel="M6test">
+    <title lang="fr">66 minutes</title>
+    <desc lang="fr">Des célébrités aux faits divers en passant par la politique, différents reportages reviennent sur l'actualité pour mieux l'analyser et la comprendre.</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/BFF9B34CB1528D4FA86117FE4620613A.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913184000 +0200" stop="20260913194000 +0200" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">Décryptage d'un phénomène de société ou d'un événement tiré de l'actualité.</desc>
+    <credits>
+      <guest>Kareen Guiock Thuram</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5302E4ACD03C25F10DB96CEBC5AF2AB4.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913194000 +0200" stop="20260913194500 +0200" channel="M6test">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/0DEDB28E2D206269F8855D09B99E3B21.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913194500 +0200" stop="20260913201000 +0200" channel="M6test">
+    <title lang="fr">Le 19.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Ashley Chevalier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6AE8E465FE04556B95466CE8341A626D.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913201000 +0200" stop="20260913203500 +0200" channel="M6test">
+    <title lang="fr">Le 2010, Anne-Sophie Lapix</title>
+    <desc lang="fr">Anne-Sophie Lapix propose une interview exclusive d'une dizaine de minutes avec une personnalité marquante de la semaine. Qu'il s'agisse d'une figure connue ou d'un visage anonyme, les invités viennent de tous horizons : société, culture, ...</desc>
+    <credits>
+      <guest>Anne-Sophie Lapix</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Interview</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/29779A3DD1130133D6D88BD50FB5BFF3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913203500 +0200" stop="20260913211000 +0200" channel="M6test">
+    <title lang="fr">E=M6</title>
+    <sub-title lang="fr">Aloe vera, noix de coco : des champions naturels aux mille usages !</sub-title>
+    <desc lang="fr">Des scientifiques dévoilent tous les secrets de l'aloe vera, une plante dont le gel possède des vertus hydratantes et cicatrisantes, et la noix de coco.</desc>
+    <credits>
+      <guest>Mac Lesggy</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Sciences et technique</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E88110976371C85BF52ABDD702251462.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260913211000 +0200" stop="20260913231000 +0200" channel="M6test">
+    <title lang="fr">Zone interdite</title>
+    <sub-title lang="fr">Nous avons infiltré l'école : l'enquête choc</sub-title>
+    <desc lang="fr">Pendant un an, des journalistes ont enquêté au coeur de l'Education nationale, parfois en caméra cachée, pour révéler des dysfonctionnements invraisemblables : enseignant insultés ou frappés, remplacements souvent compliqués voire impossibles, questionnement autour du recrutement et du niveau scolaire.</desc>
+    <credits>
+      <guest>Ophélie Meunier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DD022DA5E2128EA4ABEB265244E048AB.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260913231000 +0200" stop="20260914002000 +0200" channel="M6test">
+    <title lang="fr">#MeToo scolaire - Après Bétharram, ils brisent le silence</title>
+    <desc lang="fr">Suite au scandale Bétharram, déclenché en février 2025, des milliers d'anciens élèves de l'enseignement catholique privé ont trouvé le courage de témoigner des violences physiques et sexuelles subies durant leur scolarité. Ce documentaire donne la parole à des victimes, dont certaines parlent pour la première fois à visage découvert. Il révèle les mécanismes d'isolement, d'emprise, de prédation et de silence à l'oeuvre pendant des décennies derrière les murs de ces établissements. Cette libération collective de la parole s'accompagne du regard d'experts, psychologue, sociologue, député ou représentant de l'enseignement catholique.</desc>
+    <credits>
+      <director>Adrien Benoliel</director>
+      <director>Ixchel Delaporte</director>
+      <guest>Roche Productions</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E5FA1ADD9A448D29B2EF21F121B59A88.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+<programme start="20260914002000 +0200" stop="20260914015000 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Foot et violences sexuelles : la bombe à retardement</sub-title>
+    <desc lang="fr">Selon un rapport du Conseil de l'Europe, un enfant sur sept serait victime d'agressions sexuelles dans le monde du sport. Le football est l'un des milieux les plus exposés. Du petit club amateur au grand club professionnel où s'entraînent les futures stars du ballon rond, aucun terrain n'est épargné.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/8/0/15756084.jpg"/>
+    <episode-num system="xmltv_ns">0.9.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914015000 +0200" stop="20260914025500 +0200" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Saisonniers : pour le meilleur et le pire des jobs d'été</sub-title>
+    <desc lang="fr">Chaque été, plus d'un million de saisonniers font tourner la grande machine touristique française. Pour certains, c'est le bon plan rêvé : soleil, pourboires et gros salaires. Pour d'autres, c'est un calvaire : pénurie de main-d'oeuvre, horaires à rallonge, travail non déclaré et logements indignes.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/7/1/15201172.jpg"/>
+    <episode-num system="xmltv_ns">0.35.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914025500 +0200" stop="20260914060000 +0200" channel="M6test">
+    <title lang="fr">Programmes de la nuit</title>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914060000 +0200" stop="20260914080500 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/3/4/15227437.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
