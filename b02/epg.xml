@@ -3,314 +3,241 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260913070000 +0200" stop="20260913073000 +0200" channel="M6test">
-    <title lang="fr">100% immo, l'hebdo</title>
-    <desc lang="fr">Les tendances et l'actualité du secteur immobilier, à Paris et en régions sont présentées dans cette émission où des professionnels livrent conseils et astuces.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Découvertes</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6B4E8FA2B4BF5F9CCB0AB785BB7AAAA2.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">1.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913073000 +0200" stop="20260913102500 +0200" channel="M6test">
-    <title lang="fr">My boutique Téléshop'</title>
-    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <credits>
-      <guest>Marie-Ange Nardi</guest>
-      <guest>Charlotte Rosier</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913102500 +0200" stop="20260913105500 +0200" channel="M6test">
-    <title lang="fr">Turbo</title>
-    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques, sans oublier les derniers modèles des différentes marques. Turbo revient sur les nouveautés du marché et présente les avantages et les petits inconvénients de chaque modèle.</desc>
-    <credits>
-      <guest>Dominique Chapatte</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Loisirs</category>
-    <category lang="fr">Automobilisme</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5420AFB0C6C759BE0F8F1EC222D169B1.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913105500 +0200" stop="20260913112000 +0200" channel="M6test">
-    <title lang="fr">Turbo</title>
-    <desc lang="fr">Ce dimanche dans Turbo, Dominique Chapatte vous propose de retrouver Étienne Bruet, Safet Rastoder et Simon Potée-Gallini en région parisienne pour vous faire découvrir les bonnes affaires des constructeurs français de la rentrée.</desc>
-    <credits>
-      <guest>Dominique Chapatte</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Loisirs</category>
-    <category lang="fr">Automobilisme</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5420AFB0C6C759BE0F8F1EC222D169B1.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913112000 +0200" stop="20260913124000 +0200" channel="M6test">
-    <title lang="fr">Turbo</title>
-    <desc lang="fr">Ce dimanche dans Turbo Safet Rastoder et Simon Potée-Gallini vous emmènent en Angleterre. Le Festival of Speed de Goodwood réunit dans un même lieu les voitures les plus mythiques de l'histoire, les supercars les plus folles et les pilotes les plus prestigieux. De la Formule 1 aux légendes du rallye, en passant par les hypercars et les youngtimers, Goodwood est un spectacle unique où le patrimoine automobile rencontre la démesure. Passion, vitesse et extravagance à l'anglaise !</desc>
-    <credits>
-      <guest>Dominique Chapatte</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Loisirs</category>
-    <category lang="fr">Automobilisme</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/86F891FA43881F4313C54667DAC3DBAB.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913124000 +0200" stop="20260913124500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/386ADB68772665A76D151D2EDA9CFB50.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913124500 +0200" stop="20260913133000 +0200" channel="M6test">
-    <title lang="fr">Le 12.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>Ashley Chevalier</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/9EFB2EC58773D58BF4ECC84700DCC35D.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913133000 +0200" stop="20260913141000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Sécheresse, inondations : quand le climat menace nos maisons</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6038A79652ECCEEE16D19AC4161E8E95.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913141000 +0200" stop="20260913151000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913151000 +0200" stop="20260913161000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913161000 +0200" stop="20260913171000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion : "Un jour, un doc week-end" propose une grande variété de documentaires et de sujets au coeur des préoccupations des Français.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/804848D93F5B6CBF42CEE3CD4E4D2D0A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913171000 +0200" stop="20260913184000 +0200" channel="M6test">
-    <title lang="fr">66 minutes</title>
-    <desc lang="fr">Des célébrités aux faits divers en passant par la politique, différents reportages reviennent sur l'actualité pour mieux l'analyser et la comprendre.</desc>
-    <credits>
-      <guest>Kareen Guiock Thuram</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BFF9B34CB1528D4FA86117FE4620613A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913184000 +0200" stop="20260913194000 +0200" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Décryptage d'un phénomène de société ou d'un événement tiré de l'actualité.</desc>
-    <credits>
-      <guest>Kareen Guiock Thuram</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5302E4ACD03C25F10DB96CEBC5AF2AB4.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913194000 +0200" stop="20260913194500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/0DEDB28E2D206269F8855D09B99E3B21.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913194500 +0200" stop="20260913201000 +0200" channel="M6test">
-    <title lang="fr">Le 19.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>Ashley Chevalier</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6AE8E465FE04556B95466CE8341A626D.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913201000 +0200" stop="20260913203500 +0200" channel="M6test">
-    <title lang="fr">Le 2010, Anne-Sophie Lapix</title>
-    <desc lang="fr">Anne-Sophie Lapix propose une interview exclusive d'une dizaine de minutes avec une personnalité marquante de la semaine. Qu'il s'agisse d'une figure connue ou d'un visage anonyme, les invités viennent de tous horizons : société, culture, ...</desc>
-    <credits>
-      <guest>Anne-Sophie Lapix</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Interview</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/29779A3DD1130133D6D88BD50FB5BFF3.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913203500 +0200" stop="20260913211000 +0200" channel="M6test">
-    <title lang="fr">E=M6</title>
-    <sub-title lang="fr">Aloe vera, noix de coco : des champions naturels aux mille usages !</sub-title>
-    <desc lang="fr">Des scientifiques dévoilent tous les secrets de l'aloe vera, une plante dont le gel possède des vertus hydratantes et cicatrisantes, et la noix de coco.</desc>
-    <credits>
-      <guest>Mac Lesggy</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Sciences et technique</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E88110976371C85BF52ABDD702251462.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260913211000 +0200" stop="20260913231000 +0200" channel="M6test">
-    <title lang="fr">Zone interdite</title>
-    <sub-title lang="fr">Nous avons infiltré l'école : l'enquête choc</sub-title>
-    <desc lang="fr">Pendant un an, des journalistes ont enquêté au coeur de l'Education nationale, parfois en caméra cachée, pour révéler des dysfonctionnements invraisemblables : enseignant insultés ou frappés, remplacements souvent compliqués voire impossibles, questionnement autour du recrutement et du niveau scolaire.</desc>
-    <credits>
-      <guest>Ophélie Meunier</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DD022DA5E2128EA4ABEB265244E048AB.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260913231000 +0200" stop="20260914002000 +0200" channel="M6test">
-    <title lang="fr">#MeToo scolaire - Après Bétharram, ils brisent le silence</title>
-    <desc lang="fr">Suite au scandale Bétharram, déclenché en février 2025, des milliers d'anciens élèves de l'enseignement catholique privé ont trouvé le courage de témoigner des violences physiques et sexuelles subies durant leur scolarité. Ce documentaire donne la parole à des victimes, dont certaines parlent pour la première fois à visage découvert. Il révèle les mécanismes d'isolement, d'emprise, de prédation et de silence à l'oeuvre pendant des décennies derrière les murs de ces établissements. Cette libération collective de la parole s'accompagne du regard d'experts, psychologue, sociologue, député ou représentant de l'enseignement catholique.</desc>
-    <credits>
-      <director>Adrien Benoliel</director>
-      <director>Ixchel Delaporte</director>
-      <guest>Roche Productions</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E5FA1ADD9A448D29B2EF21F121B59A88.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260914002000 +0200" stop="20260914015000 +0200" channel="M6test">
-    <title lang="fr">Enquête exclusive</title>
-    <sub-title lang="fr">Foot et violences sexuelles : la bombe à retardement</sub-title>
-    <desc lang="fr">Selon un rapport du Conseil de l'Europe, un enfant sur sept serait victime d'agressions sexuelles dans le monde du sport. Le football est l'un des milieux les plus exposés. Du petit club amateur au grand club professionnel où s'entraînent les futures stars du ballon rond, aucun terrain n'est épargné.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/8/0/15756084.jpg"/>
-    <episode-num system="xmltv_ns">0.9.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260914015000 +0200" stop="20260914025500 +0200" channel="M6test">
-    <title lang="fr">Enquête exclusive</title>
-    <sub-title lang="fr">Saisonniers : pour le meilleur et le pire des jobs d'été</sub-title>
-    <desc lang="fr">Chaque été, plus d'un million de saisonniers font tourner la grande machine touristique française. Pour certains, c'est le bon plan rêvé : soleil, pourboires et gros salaires. Pour d'autres, c'est un calvaire : pénurie de main-d'oeuvre, horaires à rallonge, travail non déclaré et logements indignes.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/7/1/15201172.jpg"/>
-    <episode-num system="xmltv_ns">0.35.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260914025500 +0200" stop="20260914060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
 <programme start="20260914060000 +0200" stop="20260914080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/3/4/15227437.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914080500 +0200" stop="20260914094500 +0200" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/0/15200064.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914094500 +0200" stop="20260914113000 +0200" channel="M6test">
+    <title lang="fr">Ça peut vous arriver</title>
+    <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/7/5/15227578.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914113000 +0200" stop="20260914124000 +0200" channel="M6test">
+    <title lang="fr">Ça peut vous arriver chez vous</title>
+    <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/0/9/15186907.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914124000 +0200" stop="20260914124500 +0200" channel="M6test">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Météo</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/4/15227411.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914124500 +0200" stop="20260914133500 +0200" channel="M6test">
+    <title lang="fr">Le 12.45</title>
+    <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
+    <category lang="fr">Journal</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/8/6/15743682.jpg"/>
+    <episode-num system="xmltv_ns">0.256.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914133500 +0200" stop="20260914134000 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/3/4/15227437.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914134000 +0200" stop="20260914145000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914145000 +0200" stop="20260914155000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914155000 +0200" stop="20260914165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914165000 +0200" stop="20260914172500 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914172500 +0200" stop="20260914183500 +0200" channel="M6test">
+    <title lang="fr">La roue de la fortune</title>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/9/15186909.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914183500 +0200" stop="20260914194000 +0200" channel="M6test">
+    <title lang="fr">Le juste prix</title>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/7/2/15369272.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914194000 +0200" stop="20260914194500 +0200" channel="M6test">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Météo</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/4/4/15227445.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914194500 +0200" stop="20260914204000 +0200" channel="M6test">
+    <title lang="fr">Le 19.45</title>
+    <desc lang="fr">Le journal de M6.</desc>
+    <category lang="fr">Journal</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/9/15186902.jpg"/>
+    <episode-num system="xmltv_ns">0.256.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914204000 +0200" stop="20260914211000 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Qu'ils refassent leur intérieur, qu'ils partent en voyage initiatique, qu'ils changent de continent ou qu'ils refondent leur famille, nos couples vont bousculer leurs vies comme ils ne l'avaient jamais fait auparavant. C'est aussi l'occasion d'accueillir le fils de Raymond, de retour d'Australie, et l'employé déprimé d'Alice et Sofiane. Bref, tout change… sauf eux !</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/9/15617926.jpg"/>
+    <episode-num system="xmltv_ns">17.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914211000 +0200" stop="20260914220500 +0200" channel="M6test">
+    <title lang="fr">L'amour est dans le pré</title>
+    <desc lang="fr">Les speed dating se poursuivent à bord d'une péniche amarrée sur la Seine. La nervosité est palpable, tant du côté des agriculteurs et agricultrices que de leurs correspondants, émus de rencontrer ceux à qui ils ont osé déclarer leur flamme. Parallèlement, certains démarrent déjà leur séjour à la ferme.</desc>
+    <category lang="fr">Téléréalité</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/1/2/15629216.jpg"/>
+    <episode-num system="xmltv_ns">20.3.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914220500 +0200" stop="20260914231500 +0200" channel="M6test">
+    <title lang="fr">L'amour est dans le pré</title>
+    <desc lang="fr">Tandis que les speed dating parisiens se poursuivent, avec leur lot de séquences émouvantes ou amusantes, certains prétendants entament déjà leur séjour à la ferme. Les premières impressions se confirmeront-elles ?</desc>
+    <category lang="fr">Téléréalité</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/1/2/15629216.jpg"/>
+    <episode-num system="xmltv_ns">20.3.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260914231500 +0200" stop="20260915000000 +0200" channel="M6test">
+    <title lang="fr">L'amour vu du pré</title>
+    <desc lang="fr">Murielle, vue dans l'édition 2024 de l'émission, Robin, un des prétendants d'Océane en 2025, Laurent, Laurence, Philippe et Evelyne donnent leur avis sur les premiers pas des agriculteurs et leur rencontre avec les prétendants qu'ils ont sélectionnés. Avec leurs personnalités bien affirmées, leur humour, leur spontanéité et leurs propos dénués de filtre, ils se prennent au jeu des confidences et des réactions à chaud.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/2/15629220.jpg"/>
+    <episode-num system="xmltv_ns">7.7.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260915000000 +0200" stop="20260915010000 +0200" channel="M6test">
+    <title lang="fr">L'amour est dans le pré : Que sont-ils devenus ?</title>
+    <desc lang="fr">Doyen emblématique de la saison 19, Gilou réunit les agriculteurs le temps d'un week-end festif pour célébrer ses 70 ans. Rires, tendresse et complicité sont au programme de ces retrouvailles. Karine Le Marchand profite de l'occasion pour prendre des nouvelles de chacun des participants afin de savoir où ils en sont côté coeur. Entre nouvelles rencontres et changements de statut amoureux, les téléspectateurs découvrent les derniers rebondissements dans la vie sentimentale de leurs agriculteurs préférés. Vus dans la saison 18, Charles, David et Joris se confient également.</desc>
+    <date>2025</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/923AC376F2E8D80614DC6F9B184D67EB.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">19.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260915010000 +0200" stop="20260915015500 +0200" channel="M6test">
+    <title lang="fr">L'amour est dans le pré : Que sont-ils devenus ?</title>
+    <desc lang="fr">Gilou souffle-t-il ses bougies seul ou en galante compagnie ? Mickaël et Nadia, Ludovic, Stéphane, Valentin, Karell et les autres agriculteurs de la saison 19 se confient à Karine Le Marchand.</desc>
+    <date>2025</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Téléréalité</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8D55656A0AF922DD4CC24AC25D7BFBCC.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">19.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260915015500 +0200" stop="20260915060000 +0200" channel="M6test">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/611B52CD73AB6BCF0E8FA80EB8015F5E.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260915060000 +0200" stop="20260915080500 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
+    <credits>
+      <actor>Valérie Karsenti</actor>
+      <actor>Ryad Baxx</actor>
+      <actor>Claire Chust</actor>
+      <actor>Grégoire Bonnet</actor>
+      <actor>Vinnie Dargaud</actor>
+      <actor>Frédéric Bouraly</actor>
+      <actor>Fanny Cottençon</actor>
+      <actor>David Mora</actor>
+      <actor>Amélie Etasse</actor>
+      <actor>Claudia Mongumu</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>Gérard Hernandez</actor>
+      <guest>M6 Métropole Télévision</guest>
+      <guest> KaBo</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
+    <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
