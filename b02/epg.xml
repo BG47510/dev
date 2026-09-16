@@ -3,596 +3,6 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260915060000 +0200" stop="20260915080500 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Ryad Baxx</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Fanny Cottençon</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Claudia Mongumu</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Gérard Hernandez</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DEC4BD560E547955592B0646BB733759.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915080500 +0200" stop="20260915094500 +0200" channel="M6test">
-    <title lang="fr">My boutique Téléshop'</title>
-    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <credits>
-      <guest>Marie-Ange Nardi</guest>
-      <guest>Charlotte Rosier</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/39BB8EE38E8FB234C490D8F3E9AB535A.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915094500 +0200" stop="20260915113000 +0200" channel="M6test">
-    <title lang="fr">Ça peut vous arriver</title>
-    <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BDCDE118CB4609F8D800BF13AD037494.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915113000 +0200" stop="20260915124000 +0200" channel="M6test">
-    <title lang="fr">Ça peut vous arriver chez vous</title>
-    <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/8C544F63E72CB621535D938B32FF8A37.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915124000 +0200" stop="20260915124500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/386ADB68772665A76D151D2EDA9CFB50.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915124500 +0200" stop="20260915133500 +0200" channel="M6test">
-    <title lang="fr">Le 12.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>Nathalie Renoux</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/D814F9D470C58C75041B1B326B82150E.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915133500 +0200" stop="20260915134000 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Ryad Baxx</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Fanny Cottençon</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Claudia Mongumu</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Gérard Hernandez</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915134000 +0200" stop="20260915145000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915145000 +0200" stop="20260915155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Du jour au lendemain, ma vie a basculé</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">4.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915155000 +0200" stop="20260915165000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915165000 +0200" stop="20260915172500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/873E8C3263C26D332CF50D91FE0528E3.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915172500 +0200" stop="20260915183500 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
-    <credits>
-      <guest>Eric Antoine</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/16CA5370FC17EE9C0C1359A217F4CF56.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915183500 +0200" stop="20260915194000 +0200" channel="M6test">
-    <title lang="fr">Le juste prix</title>
-    <desc lang="fr">Chaque jour, 7 candidats sont sélectionnés pour tenter de rejoindre Éric Antoine et se frotter aux cultissimes jeux du " Juste prix ". Une vingtaine d'épreuves culte les attend, notamment le " fakir ", le " coup de poing ", le " mini-gol...</desc>
-    <credits>
-      <guest>Eric Antoine</guest>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E26D46155DF77B2732629631CD78DE88.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915194000 +0200" stop="20260915194500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DCB6ACD4EDED5A837EF60A463FC71D04.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915194500 +0200" stop="20260915204000 +0200" channel="M6test">
-    <title lang="fr">Le 19.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>Xavier de Moulins</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/307D64F97E714ECC1571F3C6834B2031.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915204000 +0200" stop="20260915211000 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Majid Berhila</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Gérard Hernandez</actor>
-      <actor>Elodie Poux</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/5EFCD78BDD4E4ED7CC953FF91F729A49.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">17.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260915211000 +0200" stop="20260915215500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Retour sur terre</sub-title>
-    <desc lang="fr">Pour pouvoir revenir sur Terre, l'équipe dans l'espace doit libérer la capsule Soyuz de l'ISS, ce qui nécessite de réparer le bras articulé. Hen se porte volontaire, mais Athena décide de la remplacer, car elle estime qu'elle n'a plus de raison de vivre depuis le décès de Bobby. Elle se remémore une intervention lors du braquage d'une banque au cours de laquelle Brogan McCluskey, son mentor, avait été mortellement blessé...</desc>
-    <credits>
-      <director>Bradley Buecker</director>
-      <actor>Mark Consuelos</actor>
-      <actor>Gavin McHugh</actor>
-      <actor>Anirudh Pisharody</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Tracie Thoms</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Angela Bassett</actor>
-      <actor>Elijah M. Cooper</actor>
-      <actor>Corinne Massiah</actor>
-      <adapter>James Leffler</adapter>
-      <adapter>Tim Minear</adapter>
-      <adapter>Molly Green</adapter>
-      <producer>Ryan Murphy</producer>
-      <editor>Tim Minear</editor>
-      <editor>Molly Savard</editor>
-      <guest>20th Television</guest>
-      <guest>Ryan Murphy Productions</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/785AFBC2163D20A196881D62F1780005.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">8.3.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260915215500 +0200" stop="20260915225000 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Le jour des morts</sub-title>
-    <desc lang="fr">En pleine période d'Halloween, les convictions de la brigade 118 sont mises à rude épreuve lorsque ses membres reçoivent des appels qui impliquent une citrouille-lanterne, provoquant quelques frayeurs auxquelles ils ne s'attendaient pas. Sur les lieux d'un accident, un homme en costume de cavalier sans tête a renversé un homme déguisé en épouvantail....</desc>
-    <credits>
-      <director>Keith Tripler</director>
-      <actor>Gavin McHugh</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Ana Mercedes</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Debra Christofferson</actor>
-      <actor>Angela Bassett</actor>
-      <actor>Elijah M. Cooper</actor>
-      <actor>Anirudh Pisharody</actor>
-      <actor>Corinne Massiah</actor>
-      <adapter>Christopher Monfette</adapter>
-      <adapter>Molly Savard</adapter>
-      <producer>Greg Sirota</producer>
-      <producer>Ravi Subramanian</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Bradley Buecker</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Tim Minear</producer>
-      <producer>John J. Gray</producer>
-      <producer>Kristen Reidel</producer>
-      <composer>Sean McGuire</composer>
-      <editor>Tim Minear</editor>
-      <editor>Molly Savard</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2025</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E8BC9A990DB88C6352411AB03CB8147C.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">8.4.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260915225000 +0200" stop="20260915233500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Cherche et trouve</sub-title>
-    <desc lang="fr">La 118 intervient dans un centre commercial lorsqu'une mère paniquée appelle pour signaler la disparition de son enfant. La femme ne sait pas où son fils est allé et l'affluence du lieu rend les recherches compliquées. Plus tard et ailleurs, deux colocataires se retrouvent ensevelis dans une décharge où ils cherchaient à récupérer un disque dur contenant des cryptomonnaies. Dans l'intervention, Chimney perd la bague de fiançailles qu'il venait d'acheter pour Maddie. </desc>
-    <credits>
-      <director>Brenna Malloy</director>
-      <director>Marita Grabiak</director>
-      <actor>Angela Bassett</actor>
-      <actor>Gavin McHugh</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Peter Krause</actor>
-      <actor>Knajula Edwards</actor>
-      <actor>Ruby Fisher</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Chiquita Fuller</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Corinne Massiah</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <adapter>Nicole Barraza Keim</adapter>
-      <adapter>Lyndsey Beaulieu</adapter>
-      <producer>Hutton Tignini</producer>
-      <producer>John J. Gray</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Juan Carlos Coto</producer>
-      <producer>Lou Eyrich</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Peter Krause</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Kristen Reidel</producer>
-      <producer>Tim Minear</producer>
-      <producer>Robert M. Williams jr.</producer>
-      <producer>Alexis Martin Woodall</producer>
-      <producer>Lyndsey Beaulieu</producer>
-      <producer>Eryn Krueger Mekash</producer>
-      <producer>Bradley Buecker</producer>
-      <composer>Todd Haberman</composer>
-      <composer>Mac Quayle</composer>
-      <editor>Taylor Wong</editor>
-      <editor>Stacey R. Rose</editor>
-      <editor>Tim Minear</editor>
-      <editor>Ryan Murphy</editor>
-      <editor>Brad Falchuk</editor>
-      <editor>Nadia Abass-Madden</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C10D4F44CC7165E12D812D373E7A2C99.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">5.15.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260915233500 +0200" stop="20260916003000 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Il y a de l'amour dans l'air</sub-title>
-    <desc lang="fr">La 118 intervient lorsqu'une demande en mariage de haut vol est contrariée par le braquage d'une banque. L'équipe porte également secours à une future mariée coincée dans son carrosse juste avant la noce. Athena offre son soutien à une femme dont le mari vient de s'éteindre à leur domicile. Maddie prend les choses en main alors que Buck trouve un visiteur surprise sur le pas de sa porte...</desc>
-    <credits>
-      <director>Juan Carlos Coto</director>
-      <actor>Angela Bassett</actor>
-      <actor>Gavin McHugh</actor>
-      <actor>Annelise Cepero</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Peter Krause</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Chiquita Fuller</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Corinne Massiah</actor>
-      <actor>Debra Christofferson</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <adapter>Nicole Barraza Keim</adapter>
-      <adapter>Juan Carlos Coto</adapter>
-      <producer>Hutton Tignini</producer>
-      <producer>Kristen Reidel</producer>
-      <producer>Juan Carlos Coto</producer>
-      <producer>Lou Eyrich</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Peter Krause</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Tim Minear</producer>
-      <producer>Robert M. Williams jr.</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Lyndsey Beaulieu</producer>
-      <producer>Eryn Krueger Mekash</producer>
-      <producer>John J. Gray</producer>
-      <producer>Bradley Buecker</producer>
-      <producer>Alexis Martin Woodall</producer>
-      <composer>Todd Haberman</composer>
-      <composer>Mac Quayle</composer>
-      <editor>Tim Minear</editor>
-      <editor>Nadia Abass-Madden</editor>
-      <editor>Stacey R. Rose</editor>
-      <editor>Taylor Wong</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CBCF670257861ECB9EE7CF37BDD3E68B.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">5.16.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260916003000 +0200" stop="20260916012500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Ce qui nous relie</sub-title>
-    <desc lang="fr">Toute la brigade d'intervention est mobilisée lorsqu'un accident sur l'autoroute entraîne l'effondrement d'un pont. Les secours s'organisent mais malgré les efforts de tous, les victimes s'accumulent, que ce soit dans les rangs des civils ou ceux de la 118…</desc>
-    <credits>
-      <director>Bradley Buecker</director>
-      <actor>Angela Bassett</actor>
-      <actor>Gavin McHugh</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Mike Gray</actor>
-      <actor>Peter Krause</actor>
-      <actor>Tracie Thoms</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Corinne Massiah</actor>
-      <actor>Bryan Safi</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <adapter>Andrew Meyers</adapter>
-      <adapter>Nicole Barraza Keim</adapter>
-      <producer>Hutton Tignini</producer>
-      <producer>Kristen Reidel</producer>
-      <producer>Juan Carlos Coto</producer>
-      <producer>Lou Eyrich</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Peter Krause</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Tim Minear</producer>
-      <producer>Robert M. Williams jr.</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Lyndsey Beaulieu</producer>
-      <producer>Eryn Krueger Mekash</producer>
-      <producer>John J. Gray</producer>
-      <producer>Bradley Buecker</producer>
-      <producer>Alexis Martin Woodall</producer>
-      <composer>Todd Haberman</composer>
-      <composer>Mac Quayle</composer>
-      <editor>Tim Minear</editor>
-      <editor>Nadia Abass-Madden</editor>
-      <editor>Stacey R. Rose</editor>
-      <editor>Taylor Wong</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/F9776CA8543345E9F86D334410C0E7E4.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">5.17.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260916012500 +0200" stop="20260916021500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Le 9-1-1 ne répond plus</sub-title>
-    <desc lang="fr">Alors que le centre d'appel est pris un otage, Maddie commence à craindre pour sa vie et pour celle de ses collègues. La jeune femme cherche un moyen de sortir de cette situation et fait passer un message codé à Chimney...</desc>
-    <credits>
-      <director>Marshall Tyler</director>
-      <actor>Corinne Massiah</actor>
-      <actor>Angela Bassett</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <actor>Marcanthonee Reis</actor>
-      <actor>Tristen MacDonald</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Gavin McHugh</actor>
-      <actor>Peter Krause</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Rockmond Dunbar</actor>
-      <adapter>Andrew Meyers</adapter>
-      <adapter>Nadia Abass-Madden</adapter>
-      <producer>Lou Eyrich</producer>
-      <producer>Peter Krause</producer>
-      <producer>Eryn Krueger Mekash</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Tim Minear</producer>
-      <producer>Bradley Buecker</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Ethan Wellin</producer>
-      <producer>Kristen Reidel</producer>
-      <producer>Jeff Dickerson</producer>
-      <producer>John J. Gray</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Alexis Martin Woodall</producer>
-      <composer>Todd Haberman</composer>
-      <composer>Mac Quayle</composer>
-      <editor>Ryan Murphy</editor>
-      <editor>Tim Minear</editor>
-      <editor>Brad Falchuk</editor>
-      <guest>20th Century Fox Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2020</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/194A6EC4CB2C25B618C9ED60B8C5EEB2.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">2.13.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20260916021500 +0200" stop="20260916060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
 <programme start="20260916060000 +0200" stop="20260916080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
@@ -615,6 +25,358 @@
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
     <icon src="https://img.bouygtel.fr/CMS/images/4BC268F71001FF1F7601CDBEE48EE44C.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916080500 +0200" stop="20260916094500 +0200" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
+    <credits>
+      <guest>Marie-Ange Nardi</guest>
+      <guest>Charlotte Rosier</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Télé-achat</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916094500 +0200" stop="20260916113000 +0200" channel="M6test">
+    <title lang="fr">Ça peut vous arriver</title>
+    <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8C544F63E72CB621535D938B32FF8A37.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916113000 +0200" stop="20260916124000 +0200" channel="M6test">
+    <title lang="fr">Ça peut vous arriver chez vous</title>
+    <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
+    <credits>
+      <guest>Julien Courbet</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Art de vivre</category>
+    <category lang="fr">Consommation</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8C544F63E72CB621535D938B32FF8A37.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916124000 +0200" stop="20260916124500 +0200" channel="M6test">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/CE94BD207D3E5AC1B29CA270BFACD13B.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916124500 +0200" stop="20260916133500 +0200" channel="M6test">
+    <title lang="fr">Le 12.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Nathalie Renoux</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B7F0DE3FAC4633A598EF84C05088780B.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916133500 +0200" stop="20260916134000 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
+    <credits>
+      <actor>Valérie Karsenti</actor>
+      <actor>Ryad Baxx</actor>
+      <actor>Claire Chust</actor>
+      <actor>Grégoire Bonnet</actor>
+      <actor>Vinnie Dargaud</actor>
+      <actor>Frédéric Bouraly</actor>
+      <actor>Fanny Cottençon</actor>
+      <actor>David Mora</actor>
+      <actor>Amélie Etasse</actor>
+      <actor>Claudia Mongumu</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>Gérard Hernandez</actor>
+      <guest>M6 Métropole Télévision</guest>
+      <guest> KaBo</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4BC268F71001FF1F7601CDBEE48EE44C.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916134000 +0200" stop="20260916145000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6CB74A0B25E897367071B310B0A37892.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916145000 +0200" stop="20260916155000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6CB74A0B25E897367071B310B0A37892.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916155000 +0200" stop="20260916165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916165000 +0200" stop="20260916172500 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916172500 +0200" stop="20260916183500 +0200" channel="M6test">
+    <title lang="fr">La roue de la fortune</title>
+    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
+    <credits>
+      <guest>Eric Antoine</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F3352C753F9850773F07F25303AD4EDC.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916183500 +0200" stop="20260916194000 +0200" channel="M6test">
+    <title lang="fr">Le juste prix</title>
+    <desc lang="fr">Chaque jour, 7 candidats sont sélectionnés pour tenter de rejoindre Éric Antoine et se frotter aux cultissimes jeux du " Juste prix ". Une vingtaine d'épreuves culte les attend, notamment le " fakir ", le " coup de poing ", le " mini-gol...</desc>
+    <credits>
+      <guest>Eric Antoine</guest>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D55A7D8AAA3443678B125F70225EC756.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916194000 +0200" stop="20260916194500 +0200" channel="M6test">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <date>2026</date>
+    <category lang="fr">Services</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/CE94BD207D3E5AC1B29CA270BFACD13B.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916194500 +0200" stop="20260916204000 +0200" channel="M6test">
+    <title lang="fr">Le 19.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <credits>
+      <guest>Xavier de Moulins</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A59C23C07743C959840C6D75472807D1.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916204000 +0200" stop="20260916211000 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
+    <credits>
+      <actor>Valérie Karsenti</actor>
+      <actor>Claire Chust</actor>
+      <actor>Grégoire Bonnet</actor>
+      <actor>Vinnie Dargaud</actor>
+      <actor>Frédéric Bouraly</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>Majid Berhila</actor>
+      <actor>David Mora</actor>
+      <actor>Amélie Etasse</actor>
+      <actor>Gérard Hernandez</actor>
+      <actor>Elodie Poux</actor>
+      <guest>M6 Métropole Télévision</guest>
+      <guest> KaBo</guest>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4BC268F71001FF1F7601CDBEE48EE44C.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">17.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916211000 +0200" stop="20260916220500 +0200" channel="M6test">
+    <title lang="fr">Patron incognito</title>
+    <sub-title lang="fr">Robert Guillet - Buffalo Grill (1/2)</sub-title>
+    <desc lang="fr">A la tête de l'enseigne Buffalo Grill depuis 2022, Robert Guillet échange son costume de dirigeant contre celui d'un chauffeur de bus en reconversion pour se fondre, incognito, parmi ses équipes. Son objectif : vérifier si la transformation engagée par l'enseigne se vit réellement sur le terrain.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">13.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916220500 +0200" stop="20260916224500 +0200" channel="M6test">
+    <title lang="fr">Patron incognito</title>
+    <sub-title lang="fr">Robert Guillet - Buffalo Grill (2/2)</sub-title>
+    <desc lang="fr">Au fil de trois immersions, Robert Guillet redécouvre Buffalo Grill sous un nouvel angle. Au plus près de ses équipes, il prend pleinement la mesure des difficultés auxquelles elles sont confrontées et identifie de nouvelles pistes pour les accompagner dans la transformation de l'entreprise.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D350D62ECCB2F9B620D7A33377C1E39E.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">13.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916224500 +0200" stop="20260916234500 +0200" channel="M6test">
+    <title lang="fr">Patron incognito</title>
+    <sub-title lang="fr">Thomas Bedun - Envia Cuisines</sub-title>
+    <desc lang="fr">C'est dans l'univers de la cuisine aménagée sur-mesure et à prix accessible que se déroule ce numéro de "Patron incognito". Thomas Bedun, fils du cofondateur d'Envia Cuisines, s'apprête à succéder à son père. A Leers, Bruay-la-Buissière et Rennes, il découvre différentes facettes de l'entreprise.</desc>
+    <date>2025</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">12.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260916234500 +0200" stop="20260917004500 +0200" channel="M6test">
+    <title lang="fr">Patron incognito</title>
+    <sub-title lang="fr">Thomas Bedun - Envia Cuisines</sub-title>
+    <desc lang="fr">A travers ses immersions, Thomas Bedun découvre des collaborateurs passionnés, mais aussi des enjeux stratégiques cruciaux pour l'avenir d'Envia Cuisines : formation, accompagnement des équipes, optimisation des outils et cohérence du modèle économique. Un défi de taille pour celui qui s'apprête à prendre les rênes de l'entreprise familiale.</desc>
+    <date>2025</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">12.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260917004500 +0200" stop="20260917015000 +0200" channel="M6test">
+    <title lang="fr">Patron incognito</title>
+    <sub-title lang="fr">Anne-Catherine Péchinot et Virginie Decamps-Lainé d'Easy Cash</sub-title>
+    <desc lang="fr">La société Easy Cash est le leader national de l'achat et de la vente de produits d'occasion. Anne-Catherine Péchinot, directrice générale, et Virginie Decamps-Lainé, directrice des opérations, partent en immersion incognito dans leur propre réseau pour mesurer les réalités du terrain.</desc>
+    <date>2025</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">11.1.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260917015000 +0200" stop="20260917024000 +0200" channel="M6test">
+    <title lang="fr">Patron incognito</title>
+    <sub-title lang="fr">Anne-Catherine Péchinot et Virginie Decamps-Lainé d'Easy Cash</sub-title>
+    <desc lang="fr">Respectivement directrice générale et directrice des opérations de la société Easy Cash, Anne-Catherine Péchinot et Virginie Decamps-Lainé se rendent en immersion dans leur réseau, dans l'anonymat le plus complet, afin de découvrir les réalités du terrain.</desc>
+    <date>2025</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D350D62ECCB2F9B620D7A33377C1E39E.jpg"/>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">11.1.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260917024000 +0200" stop="20260917060000 +0200" channel="M6test">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/CC7911737228689FF5CC076A98C27C6F.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260917060000 +0200" stop="20260917080500 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
+    <credits>
+      <actor>Valérie Karsenti</actor>
+      <actor>Ryad Baxx</actor>
+      <actor>Claire Chust</actor>
+      <actor>Grégoire Bonnet</actor>
+      <actor>Vinnie Dargaud</actor>
+      <actor>Frédéric Bouraly</actor>
+      <actor>Fanny Cottençon</actor>
+      <actor>David Mora</actor>
+      <actor>Amélie Etasse</actor>
+      <actor>Claudia Mongumu</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>Gérard Hernandez</actor>
+      <guest>M6 Métropole Télévision</guest>
+      <guest> KaBo</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Comédie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DEC4BD560E547955592B0646BB733759.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
