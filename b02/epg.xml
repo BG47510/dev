@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20260916060000 +0200" stop="20260916080500 +0200" channel="M6test">
+<programme start="20260917060000 +0200" stop="20260917080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -30,7 +30,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916080500 +0200" stop="20260916094500 +0200" channel="M6test">
+<programme start="20260917080500 +0200" stop="20260917094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <credits>
@@ -40,13 +40,13 @@
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/07F8C09B35AD258FCC6FC098E8C3DF2A.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916094500 +0200" stop="20260916113000 +0200" channel="M6test">
+<programme start="20260917094500 +0200" stop="20260917113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <credits>
@@ -61,7 +61,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916113000 +0200" stop="20260916124000 +0200" channel="M6test">
+<programme start="20260917113000 +0200" stop="20260917124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
     <credits>
@@ -76,19 +76,19 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916124000 +0200" stop="20260916124500 +0200" channel="M6test">
+<programme start="20260917124000 +0200" stop="20260917124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE94BD207D3E5AC1B29CA270BFACD13B.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/376F337017C1E14FDB56CD0E281B97A5.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916124500 +0200" stop="20260916133500 +0200" channel="M6test">
+<programme start="20260917124500 +0200" stop="20260917133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -103,7 +103,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916133500 +0200" stop="20260916134000 +0200" channel="M6test">
+<programme start="20260917133500 +0200" stop="20260917134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -124,13 +124,26 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4BC268F71001FF1F7601CDBEE48EE44C.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/CBDF98F39DA47B607C196EBFD52984DB.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916134000 +0200" stop="20260916145000 +0200" channel="M6test">
+<programme start="20260917134000 +0200" stop="20260917145000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Ils ont deux ans pour changer leur destin</sub-title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <date>2026</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Information</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/6CB74A0B25E897367071B310B0A37892.jpg"/>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20260917145000 +0200" stop="20260917155000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -142,7 +155,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916145000 +0200" stop="20260916155000 +0200" channel="M6test">
+<programme start="20260917155000 +0200" stop="20260917165000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
@@ -154,31 +167,19 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916155000 +0200" stop="20260916165000 +0200" channel="M6test">
+<programme start="20260917165000 +0200" stop="20260917172500 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <date>2026</date>
     <category lang="fr">Magazine</category>
     <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/6CB74A0B25E897367071B310B0A37892.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916165000 +0200" stop="20260916172500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/FCDF4A1F2BD22D8071985117BF279003.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260916172500 +0200" stop="20260916183500 +0200" channel="M6test">
+<programme start="20260917172500 +0200" stop="20260917183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
     <credits>
@@ -187,14 +188,14 @@
     <date>2026</date>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/F3352C753F9850773F07F25303AD4EDC.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/6C96A492D448C6E2BDA5B9DAF9B0DAE1.jpg"/>
     <country lang="fr">France</country>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916183500 +0200" stop="20260916194000 +0200" channel="M6test">
+<programme start="20260917183500 +0200" stop="20260917194000 +0200" channel="M6test">
     <title lang="fr">Le juste prix</title>
     <desc lang="fr">Chaque jour, 7 candidats sont sélectionnés pour tenter de rejoindre Éric Antoine et se frotter aux cultissimes jeux du " Juste prix ". Une vingtaine d'épreuves culte les attend, notamment le " fakir ", le " coup de poing ", le " mini-gol...</desc>
     <credits>
@@ -209,19 +210,19 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916194000 +0200" stop="20260916194500 +0200" channel="M6test">
+<programme start="20260917194000 +0200" stop="20260917194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE94BD207D3E5AC1B29CA270BFACD13B.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/376F337017C1E14FDB56CD0E281B97A5.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916194500 +0200" stop="20260916204000 +0200" channel="M6test">
+<programme start="20260917194500 +0200" stop="20260917204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
@@ -236,7 +237,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916204000 +0200" stop="20260916211000 +0200" channel="M6test">
+<programme start="20260917204000 +0200" stop="20260917211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -264,87 +265,141 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260916211000 +0200" stop="20260916220500 +0200" channel="M6test">
-    <title lang="fr">Patron incognito</title>
-    <sub-title lang="fr">Robert Guillet - Buffalo Grill (1/2)</sub-title>
-    <desc lang="fr">A la tête de l'enseigne Buffalo Grill depuis 2022, Robert Guillet échange son costume de dirigeant contre celui d'un chauffeur de bus en reconversion pour se fondre, incognito, parmi ses équipes. Son objectif : vérifier si la transformation engagée par l'enseigne se vit réellement sur le terrain.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">13.0.</episode-num>
+<programme start="20260917211000 +0200" stop="20260917225500 +0200" channel="M6test">
+    <title lang="fr">La chute de Londres</title>
+    <desc lang="fr">Devenu chef des services secrets après avoir sauvé la Maison-Blanche, l'agent Mike Banning se rend à Londres avec le président des Etats-Unis Benjamin Asher pour assister aux funérailles du Premier ministre britannique lors d'une cérémonie accueillant les plus grands hommes d'Etats du monde occidental. Mais une attaque terroriste survient durant l'événement et plonge la capitale anglaise dans le chaos. Alors que la plupart des dirigeants nationaux sont faits prisonniers, seuls Banning et Asher parviennent à s'échapper. Déterminés à mettre fin aux agissements des terroristes, les deux hommes unissent leurs forces avec une agente de MI6...</desc>
+    <credits>
+      <director>Babak Najafi</director>
+      <actor>Robert Forster</actor>
+      <actor>Radha Mitchell</actor>
+      <actor>Melissa Leo</actor>
+      <actor>Waleed Zuaiter</actor>
+      <actor>Alon Aboutboul</actor>
+      <actor>Angela Bassett</actor>
+      <actor>Aaron Eckhart</actor>
+      <actor>Morgan Freeman</actor>
+      <actor>Shivani Ghai</actor>
+      <actor>Adel Bencherif</actor>
+      <actor>Gerard Butler</actor>
+      <actor>Martin Petrushev</actor>
+      <adapter>Christian Gudegast</adapter>
+      <adapter>Katrin Benedikt</adapter>
+      <adapter>Chad St. John</adapter>
+      <adapter>Creighton Rothenberger</adapter>
+      <producer>Christine Otal</producer>
+      <producer>Alan Siegel</producer>
+      <producer>Guy Avshalom</producer>
+      <producer>Zygi Kamasa</producer>
+      <producer>Boaz Davidson</producer>
+      <producer>Gerard Butler</producer>
+      <producer>Heidi Jo Markel</producer>
+      <producer>Trevor Short</producer>
+      <producer>Daniel Kaslow</producer>
+      <producer>Avi Lerner</producer>
+      <producer>John Thompson</producer>
+      <producer>Mark Gill</producer>
+      <producer>Matthew O'Toole</producer>
+      <producer>Les Weldon</producer>
+      <composer>Trevor Morris</composer>
+      <guest>David Fox</guest>
+      <guest>Millennium Films</guest>
+      <guest>Danièle Douet</guest>
+      <guest>Rebecca Milton</guest>
+      <guest>Kes Bonnet</guest>
+      <guest>Frédéric Cerdal</guest>
+      <guest>Paul Borne</guest>
+      <guest>Olivia Luccioni</guest>
+      <guest>Caroline Barclay</guest>
+      <guest>Gramercy Pictures</guest>
+      <guest>Nick Dent</guest>
+      <guest> G-BASE</guest>
+      <guest>Serge Faliu</guest>
+      <guest>LHF Film</guest>
+      <guest>Thierry Kazazian</guest>
+      <guest>Boris Rehlinger</guest>
+      <guest>Benoît Allemane</guest>
+      <guest>Stéphane Ronchewski</guest>
+      <guest>Ivan Rangelov</guest>
+      <guest>Raphaële Moutier</guest>
+      <guest>Bill Crutcher</guest>
+      <guest>Robyn Paiba</guest>
+      <guest>Aradhana Seth</guest>
+      <guest>Maïk Darah</guest>
+      <guest>Constantin Pappas</guest>
+      <guest>Nu Boyana Film Studios</guest>
+    </credits>
+    <date>2016</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Action</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/48DCBDDE81390EC5F4C0B02175C1C962.jpg"/>
+    <country lang="fr">Etats-Unis - Grande-Bretagne - Bulgarie</country>
     <rating system="CSA">
-      <value>Tout public</value>
+      <value>-12</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/250px-Moins12.svg.png"/>
     </rating>
   </programme>
-<programme start="20260916220500 +0200" stop="20260916224500 +0200" channel="M6test">
-    <title lang="fr">Patron incognito</title>
-    <sub-title lang="fr">Robert Guillet - Buffalo Grill (2/2)</sub-title>
-    <desc lang="fr">Au fil de trois immersions, Robert Guillet redécouvre Buffalo Grill sous un nouvel angle. Au plus près de ses équipes, il prend pleinement la mesure des difficultés auxquelles elles sont confrontées et identifie de nouvelles pistes pour les accompagner dans la transformation de l'entreprise.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/D350D62ECCB2F9B620D7A33377C1E39E.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">13.0.</episode-num>
+<programme start="20260917225500 +0200" stop="20260918010000 +0200" channel="M6test">
+    <title lang="fr">La chute de la Maison Blanche</title>
+    <desc lang="fr">Traumatisé de ne pas avoir pu sauver la vie de la Première dame, Mike Banning, ancien garde du corps du président des Etats-Unis, travaille désormais au département du Trésor, à Washington. Aussi est-il un des premiers témoins d'une prise d'otages qui se déroule en plein coeur de la Maison Blanche. A l'occasion de la venue du premier ministre sud-coréen, des hommes masqués et surarmés ont pu prendre le contrôle du bâtiment et détiennent le Président et son fils en otages. Ils exigent, en échange de leur vie, des codes militaires secrets. Mike, qui n'a pas oublié ses réflexes, décide de sauver la vie de son ancien employeur...</desc>
+    <credits>
+      <director>Antoine Fuqua</director>
+      <actor>Radha Mitchell</actor>
+      <actor>Dylan McDermott</actor>
+      <actor>Cole Hauser</actor>
+      <actor>Aaron Eckhart</actor>
+      <actor>Morgan Freeman</actor>
+      <actor>Rick Yune</actor>
+      <actor>Finley Jacobsen</actor>
+      <actor>Ashley Judd</actor>
+      <actor>Angela Bassett</actor>
+      <actor>Gerard Butler</actor>
+      <actor>Melissa Leo</actor>
+      <actor>Robert Forster</actor>
+      <adapter>Katrin Benedikt</adapter>
+      <adapter>Creighton Rothenberger</adapter>
+      <producer>Mark Gill</producer>
+      <producer>Ed Cathell III</producer>
+      <producer>Avi Lerner</producer>
+      <producer>Danny Dimbort</producer>
+      <producer>Gerard Butler</producer>
+      <producer>Boaz Davidson</producer>
+      <producer>Alan Siegel</producer>
+      <producer>Heidi Jo Markel</producer>
+      <producer>Danny Lerner</producer>
+      <producer>Trevor Short</producer>
+      <producer>Antoine Fuqua</producer>
+      <producer>John Thompson</producer>
+      <producer>Danielle Robinson</producer>
+      <composer>Trevor Morris</composer>
+      <guest>Raphaële Moutier</guest>
+      <guest>Millennium Films</guest>
+      <guest>Marjorie Frantz</guest>
+      <guest>Frédéric Popovic</guest>
+      <guest>Stéphane Pouplard</guest>
+      <guest>FortyFour Studios</guest>
+      <guest>Xavier Fagnon</guest>
+      <guest>West Coast Film Partners</guest>
+      <guest>Karen Steward</guest>
+      <guest>Caroline Beaune</guest>
+      <guest>Maïk Darah</guest>
+      <guest>Benoît Allemane</guest>
+      <guest> G-BASE</guest>
+      <guest>Frédéric Cerdal</guest>
+      <guest>Thierry Kazazian</guest>
+      <guest>Constantin Pappas</guest>
+      <guest>Boris Rehlinger</guest>
+    </credits>
+    <date>2013</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Action</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/1150874AC39825BBCEE096810FCF33D4.jpg"/>
+    <country lang="fr">Etats-Unis</country>
     <rating system="CSA">
-      <value>Tout public</value>
+      <value>-12</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/250px-Moins12.svg.png"/>
     </rating>
   </programme>
-<programme start="20260916224500 +0200" stop="20260916234500 +0200" channel="M6test">
-    <title lang="fr">Patron incognito</title>
-    <sub-title lang="fr">Thomas Bedun - Envia Cuisines</sub-title>
-    <desc lang="fr">C'est dans l'univers de la cuisine aménagée sur-mesure et à prix accessible que se déroule ce numéro de "Patron incognito". Thomas Bedun, fils du cofondateur d'Envia Cuisines, s'apprête à succéder à son père. A Leers, Bruay-la-Buissière et Rennes, il découvre différentes facettes de l'entreprise.</desc>
-    <date>2025</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">12.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260916234500 +0200" stop="20260917004500 +0200" channel="M6test">
-    <title lang="fr">Patron incognito</title>
-    <sub-title lang="fr">Thomas Bedun - Envia Cuisines</sub-title>
-    <desc lang="fr">A travers ses immersions, Thomas Bedun découvre des collaborateurs passionnés, mais aussi des enjeux stratégiques cruciaux pour l'avenir d'Envia Cuisines : formation, accompagnement des équipes, optimisation des outils et cohérence du modèle économique. Un défi de taille pour celui qui s'apprête à prendre les rênes de l'entreprise familiale.</desc>
-    <date>2025</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">12.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260917004500 +0200" stop="20260917015000 +0200" channel="M6test">
-    <title lang="fr">Patron incognito</title>
-    <sub-title lang="fr">Anne-Catherine Péchinot et Virginie Decamps-Lainé d'Easy Cash</sub-title>
-    <desc lang="fr">La société Easy Cash est le leader national de l'achat et de la vente de produits d'occasion. Anne-Catherine Péchinot, directrice générale, et Virginie Decamps-Lainé, directrice des opérations, partent en immersion incognito dans leur propre réseau pour mesurer les réalités du terrain.</desc>
-    <date>2025</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">11.1.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260917015000 +0200" stop="20260917024000 +0200" channel="M6test">
-    <title lang="fr">Patron incognito</title>
-    <sub-title lang="fr">Anne-Catherine Péchinot et Virginie Decamps-Lainé d'Easy Cash</sub-title>
-    <desc lang="fr">Respectivement directrice générale et directrice des opérations de la société Easy Cash, Anne-Catherine Péchinot et Virginie Decamps-Lainé se rendent en immersion dans leur réseau, dans l'anonymat le plus complet, afin de découvrir les réalités du terrain.</desc>
-    <date>2025</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/D350D62ECCB2F9B620D7A33377C1E39E.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">11.1.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20260917024000 +0200" stop="20260917060000 +0200" channel="M6test">
+<programme start="20260918010000 +0200" stop="20260918060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Programme</category>
@@ -355,7 +410,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20260917060000 +0200" stop="20260917080500 +0200" channel="M6test">
+<programme start="20260918060000 +0200" stop="20260918080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
     <credits>
@@ -376,7 +431,7 @@
     </credits>
     <category lang="fr">Série</category>
     <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/DEC4BD560E547955592B0646BB733759.jpg"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/4BC268F71001FF1F7601CDBEE48EE44C.jpg"/>
     <country lang="fr">France</country>
     <rating system="CSA">
       <value>Tout public</value>
