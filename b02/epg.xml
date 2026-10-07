@@ -3,475 +3,52 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261006080500 +0200" stop="20261006094500 +0200" channel="M6test">
+<programme start="20261007080500 +0200" stop="20261007094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <credits>
-      <guest>Marie-Ange Nardi</guest>
-      <guest>Charlotte Rosier</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Télé-achat</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C6A7C904BDEAB4F3FC52C689B88B8CE3.jpg"/>
-    <country lang="fr">France</country>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/7/8/15186877.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261006094500 +0200" stop="20261006113000 +0200" channel="M6test">
+<programme start="20261007094500 +0200" stop="20261007113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
-    <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CC3793FD07DE66082AD729F7A321E138.jpg"/>
-    <country lang="fr">France</country>
+    <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/8/15186898.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261006113000 +0200" stop="20261006124000 +0200" channel="M6test">
+<programme start="20261007113000 +0200" stop="20261007124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
-    <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
-    <credits>
-      <guest>Julien Courbet</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Art de vivre</category>
-    <category lang="fr">Consommation</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/516AD33A0340DBB9AB4200A85BB00597.jpg"/>
-    <country lang="fr">France</country>
+    <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/0/9/15186907.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261006124000 +0200" stop="20261006124500 +0200" channel="M6test">
+<programme start="20261007124000 +0200" stop="20261007124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
     <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE94BD207D3E5AC1B29CA270BFACD13B.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/9/15186912.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261006124500 +0200" stop="20261006133500 +0200" channel="M6test">
+<programme start="20261007124500 +0200" stop="20261007133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>Nathalie Renoux</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
+    <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/B7F0DE3FAC4633A598EF84C05088780B.jpg"/>
-    <country lang="fr">France</country>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/8/6/15743682.jpg"/>
+    <episode-num system="xmltv_ns">0.279.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261006133500 +0200" stop="20261006134000 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Ryad Baxx</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Fanny Cottençon</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Claudia Mongumu</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Gérard Hernandez</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4BC268F71001FF1F7601CDBEE48EE44C.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261006134000 +0200" stop="20261006145000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/929E37C35B27DF4EFBA67169025F9219.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261006145000 +0200" stop="20261006155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/929E37C35B27DF4EFBA67169025F9219.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261006155000 +0200" stop="20261006165000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6CB74A0B25E897367071B310B0A37892.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261006165000 +0200" stop="20261006172500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <date>2026</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Information</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6CB74A0B25E897367071B310B0A37892.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261006172500 +0200" stop="20261006183500 +0200" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
-    <credits>
-      <guest>Eric Antoine</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/6C96A492D448C6E2BDA5B9DAF9B0DAE1.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261006183500 +0200" stop="20261006194000 +0200" channel="M6test">
-    <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
-    <sub-title lang="fr">Hauts-de-France</sub-title>
-    <desc lang="fr">Huit restaurants des Hauts-de-France sont sur la ligne de départ. Chaque jour, deux d'entre eux s'affrontent autour de l'identité gastronomique des terroirs.</desc>
-    <credits>
-      <guest>Norbert Tarayre</guest>
-      <guest>Yoann Conte</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C572D6148FB133B0288E92E6DC5F9F24.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">2.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261006194000 +0200" stop="20261006194500 +0200" channel="M6test">
-    <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Services</category>
-    <category lang="fr">Météo</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CE94BD207D3E5AC1B29CA270BFACD13B.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261006194500 +0200" stop="20261006204000 +0200" channel="M6test">
-    <title lang="fr">Le 19.45</title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <guest>Xavier de Moulins</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/A59C23C07743C959840C6D75472807D1.jpg"/>
-    <country lang="fr">France</country>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261006204000 +0200" stop="20261006211000 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Chez José et Liliane, un heureux accident, plus destructeur que prévu, devient l'occasion rêvée de changer de cadre. Promue chez Bricoflex, Emma emmène toute sa famille à Dallas, au Texas. Fatigués de leur vie parisienne, Léo et Leslie sillonnent les routes françaises à bord d'un van, à la recherche d'un nouvel endroit où s'installer. Franck, le fils de Raymond, revient 15 ans après être parti en Australie sans donner de nouvelles. Alice et Sofiane embauchent Guilain pour les aider. Après plusieurs années de procédures, Camille et Philippe adoptent Noam, 12 ans. Bruno Solo et Issa Doumbia deviennent des personnages récurrents de cette 18e saison.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Claire Chust</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Majid Berhila</actor>
-      <actor>David Mora</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Gérard Hernandez</actor>
-      <actor>Elodie Poux</actor>
-      <guest>M6 Métropole Télévision</guest>
-      <guest> KaBo</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Comédie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/CBDF98F39DA47B607C196EBFD52984DB.jpg"/>
-    <country lang="fr">France</country>
-    <episode-num system="xmltv_ns">17.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261006211000 +0200" stop="20261006215500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Attention fragile !</sub-title>
-    <desc lang="fr">Le premier jour de Harry en tant que stagiaire s'avère plus difficile que prévu pour Chimney, qui ne peut pas s'empêcher d'envisager le pire . Pour éviter qu'il se mette en danger, le jeune homme est cantonné à la caserne. Pendant ce temps, Eddie et Hen sont convoqués au tribunal pour témoigner au sujet d'Abigail, qu'ils avaient secourue lors d'une intervention et tiré des griffes de ses parents maltraitants...</desc>
-    <credits>
-      <director>Bradley Buecker</director>
-      <actor>Gavin McHugh</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Aimee Teegarden</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Anirudh Pisharody</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Mike Farrell</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Angela Bassett</actor>
-      <actor>Elijah M. Cooper</actor>
-      <actor>Corinne Massiah</actor>
-      <adapter>Christopher Monfette</adapter>
-      <adapter>Taylor Wong</adapter>
-      <producer>Ryan Murphy</producer>
-      <editor>Brad Falchuk</editor>
-      <editor>Molly Savard</editor>
-      <editor>Ryan Murphy</editor>
-      <editor>Tim Minear</editor>
-      <guest>20th Television</guest>
-      <guest>Ryan Murphy Productions</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/952A6B6B1DEB0438A2FC1AD6F10C1730.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">8.9.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20261006215500 +0200" stop="20261006225000 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Adjugé, vendu !</sub-title>
-    <desc lang="fr">Au cours d'une autopsie, un médecin légiste est confronté à une situation dangereuse. Une équipe de la 118, appelée en renfort, se rend sur place. Une enchère de célibataires est organisée à la caserne, au profit du service des pompiers de Los Angeles...</desc>
-    <credits>
-      <director>Aisha Hinds</director>
-      <actor>Gavin McHugh</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <actor>Tracie Thoms</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Aimee Teegarden</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Angela Bassett</actor>
-      <actor>Elijah M. Cooper</actor>
-      <actor>Anirudh Pisharody</actor>
-      <actor>Corinne Massiah</actor>
-      <adapter>James Leffler</adapter>
-      <adapter>Molly Green</adapter>
-      <producer>Greg Sirota</producer>
-      <producer>Ravi Subramanian</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Bradley Buecker</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Tim Minear</producer>
-      <producer>John J. Gray</producer>
-      <producer>Kristen Reidel</producer>
-      <composer>Tristan Curbishley</composer>
-      <composer>Sean McGuire</composer>
-      <composer>Katie Rupinski</composer>
-      <editor>Ryan Murphy</editor>
-      <editor>Brad Falchuk</editor>
-      <editor>Molly Savard</editor>
-      <editor>Tim Minear</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2026</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/41C3DC2284521B7939ABF775D0F36E51.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">8.10.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20261006225000 +0200" stop="20261006233500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Les fantômes de la seconde chance</sub-title>
-    <desc lang="fr">Un appel résonne au 9-1-1 et Maddie s'occupe de ce cas : une femme et son enfant ont été enlevés par le mari, qui semble hors de contrôle, d'autant qu'il roule à tombeau ouvert sur l'autoroute. Le véhicule finit sa course sur le bas-côté mais seule la mère de famille est retrouvée par les secours : son mari et son bébé ont disparu. La brigade va essayer de les retrouver au plus vite. De leur côté, Hen et Karen réunissent Mara et son jeune demi-frère qui a été adopté par une autre famille. Quant à Eddie, il rencontre une femme, Kim, qui est le portrait craché de Shannon et entame une liaison sentimentale avec elle...</desc>
-    <credits>
-      <director>James Wong</director>
-      <actor>Gavin McHugh</actor>
-      <actor>Malcolm-Jamal Warner</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Tracie Thoms</actor>
-      <actor>Peter Krause</actor>
-      <actor>Devin Kelley</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Bryan Safi</actor>
-      <actor>Angela Bassett</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <adapter>Taylor Wong</adapter>
-      <adapter>James Wong</adapter>
-      <producer>Kristen Reidel</producer>
-      <producer>Eryn Krueger Mekash</producer>
-      <producer>Juan Carlos Coto</producer>
-      <producer>Tim Minear</producer>
-      <producer>Peter Krause</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Robert M. Williams jr.</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Brad Marques</producer>
-      <producer>Lyndsey Beaulieu</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>John J. Gray</producer>
-      <producer>Hutton Tignini</producer>
-      <producer>Bradley Buecker</producer>
-      <composer>Todd Haberman</composer>
-      <composer>Mac Quayle</composer>
-      <editor>Tim Minear</editor>
-      <editor>Nicole Barraza Keim</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/952A6B6B1DEB0438A2FC1AD6F10C1730.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">6.6.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20261006233500 +0200" stop="20261007002500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Etape 9</sub-title>
-    <desc lang="fr">Bobby veut faire amende honorable auprès d'Amir, victime de l'incendie dont il fut responsable 10 ans plus tôt. Rongé par son besoin de réparer les torts du passé, Bobby se replonge dans les souvenirs de son enfance. Il repense notamment à son père, un homme honnête mais souffrant d'alcoolisme...</desc>
-    <credits>
-      <director>John J. Gray</director>
-      <actor>Corinne Massiah</actor>
-      <actor>John Brotherton</actor>
-      <actor>Gavin McHugh</actor>
-      <actor>Malcolm-Jamal Warner</actor>
-      <actor>Ryan Guzman</actor>
-      <actor>Peter Krause</actor>
-      <actor>Elijah M. Cooper</actor>
-      <actor>Kenneth Choi</actor>
-      <actor>Oliver Stark</actor>
-      <actor>Aisha Hinds</actor>
-      <actor>Angela Bassett</actor>
-      <actor>Jennifer Love Hewitt</actor>
-      <adapter>Kristen Reidel</adapter>
-      <adapter>Tim Minear</adapter>
-      <producer>Kristen Reidel</producer>
-      <producer>Eryn Krueger Mekash</producer>
-      <producer>Juan Carlos Coto</producer>
-      <producer>Tim Minear</producer>
-      <producer>Peter Krause</producer>
-      <producer>Angela Bassett</producer>
-      <producer>Robert M. Williams jr.</producer>
-      <producer>Brad Falchuk</producer>
-      <producer>Brad Marques</producer>
-      <producer>Lyndsey Beaulieu</producer>
-      <producer>Ryan Murphy</producer>
-      <producer>John J. Gray</producer>
-      <producer>Hutton Tignini</producer>
-      <producer>Bradley Buecker</producer>
-      <composer>Todd Haberman</composer>
-      <composer>Mac Quayle</composer>
-      <editor>Tim Minear</editor>
-      <editor>Nicole Barraza Keim</editor>
-      <guest>20th Television</guest>
-      <guest> Reamworks</guest>
-      <guest>Brad Falchuk Teley-Vision</guest>
-      <guest>Ryan Murphy Productions</guest>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Drame</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/32FFC8ABD62EFA01F35A4DEC9001CB96.jpg"/>
-    <country lang="fr">Etats-Unis</country>
-    <episode-num system="xmltv_ns">6.7.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/250px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-<programme start="20261007002500 +0200" stop="20261007012000 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Jamais je ne t'oublierai</sub-title>
-    <desc lang="fr">Alors qu'Athena est restée chez ses parents, les travaux pour réparer leur maison endommagée met au jour le corps de la jeune Tanya Kingston, disparue en 1977.</desc>
-    <category lang="fr">Série dramatique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/2/5/15702527.jpg"/>
-    <episode-num system="xmltv_ns">5.2.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261007012000 +0200" stop="20261007020500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Nos liens invisibles</sub-title>
-    <desc lang="fr">Après la rupture du barrage d'Hollywood, les dégâts sont énormes et des glissements de terrain font des ravages dans toute la ville de Los Angeles.</desc>
-    <category lang="fr">Série dramatique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/1/8/15661813.jpg"/>
-    <episode-num system="xmltv_ns">3.1.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261007020500 +0200" stop="20261007060000 +0200" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261007060000 +0200" stop="20261007080500 +0200" channel="M6test">
+<programme start="20261007133500 +0200" stop="20261007134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -480,11 +57,167 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261007080500 +0200" stop="20261007094500 +0200" channel="M6test">
+<programme start="20261007134000 +0200" stop="20261007145000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Braderie et gastronomie : Lille, le goût du Nord</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007145000 +0200" stop="20261007155000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/8/8/15186885.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007155000 +0200" stop="20261007165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Un petit bouillon chez les Ch'tis</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007165000 +0200" stop="20261007172500 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Jeux-concours : la nouvelle ruée vers les cadeaux</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007172500 +0200" stop="20261007183500 +0200" channel="M6test">
+    <title lang="fr">La roue de la fortune</title>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/9/15186909.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007183500 +0200" stop="20261007194000 +0200" channel="M6test">
+    <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
+    <sub-title lang="fr">Hauts-de-France</sub-title>
+    <desc lang="fr">Huit restaurants des Hauts-de-France sont sur la ligne de départ. Chaque jour, deux d'entre eux s'affrontent autour de l'identité gastronomique des terroirs.</desc>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/9/4/15937494.jpg"/>
+    <episode-num system="xmltv_ns">2.12.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007194000 +0200" stop="20261007194500 +0200" channel="M6test">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Météo</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/3/3/15943336.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007194500 +0200" stop="20261007204000 +0200" channel="M6test">
+    <title lang="fr">Le 19.45</title>
+    <desc lang="fr">Le journal de M6.</desc>
+    <category lang="fr">Journal</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/9/15186902.jpg"/>
+    <episode-num system="xmltv_ns">0.279.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007204000 +0200" stop="20261007211000 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Qu'ils refassent leur intérieur, qu'ils partent en voyage initiatique, qu'ils changent de continent ou qu'ils refondent leur famille, nos couples vont bousculer leurs vies comme ils ne l'avaient jamais fait auparavant. C'est aussi l'occasion d'accueillir le fils de Raymond, de retour d'Australie, et l'employé déprimé d'Alice et Sofiane. Bref, tout change… sauf eux !</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/9/15617926.jpg"/>
+    <episode-num system="xmltv_ns">17.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007211000 +0200" stop="20261007221000 +0200" channel="M6test">
+    <title lang="fr">La France a un incroyable talent</title>
+    <sub-title lang="fr">Les auditions</sub-title>
+    <desc lang="fr">Les règles évoluent : dès les quarts de finale, les 30 artistes sélectionnés se produiront en direct. A cette étape, le public deviendra le cinquième membre du jury et enverra son talent préféré en demi-finale. Un nouveau Golden Buzzer collectif permettra de qualifier un talent s'il fait l'unanimité du jury.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/3/8/15968831.jpg"/>
+    <episode-num system="xmltv_ns">20.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007221000 +0200" stop="20261007225000 +0200" channel="M6test">
+    <title lang="fr">La France a un incroyable talent</title>
+    <sub-title lang="fr">Les auditions</sub-title>
+    <desc lang="fr">Epoustouflants ou décalés, qu'ils excellent en danse, en chant, en voltige ou dans l'humour, des talents qui ne demandent qu'à être découverts se produisent devant le public et le jury.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/4/1/15916142.jpg"/>
+    <episode-num system="xmltv_ns">20.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007225000 +0200" stop="20261007235500 +0200" channel="M6test">
+    <title lang="fr">La France a un incroyable talent, ça continue</title>
+    <desc lang="fr">Pour sa quatrième saison aux commandes de cette prolongation, Juju Fitcats pousse l'immersion encore plus loin et entraîne les téléspectateurs là où les caméras du prime ne s'attardent pas. Elle capture sur le vif des moments spontanés, le stress et les réactions en coulisses. Au plus près des candidats, Juju Fitcats, elle recueille les réactions à chaud des candidats et partage l'émotion de leurs proches.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/4/1/15916141.jpg"/>
+    <episode-num system="xmltv_ns">20.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261007235500 +0200" stop="20261008004500 +0200" channel="M6test">
+    <title lang="fr">Les incroyables talents sont éternels</title>
+    <desc lang="fr">Retour sur une sélection des meilleurs candidats passés sur la scène de "La France a un incroyable talent" depuis 18 saisons. Durant leur passage, ils ont su faire vibrer le jury et le public grâce à leur talent qui sort de l'ordinaire. L'émission permet également de redécouvrir d'anciens talents, sortis depuis de l'anonymat.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/2/1/15916125.jpg"/>
+    <episode-num system="xmltv_ns">18.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261008004500 +0200" stop="20261008013500 +0200" channel="M6test">
+    <title lang="fr">Les incroyables talents de la musique</title>
+    <desc lang="fr">Une sélection des meilleurs chanteurs et artistes vocaux passés sur la scène de La France a un incroyable talent ! Revivez le parcours fabuleux des meilleurs chanteurs et artistes vocaux. Durant leur passage, ils ont su faire vibrer le jury et le public grâce à leur voix extraordinaire… L'occasion de redécouvrir aussi d'anciens talents sortis depuis de l'anonymat.</desc>
+    <category lang="fr">Emission musicale</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/4/1/15916140.jpg"/>
+    <episode-num system="xmltv_ns">17.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261008013500 +0200" stop="20261008060000 +0200" channel="M6test">
+    <title lang="fr">Programmes de la nuit</title>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261008060000 +0200" stop="20261008080500 +0200" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/1/9/15186917.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261008080500 +0200" stop="20261008094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/7/8/15186877.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/0/15200064.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
