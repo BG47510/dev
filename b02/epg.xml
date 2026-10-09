@@ -3,25 +3,25 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261008080500 +0200" stop="20261008094500 +0200" channel="M6test">
+<programme start="20261009080500 +0200" stop="20261009094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/0/15200064.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/5/0/15200056.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008094500 +0200" stop="20261008113000 +0200" channel="M6test">
+<programme start="20261009094500 +0200" stop="20261009113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
     <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/7/5/15227578.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/8/15186898.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008113000 +0200" stop="20261008124000 +0200" channel="M6test">
+<programme start="20261009113000 +0200" stop="20261009124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
     <category lang="fr">Magazine de services</category>
@@ -30,7 +30,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008124000 +0200" stop="20261008124500 +0200" channel="M6test">
+<programme start="20261009124000 +0200" stop="20261009124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/9/15186912.jpg"/>
@@ -38,17 +38,16 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008124500 +0200" stop="20261008133500 +0200" channel="M6test">
+<programme start="20261009124500 +0200" stop="20261009133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/8/6/15743682.jpg"/>
-    <episode-num system="xmltv_ns">0.280.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008133500 +0200" stop="20261008134000 +0200" channel="M6test">
+<programme start="20261009133500 +0200" stop="20261009134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -57,7 +56,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008134000 +0200" stop="20261008145000 +0200" channel="M6test">
+<programme start="20261009134000 +0200" stop="20261009145000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Rabat : le nouveau visage de la capitale marocaine</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261009145000 +0200" stop="20261009155000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -66,7 +75,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008145000 +0200" stop="20261008155000 +0200" channel="M6test">
+<programme start="20261009155000 +0200" stop="20261009165000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -75,7 +84,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008155000 +0200" stop="20261008165000 +0200" channel="M6test">
+<programme start="20261009165000 +0200" stop="20261009172500 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -84,16 +93,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008165000 +0200" stop="20261008172500 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/8/8/15186885.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261008172500 +0200" stop="20261008183500 +0200" channel="M6test">
+<programme start="20261009172500 +0200" stop="20261009183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/15227420.jpg"/>
@@ -102,106 +102,63 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008183500 +0200" stop="20261008194000 +0200" channel="M6test">
+<programme start="20261009183500 +0200" stop="20261009194000 +0200" channel="M6test">
     <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
     <sub-title lang="fr">Hauts-de-France</sub-title>
-    <desc lang="fr">Huit restaurants des Hauts-de-France sont sur la ligne de départ. Chaque jour, deux d'entre eux s'affrontent autour de l'identité gastronomique des terroirs.</desc>
+    <desc lang="fr">C'est l'heure de la finale ! Huit restaurants des Hauts-de-France se sont affrontés cette semaine : "Au Lion des Flandres" à Lesquin, "La Baguernette" à Clairmarais, "L'Angélus" à Serques, "La Halle-Estaminet" à Marly-Gomont, "La Taverne du Jean Bart" à Gravelines, "Restaurant du Marché" au Touquet-Paris-Plage, "Le Groët de Marie" à Arques et "Gertrude" à Compiègne.</desc>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/6/15853605.jpg"/>
-    <episode-num system="xmltv_ns">2.13.</episode-num>
+    <episode-num system="xmltv_ns">2.14.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008194000 +0200" stop="20261008194500 +0200" channel="M6test">
+<programme start="20261009194000 +0200" stop="20261009194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/9/15186912.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/3/3/15943336.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008194500 +0200" stop="20261008204000 +0200" channel="M6test">
+<programme start="20261009194500 +0200" stop="20261009204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">Le journal de M6.</desc>
     <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/9/15186902.jpg"/>
-    <episode-num system="xmltv_ns">0.280.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/5/4/15227450.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008204000 +0200" stop="20261008211000 +0200" channel="M6test">
+<programme start="20261009204000 +0200" stop="20261009211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Qu'ils refassent leur intérieur, qu'ils partent en voyage initiatique, qu'ils changent de continent ou qu'ils refondent leur famille, nos couples vont bousculer leurs vies comme ils ne l'avaient jamais fait auparavant. C'est aussi l'occasion d'accueillir le fils de Raymond, de retour d'Australie, et l'employé déprimé d'Alice et Sofiane. Bref, tout change… sauf eux !</desc>
     <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/2/9/15617924.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/9/15617926.jpg"/>
     <episode-num system="xmltv_ns">17.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008211000 +0200" stop="20261008220000 +0200" channel="M6test">
-    <title lang="fr">On n'est pas d'accord !</title>
-    <desc lang="fr">L'enfer sous les fenêtres : Gabrielle et Joséphine contre José. Gabrielle et Joséphine se plaignent du bar repris par José. - Douche froide et sang chaud : Julien contre Bruno. Une simple fuite de douche oppose Julien à Bruno. - Danger au bout du jardin : Doriane et Pedro contre Valérie et Sylvain.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/9/8/15577895.jpg"/>
-    <episode-num system="xmltv_ns">0.5.</episode-num>
+<programme start="20261009211000 +0200" stop="20261009234000 +0200" channel="M6test">
+    <title lang="fr">Stillwater</title>
+    <desc lang="fr">Un foreur de pétrole américain débarque à Marseille pour faire sortir de prison sa fille, accusée de meurtre. Il est aidé par une actrice et mère célibataire.</desc>
+    <category lang="fr">Film de suspense</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/3/9/15925937.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008220000 +0200" stop="20261008225500 +0200" channel="M6test">
-    <title lang="fr">On n'est pas d'accord !</title>
-    <desc lang="fr">Gabrielle et Joséphine en veulent à José, qui a repris le bar sous les fenêtres de leurs appartements respectifs. Julien accuse l'artisan Bruno d'avoir saboté sa salle de bain et exige une rénovation totale. Doriane et Pedro, jeunes parents, affirment que le terrain de leurs voisins retraités, Valérie et Sylvain, glisse et que le mur qui retient leur parcelle menace de s'effondrer.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/9/8/15577895.jpg"/>
-    <episode-num system="xmltv_ns">0.5.</episode-num>
+<programme start="20261009234000 +0200" stop="20261010015000 +0200" channel="M6test">
+    <title lang="fr">La chute du président</title>
+    <desc lang="fr">Pris au piège et faussement accusé, un chef de la sécurité veut retrouver l'auteur de la tentative d'assassinat commise contre le président des Etats-Unis.</desc>
+    <category lang="fr">Film d'aventures</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/6/15863663.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261008225500 +0200" stop="20261009000500 +0200" channel="M6test">
-    <title lang="fr">On n'est pas d'accord !</title>
-    <desc lang="fr">Au sommaire : - Pauline contre Michel : la maison de la colère. Pauline loue une maison à Michel depuis deux ans, mais la situation devient un cauchemar à cause de l'humidité et des défauts. - Olivia contre Marijana : la guerre des étages. - Gwendoline et Ludovic contre Yvon : des voisins aux abois.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/8/8/15577883.jpg"/>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261009000500 +0200" stop="20261009010000 +0200" channel="M6test">
-    <title lang="fr">On n'est pas d'accord !</title>
-    <desc lang="fr">La maison que Pauline loue à Michel est affectée par l'humidité et des défauts, ce que le propriétaire conteste. Olivia se plaint des bruits incessants de la famille qui habite dans l'appartement du dessous. Quant à Gwendoline et Ludovic, ces éleveurs de chiens subissent les plaintes de leur voisin Yvon, dérangé par les aboiements incessants.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/8/8/15577883.jpg"/>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261009010000 +0200" stop="20261009020000 +0200" channel="M6test">
-    <title lang="fr">On n'est pas d'accord !</title>
-    <desc lang="fr">Frédéric souhaite rénover sa grange mais impossible d'y accéder car son voisin Daniel a bloqué le chemin. Suite à des difficultés personnelles, Aurore a confié à Sabrina quatre de ses chiens. Sabrina ne veut pas lui rendre les deux derniers. Céline et Sarah refusent de rembourser Corentin et Sylvain.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/8/8/15577883.jpg"/>
-    <episode-num system="xmltv_ns">0.1.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261009020000 +0200" stop="20261009025500 +0200" channel="M6test">
-    <title lang="fr">On n'est pas d'accord !</title>
-    <desc lang="fr">Julien Courbet arbitre différents conflits qui opposent Frédéric à son voisin Daniel, Aurore à Sabrina quant à la garde des chiens de la première et Corentin et Sylvain à Cécile et Sarah.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/8/8/15577883.jpg"/>
-    <episode-num system="xmltv_ns">0.1.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261009025500 +0200" stop="20261009060000 +0200" channel="M6test">
+<programme start="20261010015000 +0200" stop="20261010060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
@@ -209,20 +166,20 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261009060000 +0200" stop="20261009080500 +0200" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
-    <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/1/9/15186917.jpg"/>
+<programme start="20261010060000 +0200" stop="20261010074500 +0200" channel="M6test">
+    <title lang="fr">M6 Kid</title>
+    <desc lang="fr">Debout c'est M6 Kid ! Un réveil joyeux et 100 % animation pour tous les enfants !</desc>
+    <category lang="fr">Magazine jeunesse</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/4/15227444.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261009080500 +0200" stop="20261009094500 +0200" channel="M6test">
-    <title lang="fr">My boutique Téléshop'</title>
-    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/7/8/15186877.jpg"/>
+<programme start="20261010074500 +0200" stop="20261010101000 +0200" channel="M6test">
+    <title lang="fr">Absolument stars</title>
+    <desc lang="fr">Une émission qui traite de l'actualité people et musicale. Elle permet de faire découvrir les dessous du show business avec des clips, des interviews de stars, des reportages, les sorties cinéma et DVD, l'agenda spectacle, la météo et l'horoscope.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/1/4/15227419.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
