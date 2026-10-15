@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261014060000 +0200" stop="20261014080500 +0200" channel="M6test">
+<programme start="20261015060000 +0200" stop="20261015080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -12,7 +12,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014080500 +0200" stop="20261014094500 +0200" channel="M6test">
+<programme start="20261015080500 +0200" stop="20261015094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <category lang="fr">Magazine de services</category>
@@ -21,7 +21,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014094500 +0200" stop="20261014113000 +0200" channel="M6test">
+<programme start="20261015094500 +0200" stop="20261015113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
     <category lang="fr">Magazine de services</category>
@@ -30,7 +30,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014113000 +0200" stop="20261014124000 +0200" channel="M6test">
+<programme start="20261015113000 +0200" stop="20261015124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
     <category lang="fr">Magazine de services</category>
@@ -39,7 +39,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014124000 +0200" stop="20261014124500 +0200" channel="M6test">
+<programme start="20261015124000 +0200" stop="20261015124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/4/15227411.jpg"/>
@@ -47,17 +47,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014124500 +0200" stop="20261014133500 +0200" channel="M6test">
+<programme start="20261015124500 +0200" stop="20261015133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/8/6/15743682.jpg"/>
-    <episode-num system="xmltv_ns">0.286.</episode-num>
+    <episode-num system="xmltv_ns">0.287.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014133500 +0200" stop="20261014134000 +0200" channel="M6test">
+<programme start="20261015133500 +0200" stop="20261015134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -66,27 +66,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014134000 +0200" stop="20261014145000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Harry Potter, Naruto, Indiana Jones : un week-end magique à petit prix !</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261014145000 +0200" stop="20261014155000 +0200" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Salles de jeux XXL : les nouveaux temples du loisir</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261014155000 +0200" stop="20261014165000 +0200" channel="M6test">
+<programme start="20261015134000 +0200" stop="20261015145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -95,7 +75,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014165000 +0200" stop="20261014173000 +0200" channel="M6test">
+<programme start="20261015145000 +0200" stop="20261015155000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -104,7 +84,25 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014173000 +0200" stop="20261014183500 +0200" channel="M6test">
+<programme start="20261015155000 +0200" stop="20261015165000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261015165000 +0200" stop="20261015173000 +0200" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261015173000 +0200" stop="20261015183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/15227420.jpg"/>
@@ -113,18 +111,18 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014183500 +0200" stop="20261014194000 +0200" channel="M6test">
+<programme start="20261015183500 +0200" stop="20261015194000 +0200" channel="M6test">
     <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
     <sub-title lang="fr">Provence-Alpes-Côte d'Azur</sub-title>
     <desc lang="fr">Cette semaine, c'est Mallory Gabsi qui fera la tournée des restaurants en Provence-Alpes-Côte d'Azur aux côtés de Yoann Conte ! Leur but : partager et faire découvrir le plus typique, le plus gourmand, le plus authentique des spécialités locales afin de remporter le titre de meilleur restaurant de leur région.</desc>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/0/16112014.jpg"/>
-    <episode-num system="xmltv_ns">2.17.</episode-num>
+    <episode-num system="xmltv_ns">2.18.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014194000 +0200" stop="20261014194500 +0200" channel="M6test">
+<programme start="20261015194000 +0200" stop="20261015194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/3/3/15943336.jpg"/>
@@ -132,17 +130,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014194500 +0200" stop="20261014204000 +0200" channel="M6test">
+<programme start="20261015194500 +0200" stop="20261015204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">Le journal de M6.</desc>
     <category lang="fr">Journal</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/9/15186902.jpg"/>
-    <episode-num system="xmltv_ns">0.286.</episode-num>
+    <episode-num system="xmltv_ns">0.287.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014204000 +0200" stop="20261014211000 +0200" channel="M6test">
+<programme start="20261015204000 +0200" stop="20261015211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Qu'ils refassent leur intérieur, qu'ils partent en voyage initiatique, qu'ils changent de continent ou qu'ils refondent leur famille, nos couples vont bousculer leurs vies comme ils ne l'avaient jamais fait auparavant. C'est aussi l'occasion d'accueillir le fils de Raymond, de retour d'Australie, et l'employé déprimé d'Alice et Sofiane. Bref, tout change… sauf eux !</desc>
     <category lang="fr">Série humoristique</category>
@@ -152,59 +150,73 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014211000 +0200" stop="20261014221000 +0200" channel="M6test">
-    <title lang="fr">La France a un incroyable talent</title>
-    <sub-title lang="fr">Les auditions</sub-title>
-    <desc lang="fr">Parmi ceux qui tentent leur chance lors de cette deuxième session, il y a notamment Young Min, champion du monde de la Fédération Internationale des Sociétés magiques, David Sun, médecin généraliste le jour et humoriste le soir et le week-end, ou encore Louna, qui a repris confiance grâce au chant lyrique.</desc>
+<programme start="20261015211000 +0200" stop="20261015221000 +0200" channel="M6test">
+    <title lang="fr">Alerte à l'hôtel : 30 jours pour tout relancer</title>
+    <sub-title lang="fr">Souppes-sur-Loing</sub-title>
+    <desc lang="fr">Fred Sirieix et Pauline Petta interviennent "A la vieille halle ", un hôtel-restaurant de 17 chambres, situé à Souppes-sur-Loing, en Seine-et-Marne. L'établissement est menacé de fermeture en raison d'une e-réputation désastreuse qui fait fuir les clients potentiels et d'un mauvais état général.</desc>
     <category lang="fr">Divertissement</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/3/8/15968831.jpg"/>
-    <episode-num system="xmltv_ns">20.1.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/6/4/16164466.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014221000 +0200" stop="20261014225000 +0200" channel="M6test">
-    <title lang="fr">La France a un incroyable talent</title>
-    <sub-title lang="fr">Les auditions</sub-title>
-    <desc lang="fr">Deuxième salve d'auditions au cours desquelles des talents venus de tous horizons se produisent dans des domaines aussi variés que le chant, la danse, la prestidigitation, l'humour et d'autres disciplines méconnues.</desc>
+<programme start="20261015221000 +0200" stop="20261015230000 +0200" channel="M6test">
+    <title lang="fr">Alerte à l'hôtel : 30 jours pour tout relancer</title>
+    <sub-title lang="fr">Souppes-sur-Loing</sub-title>
+    <desc lang="fr">Entre le désespoir du personnel et une gérante enfermée dans déni, le dialogue est rompu. En 30 jours chrono, les experts vont devoir briser le déni, réorganiser le travail, rénover les espaces et redonner vie à l'hôtel "A la vieille halle" avant qu'il ne soit définitivement trop tard.</desc>
     <category lang="fr">Divertissement</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/3/8/15968831.jpg"/>
-    <episode-num system="xmltv_ns">20.1.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/2/1/16060128.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014225000 +0200" stop="20261014235500 +0200" channel="M6test">
-    <title lang="fr">La France a un incroyable talent, ça continue</title>
-    <desc lang="fr">Cette prolongation permet de découvrir les coulisses de l'émission et de suivre les candidats avant et après leur prestation. Sa caméra à la main, Juju Fitcats révèle l'envers du décor. C'est également l'occasion de mettre en lumière d'autres déclinaisons de ce format à travers le monde.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/2/9/16059928.jpg"/>
-    <episode-num system="xmltv_ns">20.1.</episode-num>
+<programme start="20261015230000 +0200" stop="20261016000000 +0200" channel="M6test">
+    <title lang="fr">Cauchemar en cuisine</title>
+    <sub-title lang="fr">Langeron</sub-title>
+    <desc lang="fr">Le chef Etchebest prend la direction de Langeron, un petit village de la Nièvre, où le seul restaurant est en danger. Ce sont d'ailleurs des habitants de la ville qui ont fait appel au cuisinier réputé pour tenter de sauver l'établissement d'Aline et Luc, un couple de restaurateurs complètement dépassé.</desc>
+    <category lang="fr">Téléréalité</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/9/1/15202195.jpg"/>
+    <episode-num system="xmltv_ns">14.6.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261014235500 +0200" stop="20261015004000 +0200" channel="M6test">
-    <title lang="fr">Les incroyables talents sont éternels</title>
-    <desc lang="fr">Retour sur une sélection des meilleurs candidats passés sur la scène de "La France a un incroyable talent" depuis 18 saisons. Durant leur passage, ils ont su faire vibrer le jury et le public grâce à leur talent extraordinaire. C'est l'occasion de redécouvrir d'anciens talents sortis depuis de l'anonymat.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/3/1/15916139.jpg"/>
-    <episode-num system="xmltv_ns">18.1.</episode-num>
+<programme start="20261016000000 +0200" stop="20261016005500 +0200" channel="M6test">
+    <title lang="fr">Cauchemar en cuisine</title>
+    <sub-title lang="fr">Langeron</sub-title>
+    <desc lang="fr">Philippe Etchebest, au fur et à mesure de son temps passé dans le restaurant de Langeron, découvre à la fois amusé et étonné que Luc a été chef pendant plusieurs années dans un club échangiste. Ce sont donc des patrons pleins de surprises auxquels le chef est confronté. Mais va-t-il réussir à découvrir ce qui cloche vraiment dans leur établissement et parviendra-t-il à les sauver ?</desc>
+    <category lang="fr">Téléréalité</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/9/1/15202195.jpg"/>
+    <episode-num system="xmltv_ns">14.6.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261015004000 +0200" stop="20261015012500 +0200" channel="M6test">
-    <title lang="fr">Les incroyables talents de la musique</title>
-    <desc lang="fr">Une sélection des meilleurs chanteurs et artistes vocaux passés sur la scène de "La France a un incroyable talent". L'émission revient sur leurs parcours et leurs prestations lors de l'émission. Durant leur passage, ils ont su faire vibrer le jury et le public grâce à leur voix extraordinaire. C'est aussi l'occasion de redécouvrir d'anciens talents sortis depuis de l'anonymat.</desc>
-    <category lang="fr">Emission musicale</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/2/1/15916125.jpg"/>
-    <episode-num system="xmltv_ns">17.1.</episode-num>
+<programme start="20261016005500 +0200" stop="20261016015000 +0200" channel="M6test">
+    <title lang="fr">Cauchemar en cuisine</title>
+    <sub-title lang="fr">Plaintel</sub-title>
+    <desc lang="fr">Philippe Etchebest débarque en Bretagne dans l'établissement de Jean-François. En reconversion après une carrière passée sur les routes, celui-ci a repris un restaurant ouvrier et routier depuis quatre ans et se retrouve dans une situation difficile. Le chef Etchebest finit par en découvrir la raison.</desc>
+    <category lang="fr">Téléréalité</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/9/1/15202195.jpg"/>
+    <episode-num system="xmltv_ns">12.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261015012500 +0200" stop="20261015060000 +0200" channel="M6test">
+<programme start="20261016015000 +0200" stop="20261016024500 +0200" channel="M6test">
+    <title lang="fr">Cauchemar en cuisine</title>
+    <sub-title lang="fr">Plaintel</sub-title>
+    <desc lang="fr">Philippe Etchebest a identifié le problème dans le restaurant : il y a un manque de communication entre Jean-François et Gwen, le cuisinier. Les tensions entre eux impactent également les serveuses. Le chef va tenter d'y remédier.</desc>
+    <category lang="fr">Téléréalité</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/9/1/15202195.jpg"/>
+    <episode-num system="xmltv_ns">12.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261016024500 +0200" stop="20261016060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
@@ -212,11 +224,11 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261015060000 +0200" stop="20261015080500 +0200" channel="M6test">
+<programme start="20261016060000 +0200" stop="20261016080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/3/4/15227437.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/2/4/15227428.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
