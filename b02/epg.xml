@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261020060000 +0200" stop="20261020080500 +0200" channel="M6test">
+<programme start="20261021060000 +0200" stop="20261021080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -12,7 +12,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020080500 +0200" stop="20261020094500 +0200" channel="M6test">
+<programme start="20261021080500 +0200" stop="20261021094500 +0200" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <category lang="fr">Magazine de services</category>
@@ -21,7 +21,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020094500 +0200" stop="20261020113000 +0200" channel="M6test">
+<programme start="20261021094500 +0200" stop="20261021113000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
     <category lang="fr">Magazine de services</category>
@@ -30,7 +30,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020113000 +0200" stop="20261020124000 +0200" channel="M6test">
+<programme start="20261021113000 +0200" stop="20261021124000 +0200" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
     <category lang="fr">Magazine de services</category>
@@ -39,7 +39,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020124000 +0200" stop="20261020124500 +0200" channel="M6test">
+<programme start="20261021124000 +0200" stop="20261021124500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/4/15227411.jpg"/>
@@ -47,7 +47,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020124500 +0200" stop="20261020133500 +0200" channel="M6test">
+<programme start="20261021124500 +0200" stop="20261021133500 +0200" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
@@ -56,7 +56,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020133500 +0200" stop="20261020134000 +0200" channel="M6test">
+<programme start="20261021133500 +0200" stop="20261021134000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -65,7 +65,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020134000 +0200" stop="20261020145000 +0200" channel="M6test">
+<programme start="20261021134000 +0200" stop="20261021145000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -74,7 +74,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020145000 +0200" stop="20261020155000 +0200" channel="M6test">
+<programme start="20261021145000 +0200" stop="20261021155000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -83,7 +83,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020155000 +0200" stop="20261020165000 +0200" channel="M6test">
+<programme start="20261021155000 +0200" stop="20261021165000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -92,7 +92,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020165000 +0200" stop="20261020173000 +0200" channel="M6test">
+<programme start="20261021165000 +0200" stop="20261021173000 +0200" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -101,7 +101,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020173000 +0200" stop="20261020183500 +0200" channel="M6test">
+<programme start="20261021173000 +0200" stop="20261021183500 +0200" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/15227420.jpg"/>
@@ -110,17 +110,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020183500 +0200" stop="20261020194000 +0200" channel="M6test">
+<programme start="20261021183500 +0200" stop="20261021194000 +0200" channel="M6test">
     <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
     <sub-title lang="fr">Bretagne</sub-title>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/9/4/15937494.jpg"/>
-    <episode-num system="xmltv_ns">2.21.</episode-num>
+    <episode-num system="xmltv_ns">2.22.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020194000 +0200" stop="20261020194500 +0200" channel="M6test">
+<programme start="20261021194000 +0200" stop="20261021194500 +0200" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/3/3/15943336.jpg"/>
@@ -128,7 +128,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020194500 +0200" stop="20261020204000 +0200" channel="M6test">
+<programme start="20261021194500 +0200" stop="20261021204000 +0200" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">Le journal de M6.</desc>
     <category lang="fr">Journal</category>
@@ -137,7 +137,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020204000 +0200" stop="20261020211000 +0200" channel="M6test">
+<programme start="20261021204000 +0200" stop="20261021211000 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Qu'ils refassent leur intérieur, qu'ils partent en voyage initiatique, qu'ils changent de continent ou qu'ils refondent leur famille, nos couples vont bousculer leurs vies comme ils ne l'avaient jamais fait auparavant. C'est aussi l'occasion d'accueillir le fils de Raymond, de retour d'Australie, et l'employé déprimé d'Alice et Sofiane. Bref, tout change… sauf eux !</desc>
     <category lang="fr">Série humoristique</category>
@@ -147,73 +147,59 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020211000 +0200" stop="20261020215500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Système D</sub-title>
-    <desc lang="fr">Buck tente de surmonter seul le traumatisme de son enlèvement. De son côté, May essaie de décrocher son premier stage en droit sans l'aide de sa mère.</desc>
-    <category lang="fr">Série dramatique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/1/8/15661813.jpg"/>
-    <episode-num system="xmltv_ns">8.13.</episode-num>
+<programme start="20261021211000 +0200" stop="20261021221000 +0200" channel="M6test">
+    <title lang="fr">La France a un incroyable talent</title>
+    <sub-title lang="fr">Les auditions</sub-title>
+    <desc lang="fr">Pour la première fois, "La France a un incroyable talent" s'associe à TikTok pour une soirée d'auditions exceptionnelle. Repérés sur TikTok pour leur créativité et leur univers, des créateurs de contenu viennent relever un tout nouveau défi : convaincre le jury en quelques minutes, loin des écrans de smartphone.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/4/1/15916142.jpg"/>
+    <episode-num system="xmltv_ns">20.2.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020215500 +0200" stop="20261020225000 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Choisis ton poison</sub-title>
-    <desc lang="fr">Athena se retrouve mêlée à une mystérieuse enquête lorsqu'un homme affirme avoir été assassiné avant de s'effondrer. La 118 se rend sur les lieux d'un accident de voiture.</desc>
-    <category lang="fr">Série dramatique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/1/8/15661813.jpg"/>
-    <episode-num system="xmltv_ns">8.14.</episode-num>
+<programme start="20261021221000 +0200" stop="20261021225000 +0200" channel="M6test">
+    <title lang="fr">La France a un incroyable talent</title>
+    <sub-title lang="fr">Les auditions</sub-title>
+    <desc lang="fr">Chant, danse, humour, performances visuelles ou disciplines inédites : TikTok débarque sur la scène de "La France a un incroyable talent" avec une nouvelle génération de talents. Le temps d'une émission, les créateurs de contenu quittent leur feed prouver qu'ils peuvent transformer leur succès numérique en véritable performance de scène.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/3/8/15968831.jpg"/>
+    <episode-num system="xmltv_ns">20.2.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020225000 +0200" stop="20261020233500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Piqûre mortelle</sub-title>
-    <desc lang="fr">L'équipe du 118 est appelée au secours lorsqu'une remorque contenant des millions d'abeilles se renverse dans les rues de Los Angeles, libérant l'essaim.</desc>
-    <category lang="fr">Série dramatique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/16171409.jpg"/>
-    <episode-num system="xmltv_ns">7.0.</episode-num>
+<programme start="20261021225000 +0200" stop="20261021235500 +0200" channel="M6test">
+    <title lang="fr">La France a un incroyable talent, ça continue</title>
+    <desc lang="fr">Toujours aux commandes de l'after-show, Juju Fitcats emmène les spectateurs dans les coulisses de "La France a un incroyable talent". Au cours de cette prolongation, la pétillante animatrice recueille les réactions des candidats à chaud, s'entretient avec le jury et révèle les petits secrets de l'émission.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/2/9/16059928.jpg"/>
+    <episode-num system="xmltv_ns">20.2.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261020233500 +0200" stop="20261021003000 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Attention crash imminent !</sub-title>
-    <desc lang="fr">Athena protège un témoin important tout en coordonnant les secours d'urgence après une collision aérienne qui a fait des dégâts : la situation est périlleuse.</desc>
-    <category lang="fr">Série dramatique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/16171409.jpg"/>
-    <episode-num system="xmltv_ns">7.1.</episode-num>
+<programme start="20261021235500 +0200" stop="20261022003500 +0200" channel="M6test">
+    <title lang="fr">Les incroyables talents sont éternels</title>
+    <desc lang="fr">Gros plan sur les meilleurs candidats passés sur la scène de "La France a un incroyable talent" depuis 18 saisons. Durant leur passage, ils ont su faire vibrer le jury et le public grâce à leur talent extraordinaire. Ce sera l'occasion également de redécouvrir d'anciens talents sortis depuis de l'anonymat.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/2/9/16059927.jpg"/>
+    <episode-num system="xmltv_ns">18.2.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261021003000 +0200" stop="20261021012500 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">Atterrissage forcé</sub-title>
-    <desc lang="fr">La seule chance de survie d'Athena et des passagers de l'avion réside dans une tentative d'atterrissage avant le crash, ainsi que dans l'aide du 118.</desc>
-    <category lang="fr">Série dramatique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/16171409.jpg"/>
-    <episode-num system="xmltv_ns">7.2.</episode-num>
+<programme start="20261022003500 +0200" stop="20261022012000 +0200" channel="M6test">
+    <title lang="fr">Les incroyables talents de la musique</title>
+    <desc lang="fr">Une sélection des meilleurs chanteurs et artistes vocaux passés sur la scène de "La France a un incroyable talent", dont les prestations ont su séduire le jury et le public.</desc>
+    <category lang="fr">Emission musicale</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/2/1/15916125.jpg"/>
+    <episode-num system="xmltv_ns">17.2.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261021012500 +0200" stop="20261021021000 +0200" channel="M6test">
-    <title lang="fr">9-1-1</title>
-    <sub-title lang="fr">La chasse aux tigres</sub-title>
-    <desc lang="fr">Sur le point de récupérer leur licence de famille d'accueil, Hen et Karen se heurtent à un nouvel obstacle. Le 118 se porte au secours d'une pom-pom girl.</desc>
-    <category lang="fr">Série dramatique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/16171409.jpg"/>
-    <episode-num system="xmltv_ns">7.3.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261021021000 +0200" stop="20261021060000 +0200" channel="M6test">
+<programme start="20261022012000 +0200" stop="20261022060000 +0200" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
@@ -221,7 +207,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261021060000 +0200" stop="20261021080500 +0200" channel="M6test">
+<programme start="20261022060000 +0200" stop="20261022080500 +0200" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
