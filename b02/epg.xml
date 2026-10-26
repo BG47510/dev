@@ -3,218 +3,203 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261025070000 +0100" stop="20261025073000 +0100" channel="M6test">
-    <title lang="fr">100% immo, l'hebdo</title>
-    <desc lang="fr">Une équipe de spécialistes de l'immobilier vous dit tout sur les tendances et l'actualité du secteur immobilier, à Paris et en régions. Avec des conseils, des astuces, de l'info, vous aurez enfin toutes les réponses à vos questions !</desc>
-    <category lang="fr">Magazine de découvertes</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/4/4/15227446.jpg"/>
-    <episode-num system="xmltv_ns">1.22.</episode-num>
+<programme start="20261026060000 +0100" stop="20261026080500 +0100" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/3/4/15227437.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025073000 +0100" stop="20261025103000 +0100" channel="M6test">
+<programme start="20261026080500 +0100" stop="20261026094500 +0100" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/7/8/15186877.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/0/15200064.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025103000 +0100" stop="20261025110000 +0100" channel="M6test">
-    <title lang="fr">Turbo</title>
-    <sub-title lang="fr">Rallye d'Alsace : passion, partage, proximité</sub-title>
-    <desc lang="fr">Cette semaine dans Turbo, Safet Rastoder et Thomas Bastard vous emmènent en Alsace sur une épreuve d'un rallye régional. Partage, passion, proximité sont les maîtres mots de ce rendez-vous : un numéro avec du public, un nonuple champion du monde, Sébastien Loeb, et des voitures de légende.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/4/15227447.jpg"/>
-    <episode-num system="xmltv_ns">0.5.</episode-num>
+<programme start="20261026094500 +0100" stop="20261026113000 +0100" channel="M6test">
+    <title lang="fr">Ça peut vous arriver</title>
+    <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/7/5/15227578.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025110000 +0100" stop="20261025112500 +0100" channel="M6test">
-    <title lang="fr">Turbo</title>
-    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/4/15227447.jpg"/>
-    <episode-num system="xmltv_ns">0.6.</episode-num>
+<programme start="20261026113000 +0100" stop="20261026124000 +0100" channel="M6test">
+    <title lang="fr">Ça peut vous arriver chez vous</title>
+    <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/0/9/15186907.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025112500 +0100" stop="20261025124000 +0100" channel="M6test">
-    <title lang="fr">Turbo</title>
-    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/3/9/15201937.jpg"/>
-    <episode-num system="xmltv_ns">0.7.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261025124000 +0100" stop="20261025124500 +0100" channel="M6test">
+<programme start="20261026124000 +0100" stop="20261026124500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/9/15186912.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/4/15227411.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025124500 +0100" stop="20261025133000 +0100" channel="M6test">
+<programme start="20261026124500 +0100" stop="20261026133500 +0100" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/9/0/15535097.jpg"/>
-    <episode-num system="xmltv_ns">0.297.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/9/15525914.jpg"/>
+    <episode-num system="xmltv_ns">0.298.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025133000 +0100" stop="20261025141000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Déco chic et pas chère : la grande illusion</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+<programme start="20261026133500 +0100" stop="20261026134000 +0100" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/3/4/15227437.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261026134000 +0100" stop="20261026145000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
-    <episode-num system="xmltv_ns">0.46.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025141000 +0100" stop="20261025151000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+<programme start="20261026145000 +0100" stop="20261026155000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025151000 +0100" stop="20261025161000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <sub-title lang="fr">Brico, réno, déco : Ils transforment leur maison… à prix cassés</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+<programme start="20261026155000 +0100" stop="20261026165000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
-    <episode-num system="xmltv_ns">0.45.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025161000 +0100" stop="20261025170500 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc week-end</title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+<programme start="20261026165000 +0100" stop="20261026172500 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025170500 +0100" stop="20261025184000 +0100" channel="M6test">
-    <title lang="fr">66 minutes</title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes explore l'actualité de la semaine avec des reportages sur des faits divers, des phénomènes de société ou des événements de l'actualité internationale.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/5/15693514.jpg"/>
-    <episode-num system="xmltv_ns">0.8.</episode-num>
+<programme start="20261026172500 +0100" stop="20261026183500 +0100" channel="M6test">
+    <title lang="fr">La roue de la fortune</title>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/15227420.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025184000 +0100" stop="20261025194000 +0100" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/0/15718047.jpg"/>
-    <episode-num system="xmltv_ns">0.8.</episode-num>
+<programme start="20261026183500 +0100" stop="20261026194000 +0100" channel="M6test">
+    <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
+    <sub-title lang="fr">Grand Est</sub-title>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/6/8/16150866.jpg"/>
+    <episode-num system="xmltv_ns">2.26.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025194000 +0100" stop="20261025194500 +0100" channel="M6test">
+<programme start="20261026194000 +0100" stop="20261026194500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/9/15186912.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/3/3/15943336.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025194500 +0100" stop="20261025201000 +0100" channel="M6test">
+<programme start="20261026194500 +0100" stop="20261026204000 +0100" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">Le journal de M6.</desc>
     <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/9/15186902.jpg"/>
-    <episode-num system="xmltv_ns">0.297.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/4/15527426.jpg"/>
+    <episode-num system="xmltv_ns">0.298.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025201000 +0100" stop="20261025203500 +0100" channel="M6test">
-    <title lang="fr">Le 2010, Anne-Sophie Lapix</title>
-    <desc lang="fr">Anne-Sophie Lapix propose une interview exclusive d'une dizaine de minutes avec une personnalité marquante de la semaine. Qu'il s'agisse d'une figure connue ou d'un visage anonyme, les invités viennent de tous horizons : société, culture, sport, politique, international, etc.</desc>
-    <category lang="fr">Interview</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/3/2/15856232.jpg"/>
-    <episode-num system="xmltv_ns">0.7.</episode-num>
+<programme start="20261026204000 +0100" stop="20261026211000 +0100" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Les couples bousculent leurs vies ! José et Liliane changent de cadre, Emma part vivre à Dallas, et Léo et Leslie sillonnent la France en van. Raymond retrouve son fils Franck, Alice et Sofiane engagent Guilain, tandis que Camille et Philippe adoptent Noam. Tous voient leur quotidien bouleversé.</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/9/15617926.jpg"/>
+    <episode-num system="xmltv_ns">17.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025203500 +0100" stop="20261025211000 +0100" channel="M6test">
-    <title lang="fr">E=M6</title>
-    <sub-title lang="fr">Poisson, noix, chocolat : leurs vrais pouvoirs sur votre santé !</sub-title>
-    <desc lang="fr">Comment tirer le meilleur des moix, amandes ou noix de cajou ? Le chocolat, c'est bon pour la santé ? Enfin, pourquoi et comment faut-il manger du poisson ?</desc>
-    <category lang="fr">Magazine scientifique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/9/15947914.jpg"/>
-    <episode-num system="xmltv_ns">0.5.</episode-num>
+<programme start="20261026211000 +0100" stop="20261026220500 +0100" channel="M6test">
+    <title lang="fr">L'amour est dans le pré</title>
+    <desc lang="fr">L'amour est dans le pré revient avec une 21e saison qui fait le choix de placer chaque agriculteur au cœur d'une aventure qui lui ressemble. Quatorze agriculteurs, âgés de 24 à 64 ans, venus de toute la France et porteurs d'histoires aussi différentes que touchantes, se lancent dans cette quête de l'amour. Véritable confidente, Karine Le Marchand les accompagne, les conseille et les soutient dans les moments de doute, des speed-datings aux voyages en amoureux.</desc>
+    <category lang="fr">Téléréalité</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/1/2/15629216.jpg"/>
+    <episode-num system="xmltv_ns">20.9.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025211000 +0100" stop="20261025231000 +0100" channel="M6test">
-    <title lang="fr">Zone interdite</title>
-    <sub-title lang="fr">Guerre des voisins : jusqu'où sont-ils prêts à aller ?</sub-title>
-    <desc lang="fr">Manon est en guerre avec son voisin pour une allée séparant leurs bâtiments. Maria et son frère héritent de la maison familiale mais la fratrie vole en éclats. Selon le voisinage de Véronique, ses chiens aboient trop. Enfin, Sébastien et Jean-Charles ne se parlent plus à cause d'une boîte à colis installée sur leur parking.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/4/3/16144346.jpg"/>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
+<programme start="20261026220500 +0100" stop="20261026231500 +0100" channel="M6test">
+    <title lang="fr">L'amour est dans le pré</title>
+    <desc lang="fr">Les candidats le savent, ou l'apprennent avec l'aide de Karine Le Marchand : il est inutile de se précipiter. Un coup de foudre peut cacher une grande déception et un doute, au contraire, fondre comme neige au soleil si on lui en laisse l'opportunité.</desc>
+    <category lang="fr">Téléréalité</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/1/2/15629216.jpg"/>
+    <episode-num system="xmltv_ns">20.9.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261025231000 +0100" stop="20261026002500 +0100" channel="M6test">
-    <title lang="fr">Enquête exclusive</title>
-    <sub-title lang="fr">Amsterdam : fini la fête et la fumette ?</sub-title>
-    <desc lang="fr">L'alcool, le sexe, la drogue : pendant des décennies, la capitale néerlandaise a tout assumé et en a tiré profit. Aujourd'hui, ses habitants n'en peuvent plus. La mairie a décidé de déplacer les travailleuses du sexe dans un bâtiment en périphérie et plus de la moitié des coffee shops ont dû fermer en vingt ans.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/7/1/15201172.jpg"/>
-    <episode-num system="xmltv_ns">0.6.</episode-num>
+<programme start="20261026231500 +0100" stop="20261027000500 +0100" channel="M6test">
+    <title lang="fr">L'amour vu du pré</title>
+    <desc lang="fr">Rien de tel que les commentaires d'Arthur et Studio Danielle pour apprécier tout le sel des événements de la semaine. Avec d'anciens candidats, ils analysent les séquences de " L'amour est dans le pré ". Leur humour, leur spontanéité et leur regard sans filtre sont un complément indispensable.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/2/15629220.jpg"/>
+    <episode-num system="xmltv_ns">7.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026002500 +0100" stop="20261026013500 +0100" channel="M6test">
-    <title lang="fr">Enquête exclusive</title>
-    <sub-title lang="fr">Hambourg : l'extravagante Venise du Nord</sub-title>
-    <desc lang="fr">Surnommée la Venise du Nord, avec ses canaux bordés de demeures luxueuses et son port, Hambourg est aussi célèbre pour ses quartiers sulfureux et son sens de la fête. Les caméras ont suivi l'une des brigades du commissariat de la Reeperbahn, qui gère les problèmes liés aux milliers de fêtards qui débarquent dans le quartier de Sankt Pauli.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/7/1/15201172.jpg"/>
-    <episode-num system="xmltv_ns">0.8.</episode-num>
+<programme start="20261027000500 +0100" stop="20261027011500 +0100" channel="M6test">
+    <title lang="fr">Et si on se rencontrait ?</title>
+    <desc lang="fr">Les relations à distance, via les réseaux sociaux, sont parfois capables d'enflammer les coeurs, mais passent-t-elles le test de la réalité ? L'écran permet de lisser les défauts, de mettre en scène le meilleur côté de soi-même et de projeter ses désirs sur un autre idéalisé. Des couples virtuels ont accepté le défi de se rencontrer en vrai.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/7/8/16150870.jpg"/>
+    <episode-num system="xmltv_ns">3.3.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026013500 +0100" stop="20261026025500 +0100" channel="M6test">
-    <title lang="fr">Enquête exclusive</title>
-    <sub-title lang="fr">Brésil, le pays des fermiers milliardaires</sub-title>
-    <desc lang="fr">Un nouvel empire émerge au coeur du Brésil avec à sa tête des fermiers millionnaires. Les immenses plaines du centre-ouest brésilien sont devenues l'eldorado de l'agrobusiness, où une caste d'ultra-riches a su faire fortune. Derrière les paillettes se cache une redoutable machine politique.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/4/15227464.jpg"/>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
+<programme start="20261027011500 +0100" stop="20261027022500 +0100" channel="M6test">
+    <title lang="fr">Et si on se rencontrait ?</title>
+    <desc lang="fr">Découverte de ces incroyables histoires d'amour de ces couples qui ont craqué virtuellement l'un pour l'autre, et qui se rencontrent pour la première fois en vrai. C'est au château de Serans, dans l'Oise, que ces amoureux virtuels vont passer du fantasme à la réalité, pour le meilleur ou pas ?</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/3/2/15629233.jpg"/>
+    <episode-num system="xmltv_ns">2.6.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026025500 +0100" stop="20261026060000 +0100" channel="M6test">
+<programme start="20261027022500 +0100" stop="20261027060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
@@ -222,7 +207,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026060000 +0100" stop="20261026080500 +0100" channel="M6test">
+<programme start="20261027060000 +0100" stop="20261027080500 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
