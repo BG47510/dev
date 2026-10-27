@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261026060000 +0100" stop="20261026080500 +0100" channel="M6test">
+<programme start="20261027060000 +0100" stop="20261027080500 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -12,7 +12,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026080500 +0100" stop="20261026094500 +0100" channel="M6test">
+<programme start="20261027080500 +0100" stop="20261027094500 +0100" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <category lang="fr">Magazine de services</category>
@@ -21,7 +21,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026094500 +0100" stop="20261026113000 +0100" channel="M6test">
+<programme start="20261027094500 +0100" stop="20261027113000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
     <category lang="fr">Magazine de services</category>
@@ -30,7 +30,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026113000 +0100" stop="20261026124000 +0100" channel="M6test">
+<programme start="20261027113000 +0100" stop="20261027124000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
     <category lang="fr">Magazine de services</category>
@@ -39,7 +39,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026124000 +0100" stop="20261026124500 +0100" channel="M6test">
+<programme start="20261027124000 +0100" stop="20261027124500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/4/15227411.jpg"/>
@@ -47,17 +47,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026124500 +0100" stop="20261026133500 +0100" channel="M6test">
+<programme start="20261027124500 +0100" stop="20261027133500 +0100" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/9/15525914.jpg"/>
-    <episode-num system="xmltv_ns">0.298.</episode-num>
+    <episode-num system="xmltv_ns">0.299.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026133500 +0100" stop="20261026134000 +0100" channel="M6test">
+<programme start="20261027133500 +0100" stop="20261027134000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -66,7 +66,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026134000 +0100" stop="20261026145000 +0100" channel="M6test">
+<programme start="20261027134000 +0100" stop="20261027145000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -75,7 +75,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026145000 +0100" stop="20261026155000 +0100" channel="M6test">
+<programme start="20261027145000 +0100" stop="20261027155000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -84,7 +84,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026155000 +0100" stop="20261026165000 +0100" channel="M6test">
+<programme start="20261027155000 +0100" stop="20261027165000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -93,7 +93,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026165000 +0100" stop="20261026172500 +0100" channel="M6test">
+<programme start="20261027165000 +0100" stop="20261027172500 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -102,7 +102,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026172500 +0100" stop="20261026183500 +0100" channel="M6test">
+<programme start="20261027172500 +0100" stop="20261027183500 +0100" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/15227420.jpg"/>
@@ -111,17 +111,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026183500 +0100" stop="20261026194000 +0100" channel="M6test">
+<programme start="20261027183500 +0100" stop="20261027194000 +0100" channel="M6test">
     <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
     <sub-title lang="fr">Grand Est</sub-title>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/6/8/16150866.jpg"/>
-    <episode-num system="xmltv_ns">2.26.</episode-num>
+    <episode-num system="xmltv_ns">2.27.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026194000 +0100" stop="20261026194500 +0100" channel="M6test">
+<programme start="20261027194000 +0100" stop="20261027194500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/3/3/15943336.jpg"/>
@@ -129,17 +129,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026194500 +0100" stop="20261026204000 +0100" channel="M6test">
+<programme start="20261027194500 +0100" stop="20261027204000 +0100" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">Le journal de M6.</desc>
     <category lang="fr">Journal</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/4/15527426.jpg"/>
-    <episode-num system="xmltv_ns">0.298.</episode-num>
+    <episode-num system="xmltv_ns">0.299.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026204000 +0100" stop="20261026211000 +0100" channel="M6test">
+<programme start="20261027204000 +0100" stop="20261027211000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Les couples bousculent leurs vies ! José et Liliane changent de cadre, Emma part vivre à Dallas, et Léo et Leslie sillonnent la France en van. Raymond retrouve son fils Franck, Alice et Sofiane engagent Guilain, tandis que Camille et Philippe adoptent Noam. Tous voient leur quotidien bouleversé.</desc>
     <category lang="fr">Série humoristique</category>
@@ -149,57 +149,73 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026211000 +0100" stop="20261026220500 +0100" channel="M6test">
-    <title lang="fr">L'amour est dans le pré</title>
-    <desc lang="fr">L'amour est dans le pré revient avec une 21e saison qui fait le choix de placer chaque agriculteur au cœur d'une aventure qui lui ressemble. Quatorze agriculteurs, âgés de 24 à 64 ans, venus de toute la France et porteurs d'histoires aussi différentes que touchantes, se lancent dans cette quête de l'amour. Véritable confidente, Karine Le Marchand les accompagne, les conseille et les soutient dans les moments de doute, des speed-datings aux voyages en amoureux.</desc>
-    <category lang="fr">Téléréalité</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/1/2/15629216.jpg"/>
-    <episode-num system="xmltv_ns">20.9.</episode-num>
+<programme start="20261027211000 +0100" stop="20261027215500 +0100" channel="M6test">
+    <title lang="fr">9-1-1</title>
+    <sub-title lang="fr">Pas de fumée sans feu</sub-title>
+    <desc lang="fr">La 118 doit justifier chaque décision prise lors d'une récente intervention, alors qu'une enquête pour déterminer d'éventuelles erreurs est en cours.</desc>
+    <category lang="fr">Série dramatique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/1/8/15661813.jpg"/>
+    <episode-num system="xmltv_ns">8.15.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026220500 +0100" stop="20261026231500 +0100" channel="M6test">
-    <title lang="fr">L'amour est dans le pré</title>
-    <desc lang="fr">Les candidats le savent, ou l'apprennent avec l'aide de Karine Le Marchand : il est inutile de se précipiter. Un coup de foudre peut cacher une grande déception et un doute, au contraire, fondre comme neige au soleil si on lui en laisse l'opportunité.</desc>
-    <category lang="fr">Téléréalité</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/1/2/15629216.jpg"/>
-    <episode-num system="xmltv_ns">20.9.</episode-num>
+<programme start="20261027215500 +0100" stop="20261027225000 +0100" channel="M6test">
+    <title lang="fr">9-1-1</title>
+    <sub-title lang="fr">Toi et moi</sub-title>
+    <desc lang="fr">Après une intervention d'urgence électrique, Buck est confronté à son passé. De son côté, Maddie apprend à gérer ses relations professionnelles en tant que superviseur.</desc>
+    <category lang="fr">Série dramatique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/1/8/15661813.jpg"/>
+    <episode-num system="xmltv_ns">8.16.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261026231500 +0100" stop="20261027000500 +0100" channel="M6test">
-    <title lang="fr">L'amour vu du pré</title>
-    <desc lang="fr">Rien de tel que les commentaires d'Arthur et Studio Danielle pour apprécier tout le sel des événements de la semaine. Avec d'anciens candidats, ils analysent les séquences de " L'amour est dans le pré ". Leur humour, leur spontanéité et leur regard sans filtre sont un complément indispensable.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/2/15629220.jpg"/>
-    <episode-num system="xmltv_ns">7.0.</episode-num>
+<programme start="20261027225000 +0100" stop="20261027233500 +0100" channel="M6test">
+    <title lang="fr">9-1-1</title>
+    <sub-title lang="fr">La cible</sub-title>
+    <desc lang="fr">Après la fusillade, l'équipe de la 118 se trouve au chevet d'Athena, qui est hospitalisée. Pendant ce temps, le cerveau du réseau de trafic est déterminé à la faire taire.</desc>
+    <category lang="fr">Série dramatique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/1/8/15661813.jpg"/>
+    <episode-num system="xmltv_ns">8.17.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261027000500 +0100" stop="20261027011500 +0100" channel="M6test">
-    <title lang="fr">Et si on se rencontrait ?</title>
-    <desc lang="fr">Les relations à distance, via les réseaux sociaux, sont parfois capables d'enflammer les coeurs, mais passent-t-elles le test de la réalité ? L'écran permet de lisser les défauts, de mettre en scène le meilleur côté de soi-même et de projeter ses désirs sur un autre idéalisé. Des couples virtuels ont accepté le défi de se rencontrer en vrai.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/7/8/16150870.jpg"/>
-    <episode-num system="xmltv_ns">3.3.</episode-num>
+<programme start="20261027233500 +0100" stop="20261028003000 +0100" channel="M6test">
+    <title lang="fr">9-1-1</title>
+    <sub-title lang="fr">Derrière les masques</sub-title>
+    <desc lang="fr">La 118 travaille une fois de plus pendant la nuit la plus effrayante de l'année. Les décorations d'Halloween de Buck sont plus bien effrayantes qu'il ne l'espérait.</desc>
+    <category lang="fr">Série dramatique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/16171409.jpg"/>
+    <episode-num system="xmltv_ns">7.4.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261027011500 +0100" stop="20261027022500 +0100" channel="M6test">
-    <title lang="fr">Et si on se rencontrait ?</title>
-    <desc lang="fr">Découverte de ces incroyables histoires d'amour de ces couples qui ont craqué virtuellement l'un pour l'autre, et qui se rencontrent pour la première fois en vrai. C'est au château de Serans, dans l'Oise, que ces amoureux virtuels vont passer du fantasme à la réalité, pour le meilleur ou pas ?</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/3/2/15629233.jpg"/>
-    <episode-num system="xmltv_ns">2.6.</episode-num>
+<programme start="20261028003000 +0100" stop="20261028012000 +0100" channel="M6test">
+    <title lang="fr">9-1-1</title>
+    <sub-title lang="fr">Ruptures</sub-title>
+    <desc lang="fr">Les pompiers de la 118 tentent de sauver un enfant coincé dans un tuyau. Une intervention liée à un divorce réveille des blessures au sein de l'équipe.</desc>
+    <category lang="fr">Série dramatique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/16171409.jpg"/>
+    <episode-num system="xmltv_ns">7.5.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261027022500 +0100" stop="20261027060000 +0100" channel="M6test">
+<programme start="20261028012000 +0100" stop="20261028021000 +0100" channel="M6test">
+    <title lang="fr">9-1-1</title>
+    <sub-title lang="fr">Coeurs de feu</sub-title>
+    <desc lang="fr">Lorsqu'on assigne à Athena un bleu à encadrer, elle met en doute ses capacités. Bobby et la 118 reviennent sur le plateau de "Hot Shots", à la suite d'un appel.</desc>
+    <category lang="fr">Série dramatique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/16171409.jpg"/>
+    <episode-num system="xmltv_ns">7.6.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261028021000 +0100" stop="20261028060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
@@ -207,7 +223,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261027060000 +0100" stop="20261027080500 +0100" channel="M6test">
+<programme start="20261028060000 +0100" stop="20261028080500 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
