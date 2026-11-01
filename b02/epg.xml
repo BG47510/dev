@@ -3,222 +3,200 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261031074500 +0100" stop="20261031101000 +0100" channel="M6test">
-    <title lang="fr">Absolument stars</title>
-    <sub-title lang="fr">Spéciale Mylène Farmer</sub-title>
-    <desc lang="fr">Mylène Farmer est à l'honneur. A l'occasion de la sortie de son nouvel album, le 30 octobre, retour sur les grandes étapes de sa carrière et ses clips les plus emblématiques.</desc>
+<programme start="20261101073000 +0100" stop="20261101103000 +0100" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/0/15200064.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261101103000 +0100" stop="20261101110000 +0100" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/4/4/15227443.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/4/15227447.jpg"/>
+    <episode-num system="xmltv_ns">0.6.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031101000 +0100" stop="20261031102500 +0100" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/0/4/15227409.jpg"/>
-    <episode-num system="xmltv_ns">0.16.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261031102500 +0100" stop="20261031105500 +0100" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/9/5/15201594.jpg"/>
-    <episode-num system="xmltv_ns">0.25.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261031105500 +0100" stop="20261031114500 +0100" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <sub-title lang="fr">Mondial de l'auto : les Français font de la résistance</sub-title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/4/15227422.jpg"/>
+<programme start="20261101110000 +0100" stop="20261101112500 +0100" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Pour cette deuxième émission spéciale consacrée au Mondial de l'Auto de Paris 2026, l'équipe de Turbo met en lumière la force de frappe des constructeurs asiatiques qui redessinent le paysage automobile. De la montée en puissance fulgurante des marques chinoises aux innovations inattendues venues d'ailleurs, nous décryptons pour vous ces nouveaux acteurs qui bousculent les codes.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/4/15227447.jpg"/>
     <episode-num system="xmltv_ns">0.7.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031114500 +0100" stop="20261031124000 +0100" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/0/15718047.jpg"/>
+<programme start="20261101112500 +0100" stop="20261101124000 +0100" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/4/15227447.jpg"/>
     <episode-num system="xmltv_ns">0.8.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031124000 +0100" stop="20261031124500 +0100" channel="M6test">
+<programme start="20261101124000 +0100" stop="20261101124500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/9/15186912.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/4/15227411.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031124500 +0100" stop="20261031133000 +0100" channel="M6test">
+<programme start="20261101124500 +0100" stop="20261101133000 +0100" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/3/9/15186930.jpg"/>
-    <episode-num system="xmltv_ns">0.303.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/1/4/15227416.jpg"/>
+    <episode-num system="xmltv_ns">0.304.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031133000 +0100" stop="20261031141000 +0100" channel="M6test">
+<programme start="20261101133000 +0100" stop="20261101141000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/15202463.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031141000 +0100" stop="20261031151000 +0100" channel="M6test">
+<programme start="20261101141000 +0100" stop="20261101151000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/15202463.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031151000 +0100" stop="20261031163000 +0100" channel="M6test">
+<programme start="20261101151000 +0100" stop="20261101161000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/15202463.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031163000 +0100" stop="20261031172500 +0100" channel="M6test">
+<programme start="20261101161000 +0100" stop="20261101170500 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/15202463.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031172500 +0100" stop="20261031184000 +0100" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/15227420.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+<programme start="20261101170500 +0100" stop="20261101184000 +0100" channel="M6test">
+    <title lang="fr">66 minutes</title>
+    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes explore l'actualité de la semaine avec des reportages sur des faits divers, des phénomènes de société ou des événements de l'actualité internationale.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/6/4/15736467.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031184000 +0100" stop="20261031194000 +0100" channel="M6test">
-    <title lang="fr">Le maillon faible</title>
-    <desc lang="fr">Ils ne sont pas de la même famille… Ils ne sont pas amis… Ils ne se connaissent même pas… Et pourtant, huit candidats vont devoir jouer en équipe ! Dans chaque manche, un candidat sera éliminé par les autres joueurs car il aura été considéré comme étant \" le maillon faible \". À la fin, un seul d'entre eux pourra remporter le gain final ; les sept autres repartiront les mains vides. Suspense, culture générale et éliminations sans concession, le jeu culte est de retour !</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/2/3/15187328.jpg"/>
+<programme start="20261101184000 +0100" stop="20261101194000 +0100" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/4/15227422.jpg"/>
+    <episode-num system="xmltv_ns">0.9.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031194000 +0100" stop="20261031194500 +0100" channel="M6test">
+<programme start="20261101194000 +0100" stop="20261101194500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/9/15186912.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/3/3/15943336.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031194500 +0100" stop="20261031203500 +0100" channel="M6test">
+<programme start="20261101194500 +0100" stop="20261101201000 +0100" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">Le journal de M6.</desc>
     <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/9/15186902.jpg"/>
-    <episode-num system="xmltv_ns">0.303.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/5/4/15227450.jpg"/>
+    <episode-num system="xmltv_ns">0.304.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031203500 +0100" stop="20261031211000 +0100" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/1/9/15186917.jpg"/>
+<programme start="20261101201000 +0100" stop="20261101203500 +0100" channel="M6test">
+    <title lang="fr">Le 2010, Anne-Sophie Lapix</title>
+    <desc lang="fr">Anne-Sophie Lapix propose une interview exclusive d'une dizaine de minutes avec une personnalité marquante de la semaine. Qu'il s'agisse d'une figure connue ou d'un visage anonyme, les invités viennent de tous horizons : société, culture, sport, politique, international, etc.</desc>
+    <category lang="fr">Interview</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/3/2/15856232.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031211000 +0100" stop="20261031215500 +0100" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Celui qui est mort deux fois</sub-title>
-    <desc lang="fr">Abigail et l'interviewer interrogent toute l'équipe sur des meurtres non élucidés. Les vidéos de formation de la police jouent un rôle central dans l'enquête.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/4/16171404.jpg"/>
-    <episode-num system="xmltv_ns">7.14.</episode-num>
+<programme start="20261101203500 +0100" stop="20261101211000 +0100" channel="M6test">
+    <title lang="fr">E=M6</title>
+    <desc lang="fr">e=m6 est LE magazine scientifique familial par excellence pour apprendre de manière ludique au travers d'expériences visuelles, de témoignages, de décryptages de spécialistes qui répondent aux questions que tout le monde se pose…</desc>
+    <category lang="fr">Magazine scientifique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/9/15947914.jpg"/>
+    <episode-num system="xmltv_ns">0.6.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031215500 +0100" stop="20261031224500 +0100" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Notre pire ennemi</sub-title>
-    <desc lang="fr">Nolan est chargé d'assurer la protection d'un homme en qui il n'a aucune confiance. Pendant ce temps, Lucy et Celina suivent une piste intéressante.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/4/16171404.jpg"/>
-    <episode-num system="xmltv_ns">7.15.</episode-num>
+<programme start="20261101211000 +0100" stop="20261101231500 +0100" channel="M6test">
+    <title lang="fr">Capital</title>
+    <sub-title lang="fr">Manger français, bon et pas cher : oui, c'est possible !</sub-title>
+    <desc lang="fr">Les marques distributeurs se lancent dans un nouveau défi : proposer des produits Made in France, le moins cher possible. Les oeufs sont les champions des produits anti-inflation. Mais la filière craque. Enfin, le marché des plats préparés ne s'est jamais aussi bien porté. Les géants du secteur ont accepté d'ouvrir leurs portes.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/8/9/16262984.jpg"/>
+    <episode-num system="xmltv_ns">0.4.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031224500 +0100" stop="20261031233500 +0100" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Avis de décès</sub-title>
-    <desc lang="fr">John Nolan et Celina Juarez montent la garde dans un hôpital, où un dangereux prisonnier doit se faire opérer. Ils suspectent que quelque chose se trame.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/6/16196622.jpg"/>
-    <episode-num system="xmltv_ns">4.11.</episode-num>
+<programme start="20261101231500 +0100" stop="20261102003000 +0100" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Trump et son clan : hold-up sur la Maison-Blanche</sub-title>
+    <desc lang="fr">Donald Trump gouverne les Etats-Unis comme son propre empire. Alors que l'inflation continue de frapper le pays, les affaires de la famille Trump prospèrent. La fortune de Donald Trump dépasse désormais les six milliards de dollars. La confusion entre pouvoir et intérêts privés inquiète jusque dans l'ancien entourage du président.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/4/15227464.jpg"/>
+    <episode-num system="xmltv_ns">0.7.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261031233500 +0100" stop="20261101003000 +0100" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Le flic sexy</sub-title>
-    <desc lang="fr">En plein milieu d'une vague de chaleur et d'un blackout général dans toute la ville, John Nolan et Aaron traquent de faux policiers dans le commissariat.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/6/16196622.jpg"/>
-    <episode-num system="xmltv_ns">4.12.</episode-num>
+<programme start="20261102003000 +0100" stop="20261102015000 +0100" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Tradwives : ces "super mères au foyer" qui séduisent l'Amérique</sub-title>
+    <desc lang="fr">Aux Etats-Unis, les Tradwives sont des femmes au foyer qui ont décidé de balayer un siècle de féminisme pour épouser des stéréotypes d'un autre temps. Epouses dévouées, parfaites ménagères, bonnes cuisinières, elles revendiquent leurs positions très conservatrices et ont trouvé en Donald Trump leur champion.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/7/1/15201172.jpg"/>
+    <episode-num system="xmltv_ns">0.6.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261101003000 +0100" stop="20261101011500 +0100" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Condamnation à mort</sub-title>
-    <desc lang="fr">John Nolan et Bailey Nune sont à la recherche d'un tireur mystère, lorsqu'une fusillade les touche personnellement. Aaron peine à vivre avec ses moyens.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/0/4/16171401.jpg"/>
-    <episode-num system="xmltv_ns">4.13.</episode-num>
+<programme start="20261102015000 +0100" stop="20261102025500 +0100" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Nouveaux radars, amendes automatisées, fourrières : la tolérance zéro rapporte gros !</sub-title>
+    <desc lang="fr">L'Etat français a confié une partie de ses prérogatives en matière de sécurité routière à des sociétés privées. Ces entreprises ont mis en place des arsenaux technologiques pour traquer les contrevenants, à l'image des voitures LAPI, surnommées les "sulfateuses à PV", qui scannent les plaques d'immatriculation.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/7/1/15201172.jpg"/>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261101011500 +0100" stop="20261101020500 +0100" channel="M6test">
-    <title lang="fr">The Rookie : le flic de Los Angeles</title>
-    <sub-title lang="fr">Sur la route</sub-title>
-    <desc lang="fr">Nyla et Lucy travaillent sous couverture pour enquêter sur deux meurtres. Nolan tente de maintenir sa relation avec Bailey malgré la distance, tandis que Miles perd pied.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/5/7/15988750.jpg"/>
-    <episode-num system="xmltv_ns">7.6.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261101020500 +0100" stop="20261101060000 +0100" channel="M6test">
+<programme start="20261102025500 +0100" stop="20261102060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
@@ -226,26 +204,16 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261101060000 +0100" stop="20261101070000 +0100" channel="M6test">
-    <title lang="fr">M6 Kid</title>
-    <desc lang="fr">Debout c'est M6 Kid ! Un réveil joyeux et 100 % animation pour tous les enfants !</desc>
-    <category lang="fr">Magazine jeunesse</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/4/15227444.jpg"/>
+<programme start="20261102060000 +0100" stop="20261102080500 +0100" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/3/4/15227437.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261101070000 +0100" stop="20261101073000 +0100" channel="M6test">
-    <title lang="fr">100% immo, l'hebdo</title>
-    <desc lang="fr">Une équipe de spécialistes de l'immobilier vous dit tout sur les tendances et l'actualité du secteur immobilier, à Paris et en régions. Avec des conseils, des astuces, de l'info, vous aurez enfin toutes les réponses à vos questions !</desc>
-    <category lang="fr">Magazine de découvertes</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/4/4/15227446.jpg"/>
-    <episode-num system="xmltv_ns">1.23.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261101073000 +0100" stop="20261101103000 +0100" channel="M6test">
+<programme start="20261102080500 +0100" stop="20261102094500 +0100" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <category lang="fr">Magazine de services</category>
