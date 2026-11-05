@@ -3,9 +3,9 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261104080500 +0100" stop="20261104094500 +0100" channel="M6test">
+<programme start="20261105080500 +0100" stop="20261105094500 +0100" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
-    <sub-title lang="fr">Emission du 04 nov. 2026</sub-title>
+    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Teleachat</category>
@@ -14,29 +14,29 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104094500 +0100" stop="20261104113000 +0100" channel="M6test">
+<programme start="20261105094500 +0100" stop="20261105113000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
-    <sub-title lang="fr">Emission du 04 nov. 2026</sub-title>
+    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
     <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
     <category lang="fr">Actualites</category>
     <category lang="fr">Mag Services</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122662976"/>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125631916"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104113000 +0100" stop="20261104124000 +0100" channel="M6test">
+<programme start="20261105113000 +0100" stop="20261105124000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
-    <sub-title lang="fr">Emission du 04 nov. 2026</sub-title>
+    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
     <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images.</desc>
     <category lang="fr">Actualites</category>
     <category lang="fr">Mag Services</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/119476772"/>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125551756"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104124000 +0100" stop="20261104124500 +0100" channel="M6test">
+<programme start="20261105124000 +0100" stop="20261105124500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
@@ -48,9 +48,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104124500 +0100" stop="20261104133500 +0100" channel="M6test">
+<programme start="20261105124500 +0100" stop="20261105133500 +0100" channel="M6test">
     <title lang="fr">Le 12.45</title>
-    <sub-title lang="fr">Le 1245 du 04/11/2026</sub-title>
+    <sub-title lang="fr">Le 1245 du 05/11/2026</sub-title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
       <presenter>Nathalie Renoux</presenter>
@@ -63,9 +63,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104133500 +0100" stop="20261104134000 +0100" channel="M6test">
+<programme start="20261105133500 +0100" stop="20261105134000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages - Saison 0</title>
-    <sub-title lang="fr">Episode du 04 nov. 2026</sub-title>
+    <sub-title lang="fr">Episode du 05 nov. 2026</sub-title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <credits>
       <actor>Audrey Lamy</actor>
@@ -89,9 +89,9 @@
       <value>3/5</value>
     </star-rating>
   </programme>
-<programme start="20261104134000 +0100" stop="20261104145000 +0100" channel="M6test">
+<programme start="20261105134000 +0100" stop="20261105145000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Le chat, chouchou des Français</sub-title>
+    <sub-title lang="fr">Ils refusent de payer pour leurs parents</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées,  Un jour, un doc  propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <category lang="fr">Actualites</category>
     <category lang="fr">Mag Actualites</category>
@@ -101,9 +101,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104145000 +0100" stop="20261104155000 +0100" channel="M6test">
+<programme start="20261105145000 +0100" stop="20261105155000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Emission du 04 nov. 2026</sub-title>
+    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées,  Un jour, un doc  propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <category lang="fr">Actualites</category>
     <category lang="fr">Mag Actualites</category>
@@ -113,9 +113,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104155000 +0100" stop="20261104165000 +0100" channel="M6test">
+<programme start="20261105155000 +0100" stop="20261105165000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Tanguy et boomerang : adultes et toujours chez leurs parents</sub-title>
+    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées,  Un jour, un doc  propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <category lang="fr">Actualites</category>
     <category lang="fr">Mag Actualites</category>
@@ -125,9 +125,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104165000 +0100" stop="20261104172500 +0100" channel="M6test">
+<programme start="20261105165000 +0100" stop="20261105172500 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Emission du 04 nov. 2026</sub-title>
+    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
     <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées,  Un jour, un doc  propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
     <category lang="fr">Actualites</category>
     <category lang="fr">Mag Actualites</category>
@@ -137,35 +137,35 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104172500 +0100" stop="20261104183500 +0100" channel="M6test">
+<programme start="20261105172500 +0100" stop="20261105183500 +0100" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
-    <sub-title lang="fr">Émission 58</sub-title>
+    <sub-title lang="fr">Émission 59</sub-title>
     <desc lang="fr">Des candidats tentent leur chance pour dénicher les mots et expressions cachés tout en espérant décrocher les plus gros gains offerts par la roue. Pour y parvenir, ils doivent éviter la banqueroute et d'autres pièges.</desc>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122486495"/>
-    <episode-num system="xmltv_ns">1.57.</episode-num>
+    <episode-num system="xmltv_ns">1.58.</episode-num>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104183500 +0100" stop="20261104194000 +0100" channel="M6test">
+<programme start="20261105183500 +0100" stop="20261105194000 +0100" channel="M6test">
     <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
     <sub-title lang="fr">Occitanie nord</sub-title>
     <desc lang="fr">Mallory Gabsi fait la tournée des restaurants en Occitanie nord aux côtés de Yoann Conte. Leur but : partager et faire découvrir le plus typique, le plus gourmand, le plus authentique des spécialités locales afin de remporter le titre de meilleur restaurant de leur région.</desc>
     <category lang="fr">Divertissement</category>
     <category lang="fr">Jeu</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125653433"/>
-    <episode-num system="xmltv_ns">2.33.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125675163"/>
+    <episode-num system="xmltv_ns">2.34.</episode-num>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104194000 +0100" stop="20261104194500 +0100" channel="M6test">
+<programme start="20261105194000 +0100" stop="20261105194500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
-    <sub-title lang="fr">Météo du 04/11/2026</sub-title>
+    <sub-title lang="fr">Météo du 05/11/2026</sub-title>
     <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
     <date>2026</date>
     <category lang="fr">Actualites</category>
@@ -176,9 +176,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104194500 +0100" stop="20261104204000 +0100" channel="M6test">
+<programme start="20261105194500 +0100" stop="20261105204000 +0100" channel="M6test">
     <title lang="fr">Le 19.45</title>
-    <sub-title lang="fr">Le JT du 04/11/2026</sub-title>
+    <sub-title lang="fr">Le JT du 05/11/2026</sub-title>
     <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
     <credits>
       <presenter>Xavier de Moulins</presenter>
@@ -191,9 +191,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104204000 +0100" stop="20261104211000 +0100" channel="M6test">
+<programme start="20261105204000 +0100" stop="20261105211000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages - Saison 18</title>
-    <sub-title lang="fr">Episode du 04 nov. 2026</sub-title>
+    <sub-title lang="fr">Episode du 05 nov. 2026</sub-title>
     <desc lang="fr">Les couples bousculent leurs vies ! José et Liliane changent de cadre, Emma part vivre à Dallas, et Léo et Leslie sillonnent la France en van. Raymond retrouve son fils Franck, Alice et Sofiane engagent Guilain, tandis que Camille et Philippe adoptent Noam. Tous voient leur quotidien bouleversé.</desc>
     <credits>
       <actor>Valérie Karsenti</actor>
@@ -216,68 +216,46 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104211000 +0100" stop="20261104221000 +0100" channel="M6test">
-    <title lang="fr">La France a un incroyable talent</title>
-    <sub-title lang="fr">Les auditions</sub-title>
-    <desc lang="fr">Pour cette cinquième session d'auditions, les candidats vont encore faire preuve d'audace et de créativité. Parmi les talents figurent Noah, Guy et Lili, Olive, Ayvin et Ginger L. Cette soirée réserve aussi une surprise. La saison dernière, Eric Antoine avait piégé ses camarades du jury. Cette année, ses acolytes ont décidé de prendre leur revanche.</desc>
+<programme start="20261105211000 +0100" stop="20261105221000 +0100" channel="M6test">
+    <title lang="fr">Wanted : attrape-moi si tu peux !</title>
+    <sub-title lang="fr">Episode 3 (1/2)</sub-title>
+    <desc lang="fr">Les duos de célébrités en fuite doivent tout faire pour échapper à leurs gardiens, Michou, Issa Doumbia et Adil Rami, qui les poursuivent sans relâche. Sans argent, sans moyen de communication, et sans repères, les fugitifs sont contraints de se déplacer, se nourrir et se cacher. Mais les téléspectateurs peuvent soutenir les célébrités ou leurs poursuivants.</desc>
     <category lang="fr">Divertissement</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125481421"/>
-    <episode-num system="xmltv_ns">20.0.</episode-num>
+    <category lang="fr">Jeu</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125588951"/>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104221000 +0100" stop="20261104225000 +0100" channel="M6test">
-    <title lang="fr">La France a un incroyable talent</title>
-    <sub-title lang="fr">Les auditions</sub-title>
-    <desc lang="fr">Qu'ils soient artistes dans l'âme, passionnés de longue date ou prêts à se lancer un nouveau défi, Noah, Guy et Lili, Olive, Ayvin et Ginger L. ont un objectif commun : marquer les esprits et décrocher au moins trois oui pour poursuivre l'aventure. Eric Antoine, lui, risque d'avoir une surprise de taille.</desc>
+<programme start="20261105221000 +0100" stop="20261105232000 +0100" channel="M6test">
+    <title lang="fr">Wanted : attrape-moi si tu peux !</title>
+    <sub-title lang="fr">Episode 3 (2/2)</sub-title>
+    <desc lang="fr">Michou, Issa Doumbia et Adil Rami sont prêts à tout, ou presque, pour retrouver les célébrités en fuite. Dans une ambiance survoltée, les uns et les autres font preuve d'imagination dans cette course-poursuite où les téléspectateurs ont aussi leur mot à dire. Ils peuvent aider les gardiens ou, au contraire, protéger les fugitifs.</desc>
     <category lang="fr">Divertissement</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125481420"/>
-    <episode-num system="xmltv_ns">20.0.</episode-num>
+    <category lang="fr">Jeu</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125588934"/>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261104225000 +0100" stop="20261104235500 +0100" channel="M6test">
-    <title lang="fr">La France a un incroyable talent, ça continue</title>
-    <sub-title lang="fr">Émission 5</sub-title>
-    <desc lang="fr">Après les épreuves, la soirée des auditions se prolonge en compagnie de Juju Fitcats qui entraîne les téléspectateurs à sa suite, dans les coulisses de l'émission. Réactions à chaud des candidats et du jury, anecdotes et séquences inédites sont au programme de ce moment fort qui réserve bien des surprises.</desc>
+<programme start="20261105232000 +0100" stop="20261106001500 +0100" channel="M6test">
+    <title lang="fr">Wanted, les secrets de cette course folle</title>
+    <sub-title lang="fr">Émission 3</sub-title>
+    <desc lang="fr">Après avoir suivi les aventures des célébrités en fuite, c'est le moment de découvrir les coulisses de l'émission. Les candidats reviennent sur les moments les plus marquants qu'ils ont connus. De leur côté, les gardiens expliquent leurs stratégies pour traquer les fugitifs. Les téléspectateurs ont aussi l'occasion de voir des images inédites.</desc>
     <category lang="fr">Divertissement</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125282217"/>
-    <episode-num system="xmltv_ns">16.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261104235500 +0100" stop="20261105003500 +0100" channel="M6test">
-    <title lang="fr">Les incroyables talents sont éternels</title>
-    <sub-title lang="fr">Émission 5</sub-title>
-    <desc lang="fr">Retour sur une sélection des meilleurs candidats passés sur la scène de La France a un incroyable talent depuis 18 saisons. Durant leur passage, ils ont su faire vibrer le jury et le public grâce à leur talent extraordinaire. C'est l'occasion de redécouvrir d'anciens talents sortis depuis de l'anonymat.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125490774"/>
-    <episode-num system="xmltv_ns">18.0.</episode-num>
+    <category lang="fr">Jeu</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125481449"/>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
     <subtitles type="teletext"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261105003500 +0100" stop="20261105012500 +0100" channel="M6test">
-    <title lang="fr">Les incroyables talents de la musique</title>
-    <desc lang="fr">Une sélection des meilleurs chanteurs et artistes vocaux, qui ont fait vibrer le jury et le public de La France a un incroyable talent, et qui pour certains sont devenus célèbres.</desc>
-    <category lang="fr">Emission musicale</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/4/1/15916140.jpg"/>
-    <episode-num system="xmltv_ns">17.4.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105012500 +0100" stop="20261105060000 +0100" channel="M6test">
+<programme start="20261106001500 +0100" stop="20261106060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
@@ -285,7 +263,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261105060000 +0100" stop="20261105080500 +0100" channel="M6test">
+<programme start="20261106060000 +0100" stop="20261106080500 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -294,7 +272,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261105080500 +0100" stop="20261105094500 +0100" channel="M6test">
+<programme start="20261106080500 +0100" stop="20261106094500 +0100" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <category lang="fr">Magazine de services</category>
