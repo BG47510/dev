@@ -3,267 +3,52 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261105080500 +0100" stop="20261105094500 +0100" channel="M6test">
+<programme start="20261106080500 +0100" stop="20261106094500 +0100" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
-    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Teleachat</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122089613"/>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/0/15200064.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261105094500 +0100" stop="20261105113000 +0100" channel="M6test">
+<programme start="20261106094500 +0100" stop="20261106113000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
-    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
-    <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Services</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125631916"/>
+    <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/7/5/15227578.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261105113000 +0100" stop="20261105124000 +0100" channel="M6test">
+<programme start="20261106113000 +0100" stop="20261106124000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
-    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
-    <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Services</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125551756"/>
+    <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/8/9/16262988.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261105124000 +0100" stop="20261105124500 +0100" channel="M6test">
+<programme start="20261106124000 +0100" stop="20261106124500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Meteo</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120646809"/>
-    <subtitles type="teletext"/>
+    <category lang="fr">Météo</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/4/15227411.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261105124500 +0100" stop="20261105133500 +0100" channel="M6test">
+<programme start="20261106124500 +0100" stop="20261106133500 +0100" channel="M6test">
     <title lang="fr">Le 12.45</title>
-    <sub-title lang="fr">Le 1245 du 05/11/2026</sub-title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <presenter>Nathalie Renoux</presenter>
-      <presenter>Dominique Tenza</presenter>
-    </credits>
-    <category lang="fr">Actualites</category>
+    <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/124770625"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/8/6/15743682.jpg"/>
+    <episode-num system="xmltv_ns">0.309.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261105133500 +0100" stop="20261105134000 +0100" channel="M6test">
-    <title lang="fr">Scènes de ménages - Saison 0</title>
-    <sub-title lang="fr">Episode du 05 nov. 2026</sub-title>
-    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
-    <credits>
-      <actor>Audrey Lamy</actor>
-      <actor>Loup-Denis Elion</actor>
-      <actor>Valérie Karsenti</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Marion Game</actor>
-      <actor>Gérard Hernandez</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>David Mora</actor>
-    </credits>
-    <category lang="fr">Series</category>
-    <category lang="fr">Serie Humour</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/118898536"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <star-rating system="allocine">
-      <value>3/5</value>
-    </star-rating>
-  </programme>
-<programme start="20261105134000 +0100" stop="20261105145000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Ils refusent de payer pour leurs parents</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées,  Un jour, un doc  propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121346929"/>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105145000 +0100" stop="20261105155000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées,  Un jour, un doc  propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121346929"/>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105155000 +0100" stop="20261105165000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées,  Un jour, un doc  propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121346929"/>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105165000 +0100" stop="20261105172500 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Emission du 05 nov. 2026</sub-title>
-    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées,  Un jour, un doc  propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121346929"/>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105172500 +0100" stop="20261105183500 +0100" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <sub-title lang="fr">Émission 59</sub-title>
-    <desc lang="fr">Des candidats tentent leur chance pour dénicher les mots et expressions cachés tout en espérant décrocher les plus gros gains offerts par la roue. Pour y parvenir, ils doivent éviter la banqueroute et d'autres pièges.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122486495"/>
-    <episode-num system="xmltv_ns">1.58.</episode-num>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105183500 +0100" stop="20261105194000 +0100" channel="M6test">
-    <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
-    <sub-title lang="fr">Occitanie nord</sub-title>
-    <desc lang="fr">Mallory Gabsi fait la tournée des restaurants en Occitanie nord aux côtés de Yoann Conte. Leur but : partager et faire découvrir le plus typique, le plus gourmand, le plus authentique des spécialités locales afin de remporter le titre de meilleur restaurant de leur région.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125675163"/>
-    <episode-num system="xmltv_ns">2.34.</episode-num>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105194000 +0100" stop="20261105194500 +0100" channel="M6test">
-    <title lang="fr">Météo</title>
-    <sub-title lang="fr">Météo du 05/11/2026</sub-title>
-    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
-    <date>2026</date>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Meteo</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125049803"/>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105194500 +0100" stop="20261105204000 +0100" channel="M6test">
-    <title lang="fr">Le 19.45</title>
-    <sub-title lang="fr">Le JT du 05/11/2026</sub-title>
-    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
-    <credits>
-      <presenter>Xavier de Moulins</presenter>
-      <presenter>Dominique Tenza</presenter>
-    </credits>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/119476764"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105204000 +0100" stop="20261105211000 +0100" channel="M6test">
-    <title lang="fr">Scènes de ménages - Saison 18</title>
-    <sub-title lang="fr">Episode du 05 nov. 2026</sub-title>
-    <desc lang="fr">Les couples bousculent leurs vies ! José et Liliane changent de cadre, Emma part vivre à Dallas, et Léo et Leslie sillonnent la France en van. Raymond retrouve son fils Franck, Alice et Sofiane engagent Guilain, tandis que Camille et Philippe adoptent Noam. Tous voient leur quotidien bouleversé.</desc>
-    <credits>
-      <actor>Valérie Karsenti</actor>
-      <actor>Frédéric Bouraly</actor>
-      <actor>Anne-Elisabeth Blateau</actor>
-      <actor>Gérard Hernandez</actor>
-      <actor>Amélie Etasse</actor>
-      <actor>Grégoire Bonnet</actor>
-      <actor>Claire Chust</actor>
-      <actor>Vinnie Dargaud</actor>
-      <actor>Elodie Poux</actor>
-      <actor>Majid Berhila</actor>
-    </credits>
-    <category lang="fr">Series</category>
-    <category lang="fr">Serie Humour</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/124583629"/>
-    <episode-num system="xmltv_ns">17.0.</episode-num>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105211000 +0100" stop="20261105221000 +0100" channel="M6test">
-    <title lang="fr">Wanted : attrape-moi si tu peux !</title>
-    <sub-title lang="fr">Episode 3 (1/2)</sub-title>
-    <desc lang="fr">Les duos de célébrités en fuite doivent tout faire pour échapper à leurs gardiens, Michou, Issa Doumbia et Adil Rami, qui les poursuivent sans relâche. Sans argent, sans moyen de communication, et sans repères, les fugitifs sont contraints de se déplacer, se nourrir et se cacher. Mais les téléspectateurs peuvent soutenir les célébrités ou leurs poursuivants.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125588951"/>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105221000 +0100" stop="20261105232000 +0100" channel="M6test">
-    <title lang="fr">Wanted : attrape-moi si tu peux !</title>
-    <sub-title lang="fr">Episode 3 (2/2)</sub-title>
-    <desc lang="fr">Michou, Issa Doumbia et Adil Rami sont prêts à tout, ou presque, pour retrouver les célébrités en fuite. Dans une ambiance survoltée, les uns et les autres font preuve d'imagination dans cette course-poursuite où les téléspectateurs ont aussi leur mot à dire. Ils peuvent aider les gardiens ou, au contraire, protéger les fugitifs.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125588934"/>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261105232000 +0100" stop="20261106001500 +0100" channel="M6test">
-    <title lang="fr">Wanted, les secrets de cette course folle</title>
-    <sub-title lang="fr">Émission 3</sub-title>
-    <desc lang="fr">Après avoir suivi les aventures des célébrités en fuite, c'est le moment de découvrir les coulisses de l'émission. Les candidats reviennent sur les moments les plus marquants qu'ils ont connus. De leur côté, les gardiens expliquent leurs stratégies pour traquer les fugitifs. Les téléspectateurs ont aussi l'occasion de voir des images inédites.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Jeu</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/125481449"/>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
-    <subtitles type="teletext"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261106001500 +0100" stop="20261106060000 +0100" channel="M6test">
-    <title lang="fr">Programmes de la nuit</title>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261106060000 +0100" stop="20261106080500 +0100" channel="M6test">
+<programme start="20261106133500 +0100" stop="20261106134000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -272,11 +57,171 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261106080500 +0100" stop="20261106094500 +0100" channel="M6test">
-    <title lang="fr">My boutique Téléshop'</title>
-    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/0/15200064.jpg"/>
+<programme start="20261106134000 +0100" stop="20261106145000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261106145000 +0100" stop="20261106155000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261106155000 +0100" stop="20261106165000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261106165000 +0100" stop="20261106172500 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261106172500 +0100" stop="20261106183500 +0100" channel="M6test">
+    <title lang="fr">La roue de la fortune</title>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/15227420.jpg"/>
+    <episode-num system="xmltv_ns">1.59.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261106183500 +0100" stop="20261106194000 +0100" channel="M6test">
+    <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
+    <sub-title lang="fr">Occitanie nord</sub-title>
+    <desc lang="fr">Mallory Gabsi fait la tournée des restaurants en Occitanie nord aux côtés de Yoann Conte. Leur but : partager et faire découvrir le plus typique, le plus gourmand, le plus authentique des spécialités locales afin de remporter le titre de meilleur restaurant de leur région.</desc>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/8/9/16262987.jpg"/>
+    <episode-num system="xmltv_ns">2.35.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261106194000 +0100" stop="20261106194500 +0100" channel="M6test">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Météo</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/3/3/15943336.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261106194500 +0100" stop="20261106204000 +0100" channel="M6test">
+    <title lang="fr">Le 19.45</title>
+    <desc lang="fr">Le journal de M6.</desc>
+    <category lang="fr">Journal</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/5/4/15227450.jpg"/>
+    <episode-num system="xmltv_ns">0.309.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261106204000 +0100" stop="20261106211000 +0100" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Les couples bousculent leurs vies ! José et Liliane changent de cadre, Emma part vivre à Dallas, et Léo et Leslie sillonnent la France en van. Raymond retrouve son fils Franck, Alice et Sofiane engagent Guilain, tandis que Camille et Philippe adoptent Noam. Tous voient leur quotidien bouleversé.</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/9/15617926.jpg"/>
+    <episode-num system="xmltv_ns">17.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261106211000 +0100" stop="20261106220500 +0100" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">Au programme : Cindy contre Rémi : descente aux enfers pour un escalier. Une commande d'escalier en ligne vire au cauchemar. - Farida contre Aurélie : le chien de la trahison. Farida confie son chien quelques jours à Aurélie. Mais celle-ci refuse de le rendre. - Sahko contre Yannick : guerre froide pour un appartement.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/8/8/15577883.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261106220500 +0100" stop="20261106230500 +0100" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">Après un problème de livraison, Cindy accuse le vendeur, Rémi, de la harceler et vit désormais dans la peur. - Farida accuse Aurélie d'avoir volé son chien et exige sa restitution. Pourquoi Aurélie garde-t-elle Roscoe ? - Sahko accuse son propriétaire Yannick de le laisser vivre dans un studio humide, sans chauffage.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/8/8/15577883.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261106230500 +0100" stop="20261107000500 +0100" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">Au programme : - Carine contre Gisèle : les voisines assassines. Gisèle n'en peut plus des provocations des trois enfants de sa voisine Carine qu'elle accuse de fermer les yeux sur ce harcèlement. - Fanny contre Naoufal : un rêve au goût d'arnaque ? - Bernadette contre Olivier : non-dits entre amis.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/8/8/15577883.jpg"/>
+    <episode-num system="xmltv_ns">0.4.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261107000500 +0100" stop="20261107010500 +0100" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">Les provocations des enfants de Carine à l'encontre de Gisèle, leur voisine, sont vécues par cette dernière comme du harcèlement. Fanny a acheté en ligne une voiture à Naoufal, mais le véhicule est rapidement tombé en panne. Malgré leur amitié, Bernadette reproche à Olivier d'avoir transformé leur quartier d'enfance en enfer.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/8/8/15577883.jpg"/>
+    <episode-num system="xmltv_ns">0.4.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261107010500 +0100" stop="20261107021000 +0100" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">Au programme : - Lucie contre Daniel : un rêve qui s'effondre. Lucie a acheté une maison à Daniel. Trois ans plus tard, l'extension menace la structure, rongée par l'humidité. - Jean-David contre François-Xavier : une terre pour deux familles. - Pauline et Jimmy contre Léa et Antoine : une amitié qui prend l'eau.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/8/8/15577883.jpg"/>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261107021000 +0100" stop="20261107025000 +0100" channel="M6test">
+    <title lang="fr">On n'est pas d'accord !</title>
+    <desc lang="fr">Vice caché, différend sur l'exploitation d'un terrain, amitié entre propriétaires et locataires remise en cause par un appartement, Julien Courbet arbitre différents conflits en réunissant les parties sur le plateau pour écouter leurs arguments et en envoyant un enquêteur sur place pour vérifier.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/8/8/15577883.jpg"/>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261107025000 +0100" stop="20261107060000 +0100" channel="M6test">
+    <title lang="fr">Programmes de la nuit</title>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261107060000 +0100" stop="20261107074500 +0100" channel="M6test">
+    <title lang="fr">M6 Kid</title>
+    <desc lang="fr">Debout c'est M6 Kid ! Un réveil joyeux et 100 % animation pour tous les enfants !</desc>
+    <category lang="fr">Magazine jeunesse</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/4/15227444.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261107074500 +0100" stop="20261107101000 +0100" channel="M6test">
+    <title lang="fr">Absolument stars</title>
+    <sub-title lang="fr">Spéciale George Michael</sub-title>
+    <desc lang="fr">A l'occasion de la sortie de "George Michael: The Faith Tour", album live inédit enregistré à Paris-Bercy en 1988, et de l'arrivée au cinéma du film restauré à partir des images 35 mm de ses concerts mythiques, "Absolument stars" consacre une grande spéciale à George Michael. Au programme : une sélection de ses meilleurs clips, de ses années Wham! à sa carrière solo, en passant par les tubes incontournables de l'album "Faith" ainsi que le top 6 de ses plus grands tubes.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/4/4/15227443.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
