@@ -3,58 +3,47 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261121074500 +0100" stop="20261121101000 +0100" channel="M6test">
-    <title lang="fr">Absolument stars</title>
-    <sub-title lang="fr">Spéciale Indochine</sub-title>
-    <desc lang="fr">Retour sur plus de 40 ans de carrière du groupe mythique du rock français Indochine, avec une sélection de leurs clips incontournables,</desc>
+<programme start="20261122073000 +0100" stop="20261122103000 +0100" channel="M6test">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/0/15200064.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261122103000 +0100" stop="20261122110000 +0100" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <sub-title lang="fr">Spéciale pouvoir d'achat</sub-title>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/1/4/15227419.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/4/15227447.jpg"/>
+    <episode-num system="xmltv_ns">0.9.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121101000 +0100" stop="20261121102000 +0100" channel="M6test">
-    <title lang="fr">Le mag du samedi</title>
-    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/9/5/15201594.jpg"/>
-    <episode-num system="xmltv_ns">0.53.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261121102000 +0100" stop="20261121105500 +0100" channel="M6test">
-    <title lang="fr">Made in France : ils inventent l'industrie de demain</title>
-    <desc lang="fr">A La Rochelle, Clément travaille sur Colossus, un robot pompier de 700 kilos. Près de Valence, Eva veut créer une biosolution à base de peaux d'oignons afin de trouver une alternative aux pesticides. A Chambéry, Clément travaille sur une boîte de transport conçue pour maintenir un greffon cardiaque dans des conditions optimales. A Orléans, Léna veut concevoir un emballage pharmaceutique recyclable.</desc>
+<programme start="20261122110000 +0100" stop="20261122112500 +0100" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <sub-title lang="fr">Maserati, une légende discrète</sub-title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/1/16427144.jpg"/>
-    <episode-num system="xmltv_ns">1.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261121105500 +0100" stop="20261121114500 +0100" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <sub-title lang="fr">Minneapolis, au cœur d'une Amérique rêvée</sub-title>
-    <desc lang="fr">Dans le nord des Etats-Unis, non loin de la région des grands lacs, Minneapolis, avec sa cité jumelle, Saint-Paul, forme une agglomération de près de quatre millions d'habitants parmi les plus dynamiques du pays et qui séduit de nombreux Français. Ses habitants sont réputés dans tous les Etats-Unis pour leur hospitalité et leur gentillesse. Cela porte même un nom : le Minnesota Nice.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/4/15227422.jpg"/>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/4/15227447.jpg"/>
     <episode-num system="xmltv_ns">0.10.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121114500 +0100" stop="20261121124000 +0100" channel="M6test">
-    <title lang="fr">66 minutes : grand format</title>
-    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/0/15718047.jpg"/>
+<programme start="20261122112500 +0100" stop="20261122124000 +0100" channel="M6test">
+    <title lang="fr">Turbo</title>
+    <desc lang="fr">Magazine des conducteurs et de leurs automobiles, Turbo présente les nouvelles tendances sociologiques, économiques et écologiques.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/4/4/15227447.jpg"/>
     <episode-num system="xmltv_ns">0.11.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121124000 +0100" stop="20261121124500 +0100" channel="M6test">
+<programme start="20261122124000 +0100" stop="20261122124500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/4/15227411.jpg"/>
@@ -62,17 +51,28 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121124500 +0100" stop="20261121133000 +0100" channel="M6test">
+<programme start="20261122124500 +0100" stop="20261122133000 +0100" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/1/4/15227416.jpg"/>
-    <episode-num system="xmltv_ns">0.324.</episode-num>
+    <episode-num system="xmltv_ns">0.325.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121133000 +0100" stop="20261121141000 +0100" channel="M6test">
+<programme start="20261122133000 +0100" stop="20261122141000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Immobilier : les pièges qui peuvent vous ruiner</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
+    <episode-num system="xmltv_ns">0.51.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261122141000 +0100" stop="20261122151000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -81,7 +81,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121141000 +0100" stop="20261121151000 +0100" channel="M6test">
+<programme start="20261122151000 +0100" stop="20261122153500 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -90,7 +90,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121151000 +0100" stop="20261121163000 +0100" channel="M6test">
+<programme start="20261122153500 +0100" stop="20261122161000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -99,34 +99,38 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121163000 +0100" stop="20261121173500 +0100" channel="M6test">
+<programme start="20261122161000 +0100" stop="20261122170500 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc week-end</title>
+    <sub-title lang="fr">Cuisine, la pièce préférée des Français</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc week-end \" propose une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/4/15227410.jpg"/>
+    <episode-num system="xmltv_ns">0.52.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121173500 +0100" stop="20261121184000 +0100" channel="M6test">
-    <title lang="fr">La roue de la fortune</title>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/15227420.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+<programme start="20261122170500 +0100" stop="20261122184000 +0100" channel="M6test">
+    <title lang="fr">66 minutes</title>
+    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes explore l'actualité de la semaine avec des reportages sur des faits divers, des phénomènes de société ou des événements de l'actualité internationale.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/6/4/15736467.jpg"/>
+    <episode-num system="xmltv_ns">0.12.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121184000 +0100" stop="20261121194000 +0100" channel="M6test">
-    <title lang="fr">Le maillon faible</title>
-    <desc lang="fr">Ils ne sont pas de la même famille… Ils ne sont pas amis… Ils ne se connaissent même pas… Et pourtant, huit candidats vont devoir jouer en équipe ! Dans chaque manche, un candidat sera éliminé par les autres joueurs car il aura été considéré comme étant \" le maillon faible \". À la fin, un seul d'entre eux pourra remporter le gain final ; les sept autres repartiront les mains vides. Suspense, culture générale et éliminations sans concession, le jeu culte est de retour !</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/3/15187322.jpg"/>
+<programme start="20261122184000 +0100" stop="20261122194000 +0100" channel="M6test">
+    <title lang="fr">66 minutes : grand format</title>
+    <desc lang="fr">Reportages, portraits, enquêtes, 66 Minutes : grand format explore l'actualité avec un reportage sur un fait divers, un phénomène de société ou un événement de l'actualité internationale.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/4/15227422.jpg"/>
+    <episode-num system="xmltv_ns">0.12.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121194000 +0100" stop="20261121194500 +0100" channel="M6test">
+<programme start="20261122194000 +0100" stop="20261122194500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/3/3/15943336.jpg"/>
@@ -134,80 +138,80 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121194500 +0100" stop="20261121203500 +0100" channel="M6test">
+<programme start="20261122194500 +0100" stop="20261122201000 +0100" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">Le journal de M6.</desc>
     <category lang="fr">Journal</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/5/4/15227450.jpg"/>
-    <episode-num system="xmltv_ns">0.324.</episode-num>
+    <episode-num system="xmltv_ns">0.325.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121203500 +0100" stop="20261121211000 +0100" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/9/15617926.jpg"/>
+<programme start="20261122201000 +0100" stop="20261122203500 +0100" channel="M6test">
+    <title lang="fr">Le 2010, Anne-Sophie Lapix</title>
+    <desc lang="fr">Anne-Sophie Lapix propose une interview exclusive d'une dizaine de minutes avec une personnalité marquante de la semaine. Qu'il s'agisse d'une figure connue ou d'un visage anonyme, les invités viennent de tous horizons : société, culture, sport, politique, international, etc.</desc>
+    <category lang="fr">Interview</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/3/2/15856232.jpg"/>
+    <episode-num system="xmltv_ns">0.11.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121211000 +0100" stop="20261121222000 +0100" channel="M6test">
-    <title lang="fr">Le Seigneur des anneaux : les anneaux de pouvoir</title>
-    <sub-title lang="fr">Adar</sub-title>
-    <desc lang="fr">Recueillis en mer, Galadriel et Halbrand découvrent Númenor, puissant royaume insulaire où la présence d'une elfe ravive d'anciennes tensions.</desc>
-    <category lang="fr">Série d'aventures</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/6/9/16257965.jpg"/>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
+<programme start="20261122203500 +0100" stop="20261122211000 +0100" channel="M6test">
+    <title lang="fr">E=M6</title>
+    <desc lang="fr">e=m6 est LE magazine scientifique familial par excellence pour apprendre de manière ludique au travers d'expériences visuelles, de témoignages, de décryptages de spécialistes qui répondent aux questions que tout le monde se pose…</desc>
+    <category lang="fr">Magazine scientifique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/9/15947914.jpg"/>
+    <episode-num system="xmltv_ns">0.9.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121222000 +0100" stop="20261121234000 +0100" channel="M6test">
-    <title lang="fr">Le Seigneur des anneaux : les anneaux de pouvoir</title>
-    <sub-title lang="fr">La grande vague</sub-title>
-    <desc lang="fr">Hantée par une vision de Númenor, Míriel refuse de céder aux demandes pressantes de Galadriel. Isildur s'interroge sur son avenir tandis que les tensions grandissent sur l'île.</desc>
-    <category lang="fr">Série d'aventures</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/8/7/16253788.jpg"/>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
+<programme start="20261122211000 +0100" stop="20261122231000 +0100" channel="M6test">
+    <title lang="fr">Zone interdite</title>
+    <sub-title lang="fr">Corruption du quotidien : révélations sur une France gangrénée</sub-title>
+    <desc lang="fr">La corruption s'infiltre sournoisement dans le quotidien de chaque Français, dans les institutions les plus fondamentales de la République : celles qui attribuent un toit, délivrent un permis de conduire ou assurent la sécurité derrière les murs d'une prison. Pendant plusieurs mois, les équipes de "Zone interdite" ont mené l'enquête.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/1/0/15535016.jpg"/>
+    <episode-num system="xmltv_ns">0.6.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261121234000 +0100" stop="20261122003000 +0100" channel="M6test">
-    <title lang="fr">NCIS : Los Angeles</title>
-    <sub-title lang="fr">Cible prioritaire</sub-title>
-    <desc lang="fr">Alors que le sous-secrétaire à la Défense a investi les bureaux du NCIS, Granger incite son équipe à se concentrer sur une affaire sensible.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/2/7/15413725.jpg"/>
-    <episode-num system="xmltv_ns">7.0.</episode-num>
+<programme start="20261122231000 +0100" stop="20261123002000 +0100" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Quartier gare du Nord : tensions au coeur de Paris</sub-title>
+    <desc lang="fr">Autour de la gare du Nord, deux mondes que tout oppose vivent désormais côte à côte. Une partie du quartier s'embourgeoise à toute vitesse. Mais à quelques centaines de mètres, le décor change brutalement. Les trafics occupent les trottoirs et empoisonnent le quotidien des riverains. Enquête dans un Paris en pleine mutation.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/4/15227464.jpg"/>
+    <episode-num system="xmltv_ns">0.10.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261122003000 +0100" stop="20261122012000 +0100" channel="M6test">
-    <title lang="fr">NCIS : Los Angeles</title>
-    <sub-title lang="fr">La gueule du loup</sub-title>
-    <desc lang="fr">Le NCIS se rend clandestinement en Syrie pour tenter d'arrêter un terroriste. Mais l'expédition tourne mal, et un membre de l'équipe est grièvement blessé.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/4/5/15187542.jpg"/>
-    <episode-num system="xmltv_ns">7.1.</episode-num>
+<programme start="20261123002000 +0100" stop="20261123014000 +0100" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Bac Paris : au coeur de l'anti-crime</sub-title>
+    <desc lang="fr">Courses-poursuites, vols avec violence, trafics de drogue, agressions, homicides, la brigade anti-criminalité de Paris est sur tous les fronts. Pendant plusieurs mois, la BAC de Paris a été suivie au quotidien. Sa mission principale : protéger les Parisiens face à des délinquants de mieux en mieux organisés.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/7/1/15201172.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261122012000 +0100" stop="20261122021000 +0100" channel="M6test">
-    <title lang="fr">NCIS : Los Angeles</title>
-    <sub-title lang="fr">Le Gambit Dame</sub-title>
-    <desc lang="fr">Pour permettre à ses agents de poursuivre leurs enquêtes, Hetty se dénonce comme étant la taupe recherchée. Parallèlement, le NCIS enquête sur un enlèvement.</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/4/5/15187542.jpg"/>
-    <episode-num system="xmltv_ns">7.2.</episode-num>
+<programme start="20261123014000 +0100" stop="20261123030000 +0100" channel="M6test">
+    <title lang="fr">Enquête exclusive</title>
+    <sub-title lang="fr">Trump et son clan : hold-up sur la Maison-Blanche</sub-title>
+    <desc lang="fr">Donald Trump gouverne les Etats-Unis comme son propre empire. Alors que l'inflation continue de frapper le pays, les affaires de la famille Trump prospèrent. La fortune de Donald Trump dépasse désormais les six milliards de dollars. La confusion entre pouvoir et intérêts privés inquiète jusque dans l'ancien entourage du président.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/4/15227464.jpg"/>
+    <episode-num system="xmltv_ns">0.7.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261122021000 +0100" stop="20261122060000 +0100" channel="M6test">
+<programme start="20261123030000 +0100" stop="20261123060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
@@ -215,26 +219,16 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261122060000 +0100" stop="20261122070000 +0100" channel="M6test">
-    <title lang="fr">M6 Kid</title>
-    <desc lang="fr">Debout c'est M6 Kid ! Un réveil joyeux et 100 % animation pour tous les enfants !</desc>
-    <category lang="fr">Magazine jeunesse</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/4/15227444.jpg"/>
+<programme start="20261123060000 +0100" stop="20261123080500 +0100" channel="M6test">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/3/4/15227437.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261122070000 +0100" stop="20261122073000 +0100" channel="M6test">
-    <title lang="fr">100% immo, l'hebdo</title>
-    <desc lang="fr">Une équipe de spécialistes de l'immobilier vous dit tout sur les tendances et l'actualité du secteur immobilier, à Paris et en régions. Avec des conseils, des astuces, de l'info, vous aurez enfin toutes les réponses à vos questions !</desc>
-    <category lang="fr">Magazine de découvertes</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/4/4/15227446.jpg"/>
-    <episode-num system="xmltv_ns">1.28.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261122073000 +0100" stop="20261122103000 +0100" channel="M6test">
+<programme start="20261123080500 +0100" stop="20261123094500 +0100" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <category lang="fr">Magazine de services</category>
