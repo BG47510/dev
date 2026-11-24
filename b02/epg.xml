@@ -3,16 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261123094500 +0100" stop="20261123113000 +0100" channel="M6test">
-    <title lang="fr">Ça peut vous arriver</title>
-    <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
-    <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/8/9/16262986.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261123113000 +0100" stop="20261123124000 +0100" channel="M6test">
+<programme start="20261124113000 +0100" stop="20261124124000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
     <category lang="fr">Magazine de services</category>
@@ -21,7 +12,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123124000 +0100" stop="20261123124500 +0100" channel="M6test">
+<programme start="20261124124000 +0100" stop="20261124124500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/4/15227411.jpg"/>
@@ -29,17 +20,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123124500 +0100" stop="20261123133500 +0100" channel="M6test">
+<programme start="20261124124500 +0100" stop="20261124133500 +0100" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/8/6/15743682.jpg"/>
-    <episode-num system="xmltv_ns">0.326.</episode-num>
+    <episode-num system="xmltv_ns">0.327.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123133500 +0100" stop="20261123134000 +0100" channel="M6test">
+<programme start="20261124133500 +0100" stop="20261124134000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -48,9 +39,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123134000 +0100" stop="20261123145000 +0100" channel="M6test">
+<programme start="20261124134000 +0100" stop="20261124145000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Petits prix et grands festins : le Noël givré du roi des surgelés</sub-title>
+    <sub-title lang="fr">Le grand bazar de Noël à prix mini</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
@@ -58,9 +49,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123145000 +0100" stop="20261123155000 +0100" channel="M6test">
+<programme start="20261124145000 +0100" stop="20261124155000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Le nouveau roi du discount à l'assaut de Noël</sub-title>
+    <sub-title lang="fr">Hypermarchés: la bataille des menus festifs</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
@@ -68,7 +59,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123155000 +0100" stop="20261123165000 +0100" channel="M6test">
+<programme start="20261124155000 +0100" stop="20261124165000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -77,9 +68,8 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123165000 +0100" stop="20261123172500 +0100" channel="M6test">
+<programme start="20261124165000 +0100" stop="20261124172500 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Les cadeaux malins sous le sapin</sub-title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
@@ -87,27 +77,27 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123172500 +0100" stop="20261123183500 +0100" channel="M6test">
+<programme start="20261124172500 +0100" stop="20261124183500 +0100" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/15227420.jpg"/>
-    <episode-num system="xmltv_ns">1.70.</episode-num>
+    <episode-num system="xmltv_ns">1.71.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123183500 +0100" stop="20261123194000 +0100" channel="M6test">
+<programme start="20261124183500 +0100" stop="20261124194000 +0100" channel="M6test">
     <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
     <sub-title lang="fr">Bourgogne-Franche-Comté</sub-title>
     <desc lang="fr">Mallory Gabsi fait la tournée des restaurants en Bourgogne-Franche-Comté aux côtés de Yoann Conte. Leur but : partager et faire découvrir le plus typique, le plus gourmand et le plus authentique des spécialités locales afin de remporter le titre de meilleur restaurant de leur région.</desc>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/8/9/16262987.jpg"/>
-    <episode-num system="xmltv_ns">2.46.</episode-num>
+    <episode-num system="xmltv_ns">2.47.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123194000 +0100" stop="20261123194500 +0100" channel="M6test">
+<programme start="20261124194000 +0100" stop="20261124194500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/3/3/15943336.jpg"/>
@@ -115,19 +105,19 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123194500 +0100" stop="20261123204000 +0100" channel="M6test">
+<programme start="20261124194500 +0100" stop="20261124204000 +0100" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">Le journal de M6.</desc>
     <category lang="fr">Journal</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/9/15186902.jpg"/>
-    <episode-num system="xmltv_ns">0.326.</episode-num>
+    <episode-num system="xmltv_ns">0.327.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123204000 +0100" stop="20261123211000 +0100" channel="M6test">
+<programme start="20261124204000 +0100" stop="20261124211000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Qu'ils refassent leur intérieur, qu'ils partent en voyage initiatique, qu'ils changent de continent ou qu'ils refondent leur famille, nos couples vont bousculer leurs vies comme ils ne l'avaient jamais fait auparavant. C'est aussi l'occasion d'accueillir le fils de Raymond, de retour d'Australie, et l'employé déprimé d'Alice et Sofiane. Bref, tout change… sauf eux !</desc>
+    <desc lang="fr">Les couples bousculent leurs vies ! José et Liliane changent de cadre, Emma part vivre à Dallas, et Léo et Leslie sillonnent la France en van. Raymond retrouve son fils Franck, Alice et Sofiane engagent Guilain, tandis que Camille et Philippe adoptent Noam. Tous voient leur quotidien bouleversé.</desc>
     <category lang="fr">Série humoristique</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/2/9/15617926.jpg"/>
     <episode-num system="xmltv_ns">17.0.</episode-num>
@@ -135,57 +125,47 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123211000 +0100" stop="20261123220500 +0100" channel="M6test">
-    <title lang="fr">L'amour est dans le pré</title>
-    <desc lang="fr">Prétendants et prétendantes séjournent désormais depuis plusieurs semaines chez les agriculteurs ou agricultrices. Certains ont quitté l'aventure, volontairement ou non, et parfois la larme à l'oeil, d'autres ont déjà trouvé l'âme soeur, le sourire aux lèvres. Plutôt fleur bleue ou les pieds sur terre, chacun avance encore prudemment.</desc>
-    <category lang="fr">Téléréalité</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/1/2/15629216.jpg"/>
-    <episode-num system="xmltv_ns">20.13.</episode-num>
+<programme start="20261124211000 +0100" stop="20261124221000 +0100" channel="M6test">
+    <title lang="fr">Quel est l'âge de votre cerveau ?</title>
+    <desc lang="fr">Dans ce quiz familial, 100 candidats et 4 célébrités relèvent le défi : répondre à 40 questions ludiques et scientifiques pour calculer leur âge cérébral. Les téléspectateurs peuvent mesurer leurs capacités cognitives en même temps que les participants. Enfants, parents et grands-parents peuvent jouer ensemble et comparer leurs résultats. Bonne nouvelle : l'âge cérébral n'est pas figé.</desc>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/2/8/15826821.jpg"/>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123220500 +0100" stop="20261123231500 +0100" channel="M6test">
-    <title lang="fr">L'amour est dans le pré</title>
-    <desc lang="fr">Si certains candidat(e)s et prétendant(e)s ont franchi le pas et échangé leurs premiers baisers, d'autres sont encore hésitants et ont besoin d'un peu de temps supplémentaire pour faire leurs choix. Mais ils peuvent compter sur un petit coup de main de leurs proches, toujours prêts à leur donner quelques conseils.</desc>
-    <category lang="fr">Téléréalité</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/1/2/15629216.jpg"/>
-    <episode-num system="xmltv_ns">20.13.</episode-num>
+<programme start="20261124221000 +0100" stop="20261124233500 +0100" channel="M6test">
+    <title lang="fr">Quel est l'âge de votre cerveau ?</title>
+    <desc lang="fr">On connaît son âge sur le papier mais sait-on quel âge a vraiment notre cerveau ? 100 candidats et 4 célébrités répondent à 40 questions pour calculer leur âge cérébral. Les téléspectateurs vont aussi pouvoir participer. Les explications du docteur Steven Laureys, neurologue, permettent de comprendre à quel point il est important de prendre soin de son cerveau.</desc>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/2/8/15826821.jpg"/>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261123231500 +0100" stop="20261124000000 +0100" channel="M6test">
-    <title lang="fr">L'amour vu du pré</title>
-    <desc lang="fr">Après le prime, d'anciens participants de "L'amour est dans le pré" commentent les derniers rebondissements survenus chez les candidats de la 21e saison. Toujours attentifs, Jean-Marc et Françoise, Guillaume, Noémie et la petite Eléonore, Jean-Baptiste et Nicolas, mais aussi Pascal ou Valentin prennent place sur leur canapé et découvrent la suite des aventures des candidats à l'amour.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/2/15629220.jpg"/>
-    <episode-num system="xmltv_ns">7.0.</episode-num>
+<programme start="20261124233500 +0100" stop="20261125004500 +0100" channel="M6test">
+    <title lang="fr">La roue de la fortune célébrités</title>
+    <desc lang="fr">Eric Antoine propose à des célébrités de réaliser un vieux rêve d'enfant : tourner la roue la plus culte de la télévision. Chaque candidat tente de résoudre les énigmes pour accéder à la finale et récolter un maximum d'argent pour l'association dont il défend les couleurs.</desc>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/2/4/15438423.jpg"/>
+    <episode-num system="xmltv_ns">0.4.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261124000000 +0100" stop="20261124005500 +0100" channel="M6test">
-    <title lang="fr">Et si on se rencontrait ?</title>
-    <desc lang="fr">Les relations à distance, via les réseaux sociaux, sont parfois capables d'enflammer les coeurs, mais passent-t-elles le test de la réalité ? L'écran permet de lisser les défauts, de mettre en scène le meilleur côté de soi-même et de projeter ses désirs sur un autre idéalisé. Des couples virtuels ont accepté le défi de se rencontrer en vrai.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/7/8/16150870.jpg"/>
-    <episode-num system="xmltv_ns">3.6.</episode-num>
+<programme start="20261125004500 +0100" stop="20261125020000 +0100" channel="M6test">
+    <title lang="fr">La roue de la fortune célébrités</title>
+    <desc lang="fr">Jouant au profit d'associations, des célébrités viennent défier la roue de la fortune, en espérant aider le plus possible celles et ceux qui s'investissent dans ces collectifs. La chance va-t-elle être au rendez-vous autour du grand disque cranté le plus connu des jeux télévisés ?</desc>
+    <category lang="fr">Jeu</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/2/4/15438423.jpg"/>
+    <episode-num system="xmltv_ns">0.4.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261124005500 +0100" stop="20261124021000 +0100" channel="M6test">
-    <title lang="fr">Et si on se rencontrait ?</title>
-    <desc lang="fr">Des couples qui ont fait connaissance à distance se rencontrent pour la première fois. Le passage du fantasme à la réalité est un cap difficile à franchir.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/7/8/16150870.jpg"/>
-    <episode-num system="xmltv_ns">3.7.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261124021000 +0100" stop="20261124060000 +0100" channel="M6test">
+<programme start="20261125020000 +0100" stop="20261125060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
@@ -193,7 +173,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261124060000 +0100" stop="20261124080500 +0100" channel="M6test">
+<programme start="20261125060000 +0100" stop="20261125080500 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -202,7 +182,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261124080500 +0100" stop="20261124094500 +0100" channel="M6test">
+<programme start="20261125080500 +0100" stop="20261125094500 +0100" channel="M6test">
     <title lang="fr">My boutique Téléshop'</title>
     <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
     <category lang="fr">Magazine de services</category>
@@ -211,11 +191,20 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261124094500 +0100" stop="20261124113000 +0100" channel="M6test">
+<programme start="20261125094500 +0100" stop="20261125113000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
     <category lang="fr">Magazine de services</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/8/9/16262986.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261125113000 +0100" stop="20261125124000 +0100" channel="M6test">
+    <title lang="fr">Ça peut vous arriver chez vous</title>
+    <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
+    <category lang="fr">Magazine de services</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/8/9/16262985.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
