@@ -3,7 +3,7 @@
 <display-name>M6</display-name>
 <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
 </channel>
-<programme start="20261126094500 +0100" stop="20261126113000 +0100" channel="M6test">
+<programme start="20261127094500 +0100" stop="20261127113000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver</title>
     <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
     <category lang="fr">Magazine de services</category>
@@ -12,7 +12,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126113000 +0100" stop="20261126124000 +0100" channel="M6test">
+<programme start="20261127113000 +0100" stop="20261127124000 +0100" channel="M6test">
     <title lang="fr">Ça peut vous arriver chez vous</title>
     <desc lang="fr">Julien Courbet, entouré d'avocats et d'experts, tente de résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. Des envoyés spéciaux sillonnent les régions, recueillent les témoignages et illustrent les cas en images.</desc>
     <category lang="fr">Magazine de services</category>
@@ -21,7 +21,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126124000 +0100" stop="20261126124500 +0100" channel="M6test">
+<programme start="20261127124000 +0100" stop="20261127124500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/1/4/15227411.jpg"/>
@@ -29,17 +29,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126124500 +0100" stop="20261126133500 +0100" channel="M6test">
+<programme start="20261127124500 +0100" stop="20261127133500 +0100" channel="M6test">
     <title lang="fr">Le 12.45</title>
     <desc lang="fr">Retrouvez toute l'actualité de la mi-journée.</desc>
     <category lang="fr">Journal</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/8/6/15743682.jpg"/>
-    <episode-num system="xmltv_ns">0.329.</episode-num>
+    <episode-num system="xmltv_ns">0.330.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126133500 +0100" stop="20261126134000 +0100" channel="M6test">
+<programme start="20261127133500 +0100" stop="20261127134000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
     <category lang="fr">Série humoristique</category>
@@ -48,17 +48,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126134000 +0100" stop="20261126145000 +0100" channel="M6test">
-    <title lang="fr">Un jour, un doc</title>
-    <sub-title lang="fr">Système D et bonnes affaires : leur chasse aux euros avant Noël</sub-title>
-    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261126145000 +0100" stop="20261126155000 +0100" channel="M6test">
+<programme start="20261127134000 +0100" stop="20261127145000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -67,7 +57,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126155000 +0100" stop="20261126165000 +0100" channel="M6test">
+<programme start="20261127145000 +0100" stop="20261127155000 +0100" channel="M6test">
+    <title lang="fr">Un jour, un doc</title>
+    <sub-title lang="fr">Black Friday : les bons plans de la seconde main</sub-title>
+    <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/5/15227574.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261127155000 +0100" stop="20261127165000 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -76,7 +76,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126165000 +0100" stop="20261126172500 +0100" channel="M6test">
+<programme start="20261127165000 +0100" stop="20261127172500 +0100" channel="M6test">
     <title lang="fr">Un jour, un doc</title>
     <desc lang="fr">Familles, pouvoir d'achat, évasion… \" Un jour, un doc \" propose tous les après-midis une grande variété de documentaires et de sujets au cœur des préoccupations des Français. Chaque jour, découvrez le quotidien de ces personnes qui nous livrent leurs histoires.</desc>
     <category lang="fr">Magazine de société</category>
@@ -85,27 +85,27 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126172500 +0100" stop="20261126183500 +0100" channel="M6test">
+<programme start="20261127172500 +0100" stop="20261127183500 +0100" channel="M6test">
     <title lang="fr">La roue de la fortune</title>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/4/15227420.jpg"/>
-    <episode-num system="xmltv_ns">1.73.</episode-num>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126183500 +0100" stop="20261126194000 +0100" channel="M6test">
+<programme start="20261127183500 +0100" stop="20261127194000 +0100" channel="M6test">
     <title lang="fr">La meilleure cuisine régionale, c'est chez moi !</title>
     <sub-title lang="fr">Bourgogne-Franche-Comté</sub-title>
     <desc lang="fr">Mallory Gabsi fait la tournée des restaurants en Bourgogne-Franche-Comté aux côtés de Yoann Conte. Leur but : partager et faire découvrir le plus typique, le plus gourmand et le plus authentique des spécialités locales afin de remporter le titre de meilleur restaurant de leur région.</desc>
     <category lang="fr">Jeu</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/8/9/16262987.jpg"/>
-    <episode-num system="xmltv_ns">2.49.</episode-num>
+    <episode-num system="xmltv_ns">2.50.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126194000 +0100" stop="20261126194500 +0100" channel="M6test">
+<programme start="20261127194000 +0100" stop="20261127194500 +0100" channel="M6test">
     <title lang="fr">Météo</title>
     <category lang="fr">Météo</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/3/3/15943336.jpg"/>
@@ -113,17 +113,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126194500 +0100" stop="20261126204000 +0100" channel="M6test">
+<programme start="20261127194500 +0100" stop="20261127204000 +0100" channel="M6test">
     <title lang="fr">Le 19.45</title>
     <desc lang="fr">Le journal de M6.</desc>
     <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/9/15186902.jpg"/>
-    <episode-num system="xmltv_ns">0.329.</episode-num>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/5/4/15227450.jpg"/>
+    <episode-num system="xmltv_ns">0.330.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126204000 +0100" stop="20261126211000 +0100" channel="M6test">
+<programme start="20261127204000 +0100" stop="20261127211000 +0100" channel="M6test">
     <title lang="fr">Scènes de ménages</title>
     <desc lang="fr">Les couples bousculent leurs vies ! José et Liliane changent de cadre, Emma part vivre à Dallas, et Léo et Leslie sillonnent la France en van. Raymond retrouve son fils Franck, Alice et Sofiane engagent Guilain, tandis que Camille et Philippe adoptent Noam. Tous voient leur quotidien bouleversé.</desc>
     <category lang="fr">Série humoristique</category>
@@ -133,62 +133,25 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126211000 +0100" stop="20261126221000 +0100" channel="M6test">
-    <title lang="fr">Le meilleur pâtissier</title>
-    <sub-title lang="fr">Le moelleux</sub-title>
-    <desc lang="fr">Pour cette nouvelle saison, quatorze pâtissiers amateurs aux profils aussi talentueux qu'atypiques s'affrontent sous la célèbre tente. Au programme pour cette première semaine de concours : La revisite proposée par Cyril Lignac : le roulé. Le défi de Norbert Tarayre : le castella cake. L'épreuve créative de Roxane : le gâteau réconfort.</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/16447463.jpg"/>
-    <episode-num system="xmltv_ns">14.0.</episode-num>
+<programme start="20261127211000 +0100" stop="20261127225500 +0100" channel="M6test">
+    <title lang="fr">Un Noël en famille</title>
+    <desc lang="fr">Réunie pour le réveillon de Noël, une famille voit l'ambiance se tendre en raison d'un conflit de générations sur fond de réchauffement climatique.</desc>
+    <category lang="fr">Comédie</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/6/4/15180462.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126221000 +0100" stop="20261126231500 +0100" channel="M6test">
-    <title lang="fr">Le meilleur pâtissier</title>
-    <sub-title lang="fr">Le moelleux</sub-title>
-    <desc lang="fr">La nouvelle saison du Meilleur Pâtissier s'annonce plus savoureuse que jamais. Après le départ de Mercotte, Cyril Lignac, Norbert Tarayre et Roxane préparent de nouveaux défis aux quatorze candidats prêts à donner le meilleur d'eux-mêmes. Des personnalités incontournables de l'univers de la pâtisserie, de la gastronomie et des réseaux sociaux viennent enrichir certaines épreuves.</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/6/4/16447463.jpg"/>
-    <episode-num system="xmltv_ns">14.0.</episode-num>
+<programme start="20261127225500 +0100" stop="20261128010000 +0100" channel="M6test">
+    <title lang="fr">Le Larbin</title>
+    <desc lang="fr">Fatigué des frasques de son fils, le président d'un groupe hôtelier de luxe met au point un plan machiavélique pour lui donner une leçon.</desc>
+    <category lang="fr">Comédie</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/2/5/16335520.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261126231500 +0100" stop="20261127000500 +0100" channel="M6test">
-    <title lang="fr">Le meilleur pâtissier</title>
-    <sub-title lang="fr">Le moelleux</sub-title>
-    <desc lang="fr">La compétition de la dernière chance est de retour avec son lot de nouveautés. Noëmie Honiat challenge les candidats en ballotage en les invitant à adapter et revisiter les tendances virales du moment. Avec l'aide de chefs pâtissiers et de créateurs de contenus, elle teste leur créativité et leur technique.</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/6/16463604.jpg"/>
-    <episode-num system="xmltv_ns">14.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261127000500 +0100" stop="20261127004500 +0100" channel="M6test">
-    <title lang="fr">Le meilleur pâtissier (best of)</title>
-    <sub-title lang="fr">Le Meilleur Pâtissier, la recette du succès !</sub-title>
-    <desc lang="fr">Retour sur les meilleurs moments vécus sous la tente du meilleur pâtissier. Depuis 14 saisons, des pâtissiers amateurs ont réussi à séduire les palais et les yeux de Cyril Lignac et Mercotte, mais aussi des plus grands chefs pâtissiers, le tout à travers des thématiques aussi gourmandes que grandioses.</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/4/4/16447442.jpg"/>
-    <episode-num system="xmltv_ns">13.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261127004500 +0100" stop="20261127012500 +0100" channel="M6test">
-    <title lang="fr">Le meilleur pâtissier (best of)</title>
-    <sub-title lang="fr">Les pâtissiers amateurs qui ont marqué le concours !</sub-title>
-    <desc lang="fr">Retour sur les meilleurs moments vécus sous la tente du meilleur pâtissier où, depuis quatorze saisons, de nombreux pâtissiers amateurs ont réussi à séduire les palais et les yeux de Cyril Lignac et Mercotte. Les plus grands chefs pâtissiers ont également été bluffés par les talents de certains candidats, qui ont donné le meilleur d'eux-mêmes sur des thématiques gourmandes et grandioses.</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/4/4/16447443.jpg"/>
-    <episode-num system="xmltv_ns">13.1.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-<programme start="20261127012500 +0100" stop="20261127060000 +0100" channel="M6test">
+<programme start="20261128010000 +0100" stop="20261128060000 +0100" channel="M6test">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/7/15176769.jpg"/>
@@ -196,29 +159,41 @@
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261127060000 +0100" stop="20261127080500 +0100" channel="M6test">
-    <title lang="fr">Scènes de ménages</title>
-    <desc lang="fr">Votre couple vous désole ? Vous vous lamentez de vivre seul ? Scènes de Ménages va vous aider à relativiser !</desc>
-    <category lang="fr">Série humoristique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/3/4/15227437.jpg"/>
+<programme start="20261128060000 +0100" stop="20261128074500 +0100" channel="M6test">
+    <title lang="fr">M6 Kid</title>
+    <desc lang="fr">Debout c'est M6 Kid ! Un réveil joyeux et 100 % animation pour tous les enfants !</desc>
+    <category lang="fr">Magazine jeunesse</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/4/15227444.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261127080500 +0100" stop="20261127094500 +0100" channel="M6test">
-    <title lang="fr">My boutique Téléshop'</title>
-    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
-    <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/6/0/15200064.jpg"/>
+<programme start="20261128074500 +0100" stop="20261128101000 +0100" channel="M6test">
+    <title lang="fr">Absolument stars</title>
+    <sub-title lang="fr">Spéciale Louane</sub-title>
+    <desc lang="fr">A l'occasion de ses 30 ans, "Absolument Stars" célèbre Louane avec une programmation musicale spéciale et une sélection de ses meilleurs clips.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/1/4/15227419.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-<programme start="20261127094500 +0100" stop="20261127113000 +0100" channel="M6test">
-    <title lang="fr">Ça peut vous arriver</title>
-    <desc lang="fr">Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
-    <category lang="fr">Magazine de services</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/8/9/16262986.jpg"/>
+<programme start="20261128101000 +0100" stop="20261128102500 +0100" channel="M6test">
+    <title lang="fr">Le mag du samedi</title>
+    <desc lang="fr">Le mag du samedi invite à découvrir les coulisses d'événements spectaculaires, des success stories entrepreneuriales comme des immersions dans le quotidien de ceux qui participent activement à construire l'avenir de notre pays. C'est un magazine sur la société d'aujourd'hui, celle qui nous inspire et nous fait rêver.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/9/5/15201594.jpg"/>
+    <episode-num system="xmltv_ns">0.28.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+<programme start="20261128102500 +0100" stop="20261128105500 +0100" channel="M6test">
+    <title lang="fr">Made in France : ils inventent l'industrie de demain</title>
+    <desc lang="fr">Théo travaille sur une innovation inédite tandis que Eva reçoit les résultats tant attendus de ses analyses. A La Rochelle, Clément passe une étape cruciale. Léna, elle, réalise des tests déterminants chez Servier. Enfin, à Paris, Benjamin Saada rencontre Clément, le benjamin de la compétition, qui lui présente son support coeur.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/3/1/16477135.jpg"/>
+    <episode-num system="xmltv_ns">1.1.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
